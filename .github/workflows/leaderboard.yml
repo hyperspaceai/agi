@@ -1,0 +1,35 @@
+name: Update Leaderboard
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-leaderboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch all agent branches
+        run: git fetch --all --prune
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build leaderboards
+        run: node .github/scripts/build-leaderboard.js
+
+      - name: Commit if changed
+        run: |
+          git config user.name "Hyperspace Bot"
+          git config user.email "bot@hyper.space"
+          git add projects/*/LEADERBOARD.md
+          git diff --cached --quiet || git commit -m "chore: update leaderboards [skip ci]"
+          git push
