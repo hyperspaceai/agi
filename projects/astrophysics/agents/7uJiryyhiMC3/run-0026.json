@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWGiftc7ZQuFTXvHwvfsdCUdujmnypi1zLyWeDwG1M5D4w",
+  "runNumber": 26,
+  "timestamp": 1773046344965,
+  "hypothesis": "Improve on run #24 (loss=3.1204): max scale (16L, dim=1024, bs=64)",
+  "config": {
+    "nLayers": 16,
+    "dModel": 1024,
+    "batchSize": 64
+  },
+  "result": {
+    "valLoss": 3.118997847681262,
+    "trainLoss": 3.132055879002789,
+    "lossCurve": [
+      [
+        37,
+        3.118997847681262
+      ]
+    ],
+    "durationSec": 145.793,
+    "tokensPerSec": 519.7506053102686,
+    "totalTokens": 75776
+  },
+  "improvement": -0.04648041596185315,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
