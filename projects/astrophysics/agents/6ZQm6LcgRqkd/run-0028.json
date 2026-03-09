@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWFNmvqUCPck27ghZ4txJnZKWmFMcrQadfnec3Ld7sn52n",
+  "runNumber": 28,
+  "timestamp": 1773044709410,
+  "hypothesis": "Improve on 48f6ba90 (loss=2.6805): lower min LR ratio (0.01)",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.08,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 500,
+    "weightDecay": 0.1,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "rmsnorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": true,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.01,
+    "initType": "kaiming",
+    "initScale": 0.01,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 2.6546132155636233,
+    "trainLoss": 2.7344068700160213,
+    "lossCurve": [
+      [
+        45,
+        2.6546132155636233
+      ]
+    ],
+    "durationSec": 144.697,
+    "tokensPerSec": 636.9171441011216,
+    "totalTokens": 92160
+  },
+  "improvement": -0.9669542902123024,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
