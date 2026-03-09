@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWCgRuhzEPEQD94HoPJe43me8kRzFvW1SskmnDDCcw4khg",
+  "runNumber": 3,
+  "timestamp": 1773055975557,
+  "hypothesis": "Improve on run #2 (loss=3.8689): longer context (256 tokens)",
+  "config": {
+    "nLayers": 1,
+    "dModel": 32,
+    "dFF": 128,
+    "batchSize": 32,
+    "contextLength": 256
+  },
+  "result": {
+    "valLoss": 3.822206848515402,
+    "trainLoss": 3.833375432977148,
+    "lossCurve": [
+      [
+        200,
+        3.8920763281759343
+      ],
+      [
+        400,
+        3.8494050083090365
+      ],
+      [
+        600,
+        3.8318902209819727
+      ],
+      [
+        800,
+        3.82961576122241
+      ],
+      [
+        987,
+        3.822206848515402
+      ]
+    ],
+    "durationSec": 302.605,
+    "tokensPerSec": 6679.916062193288,
+    "totalTokens": 2021376
+  },
+  "improvement": -1.2064428754557153,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
