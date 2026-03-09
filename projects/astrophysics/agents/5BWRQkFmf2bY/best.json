@@ -2,29 +2,28 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWDzsb9sqUqvs2qDvvhjKYbR9kAoELkZjAgfDCDtsBH5rP",
-  "runNumber": 2,
-  "timestamp": 1773035394038,
-  "hypothesis": "Improve on run #1 (loss=4.1382): deep + wide (3L, 128d, 4h)",
-  "config": {
-    "nLayers": 3,
-    "nHeads": 4,
-    "dModel": 128,
-    "dFF": 512
-  },
+  "runNumber": 1,
+  "timestamp": 1773035705439,
+  "hypothesis": "Baseline: default architecture on astrophysics corpus",
+  "config": {},
   "result": {
-    "valLoss": 4.004703372118046,
-    "trainLoss": 4.022315254995072,
+    "valLoss": 4.138177358787191,
+    "trainLoss": 4.1556037717457315,
     "lossCurve": [
       [
-        46,
-        4.004703372118046
+        200,
+        4.1469022105382445
+      ],
+      [
+        225,
+        4.138177358787191
       ]
     ],
-    "durationSec": 351.524,
-    "tokensPerSec": 267.998771065418,
-    "totalTokens": 94208
+    "durationSec": 309.959,
+    "tokensPerSec": 1486.648234121287,
+    "totalTokens": 460800
   },
-  "improvement": -3.225429339941662,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
