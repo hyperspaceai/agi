@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWCgRuhzEPEQD94HoPJe43me8kRzFvW1SskmnDDCcw4khg",
+  "runNumber": 9,
+  "timestamp": 1773063464649,
+  "hypothesis": "Improve on ae3f1c70 (loss=2.6373): light weight decay (0.01)",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.08,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 1000,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "relu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "kaiming",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 2.634823687625009,
+    "trainLoss": 2.643915352883739,
+    "lossCurve": [
+      [
+        73,
+        2.634823687625009
+      ]
+    ],
+    "durationSec": 133.148,
+    "tokensPerSec": 1122.8407486406104,
+    "totalTokens": 149504
+  },
+  "improvement": -0.09481423023870802,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
