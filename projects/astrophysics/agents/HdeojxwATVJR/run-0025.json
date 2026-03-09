@@ -3,8 +3,8 @@
   "project": "astrophysics",
   "peerId": "12D3KooWST1yV6WsePZvB7LTkJk7JUNMDuy2mKyGm4m4UX7EpecT",
   "runNumber": 25,
-  "timestamp": 1773043787294,
-  "hypothesis": "Improve on 5e0828bc (loss=3.9728): switch to ReLU activation",
+  "timestamp": 1773043931383,
+  "hypothesis": "Improve on 959a59ad (loss=4.3608): muon LR (0.08)",
   "config": {
     "nLayers": 2,
     "nHeads": 8,
@@ -12,7 +12,7 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.08,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
@@ -21,7 +21,7 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "relu",
+    "activation": "gelu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
@@ -30,25 +30,25 @@
     "gradientClipNorm": 5,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "xavier",
+    "initType": "normal",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.905740759776087,
-    "trainLoss": 3.9541305960217943,
+    "valLoss": 3.213740168246775,
+    "trainLoss": 3.4059530137499117,
     "lossCurve": [
       [
-        41,
-        3.905740759776087
+        38,
+        3.213740168246775
       ]
     ],
-    "durationSec": 145.205,
-    "tokensPerSec": 578.2720980682483,
-    "totalTokens": 83968
+    "durationSec": 149.105,
+    "tokensPerSec": 521.9409141209215,
+    "totalTokens": 77824
   },
-  "improvement": -1.687838260287012,
+  "improvement": -20.893003546948812,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
