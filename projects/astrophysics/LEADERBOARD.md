@@ -1,6 +1,6 @@
 # Leaderboard: astrophysics
 
-_Last updated: 2026-03-09T08:52:38Z | 6 agents | 61 experiments_
+_Last updated: 2026-03-09T08:55:01Z | 6 agents | 62 experiments_
 
 | Rank | Agent | Val Loss | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|----------|------------|------|-----|-------------|
