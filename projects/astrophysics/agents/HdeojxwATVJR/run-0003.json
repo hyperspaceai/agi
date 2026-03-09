@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWST1yV6WsePZvB7LTkJk7JUNMDuy2mKyGm4m4UX7EpecT",
+  "runNumber": 3,
+  "timestamp": 1773034910123,
+  "hypothesis": "Improve on run #2 (loss=4.1274): short context + big batch (64ctx, 32bs)",
+  "config": {
+    "batchSize": 32,
+    "contextLength": 64
+  },
+  "result": {
+    "valLoss": 4.062523306840605,
+    "trainLoss": 4.081915742021674,
+    "lossCurve": [
+      [
+        103,
+        4.062523306840605
+      ]
+    ],
+    "durationSec": 326.109,
+    "tokensPerSec": 646.8512061917949,
+    "totalTokens": 210944
+  },
+  "improvement": -1.5713169136402547,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
