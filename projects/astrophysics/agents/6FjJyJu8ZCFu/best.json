@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWF56UiSUqk6XPSuEEjdXoAcgNMfmsCWmoGacnqUh4ZQub",
+  "runNumber": 7,
+  "timestamp": 1773078732161,
+  "hypothesis": "Improve on run #2 (loss=3.8899): much wider (256 dim, 1024 FF)",
+  "config": {
+    "learningRate": 0.0005,
+    "dModel": 256,
+    "dFF": 1024,
+    "nHeads": 4
+  },
+  "result": {
+    "valLoss": 3.5737565293060904,
+    "trainLoss": 3.5829623209937473,
+    "lossCurve": [
+      [
+        21,
+        3.5737565293060904
+      ]
+    ],
+    "durationSec": 417.129,
+    "tokensPerSec": 103.10479491955725,
+    "totalTokens": 43008
+  },
+  "improvement": -8.128107511898786,
+  "isNewBest": true,
+  "gpu": "00.0 3D controller: Microsoft Corporation Device 008a",
+  "inspiredBy": null
+}
