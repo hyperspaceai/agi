@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWFNmvqUCPck27ghZ4txJnZKWmFMcrQadfnec3Ld7sn52n",
+  "runNumber": 7,
+  "timestamp": 1773034897841,
+  "hypothesis": "Improve on run #3 (loss=3.9493): higher learning rate (5e-4)",
+  "config": {
+    "batchSize": 32,
+    "weightDecay": 0.1,
+    "learningRate": 0.0005
+  },
+  "result": {
+    "valLoss": 3.875571689693693,
+    "trainLoss": 3.877715253361437,
+    "lossCurve": [
+      [
+        111,
+        3.875571689693693
+      ]
+    ],
+    "durationSec": 323.111,
+    "tokensPerSec": 703.5600768776055,
+    "totalTokens": 227328
+  },
+  "improvement": -1.8673416101869769,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
