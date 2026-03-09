@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWApYCtj1LbwRso5TpQrcsxbnKg8udaggLWRJPANfizAMV",
+  "runNumber": 4,
+  "timestamp": 1773044587061,
+  "hypothesis": "Improve on run #3 (loss=3.9046): more attention heads (4h, 128d)",
+  "config": {
+    "nLayers": 1,
+    "dModel": 128,
+    "dFF": 512,
+    "batchSize": 32,
+    "learningRate": 0.0008,
+    "warmupSteps": 300,
+    "nHeads": 4
+  },
+  "result": {
+    "valLoss": 3.2224469478581264,
+    "trainLoss": 3.23716452297531,
+    "lossCurve": [
+      [
+        82,
+        3.2224469478581264
+      ]
+    ],
+    "durationSec": 330.675,
+    "tokensPerSec": 507.8581688969532,
+    "totalTokens": 167936
+  },
+  "improvement": -17.470787209187527,
+  "isNewBest": true,
+  "gpu": "Advanced Micro Devices, Inc. [AMD/ATI] Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series] (rev c1)",
+  "inspiredBy": null
+}
