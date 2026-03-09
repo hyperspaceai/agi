@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWSQVnQzGMfeJrDwquvJa4u8ib1hCJFcR5oRAo5RjLSPNx",
-  "runNumber": 1,
-  "timestamp": 1773059087848,
-  "hypothesis": "Explore: switch to ReLU activation",
+  "runNumber": 3,
+  "timestamp": 1773061940611,
+  "hypothesis": "Improve on 36ba032c (loss=4.2132): Kaiming initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -30,25 +30,25 @@
     "gradientClipNorm": 1,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "normal",
+    "initType": "kaiming",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.213230525182807,
-    "trainLoss": 4.206552919274329,
+    "valLoss": 3.502338065755226,
+    "trainLoss": 3.507477436770655,
     "lossCurve": [
       [
-        74,
-        4.213230525182807
+        73,
+        3.502338065755226
       ]
     ],
-    "durationSec": 132.198,
-    "tokensPerSec": 1146.4016097066522,
-    "totalTokens": 151552
+    "durationSec": 132.901,
+    "tokensPerSec": 1124.9275776705967,
+    "totalTokens": 149504
   },
-  "improvement": 0,
+  "improvement": -5.9165521710104425,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
