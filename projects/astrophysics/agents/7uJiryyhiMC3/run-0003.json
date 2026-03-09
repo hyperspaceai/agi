@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWGiftc7ZQuFTXvHwvfsdCUdujmnypi1zLyWeDwG1M5D4w",
+  "runNumber": 3,
+  "timestamp": 1773045061727,
+  "hypothesis": "Improve on run #2 (loss=4.1213): aggressive LR + long warmup (8e-4, 300wu)",
+  "config": {
+    "nHeads": 4,
+    "dModel": 128,
+    "dFF": 512,
+    "learningRate": 0.0008,
+    "warmupSteps": 300
+  },
+  "result": {
+    "valLoss": 3.8398477151960835,
+    "trainLoss": 3.873998662688387,
+    "lossCurve": [
+      [
+        31,
+        3.8398477151960835
+      ]
+    ],
+    "durationSec": 388.515,
+    "tokensPerSec": 163.4119660759559,
+    "totalTokens": 63488
+  },
+  "improvement": -6.828269985034853,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
