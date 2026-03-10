@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWJhYNDuVpWMHjEUjnXcquvR5Lef8Hs8USqNPg367THfPe",
-  "runNumber": 30,
-  "timestamp": 1773165496500,
-  "hypothesis": "Improve on 9ac88826 (loss=2.7751): light weight decay (0.01)",
+  "runNumber": 29,
+  "timestamp": 1773165815435,
+  "hypothesis": "Improve on 3266a706 (loss=2.8263): Kaiming initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -17,7 +17,7 @@
     "maxSteps": 50000,
     "maxDurationSec": 120,
     "warmupSteps": 500,
-    "weightDecay": 0.01,
+    "weightDecay": 0.1,
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.7551360208192706,
-    "trainLoss": 2.7117029053325163,
+    "valLoss": 2.7750922437996657,
+    "trainLoss": 2.7178434783465217,
     "lossCurve": [
       [
         44,
-        2.7551360208192706
+        2.7750922437996657
       ]
     ],
-    "durationSec": 145.002,
-    "tokensPerSec": 621.4534971931421,
+    "durationSec": 144.585,
+    "tokensPerSec": 623.2458415464951,
     "totalTokens": 90112
   },
-  "improvement": -0.7191192662147688,
+  "improvement": -1.8107762867267139,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
