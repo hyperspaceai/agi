@@ -1,0 +1,11 @@
+[Unit]
+Description=Kuramoto Phase Synchronization
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/kuramoto-sync --interface eth0 --k 0.5
+Restart=always
+
+[Install]
+WantedBy=orbvm.target
