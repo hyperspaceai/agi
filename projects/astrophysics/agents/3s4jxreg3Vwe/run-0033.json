@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWCgRuhzEPEQD94HoPJe43me8kRzFvW1SskmnDDCcw4khg",
+  "runNumber": 33,
+  "timestamp": 1773104714116,
+  "hypothesis": "Improve on f87dba50 (loss=2.6269): linear LR schedule",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.08,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 1000,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "relu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "linear",
+    "minLRRatio": 0.1,
+    "initType": "kaiming",
+    "initScale": 0.01,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 2.6219396240055506,
+    "trainLoss": 2.6138603253103554,
+    "lossCurve": [
+      [
+        80,
+        2.6219396240055506
+      ]
+    ],
+    "durationSec": 133.267,
+    "tokensPerSec": 1229.411632287063,
+    "totalTokens": 163840
+  },
+  "improvement": -0.1900644970205625,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
