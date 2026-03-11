@@ -3,8 +3,8 @@
   "project": "astrophysics",
   "peerId": "12D3KooWMXr8N8NSr8htkUDFESf2sJCC5dAzGFR8wM4MxqGpBnxs",
   "runNumber": 21,
-  "timestamp": 1773220715297,
-  "hypothesis": "Improve on 3e063658 (loss=2.6027): enable tied embeddings",
+  "timestamp": 1773220937123,
+  "hypothesis": "Improve on 3e063658 (loss=2.6027): heavy weight decay (0.1)",
   "config": {
     "nLayers": 2,
     "nHeads": 8,
@@ -24,7 +24,7 @@
     "activation": "relu",
     "normalization": "rmsnorm",
     "positionEncoding": "learned",
-    "tieEmbeddings": true,
+    "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
     "gradientClipNorm": 5,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.57149804139395,
-    "trainLoss": 2.552165879044962,
+    "valLoss": 2.597459695577251,
+    "trainLoss": 2.587854628843605,
     "lossCurve": [
       [
-        130,
-        2.57149804139395
+        106,
+        2.597459695577251
       ]
     ],
-    "durationSec": 127.846,
-    "tokensPerSec": 2082.505514447069,
-    "totalTokens": 266240
+    "durationSec": 129.57,
+    "tokensPerSec": 1675.4495639422707,
+    "totalTokens": 217088
   },
-  "improvement": -0.2637252078379249,
+  "improvement": -0.20249880672233647,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
