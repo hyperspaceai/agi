@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWD7qzmfaUxtE3xy8YukpRBPV7dh3zEXZDefeNcDpB1UUR",
-  "runNumber": 4,
-  "timestamp": 1773246569001,
-  "hypothesis": "Improve on 6da72779 (loss=4.1390): Xavier initialization",
+  "runNumber": 3,
+  "timestamp": 1773247590200,
+  "hypothesis": "Improve on 6da72779 (loss=4.1390): disable gradient clip",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -27,28 +27,28 @@
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 5,
+    "gradientClipNorm": 0,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "xavier",
+    "initType": "normal",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.4343554608511058,
-    "trainLoss": 3.473465948413306,
+    "valLoss": 3.956400374743244,
+    "trainLoss": 3.959458049572646,
     "lossCurve": [
       [
-        69,
-        3.4343554608511058
+        70,
+        3.956400374743244
       ]
     ],
-    "durationSec": 134.625,
-    "tokensPerSec": 1049.6713091922006,
-    "totalTokens": 141312
+    "durationSec": 134.631,
+    "tokensPerSec": 1064.8364789684397,
+    "totalTokens": 143360
   },
-  "improvement": -13.194946528282467,
+  "improvement": -4.411661368103714,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
