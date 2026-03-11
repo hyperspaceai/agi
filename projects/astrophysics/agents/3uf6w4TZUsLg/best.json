@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCj2GgC3GfmcAzkAyhA42SLteEgnygLwDHiWu4QxHomdK",
-  "runNumber": 1,
-  "timestamp": 1773162311957,
-  "hypothesis": "Explore: constant LR schedule",
+  "runNumber": 7,
+  "timestamp": 1773241460045,
+  "hypothesis": "Improve on 6fac53bc (loss=3.3687): light weight decay (0.01)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -22,7 +22,7 @@
     "evalSteps": 10,
     "dataset": "astrophysics",
     "activation": "gelu",
-    "normalization": "layernorm",
+    "normalization": "rmsnorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
     "residualScale": 1,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.253426883113735,
-    "trainLoss": 4.254279156473949,
+    "valLoss": 3.3426349421166286,
+    "trainLoss": 3.35479541056983,
     "lossCurve": [
       [
-        100,
-        4.253426883113735
+        97,
+        3.3426349421166286
       ]
     ],
-    "durationSec": 130.45,
-    "tokensPerSec": 1569.9501724798774,
-    "totalTokens": 204800
+    "durationSec": 130.039,
+    "tokensPerSec": 1527.6647774898302,
+    "totalTokens": 198656
   },
-  "improvement": 0,
+  "improvement": -0.7745191125104556,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
