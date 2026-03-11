@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWGjeBbTrv7DhE6pC9K1pbvWLEsDMv2n4UyfX4Z6qQLkYP",
+  "runNumber": 37,
+  "timestamp": 1773208552432,
+  "hypothesis": "Improve on run #36 (loss=2.6006): larger batch (256 device)",
+  "config": {
+    "batchSize": 256
+  },
+  "result": {
+    "valLoss": 2.579121821819933,
+    "trainLoss": 2.6131693230917254,
+    "lossCurve": [
+      [
+        78,
+        2.579121821819933
+      ]
+    ],
+    "durationSec": 132.394,
+    "tokensPerSec": 1206.5803586265238,
+    "totalTokens": 159744
+  },
+  "improvement": -0.8253793394443657,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
