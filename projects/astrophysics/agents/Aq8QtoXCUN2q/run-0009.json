@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWKeVadw6ufGJLBJ8XRRDShFf6fW2yT1qvYgvPus3wGLL3",
+  "runNumber": 9,
+  "timestamp": 1773200991464,
+  "hypothesis": "Improve on 0386b4cf (loss=3.1951): extended training (600s)",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 600,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "kaiming",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.1315983858819894,
+    "trainLoss": 3.1708730920981547,
+    "lossCurve": [
+      [
+        200,
+        2.920180061039329
+      ],
+      [
+        396,
+        3.1315983858819894
+      ]
+    ],
+    "durationSec": 611.629,
+    "tokensPerSec": 1325.9802919743831,
+    "totalTokens": 811008
+  },
+  "improvement": -1.9879141893701762,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
