@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWMXr8N8NSr8htkUDFESf2sJCC5dAzGFR8wM4MxqGpBnxs",
-  "runNumber": 8,
-  "timestamp": 1773215098909,
-  "hypothesis": "Improve on 0e7d586b (loss=3.9142): muon LR (0.08)",
+  "runNumber": 7,
+  "timestamp": 1773215655659,
+  "hypothesis": "Improve on b84139c8 (loss=4.1343): switch to RMSNorm",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -12,7 +12,7 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.08,
+    "learningRate": 0.0003,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.855789212865539,
-    "trainLoss": 2.83021159723796,
+    "valLoss": 3.9142088026403137,
+    "trainLoss": 3.9223659628794554,
     "lossCurve": [
       [
         66,
-        2.855789212865539
+        3.9142088026403137
       ]
     ],
-    "durationSec": 313.389,
-    "tokensPerSec": 431.3106075835463,
+    "durationSec": 315.182,
+    "tokensPerSec": 428.85697787310187,
     "totalTokens": 135168
   },
-  "improvement": -27.04044784378447,
+  "improvement": -5.3237418836134776,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
