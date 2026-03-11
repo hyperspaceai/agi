@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWMXr8N8NSr8htkUDFESf2sJCC5dAzGFR8wM4MxqGpBnxs",
-  "runNumber": 21,
-  "timestamp": 1773220715297,
-  "hypothesis": "Improve on 3e063658 (loss=2.6027): enable tied embeddings",
+  "runNumber": 26,
+  "timestamp": 1773221709302,
+  "hypothesis": "Improve on c6d68d5e (loss=2.5877): disable gradient clip",
   "config": {
     "nLayers": 2,
     "nHeads": 8,
@@ -24,31 +24,31 @@
     "activation": "relu",
     "normalization": "rmsnorm",
     "positionEncoding": "learned",
-    "tieEmbeddings": true,
+    "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 5,
+    "gradientClipNorm": 0,
     "scheduleType": "linear",
     "minLRRatio": 0.1,
-    "initType": "kaiming",
+    "initType": "xavier",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.57149804139395,
-    "trainLoss": 2.552165879044962,
+    "valLoss": 2.5792505819965474,
+    "trainLoss": 2.590385051849957,
     "lossCurve": [
       [
-        130,
-        2.57149804139395
+        107,
+        2.5792505819965474
       ]
     ],
-    "durationSec": 127.846,
-    "tokensPerSec": 2082.505514447069,
-    "totalTokens": 266240
+    "durationSec": 128.948,
+    "tokensPerSec": 1699.4137171573036,
+    "totalTokens": 219136
   },
-  "improvement": -0.2637252078379249,
+  "improvement": -0.3283712199941783,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
