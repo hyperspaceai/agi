@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCAZQ4meMjjwF1Db8sDi1RvqMu54yr5sC7WXRfs6MzfvF",
-  "runNumber": 4,
-  "timestamp": 1773234923618,
-  "hypothesis": "Improve on a7375eaf (loss=3.9929): switch to RMSNorm",
+  "runNumber": 1,
+  "timestamp": 1773235277757,
+  "hypothesis": "Explore: linear LR schedule",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -22,7 +22,7 @@
     "evalSteps": 10,
     "dataset": "astrophysics",
     "activation": "gelu",
-    "normalization": "rmsnorm",
+    "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
     "residualScale": 1,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.532664537084911,
-    "trainLoss": 3.6241266666678804,
+    "valLoss": 3.992926178807842,
+    "trainLoss": 3.9866073606064454,
     "lossCurve": [
       [
-        89,
-        3.532664537084911
+        74,
+        3.992926178807842
       ]
     ],
-    "durationSec": 131.696,
-    "tokensPerSec": 1384.035961608553,
-    "totalTokens": 182272
+    "durationSec": 148.174,
+    "tokensPerSec": 1022.7975218324402,
+    "totalTokens": 151552
   },
-  "improvement": -11.526925896244604,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
