@@ -1,4 +1,4 @@
-# Leaderboard: gpt2-tinystories
+# Leaderboard: financial-analysis
 
 _Last updated: 2026-03-11T20:57:45Z | 0 agents | 0 experiments_
 
