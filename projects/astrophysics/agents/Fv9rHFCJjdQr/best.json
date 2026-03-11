@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQjX22Nn1vXgM9UwGbHkuKMMarkEqSJY8coqgxfKTvgiE",
-  "runNumber": 1,
-  "timestamp": 1773245056799,
-  "hypothesis": "Explore: heavy weight decay (0.1)",
+  "runNumber": 4,
+  "timestamp": 1773245522521,
+  "hypothesis": "Improve on e514296a (loss=4.2320): switch to RMSNorm",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -22,7 +22,7 @@
     "evalSteps": 10,
     "dataset": "astrophysics",
     "activation": "gelu",
-    "normalization": "layernorm",
+    "normalization": "rmsnorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
     "residualScale": 1,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.231965631870708,
-    "trainLoss": 4.228677870275705,
+    "valLoss": 4.0615694721339874,
+    "trainLoss": 4.081198741597346,
     "lossCurve": [
       [
-        55,
-        4.231965631870708
+        58,
+        4.0615694721339874
       ]
     ],
-    "durationSec": 137.196,
-    "tokensPerSec": 821.0151899472288,
-    "totalTokens": 112640
+    "durationSec": 136.926,
+    "tokensPerSec": 867.5050757343383,
+    "totalTokens": 118784
   },
-  "improvement": 0,
+  "improvement": -4.026406983399783,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
