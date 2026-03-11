@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWENtk78XKogaukXhoWXsztc44PAkC7JkTCUgmCfHgocA1",
-  "runNumber": 1,
-  "timestamp": 1773244857860,
-  "hypothesis": "Explore: larger batch (256)",
+  "runNumber": 3,
+  "timestamp": 1773246320823,
+  "hypothesis": "Improve on a1dc679c (loss=4.3483): light weight decay (0.01)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.348335353630859,
-    "trainLoss": 4.35603910335983,
+    "valLoss": 4.326254416951944,
+    "trainLoss": 4.332075969695896,
     "lossCurve": [
       [
         49,
-        4.348335353630859
+        4.326254416951944
       ]
     ],
-    "durationSec": 705.964,
-    "tokensPerSec": 2274.3822631182325,
+    "durationSec": 700.233,
+    "tokensPerSec": 2292.9967596500023,
     "totalTokens": 1605632
   },
-  "improvement": 0,
+  "improvement": -0.5078020640813286,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
