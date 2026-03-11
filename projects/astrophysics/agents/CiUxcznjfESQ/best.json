@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWMXr8N8NSr8htkUDFESf2sJCC5dAzGFR8wM4MxqGpBnxs",
-  "runNumber": 13,
-  "timestamp": 1773215790219,
-  "hypothesis": "Improve on 3291d1fe (loss=2.6342): more heads (8h)",
+  "runNumber": 23,
+  "timestamp": 1773220397726,
+  "hypothesis": "Improve on 09028c68 (loss=2.5715): extended training (600s)",
   "config": {
     "nLayers": 2,
     "nHeads": 8,
@@ -12,10 +12,10 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.08,
+    "learningRate": 0.003,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 120,
+    "maxDurationSec": 600,
     "warmupSteps": 100,
     "weightDecay": 0.1,
     "evalInterval": 200,
@@ -24,7 +24,7 @@
     "activation": "relu",
     "normalization": "rmsnorm",
     "positionEncoding": "learned",
-    "tieEmbeddings": false,
+    "tieEmbeddings": true,
     "residualScale": 1,
     "dropoutRate": 0,
     "gradientClipNorm": 5,
@@ -36,19 +36,23 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.6027301931606033,
-    "trainLoss": 2.6407028364762666,
+    "valLoss": 2.4843006806931855,
+    "trainLoss": 2.4211360000740973,
     "lossCurve": [
       [
-        63,
-        2.6027301931606033
+        200,
+        2.50286918521301
+      ],
+      [
+        218,
+        2.4843006806931855
       ]
     ],
-    "durationSec": 314.696,
-    "tokensPerSec": 409.99567836896557,
-    "totalTokens": 129024
+    "durationSec": 686.307,
+    "tokensPerSec": 650.5310305737811,
+    "totalTokens": 446464
   },
-  "improvement": -1.1957529639717563,
+  "improvement": -3.3909168623553323,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
