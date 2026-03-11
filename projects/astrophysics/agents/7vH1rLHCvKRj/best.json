@@ -3,26 +3,30 @@
   "project": "astrophysics",
   "peerId": "12D3KooWGjeBbTrv7DhE6pC9K1pbvWLEsDMv2n4UyfX4Z6qQLkYP",
   "runNumber": 37,
-  "timestamp": 1773208552432,
-  "hypothesis": "Improve on run #36 (loss=2.6006): larger batch (256 device)",
+  "timestamp": 1773231361606,
+  "hypothesis": "Inspired by fUdWnAYX (loss=0.9963): no weight decay",
   "config": {
-    "batchSize": 256
+    "weightDecay": 0
   },
   "result": {
-    "valLoss": 2.579121821819933,
-    "trainLoss": 2.6131693230917254,
+    "valLoss": 2.437643250037938,
+    "trainLoss": 2.4155740014836535,
     "lossCurve": [
       [
-        78,
-        2.579121821819933
+        200,
+        2.5106208588991583
+      ],
+      [
+        385,
+        2.437643250037938
       ]
     ],
-    "durationSec": 132.394,
-    "tokensPerSec": 1206.5803586265238,
-    "totalTokens": 159744
+    "durationSec": 611.464,
+    "tokensPerSec": 1289.4953750343436,
+    "totalTokens": 788480
   },
-  "improvement": -0.8253793394443657,
+  "improvement": -2.2029369925378672,
   "isNewBest": true,
   "gpu": null,
-  "inspiredBy": null
+  "inspiredBy": "4offfUdWnAYX"
 }
