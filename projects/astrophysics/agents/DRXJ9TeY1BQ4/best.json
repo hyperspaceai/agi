@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWNEtTtbEFC5fYwabxQudQL3eCYrW2g1AL68Sb6X6gDY5E",
-  "runNumber": 19,
-  "timestamp": 1773204849322,
-  "hypothesis": "Improve on f13dc1db (loss=3.1807): heavy weight decay (0.1)",
+  "runNumber": 16,
+  "timestamp": 1773204853072,
+  "hypothesis": "Improve on f13dc1db (loss=3.1807): extended training (600s)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -15,9 +15,9 @@
     "learningRate": 0.0003,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 120,
+    "maxDurationSec": 600,
     "warmupSteps": 100,
-    "weightDecay": 0.1,
+    "weightDecay": 0.01,
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
@@ -36,19 +36,27 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.068955254169524,
-    "trainLoss": 3.109195266539461,
+    "valLoss": 3.1654385666382248,
+    "trainLoss": 3.167386483850627,
     "lossCurve": [
       [
-        94,
-        3.068955254169524
+        200,
+        3.1980084873316503
+      ],
+      [
+        400,
+        3.1817668170089037
+      ],
+      [
+        453,
+        3.1654385666382248
       ]
     ],
-    "durationSec": 130.236,
-    "tokensPerSec": 1478.178076722258,
-    "totalTokens": 192512
+    "durationSec": 611.362,
+    "tokensPerSec": 1517.5035412734192,
+    "totalTokens": 927744
   },
-  "improvement": -3.513684709544028,
+  "improvement": -0.48030085864725114,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
