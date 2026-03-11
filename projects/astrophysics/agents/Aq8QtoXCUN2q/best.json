@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWKeVadw6ufGJLBJ8XRRDShFf6fW2yT1qvYgvPus3wGLL3",
-  "runNumber": 11,
-  "timestamp": 1773201314285,
-  "hypothesis": "Improve on 37d8840c (loss=3.1316): muon LR (0.08)",
+  "runNumber": 12,
+  "timestamp": 1773202690699,
+  "hypothesis": "Improve on caa76700 (loss=3.1209): Xavier initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -30,25 +30,25 @@
     "gradientClipNorm": 1,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "kaiming",
+    "initType": "xavier",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.0396596885754787,
-    "trainLoss": 3.11618995629583,
+    "valLoss": 2.664839268201164,
+    "trainLoss": 2.6080836179409492,
     "lossCurve": [
       [
-        90,
-        3.0396596885754787
+        91,
+        2.664839268201164
       ]
     ],
-    "durationSec": 130.578,
-    "tokensPerSec": 1411.5700960345541,
-    "totalTokens": 184320
+    "durationSec": 130.88,
+    "tokensPerSec": 1423.960880195599,
+    "totalTokens": 186368
   },
-  "improvement": -2.603175812260827,
+  "improvement": -12.330999479417788,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
