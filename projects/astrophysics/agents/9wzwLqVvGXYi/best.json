@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWJmN75y5dTRpCc5yGvUvCF1qL3JWuoap8ruiWadB1X8Jr",
-  "runNumber": 61,
-  "timestamp": 1773243016061,
-  "hypothesis": "Improve on 21d023bc (loss=2.7668): switch to ReLU activation",
+  "runNumber": 57,
+  "timestamp": 1773244343203,
+  "hypothesis": "Improve on 01451bb4 (loss=2.7917): enable tied embeddings",
   "config": {
     "nLayers": 12,
     "nHeads": 2,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.6583038000885013,
-    "trainLoss": 2.6640725425716494,
+    "valLoss": 2.7667594385841747,
+    "trainLoss": 2.8075821689867513,
     "lossCurve": [
       [
-        97,
-        2.6583038000885013
+        59,
+        2.7667594385841747
       ]
     ],
-    "durationSec": 650.738,
-    "tokensPerSec": 305.2780074315623,
-    "totalTokens": 198656
+    "durationSec": 671.977,
+    "tokensPerSec": 179.815678215177,
+    "totalTokens": 120832
   },
-  "improvement": -3.919951875222411,
+  "improvement": -0.894738579087665,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
