@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWAZKutyDWzoDMUqUGNYCNudQ3GN6CpQfnzTzVzdSHGsLk",
-  "runNumber": 13,
-  "timestamp": 1773212816134,
-  "hypothesis": "Improve on 66389ee9 (loss=3.4927): muon LR (0.08)",
+  "runNumber": 14,
+  "timestamp": 1773213746134,
+  "hypothesis": "Improve on 66389ee9 (loss=3.4927): Kaiming initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -12,7 +12,7 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.08,
+    "learningRate": 0.003,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
@@ -30,25 +30,25 @@
     "gradientClipNorm": 5,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "normal",
+    "initType": "kaiming",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.0950744142355227,
-    "trainLoss": 3.073350590862294,
+    "valLoss": 2.7985014128130503,
+    "trainLoss": 2.7576265509679248,
     "lossCurve": [
       [
-        68,
-        3.0950744142355227
+        62,
+        2.7985014128130503
       ]
     ],
-    "durationSec": 133.745,
-    "tokensPerSec": 1041.2650940222063,
-    "totalTokens": 139264
+    "durationSec": 134.184,
+    "tokensPerSec": 946.2827162701961,
+    "totalTokens": 126976
   },
-  "improvement": -11.384968665911815,
+  "improvement": -9.5820959928592,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
