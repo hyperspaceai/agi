@@ -2,61 +2,30 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWDbuMHeUJoHvnGjZqt77yFC2murLoWsfAkfZGCn9BXhKb",
-  "runNumber": 4,
-  "timestamp": 1773266775889,
-  "hypothesis": "Improve on run #2 (loss=4.1201): tiny but fast (1L, 32d, 32bs)",
+  "runNumber": 2,
+  "timestamp": 1773267105865,
+  "hypothesis": "Improve on run #1 (loss=4.1284): larger batch (32)",
   "config": {
-    "batchSize": 32,
-    "nLayers": 1,
-    "dModel": 32,
-    "dFF": 128
+    "batchSize": 32
   },
   "result": {
-    "valLoss": 3.4581117206337226,
-    "trainLoss": 3.459818004729878,
+    "valLoss": 4.120067522440018,
+    "trainLoss": 4.132691178062198,
     "lossCurve": [
       [
         200,
-        4.140968513685311
+        4.122096380669109
       ],
       [
-        400,
-        3.961968112210685
-      ],
-      [
-        600,
-        3.8289404776940805
-      ],
-      [
-        800,
-        3.733160979887232
-      ],
-      [
-        1000,
-        3.6466346837575103
-      ],
-      [
-        1200,
-        3.5921106006709445
-      ],
-      [
-        1400,
-        3.530692979505681
-      ],
-      [
-        1600,
-        3.480732661865975
-      ],
-      [
-        1709,
-        3.4581117206337226
+        322,
+        4.120067522440018
       ]
     ],
-    "durationSec": 301.392,
-    "tokensPerSec": 11612.889525933004,
-    "totalTokens": 3500032
+    "durationSec": 307.348,
+    "tokensPerSec": 2145.632963285917,
+    "totalTokens": 659456
   },
-  "improvement": -16.066625078374123,
+  "improvement": -0.20115850929579723,
   "isNewBest": true,
   "gpu": "Apple M3 Max",
   "inspiredBy": null
