@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWJmN75y5dTRpCc5yGvUvCF1qL3JWuoap8ruiWadB1X8Jr",
-  "runNumber": 51,
-  "timestamp": 1773193190052,
-  "hypothesis": "Improve on 2c18520c (loss=2.7180): Xavier initialization",
+  "runNumber": 48,
+  "timestamp": 1773193878637,
+  "hypothesis": "Improve on 6e3eb0d8 (loss=2.7566): muon LR (0.08)",
   "config": {
     "nLayers": 12,
     "nHeads": 2,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.6895949941928183,
-    "trainLoss": 2.6641643888832287,
+    "valLoss": 2.7179891117546124,
+    "trainLoss": 2.7510011884600565,
     "lossCurve": [
       [
-        77,
-        2.6895949941928183
+        69,
+        2.7179891117546124
       ]
     ],
-    "durationSec": 667.19,
-    "tokensPerSec": 236.35845860999115,
-    "totalTokens": 157696
+    "durationSec": 670.137,
+    "tokensPerSec": 210.870314577467,
+    "totalTokens": 141312
   },
-  "improvement": -1.0446737052402735,
+  "improvement": -1.400694040572911,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
