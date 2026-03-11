@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWMXr8N8NSr8htkUDFESf2sJCC5dAzGFR8wM4MxqGpBnxs",
-  "runNumber": 25,
-  "timestamp": 1773238393954,
-  "hypothesis": "Improve on 2ec692bc (loss=2.5975): Xavier initialization",
+  "runNumber": 37,
+  "timestamp": 1773238949167,
+  "hypothesis": "Improve on 9a9af2d0 (loss=2.5239): long warmup (1000 steps)",
   "config": {
     "nLayers": 2,
     "nHeads": 8,
@@ -16,7 +16,7 @@
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
-    "warmupSteps": 100,
+    "warmupSteps": 1000,
     "weightDecay": 0.1,
     "evalInterval": 200,
     "evalSteps": 10,
@@ -27,28 +27,28 @@
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 5,
+    "gradientClipNorm": 0,
     "scheduleType": "linear",
-    "minLRRatio": 0.1,
+    "minLRRatio": 0.01,
     "initType": "xavier",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.587748001680039,
-    "trainLoss": 2.5554343456025825,
+    "valLoss": 2.513654762054188,
+    "trainLoss": 2.4846237103163733,
     "lossCurve": [
       [
-        109,
-        2.587748001680039
+        106,
+        2.513654762054188
       ]
     ],
-    "durationSec": 128.563,
-    "tokensPerSec": 1736.3627171114551,
-    "totalTokens": 223232
+    "durationSec": 129.305,
+    "tokensPerSec": 1678.8832605081009,
+    "totalTokens": 217088
   },
-  "improvement": -0.3738919958507245,
+  "improvement": -0.40638686650158673,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
