@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWBKp2cdWjpyXv1NesopePeNogxMLukK2u1on4cTDmMMku",
-  "runNumber": 1,
-  "timestamp": 1773235698178,
-  "hypothesis": "Explore: higher LR (0.003)",
+  "runNumber": 3,
+  "timestamp": 1773237810676,
+  "hypothesis": "Improve on f272c0a8 (loss=3.3590): extended training (600s)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -15,7 +15,7 @@
     "learningRate": 0.003,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 120,
+    "maxDurationSec": 600,
     "warmupSteps": 100,
     "weightDecay": 0.01,
     "evalInterval": 200,
@@ -36,19 +36,31 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.3590405186504597,
-    "trainLoss": 3.371952144420817,
+    "valLoss": 2.848741429124022,
+    "trainLoss": 2.882402772244612,
     "lossCurve": [
       [
-        151,
-        3.3590405186504597
+        200,
+        3.0633212499135096
+      ],
+      [
+        400,
+        2.9022269534100307
+      ],
+      [
+        600,
+        2.86372060193437
+      ],
+      [
+        744,
+        2.848741429124022
       ]
     ],
-    "durationSec": 126.082,
-    "tokensPerSec": 2452.752970289177,
-    "totalTokens": 309248
+    "durationSec": 606.539,
+    "tokensPerSec": 2512.1418408379345,
+    "totalTokens": 1523712
   },
-  "improvement": 0,
+  "improvement": -15.191811075010708,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
