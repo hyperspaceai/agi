@@ -2,53 +2,61 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWMXr8N8NSr8htkUDFESf2sJCC5dAzGFR8wM4MxqGpBnxs",
-  "runNumber": 3,
-  "timestamp": 1773224329328,
-  "hypothesis": "Improve on 9b9901f0 (loss=4.1487): switch to ReLU activation",
+  "runNumber": 29,
+  "timestamp": 1773226286278,
+  "hypothesis": "Improve on 45c36b42 (loss=2.5076): aggressive LR (0.006) + warmup",
   "config": {
     "nLayers": 2,
-    "nHeads": 2,
+    "nHeads": 8,
     "dModel": 64,
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.006,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 120,
-    "warmupSteps": 100,
-    "weightDecay": 0.01,
+    "maxDurationSec": 600,
+    "warmupSteps": 500,
+    "weightDecay": 0.1,
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
     "activation": "relu",
-    "normalization": "layernorm",
+    "normalization": "rmsnorm",
     "positionEncoding": "learned",
-    "tieEmbeddings": false,
+    "tieEmbeddings": true,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 1,
+    "gradientClipNorm": 5,
     "scheduleType": "linear",
     "minLRRatio": 0.1,
-    "initType": "normal",
+    "initType": "kaiming",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.134308727990216,
-    "trainLoss": 4.138801200108063,
+    "valLoss": 2.364170189651843,
+    "trainLoss": 2.4091740387801703,
     "lossCurve": [
       [
-        165,
-        4.134308727990216
+        200,
+        2.564180354024548
+      ],
+      [
+        400,
+        2.461093043098902
+      ],
+      [
+        507,
+        2.364170189651843
       ]
     ],
-    "durationSec": 125.608,
-    "tokensPerSec": 2690.274504808611,
-    "totalTokens": 337920
+    "durationSec": 609.456,
+    "tokensPerSec": 1703.7095376860675,
+    "totalTokens": 1038336
   },
-  "improvement": -0.34623768129554916,
+  "improvement": -5.7190002126779005,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
