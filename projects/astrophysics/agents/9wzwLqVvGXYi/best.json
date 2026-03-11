@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWJmN75y5dTRpCc5yGvUvCF1qL3JWuoap8ruiWadB1X8Jr",
-  "runNumber": 57,
-  "timestamp": 1773244343203,
-  "hypothesis": "Improve on 01451bb4 (loss=2.7917): enable tied embeddings",
+  "runNumber": 66,
+  "timestamp": 1773246341313,
+  "hypothesis": "Improve on adea1158 (loss=2.6583): higher LR (0.003)",
   "config": {
     "nLayers": 12,
     "nHeads": 2,
@@ -12,7 +12,7 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.08,
+    "learningRate": 0.003,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 600,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.7667594385841747,
-    "trainLoss": 2.8075821689867513,
+    "valLoss": 2.521106150411062,
+    "trainLoss": 2.5537486983248603,
     "lossCurve": [
       [
-        59,
-        2.7667594385841747
+        120,
+        2.521106150411062
       ]
     ],
-    "durationSec": 671.977,
-    "tokensPerSec": 179.815678215177,
-    "totalTokens": 120832
+    "durationSec": 641.526,
+    "tokensPerSec": 383.08657794072263,
+    "totalTokens": 245760
   },
-  "improvement": -0.894738579087665,
+  "improvement": -5.161097451422662,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
