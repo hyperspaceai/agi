@@ -2,30 +2,29 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWDbuMHeUJoHvnGjZqt77yFC2murLoWsfAkfZGCn9BXhKb",
-  "runNumber": 10,
-  "timestamp": 1773264045119,
-  "hypothesis": "Improve on run #5 (loss=3.1986): higher learning rate (5e-4)",
+  "runNumber": 5,
+  "timestamp": 1773266446661,
+  "hypothesis": "Improve on run #4 (loss=3.4581): wider model (128 dim, 512 FF)",
   "config": {
     "batchSize": 32,
     "nLayers": 1,
     "dModel": 128,
-    "dFF": 512,
-    "learningRate": 0.0005
+    "dFF": 512
   },
   "result": {
-    "valLoss": 3.153662685878533,
-    "trainLoss": 3.140071401590543,
+    "valLoss": 3.1986075268593197,
+    "trainLoss": 3.254510532770839,
     "lossCurve": [
       [
-        175,
-        3.153662685878533
+        179,
+        3.1986075268593197
       ]
     ],
-    "durationSec": 314.363,
-    "tokensPerSec": 1140.0832795208087,
-    "totalTokens": 358400
+    "durationSec": 312.947,
+    "tokensPerSec": 1171.4188025448398,
+    "totalTokens": 366592
   },
-  "improvement": -1.4051377233179265,
+  "improvement": -7.504216599654767,
   "isNewBest": true,
   "gpu": "Apple M3 Max",
   "inspiredBy": null
