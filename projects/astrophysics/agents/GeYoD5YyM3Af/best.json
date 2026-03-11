@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWRTuxxD8gXwSAHadsRyCAg4RGqbtALD4n2KkQHfaEvLCL",
-  "runNumber": 18,
-  "timestamp": 1773269566345,
-  "hypothesis": "Improve on 1e07e088 (loss=3.7066): linear LR schedule",
+  "runNumber": 17,
+  "timestamp": 1773269895703,
+  "hypothesis": "Improve on 9d756414 (loss=3.7178): switch to SiLU activation",
   "config": {
     "nLayers": 2,
     "nHeads": 16,
@@ -28,7 +28,7 @@
     "residualScale": 1,
     "dropoutRate": 0,
     "gradientClipNorm": 1,
-    "scheduleType": "linear",
+    "scheduleType": "cosine",
     "minLRRatio": 0.1,
     "initType": "normal",
     "initScale": 0.02,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.687036734390161,
-    "trainLoss": 4.052387639151732,
+    "valLoss": 3.706573619616139,
+    "trainLoss": 4.060120540514715,
     "lossCurve": [
       [
         3,
-        3.687036734390161
+        3.706573619616139
       ]
     ],
-    "durationSec": 3316.537,
-    "tokensPerSec": 1.8525347372877192,
+    "durationSec": 3318.265,
+    "tokensPerSec": 1.8515700222857427,
     "totalTokens": 6144
   },
-  "improvement": -0.5270874729853912,
+  "improvement": -0.3024205349616113,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
