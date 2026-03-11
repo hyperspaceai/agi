@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWJB2M9H6TVQVF55KwWCuecX5t8m5u34VvQmd9AwAqfHmJ",
+  "runNumber": 5,
+  "timestamp": 1773270274697,
+  "hypothesis": "Inspired by RAuXVcqT (loss=2.4822): big model (12L, dim=768, lr=0.02)",
+  "config": {
+    "nLayers": 12,
+    "dModel": 768,
+    "learningRate": 0.02
+  },
+  "result": {
+    "valLoss": 4.09872849823706,
+    "trainLoss": 5.045276714268776,
+    "lossCurve": [
+      [
+        1,
+        4.09872849823706
+      ]
+    ],
+    "durationSec": 53567.557,
+    "tokensPerSec": 0.03823209634144786,
+    "totalTokens": 2048
+  },
+  "improvement": -0.8687016534720008,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": "12D3KooWSjqFrwfAFxKtgpD2cUdocpVyy8GCeiWqXpk6RAuXVcqT"
+}
