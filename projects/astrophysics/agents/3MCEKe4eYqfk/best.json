@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCAZQ4meMjjwF1Db8sDi1RvqMu54yr5sC7WXRfs6MzfvF",
-  "runNumber": 6,
-  "timestamp": 1773234564140,
-  "hypothesis": "Improve on 7660c12b (loss=3.5327): Xavier initialization",
+  "runNumber": 4,
+  "timestamp": 1773234923618,
+  "hypothesis": "Improve on a7375eaf (loss=3.9929): switch to RMSNorm",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -30,25 +30,25 @@
     "gradientClipNorm": 1,
     "scheduleType": "linear",
     "minLRRatio": 0.1,
-    "initType": "xavier",
+    "initType": "normal",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.4714466244370934,
-    "trainLoss": 3.516398644732156,
+    "valLoss": 3.532664537084911,
+    "trainLoss": 3.6241266666678804,
     "lossCurve": [
       [
-        63,
-        3.4714466244370934
+        89,
+        3.532664537084911
       ]
     ],
-    "durationSec": 134.576,
-    "tokensPerSec": 958.7445012483653,
-    "totalTokens": 129024
+    "durationSec": 131.696,
+    "tokensPerSec": 1384.035961608553,
+    "totalTokens": 182272
   },
-  "improvement": -1.7329104421087569,
+  "improvement": -11.526925896244604,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
