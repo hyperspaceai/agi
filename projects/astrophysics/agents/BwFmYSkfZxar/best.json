@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWLkcwHaLNkrrMQm6dicPmGy7SaDWTUzt3Wd73WAiNLtdq",
-  "runNumber": 1,
-  "timestamp": 1773136852501,
-  "hypothesis": "Explore: aggressive LR (0.006) + warmup",
+  "runNumber": 3,
+  "timestamp": 1773205589000,
+  "hypothesis": "Improve on fb3bce70 (loss=3.6927): extended training (600s)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -15,7 +15,7 @@
     "learningRate": 0.006,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 120,
+    "maxDurationSec": 600,
     "warmupSteps": 500,
     "weightDecay": 0.01,
     "evalInterval": 200,
@@ -36,19 +36,23 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.692673423577401,
-    "trainLoss": 3.6908979811249125,
+    "valLoss": 3.6832642245032323,
+    "trainLoss": 3.6995213732361507,
     "lossCurve": [
       [
-        102,
-        3.692673423577401
+        200,
+        3.6913345887243785
+      ],
+      [
+        226,
+        3.6832642245032323
       ]
     ],
-    "durationSec": 129.199,
-    "tokensPerSec": 1616.8546196177988,
-    "totalTokens": 208896
+    "durationSec": 1305.741,
+    "tokensPerSec": 354.4715223003643,
+    "totalTokens": 462848
   },
-  "improvement": 0,
+  "improvement": -0.2548072357033135,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
