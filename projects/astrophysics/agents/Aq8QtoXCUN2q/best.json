@@ -2,12 +2,12 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWKeVadw6ufGJLBJ8XRRDShFf6fW2yT1qvYgvPus3wGLL3",
-  "runNumber": 1,
-  "timestamp": 1773198320992,
-  "hypothesis": "Explore: Xavier initialization",
+  "runNumber": 2,
+  "timestamp": 1773199498332,
+  "hypothesis": "Improve on 72f3dd0c (loss=3.3856): more heads (8h)",
   "config": {
     "nLayers": 2,
-    "nHeads": 2,
+    "nHeads": 8,
     "dModel": 64,
     "dFF": 256,
     "contextLength": 128,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.385638599759843,
-    "trainLoss": 3.3877395168404933,
+    "valLoss": 3.3525844222055157,
+    "trainLoss": 3.361982718831241,
     "lossCurve": [
       [
-        80,
-        3.385638599759843
+        72,
+        3.3525844222055157
       ]
     ],
-    "durationSec": 132.474,
-    "tokensPerSec": 1236.7709890242616,
-    "totalTokens": 163840
+    "durationSec": 133.525,
+    "tokensPerSec": 1104.3325219996254,
+    "totalTokens": 147456
   },
-  "improvement": 0,
+  "improvement": -0.9763055500569915,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
