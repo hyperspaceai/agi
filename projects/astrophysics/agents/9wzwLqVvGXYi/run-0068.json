@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWJmN75y5dTRpCc5yGvUvCF1qL3JWuoap8ruiWadB1X8Jr",
+  "runNumber": 68,
+  "timestamp": 1773226480849,
+  "hypothesis": "Improve on b05a5588 (loss=2.6415): long warmup (1000 steps)",
+  "config": {
+    "nLayers": 12,
+    "nHeads": 8,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.08,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 600,
+    "warmupSteps": 1000,
+    "weightDecay": 0.1,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "silu",
+    "normalization": "rmsnorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "xavier",
+    "initScale": 0.01,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 2.6129098674915125,
+    "trainLoss": 2.588991549196267,
+    "lossCurve": [
+      [
+        54,
+        2.6129098674915125
+      ]
+    ],
+    "durationSec": 685.382,
+    "tokensPerSec": 161.35819149029302,
+    "totalTokens": 110592
+  },
+  "improvement": -1.0811627169263711,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
