@@ -2,12 +2,12 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWMXr8N8NSr8htkUDFESf2sJCC5dAzGFR8wM4MxqGpBnxs",
-  "runNumber": 12,
-  "timestamp": 1773171448981,
-  "hypothesis": "Improve on f105b35c (loss=2.6602): higher gradient clip (5.0)",
+  "runNumber": 19,
+  "timestamp": 1773211823579,
+  "hypothesis": "Improve on 3e063658 (loss=2.6027): extended training (600s)",
   "config": {
     "nLayers": 2,
-    "nHeads": 2,
+    "nHeads": 8,
     "dModel": 64,
     "dFF": 256,
     "contextLength": 128,
@@ -15,7 +15,7 @@
     "learningRate": 0.08,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 120,
+    "maxDurationSec": 600,
     "warmupSteps": 100,
     "weightDecay": 0.1,
     "evalInterval": 200,
@@ -36,19 +36,27 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.634229065286573,
-    "trainLoss": 2.6501590093958565,
+    "valLoss": 2.5331027950466933,
+    "trainLoss": 2.5344044680691598,
     "lossCurve": [
       [
-        71,
-        2.634229065286573
+        200,
+        2.5509362727198925
+      ],
+      [
+        400,
+        2.5426118518877465
+      ],
+      [
+        485,
+        2.5331027950466933
       ]
     ],
-    "durationSec": 591.092,
-    "tokensPerSec": 245.99893079249932,
-    "totalTokens": 145408
+    "durationSec": 653.825,
+    "tokensPerSec": 1519.1832676939548,
+    "totalTokens": 993280
   },
-  "improvement": -0.9775122658653413,
+  "improvement": -2.6751677256780315,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
