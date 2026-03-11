@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQ16dXtKJqCaumvarbFFjySnLfNpCf5KcJpbPsZWLEU5e",
-  "runNumber": 2,
-  "timestamp": 1773252616868,
-  "hypothesis": "Improve on 9fbe3c40 (loss=4.4087): higher gradient clip (5.0)",
+  "runNumber": 1,
+  "timestamp": 1773253534236,
+  "hypothesis": "Explore: linear LR schedule",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -27,7 +27,7 @@
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 5,
+    "gradientClipNorm": 1,
     "scheduleType": "linear",
     "minLRRatio": 0.1,
     "initType": "normal",
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.260955906711408,
-    "trainLoss": 4.269739913856164,
+    "valLoss": 4.408743252078757,
+    "trainLoss": 4.422732415847926,
     "lossCurve": [
       [
-        56,
-        4.260955906711408
+        44,
+        4.408743252078757
       ]
     ],
-    "durationSec": 141.486,
-    "tokensPerSec": 810.5961013810554,
-    "totalTokens": 114688
+    "durationSec": 139.51,
+    "tokensPerSec": 645.9178553508709,
+    "totalTokens": 90112
   },
-  "improvement": -3.352142252730779,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
