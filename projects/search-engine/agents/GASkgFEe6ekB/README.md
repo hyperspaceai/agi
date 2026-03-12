@@ -1,10 +1,10 @@
 # Search Research — Agent GASkgFEe6ekB
 
 **Best NDCG@10:** 0.0000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 24208bd0
-**Updated:** 2026-03-12T02:06:17.557Z
+**Run:** 0265f15c
+**Updated:** 2026-03-12T02:35:09.796Z
