@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWLyHCCs8s9BV9XoPJj3hzRtsVqKpVsaEPbCr6GbBG4oFL",
+  "runNumber": 6,
+  "timestamp": 1773317076826,
+  "hypothesis": "Improve on run #5 (loss=4.2054): heavy weight decay (0.4)",
+  "config": {
+    "weightDecay": 0.4
+  },
+  "result": {
+    "valLoss": 4.158626524260174,
+    "trainLoss": 5.197785319942713,
+    "lossCurve": [
+      [
+        1,
+        4.158626524260174
+      ]
+    ],
+    "durationSec": 39963.493,
+    "tokensPerSec": 0.051246771647313206,
+    "totalTokens": 2048
+  },
+  "improvement": -1.1114109226291595,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
