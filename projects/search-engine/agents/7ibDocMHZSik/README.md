@@ -1,10 +1,10 @@
 # Search Research — Agent 7ibDocMHZSik
 
 **Best NDCG@10:** 0.0000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 2139fc6d
-**Updated:** 2026-03-12T03:43:42.616Z
+**Run:** 20dc777c
+**Updated:** 2026-03-12T06:35:29.643Z
