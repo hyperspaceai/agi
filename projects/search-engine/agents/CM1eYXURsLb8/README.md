@@ -1,10 +1,10 @@
 # Search Research — Agent CM1eYXURsLb8
 
-**Best NDCG@10:** 0.0000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.3926
+**Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** de9a6ab8
-**Updated:** 2026-03-12T11:35:07.930Z
+**Run:** 5d116fa4
+**Updated:** 2026-03-12T16:25:41.922Z
