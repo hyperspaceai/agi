@@ -1,10 +1,10 @@
 # Search Research — Agent 8HFreAmCF5pn
 
 **Best NDCG@10:** 0.0000
-**Hypothesis:** local + peer only
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ec1a8aa0
-**Updated:** 2026-03-12T02:41:12.693Z
+**Run:** 5b790364
+**Updated:** 2026-03-12T03:16:48.158Z
