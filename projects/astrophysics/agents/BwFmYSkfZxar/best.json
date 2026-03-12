@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWLkcwHaLNkrrMQm6dicPmGy7SaDWTUzt3Wd73WAiNLtdq",
-  "runNumber": 19,
-  "timestamp": 1773301132365,
-  "hypothesis": "Improve on fb3bce70 (loss=3.6927): Xavier initialization",
+  "runNumber": 48,
+  "timestamp": 1773344643330,
+  "hypothesis": "Improve on fb3bce70 (loss=3.6927): switch to RMSNorm",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -22,7 +22,7 @@
     "evalSteps": 10,
     "dataset": "astrophysics",
     "activation": "gelu",
-    "normalization": "layernorm",
+    "normalization": "rmsnorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
     "residualScale": 1,
@@ -30,25 +30,25 @@
     "gradientClipNorm": 1,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "xavier",
+    "initType": "normal",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.3768728963486248,
-    "trainLoss": 3.400108095998808,
+    "valLoss": 2.883531367435178,
+    "trainLoss": 2.8933750034186345,
     "lossCurve": [
       [
-        41,
-        3.3768728963486248
+        80,
+        2.883531367435178
       ]
     ],
-    "durationSec": 143.595,
-    "tokensPerSec": 584.7557366203558,
-    "totalTokens": 83968
+    "durationSec": 136.091,
+    "tokensPerSec": 1203.9003313959042,
+    "totalTokens": 163840
   },
-  "improvement": -8.31847267747757,
+  "improvement": -21.7126116488674,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
