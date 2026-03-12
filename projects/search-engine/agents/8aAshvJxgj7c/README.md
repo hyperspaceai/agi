@@ -1,10 +1,10 @@
 # Search Research — Agent 8aAshvJxgj7c
 
-**Best NDCG@10:** 0.0000
-**Hypothesis:** use z-score normalization
+**Best NDCG@10:** 0.3926
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 432f7a98
-**Updated:** 2026-03-12T03:44:59.927Z
+**Run:** 3a95f08c
+**Updated:** 2026-03-12T17:25:14.629Z
