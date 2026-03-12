@@ -2,17 +2,17 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWD7qzmfaUxtE3xy8YukpRBPV7dh3zEXZDefeNcDpB1UUR",
-  "runNumber": 3,
-  "timestamp": 1773247590200,
-  "hypothesis": "Improve on 6da72779 (loss=4.1390): disable gradient clip",
+  "runNumber": 24,
+  "timestamp": 1773291910617,
+  "hypothesis": "Improve on 8017ba20 (loss=3.4344): muon LR (0.08)",
   "config": {
-    "nLayers": 2,
+    "nLayers": 12,
     "nHeads": 2,
     "dModel": 64,
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.08,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
@@ -27,28 +27,28 @@
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 0,
+    "gradientClipNorm": 5,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "normal",
+    "initType": "xavier",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.956400374743244,
-    "trainLoss": 3.959458049572646,
+    "valLoss": 3.1675514291602767,
+    "trainLoss": 3.1265415036014077,
     "lossCurve": [
       [
-        70,
-        3.956400374743244
+        13,
+        3.1675514291602767
       ]
     ],
-    "durationSec": 134.631,
-    "tokensPerSec": 1064.8364789684397,
-    "totalTokens": 143360
+    "durationSec": 202.335,
+    "tokensPerSec": 131.58375960659302,
+    "totalTokens": 26624
   },
-  "improvement": -4.411661368103714,
+  "improvement": -7.768678424006508,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
