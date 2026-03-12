@@ -11,6 +11,23 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
+// Per-project metric configuration
+const PROJECT_METRICS = {
+  'astrophysics':       { field: 'valLoss',      label: 'Val Loss',   dir: 'asc',  fmt: v => v.toFixed(4), extract: d => d.result?.valLoss ?? d.valLoss ?? Infinity },
+  'gpt2-tinystories':   { field: 'valLoss',      label: 'Val Loss',   dir: 'asc',  fmt: v => v.toFixed(4), extract: d => d.result?.valLoss ?? d.valLoss ?? Infinity },
+  'financial-analysis': { field: 'sharpeRatio',   label: 'Sharpe',     dir: 'desc', fmt: v => v.toFixed(3), extract: d => d.sharpeRatio ?? d.result?.sharpeRatio ?? 0 },
+  'p2p-network':        { field: 'bestResult',    label: 'Score',      dir: 'desc', fmt: v => v.toFixed(4), extract: d => d.bestResult ?? d.result?.bestResult ?? d.result?.score ?? 0 },
+  'search-engine':      { field: 'ndcg10',        label: 'NDCG@10',    dir: 'desc', fmt: v => v.toFixed(4), extract: d => d.ndcg10 ?? d.ndcgAt10 ?? d.result?.ndcg10 ?? d.result?.ndcgAt10 ?? 0 },
+  'skills-and-tools':   { field: 'score',         label: 'Score',      dir: 'desc', fmt: v => v.toFixed(4), extract: d => d.score ?? d.result?.score ?? d.overallScore ?? d.result?.overallScore ?? 0 },
+  'academic-papers':    { field: 'extractionF1',  label: 'F1',         dir: 'desc', fmt: v => v.toFixed(4), extract: d => d.extractionF1 ?? d.result?.extractionF1 ?? d.score ?? d.result?.score ?? 0 },
+};
+
+// Default metric for unknown projects
+const DEFAULT_METRIC = { field: 'valLoss', label: 'Val Loss', dir: 'asc', fmt: v => v.toFixed(4), extract: d => d.result?.valLoss ?? d.valLoss ?? Infinity };
+
+// Pattern to match ALL experiment file formats
+const EXPERIMENT_FILE_RE = /^(run-\d+|finance-r\d+|round-\d+|search-r\d+|skill-r\d+)\.json$/;
+
 // Discover projects from the projects/ directory
 const projectsDir = path.join(__dirname, '..', '..', 'projects');
 const projects = fs.readdirSync(projectsDir)
@@ -28,6 +45,7 @@ console.log(`Found ${branches.length} agent branches`);
 
 // For each project, collect results from agent branches
 for (const project of projects) {
+  const metric = PROJECT_METRICS[project] || DEFAULT_METRIC;
   const entries = [];
 
   for (const branch of branches) {
@@ -45,9 +63,9 @@ for (const project of projects) {
       const data = JSON.parse(content);
       entries.push({
         peerId,
-        valLoss: data.result?.valLoss ?? data.valLoss ?? Infinity,
-        hypothesis: data.hypothesis || '—',
-        runNumber: data.runNumber || 0,
+        metricValue: metric.extract(data),
+        hypothesis: data.hypothesis || data.description || '—',
+        runNumber: data.runNumber || data.roundNumber || 0,
         gpu: data.gpu || '—',
         timestamp: data.timestamp || data.result?.timestamp || 0,
       });
@@ -56,8 +74,12 @@ for (const project of projects) {
     }
   }
 
-  // Sort by val_loss ascending
-  entries.sort((a, b) => a.valLoss - b.valLoss);
+  // Sort by metric — ascending for loss metrics, descending for score metrics
+  if (metric.dir === 'asc') {
+    entries.sort((a, b) => a.metricValue - b.metricValue);
+  } else {
+    entries.sort((a, b) => b.metricValue - a.metricValue);
+  }
 
   // Count total experiments across all agents for this project
   let totalExperiments = 0;
@@ -71,7 +93,7 @@ for (const project of projects) {
         `git ls-tree --name-only ${branch} -- projects/${project}/agents/${peerId}/ 2>/dev/null`,
         { encoding: 'utf-8' }
       );
-      totalExperiments += files.split('\n').filter(f => f.match(/run-\d+\.json$/)).length;
+      totalExperiments += files.split('\n').filter(f => EXPERIMENT_FILE_RE.test(path.basename(f))).length;
     } catch { /* skip */ }
   }
 
@@ -81,8 +103,8 @@ for (const project of projects) {
 
   let md = `# Leaderboard: ${project}\n\n`;
   md += `_Last updated: ${now} | ${agentCount} agent${agentCount !== 1 ? 's' : ''} | ${totalExperiments} experiments_\n\n`;
-  md += `| Rank | Agent | Val Loss | Hypothesis | Runs | GPU | Last Updated |\n`;
-  md += `|------|-------|----------|------------|------|-----|-------------|\n`;
+  md += `| Rank | Agent | ${metric.label} | Hypothesis | Runs | GPU | Last Updated |\n`;
+  md += `|------|-------|${'-'.repeat(metric.label.length + 2)}|------------|------|-----|-------------|\n`;
 
   if (entries.length === 0) {
     md += `| — | — | — | No agent results yet | — | — | — |\n`;
@@ -91,7 +113,8 @@ for (const project of projects) {
       const e = entries[i];
       const agentShort = `\`${e.peerId.slice(0, 12)}...\``;
       const age = e.timestamp ? formatAge(e.timestamp) : '—';
-      md += `| ${i + 1} | ${agentShort} | ${e.valLoss.toFixed(4)} | ${truncate(e.hypothesis, 40)} | ${e.runNumber} | ${e.gpu} | ${age} |\n`;
+      const metricStr = metric.fmt(e.metricValue);
+      md += `| ${i + 1} | ${agentShort} | ${metricStr} | ${truncate(e.hypothesis, 40)} | ${e.runNumber} | ${e.gpu} | ${age} |\n`;
     }
   }
 

@@ -1,0 +1,6 @@
+scoring: bm25
+fields:
+  title_boost: 2.0
+  body_boost: 1.0
+evaluation: ndcg_at_10
+queries: seed_queries
