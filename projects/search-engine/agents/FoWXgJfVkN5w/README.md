@@ -1,10 +1,10 @@
 # Search Research — Agent FoWXgJfVkN5w
 
-**Best NDCG@10:** 0.0000
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.3926
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a1d41f38
-**Updated:** 2026-03-12T13:25:29.990Z
+**Run:** 193a7703
+**Updated:** 2026-03-12T18:14:58.695Z
