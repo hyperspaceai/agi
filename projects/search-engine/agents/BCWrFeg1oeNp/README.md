@@ -1,10 +1,10 @@
 # Search Research — Agent BCWrFeg1oeNp
 
-**Best NDCG@10:** 0.0000
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.3926
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a7c70874
-**Updated:** 2026-03-12T02:10:34.375Z
+**Run:** 43e02220
+**Updated:** 2026-03-12T15:59:30.773Z
