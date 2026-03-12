@@ -1,10 +1,10 @@
 # Search Research — Agent 7ibDocMHZSik
 
 **Best NDCG@10:** 0.0000
-**Hypothesis:** require 5 unique domains
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 6d2e9385
-**Updated:** 2026-03-12T01:59:33.284Z
+**Run:** 94ff1c3c
+**Updated:** 2026-03-12T02:16:08.897Z
