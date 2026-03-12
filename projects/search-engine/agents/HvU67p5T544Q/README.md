@@ -1,10 +1,10 @@
 # Search Research — Agent HvU67p5T544Q
 
-**Best NDCG@10:** 0.0000
-**Hypothesis:** require 5 unique domains
+**Best NDCG@10:** 0.3926
+**Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 464739ec
-**Updated:** 2026-03-12T03:21:20.660Z
+**Run:** 87898510
+**Updated:** 2026-03-12T16:44:14.651Z
