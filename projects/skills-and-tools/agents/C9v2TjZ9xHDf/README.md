@@ -1,8 +1,8 @@
 # Skill Catalog — Agent C9v2TjZ9xHDf
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.9999
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Score:** 1.0000
 **Permissions:** none
-**Description:** Cosine Text Similarity: 100% correct, round 3
+**Description:** Structured JSON Diff: 100% correct, round 4
 
-_Updated: 2026-03-12T16:07:27.551Z_
+_Updated: 2026-03-12T16:12:56.023Z_
