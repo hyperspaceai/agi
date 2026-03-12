@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWGXxPYjvzkLzF5aa41XLmoJUFnsJzc2uL2gf6Tp9bMwW7",
+  "runNumber": 40,
+  "timestamp": 1773279661161,
+  "hypothesis": "Improve on 2204782c (loss=1.8210): Kaiming initialization",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 8,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.08,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 600,
+    "warmupSteps": 1000,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "relu",
+    "normalization": "rmsnorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 5,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.01,
+    "initType": "kaiming",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 1.816944,
+    "trainLoss": 5.40607,
+    "lossCurve": [
+      [
+        0,
+        9.010621
+      ],
+      [
+        1,
+        9.010766
+      ],
+      [
+        2,
+        9.010945
+      ],
+      [
+        3,
+        9.010898
+      ],
+      [
+        4,
+        9.010902
+      ],
+      [
+        5,
+        9.010947
+      ],
+      [
+        6,
+        9.011039
+      ],
+      [
+        7,
+        9.010967
+      ],
+      [
+        8,
+        9.010997
+      ],
+      [
+        9,
+        9.011025
+      ],
+      [
+        10,
+        9.010925
+      ],
+      [
+        50,
+        5.40607
+      ]
+    ],
+    "durationSec": 209.8,
+    "tokensPerSec": 127264.06101048617,
+    "totalTokens": 26700000
+  },
+  "improvement": -0.22459767362938576,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
