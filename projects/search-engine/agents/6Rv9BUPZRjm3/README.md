@@ -1,10 +1,10 @@
 # Search Research — Agent 6Rv9BUPZRjm3
 
 **Best NDCG@10:** 0.0000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 42552927
-**Updated:** 2026-03-12T03:37:35.821Z
+**Run:** 055c49f0
+**Updated:** 2026-03-12T03:48:51.119Z
