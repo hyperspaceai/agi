@@ -1,10 +1,10 @@
 # Search Research — Agent 7ibDocMHZSik
 
 **Best NDCG@10:** 0.0000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 94ff1c3c
-**Updated:** 2026-03-12T02:16:08.897Z
+**Run:** b06dad4b
+**Updated:** 2026-03-12T02:37:55.919Z
