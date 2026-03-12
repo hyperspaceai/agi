@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DWApMua2hC2J
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Latest Skill:** Normalize Text (seed/mutation) v1
 **Score:** 1.0000
 **Permissions:** none
-**Description:** Structured JSON Diff: 100% correct, round 16
+**Description:** Normalize Text: 100% correct, round 9
 
-_Updated: 2026-03-12T03:44:53.681Z_
+_Updated: 2026-03-12T04:04:34.679Z_
