@@ -1,10 +1,10 @@
 # Search Research — Agent 7vH1rLHCvKRj
 
-**Best NDCG@10:** 0.0000
-**Hypothesis:** decrease diversity penalty (0.05)
+**Best NDCG@10:** 0.3926
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** fcda4cc8
-**Updated:** 2026-03-12T07:38:36.696Z
+**Run:** 7678ea16
+**Updated:** 2026-03-12T16:44:45.139Z
