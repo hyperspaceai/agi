@@ -1,10 +1,10 @@
 # Search Research — Agent Ebsr6FcvBjaE
 
 **Best NDCG@10:** 0.0000
-**Hypothesis:** require more local results (5)
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a2f14580
-**Updated:** 2026-03-12T14:41:22.425Z
+**Run:** cb24b2b8
+**Updated:** 2026-03-12T15:03:56.518Z
