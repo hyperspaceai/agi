@@ -1,10 +1,10 @@
 # Search Research — Agent 8HFreAmCF5pn
 
 **Best NDCG@10:** 0.0000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Hypothesis:** increase diversity penalty (0.2)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8af6e88c
-**Updated:** 2026-03-12T02:05:00.839Z
+**Run:** a849b7ee
+**Updated:** 2026-03-12T02:30:40.589Z
