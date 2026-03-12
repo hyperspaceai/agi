@@ -1,0 +1,17 @@
+version: 1
+system:
+  kernel: 7.2.0-arkhe
+  arch: arm64
+  time_mode: phase
+kuramoto:
+  coupling_k: 0.5
+  interface: eth0
+  target_coherence: 0.95
+orbvm:
+  engine_config: /etc/orbvm/engine.conf
+  watchdog_sec: 30
+  enable_core_sync: false
+  core_coupling_k: 0.1
+data:
+  dataset: timechain
+  sync_mode: kuramoto
