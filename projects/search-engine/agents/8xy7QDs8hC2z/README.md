@@ -1,10 +1,10 @@
 # Search Research — Agent 8xy7QDs8hC2z
 
-**Best NDCG@10:** 0.0000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.3926
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 759dc4a4
-**Updated:** 2026-03-12T11:26:51.672Z
+**Run:** 8aac236a
+**Updated:** 2026-03-12T16:39:06.913Z
