@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCj2GgC3GfmcAzkAyhA42SLteEgnygLwDHiWu4QxHomdK",
-  "runNumber": 7,
-  "timestamp": 1773241460045,
-  "hypothesis": "Improve on 6fac53bc (loss=3.3687): light weight decay (0.01)",
+  "runNumber": 3,
+  "timestamp": 1773324917037,
+  "hypothesis": "Improve on ada17c70 (loss=4.2534): switch to RMSNorm",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.3426349421166286,
-    "trainLoss": 3.35479541056983,
+    "valLoss": 3.3687263717137315,
+    "trainLoss": 3.405588166582066,
     "lossCurve": [
       [
-        97,
-        3.3426349421166286
+        98,
+        3.3687263717137315
       ]
     ],
-    "durationSec": 130.039,
-    "tokensPerSec": 1527.6647774898302,
-    "totalTokens": 198656
+    "durationSec": 131.023,
+    "tokensPerSec": 1531.8226570907398,
+    "totalTokens": 200704
   },
-  "improvement": -0.7745191125104556,
+  "improvement": -15.419944396051688,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
