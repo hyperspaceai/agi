@@ -2,14 +2,14 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWGXxPYjvzkLzF5aa41XLmoJUFnsJzc2uL2gf6Tp9bMwW7",
-  "runNumber": 41,
-  "timestamp": 1773279980813,
-  "hypothesis": "Improve on 2204782c (loss=1.8210): enable tied embeddings",
+  "runNumber": 44,
+  "timestamp": 1773281450770,
+  "hypothesis": "Improve on f1f94648 (loss=1.8154): wider (768d, 3072ff, 12h)",
   "config": {
     "nLayers": 2,
-    "nHeads": 8,
-    "dModel": 64,
-    "dFF": 256,
+    "nHeads": 12,
+    "dModel": 768,
+    "dFF": 3072,
     "contextLength": 128,
     "vocabSize": 128,
     "learningRate": 0.08,
@@ -36,63 +36,63 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 1.815446,
-    "trainLoss": 5.403116,
+    "valLoss": 1.669551,
+    "trainLoss": 5.009397,
     "lossCurve": [
       [
         0,
-        9.010621
+        9.010048
       ],
       [
         1,
-        9.010766
+        9.010637
       ],
       [
         2,
-        9.010945
+        9.010862
       ],
       [
         3,
-        9.010898
+        9.011107
       ],
       [
         4,
-        9.010902
+        9.010973
       ],
       [
         5,
-        9.010947
+        9.011202
       ],
       [
         6,
-        9.011039
+        9.011295
       ],
       [
         7,
-        9.010967
+        9.011344
       ],
       [
         8,
-        9.010997
+        9.011287
       ],
       [
         9,
-        9.011025
+        9.011379
       ],
       [
         10,
-        9.010925
+        9.01131
       ],
       [
         50,
-        5.403116
+        5.009397
       ]
     ],
-    "durationSec": 208.4,
-    "tokensPerSec": 128119.00191938579,
+    "durationSec": 218.4,
+    "tokensPerSec": 122252.74725274726,
     "totalTokens": 26700000
   },
-  "improvement": -0.08244612932484432,
+  "improvement": -8.036317246560893,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
