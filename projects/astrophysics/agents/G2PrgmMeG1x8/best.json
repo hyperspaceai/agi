@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQqm2RtwMSvDcSjL1YN7HCZpYAqdDNB1nWRq2xMaqvYCF",
-  "runNumber": 3,
-  "timestamp": 1773354000525,
-  "hypothesis": "Improve on 59b45f08 (loss=4.2655): deep (16 layers)",
+  "runNumber": 2,
+  "timestamp": 1773354326013,
+  "hypothesis": "Improve on f431f350 (loss=4.8926): max scale (16L, 1024d, 16h)",
   "config": {
     "nLayers": 16,
     "nHeads": 16,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.049588365694668,
-    "trainLoss": 5.119404110340142,
+    "valLoss": 4.265462384222078,
+    "trainLoss": 5.37998263333524,
     "lossCurve": [
       [
         1,
-        4.049588365694668
+        4.265462384222078
       ]
     ],
-    "durationSec": 18083.11,
-    "tokensPerSec": 0.1132548549447523,
+    "durationSec": 16302.061,
+    "tokensPerSec": 0.12562828712271412,
     "totalTokens": 2048
   },
-  "improvement": -5.06097578836766,
+  "improvement": -12.81860786339383,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
