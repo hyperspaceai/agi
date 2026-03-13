@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T17:48:48.115Z",
+  "timestamp": "2026-03-13T19:48:48.307Z",
   "peerId": "12D3KooWFKwCq2bNR7HKhj1sV3jXX4LVftRooigv2nk9GithMUVr",
   "stats": {
-    "totalNodes": 67,
+    "totalNodes": 70,
     "observations": 0,
-    "experiments": 67,
+    "experiments": 70,
     "syntheses": 0,
-    "totalEdges": 64,
+    "totalEdges": 67,
     "maxDepth": 4,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -22,12 +22,12 @@
       "depth": 0
     },
     "skills": {
-      "nodeId": "5dd5d1b49cd3e6c7dd3fbdc03ce7c90fe01712e1497ce10f3166f9495f211e3e",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "nodeId": "287fa20e175888877b2f9a8dc415d69c0f995e487b61f6892b4dfceac5bd3b77",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1995,
+      "metricValue": 0.1996,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "finance": {
       "nodeId": "6f5e0bb794e5a9bea09b21ff0c249bcbec3f9b05ad29ab8ae8a5b94670a495d5",
@@ -39,11 +39,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 29,
-    "skills": 26,
+    "infrastructure": 31,
+    "skills": 27,
     "finance": 12
   },
   "recentExperiments": [
+    {
+      "id": "287fa20e1758",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": true,
+      "createdAt": 1773429168171,
+      "depth": 2
+    },
+    {
+      "id": "2dc9c7454d9b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 449",
+      "metricName": "score",
+      "metricValue": 54.026934762946226,
+      "isCurrentBest": false,
+      "createdAt": 1773427728142,
+      "depth": 1
+    },
+    {
+      "id": "6c6b1a253ec7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 439",
+      "metricName": "score",
+      "metricValue": 0.9313919928882134,
+      "isCurrentBest": false,
+      "createdAt": 1773427128141,
+      "depth": 1
+    },
     {
       "id": "e9a515d5e8b6",
       "domain": "infrastructure",
@@ -213,36 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1773401687286,
       "depth": 2
-    },
-    {
-      "id": "ebe3290518d3",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773401567278,
-      "depth": 2
-    },
-    {
-      "id": "e0afef049b0d",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773401447272,
-      "depth": 2
-    },
-    {
-      "id": "11abb98a41fe",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773401327277,
-      "depth": 2
     }
   ],
   "frontier": [],
@@ -256,6 +256,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "287fa20e1758",
+        "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+        "metricValue": 0.1996,
+        "depth": 2
+      },
       {
         "id": "5dd5d1b49cd3",
         "title": "Skill Extract Entities from Text (seed/mutation): 0%",
