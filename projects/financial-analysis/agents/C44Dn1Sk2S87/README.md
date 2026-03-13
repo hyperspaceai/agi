@@ -1,11 +1,11 @@
 # Financial Analysis — Agent C44Dn1Sk2S87
 
-**Best Sharpe Ratio:** 1.2041
-**Hypothesis:** Round 4 best mutation
+**Best Sharpe Ratio:** 1.2273
+**Hypothesis:** Round 5 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.2931
-**Max Drawdown:** 0.0598
+**Alpha:** 1.3099
+**Max Drawdown:** 0.0582
 **LLM:** unknown
-**Run:** finance-r4
-**Updated:** 2026-03-13T08:58:18.368Z
+**Run:** finance-r5
+**Updated:** 2026-03-13T09:00:48.373Z
