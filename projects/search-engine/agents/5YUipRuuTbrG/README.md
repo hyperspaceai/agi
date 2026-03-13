@@ -1,10 +1,10 @@
 # Search Research — Agent 5YUipRuuTbrG
 
-**Best NDCG@10:** 0.3926
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.4000
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 70436c28
-**Updated:** 2026-03-13T11:11:20.570Z
+**Run:** e181115c
+**Updated:** 2026-03-13T12:48:22.000Z
