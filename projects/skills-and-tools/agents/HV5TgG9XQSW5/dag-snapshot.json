@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T17:01:26.353Z",
+  "timestamp": "2026-03-13T18:01:26.393Z",
   "peerId": "12D3KooWSJSdRPjEbLmZUStJPHcT6vth7UfPuoPyB2R6dAbNqpCy",
   "stats": {
-    "totalNodes": 44,
+    "totalNodes": 45,
     "observations": 0,
-    "experiments": 44,
+    "experiments": 45,
     "syntheses": 0,
-    "totalEdges": 40,
+    "totalEdges": 41,
     "maxDepth": 5,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -22,12 +22,12 @@
       "depth": 0
     },
     "skills": {
-      "nodeId": "f0613492bec28720377cec37b8c8d8b463c63b36a449778070f4753487e7f414",
+      "nodeId": "1ca0b893b663a77d17e91147a0db97f3e0abaa117db3830cfb4e4b91da0d29df",
       "title": "Skill Compute Text Statistics (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1997,
+      "metricValue": 0.1998,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "finance": {
       "nodeId": "5bfe963e57ab8b234b24cf012583c3bbb9588321a872af6bd34ff25b116e9b69",
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 10,
-    "skills": 14,
+    "skills": 15,
     "finance": 6,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "1ca0b893b663",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": true,
+      "createdAt": 1773423206212,
+      "depth": 2
+    },
     {
       "id": "915c4397f227",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773404947742,
       "depth": 1
-    },
-    {
-      "id": "f056c47011d7",
-      "domain": "search-ranking",
-      "title": "Search round 38: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773404946909,
-      "depth": 1
     }
   ],
   "frontier": [],
@@ -265,6 +265,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "1ca0b893b663",
+        "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 2
+      },
       {
         "id": "f0613492bec2",
         "title": "Skill Compute Text Statistics (seed/mutation): 0%",
