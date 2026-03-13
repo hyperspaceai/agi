@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWJvhFWJtDdCUnYx7z5j98ZsfVJKz4FwPNeLkja5rFHWfY",
-  "runNumber": 1,
-  "timestamp": 1773370247443,
-  "hypothesis": "Explore: switch to RMSNorm",
+  "runNumber": 10,
+  "timestamp": 1773373441041,
+  "hypothesis": "Improve on f69ff578 (loss=2.9231): long warmup (1000 steps)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -12,11 +12,11 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.08,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 120,
-    "warmupSteps": 100,
+    "maxDurationSec": 600,
+    "warmupSteps": 1000,
     "weightDecay": 0.01,
     "evalInterval": 200,
     "evalSteps": 10,
@@ -36,19 +36,23 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.041776067645723,
-    "trainLoss": 4.059725634684956,
+    "valLoss": 2.493891925412218,
+    "trainLoss": 2.550234454690954,
     "lossCurve": [
       [
-        59,
-        4.041776067645723
+        200,
+        2.506982960561514
+      ],
+      [
+        275,
+        2.493891925412218
       ]
     ],
-    "durationSec": 136.818,
-    "tokensPerSec": 883.1586487158122,
-    "totalTokens": 120832
+    "durationSec": 617.97,
+    "tokensPerSec": 911.3711021570626,
+    "totalTokens": 563200
   },
-  "improvement": 0,
+  "improvement": -14.68344148620968,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
