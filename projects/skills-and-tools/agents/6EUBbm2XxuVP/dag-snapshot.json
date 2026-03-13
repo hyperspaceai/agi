@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T13:51:44.531Z",
+  "timestamp": "2026-03-13T14:53:23.425Z",
   "peerId": "12D3KooWF3qMLtcF9okstvyMiikCmDAsMrnXV3hJZRvcJiXMhrmB",
   "stats": {
-    "totalNodes": 66,
+    "totalNodes": 67,
     "observations": 0,
-    "experiments": 66,
+    "experiments": 67,
     "syntheses": 0,
-    "totalEdges": 62,
+    "totalEdges": 63,
     "maxDepth": 4,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 19,
-    "skills": 23,
+    "skills": 24,
     "finance": 10,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "d9fc05488294",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773412977686,
+      "depth": 2
+    },
     {
       "id": "17c7cf305f94",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.39333333333333337,
       "isCurrentBest": false,
       "createdAt": 1773404257974,
-      "depth": 1
-    },
-    {
-      "id": "c8a92e4b618c",
-      "domain": "search-ranking",
-      "title": "Search round 38: use softmax normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.39333333333333337,
-      "isCurrentBest": false,
-      "createdAt": 1773404256966,
       "depth": 1
     }
   ],
