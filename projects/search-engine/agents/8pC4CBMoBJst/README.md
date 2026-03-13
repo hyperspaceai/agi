@@ -1,10 +1,10 @@
 # Search Research — Agent 8pC4CBMoBJst
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.3950
+**Hypothesis:** increase diversity penalty (0.2)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d979b2ac
-**Updated:** 2026-03-13T05:26:08.509Z
+**Run:** e5766118
+**Updated:** 2026-03-13T22:02:03.601Z
