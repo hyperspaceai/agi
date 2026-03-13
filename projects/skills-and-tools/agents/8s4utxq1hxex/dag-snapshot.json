@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T16:44:08.466Z",
+  "timestamp": "2026-03-13T17:44:08.921Z",
   "peerId": "12D3KooWHgS5e6QitrvSZ2zMsTd26LUonbbJVABXSrFdXUPNvS4S",
   "stats": {
-    "totalNodes": 210,
+    "totalNodes": 212,
     "observations": 0,
-    "experiments": 210,
+    "experiments": 212,
     "syntheses": 0,
-    "totalEdges": 206,
+    "totalEdges": 208,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 67,
+    "infrastructure": 69,
     "skills": 76,
     "finance": 46,
     "search-ranking": 21
   },
   "recentExperiments": [
+    {
+      "id": "b451c8391f45",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 304",
+      "metricName": "score",
+      "metricValue": 54.08087449748038,
+      "isCurrentBest": false,
+      "createdAt": 1773422348618,
+      "depth": 2
+    },
+    {
+      "id": "925091e33060",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 283",
+      "metricName": "score",
+      "metricValue": 54.15276047581693,
+      "isCurrentBest": false,
+      "createdAt": 1773421088474,
+      "depth": 2
+    },
     {
       "id": "e8dbdc15db21",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773407508525,
-      "depth": 2
-    },
-    {
-      "id": "cca97d4c00de",
-      "domain": "search-ranking",
-      "title": "Search round 38: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": true,
-      "createdAt": 1773407508468,
-      "depth": 1
-    },
-    {
-      "id": "7ca53571de5e",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 43",
-      "metricName": "score",
-      "metricValue": 54.038011038653956,
-      "isCurrentBest": false,
-      "createdAt": 1773406686797,
       "depth": 2
     }
   ],
