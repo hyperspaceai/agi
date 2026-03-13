@@ -1,10 +1,10 @@
 # Search Research — Agent 2A97wu63oQ52
 
 **Best NDCG@10:** 0.3926
-**Hypothesis:** disable query expansion
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 61093f50
-**Updated:** 2026-03-12T18:52:16.338Z
+**Run:** d3dec397
+**Updated:** 2026-03-13T05:21:29.679Z
