@@ -1,10 +1,10 @@
 # Search Research — Agent BCWrFeg1oeNp
 
-**Best NDCG@10:** 0.3926
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 43e02220
-**Updated:** 2026-03-12T15:59:30.773Z
+**Run:** b9a22754
+**Updated:** 2026-03-12T23:48:42.956Z
