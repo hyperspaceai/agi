@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T11:50:16.035Z",
+  "timestamp": "2026-03-13T14:49:47.203Z",
   "peerId": "12D3KooWBCAywGtAuZtY4ZwzihU5eQX2WKoY7VtNzsSyY3dsxShn",
   "stats": {
-    "totalNodes": 166,
+    "totalNodes": 186,
     "observations": 0,
-    "experiments": 166,
+    "experiments": 186,
     "syntheses": 0,
-    "totalEdges": 162,
+    "totalEdges": 182,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 40
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,219 +38,219 @@
       "depth": 16
     },
     "search-ranking": {
-      "nodeId": "59781533e695d8adc7ae5d532c2ca1468ba0ec8f906532aa4c0fad1f6adb0b1e",
-      "title": "Search round 18: disable query expansion",
+      "nodeId": "388c2628953bdad59a91b117cc3279c194ad436882c6c0b176edfbe8a3c9c8b2",
+      "title": "Search round 37: increase diversity penalty (0.2)",
       "metricName": "NDCG@10",
-      "metricValue": 0.39261859507142916,
+      "metricValue": 0.3935620718710802,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 45,
-    "skills": 61,
-    "finance": 53,
-    "search-ranking": 7
+    "infrastructure": 47,
+    "skills": 64,
+    "finance": 54,
+    "search-ranking": 21
   },
   "recentExperiments": [
     {
-      "id": "3d2d081d06db",
+      "id": "2e26dee78852",
       "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1999,
       "isCurrentBest": false,
-      "createdAt": 1773402615978,
+      "createdAt": 1773409560798,
       "depth": 1
     },
     {
-      "id": "1e1ee9555f05",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773402498406,
-      "depth": 1
-    },
-    {
-      "id": "cf6bc86a0397",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.3064",
-      "metricName": "Sharpe",
-      "metricValue": 1.3064,
-      "isCurrentBest": false,
-      "createdAt": 1773402322089,
-      "depth": 17
-    },
-    {
-      "id": "034afbeb4091",
+      "id": "6d8adf470267",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 24",
+      "title": "Cause infra-optimization round 86",
       "metricName": "score",
-      "metricValue": 54.125955559218525,
+      "metricValue": 54.01777369000841,
       "isCurrentBest": false,
-      "createdAt": 1773402292992,
+      "createdAt": 1773405997344,
       "depth": 1
     },
     {
-      "id": "8e1be38f229d",
+      "id": "016856dc215b",
+      "domain": "search-ranking",
+      "title": "Search round 49: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773405283226,
+      "depth": 2
+    },
+    {
+      "id": "4f88e7d12e68",
+      "domain": "search-ranking",
+      "title": "Search round 49: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773405283151,
+      "depth": 2
+    },
+    {
+      "id": "8e0603170793",
       "domain": "skills",
       "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1999,
       "isCurrentBest": false,
-      "createdAt": 1773402151067,
+      "createdAt": 1773405128263,
       "depth": 1
     },
     {
-      "id": "afbc80d21176",
-      "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
+      "id": "0614347835ef",
+      "domain": "search-ranking",
+      "title": "Search round 43: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
       "isCurrentBest": false,
-      "createdAt": 1773402041880,
+      "createdAt": 1773404743695,
+      "depth": 2
+    },
+    {
+      "id": "323086e57b90",
+      "domain": "search-ranking",
+      "title": "Search round 43: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773404743395,
+      "depth": 2
+    },
+    {
+      "id": "65ba12467cbb",
+      "domain": "search-ranking",
+      "title": "Search round 43: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773404743313,
+      "depth": 2
+    },
+    {
+      "id": "4e1ff433a9fa",
+      "domain": "search-ranking",
+      "title": "Search round 43: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773404743213,
+      "depth": 2
+    },
+    {
+      "id": "76520a62aade",
+      "domain": "search-ranking",
+      "title": "Search round 43: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773404743102,
+      "depth": 2
+    },
+    {
+      "id": "d63a8451fbe9",
+      "domain": "search-ranking",
+      "title": "Search round 43: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773404742979,
+      "depth": 2
+    },
+    {
+      "id": "b9faf28873d1",
+      "domain": "search-ranking",
+      "title": "Search round 37: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773404205035,
+      "depth": 2
+    },
+    {
+      "id": "f04cd00360b5",
+      "domain": "search-ranking",
+      "title": "Search round 37: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773404203771,
+      "depth": 2
+    },
+    {
+      "id": "0a089dc524ab",
+      "domain": "search-ranking",
+      "title": "Search round 37: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773404203667,
+      "depth": 2
+    },
+    {
+      "id": "290d16a9f830",
+      "domain": "search-ranking",
+      "title": "Search round 37: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773404203575,
+      "depth": 2
+    },
+    {
+      "id": "5e2a9bb558ca",
+      "domain": "search-ranking",
+      "title": "Search round 37: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": false,
+      "createdAt": 1773404203491,
+      "depth": 2
+    },
+    {
+      "id": "388c2628953b",
+      "domain": "search-ranking",
+      "title": "Search round 37: increase diversity penalty (0.2)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3935620718710802,
+      "isCurrentBest": true,
+      "createdAt": 1773404203383,
+      "depth": 1
+    },
+    {
+      "id": "92f78098d273",
+      "domain": "finance",
+      "title": "Finance round 15: Sharpe=1.3161",
+      "metricName": "Sharpe",
+      "metricValue": 1.3161,
+      "isCurrentBest": false,
+      "createdAt": 1773403060752,
       "depth": 17
     },
     {
-      "id": "96db9ceaf7f1",
+      "id": "520ba15a8312",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 19",
+      "title": "Cause infra-optimization round 35",
       "metricName": "score",
-      "metricValue": 0.952033387539183,
+      "metricValue": 54.038723729657406,
       "isCurrentBest": false,
-      "createdAt": 1773402014620,
+      "createdAt": 1773402941635,
       "depth": 1
     },
     {
-      "id": "690700805a29",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.2223",
-      "metricName": "Sharpe",
-      "metricValue": 1.2223,
-      "isCurrentBest": false,
-      "createdAt": 1773401905481,
-      "depth": 17
-    },
-    {
-      "id": "ee2100f4ee5e",
+      "id": "0c1fecccf33b",
       "domain": "skills",
       "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1999,
       "isCurrentBest": false,
-      "createdAt": 1773401823627,
-      "depth": 1
-    },
-    {
-      "id": "a50af453b83f",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 15",
-      "metricName": "score",
-      "metricValue": 54.37959597409186,
-      "isCurrentBest": false,
-      "createdAt": 1773401796370,
-      "depth": 1
-    },
-    {
-      "id": "4ff7437c0b40",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2117",
-      "metricName": "Sharpe",
-      "metricValue": 1.2117,
-      "isCurrentBest": false,
-      "createdAt": 1773401769081,
-      "depth": 17
-    },
-    {
-      "id": "a64faf46df5d",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14",
-      "metricName": "score",
-      "metricValue": 54.74731664861833,
-      "isCurrentBest": false,
-      "createdAt": 1773401741800,
-      "depth": 1
-    },
-    {
-      "id": "b9c23c7b4ef1",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773401714522,
-      "depth": 1
-    },
-    {
-      "id": "368f32ac8e39",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773401605364,
-      "depth": 1
-    },
-    {
-      "id": "0a729b7909c7",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 10",
-      "metricName": "score",
-      "metricValue": 54.77232956445867,
-      "isCurrentBest": false,
-      "createdAt": 1773401523506,
-      "depth": 1
-    },
-    {
-      "id": "7e12ca199238",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773401496222,
-      "depth": 1
-    },
-    {
-      "id": "856493d5bd2d",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.1858",
-      "metricName": "Sharpe",
-      "metricValue": 1.1858,
-      "isCurrentBest": false,
-      "createdAt": 1773401496220,
-      "depth": 17
-    },
-    {
-      "id": "6b465199ccc6",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773401387070,
-      "depth": 1
-    },
-    {
-      "id": "d8e33135b206",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1760",
-      "metricName": "Sharpe",
-      "metricValue": 1.176,
-      "isCurrentBest": false,
-      "createdAt": 1773401359805,
-      "depth": 17
-    },
-    {
-      "id": "ff10626c8741",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773401277900,
+      "createdAt": 1773402733792,
       "depth": 1
     }
   ],
@@ -335,6 +335,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "388c2628953b",
+        "title": "Search round 37: increase diversity penalty (0.2)",
+        "metricValue": 0.3935620718710802,
+        "depth": 1
+      },
       {
         "id": "59781533e695",
         "title": "Search round 18: disable query expansion",
