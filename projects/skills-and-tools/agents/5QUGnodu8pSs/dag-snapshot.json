@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T15:45:52.667Z",
+  "timestamp": "2026-03-13T16:45:52.863Z",
   "peerId": "12D3KooW9tme1vPM635wHp72zbvq6sJDK6PsidHLrSS4BoZ5BvN9",
   "stats": {
-    "totalNodes": 228,
+    "totalNodes": 229,
     "observations": 0,
-    "experiments": 228,
+    "experiments": 229,
     "syntheses": 0,
-    "totalEdges": 224,
+    "totalEdges": 225,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 48,
+    "infrastructure": 49,
     "skills": 103,
     "finance": 56,
     "search-ranking": 21
   },
   "recentExperiments": [
+    {
+      "id": "fc4c21268d8e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 307",
+      "metricName": "score",
+      "metricValue": 54.03104223345494,
+      "isCurrentBest": false,
+      "createdAt": 1773419032546,
+      "depth": 3
+    },
     {
       "id": "1f577e128ebc",
       "domain": "skills",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773404199431,
-      "depth": 2
-    },
-    {
-      "id": "1d437a9ba340",
-      "domain": "search-ranking",
-      "title": "Search round 40: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773404198168,
       "depth": 2
     }
   ],
