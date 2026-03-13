@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T15:53:41.620Z",
+  "timestamp": "2026-03-13T16:53:41.668Z",
   "peerId": "12D3KooWBegh7irKw8LipTCMvH6tAFJKZ8Kuh3XUrAcnne2fzfbQ",
   "stats": {
-    "totalNodes": 95,
+    "totalNodes": 99,
     "observations": 0,
-    "experiments": 95,
+    "experiments": 99,
     "syntheses": 0,
-    "totalEdges": 92,
+    "totalEdges": 96,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "32edc5a4bb9ea8f1003e82a954863d29e6767c87e725269d5c0b33cb3f3a0f7d",
-      "title": "Cause infra-optimization round 1",
+      "nodeId": "298f09665271ac692d64cd8eeb8a6d17e79b83c3c3bc9ddb3b80527a47258ba0",
+      "title": "Cause infra-optimization round 289",
       "metricName": "score",
-      "metricValue": 56.9303519985819,
+      "metricValue": 64.12359579007455,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "finance": {
       "nodeId": "1c862e7228af9ed21c11fac32f065e7552f0aeccb18acd9c8243f18c3ea4d042",
@@ -39,11 +39,51 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 37,
+    "infrastructure": 41,
     "finance": 37,
     "search-ranking": 21
   },
   "recentExperiments": [
+    {
+      "id": "c29f77e5d07d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 296",
+      "metricName": "score",
+      "metricValue": 64.00892540503753,
+      "isCurrentBest": false,
+      "createdAt": 1773418841515,
+      "depth": 3
+    },
+    {
+      "id": "a9bb8f15b983",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 289",
+      "metricName": "score",
+      "metricValue": 0.9521558972705924,
+      "isCurrentBest": false,
+      "createdAt": 1773418421504,
+      "depth": 3
+    },
+    {
+      "id": "298f09665271",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 289",
+      "metricName": "score",
+      "metricValue": 64.12359579007455,
+      "isCurrentBest": true,
+      "createdAt": 1773418421501,
+      "depth": 2
+    },
+    {
+      "id": "40c4050336c1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 280",
+      "metricName": "score",
+      "metricValue": 0.9436834192163778,
+      "isCurrentBest": false,
+      "createdAt": 1773417881494,
+      "depth": 2
+    },
     {
       "id": "9b7dbee7784f",
       "domain": "infrastructure",
@@ -203,51 +243,17 @@
       "isCurrentBest": false,
       "createdAt": 1773404481354,
       "depth": 2
-    },
-    {
-      "id": "8514908e2323",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost diversity weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": true,
-      "createdAt": 1773404481240,
-      "depth": 1
-    },
-    {
-      "id": "1c862e7228af",
-      "domain": "finance",
-      "title": "Finance round 17: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": true,
-      "createdAt": 1773403571251,
-      "depth": 7
-    },
-    {
-      "id": "feffacacfbe4",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 41",
-      "metricName": "score",
-      "metricValue": 54.049533461363595,
-      "isCurrentBest": false,
-      "createdAt": 1773403541232,
-      "depth": 2
-    },
-    {
-      "id": "10c40e56d72a",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 36",
-      "metricName": "score",
-      "metricValue": 54.07645737081679,
-      "isCurrentBest": false,
-      "createdAt": 1773403241225,
-      "depth": 2
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "298f09665271",
+        "title": "Cause infra-optimization round 289",
+        "metricValue": 64.12359579007455,
+        "depth": 2
+      },
       {
         "id": "32edc5a4bb9e",
         "title": "Cause infra-optimization round 1",
