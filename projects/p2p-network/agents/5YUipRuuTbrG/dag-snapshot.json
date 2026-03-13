@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T18:55:51.364Z",
+  "timestamp": "2026-03-13T19:56:52.973Z",
   "peerId": "12D3KooWEMqtZZVceW7kiAhvBUNwNmWvgzkRgGGFZ5apM6qSVNcq",
   "stats": {
-    "totalNodes": 95,
+    "totalNodes": 96,
     "observations": 0,
-    "experiments": 95,
+    "experiments": 96,
     "syntheses": 0,
-    "totalEdges": 91,
+    "totalEdges": 92,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 30,
-    "skills": 27,
+    "skills": 28,
     "finance": 17,
     "search-ranking": 21
   },
   "recentExperiments": [
+    {
+      "id": "112971caec23",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773430106690,
+      "depth": 1
+    },
     {
       "id": "0d2c1a17c291",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773404058482,
-      "depth": 2
-    },
-    {
-      "id": "11bef62c1337",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773404057305,
       "depth": 2
     }
   ],
