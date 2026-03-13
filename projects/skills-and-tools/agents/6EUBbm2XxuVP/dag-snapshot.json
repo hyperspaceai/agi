@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T16:55:50.581Z",
+  "timestamp": "2026-03-13T17:57:42.662Z",
   "peerId": "12D3KooWF3qMLtcF9okstvyMiikCmDAsMrnXV3hJZRvcJiXMhrmB",
   "stats": {
-    "totalNodes": 70,
+    "totalNodes": 72,
     "observations": 0,
-    "experiments": 70,
+    "experiments": 72,
     "syntheses": 0,
-    "totalEdges": 66,
+    "totalEdges": 68,
     "maxDepth": 4,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 20,
-    "skills": 26,
+    "infrastructure": 21,
+    "skills": 27,
     "finance": 10,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "c9dffc5a1934",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773424051335,
+      "depth": 2
+    },
+    {
+      "id": "2e8d793251a7",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 364",
+      "metricName": "score",
+      "metricValue": 54.046101936369475,
+      "isCurrentBest": false,
+      "createdAt": 1773422879146,
+      "depth": 1
+    },
     {
       "id": "ff9a2b9987a7",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773404624603,
       "depth": 1
-    },
-    {
-      "id": "2dc1772a614d",
-      "domain": "search-ranking",
-      "title": "Search round 42: use softmax normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.39333333333333337,
-      "isCurrentBest": false,
-      "createdAt": 1773404624287,
-      "depth": 1
-    },
-    {
-      "id": "bbc1fa97676f",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773404259873,
-      "depth": 2
     }
   ],
   "frontier": [],
