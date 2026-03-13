@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWFRcELBCDZ4AnAB37k6HN1j9S65XvKPtcdWEDWexBggEe",
-  "runNumber": 1,
-  "timestamp": 1773365626878,
-  "hypothesis": "Explore: aggressive LR (0.006) + warmup",
+  "runNumber": 3,
+  "timestamp": 1773365956297,
+  "hypothesis": "Improve on ba11c85a (loss=3.9362): switch to SiLU activation",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -21,7 +21,7 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "gelu",
+    "activation": "silu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.9361763421728604,
-    "trainLoss": 3.946060201491036,
+    "valLoss": 3.8521009836621105,
+    "trainLoss": 3.8728448440711083,
     "lossCurve": [
       [
-        106,
-        3.9361763421728604
+        105,
+        3.8521009836621105
       ]
     ],
-    "durationSec": 128.719,
-    "tokensPerSec": 1686.5264646244923,
-    "totalTokens": 217088
+    "durationSec": 129.882,
+    "tokensPerSec": 1655.6566729800895,
+    "totalTokens": 215040
   },
-  "improvement": 0,
+  "improvement": -2.1359652414438917,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
