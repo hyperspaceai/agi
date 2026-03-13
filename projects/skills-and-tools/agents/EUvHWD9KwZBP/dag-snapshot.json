@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T20:07:58.188Z",
+  "timestamp": "2026-03-13T21:43:26.986Z",
   "peerId": "12D3KooWPJHTFLj38TStKjko1VgUCFA2fZM7W3g3gL9fzAXSp1mm",
   "stats": {
-    "totalNodes": 68,
+    "totalNodes": 119,
     "observations": 0,
-    "experiments": 68,
+    "experiments": 119,
     "syntheses": 0,
-    "totalEdges": 64,
-    "maxDepth": 6,
+    "totalEdges": 115,
+    "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 22
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "f863a086b35c46e18d6641e2b09e47bc7500c46d69664811640e99e93396fce1",
+      "nodeId": "6a37fe840540c834f3fd4cc31561a5df6e6293af1d82bcda96537ebde5e9e919",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 61.89065659524164,
+      "metricValue": 147.6935003558693,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     },
     "skills": {
       "nodeId": "adae0517b3058ce74f1486c0c4ad6cfff2d3174f67b17789093b487eea8e6758",
@@ -38,225 +38,231 @@
       "depth": 6
     },
     "search-ranking": {
-      "nodeId": "02e82341b67095f1930015edcb4d0a0a17a8f273995cf7a60e78e73e576e602a",
-      "title": "Search round 31: aggressive peer timeout (500ms)",
+      "nodeId": "84a2654197ce3efb1fdd126e591cc77d4d6a4b1b7914e6435983d9479e452012",
+      "title": "Search round 31: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 19,
-    "skills": 24,
-    "finance": 11,
-    "search-ranking": 14
+    "infrastructure": 32,
+    "skills": 34,
+    "finance": 25,
+    "search-ranking": 28
   },
   "recentExperiments": [
     {
-      "id": "ccfb008b04a4",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
+      "id": "8d28360cd391",
+      "domain": "finance",
+      "title": "Finance round 29: Sharpe=1.2946",
+      "metricName": "Sharpe",
+      "metricValue": 1.2946,
       "isCurrentBest": false,
-      "createdAt": 1773429118030,
+      "createdAt": 1773437156579,
+      "depth": 7
+    },
+    {
+      "id": "436a8e4e83d6",
+      "domain": "finance",
+      "title": "Finance round 25: Sharpe=1.2854",
+      "metricName": "Sharpe",
+      "metricValue": 1.2854,
+      "isCurrentBest": false,
+      "createdAt": 1773436556559,
+      "depth": 7
+    },
+    {
+      "id": "31fe7234b44e",
+      "domain": "finance",
+      "title": "Finance round 24: Sharpe=1.2818",
+      "metricName": "Sharpe",
+      "metricValue": 1.2818,
+      "isCurrentBest": false,
+      "createdAt": 1773436406553,
+      "depth": 7
+    },
+    {
+      "id": "7a6697fb25c4",
+      "domain": "search-ranking",
+      "title": "Search round 39: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773436382839,
       "depth": 2
     },
     {
-      "id": "baf653d592b8",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
+      "id": "75f3ebc179a2",
+      "domain": "search-ranking",
+      "title": "Search round 39: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773427558012,
+      "createdAt": 1773436382741,
       "depth": 2
     },
     {
-      "id": "1d8ccfe1993b",
+      "id": "b8ec4842b52b",
       "domain": "search-ranking",
-      "title": "Search round 39: aggressive peer timeout (500ms)",
+      "title": "Search round 39: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773427024681,
-      "depth": 1
+      "createdAt": 1773436382632,
+      "depth": 2
     },
     {
-      "id": "beb1bfabeb84",
+      "id": "35f51b6ca0a0",
       "domain": "search-ranking",
-      "title": "Search round 39: aggressive peer timeout (500ms)",
+      "title": "Search round 39: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773427023972,
-      "depth": 1
+      "createdAt": 1773436382538,
+      "depth": 2
     },
     {
-      "id": "6e1fdb0db059",
+      "id": "8939355c158a",
       "domain": "search-ranking",
-      "title": "Search round 39: aggressive peer timeout (500ms)",
+      "title": "Search round 39: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773427023877,
-      "depth": 1
+      "createdAt": 1773436382434,
+      "depth": 2
     },
     {
-      "id": "37bec02adca8",
-      "domain": "search-ranking",
-      "title": "Search round 39: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "id": "1ba395cb7cf3",
+      "domain": "finance",
+      "title": "Finance round 23: Sharpe=1.2780",
+      "metricName": "Sharpe",
+      "metricValue": 1.278,
       "isCurrentBest": false,
-      "createdAt": 1773427023739,
-      "depth": 1
+      "createdAt": 1773436256541,
+      "depth": 7
     },
     {
-      "id": "6d9f2c2de474",
+      "id": "8c30ffa81845",
       "domain": "search-ranking",
-      "title": "Search round 39: aggressive peer timeout (500ms)",
+      "title": "Search round 35: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773427023605,
-      "depth": 1
+      "createdAt": 1773436023274,
+      "depth": 2
     },
     {
-      "id": "a878be2e6ecc",
+      "id": "873e0e42aab5",
       "domain": "search-ranking",
-      "title": "Search round 35: aggressive peer timeout (500ms)",
+      "title": "Search round 35: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773426664225,
-      "depth": 1
+      "createdAt": 1773436022859,
+      "depth": 2
     },
     {
-      "id": "9005f3fbd5fc",
+      "id": "662015852396",
       "domain": "search-ranking",
-      "title": "Search round 35: aggressive peer timeout (500ms)",
+      "title": "Search round 35: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773426664097,
-      "depth": 1
+      "createdAt": 1773436022758,
+      "depth": 2
     },
     {
-      "id": "5ee3f296eae0",
+      "id": "da890ede45a0",
       "domain": "search-ranking",
-      "title": "Search round 35: aggressive peer timeout (500ms)",
+      "title": "Search round 35: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773426663965,
-      "depth": 1
+      "createdAt": 1773436022602,
+      "depth": 2
     },
     {
-      "id": "6a843f78df4b",
+      "id": "38464bfd1c87",
       "domain": "search-ranking",
-      "title": "Search round 35: aggressive peer timeout (500ms)",
+      "title": "Search round 31: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773426663832,
-      "depth": 1
+      "createdAt": 1773435604514,
+      "depth": 2
     },
     {
-      "id": "3aceac9aae03",
+      "id": "7f0f99322c85",
       "domain": "search-ranking",
-      "title": "Search round 31: aggressive peer timeout (500ms)",
+      "title": "Search round 31: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773426305866,
-      "depth": 1
+      "createdAt": 1773435603132,
+      "depth": 2
     },
     {
-      "id": "7f361d235cd7",
+      "id": "0034a83e4130",
       "domain": "search-ranking",
-      "title": "Search round 31: aggressive peer timeout (500ms)",
+      "title": "Search round 31: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773426304278,
-      "depth": 1
+      "createdAt": 1773435602673,
+      "depth": 2
     },
     {
-      "id": "309ad0ed36fa",
+      "id": "5d1a325a0a69",
       "domain": "search-ranking",
-      "title": "Search round 31: aggressive peer timeout (500ms)",
+      "title": "Search round 31: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773426304088,
-      "depth": 1
+      "createdAt": 1773435602294,
+      "depth": 2
     },
     {
-      "id": "d582ed87aed8",
+      "id": "84a2654197ce",
       "domain": "search-ranking",
-      "title": "Search round 31: aggressive peer timeout (500ms)",
+      "title": "Search round 31: require 5 unique domains",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773426303796,
-      "depth": 1
-    },
-    {
-      "id": "02e82341b670",
-      "domain": "search-ranking",
-      "title": "Search round 31: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": true,
-      "createdAt": 1773426303463,
-      "depth": 0
-    },
-    {
-      "id": "9b93547ef3aa",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773426117948,
-      "depth": 2
-    },
-    {
-      "id": "11baaf204b32",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773425397706,
-      "depth": 2
-    },
-    {
-      "id": "696489be9e3c",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 27",
-      "metricName": "score",
-      "metricValue": 54.03373094893286,
-      "isCurrentBest": false,
-      "createdAt": 1773425157687,
+      "createdAt": 1773435602164,
       "depth": 1
     },
     {
-      "id": "2b134d3dfbe8",
+      "id": "ce3fa3bc04cf",
+      "domain": "finance",
+      "title": "Finance round 17: Sharpe=1.2668",
+      "metricName": "Sharpe",
+      "metricValue": 1.2668,
+      "isCurrentBest": false,
+      "createdAt": 1773435356508,
+      "depth": 7
+    },
+    {
+      "id": "7b01eb6c1dfd",
       "domain": "skills",
       "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1773425037706,
+      "createdAt": 1773435206512,
       "depth": 2
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "6a37fe840540",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.6935003558693,
+        "depth": 1
+      },
       {
         "id": "f863a086b35c",
         "title": "Cause infra-optimization round 1",
@@ -323,6 +329,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "84a2654197ce",
+        "title": "Search round 31: require 5 unique domains",
+        "metricValue": 0.4,
+        "depth": 1
+      },
       {
         "id": "02e82341b670",
         "title": "Search round 31: aggressive peer timeout (500ms)",
