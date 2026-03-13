@@ -1,10 +1,10 @@
 # Search Research — Agent 2BGBQ8gebCRf
 
 **Best NDCG@10:** 0.3926
-**Hypothesis:** boost authority weight (+0.05)
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 11d3dbc4
-**Updated:** 2026-03-12T20:26:23.234Z
+**Run:** 49e89d16
+**Updated:** 2026-03-13T05:29:18.698Z
