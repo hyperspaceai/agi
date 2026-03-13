@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T21:53:02.976Z",
+  "timestamp": "2026-03-13T23:59:06.930Z",
   "peerId": "12D3KooWNKXz739jt6HoFEL46wi6KFsrLm6qiBGyhcETGJiSoGQH",
   "stats": {
-    "totalNodes": 296,
+    "totalNodes": 300,
     "observations": 0,
-    "experiments": 296,
+    "experiments": 300,
     "syntheses": 0,
-    "totalEdges": 292,
+    "totalEdges": 296,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 15
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "876d98b3d3abbc87b2c22fd71aa50f05bc3b70c4da2a46623a8a0a6f1a1cff51",
-      "title": "Cause infra-optimization round 1",
+      "nodeId": "eea1d9d0f0c3188b32e64734d768b69dc6fd19b9943b4651a01b548cb12df6a4",
+      "title": "Cause infra-optimization round 134",
       "metricName": "score",
-      "metricValue": 144.34049216898083,
+      "metricValue": 144.3515280054328,
       "metricDirection": "maximize",
-      "depth": 2
+      "depth": 3
     },
     "skills": {
       "nodeId": "33a8fbc94bbb65d6826eaaa234d21043971742546dc1194058b1fbf4d5295724",
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 78,
+    "infrastructure": 82,
     "skills": 116,
     "finance": 63,
     "search-ranking": 39
   },
   "recentExperiments": [
+    {
+      "id": "5f059282fb52",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 140",
+      "metricName": "score",
+      "metricValue": 141.36465941862872,
+      "isCurrentBest": false,
+      "createdAt": 1773442089449,
+      "depth": 4
+    },
+    {
+      "id": "852bcaa6f70f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 137",
+      "metricName": "score",
+      "metricValue": 142.61086382819957,
+      "isCurrentBest": false,
+      "createdAt": 1773441895233,
+      "depth": 4
+    },
+    {
+      "id": "d9a704626465",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 135",
+      "metricName": "score",
+      "metricValue": 143.1690452801598,
+      "isCurrentBest": false,
+      "createdAt": 1773441764541,
+      "depth": 4
+    },
+    {
+      "id": "eea1d9d0f0c3",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 134",
+      "metricName": "score",
+      "metricValue": 144.3515280054328,
+      "isCurrentBest": true,
+      "createdAt": 1773441699183,
+      "depth": 3
+    },
     {
       "id": "a5eeb22637ff",
       "domain": "search-ranking",
@@ -212,51 +252,17 @@
       "isCurrentBest": false,
       "createdAt": 1773434610104,
       "depth": 3
-    },
-    {
-      "id": "e5c66ec6a208",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1773434544571,
-      "depth": 10
-    },
-    {
-      "id": "75a5d3b4e35c",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1773434350789,
-      "depth": 3
-    },
-    {
-      "id": "b457455820ca",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1773433958337,
-      "depth": 3
-    },
-    {
-      "id": "afbf3d32c5f1",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1773433829984,
-      "depth": 3
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "eea1d9d0f0c3",
+        "title": "Cause infra-optimization round 134",
+        "metricValue": 144.3515280054328,
+        "depth": 3
+      },
       {
         "id": "876d98b3d3ab",
         "title": "Cause infra-optimization round 1",
