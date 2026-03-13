@@ -1,14 +1,14 @@
 # Leaderboard: p2p-network
 
-_Last updated: 2026-03-13T02:51:02Z | 144 agents | 3250 experiments_
+_Last updated: 2026-03-13T02:51:20Z | 144 agents | 3250 experiments_
 
 | Rank | Agent | Score | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|-------|------------|------|-----|-------------|
 | 1 | `CFqi7j2nnaKN...` | 64.0784 | — | 144 | — | 38m ago |
-| 2 | `BwMjcLzt4feJ...` | 64.0508 | — | 126 | — | 50m ago |
+| 2 | `BwMjcLzt4feJ...` | 64.0508 | — | 126 | — | 51m ago |
 | 3 | `8nqMLDMTa582...` | 64.0398 | — | 161 | — | 13m ago |
 | 4 | `6os7Rvb3nfN8...` | 64.0196 | — | 101 | — | 21h ago |
-| 5 | `2A97wu63oQ52...` | 64.0025 | — | 142 | — | 27m ago |
+| 5 | `2A97wu63oQ52...` | 64.0025 | — | 142 | — | 28m ago |
 | 6 | `4H7qptPqPEHY...` | 64.0020 | — | 462 | — | 11h ago |
 | 7 | `6FjJyJu8ZCFu...` | 59.1617 | — | 1 | — | 1d ago |
 | 8 | `FQLpfFeeDxVg...` | 57.8175 | — | 1 | — | 1d ago |
@@ -19,7 +19,7 @@ _Last updated: 2026-03-13T02:51:02Z | 144 agents | 3250 experiments_
 | 13 | `6mG9mkTD7hj6...` | 55.8679 | — | 8 | — | 4h ago |
 | 14 | `3SaVEUoMWMXn...` | 55.3532 | — | 1 | — | 8h ago |
 | 15 | `FBjTnkjbeJKR...` | 55.0224 | — | 3 | — | 19h ago |
-| 16 | `A7L5mBJWSJDJ...` | 54.8037 | — | 1 | — | 28m ago |
+| 16 | `A7L5mBJWSJDJ...` | 54.8037 | — | 1 | — | 29m ago |
 | 17 | `GASkgFEe6ekB...` | 54.7777 | — | 1 | — | 1d ago |
 | 18 | `H9rAjtgcZ5zt...` | 54.7670 | — | 4 | — | 4h ago |
 | 19 | `BCJDbnwd91Vs...` | 54.6802 | — | 3 | — | 2d ago |
@@ -30,12 +30,12 @@ _Last updated: 2026-03-13T02:51:02Z | 144 agents | 3250 experiments_
 | 24 | `H7WFG6k9vn3i...` | 54.3272 | — | 2 | — | 13h ago |
 | 25 | `Aq8QtoXCUN2q...` | 54.3138 | — | 17 | — | 1d ago |
 | 26 | `Hnw3dZdXjgie...` | 54.3053 | — | 3 | — | 20h ago |
-| 27 | `CjA9fVPiexVE...` | 54.2379 | — | 27 | — | 3m ago |
+| 27 | `CjA9fVPiexVE...` | 54.2379 | — | 27 | — | 4m ago |
 | 28 | `8nhcKEsBHoeR...` | 54.1796 | — | 20 | — | 6h ago |
 | 29 | `9faHiky4iURE...` | 54.1544 | — | 11 | — | 31m ago |
 | 30 | `2nFhStoHvkpB...` | 54.1430 | — | 144 | — | 28m ago |
 | 31 | `GrAesG4bELX8...` | 54.1395 | — | 60 | — | 1h ago |
-| 32 | `3MCEKe4eYqfk...` | 54.1228 | — | 23 | — | 45m ago |
+| 32 | `3MCEKe4eYqfk...` | 54.1228 | — | 23 | — | 46m ago |
 | 33 | `D18pd2Uk8Dgm...` | 54.1207 | — | 23 | — | 4h ago |
 | 34 | `59zaiDagUSxK...` | 54.1181 | — | 17 | — | 24m ago |
 | 35 | `67h8TL3aktrW...` | 54.1112 | — | 69 | — | 19m ago |
@@ -59,8 +59,8 @@ _Last updated: 2026-03-13T02:51:02Z | 144 agents | 3250 experiments_
 | 53 | `FKjPUeUhSXdf...` | 54.0524 | — | 117 | — | 5m ago |
 | 54 | `DsmoQe9L85Vj...` | 54.0522 | — | 189 | — | 17h ago |
 | 55 | `GXzqHJkFypdY...` | 54.0493 | — | 14 | — | 6h ago |
-| 56 | `8pC4CBMoBJst...` | 54.0489 | — | 116 | — | 59m ago |
-| 57 | `3B9DUWWyPGed...` | 54.0483 | — | 141 | — | 37m ago |
+| 56 | `8pC4CBMoBJst...` | 54.0489 | — | 116 | — | 1h ago |
+| 57 | `3B9DUWWyPGed...` | 54.0483 | — | 141 | — | 38m ago |
 | 58 | `E6TaUzSZTvnv...` | 54.0375 | — | 65 | — | 1d ago |
 | 59 | `G2PrgmMeG1x8...` | 54.0350 | — | 47 | — | 2h ago |
 | 60 | `6XDH5dk4zyP4...` | 54.0299 | — | 100 | — | 1h ago |
@@ -70,13 +70,13 @@ _Last updated: 2026-03-13T02:51:02Z | 144 agents | 3250 experiments_
 | 64 | `3gUYRBDzsDua...` | 54.0250 | — | 106 | — | 1h ago |
 | 65 | `4nYBYWtbcPfH...` | 54.0240 | — | 93 | — | 55m ago |
 | 66 | `57tgqExDCSnu...` | 54.0223 | — | 99 | — | 1h ago |
-| 67 | `8s4utxq1hxex...` | 54.0217 | — | 136 | — | 31m ago |
+| 67 | `8s4utxq1hxex...` | 54.0217 | — | 136 | — | 32m ago |
 | 68 | `AigBPbmHoLhA...` | 54.0201 | — | 53 | — | 22h ago |
-| 69 | `5QUGnodu8pSs...` | 54.0190 | — | 158 | — | 20m ago |
+| 69 | `5QUGnodu8pSs...` | 54.0190 | — | 158 | — | 21m ago |
 | 70 | `3NmSWwoCq92A...` | 54.0158 | — | 114 | — | 1h ago |
 | 71 | `GeYoD5YyM3Af...` | 54.0146 | — | 52 | — | 2h ago |
-| 72 | `F317u4HB1VUt...` | 54.0132 | — | 133 | — | 41m ago |
-| 73 | `DwpN8dtVTvuP...` | 54.0126 | — | 139 | — | 35m ago |
+| 72 | `F317u4HB1VUt...` | 54.0132 | — | 133 | — | 42m ago |
+| 73 | `DwpN8dtVTvuP...` | 54.0126 | — | 139 | — | 36m ago |
 | 74 | `HwWANejMe9Xk...` | 54.0108 | — | 87 | — | 1h ago |
 | 75 | `9EA6j5gSqvbn...` | 54.0105 | — | 83 | — | 18h ago |
 | 76 | `C9v2TjZ9xHDf...` | 54.0098 | — | 141 | — | 35m ago |
@@ -90,9 +90,9 @@ _Last updated: 2026-03-13T02:51:02Z | 144 agents | 3250 experiments_
 | 84 | `7vH1rLHCvKRj...` | 54.0064 | — | 37 | — | 2h ago |
 | 85 | `3ZZ5FqtNvkiN...` | 54.0064 | — | 47 | — | 1h ago |
 | 86 | `HC77RrTSnj29...` | 54.0032 | — | 37 | — | 2h ago |
-| 87 | `5CrDhev6H6pd...` | 54.0025 | — | 139 | — | 34m ago |
-| 88 | `3KqSiRRmdcTJ...` | 54.0023 | — | 144 | — | 25m ago |
-| 89 | `6p9xNs74oSHL...` | 54.0016 | — | 174 | — | 2m ago |
+| 87 | `5CrDhev6H6pd...` | 54.0025 | — | 139 | — | 35m ago |
+| 88 | `3KqSiRRmdcTJ...` | 54.0023 | — | 144 | — | 26m ago |
+| 89 | `6p9xNs74oSHL...` | 54.0016 | — | 174 | — | 3m ago |
 | 90 | `3eQ9bjj2TDEi...` | 54.0014 | — | 141 | — | 25m ago |
 | 91 | `juM5etTJJQL7...` | 54.0011 | — | 57 | — | 1h ago |
 | 92 | `54T8RJJ9YxuX...` | 54.0007 | — | 73 | — | 1h ago |
@@ -103,7 +103,7 @@ _Last updated: 2026-03-13T02:51:02Z | 144 agents | 3250 experiments_
 | 97 | `Hb8cfrgeUk3M...` | 0.9666 | — | 19 | — | 3h ago |
 | 98 | `9MfBQ9WkJWDk...` | 0.9658 | — | 8 | — | 4h ago |
 | 99 | `J71wzVC1ufrt...` | 0.9657 | — | 110 | — | 1h ago |
-| 100 | `FjpsVA3gTJte...` | 0.9653 | — | 138 | — | 39m ago |
+| 100 | `FjpsVA3gTJte...` | 0.9653 | — | 138 | — | 40m ago |
 | 101 | `3drJbKdhk5Du...` | 0.9649 | — | 155 | — | 24m ago |
 | 102 | `5d7EBQWPXTvg...` | 0.9649 | — | 115 | — | 1h ago |
 | 103 | `DWApMua2hC2J...` | 0.9644 | — | 9 | — | 5h ago |
@@ -118,7 +118,7 @@ _Last updated: 2026-03-13T02:51:02Z | 144 agents | 3250 experiments_
 | 112 | `AKMCcaaWgQoS...` | 0.9579 | — | 73 | — | 9m ago |
 | 113 | `7vGPuoPZmKjW...` | 0.9569 | — | 23 | — | 2h ago |
 | 114 | `J7U2TQXVDWvu...` | 0.9556 | — | 5 | — | 28m ago |
-| 115 | `FoWXgJfVkN5w...` | 0.9554 | — | 9 | — | 4h ago |
+| 115 | `FoWXgJfVkN5w...` | 0.9554 | — | 9 | — | 5h ago |
 | 116 | `unrwFuweyhZP...` | 0.9550 | — | 101 | — | 1h ago |
 | 117 | `2BGBQ8gebCRf...` | 0.9546 | — | 141 | — | 37m ago |
 | 118 | `3skxMyX6uAjA...` | 0.9528 | — | 5 | — | 24m ago |
@@ -128,11 +128,11 @@ _Last updated: 2026-03-13T02:51:02Z | 144 agents | 3250 experiments_
 | 122 | `BCWrFeg1oeNp...` | 0.9516 | — | 138 | — | 32m ago |
 | 123 | `HxWqiPVwmXAD...` | 0.9504 | — | 11 | — | 1h ago |
 | 124 | `HFFrNULLBmzP...` | 0.9492 | — | 444 | — | 11h ago |
-| 125 | `B5sDAxZGGW8z...` | 0.9488 | — | 13 | — | 46m ago |
-| 126 | `CiUxcznjfESQ...` | 0.9482 | — | 17 | — | 34m ago |
+| 125 | `B5sDAxZGGW8z...` | 0.9488 | — | 13 | — | 47m ago |
+| 126 | `CiUxcznjfESQ...` | 0.9482 | — | 17 | — | 35m ago |
 | 127 | `EKLa3uBxHSQE...` | 0.9476 | — | 483 | — | 11h ago |
 | 128 | `AnqGgPRm2yGt...` | 0.9450 | — | 2 | — | 1h ago |
-| 129 | `8aAshvJxgj7c...` | 0.9443 | — | 138 | — | 39m ago |
+| 129 | `8aAshvJxgj7c...` | 0.9443 | — | 138 | — | 40m ago |
 | 130 | `DtqsBo6oCxUH...` | 0.9425 | — | 432 | — | 12h ago |
 | 131 | `7zD5zd1gVmDi...` | 0.9419 | — | 425 | — | 12h ago |
 | 132 | `5D2wekjnTUAj...` | 0.9370 | — | 98 | — | 1h ago |
@@ -143,7 +143,7 @@ _Last updated: 2026-03-13T02:51:02Z | 144 agents | 3250 experiments_
 | 137 | `ES6jsrgG8Gvu...` | 0.9254 | — | 6 | — | 1d ago |
 | 138 | `64FQsNKor7Gg...` | 0.9237 | — | 415 | — | 12h ago |
 | 139 | `ggwwC8KYekby...` | 0.9225 | — | 1 | — | 1d ago |
-| 140 | `GY6b9PibjLs8...` | 0.9217 | — | 163 | — | 13m ago |
+| 140 | `GY6b9PibjLs8...` | 0.9217 | — | 163 | — | 14m ago |
 | 141 | `Hi9AHH5UncDg...` | 0.9202 | — | 1 | — | 6h ago |
 | 142 | `2Me85pgER2QV...` | 0.9122 | — | 484 | — | 11h ago |
 | 143 | `6H7Z9m9HfCBP...` | 0.9121 | — | 1 | — | 1d ago |
