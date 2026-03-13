@@ -1,10 +1,10 @@
 # Search Research — Agent Bg1aDFjX7BbL
 
 **Best NDCG@10:** 0.3926
-**Hypothesis:** decrease diversity penalty (0.05)
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** cd06a0e3
-**Updated:** 2026-03-12T21:12:47.547Z
+**Run:** 574952dc
+**Updated:** 2026-03-13T07:27:43.620Z
