@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T12:45:32.876Z",
+  "timestamp": "2026-03-13T13:45:32.946Z",
   "peerId": "12D3KooWEoyi3Xn5Y4nrebBwPZTDVyjwuLSUMCLSJo9mBSpGrx38",
   "stats": {
-    "totalNodes": 71,
+    "totalNodes": 72,
     "observations": 0,
-    "experiments": 71,
+    "experiments": 72,
     "syntheses": 0,
-    "totalEdges": 67,
+    "totalEdges": 68,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 21
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 18,
-    "skills": 24,
+    "skills": 25,
     "finance": 15,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "ed85e2918c00",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773406412608,
+      "depth": 3
+    },
     {
       "id": "12a09d28fbf0",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773403532546,
       "depth": 2
-    },
-    {
-      "id": "337fd40d6cdd",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773402812555,
-      "depth": 3
     }
   ],
   "frontier": [],
