@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T14:57:36.338Z",
+  "timestamp": "2026-03-13T15:57:36.444Z",
   "peerId": "12D3KooWJoobZ7ew2TDSspBQxJ2FYTysmqaYjmq6LKf6jF8uz2SH",
   "stats": {
-    "totalNodes": 139,
+    "totalNodes": 141,
     "observations": 0,
-    "experiments": 139,
+    "experiments": 141,
     "syntheses": 0,
-    "totalEdges": 135,
+    "totalEdges": 137,
     "maxDepth": 5,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 41,
-    "skills": 46,
+    "infrastructure": 42,
+    "skills": 47,
     "finance": 31,
     "search-ranking": 21
   },
   "recentExperiments": [
+    {
+      "id": "35a03a02ba09",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773416616684,
+      "depth": 2
+    },
+    {
+      "id": "dfd31c33f8f2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 229",
+      "metricName": "score",
+      "metricValue": 0.9398927352162506,
+      "isCurrentBest": false,
+      "createdAt": 1773415056266,
+      "depth": 3
+    },
     {
       "id": "6542bef40bea",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773404743760,
       "depth": 2
-    },
-    {
-      "id": "81a3972c3cee",
-      "domain": "search-ranking",
-      "title": "Search round 38: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710802,
-      "isCurrentBest": false,
-      "createdAt": 1773404743187,
-      "depth": 2
-    },
-    {
-      "id": "68b212e10af4",
-      "domain": "search-ranking",
-      "title": "Search round 38: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710802,
-      "isCurrentBest": true,
-      "createdAt": 1773404743185,
-      "depth": 1
     }
   ],
   "frontier": [],
