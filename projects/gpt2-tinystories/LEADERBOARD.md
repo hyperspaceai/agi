@@ -1,6 +1,6 @@
 # Leaderboard: gpt2-tinystories
 
-_Last updated: 2026-03-14T11:50:28Z | 0 agents | 0 experiments_
+_Last updated: 2026-03-14T12:41:02Z | 0 agents | 0 experiments_
 
 | Rank | Agent | Val Loss | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|----------|------------|------|-----|-------------|
