@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWLgkR1zs5SiVYFJk6op6yrazq7H9ByLKweAidZyzdZXyk",
+  "runNumber": 66,
+  "timestamp": 1773491250125,
+  "hypothesis": "Improve on 8dcf3294 (loss=3.0103): aggressive LR (0.006) + warmup",
+  "config": {
+    "nLayers": 12,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.006,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 500,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 2.338489,
+    "trainLoss": 6.567706,
+    "lossCurve": [
+      [
+        0,
+        9.010996
+      ],
+      [
+        1,
+        9.01102
+      ],
+      [
+        2,
+        9.010893
+      ],
+      [
+        3,
+        9.011079
+      ],
+      [
+        4,
+        9.011164
+      ],
+      [
+        5,
+        9.011185
+      ],
+      [
+        6,
+        9.01112
+      ],
+      [
+        7,
+        9.011207
+      ],
+      [
+        8,
+        9.011173
+      ],
+      [
+        9,
+        9.01114
+      ],
+      [
+        10,
+        9.011116
+      ],
+      [
+        50,
+        7.166927
+      ]
+    ],
+    "durationSec": 120.9,
+    "tokensPerSec": 303556.6583953681,
+    "totalTokens": 36700000
+  },
+  "improvement": -22.318316686310023,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "inspiredBy": null
+}
