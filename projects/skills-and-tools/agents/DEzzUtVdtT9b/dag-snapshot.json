@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-14T07:34:25.807Z",
+  "peerId": "12D3KooWN4NAE25M5MR5ssfZENQ5dM5cddeuYFr75w54FxxkpzrK",
+  "stats": {
+    "totalNodes": 41,
+    "observations": 0,
+    "experiments": 41,
+    "syntheses": 0,
+    "totalEdges": 37,
+    "maxDepth": 8,
+    "activeExperiments": 0,
+    "recentActivity": 0
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "0e31b4e0a5265115c27426779f207daa2a40426150fbb9098060f95f871facef",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 147.24289171840982,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "skills": {
+      "nodeId": "fc6ef8bfa8ad38a48950afd92f29300c1f7d96c989f62feca0f1a5ff461352f0",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "finance": {
+      "nodeId": "21c5fb255d334a56a76578fe98366f4244ff21b4f994edef28df02aecd317d45",
+      "title": "Finance round 17: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "metricDirection": "maximize",
+      "depth": 8
+    },
+    "search-ranking": {
+      "nodeId": "e65769c81cdeaffbfe026aad680d0119f2bfc1bbbe3b7b5248d8d96a1aca4759",
+      "title": "Search round 31: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 4,
+    "skills": 14,
+    "finance": 9,
+    "search-ranking": 14
+  },
+  "recentExperiments": [
+    {
+      "id": "90a798a51553",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773468211420,
+      "depth": 1
+    },
+    {
+      "id": "819f9d0bbf0a",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773468211248,
+      "depth": 1
+    },
+    {
+      "id": "b2d082ab3486",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773468211097,
+      "depth": 1
+    },
+    {
+      "id": "a2ae5a6efc06",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773468210744,
+      "depth": 1
+    },
+    {
+      "id": "bfbaaa08a1d0",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773468210564,
+      "depth": 1
+    },
+    {
+      "id": "e9587227c3a4",
+      "domain": "search-ranking",
+      "title": "Search round 35: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773467851385,
+      "depth": 1
+    },
+    {
+      "id": "da29673e7a19",
+      "domain": "search-ranking",
+      "title": "Search round 35: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773467851241,
+      "depth": 1
+    },
+    {
+      "id": "4b343c08c652",
+      "domain": "search-ranking",
+      "title": "Search round 35: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773467851119,
+      "depth": 1
+    },
+    {
+      "id": "669e6e18956f",
+      "domain": "search-ranking",
+      "title": "Search round 35: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773467850669,
+      "depth": 1
+    },
+    {
+      "id": "d5be6c96fa84",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773467545443,
+      "depth": 1
+    },
+    {
+      "id": "b341b8000d63",
+      "domain": "search-ranking",
+      "title": "Search round 31: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773467492833,
+      "depth": 1
+    },
+    {
+      "id": "1ec0f2ddf832",
+      "domain": "search-ranking",
+      "title": "Search round 31: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773467491364,
+      "depth": 1
+    },
+    {
+      "id": "dd49629190ff",
+      "domain": "search-ranking",
+      "title": "Search round 31: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773467491205,
+      "depth": 1
+    },
+    {
+      "id": "b0a07704c921",
+      "domain": "search-ranking",
+      "title": "Search round 31: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773467491044,
+      "depth": 1
+    },
+    {
+      "id": "e65769c81cde",
+      "domain": "search-ranking",
+      "title": "Search round 31: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": true,
+      "createdAt": 1773467490526,
+      "depth": 0
+    },
+    {
+      "id": "21c5fb255d33",
+      "domain": "finance",
+      "title": "Finance round 17: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "isCurrentBest": true,
+      "createdAt": 1773467215428,
+      "depth": 8
+    },
+    {
+      "id": "fc1312f1a250",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773467065430,
+      "depth": 1
+    },
+    {
+      "id": "6f1ea9b12868",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773466945431,
+      "depth": 1
+    },
+    {
+      "id": "62de53943063",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773466585419,
+      "depth": 1
+    },
+    {
+      "id": "6df3e44c7a4d",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773466345408,
+      "depth": 1
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "0e31b4e0a526",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.24289171840982,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "fc6ef8bfa8ad",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1997,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "21c5fb255d33",
+        "title": "Finance round 17: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 8
+      },
+      {
+        "id": "e200a50187e2",
+        "title": "Finance round 11: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 7
+      },
+      {
+        "id": "66e1a52793df",
+        "title": "Finance round 9: Sharpe=1.2160",
+        "metricValue": 1.216,
+        "depth": 6
+      },
+      {
+        "id": "b575f2071a85",
+        "title": "Finance round 8: Sharpe=1.2081",
+        "metricValue": 1.2081,
+        "depth": 5
+      },
+      {
+        "id": "200518f02b23",
+        "title": "Finance round 6: Sharpe=1.1991",
+        "metricValue": 1.1991,
+        "depth": 4
+      },
+      {
+        "id": "5182d73e445b",
+        "title": "Finance round 4: Sharpe=1.1782",
+        "metricValue": 1.1782,
+        "depth": 3
+      },
+      {
+        "id": "1e3ae08fa750",
+        "title": "Finance round 3: Sharpe=1.1012",
+        "metricValue": 1.1012,
+        "depth": 2
+      },
+      {
+        "id": "781e73c04f80",
+        "title": "Finance round 2: Sharpe=1.0863",
+        "metricValue": 1.0863,
+        "depth": 1
+      },
+      {
+        "id": "20257007e0fb",
+        "title": "Finance round 1: Sharpe=1.0749",
+        "metricValue": 1.0749,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "e65769c81cde",
+        "title": "Search round 31: reduce body weight (-0.05)",
+        "metricValue": 0.3963092975357146,
+        "depth": 0
+      }
+    ]
+  }
+}
