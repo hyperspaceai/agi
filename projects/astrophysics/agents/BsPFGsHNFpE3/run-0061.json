@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWLgkR1zs5SiVYFJk6op6yrazq7H9ByLKweAidZyzdZXyk",
+  "runNumber": 61,
+  "timestamp": 1773488707959,
+  "hypothesis": "Increase model capacity and add dropout for better regularization – larger dModel, more heads, longer context, and dropout should help reduce val_loss on the astrophysics dataset.",
+  "config": {
+    "nLayers": 12,
+    "nHeads": 4,
+    "dModel": 256,
+    "dFF": 1024,
+    "contextLength": 512,
+    "vocabSize": 128,
+    "learningRate": 0.0003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": true,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.010348,
+    "trainLoss": 8.44765,
+    "lossCurve": [
+      [
+        0,
+        9.011229
+      ],
+      [
+        1,
+        9.0111
+      ],
+      [
+        2,
+        9.011008
+      ],
+      [
+        3,
+        9.010947
+      ],
+      [
+        4,
+        9.010928
+      ],
+      [
+        5,
+        9.010966
+      ],
+      [
+        6,
+        9.0109
+      ],
+      [
+        7,
+        9.010997
+      ],
+      [
+        8,
+        9.010985
+      ],
+      [
+        9,
+        9.010999
+      ],
+      [
+        10,
+        9.01101
+      ],
+      [
+        50,
+        8.924073
+      ]
+    ],
+    "durationSec": 120.4,
+    "tokensPerSec": 431063.12292358803,
+    "totalTokens": 51900000
+  },
+  "improvement": -5.727887603053187,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "inspiredBy": null
+}
