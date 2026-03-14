@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-14T09:41:01.647Z",
+  "timestamp": "2026-03-14T10:41:01.740Z",
   "peerId": "12D3KooWFKwCq2bNR7HKhj1sV3jXX4LVftRooigv2nk9GithMUVr",
   "stats": {
-    "totalNodes": 344,
+    "totalNodes": 345,
     "observations": 0,
-    "experiments": 344,
+    "experiments": 345,
     "syntheses": 0,
-    "totalEdges": 340,
+    "totalEdges": 341,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 126,
-    "skills": 125,
+    "skills": 126,
     "finance": 79,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "e48c78c7bc11",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773483901595,
+      "depth": 3
+    },
     {
       "id": "27f35ca05852",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773462211000,
       "depth": 6
-    },
-    {
-      "id": "4e33067cc2ea",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773462180999,
-      "depth": 3
     }
   ],
   "frontier": [],
