@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-13T18:48:44.028Z",
+  "timestamp": "2026-03-14T04:05:31.688Z",
   "peerId": "12D3KooWQZC3EHdPeDA8kLyxeo2Wqw2kWxrj9pyrpUh1DcmmgiXX",
   "stats": {
-    "totalNodes": 87,
+    "totalNodes": 330,
     "observations": 0,
-    "experiments": 87,
+    "experiments": 330,
     "syntheses": 0,
-    "totalEdges": 83,
-    "maxDepth": 6,
+    "totalEdges": 326,
+    "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 42
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "ce98a7ee1eba4dfb4a5fee0d6e78c4774c7726627acd1a7b5896fc7668669dba",
-      "title": "Cause infra-optimization round 303",
+      "nodeId": "a248fdafcd3df1e2301aa8b041c77ba6a31b6f213b60ec9ac7ee8b5bbad4ef4b",
+      "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 64.09681297354484,
+      "metricValue": 147.68813203725986,
       "metricDirection": "maximize",
-      "depth": 4
+      "depth": 7
     },
     "skills": {
       "nodeId": "87daf4b8329894b2abb42c50888bc04a5671ed4fcd42b729a435dbd6f218c7a0",
@@ -30,233 +30,251 @@
       "depth": 1
     },
     "finance": {
-      "nodeId": "974e811ef7e45901b003e58fc88edb96d7dad661848bf14253638becf209fc97",
-      "title": "Finance round 8: Sharpe=1.3040",
+      "nodeId": "262be0e67cda275e92fd2dfd33050d4318d80d02352e0943187761f7186a9394",
+      "title": "Finance round 10: Sharpe=1.3205",
       "metricName": "Sharpe",
-      "metricValue": 1.304,
+      "metricValue": 1.3205,
       "metricDirection": "maximize",
-      "depth": 5
+      "depth": 8
     },
     "search-ranking": {
-      "nodeId": "d677cd1b642a7490faee10c00d881833a2d7e886edb545b2ac0254009433129d",
-      "title": "Search round 39: boost BM25 weight (+0.05)",
+      "nodeId": "d6b74d4edd39d9c3ff550b28fe8d1b4c36d037f169b7c4ede9c474ce609fd211",
+      "title": "Search round 38: boost BM25 weight (+0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710803,
+      "metricValue": 0.395,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 23,
-    "skills": 26,
-    "finance": 24,
-    "search-ranking": 14
+    "infrastructure": 113,
+    "skills": 114,
+    "finance": 75,
+    "search-ranking": 28
   },
   "recentExperiments": [
     {
-      "id": "176b1f206ade",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 368",
-      "metricName": "score",
-      "metricValue": 64.01496129671831,
+      "id": "60f18e0414f5",
+      "domain": "finance",
+      "title": "Finance round 10: Sharpe=1.3137",
+      "metricName": "Sharpe",
+      "metricValue": 1.3137,
       "isCurrentBest": false,
-      "createdAt": 1773422863736,
-      "depth": 5
+      "createdAt": 1773460831595,
+      "depth": 9
     },
     {
-      "id": "ce98a7ee1eba",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 303",
-      "metricName": "score",
-      "metricValue": 64.09681297354484,
-      "isCurrentBest": true,
-      "createdAt": 1773418963667,
-      "depth": 4
-    },
-    {
-      "id": "d8bbbc82d9f3",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 263",
-      "metricName": "score",
-      "metricValue": 0.9562734727779852,
-      "isCurrentBest": false,
-      "createdAt": 1773416563627,
-      "depth": 4
-    },
-    {
-      "id": "3e74a0b1cd90",
+      "id": "625a562563a1",
       "domain": "skills",
       "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1773414043555,
+      "createdAt": 1773460651602,
       "depth": 2
     },
     {
-      "id": "f65de6a4223c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 209",
-      "metricName": "score",
-      "metricValue": 0.953335112620547,
-      "isCurrentBest": false,
-      "createdAt": 1773413323524,
-      "depth": 4
-    },
-    {
-      "id": "bf07c7686eb2",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 207",
-      "metricName": "score",
-      "metricValue": 0.949857559236232,
-      "isCurrentBest": false,
-      "createdAt": 1773413203521,
-      "depth": 4
-    },
-    {
-      "id": "c1eb17b29153",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 180",
-      "metricName": "score",
-      "metricValue": 0.9444116766083211,
-      "isCurrentBest": false,
-      "createdAt": 1773411583493,
-      "depth": 4
-    },
-    {
-      "id": "df6b16055b6f",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 108",
-      "metricName": "score",
-      "metricValue": 64.01498236908839,
-      "isCurrentBest": false,
-      "createdAt": 1773407263410,
-      "depth": 3
-    },
-    {
-      "id": "6b2b983f1556",
+      "id": "4732f8e30041",
       "domain": "finance",
-      "title": "Finance round 30: Sharpe=1.2946",
+      "title": "Finance round 8: Sharpe=1.3040",
       "metricName": "Sharpe",
-      "metricValue": 1.2946,
+      "metricValue": 1.304,
       "isCurrentBest": false,
-      "createdAt": 1773405223384,
-      "depth": 6
+      "createdAt": 1773460531597,
+      "depth": 9
     },
     {
-      "id": "e3dfb67a04b3",
-      "domain": "finance",
-      "title": "Finance round 29: Sharpe=1.2890",
-      "metricName": "Sharpe",
-      "metricValue": 1.289,
+      "id": "b3b691c69d72",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 19",
+      "metricName": "score",
+      "metricValue": 0.9699026934101597,
       "isCurrentBest": false,
-      "createdAt": 1773405073255,
-      "depth": 6
+      "createdAt": 1773460531585,
+      "depth": 8
     },
     {
-      "id": "b1c88fc7b8c9",
-      "domain": "search-ranking",
-      "title": "Search round 47: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773405027881,
-      "depth": 1
-    },
-    {
-      "id": "20e8270c14bb",
-      "domain": "search-ranking",
-      "title": "Search round 47: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773405027478,
-      "depth": 1
-    },
-    {
-      "id": "21004e2a1013",
-      "domain": "search-ranking",
-      "title": "Search round 47: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773405027141,
-      "depth": 1
-    },
-    {
-      "id": "3080fb0a9ca2",
-      "domain": "search-ranking",
-      "title": "Search round 47: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773405026742,
-      "depth": 1
-    },
-    {
-      "id": "6b99718b2707",
-      "domain": "search-ranking",
-      "title": "Search round 47: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773405026336,
-      "depth": 1
-    },
-    {
-      "id": "f45b4033b469",
+      "id": "0feb58220f8b",
       "domain": "skills",
       "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1773404923252,
+      "createdAt": 1773460291591,
       "depth": 2
     },
     {
-      "id": "751f27a1ddcb",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710803,
+      "id": "ecd06a715aae",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 14",
+      "metricName": "score",
+      "metricValue": 0.9689326863761777,
       "isCurrentBest": false,
-      "createdAt": 1773404668276,
-      "depth": 1
+      "createdAt": 1773460231582,
+      "depth": 8
     },
     {
-      "id": "6f960dea8319",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710803,
+      "id": "e2a97524814d",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1773404667874,
-      "depth": 1
+      "createdAt": 1773460171598,
+      "depth": 2
     },
     {
-      "id": "0b53f9d280d8",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710803,
+      "id": "9c3ac9a95ac2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 12",
+      "metricName": "score",
+      "metricValue": 141.30127373094578,
       "isCurrentBest": false,
-      "createdAt": 1773404667197,
-      "depth": 1
+      "createdAt": 1773460111579,
+      "depth": 8
     },
     {
-      "id": "20b405f6e219",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710803,
+      "id": "09c8bb874812",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1773404666851,
-      "depth": 1
+      "createdAt": 1773460051587,
+      "depth": 2
+    },
+    {
+      "id": "baaac7b4a51a",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1773459931594,
+      "depth": 2
+    },
+    {
+      "id": "7dbe4a28acbd",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2960",
+      "metricName": "Sharpe",
+      "metricValue": 1.296,
+      "isCurrentBest": false,
+      "createdAt": 1773459931590,
+      "depth": 9
+    },
+    {
+      "id": "647ab86c7bec",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1773459811583,
+      "depth": 2
+    },
+    {
+      "id": "6ba6739ac4cf",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1285",
+      "metricName": "Sharpe",
+      "metricValue": 1.1285,
+      "isCurrentBest": false,
+      "createdAt": 1773459781646,
+      "depth": 9
+    },
+    {
+      "id": "3c6a15cf0447",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1773459691523,
+      "depth": 2
+    },
+    {
+      "id": "9654547a5ba9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 5",
+      "metricName": "score",
+      "metricValue": 141.34327698625432,
+      "isCurrentBest": false,
+      "createdAt": 1773459691501,
+      "depth": 8
+    },
+    {
+      "id": "24d374ba3342",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.0965",
+      "metricName": "Sharpe",
+      "metricValue": 1.0965,
+      "isCurrentBest": false,
+      "createdAt": 1773459631507,
+      "depth": 9
+    },
+    {
+      "id": "b891c9b69637",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 4",
+      "metricName": "score",
+      "metricValue": 0.9667099980645648,
+      "isCurrentBest": false,
+      "createdAt": 1773459631501,
+      "depth": 8
+    },
+    {
+      "id": "09aa13ff01f1",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1773459571511,
+      "depth": 2
+    },
+    {
+      "id": "b3f9f4a4037a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3",
+      "metricName": "score",
+      "metricValue": 0.9540809459480587,
+      "isCurrentBest": false,
+      "createdAt": 1773459571501,
+      "depth": 8
+    },
+    {
+      "id": "8188cc7d53eb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 3",
+      "metricName": "score",
+      "metricValue": 143.20678578316452,
+      "isCurrentBest": false,
+      "createdAt": 1773459571500,
+      "depth": 8
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "a248fdafcd3d",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.68813203725986,
+        "depth": 7
+      },
+      {
+        "id": "621f54af1636",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 144.51267237437494,
+        "depth": 6
+      },
+      {
+        "id": "c554fe751108",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 142.80331010762677,
+        "depth": 5
+      },
       {
         "id": "ce98a7ee1eba",
         "title": "Cause infra-optimization round 303",
@@ -304,6 +322,24 @@
     ],
     "finance": [
       {
+        "id": "262be0e67cda",
+        "title": "Finance round 10: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 8
+      },
+      {
+        "id": "6ad491ee1f79",
+        "title": "Finance round 7: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 7
+      },
+      {
+        "id": "863423e1489b",
+        "title": "Finance round 5: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 6
+      },
+      {
         "id": "974e811ef7e4",
         "title": "Finance round 8: Sharpe=1.3040",
         "metricValue": 1.304,
@@ -341,6 +377,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "d6b74d4edd39",
+        "title": "Search round 38: boost BM25 weight (+0.05)",
+        "metricValue": 0.395,
+        "depth": 1
+      },
       {
         "id": "d677cd1b642a",
         "title": "Search round 39: boost BM25 weight (+0.05)",
