@@ -2,15 +2,15 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWLgkR1zs5SiVYFJk6op6yrazq7H9ByLKweAidZyzdZXyk",
-  "runNumber": 61,
-  "timestamp": 1773488707959,
-  "hypothesis": "Increase model capacity and add dropout for better regularization – larger dModel, more heads, longer context, and dropout should help reduce val_loss on the astrophysics dataset.",
+  "runNumber": 60,
+  "timestamp": 1773489017671,
+  "hypothesis": "Switch to a cosine learning‑rate schedule, increase the base learning rate, use GELU activation and LayerNorm for better convergence on the astrophysics dataset.",
   "config": {
     "nLayers": 12,
-    "nHeads": 4,
-    "dModel": 256,
-    "dFF": 1024,
-    "contextLength": 512,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
     "vocabSize": 128,
     "learningRate": 0.0003,
     "batchSize": 16,
@@ -24,7 +24,7 @@
     "activation": "gelu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
-    "tieEmbeddings": true,
+    "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
     "gradientClipNorm": 1,
@@ -36,63 +36,63 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.010348,
-    "trainLoss": 8.44765,
+    "valLoss": 3.193254,
+    "trainLoss": 8.79641,
     "lossCurve": [
       [
         0,
-        9.011229
+        9.010996
       ],
       [
         1,
-        9.0111
+        9.01102
       ],
       [
         2,
-        9.011008
+        9.010893
       ],
       [
         3,
-        9.010947
+        9.011079
       ],
       [
         4,
-        9.010928
+        9.011164
       ],
       [
         5,
-        9.010966
+        9.011185
       ],
       [
         6,
-        9.0109
+        9.01112
       ],
       [
         7,
-        9.010997
+        9.011207
       ],
       [
         8,
-        9.010985
+        9.011173
       ],
       [
         9,
-        9.010999
+        9.01114
       ],
       [
         10,
-        9.01101
+        9.011116
       ],
       [
         50,
-        8.924073
+        8.913803
       ]
     ],
-    "durationSec": 120.4,
-    "tokensPerSec": 431063.12292358803,
-    "totalTokens": 51900000
+    "durationSec": 120.5,
+    "tokensPerSec": 312863.0705394191,
+    "totalTokens": 37700000
   },
-  "improvement": -5.727887603053187,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3090",
   "inspiredBy": null
