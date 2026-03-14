@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 87wSpvKGixta
 
-**Best Sharpe Ratio:** 1.0401
-**Hypothesis:** Round 1 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, trendWeight
+**Best Sharpe Ratio:** 1.1782
+**Hypothesis:** Round 2 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** equal_weight
-**Alpha:** 0.8776
-**Max Drawdown:** 0.0819
+**Alpha:** 1.1189
+**Max Drawdown:** 0.0739
 **LLM:** unknown
-**Run:** finance-r1
-**Updated:** 2026-03-14T08:10:07.812Z
+**Run:** finance-r2
+**Updated:** 2026-03-14T08:12:37.818Z
