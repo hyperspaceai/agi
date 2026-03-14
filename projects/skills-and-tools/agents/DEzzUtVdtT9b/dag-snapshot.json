@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-14T08:34:26.032Z",
+  "timestamp": "2026-03-14T09:34:26.187Z",
   "peerId": "12D3KooWN4NAE25M5MR5ssfZENQ5dM5cddeuYFr75w54FxxkpzrK",
   "stats": {
-    "totalNodes": 43,
+    "totalNodes": 50,
     "observations": 0,
-    "experiments": 43,
+    "experiments": 50,
     "syntheses": 0,
-    "totalEdges": 39,
+    "totalEdges": 46,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 7
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,82 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 5,
-    "skills": 15,
+    "infrastructure": 8,
+    "skills": 19,
     "finance": 9,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "8037d1d88ca8",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773479546060,
+      "depth": 1
+    },
+    {
+      "id": "0c93d8387a35",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 237",
+      "metricName": "score",
+      "metricValue": 145.01802795299028,
+      "isCurrentBest": false,
+      "createdAt": 1773478946018,
+      "depth": 1
+    },
+    {
+      "id": "6197200eb6ec",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773478706021,
+      "depth": 1
+    },
+    {
+      "id": "b2368b2d2e28",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773478105990,
+      "depth": 1
+    },
+    {
+      "id": "7303a9c970bb",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773477505980,
+      "depth": 1
+    },
+    {
+      "id": "5d0882e2fe5c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 211",
+      "metricName": "score",
+      "metricValue": 145.04467579052303,
+      "isCurrentBest": false,
+      "createdAt": 1773477385957,
+      "depth": 1
+    },
+    {
+      "id": "5dc5ce27db0d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 210",
+      "metricName": "score",
+      "metricValue": 145.16229285340088,
+      "isCurrentBest": false,
+      "createdAt": 1773477325954,
+      "depth": 1
+    },
     {
       "id": "6fb626f17702",
       "domain": "skills",
@@ -181,76 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1773467492833,
-      "depth": 1
-    },
-    {
-      "id": "1ec0f2ddf832",
-      "domain": "search-ranking",
-      "title": "Search round 31: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773467491364,
-      "depth": 1
-    },
-    {
-      "id": "dd49629190ff",
-      "domain": "search-ranking",
-      "title": "Search round 31: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773467491205,
-      "depth": 1
-    },
-    {
-      "id": "b0a07704c921",
-      "domain": "search-ranking",
-      "title": "Search round 31: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773467491044,
-      "depth": 1
-    },
-    {
-      "id": "e65769c81cde",
-      "domain": "search-ranking",
-      "title": "Search round 31: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": true,
-      "createdAt": 1773467490526,
-      "depth": 0
-    },
-    {
-      "id": "21c5fb255d33",
-      "domain": "finance",
-      "title": "Finance round 17: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": true,
-      "createdAt": 1773467215428,
-      "depth": 8
-    },
-    {
-      "id": "fc1312f1a250",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773467065430,
-      "depth": 1
-    },
-    {
-      "id": "6f1ea9b12868",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773466945431,
       "depth": 1
     }
   ],
