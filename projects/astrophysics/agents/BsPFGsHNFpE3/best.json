@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWLgkR1zs5SiVYFJk6op6yrazq7H9ByLKweAidZyzdZXyk",
-  "runNumber": 60,
-  "timestamp": 1773489017671,
-  "hypothesis": "Switch to a cosine learning‑rate schedule, increase the base learning rate, use GELU activation and LayerNorm for better convergence on the astrophysics dataset.",
+  "runNumber": 66,
+  "timestamp": 1773491250125,
+  "hypothesis": "Improve on 8dcf3294 (loss=3.0103): aggressive LR (0.006) + warmup",
   "config": {
     "nLayers": 12,
     "nHeads": 2,
@@ -12,11 +12,11 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.006,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
-    "warmupSteps": 100,
+    "warmupSteps": 500,
     "weightDecay": 0.01,
     "evalInterval": 200,
     "evalSteps": 10,
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.193254,
-    "trainLoss": 8.79641,
+    "valLoss": 2.338489,
+    "trainLoss": 6.567706,
     "lossCurve": [
       [
         0,
@@ -85,14 +85,14 @@
       ],
       [
         50,
-        8.913803
+        7.166927
       ]
     ],
-    "durationSec": 120.5,
-    "tokensPerSec": 312863.0705394191,
-    "totalTokens": 37700000
+    "durationSec": 120.9,
+    "tokensPerSec": 303556.6583953681,
+    "totalTokens": 36700000
   },
-  "improvement": 0,
+  "improvement": -22.318316686310023,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3090",
   "inspiredBy": null
