@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-14T10:47:19.859Z",
+  "timestamp": "2026-03-14T11:47:20.016Z",
   "peerId": "12D3KooWD19Hw2onpjwkX8t89pKCLeqhzfmkAL74Cex2KcdeyPAb",
   "stats": {
-    "totalNodes": 234,
+    "totalNodes": 236,
     "observations": 0,
-    "experiments": 234,
+    "experiments": 236,
     "syntheses": 0,
-    "totalEdges": 231,
+    "totalEdges": 233,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 120,
+    "infrastructure": 122,
     "finance": 100,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "8da06946e24d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 428",
+      "metricName": "score",
+      "metricValue": 0.9269194625905296,
+      "isCurrentBest": false,
+      "createdAt": 1773487579888,
+      "depth": 9
+    },
+    {
+      "id": "21acb600f20a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 399",
+      "metricName": "score",
+      "metricValue": 141.18422080815893,
+      "isCurrentBest": false,
+      "createdAt": 1773485839812,
+      "depth": 9
+    },
     {
       "id": "a1b282650712",
       "domain": "infrastructure",
@@ -222,26 +242,6 @@
       "metricValue": 0.9587803345292794,
       "isCurrentBest": false,
       "createdAt": 1773461958191,
-      "depth": 9
-    },
-    {
-      "id": "fd207b54cebb",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1",
-      "metricName": "score",
-      "metricValue": 141.63488862171732,
-      "isCurrentBest": false,
-      "createdAt": 1773461958190,
-      "depth": 9
-    },
-    {
-      "id": "3af9b4438a20",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.3137",
-      "metricName": "Sharpe",
-      "metricValue": 1.3137,
-      "isCurrentBest": false,
-      "createdAt": 1773461018494,
       "depth": 9
     }
   ],
