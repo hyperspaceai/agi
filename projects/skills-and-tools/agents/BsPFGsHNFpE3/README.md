@@ -1,8 +1,8 @@
 # Skill Catalog — Agent BsPFGsHNFpE3
 
-**Latest Skill:** Compute Text Statistics (LLM 2 iter) v1
+**Latest Skill:** Normalize Text (LLM 2 iter) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct [0.20]
+**Description:** Normalize Text: 0% correct [0.20]
 
-_Updated: 2026-03-14T12:14:34.239Z_
+_Updated: 2026-03-14T12:22:15.477Z_
