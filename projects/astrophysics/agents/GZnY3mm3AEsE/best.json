@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWRP9hnuLkM98jMWY1DXagrkaCreBTiGyxW27FEarbp5ns",
-  "runNumber": 23,
-  "timestamp": 1773530671875,
-  "hypothesis": "Improve on 60831588 (loss=3.0284): switch to SiLU activation",
+  "runNumber": 22,
+  "timestamp": 1773531024299,
+  "hypothesis": "Improve on 8b0ff29a (loss=3.0530): switch to RMSNorm",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -21,7 +21,7 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "silu",
+    "activation": "gelu",
     "normalization": "rmsnorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.971424669339314,
-    "trainLoss": 3.0147618492802692,
+    "valLoss": 3.0239261100180372,
+    "trainLoss": 3.0574505634808267,
     "lossCurve": [
       [
-        37,
-        2.971424669339314
+        36,
+        3.0239261100180372
       ]
     ],
-    "durationSec": 146.731,
-    "tokensPerSec": 516.4280213451827,
-    "totalTokens": 75776
+    "durationSec": 145.004,
+    "tokensPerSec": 508.4549391740918,
+    "totalTokens": 73728
   },
-  "improvement": -1.7362011758418938,
+  "improvement": -0.1483265330542628,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
