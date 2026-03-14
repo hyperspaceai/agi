@@ -1,8 +1,8 @@
 # Skill Catalog — Agent GeYoD5YyM3Af
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
-**Score:** 0.1996
+**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
+**Score:** 0.1995
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 25
+**Description:** Detect Anomalies (IQR): 0% correct, round 19
 
-_Updated: 2026-03-14T22:37:12.660Z_
+_Updated: 2026-03-14T23:58:51.171Z_
