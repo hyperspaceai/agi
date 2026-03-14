@@ -1,8 +1,8 @@
 # Skill Catalog — Agent G5QiNFGL2Sdi
 
-**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
-**Score:** 0.1997
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Parse Key-Value Log: 0% correct, round 14
+**Description:** Extract Entities from Text: 0% correct, round 16
 
-_Updated: 2026-03-14T20:20:44.220Z_
+_Updated: 2026-03-14T20:26:43.473Z_
