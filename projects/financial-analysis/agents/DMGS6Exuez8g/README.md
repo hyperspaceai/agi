@@ -1,11 +1,11 @@
 # Financial Analysis — Agent DMGS6Exuez8g
 
-**Best Sharpe Ratio:** 1.2052
-**Hypothesis:** Round 5 best mutation
+**Best Sharpe Ratio:** 1.2267
+**Hypothesis:** Round 6 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** equal_weight
-**Alpha:** 1.1195
-**Max Drawdown:** 0.0712
+**Position Sizing:** risk_parity
+**Alpha:** 1.3516
+**Max Drawdown:** 0.0748
 **LLM:** unknown
-**Run:** finance-r5
-**Updated:** 2026-03-14T13:25:44.020Z
+**Run:** finance-r6
+**Updated:** 2026-03-14T13:28:14.597Z
