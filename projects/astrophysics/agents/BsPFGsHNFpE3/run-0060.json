@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWLgkR1zs5SiVYFJk6op6yrazq7H9ByLKweAidZyzdZXyk",
+  "runNumber": 60,
+  "timestamp": 1773489017671,
+  "hypothesis": "Switch to a cosine learning‑rate schedule, increase the base learning rate, use GELU activation and LayerNorm for better convergence on the astrophysics dataset.",
+  "config": {
+    "nLayers": 12,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.193254,
+    "trainLoss": 8.79641,
+    "lossCurve": [
+      [
+        0,
+        9.010996
+      ],
+      [
+        1,
+        9.01102
+      ],
+      [
+        2,
+        9.010893
+      ],
+      [
+        3,
+        9.011079
+      ],
+      [
+        4,
+        9.011164
+      ],
+      [
+        5,
+        9.011185
+      ],
+      [
+        6,
+        9.01112
+      ],
+      [
+        7,
+        9.011207
+      ],
+      [
+        8,
+        9.011173
+      ],
+      [
+        9,
+        9.01114
+      ],
+      [
+        10,
+        9.011116
+      ],
+      [
+        50,
+        8.913803
+      ]
+    ],
+    "durationSec": 120.5,
+    "tokensPerSec": 312863.0705394191,
+    "totalTokens": 37700000
+  },
+  "improvement": 0,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "inspiredBy": null
+}
