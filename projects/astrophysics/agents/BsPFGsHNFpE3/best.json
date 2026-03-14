@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWLgkR1zs5SiVYFJk6op6yrazq7H9ByLKweAidZyzdZXyk",
-  "runNumber": 66,
-  "timestamp": 1773491250125,
-  "hypothesis": "Improve on 8dcf3294 (loss=3.0103): aggressive LR (0.006) + warmup",
+  "runNumber": 110,
+  "timestamp": 1773503874844,
+  "hypothesis": "Improve on abb56280 (loss=2.3385): muon LR (0.08)",
   "config": {
     "nLayers": 12,
     "nHeads": 2,
@@ -12,11 +12,11 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.006,
+    "learningRate": 0.08,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
-    "warmupSteps": 500,
+    "warmupSteps": 100,
     "weightDecay": 0.01,
     "evalInterval": 200,
     "evalSteps": 10,
@@ -27,7 +27,7 @@
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 1,
+    "gradientClipNorm": 5,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
     "initType": "normal",
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.338489,
-    "trainLoss": 6.567706,
+    "valLoss": 1.719533,
+    "trainLoss": 4.813568,
     "lossCurve": [
       [
         0,
@@ -85,14 +85,14 @@
       ],
       [
         50,
-        7.166927
+        5.229702
       ]
     ],
-    "durationSec": 120.9,
-    "tokensPerSec": 303556.6583953681,
+    "durationSec": 121.9,
+    "tokensPerSec": 301066.4479081214,
     "totalTokens": 36700000
   },
-  "improvement": -22.318316686310023,
+  "improvement": -26.468202330650264,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3090",
   "inspiredBy": null
