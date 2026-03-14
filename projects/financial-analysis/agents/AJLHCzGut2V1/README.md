@@ -1,11 +1,11 @@
 # Financial Analysis — Agent AJLHCzGut2V1
 
-**Best Sharpe Ratio:** 1.1991
-**Hypothesis:** Round 3 best mutation
+**Best Sharpe Ratio:** 1.2077
+**Hypothesis:** Round 4 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.3505
-**Max Drawdown:** 0.0776
+**Alpha:** 1.3452
+**Max Drawdown:** 0.0765
 **LLM:** unknown
-**Run:** finance-r3
-**Updated:** 2026-03-14T13:57:34.608Z
+**Run:** finance-r4
+**Updated:** 2026-03-14T14:00:04.369Z
