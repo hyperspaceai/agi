@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWSPSnSAZAAURGD3ndQhmK5M3DLoS6EXjewBt3ZmM2ys7h",
-  "runNumber": 1,
-  "timestamp": 1773591297872,
-  "hypothesis": "Explore: enable tied embeddings",
+  "runNumber": 2,
+  "timestamp": 1773591734382,
+  "hypothesis": "Improve on 2ad49313 (loss=4.4811): linear LR schedule",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -28,7 +28,7 @@
     "residualScale": 1,
     "dropoutRate": 0,
     "gradientClipNorm": 1,
-    "scheduleType": "cosine",
+    "scheduleType": "linear",
     "minLRRatio": 0.1,
     "initType": "normal",
     "initScale": 0.02,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.481135628043544,
-    "trainLoss": 4.49628506272411,
+    "valLoss": 4.432233639445974,
+    "trainLoss": 4.459084886371747,
     "lossCurve": [
       [
-        32,
-        4.481135628043544
+        34,
+        4.432233639445974
       ]
     ],
-    "durationSec": 149.056,
-    "tokensPerSec": 439.6736796908544,
-    "totalTokens": 65536
+    "durationSec": 146.43,
+    "tokensPerSec": 475.53097042955676,
+    "totalTokens": 69632
   },
-  "improvement": 0,
+  "improvement": -1.091285617233623,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
