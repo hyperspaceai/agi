@@ -1,0 +1,381 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-15T11:53:32.177Z",
+  "peerId": "12D3KooWGwTt3uFmfA5fjzpy2GnKuxbNFhLRYorQ6FF9CZ7ncHjF",
+  "stats": {
+    "totalNodes": 174,
+    "observations": 0,
+    "experiments": 174,
+    "syntheses": 0,
+    "totalEdges": 169,
+    "maxDepth": 12,
+    "activeExperiments": 0,
+    "recentActivity": 1
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "295e5521c3f88dd66ecb4b4638e624c40803e4504db98d8742c54fc7dcc465f5",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 149.7104278785165,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "skills": {
+      "nodeId": "d802a25cea3fd1d725e5a2d63ca7a0081b1fdd15e7a339c31373035811f4598d",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "finance": {
+      "nodeId": "aa0e6c48e524676474a90387ef5c08af77f07ad37835c7e7b2537f84cc7086a5",
+      "title": "Finance round 8: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "metricDirection": "maximize",
+      "depth": 12
+    },
+    "general": {
+      "nodeId": "19c3ba9b6d7646b0e6dc08a1c8a1b5edda43ed4f160777545ff8646e130be09d",
+      "title": "AutoWeb round 1: 85/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 85,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "search-ranking": {
+      "nodeId": "9a3b8e5893cb53aa95484a046a1e27cb89aa29385b7587b7911898a3dd99f1bd",
+      "title": "Search round 31: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 58,
+    "skills": 62,
+    "finance": 39,
+    "general": 1,
+    "search-ranking": 14
+  },
+  "recentExperiments": [
+    {
+      "id": "15f53bf3a7e1",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773573452056,
+      "depth": 3
+    },
+    {
+      "id": "9f79882d2703",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 84",
+      "metricName": "score",
+      "metricValue": 141.14631961360558,
+      "isCurrentBest": false,
+      "createdAt": 1773571712006,
+      "depth": 2
+    },
+    {
+      "id": "3b3500c15d12",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773571652018,
+      "depth": 3
+    },
+    {
+      "id": "1b7c750caaf2",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773571412018,
+      "depth": 3
+    },
+    {
+      "id": "eff0300df68f",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773570812007,
+      "depth": 3
+    },
+    {
+      "id": "81469d5bf5ab",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773570211991,
+      "depth": 3
+    },
+    {
+      "id": "a32ff26d265f",
+      "domain": "search-ranking",
+      "title": "Search round 39: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773570128104,
+      "depth": 1
+    },
+    {
+      "id": "8a9d1cf1cbf2",
+      "domain": "search-ranking",
+      "title": "Search round 39: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773570127824,
+      "depth": 1
+    },
+    {
+      "id": "46a7cf476165",
+      "domain": "search-ranking",
+      "title": "Search round 39: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773570127633,
+      "depth": 1
+    },
+    {
+      "id": "32f51909d09f",
+      "domain": "search-ranking",
+      "title": "Search round 39: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773570127541,
+      "depth": 1
+    },
+    {
+      "id": "752cca781de7",
+      "domain": "search-ranking",
+      "title": "Search round 35: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773569768251,
+      "depth": 1
+    },
+    {
+      "id": "882b3d77affa",
+      "domain": "search-ranking",
+      "title": "Search round 35: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773569768067,
+      "depth": 1
+    },
+    {
+      "id": "97da82ea158c",
+      "domain": "search-ranking",
+      "title": "Search round 35: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773569767924,
+      "depth": 1
+    },
+    {
+      "id": "03906a6b74c2",
+      "domain": "search-ranking",
+      "title": "Search round 35: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773569767579,
+      "depth": 1
+    },
+    {
+      "id": "24c2394dfb69",
+      "domain": "search-ranking",
+      "title": "Search round 35: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773569767151,
+      "depth": 1
+    },
+    {
+      "id": "8adf277517f7",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 47",
+      "metricName": "score",
+      "metricValue": 141.23066746619762,
+      "isCurrentBest": false,
+      "createdAt": 1773569491957,
+      "depth": 2
+    },
+    {
+      "id": "3b0610b891ee",
+      "domain": "search-ranking",
+      "title": "Search round 31: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773569410441,
+      "depth": 1
+    },
+    {
+      "id": "ca67689a454d",
+      "domain": "search-ranking",
+      "title": "Search round 31: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773569408048,
+      "depth": 1
+    },
+    {
+      "id": "844a78394320",
+      "domain": "search-ranking",
+      "title": "Search round 31: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773569407881,
+      "depth": 1
+    },
+    {
+      "id": "68f953a98d29",
+      "domain": "search-ranking",
+      "title": "Search round 31: boost click weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773569407687,
+      "depth": 1
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "295e5521c3f8",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 149.7104278785165,
+        "depth": 1
+      },
+      {
+        "id": "9b07b82b9ff1",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 145.28784852487536,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "d802a25cea3f",
+        "title": "Skill Normalize Text (seed/mutation): 0%",
+        "metricValue": 0.1997,
+        "depth": 2
+      },
+      {
+        "id": "b6ce26e72919",
+        "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+        "metricValue": 0.1996,
+        "depth": 1
+      },
+      {
+        "id": "1ddadc8208a9",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1995,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "aa0e6c48e524",
+        "title": "Finance round 8: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 12
+      },
+      {
+        "id": "7582f18a1f8b",
+        "title": "Finance round 7: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 11
+      },
+      {
+        "id": "d51f0d4927d3",
+        "title": "Finance round 4: Sharpe=1.3040",
+        "metricValue": 1.304,
+        "depth": 10
+      },
+      {
+        "id": "cec56b85e308",
+        "title": "Finance round 3: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 9
+      },
+      {
+        "id": "6d07704f4ebd",
+        "title": "Finance round 5: Sharpe=1.2756",
+        "metricValue": 1.2756,
+        "depth": 8
+      },
+      {
+        "id": "119adbd31c40",
+        "title": "Finance round 4: Sharpe=1.2500",
+        "metricValue": 1.25,
+        "depth": 7
+      },
+      {
+        "id": "caf0a80afcd1",
+        "title": "Finance round 12: Sharpe=1.2430",
+        "metricValue": 1.243,
+        "depth": 6
+      },
+      {
+        "id": "ac53128211c5",
+        "title": "Finance round 9: Sharpe=1.2366",
+        "metricValue": 1.2366,
+        "depth": 5
+      },
+      {
+        "id": "56200c04f998",
+        "title": "Finance round 6: Sharpe=1.2194",
+        "metricValue": 1.2194,
+        "depth": 4
+      },
+      {
+        "id": "c352d122ee14",
+        "title": "Finance round 5: Sharpe=1.1870",
+        "metricValue": 1.187,
+        "depth": 3
+      }
+    ],
+    "general": [
+      {
+        "id": "19c3ba9b6d76",
+        "title": "AutoWeb round 1: 85/100",
+        "metricValue": 85,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "9a3b8e5893cb",
+        "title": "Search round 31: boost click weight (+0.03)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
