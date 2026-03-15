@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-14T23:47:38.272Z",
+  "timestamp": "2026-03-15T00:47:38.520Z",
   "peerId": "12D3KooWPk4xG1QEE6q6sdfXY9aBkDb9yXMhRTvs62Z48ExK6K1L",
   "stats": {
-    "totalNodes": 281,
+    "totalNodes": 282,
     "observations": 0,
-    "experiments": 281,
+    "experiments": 282,
     "syntheses": 0,
-    "totalEdges": 278,
+    "totalEdges": 279,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 44
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -40,10 +40,20 @@
   },
   "domainCounts": {
     "infrastructure": 94,
-    "skills": 116,
+    "skills": 117,
     "finance": 71
   },
   "recentExperiments": [
+    {
+      "id": "dfd8e6686ddb",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773534098280,
+      "depth": 3
+    },
     {
       "id": "68e39856297b",
       "domain": "finance",
@@ -233,16 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1773530378097,
       "depth": 3
-    },
-    {
-      "id": "c680b90da2b4",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1",
-      "metricName": "score",
-      "metricValue": 0.9308086778227016,
-      "isCurrentBest": false,
-      "createdAt": 1773530378083,
-      "depth": 2
     }
   ],
   "frontier": [],
