@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-15T01:46:20.447Z",
+  "timestamp": "2026-03-15T02:46:20.566Z",
   "peerId": "12D3KooWPrNHeBrtCPkP4fBkDAP61feqFie2QtuGJDT7WyfL4B7y",
   "stats": {
-    "totalNodes": 790,
+    "totalNodes": 792,
     "observations": 0,
-    "experiments": 790,
+    "experiments": 792,
     "syntheses": 0,
-    "totalEdges": 786,
+    "totalEdges": 788,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 243,
-    "skills": 315,
+    "infrastructure": 244,
+    "skills": 316,
     "finance": 197,
     "search-ranking": 35
   },
   "recentExperiments": [
+    {
+      "id": "35e41267b351",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773542180344,
+      "depth": 2
+    },
+    {
+      "id": "1ad284b53bbc",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 189",
+      "metricName": "score",
+      "metricValue": 141.08934667490038,
+      "isCurrentBest": false,
+      "createdAt": 1773541580172,
+      "depth": 9
+    },
     {
       "id": "ae9c5a06a7fa",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773533006556,
-      "depth": 2
-    },
-    {
-      "id": "eee50556637e",
-      "domain": "search-ranking",
-      "title": "Search round 31: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773533006479,
-      "depth": 2
-    },
-    {
-      "id": "2d85633bdcf1",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773532099497,
       "depth": 2
     }
   ],
