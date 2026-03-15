@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CdkeCoyLBC1J
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Score:** 0.1993
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 58
+**Description:** Structured JSON Diff: 0% correct, round 13
 
-_Updated: 2026-03-14T15:46:42.046Z_
+_Updated: 2026-03-15T10:56:01.155Z_
