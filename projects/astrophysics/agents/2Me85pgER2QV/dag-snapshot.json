@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-15T11:48:03.134Z",
+  "peerId": "12D3KooWBB1HpxFwbvfz1kYnLFhM6SJ3EykxEEhQQ7BqCyNM9njj",
+  "stats": {
+    "totalNodes": 78,
+    "observations": 49,
+    "experiments": 29,
+    "syntheses": 0,
+    "totalEdges": 27,
+    "maxDepth": 5,
+    "activeExperiments": 0,
+    "recentActivity": 32
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "0a40b39e88f93b227d5ec40d3cc898b87bff6b740c5db4ef4cd785beeb390ba9",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 146.39929162556777,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "finance": {
+      "nodeId": "43f9cc0b0cac37d916094a577ec80587863c2a49f2933c108706a1172e225416",
+      "title": "Finance round 8: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "metricDirection": "maximize",
+      "depth": 4
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 18,
+    "finance": 11,
+    "knowledge": 49
+  },
+  "recentExperiments": [],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "0a40b39e88f9",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 146.39929162556777,
+        "depth": 1
+      },
+      {
+        "id": "1c9606647eea",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 143.4638049236888,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "43f9cc0b0cac",
+        "title": "Finance round 8: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 4
+      },
+      {
+        "id": "2765a1aa475f",
+        "title": "Finance round 6: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 3
+      },
+      {
+        "id": "5b7aa17f96bb",
+        "title": "Finance round 3: Sharpe=1.3031",
+        "metricValue": 1.3031,
+        "depth": 2
+      },
+      {
+        "id": "5f5c68331c79",
+        "title": "Finance round 2: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 1
+      },
+      {
+        "id": "186a8c91b0f0",
+        "title": "Finance round 1: Sharpe=1.1629",
+        "metricValue": 1.1629,
+        "depth": 0
+      }
+    ]
+  }
+}
