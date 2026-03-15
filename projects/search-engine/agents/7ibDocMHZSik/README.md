@@ -1,10 +1,10 @@
 # Search Research — Agent 7ibDocMHZSik
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 87b30070
-**Updated:** 2026-03-14T09:55:48.843Z
+**Run:** 87d49f24
+**Updated:** 2026-03-15T07:23:33.468Z
