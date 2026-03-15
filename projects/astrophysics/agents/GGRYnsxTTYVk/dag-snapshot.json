@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-15T11:58:57.651Z",
+  "peerId": "12D3KooWR5niY1YAeSmEcfED3MaJbXZ36EQ63TPAm6CoaGv7TbcC",
+  "stats": {
+    "totalNodes": 296,
+    "observations": 152,
+    "experiments": 144,
+    "syntheses": 0,
+    "totalEdges": 140,
+    "maxDepth": 8,
+    "activeExperiments": 0,
+    "recentActivity": 33
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "e4d17cd8af186e07677ae9864b95dac28c6fbd639235be88476b14c6b2988b78",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 148.9407663135918,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "skills": {
+      "nodeId": "8da362af986c6d1c7e8a084fc3d68b758059acd04f4d4623f35b033e3708506a",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "finance": {
+      "nodeId": "51fa142128e44ecfc0fa25f04f1573ebc072b400eba8fe69aefbe1ec4427fa11",
+      "title": "Finance round 8: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "metricDirection": "maximize",
+      "depth": 7
+    },
+    "search-ranking": {
+      "nodeId": "f1a3ef935eefb94e20087fb3c0119f842cf8e43805884ee2eb0847972159ad71",
+      "title": "Search round 38: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "metricDirection": "maximize",
+      "depth": 1
+    }
+  },
+  "domainCounts": {
+    "knowledge": 152,
+    "infrastructure": 40,
+    "skills": 48,
+    "finance": 31,
+    "search-ranking": 25
+  },
+  "recentExperiments": [],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "e4d17cd8af18",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.9407663135918,
+        "depth": 1
+      },
+      {
+        "id": "421f93d00022",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 144.05509314948458,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "8da362af986c",
+        "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 1
+      },
+      {
+        "id": "1a5d2f90e6a7",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1997,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "51fa142128e4",
+        "title": "Finance round 8: Sharpe=1.3129",
+        "metricValue": 1.3129,
+        "depth": 7
+      },
+      {
+        "id": "3e08811dbdfd",
+        "title": "Finance round 7: Sharpe=1.3064",
+        "metricValue": 1.3064,
+        "depth": 6
+      },
+      {
+        "id": "d6c4dde56737",
+        "title": "Finance round 6: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 5
+      },
+      {
+        "id": "1a1c733a664e",
+        "title": "Finance round 5: Sharpe=1.1991",
+        "metricValue": 1.1991,
+        "depth": 4
+      },
+      {
+        "id": "5e1e322bdfd2",
+        "title": "Finance round 4: Sharpe=1.1782",
+        "metricValue": 1.1782,
+        "depth": 3
+      },
+      {
+        "id": "3a11ad5768a3",
+        "title": "Finance round 3: Sharpe=1.0761",
+        "metricValue": 1.0761,
+        "depth": 2
+      },
+      {
+        "id": "85e1a363efb2",
+        "title": "Finance round 2: Sharpe=1.0616",
+        "metricValue": 1.0616,
+        "depth": 1
+      },
+      {
+        "id": "4ce92010ed1e",
+        "title": "Finance round 1: Sharpe=1.0465",
+        "metricValue": 1.0465,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "f1a3ef935eef",
+        "title": "Search round 38: relaxed peer timeout (5s)",
+        "metricValue": 0.395,
+        "depth": 1
+      },
+      {
+        "id": "e132376bbb35",
+        "title": "Search round 32: aggressive peer timeout (500ms)",
+        "metricValue": 0.3848713694067948,
+        "depth": 0
+      }
+    ]
+  }
+}
