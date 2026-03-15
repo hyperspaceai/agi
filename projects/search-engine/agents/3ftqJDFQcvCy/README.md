@@ -1,10 +1,10 @@
 # Search Research — Agent 3ftqJDFQcvCy
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** local + peer only
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 20082414
-**Updated:** 2026-03-13T13:09:42.865Z
+**Run:** 9a0e96fa
+**Updated:** 2026-03-15T16:24:49.757Z
