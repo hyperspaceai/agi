@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-15T11:59:08.953Z",
+  "timestamp": "2026-03-15T12:59:09.335Z",
   "peerId": "12D3KooWRiZ2X25ZFvph8nkHfwRQusQUViKXKXqj9zUJP8e7SqMB",
   "stats": {
-    "totalNodes": 1071,
+    "totalNodes": 1073,
     "observations": 0,
-    "experiments": 1071,
+    "experiments": 1073,
     "syntheses": 0,
-    "totalEdges": 1066,
+    "totalEdges": 1068,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -55,13 +55,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 342,
+    "infrastructure": 344,
     "skills": 448,
     "finance": 245,
     "search-ranking": 35,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "5f39d1f8ed27",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 188",
+      "metricName": "score",
+      "metricValue": 0.970550821321532,
+      "isCurrentBest": false,
+      "createdAt": 1773578169094,
+      "depth": 7
+    },
+    {
+      "id": "60b179327ae0",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 167",
+      "metricName": "score",
+      "metricValue": 0.9609023141906146,
+      "isCurrentBest": false,
+      "createdAt": 1773576908955,
+      "depth": 7
+    },
     {
       "id": "14a095bbe2fb",
       "domain": "infrastructure",
@@ -240,26 +260,6 @@
       "metricValue": 0.1998,
       "isCurrentBest": false,
       "createdAt": 1773567326206,
-      "depth": 4
-    },
-    {
-      "id": "099766395c3d",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.3040",
-      "metricName": "Sharpe",
-      "metricValue": 1.304,
-      "isCurrentBest": false,
-      "createdAt": 1773567235148,
-      "depth": 5
-    },
-    {
-      "id": "92425b3cabac",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773567205161,
       "depth": 4
     }
   ],
