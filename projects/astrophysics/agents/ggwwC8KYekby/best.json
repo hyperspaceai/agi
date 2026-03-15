@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWAW47gKi2jZ26PkUUzkyiwZ1CxyR9vWhc2NQV9f5Tjbz4",
-  "runNumber": 70,
-  "timestamp": 1773393534629,
-  "hypothesis": "Improve on 1d4f0ff0 (loss=3.1292): switch to RMSNorm",
+  "runNumber": 81,
+  "timestamp": 1773544000115,
+  "hypothesis": "Improve on eb495f00 (loss=2.6164): linear LR schedule",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -28,7 +28,7 @@
     "residualScale": 1,
     "dropoutRate": 0,
     "gradientClipNorm": 1,
-    "scheduleType": "cosine",
+    "scheduleType": "linear",
     "minLRRatio": 0.1,
     "initType": "xavier",
     "initScale": 0.01,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.6164172243729387,
-    "trainLoss": 2.5715749930994614,
+    "valLoss": 2.560682976847114,
+    "trainLoss": 2.6200869110202434,
     "lossCurve": [
       [
-        57,
-        2.6164172243729387
+        80,
+        2.560682976847114
       ]
     ],
-    "durationSec": 668.075,
-    "tokensPerSec": 174.7348725816712,
-    "totalTokens": 116736
+    "durationSec": 132.83,
+    "tokensPerSec": 1233.4562975231497,
+    "totalTokens": 163840
   },
-  "improvement": -15.317582798958714,
+  "improvement": -2.130174308846402,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
