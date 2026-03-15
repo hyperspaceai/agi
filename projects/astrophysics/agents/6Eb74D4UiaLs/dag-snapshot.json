@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-15T14:02:00.851Z",
+  "timestamp": "2026-03-15T19:16:04.434Z",
   "peerId": "12D3KooWF3xGoLeBuUcMmeuAGxWUZsSU4fiu2cLJQdW7oTbtUBMN",
   "stats": {
-    "totalNodes": 112,
-    "observations": 80,
-    "experiments": 32,
+    "totalNodes": 337,
+    "observations": 232,
+    "experiments": 105,
     "syntheses": 0,
-    "totalEdges": 29,
-    "maxDepth": 8,
+    "totalEdges": 102,
+    "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 33
+    "recentActivity": 42
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "52d7339949eaf8a28868e1e1a3e7a62711069922ddd1612c9c36aec6901d68f1",
-      "title": "Cause infra-optimization round 108",
+      "nodeId": "d59d3d60f2fd122c4886b76c07a9f45a237406694afb7f678c0c663d268164d9",
+      "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 145.1425423038599,
+      "metricValue": 146.53056476642342,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 3
     },
     "finance": {
       "nodeId": "fc081191d8118a07a421121b9e101ccbc93cd85fad1b757fce988c2a71eddb1a",
@@ -30,24 +30,87 @@
       "depth": 8
     },
     "search-ranking": {
-      "nodeId": "d3eaf62030e2a71b683cee3e9235765d56e5f74d6a13e371e23ff1e46c5f4aad",
-      "title": "Search round 38: increase freshness bias (0.15)",
+      "nodeId": "b19a5b8b49ce67f4979f392c44bfc9b876702e625e093e686a312db597bc66a8",
+      "title": "Search round 38: boost freshness weight (+0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 9,
-    "finance": 9,
-    "knowledge": 80,
-    "search-ranking": 14
+    "infrastructure": 48,
+    "finance": 39,
+    "knowledge": 232,
+    "search-ranking": 18
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "2448cf2018d7",
+      "domain": "finance",
+      "title": "Finance round 7: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "isCurrentBest": false,
+      "createdAt": 1773601414253,
+      "depth": 9
+    },
+    {
+      "id": "ac565f23a62c",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.3105",
+      "metricName": "Sharpe",
+      "metricValue": 1.3105,
+      "isCurrentBest": false,
+      "createdAt": 1773601114209,
+      "depth": 9
+    },
+    {
+      "id": "2fc93270d401",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2160",
+      "metricName": "Sharpe",
+      "metricValue": 1.216,
+      "isCurrentBest": false,
+      "createdAt": 1773600964194,
+      "depth": 9
+    },
+    {
+      "id": "66f8ac121c18",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 6",
+      "metricName": "score",
+      "metricValue": 0.9647273569071185,
+      "isCurrentBest": false,
+      "createdAt": 1773600784162,
+      "depth": 4
+    },
+    {
+      "id": "bc67e8a2a276",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.2077",
+      "metricName": "Sharpe",
+      "metricValue": 1.2077,
+      "isCurrentBest": false,
+      "createdAt": 1773600664148,
+      "depth": 9
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "d59d3d60f2fd",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 146.53056476642342,
+        "depth": 3
+      },
+      {
+        "id": "e869a5595351",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 145.2837246354552,
+        "depth": 2
+      },
       {
         "id": "52d7339949ea",
         "title": "Cause infra-optimization round 108",
@@ -118,6 +181,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "b19a5b8b49ce",
+        "title": "Search round 38: boost freshness weight (+0.05)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
       {
         "id": "d3eaf62030e2",
         "title": "Search round 38: increase freshness bias (0.15)",
