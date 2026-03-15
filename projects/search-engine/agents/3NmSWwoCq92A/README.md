@@ -1,10 +1,10 @@
 # Search Research — Agent 3NmSWwoCq92A
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** use z-score normalization
+**Best NDCG@10:** 0.3963
+**Hypothesis:** increase diversity penalty (0.2)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1e0dc6e3
-**Updated:** 2026-03-15T00:47:26.037Z
+**Run:** 4df33270
+**Updated:** 2026-03-15T11:23:18.073Z
