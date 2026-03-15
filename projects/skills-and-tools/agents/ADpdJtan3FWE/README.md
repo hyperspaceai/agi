@@ -1,8 +1,8 @@
 # Skill Catalog — Agent ADpdJtan3FWE
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1998
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1997
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 15
+**Description:** Extract Entities from Text: 0% correct, round 11
 
-_Updated: 2026-03-15T22:04:56.492Z_
+_Updated: 2026-03-15T22:44:22.808Z_
