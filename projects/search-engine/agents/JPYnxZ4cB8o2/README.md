@@ -1,10 +1,10 @@
 # Search Research — Agent JPYnxZ4cB8o2
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c3932e90
-**Updated:** 2026-03-13T13:09:21.208Z
+**Run:** 64da422c
+**Updated:** 2026-03-15T00:44:32.229Z
