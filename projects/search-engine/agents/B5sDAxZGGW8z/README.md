@@ -1,10 +1,10 @@
 # Search Research — Agent B5sDAxZGGW8z
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 819b8756
-**Updated:** 2026-03-13T07:23:10.851Z
+**Run:** 37169407
+**Updated:** 2026-03-15T01:08:22.436Z
