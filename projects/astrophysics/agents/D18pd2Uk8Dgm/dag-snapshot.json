@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-15T14:13:10.545Z",
+  "timestamp": "2026-03-15T20:13:45.293Z",
   "peerId": "12D3KooWMpVzNA4TK7xFhWv2HFhJsxZwGmru2a4A5qMwwEdfJxny",
   "stats": {
-    "totalNodes": 654,
-    "observations": 336,
-    "experiments": 318,
+    "totalNodes": 1002,
+    "observations": 509,
+    "experiments": 493,
     "syntheses": 0,
-    "totalEdges": 314,
+    "totalEdges": 488,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 29
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "d68771e1e7a58303fe35e0644918627fc1f9e49f1445a5f82bfa2a9aaa299c5a",
+      "nodeId": "d0bb8b2527268b815c09bab73d079060a889aefe35767c0b753790c3128d34af",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 147.5354064698258,
+      "metricValue": 147.62847029021486,
       "metricDirection": "maximize",
-      "depth": 4
+      "depth": 5
     },
     "finance": {
       "nodeId": "374dafadfb6cde7fa2b96d29a8bc99f67b9699a2cd9c7180d2b40b789a8a137a",
@@ -44,19 +44,34 @@
       "metricValue": 0.1997,
       "metricDirection": "maximize",
       "depth": 0
+    },
+    "general": {
+      "nodeId": "3195f23bef79fa000999bc7e87539c65a992b5cf5cd9f479026e32a173e90e44",
+      "title": "AutoWeb round 2: 86/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 86,
+      "metricDirection": "maximize",
+      "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 176,
-    "finance": 119,
+    "infrastructure": 280,
+    "finance": 189,
     "search-ranking": 21,
     "skills": 2,
-    "knowledge": 336
+    "knowledge": 509,
+    "general": 1
   },
   "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "d0bb8b252726",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.62847029021486,
+        "depth": 5
+      },
       {
         "id": "d68771e1e7a5",
         "title": "Cause infra-optimization round 1",
@@ -157,6 +172,14 @@
         "id": "14ed0d176bc3",
         "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
         "metricValue": 0.1997,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "3195f23bef79",
+        "title": "AutoWeb round 2: 86/100",
+        "metricValue": 86,
         "depth": 0
       }
     ]
