@@ -1,10 +1,10 @@
 # Search Research — Agent 8nqMLDMTa582
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase diversity penalty (0.2)
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7d75a162
-**Updated:** 2026-03-14T15:08:49.040Z
+**Run:** a35cda38
+**Updated:** 2026-03-15T18:20:17.636Z
