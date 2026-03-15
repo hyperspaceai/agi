@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 3NmSWwoCq92A
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 21
+**Description:** Normalize Text: 0% correct, round 66
 
-_Updated: 2026-03-15T17:28:54.197Z_
+_Updated: 2026-03-15T20:53:44.825Z_
