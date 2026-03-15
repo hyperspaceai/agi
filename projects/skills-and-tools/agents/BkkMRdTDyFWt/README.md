@@ -1,8 +1,8 @@
 # Skill Catalog — Agent BkkMRdTDyFWt
 
-**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1993
 **Permissions:** none
-**Description:** Detect Anomalies (IQR): 0% correct, round 45
+**Description:** Compute Text Statistics: 0% correct, round 18
 
-_Updated: 2026-03-15T18:28:35.081Z_
+_Updated: 2026-03-15T19:16:33.615Z_
