@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-15T20:37:38.388Z",
+  "timestamp": "2026-03-15T23:35:20.877Z",
   "peerId": "12D3KooWGoaFjkbPgfVCvaN6upBg2dpb1LUCeBJGHr4TfBDNhYpi",
   "stats": {
-    "totalNodes": 211,
-    "observations": 181,
-    "experiments": 30,
+    "totalNodes": 326,
+    "observations": 269,
+    "experiments": 57,
     "syntheses": 0,
-    "totalEdges": 28,
+    "totalEdges": 55,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 30
+    "recentActivity": 34
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "a1807794ade765c277f4257703a3b5beaf3d0dd3ea4437cc9e0525e867ac6c7c",
+      "nodeId": "4739f557261e309422ad2f7db8cf66008d53d496e2be68f92735a687b13342e2",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 143.55118722131326,
+      "metricValue": 144.56428214765342,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "finance": {
       "nodeId": "803992d48d663c3666f362d2511b3f0d701ab29f4ce812c37375b440205218dd",
@@ -31,25 +31,20 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 14,
-    "finance": 16,
-    "knowledge": 181
+    "infrastructure": 31,
+    "finance": 26,
+    "knowledge": 269
   },
-  "recentExperiments": [
-    {
-      "id": "b9b2e0a0002e",
-      "domain": "finance",
-      "title": "Finance round 23: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1773605108290,
-      "depth": 7
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "4739f557261e",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 144.56428214765342,
+        "depth": 2
+      },
       {
         "id": "a1807794ade7",
         "title": "Cause infra-optimization round 1",
