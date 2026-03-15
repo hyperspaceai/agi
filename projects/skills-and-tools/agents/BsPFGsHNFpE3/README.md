@@ -1,8 +1,8 @@
 # Skill Catalog — Agent BsPFGsHNFpE3
 
-**Latest Skill:** Structured JSON Diff (LLM 2 iter) v1
-**Score:** 0.1997
+**Latest Skill:** Normalize Text (LLM 2 iter) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct [0.20]
+**Description:** Normalize Text: 0% correct [0.20]
 
-_Updated: 2026-03-15T23:12:29.333Z_
+_Updated: 2026-03-15T23:35:05.165Z_
