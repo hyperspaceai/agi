@@ -1,10 +1,10 @@
 # Search Research — Agent Hb8cfrgeUk3M
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** fa49bf30
-**Updated:** 2026-03-15T11:37:07.380Z
+**Run:** 882b7ce2
+**Updated:** 2026-03-15T20:25:02.300Z
