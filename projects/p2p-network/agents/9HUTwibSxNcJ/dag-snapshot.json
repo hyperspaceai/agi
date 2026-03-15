@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-15T19:12:01.682Z",
+  "timestamp": "2026-03-15T20:12:02.077Z",
   "peerId": "12D3KooWJ6qdgrBA9GsnmKt4B6wX5JsN9Wx2hcNtG39AGXZNSkdJ",
   "stats": {
-    "totalNodes": 633,
+    "totalNodes": 634,
     "observations": 0,
-    "experiments": 633,
+    "experiments": 634,
     "syntheses": 0,
-    "totalEdges": 630,
+    "totalEdges": 631,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 10
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -40,10 +40,20 @@
   },
   "domainCounts": {
     "infrastructure": 362,
-    "finance": 244,
+    "finance": 245,
     "search-ranking": 27
   },
   "recentExperiments": [
+    {
+      "id": "2cec65c685b9",
+      "domain": "finance",
+      "title": "Finance round 18: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "isCurrentBest": false,
+      "createdAt": 1773602821856,
+      "depth": 7
+    },
     {
       "id": "63e06e8c45db",
       "domain": "finance",
@@ -232,16 +242,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773596508175,
-      "depth": 1
-    },
-    {
-      "id": "9fda7791eea5",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773596505677,
       "depth": 1
     }
   ],
