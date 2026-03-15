@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DarJ3byXVZau
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1996
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Score:** 0.1997
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 4
+**Description:** Compute Text Statistics: 0% correct, round 5
 
-_Updated: 2026-03-15T15:06:57.538Z_
+_Updated: 2026-03-15T16:22:04.406Z_
