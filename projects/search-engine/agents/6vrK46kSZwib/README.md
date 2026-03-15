@@ -1,10 +1,10 @@
 # Search Research — Agent 6vrK46kSZwib
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** use z-score normalization
+**Best NDCG@10:** 0.4000
+**Hypothesis:** increase diversity penalty (0.2)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c50d6f5c
-**Updated:** 2026-03-15T20:02:59.918Z
+**Run:** 410f51c0
+**Updated:** 2026-03-15T23:41:17.840Z
