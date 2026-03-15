@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DwpN8dtVTvuP
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 40
+**Description:** Compute Text Statistics: 0% correct, round 76
 
-_Updated: 2026-03-15T10:45:42.026Z_
+_Updated: 2026-03-15T12:00:59.605Z_
