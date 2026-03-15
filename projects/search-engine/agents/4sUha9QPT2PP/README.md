@@ -1,10 +1,10 @@
 # Search Research — Agent 4sUha9QPT2PP
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost diversity weight (+0.03)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d34be06c
-**Updated:** 2026-03-13T23:05:42.338Z
+**Run:** 4e35b370
+**Updated:** 2026-03-15T16:02:33.786Z
