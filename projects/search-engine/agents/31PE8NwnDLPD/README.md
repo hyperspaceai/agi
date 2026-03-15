@@ -1,10 +1,10 @@
 # Search Research — Agent 31PE8NwnDLPD
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b1b6cafc
-**Updated:** 2026-03-15T20:32:07.231Z
+**Run:** 1b8e8672
+**Updated:** 2026-03-15T23:46:00.704Z
