@@ -1,11 +1,11 @@
 # Financial Analysis — Agent GDcWovaYeKer
 
-**Best Sharpe Ratio:** 1.0761
-**Hypothesis:** Round 3 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, trendWeight
+**Best Sharpe Ratio:** 1.1782
+**Hypothesis:** Round 4 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** equal_weight
-**Alpha:** 0.9069
-**Max Drawdown:** 0.0785
+**Alpha:** 1.1189
+**Max Drawdown:** 0.0739
 **LLM:** unknown
-**Run:** finance-r3
-**Updated:** 2026-03-15T07:17:56.673Z
+**Run:** finance-r4
+**Updated:** 2026-03-15T07:20:26.683Z
