@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWMByk4fSVfmbXG1gCQhWofVaAxMB3RazBJBEX2MkRqS8c",
-  "runNumber": 3,
-  "timestamp": 1773554933703,
-  "hypothesis": "Improve on 9213f6a0 (loss=3.7166): switch to RMSNorm",
+  "runNumber": 1,
+  "timestamp": 1773555254884,
+  "hypothesis": "Explore: aggressive LR (0.006) + warmup",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -22,7 +22,7 @@
     "evalSteps": 10,
     "dataset": "astrophysics",
     "activation": "gelu",
-    "normalization": "rmsnorm",
+    "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
     "residualScale": 1,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.646731527106844,
-    "trainLoss": 2.675023938980157,
+    "valLoss": 3.71659837807739,
+    "trainLoss": 3.707691680179778,
     "lossCurve": [
       [
-        147,
-        2.646731527106844
+        150,
+        3.71659837807739
       ]
     ],
-    "durationSec": 126.423,
-    "tokensPerSec": 2381.3388386606866,
-    "totalTokens": 301056
+    "durationSec": 126.593,
+    "tokensPerSec": 2426.674460673181,
+    "totalTokens": 307200
   },
-  "improvement": -28.786184089226026,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
