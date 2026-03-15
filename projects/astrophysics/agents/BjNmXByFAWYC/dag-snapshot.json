@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-15T11:07:19.733Z",
+  "timestamp": "2026-03-15T12:07:20.153Z",
   "peerId": "12D3KooWLYjwGKYxMQogvePBvD8AHe3TPu6ybK9sgeLUwFEfxijU",
   "stats": {
-    "totalNodes": 1491,
-    "observations": 535,
-    "experiments": 956,
+    "totalNodes": 1519,
+    "observations": 561,
+    "experiments": 958,
     "syntheses": 0,
-    "totalEdges": 952,
+    "totalEdges": 954,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 44
+    "recentActivity": 28
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,42 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 324,
-    "skills": 365,
+    "infrastructure": 325,
+    "skills": 366,
     "finance": 245,
     "search-ranking": 22,
-    "knowledge": 535
+    "knowledge": 561
   },
   "recentExperiments": [
     {
-      "id": "8234762ed513",
+      "id": "c2078f6e73ff",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 126",
+      "metricName": "score",
+      "metricValue": 141.17904778345397,
+      "isCurrentBest": false,
+      "createdAt": 1773575059893,
+      "depth": 4
+    },
+    {
+      "id": "2b4bc191a2ae",
       "domain": "skills",
       "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1773572119538,
+      "createdAt": 1773573679733,
       "depth": 2
-    },
-    {
-      "id": "87bfb8df60d5",
-      "domain": "finance",
-      "title": "Finance round 30: Sharpe=1.2946",
-      "metricName": "Sharpe",
-      "metricValue": 1.2946,
-      "isCurrentBest": false,
-      "createdAt": 1773571939524,
-      "depth": 8
-    },
-    {
-      "id": "5d8df0bc2a6c",
-      "domain": "finance",
-      "title": "Finance round 27: Sharpe=1.2890",
-      "metricName": "Sharpe",
-      "metricValue": 1.289,
-      "isCurrentBest": false,
-      "createdAt": 1773571489494,
-      "depth": 8
     }
   ],
   "frontier": [],
