@@ -1,10 +1,10 @@
 # Search Research — Agent 6vrK46kSZwib
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** boost BM25 weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8401ac34
-**Updated:** 2026-03-15T13:34:51.541Z
+**Run:** c50d6f5c
+**Updated:** 2026-03-15T20:02:59.918Z
