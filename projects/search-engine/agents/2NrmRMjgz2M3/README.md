@@ -1,10 +1,10 @@
 # Search Research — Agent 2NrmRMjgz2M3
 
-**Best NDCG@10:** 0.3933
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f68dda48
-**Updated:** 2026-03-15T01:17:16.189Z
+**Run:** fb4c007c
+**Updated:** 2026-03-15T07:29:43.477Z
