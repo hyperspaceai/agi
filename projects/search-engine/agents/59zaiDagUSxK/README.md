@@ -1,10 +1,10 @@
 # Search Research — Agent 59zaiDagUSxK
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost freshness weight (+0.05)
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 680490d8
-**Updated:** 2026-03-13T11:20:09.073Z
+**Run:** f961f514
+**Updated:** 2026-03-15T14:55:22.320Z
