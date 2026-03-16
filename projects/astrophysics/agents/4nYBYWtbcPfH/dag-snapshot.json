@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-15T20:18:17.240Z",
+  "timestamp": "2026-03-16T13:41:40.706Z",
   "peerId": "12D3KooWDbuMHeUJoHvnGjZqt77yFC2murLoWsfAkfZGCn9BXhKb",
   "stats": {
-    "totalNodes": 1216,
-    "observations": 404,
-    "experiments": 812,
+    "totalNodes": 1584,
+    "observations": 639,
+    "experiments": 945,
     "syntheses": 0,
-    "totalEdges": 809,
+    "totalEdges": 941,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 36
+    "recentActivity": 13
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -36,94 +36,53 @@
       "metricValue": 1.3205,
       "metricDirection": "maximize",
       "depth": 6
+    },
+    "search-ranking": {
+      "nodeId": "0e756d6643c310f5055a51fb2d7dc2aa02223e829436913576c0ed3f354f4bdd",
+      "title": "Search round 37: disable intent classification",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 251,
-    "skills": 355,
-    "finance": 206,
-    "knowledge": 404
+    "infrastructure": 281,
+    "skills": 404,
+    "finance": 234,
+    "knowledge": 639,
+    "search-ranking": 26
   },
   "recentExperiments": [
     {
-      "id": "2f05acd07ca1",
+      "id": "e26c93c782ad",
       "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1999,
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1773604598283,
+      "createdAt": 1773668500697,
       "depth": 4
     },
     {
-      "id": "76f04f3dbe9c",
+      "id": "5811eafc3bf2",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773668261374,
+      "depth": 4
+    },
+    {
+      "id": "931ff580fb3b",
       "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.3161",
+      "title": "Finance round 10: Sharpe=1.3174",
       "metricName": "Sharpe",
-      "metricValue": 1.3161,
+      "metricValue": 1.3174,
       "isCurrentBest": false,
-      "createdAt": 1773604088260,
+      "createdAt": 1773667248725,
       "depth": 7
-    },
-    {
-      "id": "78905df75607",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773603998260,
-      "depth": 4
-    },
-    {
-      "id": "64e6e1ecafa1",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773603878255,
-      "depth": 4
-    },
-    {
-      "id": "5cfc0957e55e",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773603758257,
-      "depth": 4
-    },
-    {
-      "id": "fcad9e817782",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773603638260,
-      "depth": 4
-    },
-    {
-      "id": "1fe786e33beb",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.3064",
-      "metricName": "Sharpe",
-      "metricValue": 1.3064,
-      "isCurrentBest": false,
-      "createdAt": 1773603638256,
-      "depth": 7
-    },
-    {
-      "id": "b6e5d05735e1",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773603518156,
-      "depth": 4
     }
   ],
   "frontier": [],
@@ -239,6 +198,14 @@
         "id": "1d10b598b30b",
         "title": "Finance round 1: Sharpe=1.1400",
         "metricValue": 1.14,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "0e756d6643c3",
+        "title": "Search round 37: disable intent classification",
+        "metricValue": 0.4,
         "depth": 0
       }
     ]
