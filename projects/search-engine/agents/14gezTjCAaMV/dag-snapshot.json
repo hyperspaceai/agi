@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T03:01:55.508Z",
+  "timestamp": "2026-03-16T04:07:00.002Z",
   "peerId": "12D3KooW9t3pjbJuMUcyTmhyaW6jLm2d8Zoadjvb1v4rsuA2ZLjW",
   "stats": {
-    "totalNodes": 46,
+    "totalNodes": 47,
     "observations": 0,
-    "experiments": 46,
+    "experiments": 47,
     "syntheses": 0,
     "totalEdges": 37,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,10 +38,10 @@
       "depth": 7
     },
     "general": {
-      "nodeId": "d5a1e8e1208b84c893122304015fcc0386f715bc8576ec0807d635f3adbccd8b",
-      "title": "AutoWeb round 8: 73/100",
+      "nodeId": "a1914b9b551cfcac39690c504a1815a65f869566c893fd68e2282aa160d44b49",
+      "title": "AutoWeb round 41: 75/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 73,
+      "metricValue": 75,
       "metricDirection": "maximize",
       "depth": 0
     },
@@ -58,10 +58,20 @@
     "infrastructure": 10,
     "skills": 9,
     "finance": 8,
-    "general": 5,
+    "general": 6,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "a1914b9b551c",
+      "domain": "general",
+      "title": "AutoWeb round 41: 75/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 75,
+      "isCurrentBest": true,
+      "createdAt": 1773631639217,
+      "depth": 0
+    },
     {
       "id": "585eaf4bd677",
       "domain": "infrastructure",
@@ -251,16 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1773623524510,
       "depth": 0
-    },
-    {
-      "id": "0ec2a6414e41",
-      "domain": "general",
-      "title": "AutoWeb round 9: 73/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 73,
-      "isCurrentBest": false,
-      "createdAt": 1773623276755,
-      "depth": 0
     }
   ],
   "frontier": [],
@@ -333,9 +333,9 @@
     ],
     "general": [
       {
-        "id": "d5a1e8e1208b",
-        "title": "AutoWeb round 8: 73/100",
-        "metricValue": 73,
+        "id": "a1914b9b551c",
+        "title": "AutoWeb round 41: 75/100",
+        "metricValue": 75,
         "depth": 0
       }
     ],
