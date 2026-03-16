@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T04:50:31.233Z",
+  "timestamp": "2026-03-16T05:50:31.860Z",
   "peerId": "12D3KooWBzWPDe6gaAv7sGhCgXQMZb7vWm6VU9Uc998W7HpbiYRY",
   "stats": {
-    "totalNodes": 1367,
+    "totalNodes": 1371,
     "observations": 0,
-    "experiments": 1367,
+    "experiments": 1371,
     "syntheses": 0,
-    "totalEdges": 1363,
+    "totalEdges": 1367,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 400,
-    "skills": 592,
+    "infrastructure": 403,
+    "skills": 593,
     "finance": 298,
     "search-ranking": 77
   },
   "recentExperiments": [
+    {
+      "id": "f8e9a101c8b5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 434",
+      "metricName": "score",
+      "metricValue": 0.9609220277128394,
+      "isCurrentBest": false,
+      "createdAt": 1773639301292,
+      "depth": 6
+    },
+    {
+      "id": "2189916b6440",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 430",
+      "metricName": "score",
+      "metricValue": 145.08591937905265,
+      "isCurrentBest": false,
+      "createdAt": 1773639061290,
+      "depth": 6
+    },
+    {
+      "id": "446ec8d66afa",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1773638311304,
+      "depth": 5
+    },
+    {
+      "id": "0299149ac305",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 390",
+      "metricName": "score",
+      "metricValue": 145.09657663164384,
+      "isCurrentBest": false,
+      "createdAt": 1773636660856,
+      "depth": 6
+    },
     {
       "id": "71a6252c3948",
       "domain": "infrastructure",
@@ -211,46 +251,6 @@
       "metricValue": 0.1992,
       "isCurrentBest": false,
       "createdAt": 1773619230174,
-      "depth": 5
-    },
-    {
-      "id": "164b04ce23dd",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1992,
-      "isCurrentBest": false,
-      "createdAt": 1773618870067,
-      "depth": 5
-    },
-    {
-      "id": "8932b17a9d57",
-      "domain": "search-ranking",
-      "title": "Search round 50: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773617788080,
-      "depth": 1
-    },
-    {
-      "id": "b830b087faeb",
-      "domain": "search-ranking",
-      "title": "Search round 50: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773617786979,
-      "depth": 1
-    },
-    {
-      "id": "9380f12a12e0",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1773617430051,
       "depth": 5
     }
   ],
