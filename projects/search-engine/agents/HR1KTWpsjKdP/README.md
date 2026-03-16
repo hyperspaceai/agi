@@ -1,10 +1,10 @@
 # Search Research — Agent HR1KTWpsjKdP
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost authority weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 030a1966
-**Updated:** 2026-03-16T15:46:58.976Z
+**Run:** a6c63ca4
+**Updated:** 2026-03-16T22:40:40.647Z
