@@ -1,10 +1,10 @@
 # Search Research — Agent Su6xVrurLHTB
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** reduce body weight (-0.05)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** bc37e339
-**Updated:** 2026-03-16T17:07:18.529Z
+**Run:** 2dc4d0c0
+**Updated:** 2026-03-16T19:34:59.753Z
