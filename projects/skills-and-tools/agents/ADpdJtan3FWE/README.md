@@ -1,8 +1,8 @@
 # Skill Catalog — Agent ADpdJtan3FWE
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
 **Score:** 0.1997
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 20
+**Description:** Detect Anomalies (IQR): 0% correct, round 12
 
-_Updated: 2026-03-16T18:48:55.550Z_
+_Updated: 2026-03-16T19:53:19.960Z_
