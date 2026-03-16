@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T20:00:36.507Z",
+  "timestamp": "2026-03-16T21:17:22.082Z",
   "peerId": "12D3KooWCEyvmGstqBwis4vFgt8vgeQHx1KEKYoBPFxDXWrk2Umf",
   "stats": {
-    "totalNodes": 410,
+    "totalNodes": 466,
     "observations": 0,
-    "experiments": 410,
+    "experiments": 466,
     "syntheses": 0,
-    "totalEdges": 406,
+    "totalEdges": 462,
     "maxDepth": 18,
     "activeExperiments": 0,
-    "recentActivity": 23
+    "recentActivity": 47
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,211 +47,211 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 115,
-    "skills": 157,
-    "finance": 110,
+    "infrastructure": 134,
+    "skills": 182,
+    "finance": 122,
     "search-ranking": 28
   },
   "recentExperiments": [
     {
-      "id": "df8297651992",
+      "id": "e001d2e89afc",
       "domain": "skills",
       "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1773691236407,
+      "createdAt": 1773695721669,
       "depth": 1
     },
     {
-      "id": "859fbe709374",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773690756388,
-      "depth": 1
-    },
-    {
-      "id": "13bbfaa0a1e7",
+      "id": "5c49e031f8a6",
       "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.3137",
+      "title": "Finance round 10: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "isCurrentBest": false,
+      "createdAt": 1773695541695,
+      "depth": 18
+    },
+    {
+      "id": "823192a8fbcf",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 19",
+      "metricName": "score",
+      "metricValue": 141.1599444042352,
+      "isCurrentBest": false,
+      "createdAt": 1773695241619,
+      "depth": 4
+    },
+    {
+      "id": "e9b00f1dd4e9",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773695001601,
+      "depth": 1
+    },
+    {
+      "id": "61c87813cd20",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773694881595,
+      "depth": 1
+    },
+    {
+      "id": "318141c0af55",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.3137",
       "metricName": "Sharpe",
       "metricValue": 1.3137,
       "isCurrentBest": false,
-      "createdAt": 1773690636372,
+      "createdAt": 1773694791585,
       "depth": 18
     },
     {
-      "id": "04104586b1a2",
+      "id": "0a33bff1bb26",
       "domain": "skills",
       "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1773690396354,
+      "createdAt": 1773694761641,
       "depth": 1
     },
     {
-      "id": "678758fb655a",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.3064",
-      "metricName": "Sharpe",
-      "metricValue": 1.3064,
-      "isCurrentBest": false,
-      "createdAt": 1773690336340,
-      "depth": 18
-    },
-    {
-      "id": "50ade47f58fe",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773690276365,
-      "depth": 1
-    },
-    {
-      "id": "139254df5b3c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 13",
-      "metricName": "score",
-      "metricValue": 0.9698225529806115,
-      "isCurrentBest": false,
-      "createdAt": 1773690276321,
-      "depth": 4
-    },
-    {
-      "id": "fffc06c103ff",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 12",
-      "metricName": "score",
-      "metricValue": 0.9666102594822458,
-      "isCurrentBest": false,
-      "createdAt": 1773690216338,
-      "depth": 4
-    },
-    {
-      "id": "bc6c6e21aa6e",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773690156369,
-      "depth": 1
-    },
-    {
-      "id": "976efe6c16c7",
+      "id": "9c716205c5a6",
       "domain": "infrastructure",
       "title": "Cause infra-optimization round 11",
       "metricName": "score",
-      "metricValue": 141.62018261412268,
+      "metricValue": 141.26375216417327,
       "isCurrentBest": false,
-      "createdAt": 1773690156315,
+      "createdAt": 1773694761579,
       "depth": 4
     },
     {
-      "id": "8756972bae0d",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773690036336,
-      "depth": 1
-    },
-    {
-      "id": "dc92f0d334e5",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773689916362,
-      "depth": 1
-    },
-    {
-      "id": "667e340b1122",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773689796316,
-      "depth": 1
-    },
-    {
-      "id": "096ca65ea7b7",
+      "id": "72835ec6503a",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5",
+      "title": "Cause infra-optimization round 10",
       "metricName": "score",
-      "metricValue": 141.70851406773588,
+      "metricValue": 142.1742093447825,
       "isCurrentBest": false,
-      "createdAt": 1773689796290,
+      "createdAt": 1773694701576,
       "depth": 4
     },
     {
-      "id": "9c26b1681021",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1991",
-      "metricName": "Sharpe",
-      "metricValue": 1.1991,
+      "id": "16a4ad71ca27",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1773689736314,
+      "createdAt": 1773694641562,
+      "depth": 1
+    },
+    {
+      "id": "17f74713a803",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.3040",
+      "metricName": "Sharpe",
+      "metricValue": 1.304,
+      "isCurrentBest": false,
+      "createdAt": 1773694641560,
       "depth": 18
     },
     {
-      "id": "ea93a40f2c6c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4",
-      "metricName": "score",
-      "metricValue": 0.960552736212682,
-      "isCurrentBest": false,
-      "createdAt": 1773689736286,
-      "depth": 4
-    },
-    {
-      "id": "77d0cb7b5da1",
+      "id": "abbf6bd1f6c4",
       "domain": "skills",
       "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1773689676351,
+      "createdAt": 1773694521503,
       "depth": 1
     },
     {
-      "id": "f2cee9047aa1",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3",
-      "metricName": "score",
-      "metricValue": 143.00334428626027,
-      "isCurrentBest": false,
-      "createdAt": 1773689676304,
-      "depth": 4
-    },
-    {
-      "id": "c0ed8cf4efdf",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2",
-      "metricName": "score",
-      "metricValue": 0.9594314148886396,
-      "isCurrentBest": false,
-      "createdAt": 1773689616279,
-      "depth": 4
-    },
-    {
-      "id": "4e65d123c4b0",
+      "id": "6f4792c254df",
       "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.1031",
+      "title": "Finance round 3: Sharpe=1.2960",
       "metricName": "Sharpe",
-      "metricValue": 1.1031,
+      "metricValue": 1.296,
       "isCurrentBest": false,
-      "createdAt": 1773689586302,
+      "createdAt": 1773694491590,
       "depth": 18
+    },
+    {
+      "id": "48f9d4f8425c",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773694401496,
+      "depth": 1
+    },
+    {
+      "id": "660ab06a8bdb",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1678",
+      "metricName": "Sharpe",
+      "metricValue": 1.1678,
+      "isCurrentBest": false,
+      "createdAt": 1773694341499,
+      "depth": 18
+    },
+    {
+      "id": "af66f9d35f38",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 4",
+      "metricName": "score",
+      "metricValue": 142.64419050561528,
+      "isCurrentBest": false,
+      "createdAt": 1773694341481,
+      "depth": 4
+    },
+    {
+      "id": "1f45ad6428b2",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773694281460,
+      "depth": 1
+    },
+    {
+      "id": "082ceb71e602",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.0697",
+      "metricName": "Sharpe",
+      "metricValue": 1.0697,
+      "isCurrentBest": false,
+      "createdAt": 1773694191440,
+      "depth": 18
+    },
+    {
+      "id": "e6606e4ebc1f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773694161446,
+      "depth": 1
+    },
+    {
+      "id": "ee61b63661ab",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1",
+      "metricName": "score",
+      "metricValue": 0.9634851342515115,
+      "isCurrentBest": false,
+      "createdAt": 1773694161438,
+      "depth": 4
     }
   ],
   "frontier": [],
