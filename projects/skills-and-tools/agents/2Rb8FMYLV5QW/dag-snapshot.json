@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T11:27:37.856Z",
+  "timestamp": "2026-03-16T12:27:37.998Z",
   "peerId": "12D3KooWBExHzV83fyg1QoeNQ3qp7LorZpZ1GmU3tBx2mX6ujgBR",
   "stats": {
-    "totalNodes": 1607,
-    "observations": 102,
-    "experiments": 1505,
+    "totalNodes": 1635,
+    "observations": 128,
+    "experiments": 1507,
     "syntheses": 0,
-    "totalEdges": 1501,
+    "totalEdges": 1503,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 32
+    "recentActivity": 28
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,13 +47,34 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 474,
-    "skills": 610,
+    "infrastructure": 475,
+    "skills": 611,
     "finance": 347,
     "search-ranking": 74,
-    "knowledge": 102
+    "knowledge": 128
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "45a7f5fe24db",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 237",
+      "metricName": "score",
+      "metricValue": 0.9328892435424676,
+      "isCurrentBest": false,
+      "createdAt": 1773662137669,
+      "depth": 6
+    },
+    {
+      "id": "edfc8e3b771f",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1773661777689,
+      "depth": 3
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
