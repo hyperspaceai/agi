@@ -1,10 +1,10 @@
 # Search Research — Agent HvU67p5T544Q
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** decrease diversity penalty (0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7e59dfac
-**Updated:** 2026-03-15T20:07:04.416Z
+**Run:** e1ec68f4
+**Updated:** 2026-03-16T15:44:37.767Z
