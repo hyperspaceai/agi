@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T05:20:24.082Z",
+  "timestamp": "2026-03-16T06:20:24.144Z",
   "peerId": "12D3KooWNkhx5X1A7jKB11a5gZdyapMw6hsVGy7pEdzikpp74J9m",
   "stats": {
-    "totalNodes": 546,
+    "totalNodes": 548,
     "observations": 0,
-    "experiments": 546,
+    "experiments": 548,
     "syntheses": 0,
-    "totalEdges": 543,
+    "totalEdges": 545,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 314,
+    "infrastructure": 316,
     "finance": 218,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "d22078b58d70",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 497",
+      "metricName": "score",
+      "metricValue": 0.9748042731544805,
+      "isCurrentBest": false,
+      "createdAt": 1773641303977,
+      "depth": 7
+    },
+    {
+      "id": "d6ee8e7fde5b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 497",
+      "metricName": "score",
+      "metricValue": 141.17871472806664,
+      "isCurrentBest": false,
+      "createdAt": 1773641303975,
+      "depth": 7
+    },
     {
       "id": "4910a9645cd3",
       "domain": "infrastructure",
@@ -222,26 +242,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773614949457,
-      "depth": 1
-    },
-    {
-      "id": "2ddf60c06788",
-      "domain": "search-ranking",
-      "title": "Search round 39: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773614949155,
-      "depth": 1
-    },
-    {
-      "id": "86196f546dcf",
-      "domain": "search-ranking",
-      "title": "Search round 39: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773614947716,
       "depth": 1
     }
   ],
