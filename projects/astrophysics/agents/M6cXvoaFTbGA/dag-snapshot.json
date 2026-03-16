@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T14:04:43.487Z",
+  "timestamp": "2026-03-16T16:45:49.311Z",
   "peerId": "12D3KooWAATnH4PHSMrkZuEVF7yS2ZMw6B35fNMKBytDGgQzDkFF",
   "stats": {
-    "totalNodes": 223,
-    "observations": 167,
-    "experiments": 56,
+    "totalNodes": 374,
+    "observations": 251,
+    "experiments": 123,
     "syntheses": 0,
-    "totalEdges": 47,
-    "maxDepth": 7,
+    "totalEdges": 111,
+    "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 31
+    "recentActivity": 30
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -46,34 +46,23 @@
       "depth": 0
     },
     "search-ranking": {
-      "nodeId": "f36fa5e557f28addffec8ce64b43b7ac9ba7c8ea6ca9002141a8104ccb891dfb",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
+      "nodeId": "fb6cbd7866e71976e89b0bf98c9654d4be6857a4112f75cb8f7a69a10fbb6a0e",
+      "title": "Search round 35: boost click weight (+0.03)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3848713694067948,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "knowledge": 167,
-    "infrastructure": 14,
-    "skills": 15,
-    "finance": 8,
-    "general": 5,
-    "search-ranking": 14
+    "knowledge": 251,
+    "infrastructure": 30,
+    "skills": 39,
+    "finance": 22,
+    "general": 8,
+    "search-ranking": 24
   },
-  "recentExperiments": [
-    {
-      "id": "7b460e8d4227",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 323",
-      "metricName": "score",
-      "metricValue": 145.07588883989362,
-      "isCurrentBest": false,
-      "createdAt": 1773669523382,
-      "depth": 1
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
@@ -157,6 +146,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "fb6cbd7866e7",
+        "title": "Search round 35: boost click weight (+0.03)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
       {
         "id": "f36fa5e557f2",
         "title": "Search round 39: decrease diversity penalty (0.05)",
