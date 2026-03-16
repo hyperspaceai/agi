@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 8nqMLDMTa582
 
-**Best Sharpe Ratio:** 1.2960
-**Hypothesis:** Round 6 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.5180
-**Max Drawdown:** 0.0564
+**Best Sharpe Ratio:** 1.1862
+**Hypothesis:** Round 4 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Position Sizing:** equal_weight
+**Alpha:** 1.0826
+**Max Drawdown:** 0.0570
 **LLM:** unknown
-**Run:** finance-r6
-**Updated:** 2026-03-16T14:16:45.063Z
+**Run:** finance-r4
+**Updated:** 2026-03-16T16:00:05.582Z
