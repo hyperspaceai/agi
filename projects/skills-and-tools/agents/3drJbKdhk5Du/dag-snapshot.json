@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T03:19:02.722Z",
+  "timestamp": "2026-03-16T04:19:05.118Z",
   "peerId": "12D3KooWCTDULTDQvyVPgRD9s9XnJ7po5qURpvzRfxZk9iqnxErW",
   "stats": {
-    "totalNodes": 1328,
+    "totalNodes": 1330,
     "observations": 0,
-    "experiments": 1328,
+    "experiments": 1330,
     "syntheses": 0,
-    "totalEdges": 1323,
+    "totalEdges": 1325,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 437,
+    "infrastructure": 439,
     "skills": 529,
     "finance": 322,
     "search-ranking": 39,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "adf5b9f13d3b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 363",
+      "metricName": "score",
+      "metricValue": 144.96521753260535,
+      "isCurrentBest": false,
+      "createdAt": 1773633184247,
+      "depth": 6
+    },
+    {
+      "id": "a3caf305b978",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 333",
+      "metricName": "score",
+      "metricValue": 145.0482805193648,
+      "isCurrentBest": false,
+      "createdAt": 1773631382550,
+      "depth": 6
+    },
     {
       "id": "27a54797ed50",
       "domain": "infrastructure",
@@ -241,26 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1773613606181,
       "depth": 1
-    },
-    {
-      "id": "2987531e7f40",
-      "domain": "finance",
-      "title": "Finance round 15: Sharpe=1.2593",
-      "metricName": "Sharpe",
-      "metricValue": 1.2593,
-      "isCurrentBest": false,
-      "createdAt": 1773613576303,
-      "depth": 9
-    },
-    {
-      "id": "78cac5278fa3",
-      "domain": "finance",
-      "title": "Finance round 14: Sharpe=1.2540",
-      "metricName": "Sharpe",
-      "metricValue": 1.254,
-      "isCurrentBest": false,
-      "createdAt": 1773613426183,
-      "depth": 9
     }
   ],
   "frontier": [],
