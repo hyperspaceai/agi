@@ -1,10 +1,10 @@
 # Search Research — Agent 2nFhStoHvkpB
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.4000
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ee12e0e8
-**Updated:** 2026-03-16T16:39:07.634Z
+**Run:** 90be15c4
+**Updated:** 2026-03-16T19:29:28.851Z
