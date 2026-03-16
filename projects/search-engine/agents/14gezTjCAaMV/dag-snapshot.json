@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T01:55:14.623Z",
+  "timestamp": "2026-03-16T03:01:55.508Z",
   "peerId": "12D3KooW9t3pjbJuMUcyTmhyaW6jLm2d8Zoadjvb1v4rsuA2ZLjW",
   "stats": {
-    "totalNodes": 42,
+    "totalNodes": 46,
     "observations": 0,
-    "experiments": 42,
+    "experiments": 46,
     "syntheses": 0,
-    "totalEdges": 33,
+    "totalEdges": 37,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 17
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,53 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 6,
+    "infrastructure": 10,
     "skills": 9,
     "finance": 8,
     "general": 5,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "585eaf4bd677",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 122",
+      "metricName": "score",
+      "metricValue": 0.9777292195231558,
+      "isCurrentBest": false,
+      "createdAt": 1773628314741,
+      "depth": 1
+    },
+    {
+      "id": "6494956d68a5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 118",
+      "metricName": "score",
+      "metricValue": 0.9721656536826885,
+      "isCurrentBest": false,
+      "createdAt": 1773628048065,
+      "depth": 1
+    },
+    {
+      "id": "69b1021b4f1b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 118",
+      "metricName": "score",
+      "metricValue": 141.01517914046806,
+      "isCurrentBest": false,
+      "createdAt": 1773628048061,
+      "depth": 1
+    },
+    {
+      "id": "81a30815621d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 113",
+      "metricName": "score",
+      "metricValue": 0.9706075953308476,
+      "isCurrentBest": false,
+      "createdAt": 1773627714706,
+      "depth": 1
+    },
     {
       "id": "7010ecf8ce56",
       "domain": "search-ranking",
@@ -220,46 +260,6 @@
       "metricValue": 73,
       "isCurrentBest": false,
       "createdAt": 1773623276755,
-      "depth": 0
-    },
-    {
-      "id": "d5a1e8e1208b",
-      "domain": "general",
-      "title": "AutoWeb round 8: 73/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 73,
-      "isCurrentBest": true,
-      "createdAt": 1773622904080,
-      "depth": 0
-    },
-    {
-      "id": "76092834017a",
-      "domain": "general",
-      "title": "AutoWeb round 5: 26/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 26,
-      "isCurrentBest": false,
-      "createdAt": 1773622041396,
-      "depth": 0
-    },
-    {
-      "id": "72c48bb95ad4",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773621980824,
-      "depth": 1
-    },
-    {
-      "id": "247864d4eeda",
-      "domain": "general",
-      "title": "AutoWeb round 4: 26/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 26,
-      "isCurrentBest": false,
-      "createdAt": 1773621750689,
       "depth": 0
     }
   ],
