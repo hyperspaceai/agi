@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-16T06:13:03.745Z",
+  "peerId": "12D3KooWB1H5u7rJ8D5R6P4mkXHagFDBfdNf4Prv33meY91wAKDD",
+  "stats": {
+    "totalNodes": 301,
+    "observations": 0,
+    "experiments": 301,
+    "syntheses": 0,
+    "totalEdges": 286,
+    "maxDepth": 7,
+    "activeExperiments": 7,
+    "recentActivity": 1
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "024f5b1b1f108d75db188040c0dbcf7328413a88ea03200819d53e6495adbad6",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 147.62180094464603,
+      "metricDirection": "maximize",
+      "depth": 3
+    },
+    "skills": {
+      "nodeId": "7b9b5a40c60520148274251420ef83f82e727897fa50bdfe6ad14782a927f694",
+      "title": "Skill Normalize Text (LLM 2 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.9979,
+      "metricDirection": "maximize",
+      "depth": 5
+    },
+    "finance": {
+      "nodeId": "93d915a2c0480553c5688672f8cbd0e41d8123a03648653921c0257fac180b5e",
+      "title": "Finance round 8: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "metricDirection": "maximize",
+      "depth": 6
+    },
+    "general": {
+      "nodeId": "fbc0b1e1bd80ca9d8c3a525b20f2b006a2af1cd3f48f76d20fe10870cffe93f1",
+      "title": "AutoWeb round 6: 83/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 83,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 190,
+    "skills": 82,
+    "finance": 17,
+    "general": 5,
+    "physics": 7
+  },
+  "recentExperiments": [
+    {
+      "id": "fbc0b1e1bd80",
+      "domain": "general",
+      "title": "AutoWeb round 6: 83/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 83,
+      "isCurrentBest": true,
+      "createdAt": 1773639067497,
+      "depth": 0
+    },
+    {
+      "id": "f1dd711e48c5",
+      "domain": "physics",
+      "title": "Wrote paper: \"On gravitational_waves: Can we build a library of gravitational wave templates from \" ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773636571224,
+      "depth": 0
+    },
+    {
+      "id": "490d173fd7d4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 307",
+      "metricName": "score",
+      "metricValue": 141.041867869352,
+      "isCurrentBest": false,
+      "createdAt": 1773635110641,
+      "depth": 4
+    },
+    {
+      "id": "ce1f1dcf27ed",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Following Barzegar & Buchert (2025), what warp drive solutio\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773633953953,
+      "depth": 0
+    },
+    {
+      "id": "b6867d579e16",
+      "domain": "general",
+      "title": "AutoWeb round 4: 81/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 81,
+      "isCurrentBest": false,
+      "createdAt": 1773632593837,
+      "depth": 0
+    },
+    {
+      "id": "c203d740b50f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 281",
+      "metricName": "score",
+      "metricValue": 0.9296009251060073,
+      "isCurrentBest": false,
+      "createdAt": 1773632590634,
+      "depth": 4
+    },
+    {
+      "id": "9d2a6588c826",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.9978,
+      "isCurrentBest": false,
+      "createdAt": 1773631255275,
+      "depth": 6
+    },
+    {
+      "id": "fcf029ff8112",
+      "domain": "physics",
+      "title": "Wrote paper: \"On modified_gravity: Do f(R) or Gauss-Bonnet modified gravity theories admit warp\" (se",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773630113803,
+      "depth": 0
+    },
+    {
+      "id": "75acb42e4061",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 236",
+      "metricName": "score",
+      "metricValue": 141.29425197700692,
+      "isCurrentBest": false,
+      "createdAt": 1773629950589,
+      "depth": 4
+    },
+    {
+      "id": "304407b9e05c",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.9978,
+      "isCurrentBest": false,
+      "createdAt": 1773628721635,
+      "depth": 6
+    },
+    {
+      "id": "fb6ed839b80d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On casimir_engineering: Can arrays of Casimir micro-cavities (following White/LSI 20\" ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773627462319,
+      "depth": 0
+    },
+    {
+      "id": "f5cd6aba84ae",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 1 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.9978,
+      "isCurrentBest": false,
+      "createdAt": 1773627348460,
+      "depth": 6
+    },
+    {
+      "id": "dd48a17dfc20",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.9978,
+      "isCurrentBest": false,
+      "createdAt": 1773626067881,
+      "depth": 6
+    },
+    {
+      "id": "5beb8b712cec",
+      "domain": "general",
+      "title": "AutoWeb round 2: 79/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 79,
+      "isCurrentBest": false,
+      "createdAt": 1773626065716,
+      "depth": 0
+    },
+    {
+      "id": "4e781cebd794",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the Fuchs et al. (2024) constant-velocity subluminal war\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773624859180,
+      "depth": 0
+    },
+    {
+      "id": "f7ae339221b7",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.9978,
+      "isCurrentBest": false,
+      "createdAt": 1773623513882,
+      "depth": 6
+    },
+    {
+      "id": "047c6ec34a2e",
+      "domain": "general",
+      "title": "AutoWeb round 1: 73/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 73,
+      "isCurrentBest": false,
+      "createdAt": 1773622230815,
+      "depth": 0
+    },
+    {
+      "id": "8b62fbbda231",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.996,
+      "isCurrentBest": false,
+      "createdAt": 1773622224824,
+      "depth": 6
+    },
+    {
+      "id": "75e0c94fba0d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On energy_conditions: What are the quantum gravity corrections to the null energy \" (s",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773621035774,
+      "depth": 0
+    },
+    {
+      "id": "a7482636d305",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 1 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.996,
+      "isCurrentBest": false,
+      "createdAt": 1773620883331,
+      "depth": 6
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "024f5b1b1f10",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.62180094464603,
+        "depth": 3
+      },
+      {
+        "id": "9af7df576dc3",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.4802784881853,
+        "depth": 2
+      },
+      {
+        "id": "19df2ef2d9d7",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.19655728999476,
+        "depth": 1
+      },
+      {
+        "id": "e2dd20574958",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 145.81467295562632,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "7b9b5a40c605",
+        "title": "Skill Normalize Text (LLM 2 iter): 100%",
+        "metricValue": 0.9979,
+        "depth": 5
+      },
+      {
+        "id": "5d25bc11e64f",
+        "title": "Skill Structured JSON Diff (LLM 2 iter): 100%",
+        "metricValue": 0.9978,
+        "depth": 4
+      },
+      {
+        "id": "0c2e14c402e0",
+        "title": "Skill Extract Entities from Text (LLM 2 iter): 100%",
+        "metricValue": 0.9977,
+        "depth": 3
+      },
+      {
+        "id": "4544d5d2d3e5",
+        "title": "Skill Structured JSON Diff (LLM 2 iter): 100%",
+        "metricValue": 0.9936,
+        "depth": 2
+      },
+      {
+        "id": "8dc6c55bdda0",
+        "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 1
+      },
+      {
+        "id": "789074e8e84d",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1997,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "93d915a2c048",
+        "title": "Finance round 8: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 6
+      },
+      {
+        "id": "619978c870ad",
+        "title": "Finance round 4: Sharpe=1.3137",
+        "metricValue": 1.3137,
+        "depth": 5
+      },
+      {
+        "id": "1ceb43674fd7",
+        "title": "Finance round 6: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 4
+      },
+      {
+        "id": "578b8a54479e",
+        "title": "Finance round 4: Sharpe=1.3040",
+        "metricValue": 1.304,
+        "depth": 3
+      },
+      {
+        "id": "6d3c5289649e",
+        "title": "Finance round 3: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 2
+      },
+      {
+        "id": "6fdd305c27d1",
+        "title": "Finance round 2: Sharpe=1.1991",
+        "metricValue": 1.1991,
+        "depth": 1
+      },
+      {
+        "id": "65762778cedd",
+        "title": "Finance round 1: Sharpe=1.0607",
+        "metricValue": 1.0607,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "fbc0b1e1bd80",
+        "title": "AutoWeb round 6: 83/100",
+        "metricValue": 83,
+        "depth": 0
+      }
+    ]
+  }
+}
