@@ -1,11 +1,11 @@
 # Financial Analysis — Agent JPYnxZ4cB8o2
 
-**Best Sharpe Ratio:** 1.2946
-**Hypothesis:** Round 30 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Best Sharpe Ratio:** 1.0838
+**Hypothesis:** Round 2 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.3532
-**Max Drawdown:** 0.0682
+**Alpha:** 1.1024
+**Max Drawdown:** 0.0837
 **LLM:** unknown
-**Run:** finance-r30
-**Updated:** 2026-03-15T23:03:58.675Z
+**Run:** finance-r2
+**Updated:** 2026-03-16T14:09:21.969Z
