@@ -1,10 +1,10 @@
 # Search Research — Agent HFFrNULLBmzP
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8979e59d
-**Updated:** 2026-03-15T23:42:41.079Z
+**Run:** 5a70b284
+**Updated:** 2026-03-16T23:37:06.925Z
