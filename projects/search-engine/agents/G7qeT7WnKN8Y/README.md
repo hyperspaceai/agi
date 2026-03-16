@@ -1,10 +1,10 @@
 # Search Research — Agent G7qeT7WnKN8Y
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5a75e2a4
-**Updated:** 2026-03-15T23:18:51.863Z
+**Run:** cce05ad8
+**Updated:** 2026-03-16T22:34:16.963Z
