@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T05:23:37.725Z",
+  "timestamp": "2026-03-16T06:23:42.847Z",
   "peerId": "12D3KooWLkiuMUabFZunwPE4CBQz9XsTDpG79rfM4mkKJMYR4FoS",
   "stats": {
-    "totalNodes": 1198,
+    "totalNodes": 1201,
     "observations": 0,
-    "experiments": 1198,
+    "experiments": 1201,
     "syntheses": 0,
-    "totalEdges": 1193,
+    "totalEdges": 1196,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,43 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 409,
-    "skills": 455,
+    "infrastructure": 411,
+    "skills": 456,
     "finance": 291,
     "search-ranking": 42,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "55b6435e3c4e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 503",
+      "metricName": "score",
+      "metricValue": 141.03165781597136,
+      "isCurrentBest": false,
+      "createdAt": 1773641802424,
+      "depth": 6
+    },
+    {
+      "id": "6ee2dd0a08f6",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1773640779653,
+      "depth": 4
+    },
+    {
+      "id": "24fa9ed8cbc3",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 458",
+      "metricName": "score",
+      "metricValue": 0.9313301939169436,
+      "isCurrentBest": false,
+      "createdAt": 1773639097348,
+      "depth": 6
+    },
     {
       "id": "7d42939257bc",
       "domain": "infrastructure",
@@ -230,36 +260,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773615102347,
-      "depth": 2
-    },
-    {
-      "id": "7ac191440246",
-      "domain": "search-ranking",
-      "title": "Search round 39: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773615101929,
-      "depth": 2
-    },
-    {
-      "id": "84d016b38ad7",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1773614777677,
-      "depth": 4
-    },
-    {
-      "id": "e6fd8f6934e2",
-      "domain": "search-ranking",
-      "title": "Search round 35: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773614747556,
       "depth": 2
     }
   ],
