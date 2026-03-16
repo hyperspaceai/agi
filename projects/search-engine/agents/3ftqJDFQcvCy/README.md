@@ -1,10 +1,10 @@
 # Search Research — Agent 3ftqJDFQcvCy
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1bbf8390
-**Updated:** 2026-03-15T23:45:46.298Z
+**Run:** 175b3477
+**Updated:** 2026-03-16T19:53:06.044Z
