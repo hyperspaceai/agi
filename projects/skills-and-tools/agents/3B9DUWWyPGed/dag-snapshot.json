@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T00:50:30.487Z",
+  "timestamp": "2026-03-16T01:50:30.595Z",
   "peerId": "12D3KooWBzWPDe6gaAv7sGhCgXQMZb7vWm6VU9Uc998W7HpbiYRY",
   "stats": {
-    "totalNodes": 1354,
+    "totalNodes": 1358,
     "observations": 0,
-    "experiments": 1354,
+    "experiments": 1358,
     "syntheses": 0,
-    "totalEdges": 1350,
+    "totalEdges": 1354,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 4
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 391,
-    "skills": 588,
+    "infrastructure": 394,
+    "skills": 589,
     "finance": 298,
     "search-ranking": 77
   },
   "recentExperiments": [
+    {
+      "id": "e0d855b78381",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1773623550250,
+      "depth": 5
+    },
+    {
+      "id": "31238a96fdcb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 170",
+      "metricName": "score",
+      "metricValue": 0.9735916761747773,
+      "isCurrentBest": false,
+      "createdAt": 1773623460227,
+      "depth": 6
+    },
+    {
+      "id": "a4cdc83b7804",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 161",
+      "metricName": "score",
+      "metricValue": 0.9688284863952468,
+      "isCurrentBest": false,
+      "createdAt": 1773622920214,
+      "depth": 6
+    },
+    {
+      "id": "2ac60db703db",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 152",
+      "metricName": "score",
+      "metricValue": 0.9668987541155188,
+      "isCurrentBest": false,
+      "createdAt": 1773622380172,
+      "depth": 6
+    },
     {
       "id": "498ccc89fd21",
       "domain": "skills",
@@ -212,46 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773616708252,
       "depth": 1
-    },
-    {
-      "id": "a394575d64ca",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773616706957,
-      "depth": 1
-    },
-    {
-      "id": "19b066d4cf05",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773616706063,
-      "depth": 1
-    },
-    {
-      "id": "b1b928e4d62c",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773616705140,
-      "depth": 1
-    },
-    {
-      "id": "9c1877caa000",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 53",
-      "metricName": "score",
-      "metricValue": 0.9791688468921711,
-      "isCurrentBest": false,
-      "createdAt": 1773616439113,
-      "depth": 6
     }
   ],
   "frontier": [],
