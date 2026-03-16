@@ -2,27 +2,24 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWN6sxgXkD7hqndrqfSRLqNxiUVPvNqVP2PirZW9o2faTC",
-  "runNumber": 8,
-  "timestamp": 1773626257263,
-  "hypothesis": "Improve on run #1 (loss=3.9596): aggressive LR + long warmup (8e-4, 300wu)",
-  "config": {
-    "learningRate": 0.0008,
-    "warmupSteps": 300
-  },
+  "runNumber": 1,
+  "timestamp": 1773626576268,
+  "hypothesis": "Baseline: default architecture on astrophysics corpus",
+  "config": {},
   "result": {
-    "valLoss": 3.7858093680184224,
-    "trainLoss": 3.8144905345572795,
+    "valLoss": 3.9595625688542953,
+    "trainLoss": 3.964903430637288,
     "lossCurve": [
       [
-        99,
-        3.7858093680184224
+        100,
+        3.9595625688542953
       ]
     ],
-    "durationSec": 324.788,
-    "tokensPerSec": 624.2595169772281,
-    "totalTokens": 202752
+    "durationSec": 325.937,
+    "tokensPerSec": 628.3422870063846,
+    "totalTokens": 204800
   },
-  "improvement": -4.388191822061511,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
