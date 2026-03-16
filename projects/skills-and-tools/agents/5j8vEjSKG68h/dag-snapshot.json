@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T06:24:56.740Z",
+  "timestamp": "2026-03-16T07:24:56.890Z",
   "peerId": "12D3KooWEYW5ys22SzQC6jtrkVRm6o1SYWr71F1mrNuBQNPnoDq6",
   "stats": {
-    "totalNodes": 290,
+    "totalNodes": 291,
     "observations": 0,
-    "experiments": 290,
+    "experiments": 291,
     "syntheses": 0,
-    "totalEdges": 286,
+    "totalEdges": 287,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 85,
+    "infrastructure": 86,
     "skills": 95,
     "finance": 82,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "0425c456272d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 351",
+      "metricName": "score",
+      "metricValue": 145.09718644621634,
+      "isCurrentBest": false,
+      "createdAt": 1773643616620,
+      "depth": 3
+    },
     {
       "id": "ac98738bf948",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773625414397,
       "depth": 2
-    },
-    {
-      "id": "9d5dda862302",
-      "domain": "search-ranking",
-      "title": "Search round 32: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": true,
-      "createdAt": 1773625414098,
-      "depth": 1
     }
   ],
   "frontier": [],
