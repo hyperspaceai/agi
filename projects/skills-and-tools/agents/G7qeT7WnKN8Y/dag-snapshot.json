@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T08:20:11.375Z",
+  "timestamp": "2026-03-16T09:20:11.538Z",
   "peerId": "12D3KooWQwCpCF6VWGQ3EUjfvbQmNQKUGFre7CaUWLTT2t1CQsCK",
   "stats": {
-    "totalNodes": 215,
+    "totalNodes": 216,
     "observations": 0,
-    "experiments": 215,
+    "experiments": 216,
     "syntheses": 0,
-    "totalEdges": 211,
+    "totalEdges": 212,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 76,
+    "infrastructure": 77,
     "skills": 81,
     "finance": 44,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "4f130d2856b7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 633",
+      "metricName": "score",
+      "metricValue": 0.9254248689152693,
+      "isCurrentBest": false,
+      "createdAt": 1773649451286,
+      "depth": 3
+    },
     {
       "id": "e53a712663de",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773615008965,
       "depth": 2
-    },
-    {
-      "id": "ec6e63195d1f",
-      "domain": "search-ranking",
-      "title": "Search round 38: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773614836811,
-      "depth": 1
     }
   ],
   "frontier": [],
