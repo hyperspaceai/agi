@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T02:23:17.743Z",
+  "timestamp": "2026-03-16T03:23:57.052Z",
   "peerId": "12D3KooWRTuxxD8gXwSAHadsRyCAg4RGqbtALD4n2KkQHfaEvLCL",
   "stats": {
-    "totalNodes": 1260,
+    "totalNodes": 1262,
     "observations": 0,
-    "experiments": 1260,
+    "experiments": 1262,
     "syntheses": 0,
-    "totalEdges": 1256,
+    "totalEdges": 1258,
     "maxDepth": 21,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 413,
+    "infrastructure": 415,
     "skills": 454,
     "finance": 306,
     "search-ranking": 87
   },
   "recentExperiments": [
+    {
+      "id": "500cef326a72",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 316",
+      "metricName": "score",
+      "metricValue": 141.07591116691245,
+      "isCurrentBest": false,
+      "createdAt": 1773630530161,
+      "depth": 5
+    },
+    {
+      "id": "4e1f5825f82a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 290",
+      "metricName": "score",
+      "metricValue": 141.1912049072175,
+      "isCurrentBest": false,
+      "createdAt": 1773628947909,
+      "depth": 5
+    },
     {
       "id": "cac0fdcb99c0",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1773615294855,
-      "depth": 2
-    },
-    {
-      "id": "2e9a4a5afae1",
-      "domain": "search-ranking",
-      "title": "Search round 42: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773615294053,
-      "depth": 2
-    },
-    {
-      "id": "d82c2e59545a",
-      "domain": "search-ranking",
-      "title": "Search round 34: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773614572538,
       "depth": 2
     }
   ],
