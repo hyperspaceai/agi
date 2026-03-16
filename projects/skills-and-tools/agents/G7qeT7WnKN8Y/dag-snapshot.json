@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T02:20:10.052Z",
+  "timestamp": "2026-03-16T03:20:10.364Z",
   "peerId": "12D3KooWQwCpCF6VWGQ3EUjfvbQmNQKUGFre7CaUWLTT2t1CQsCK",
   "stats": {
-    "totalNodes": 206,
+    "totalNodes": 208,
     "observations": 0,
-    "experiments": 206,
+    "experiments": 208,
     "syntheses": 0,
-    "totalEdges": 202,
+    "totalEdges": 204,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 68,
-    "skills": 80,
+    "infrastructure": 69,
+    "skills": 81,
     "finance": 44,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "e07cfe45695f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773629650121,
+      "depth": 2
+    },
+    {
+      "id": "b2ec35fed720",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 303",
+      "metricName": "score",
+      "metricValue": 0.9264728154651797,
+      "isCurrentBest": false,
+      "createdAt": 1773629650117,
+      "depth": 3
+    },
     {
       "id": "d6bddf82dbad",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773614295326,
       "depth": 1
-    },
-    {
-      "id": "41fa30f5f37c",
-      "domain": "search-ranking",
-      "title": "Search round 32: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773614295279,
-      "depth": 1
-    },
-    {
-      "id": "5c363c923f08",
-      "domain": "search-ranking",
-      "title": "Search round 32: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": true,
-      "createdAt": 1773614295264,
-      "depth": 0
     }
   ],
   "frontier": [],
