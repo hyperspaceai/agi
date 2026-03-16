@@ -1,10 +1,10 @@
 # Search Research — Agent G2PrgmMeG1x8
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** use z-score normalization
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d69568a8
-**Updated:** 2026-03-15T23:27:24.828Z
+**Run:** fa2f869a
+**Updated:** 2026-03-16T16:03:40.443Z
