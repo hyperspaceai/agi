@@ -1,10 +1,10 @@
 # Search Research — Agent 9Xkb2H8XuV9R
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require 5 unique domains
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 4af86192
-**Updated:** 2026-03-16T15:42:11.060Z
+**Run:** 1a93652c
+**Updated:** 2026-03-16T19:25:57.194Z
