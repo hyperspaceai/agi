@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T02:21:52.358Z",
+  "timestamp": "2026-03-16T03:22:19.077Z",
   "peerId": "12D3KooWST1yV6WsePZvB7LTkJk7JUNMDuy2mKyGm4m4UX7EpecT",
   "stats": {
-    "totalNodes": 1284,
+    "totalNodes": 1285,
     "observations": 0,
-    "experiments": 1284,
+    "experiments": 1285,
     "syntheses": 0,
-    "totalEdges": 1279,
+    "totalEdges": 1280,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -56,12 +56,22 @@
   },
   "domainCounts": {
     "infrastructure": 420,
-    "skills": 505,
+    "skills": 506,
     "finance": 309,
     "search-ranking": 49,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "5eb66da22734",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773630134269,
+      "depth": 3
+    },
     {
       "id": "a4e2e7ffee96",
       "domain": "skills",
@@ -250,16 +260,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773614584160,
-      "depth": 2
-    },
-    {
-      "id": "1b720863b23d",
-      "domain": "search-ranking",
-      "title": "Search round 35: increase diversity penalty (0.2)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773614583299,
       "depth": 2
     }
   ],
