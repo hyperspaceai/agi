@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T01:06:03.441Z",
+  "timestamp": "2026-03-16T02:00:37.948Z",
   "peerId": "12D3KooWE2DPSnVoU167VNkXcftetYMwKFSRUZwudUAZFoHxQfCW",
   "stats": {
-    "totalNodes": 1412,
+    "totalNodes": 1413,
     "observations": 0,
-    "experiments": 1412,
+    "experiments": 1413,
     "syntheses": 0,
-    "totalEdges": 1406,
+    "totalEdges": 1407,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -56,12 +56,22 @@
   },
   "domainCounts": {
     "infrastructure": 454,
-    "skills": 565,
+    "skills": 566,
     "finance": 337,
     "search-ranking": 54,
     "general": 2
   },
   "recentExperiments": [
+    {
+      "id": "3447397f336d",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1773625782581,
+      "depth": 3
+    },
     {
       "id": "f0a89f7313fb",
       "domain": "infrastructure",
@@ -250,16 +260,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1773614719027,
-      "depth": 1
-    },
-    {
-      "id": "32fef98d323b",
-      "domain": "search-ranking",
-      "title": "Search round 36: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773614718912,
       "depth": 1
     }
   ],
