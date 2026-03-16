@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T02:23:18.787Z",
+  "timestamp": "2026-03-16T03:23:34.824Z",
   "peerId": "12D3KooWGiftc7ZQuFTXvHwvfsdCUdujmnypi1zLyWeDwG1M5D4w",
   "stats": {
-    "totalNodes": 1257,
+    "totalNodes": 1258,
     "observations": 0,
-    "experiments": 1257,
+    "experiments": 1258,
     "syntheses": 0,
-    "totalEdges": 1252,
+    "totalEdges": 1253,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -56,12 +56,22 @@
   },
   "domainCounts": {
     "infrastructure": 407,
-    "skills": 506,
+    "skills": 507,
     "finance": 277,
     "search-ranking": 66,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "b1067a670ef2",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773630451493,
+      "depth": 2
+    },
     {
       "id": "817908471db3",
       "domain": "infrastructure",
@@ -250,16 +260,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773614961398,
-      "depth": 1
-    },
-    {
-      "id": "febe7d297863",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773614959946,
       "depth": 1
     }
   ],
