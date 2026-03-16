@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CdkeCoyLBC1J
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
 **Score:** 0.1994
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 28
+**Description:** Extract Entities from Text: 0% correct, round 54
 
-_Updated: 2026-03-16T15:04:46.979Z_
+_Updated: 2026-03-16T17:02:41.434Z_
