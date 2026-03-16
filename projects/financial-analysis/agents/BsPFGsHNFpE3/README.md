@@ -1,11 +1,11 @@
 # Financial Analysis — Agent BsPFGsHNFpE3
 
-**Best Sharpe Ratio:** 1.1434
-**Hypothesis:** [LLM] Boost momentum and trend exposure, increase low‑vol tilt, shrink mean‑reversion, and switch to inverse‑vol weighting with tighter volatility and drawdown limits for a higher Sharpe.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
-**Position Sizing:** inverse_vol
-**Alpha:** 0.9237
-**Max Drawdown:** 0.0569
+**Best Sharpe Ratio:** 1.2540
+**Hypothesis:** Round 16 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Position Sizing:** risk_parity
+**Alpha:** 1.3479
+**Max Drawdown:** 0.0719
 **LLM:** unknown
-**Run:** llm-r2
-**Updated:** 2026-03-16T21:54:31.478Z
+**Run:** finance-r16
+**Updated:** 2026-03-16T23:04:40.986Z
