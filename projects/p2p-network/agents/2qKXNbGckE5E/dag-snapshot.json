@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T18:32:04.823Z",
+  "timestamp": "2026-03-16T19:32:04.885Z",
   "peerId": "12D3KooWBegh7irKw8LipTCMvH6tAFJKZ8Kuh3XUrAcnne2fzfbQ",
   "stats": {
-    "totalNodes": 887,
+    "totalNodes": 888,
     "observations": 0,
-    "experiments": 887,
+    "experiments": 888,
     "syntheses": 0,
-    "totalEdges": 884,
+    "totalEdges": 885,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 16
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -40,10 +40,20 @@
   },
   "domainCounts": {
     "infrastructure": 495,
-    "finance": 338,
+    "finance": 339,
     "search-ranking": 54
   },
   "recentExperiments": [
+    {
+      "id": "80656b492580",
+      "domain": "finance",
+      "title": "Finance round 15: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "isCurrentBest": false,
+      "createdAt": 1773686374816,
+      "depth": 9
+    },
     {
       "id": "65d335d82332",
       "domain": "infrastructure",
@@ -232,16 +242,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773678385162,
-      "depth": 2
-    },
-    {
-      "id": "62df2d81a790",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773678385049,
       "depth": 2
     }
   ],
