@@ -1,10 +1,10 @@
 # Search Research — Agent GX6hknS81VJQ
 
-**Best NDCG@10:** 0.3849
-**Hypothesis:** increase diversity penalty (0.2)
+**Best NDCG@10:** 0.3899
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 19a84660
-**Updated:** 2026-03-16T03:27:19.431Z
+**Run:** d1df30e4
+**Updated:** 2026-03-16T15:34:41.285Z
