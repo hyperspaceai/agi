@@ -1,8 +1,8 @@
 # Skill Catalog — Agent BsPFGsHNFpE3
 
-**Latest Skill:** Parse Key-Value Log (LLM 2 iter) v1
-**Score:** 0.1993
+**Latest Skill:** Extract Entities from Text (LLM 2 iter) v1
+**Score:** 0.1994
 **Permissions:** none
-**Description:** Parse Key-Value Log: 0% correct [0.20]
+**Description:** Extract Entities from Text: 0% correct [0.20]
 
-_Updated: 2026-03-16T06:09:38.399Z_
+_Updated: 2026-03-16T19:01:18.858Z_
