@@ -1,10 +1,10 @@
 # Search Research — Agent 2uXaioLiF4HY
 
-**Best NDCG@10:** 0.3899
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a60bf0f4
-**Updated:** 2026-03-15T14:47:26.892Z
+**Run:** 32a66e6c
+**Updated:** 2026-03-16T10:26:35.054Z
