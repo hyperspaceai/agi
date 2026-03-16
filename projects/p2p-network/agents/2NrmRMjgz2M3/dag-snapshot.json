@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T01:22:36.364Z",
+  "timestamp": "2026-03-16T02:22:36.457Z",
   "peerId": "12D3KooWBCDwAVKQAvcY923R2u7whc52TeH49aRHMrUDQSYBkrGJ",
   "stats": {
-    "totalNodes": 532,
+    "totalNodes": 535,
     "observations": 0,
-    "experiments": 532,
+    "experiments": 535,
     "syntheses": 0,
-    "totalEdges": 504,
+    "totalEdges": 505,
     "maxDepth": 17,
     "activeExperiments": 0,
     "recentActivity": 3
@@ -46,22 +46,52 @@
       "depth": 2
     },
     "general": {
-      "nodeId": "d4446d21ece71a3c634cf73b0cdadb272a9a870f7c3b9373edd666ef0fdc6b32",
-      "title": "AutoWeb round 4: 80/100",
+      "nodeId": "bb60b1e8ed3dfd497848aaf498b4ac6e5e4749d59e588edbc7a44622d9af8341",
+      "title": "AutoWeb round 62: 84/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 80,
+      "metricValue": 84,
       "metricDirection": "maximize",
       "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 194,
+    "infrastructure": 195,
     "skills": 144,
     "finance": 123,
     "search-ranking": 47,
-    "general": 24
+    "general": 26
   },
   "recentExperiments": [
+    {
+      "id": "bb60b1e8ed3d",
+      "domain": "general",
+      "title": "AutoWeb round 62: 84/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 84,
+      "isCurrentBest": true,
+      "createdAt": 1773626724064,
+      "depth": 0
+    },
+    {
+      "id": "4a446419f9d0",
+      "domain": "general",
+      "title": "AutoWeb round 59: 80/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 80,
+      "isCurrentBest": false,
+      "createdAt": 1773625995983,
+      "depth": 0
+    },
+    {
+      "id": "b74db0b42ced",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 230",
+      "metricName": "score",
+      "metricValue": 0.9628680107807871,
+      "isCurrentBest": false,
+      "createdAt": 1773625416346,
+      "depth": 4
+    },
     {
       "id": "67ab5407b8f5",
       "domain": "general",
@@ -231,36 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1773615371485,
       "depth": 3
-    },
-    {
-      "id": "721d769e6926",
-      "domain": "search-ranking",
-      "title": "Search round 42: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773615371365,
-      "depth": 3
-    },
-    {
-      "id": "b11792b65148",
-      "domain": "finance",
-      "title": "Finance round 25: Sharpe=1.2843",
-      "metricName": "Sharpe",
-      "metricValue": 1.2843,
-      "isCurrentBest": false,
-      "createdAt": 1773615306134,
-      "depth": 17
-    },
-    {
-      "id": "dd5d77c5d7bc",
-      "domain": "search-ranking",
-      "title": "Search round 38: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773615012915,
-      "depth": 3
     }
   ],
   "frontier": [],
@@ -389,9 +389,9 @@
     ],
     "general": [
       {
-        "id": "d4446d21ece7",
-        "title": "AutoWeb round 4: 80/100",
-        "metricValue": 80,
+        "id": "bb60b1e8ed3d",
+        "title": "AutoWeb round 62: 84/100",
+        "metricValue": 84,
         "depth": 0
       }
     ]
