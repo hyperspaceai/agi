@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T04:35:26.434Z",
+  "timestamp": "2026-03-16T22:30:47.546Z",
   "peerId": "12D3KooWK2C1m18GpAzqw8GhunSFM8FgPZLmPSKgGpXEJiPuaqgZ",
   "stats": {
-    "totalNodes": 520,
-    "observations": 418,
-    "experiments": 102,
+    "totalNodes": 592,
+    "observations": 453,
+    "experiments": 139,
     "syntheses": 0,
-    "totalEdges": 100,
+    "totalEdges": 137,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 30
+    "recentActivity": 50
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -31,20 +31,120 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 61,
-    "finance": 41,
-    "knowledge": 418
+    "infrastructure": 82,
+    "finance": 57,
+    "knowledge": 453
   },
   "recentExperiments": [
     {
-      "id": "3caaf88c4ed5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 357",
-      "metricName": "score",
-      "metricValue": 145.04538950154856,
+      "id": "f72d598f66be",
+      "domain": "finance",
+      "title": "Finance round 11: Sharpe=1.2427",
+      "metricName": "Sharpe",
+      "metricValue": 1.2427,
       "isCurrentBest": false,
-      "createdAt": 1773633776296,
+      "createdAt": 1773700097509,
+      "depth": 8
+    },
+    {
+      "id": "2f6008b566b0",
+      "domain": "finance",
+      "title": "Finance round 10: Sharpe=1.2363",
+      "metricName": "Sharpe",
+      "metricValue": 1.2363,
+      "isCurrentBest": false,
+      "createdAt": 1773699947512,
+      "depth": 8
+    },
+    {
+      "id": "aa0813df868a",
+      "domain": "finance",
+      "title": "Finance round 8: Sharpe=1.2263",
+      "metricName": "Sharpe",
+      "metricValue": 1.2263,
+      "isCurrentBest": false,
+      "createdAt": 1773699647510,
+      "depth": 8
+    },
+    {
+      "id": "e47d5d3c4670",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.2191",
+      "metricName": "Sharpe",
+      "metricValue": 1.2191,
+      "isCurrentBest": false,
+      "createdAt": 1773699347498,
+      "depth": 8
+    },
+    {
+      "id": "ba0fd697e586",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 13",
+      "metricName": "score",
+      "metricValue": 141.58316954008401,
+      "isCurrentBest": false,
+      "createdAt": 1773699287481,
       "depth": 2
+    },
+    {
+      "id": "f492e920ae7b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 12",
+      "metricName": "score",
+      "metricValue": 0.9696268742465722,
+      "isCurrentBest": false,
+      "createdAt": 1773699227479,
+      "depth": 2
+    },
+    {
+      "id": "8757d133a0d8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 11",
+      "metricName": "score",
+      "metricValue": 0.9641486838550194,
+      "isCurrentBest": false,
+      "createdAt": 1773699167480,
+      "depth": 2
+    },
+    {
+      "id": "35d939b9658d",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.1901",
+      "metricName": "Sharpe",
+      "metricValue": 1.1901,
+      "isCurrentBest": false,
+      "createdAt": 1773699047498,
+      "depth": 8
+    },
+    {
+      "id": "f5c3798005ea",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 8",
+      "metricName": "score",
+      "metricValue": 0.9522141770709649,
+      "isCurrentBest": false,
+      "createdAt": 1773698987477,
+      "depth": 2
+    },
+    {
+      "id": "9023cc35f366",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 7",
+      "metricName": "score",
+      "metricValue": 0.9448125913303379,
+      "isCurrentBest": false,
+      "createdAt": 1773698927476,
+      "depth": 2
+    },
+    {
+      "id": "8f4d0d3577ea",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1782",
+      "metricName": "Sharpe",
+      "metricValue": 1.1782,
+      "isCurrentBest": false,
+      "createdAt": 1773698897479,
+      "depth": 8
     }
   ],
   "frontier": [],
