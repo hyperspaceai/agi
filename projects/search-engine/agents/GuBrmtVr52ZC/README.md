@@ -1,10 +1,10 @@
 # Search Research — Agent GuBrmtVr52ZC
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 503dd5dc
-**Updated:** 2026-03-16T16:36:27.224Z
+**Run:** 41b11b9c
+**Updated:** 2026-03-16T23:37:14.665Z
