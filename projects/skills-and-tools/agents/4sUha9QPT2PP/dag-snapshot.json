@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T09:02:23.194Z",
+  "timestamp": "2026-03-16T10:02:24.652Z",
   "peerId": "12D3KooWDgqsKGz6dvetNxVXK93af16a8wTc27fvoE4BUn6NqCsG",
   "stats": {
-    "totalNodes": 1161,
+    "totalNodes": 1167,
     "observations": 0,
-    "experiments": 1161,
+    "experiments": 1167,
     "syntheses": 0,
-    "totalEdges": 1156,
+    "totalEdges": 1162,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 6
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,73 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 386,
-    "skills": 457,
+    "infrastructure": 387,
+    "skills": 462,
     "finance": 268,
     "search-ranking": 49,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "ec2eb55abab0",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 673",
+      "metricName": "score",
+      "metricValue": 0.951763186548469,
+      "isCurrentBest": false,
+      "createdAt": 1773654204440,
+      "depth": 9
+    },
+    {
+      "id": "25ce10d194a1",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773653544441,
+      "depth": 4
+    },
+    {
+      "id": "6fc7714de513",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773653424393,
+      "depth": 4
+    },
+    {
+      "id": "5dd6c0ea2904",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773653064365,
+      "depth": 4
+    },
+    {
+      "id": "40613cf9a76a",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773652944366,
+      "depth": 4
+    },
+    {
+      "id": "4824392a6ae1",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773652825565,
+      "depth": 4
+    },
     {
       "id": "ccef155baa79",
       "domain": "skills",
@@ -201,66 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1773629007953,
       "depth": 9
-    },
-    {
-      "id": "323c3c23b2e1",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 267",
-      "metricName": "score",
-      "metricValue": 142.26326010448327,
-      "isCurrentBest": false,
-      "createdAt": 1773627987904,
-      "depth": 9
-    },
-    {
-      "id": "a59d72dcd49b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 153",
-      "metricName": "score",
-      "metricValue": 0.9650318112756462,
-      "isCurrentBest": false,
-      "createdAt": 1773621147428,
-      "depth": 9
-    },
-    {
-      "id": "9150c9b9ef63",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 135",
-      "metricName": "score",
-      "metricValue": 0.9616251482147239,
-      "isCurrentBest": false,
-      "createdAt": 1773620067297,
-      "depth": 9
-    },
-    {
-      "id": "c31109a9da14",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 116",
-      "metricName": "score",
-      "metricValue": 0.9584641239297529,
-      "isCurrentBest": false,
-      "createdAt": 1773618927199,
-      "depth": 9
-    },
-    {
-      "id": "f0c7b1fb0ef1",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773618567177,
-      "depth": 4
-    },
-    {
-      "id": "dbb5995f646b",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773617247162,
-      "depth": 4
     }
   ],
   "frontier": [],
