@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWHpSVyz1UYWYehpw5DZjYyJJzDF9vErCkYmhaFXCd15Zq",
+  "runNumber": 1,
+  "timestamp": 1773639388829,
+  "hypothesis": "Explore: aggressive LR (0.006) + warmup",
+  "config": {
+    "nLayers": 8,
+    "nHeads": 4,
+    "dModel": 512,
+    "dFF": 2048,
+    "contextLength": 2048,
+    "vocabSize": 32768,
+    "learningRate": 0.006,
+    "batchSize": 128,
+    "maxSteps": 100000,
+    "maxDurationSec": 300,
+    "warmupSteps": 500,
+    "weightDecay": 0.01,
+    "evalInterval": 500,
+    "evalSteps": 20,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 1.345466,
+    "trainLoss": 3.771399,
+    "lossCurve": [
+      [
+        0,
+        9.011606
+      ],
+      [
+        1,
+        9.011583
+      ],
+      [
+        2,
+        9.011603
+      ],
+      [
+        3,
+        9.011614
+      ],
+      [
+        4,
+        9.011608
+      ],
+      [
+        5,
+        9.011598
+      ],
+      [
+        6,
+        9.011604
+      ],
+      [
+        7,
+        9.011615
+      ],
+      [
+        8,
+        9.011614
+      ],
+      [
+        9,
+        9.011601
+      ],
+      [
+        10,
+        9.011607
+      ],
+      [
+        50,
+        7.766516
+      ],
+      [
+        100,
+        5.826037
+      ],
+      [
+        150,
+        4.973246
+      ],
+      [
+        200,
+        4.42139
+      ],
+      [
+        250,
+        4.004347
+      ],
+      [
+        300,
+        3.79649
+      ]
+    ],
+    "durationSec": 300.8,
+    "tokensPerSec": 545545.2127659575,
+    "totalTokens": 164100000
+  },
+  "improvement": 0,
+  "isNewBest": true,
+  "gpu": "NVIDIA L40S",
+  "inspiredBy": null
+}
