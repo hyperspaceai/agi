@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T07:52:54.276Z",
+  "timestamp": "2026-03-17T08:52:54.456Z",
   "peerId": "12D3KooWS7LJ8c5epusDaiSqq5WThSTsHMgZvCdjeyqJwrN1cQij",
   "stats": {
-    "totalNodes": 1531,
+    "totalNodes": 1533,
     "observations": 0,
-    "experiments": 1531,
+    "experiments": 1533,
     "syntheses": 0,
-    "totalEdges": 1527,
+    "totalEdges": 1529,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 486,
+    "infrastructure": 488,
     "skills": 613,
     "finance": 345,
     "search-ranking": 87
   },
   "recentExperiments": [
+    {
+      "id": "23e7e7a45a4d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 473",
+      "metricName": "score",
+      "metricValue": 145.14302274202097,
+      "isCurrentBest": false,
+      "createdAt": 1773735384241,
+      "depth": 7
+    },
+    {
+      "id": "18e6c47779bb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 465",
+      "metricName": "score",
+      "metricValue": 0.9278600415123576,
+      "isCurrentBest": false,
+      "createdAt": 1773734904239,
+      "depth": 7
+    },
     {
       "id": "da1cef7d817a",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1773710414626,
-      "depth": 3
-    },
-    {
-      "id": "1295edfe3b05",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773710414254,
-      "depth": 3
-    },
-    {
-      "id": "167486838fdb",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773710414154,
       "depth": 3
     }
   ],
