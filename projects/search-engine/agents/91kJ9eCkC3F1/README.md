@@ -1,10 +1,10 @@
 # Search Research — Agent 91kJ9eCkC3F1
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1e82c0e0
-**Updated:** 2026-03-16T23:13:25.853Z
+**Run:** 4bd272be
+**Updated:** 2026-03-17T20:47:28.774Z
