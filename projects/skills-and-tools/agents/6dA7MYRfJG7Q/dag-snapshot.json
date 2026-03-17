@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T04:09:52.262Z",
+  "timestamp": "2026-03-17T06:41:24.760Z",
   "peerId": "12D3KooWFSXH6g1NVANtavYDbLgXaepYDvQnFsN6nSLRYxieRdDR",
   "stats": {
-    "totalNodes": 566,
+    "totalNodes": 571,
     "observations": 0,
-    "experiments": 566,
+    "experiments": 571,
     "syntheses": 0,
-    "totalEdges": 561,
+    "totalEdges": 566,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,63 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 163,
-    "skills": 236,
+    "infrastructure": 165,
+    "skills": 239,
     "finance": 124,
     "general": 1,
     "search-ranking": 42
   },
   "recentExperiments": [
+    {
+      "id": "f8dfa4e4a0ec",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 270",
+      "metricName": "score",
+      "metricValue": 141.1091385353907,
+      "isCurrentBest": false,
+      "createdAt": 1773727784959,
+      "depth": 3
+    },
+    {
+      "id": "3d68fd3058dc",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1988,
+      "isCurrentBest": false,
+      "createdAt": 1773727135963,
+      "depth": 3
+    },
+    {
+      "id": "91405473720b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 257",
+      "metricName": "score",
+      "metricValue": 141.16918775650817,
+      "isCurrentBest": false,
+      "createdAt": 1773726831171,
+      "depth": 3
+    },
+    {
+      "id": "b8e3cfc8a4ad",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1988,
+      "isCurrentBest": false,
+      "createdAt": 1773726176167,
+      "depth": 3
+    },
+    {
+      "id": "574ea15e7eb0",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1988,
+      "isCurrentBest": false,
+      "createdAt": 1773722083643,
+      "depth": 3
+    },
     {
       "id": "23a867cf9453",
       "domain": "skills",
@@ -210,56 +260,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773713214997,
-      "depth": 1
-    },
-    {
-      "id": "9e2087861f1f",
-      "domain": "search-ranking",
-      "title": "Search round 27: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773713209175,
-      "depth": 1
-    },
-    {
-      "id": "a1ed95ef6ae4",
-      "domain": "search-ranking",
-      "title": "Search round 27: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773713206629,
-      "depth": 1
-    },
-    {
-      "id": "cb07530eb15b",
-      "domain": "search-ranking",
-      "title": "Search round 27: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773713206026,
-      "depth": 1
-    },
-    {
-      "id": "bdf07b68f922",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1986,
-      "isCurrentBest": false,
-      "createdAt": 1773712991559,
-      "depth": 3
-    },
-    {
-      "id": "c29c1ec8822d",
-      "domain": "search-ranking",
-      "title": "Search round 25: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773712747585,
       "depth": 1
     }
   ],
