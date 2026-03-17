@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T07:12:51.272Z",
+  "timestamp": "2026-03-17T08:12:51.325Z",
   "peerId": "12D3KooWJrgtRkPxZs6keuSrjsqR9zNsdAcWgRjTveijRKzGdf9Y",
   "stats": {
-    "totalNodes": 311,
+    "totalNodes": 313,
     "observations": 0,
-    "experiments": 311,
+    "experiments": 313,
     "syntheses": 0,
-    "totalEdges": 301,
+    "totalEdges": 303,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 90,
+    "infrastructure": 92,
     "skills": 132,
     "finance": 69,
     "general": 6,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "5c683d39326c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 140",
+      "metricName": "score",
+      "metricValue": 0.9620651523782159,
+      "isCurrentBest": false,
+      "createdAt": 1773734631224,
+      "depth": 2
+    },
+    {
+      "id": "29ae8be88509",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 129",
+      "metricName": "score",
+      "metricValue": 141.0600580364313,
+      "isCurrentBest": false,
+      "createdAt": 1773733971212,
+      "depth": 2
+    },
     {
       "id": "9353372dc235",
       "domain": "infrastructure",
@@ -241,26 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1773726291130,
       "depth": 2
-    },
-    {
-      "id": "e541e64d3534",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.2462",
-      "metricName": "Sharpe",
-      "metricValue": 1.2462,
-      "isCurrentBest": false,
-      "createdAt": 1773725039350,
-      "depth": 9
-    },
-    {
-      "id": "688435720bd3",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 100%",
-      "metricName": "correctness",
-      "metricValue": 0.9963,
-      "isCurrentBest": false,
-      "createdAt": 1773724979373,
-      "depth": 8
     }
   ],
   "frontier": [],
