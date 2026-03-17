@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T05:52:00.514Z",
+  "timestamp": "2026-03-17T06:52:00.545Z",
   "peerId": "12D3KooWFs4r1b4csRgFFwcvL4cg7zjB2WoiuLAhpzX1x3nKch3Q",
   "stats": {
-    "totalNodes": 1107,
+    "totalNodes": 1110,
     "observations": 0,
-    "experiments": 1107,
+    "experiments": 1110,
     "syntheses": 0,
-    "totalEdges": 1050,
+    "totalEdges": 1052,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,43 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 364,
-    "skills": 386,
+    "infrastructure": 365,
+    "skills": 387,
     "finance": 262,
     "search-ranking": 42,
-    "general": 53
+    "general": 54
   },
   "recentExperiments": [
+    {
+      "id": "a41b5c5ac208",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 371",
+      "metricName": "score",
+      "metricValue": 145.12214227562626,
+      "isCurrentBest": false,
+      "createdAt": 1773729240462,
+      "depth": 4
+    },
+    {
+      "id": "f6d57d9efcd7",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773727320473,
+      "depth": 3
+    },
+    {
+      "id": "58b74aae9632",
+      "domain": "general",
+      "title": "AutoWeb round 82: 62/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 62,
+      "isCurrentBest": false,
+      "createdAt": 1773726877504,
+      "depth": 0
+    },
     {
       "id": "ef539189fbd5",
       "domain": "infrastructure",
@@ -231,36 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1773707519728,
       "depth": 7
-    },
-    {
-      "id": "1e245cb58199",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 8",
-      "metricName": "score",
-      "metricValue": 141.05842174304158,
-      "isCurrentBest": false,
-      "createdAt": 1773707459710,
-      "depth": 4
-    },
-    {
-      "id": "18af28909411",
-      "domain": "general",
-      "title": "AutoWeb round 1: 48/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 48,
-      "isCurrentBest": false,
-      "createdAt": 1773707412885,
-      "depth": 0
-    },
-    {
-      "id": "5d43cf9c3d94",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773707399730,
-      "depth": 3
     }
   ],
   "frontier": [],
