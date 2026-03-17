@@ -1,8 +1,8 @@
 # Skill Catalog — Agent JPYnxZ4cB8o2
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Score:** 0.1997
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 17
+**Description:** Structured JSON Diff: 0% correct, round 21
 
-_Updated: 2026-03-17T18:05:44.553Z_
+_Updated: 2026-03-17T18:12:14.344Z_
