@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T05:40:13.261Z",
+  "timestamp": "2026-03-17T11:46:37.051Z",
   "peerId": "12D3KooWLgkR1zs5SiVYFJk6op6yrazq7H9ByLKweAidZyzdZXyk",
   "stats": {
-    "totalNodes": 1000,
-    "observations": 157,
-    "experiments": 832,
-    "syntheses": 11,
-    "totalEdges": 753,
+    "totalNodes": 1164,
+    "observations": 237,
+    "experiments": 908,
+    "syntheses": 19,
+    "totalEdges": 831,
     "maxDepth": 8,
-    "activeExperiments": 85,
-    "recentActivity": 21
+    "activeExperiments": 111,
+    "recentActivity": 14
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,88 +55,99 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 357,
-    "skills": 148,
-    "finance": 205,
+    "infrastructure": 389,
+    "skills": 157,
+    "finance": 210,
     "search-ranking": 3,
-    "knowledge": 168,
-    "general": 34,
-    "physics": 85
+    "knowledge": 256,
+    "general": 38,
+    "physics": 111
   },
   "recentExperiments": [
     {
-      "id": "5d4fb9aa4959",
+      "id": "3f24dfeaf84e",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Does a smooth, compact‑support velocity profile \\(f(r)\\) tha\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: In higher‑order gravity theories such as \\(f(R)=R+\\alpha R^{\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773725649920,
+      "createdAt": 1773747253164,
       "depth": 0
     },
     {
-      "id": "86c845d8f1fb",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773725244640,
-      "depth": 1
-    },
-    {
-      "id": "505032025d7a",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: In \\(f(R)\\) gravity with a quadratic correction \\(f(R)=R+\\al\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1773725080310,
-      "depth": 0
-    },
-    {
-      "id": "c13d5c36c063",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the non‑perturbative vacuum‑polarization energy density \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1773724832339,
-      "depth": 0
-    },
-    {
-      "id": "9ba357e55e1e",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773724191981,
-      "depth": 1
-    },
-    {
-      "id": "186d1f9281aa",
+      "id": "53474776486e",
       "domain": "infrastructure",
-      "title": "Cause data-curation round 276",
+      "title": "Cause data-curation round 239",
       "metricName": "score",
-      "metricValue": 0.8496353533964877,
+      "metricValue": 0.9033448621201906,
       "isCurrentBest": false,
-      "createdAt": 1773723350978,
+      "createdAt": 1773746983275,
       "depth": 8
     },
     {
-      "id": "e6306ed4083a",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Do arrays of Casimir micro‑cavities, scaled according to the\" (self-ve",
-      "metricName": "verification_score",
+      "id": "ca5ecdc40727",
+      "domain": "general",
+      "title": "AutoWeb round 33: 62/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 62,
       "isCurrentBest": false,
-      "createdAt": 1773723273368,
+      "createdAt": 1773746161469,
       "depth": 0
     },
     {
-      "id": "8216bfbb9fbf",
+      "id": "29eb0fe65825",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Within a perturbative quantum‑gravity framework, can the gen\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: What quantum field configuration (e.g., a ghost scalar, a no\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773723030434,
+      "createdAt": 1773745648335,
+      "depth": 0
+    },
+    {
+      "id": "ef8a7383247f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773745174464,
+      "depth": 1
+    },
+    {
+      "id": "5866730401d1",
+      "domain": "infrastructure",
+      "title": "Cause data-curation round 197",
+      "metricName": "score",
+      "metricValue": 0.8496509160033338,
+      "isCurrentBest": false,
+      "createdAt": 1773744670267,
+      "depth": 8
+    },
+    {
+      "id": "75f94c688df0",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How does a time‑dependent warp‑bubble velocity \\(v_s(t)\\) (i\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773743969396,
+      "depth": 0
+    },
+    {
+      "id": "d2a84ba10f6e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 191",
+      "metricName": "score",
+      "metricValue": 141.02614451895963,
+      "isCurrentBest": false,
+      "createdAt": 1773743768380,
+      "depth": 8
+    },
+    {
+      "id": "545e3cf250d5",
+      "domain": "physics",
+      "title": "Wrote paper: \"## ABSTRACT\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773743162375,
       "depth": 0
     }
   ],
@@ -162,6 +173,29 @@
       "hypotheses": [
         "Integrating product quantization (PQ) into the inverted table scheme will further shrink index size without compromising precision, enabling real-time retrieval on commodity hardware.",
         "Using a multi-stage hashing cascade atop the inverted index can yield sub-linear query times while maintaining high recall for top‑k retrieval."
+      ]
+    },
+    {
+      "sourceTitle": "Insight: knowledge distillation for small models",
+      "sourceDomain": "knowledge",
+      "hypotheses": [
+        "A testable hypothesis: jointly optimizing a student with both soft‑label loss and a layer‑wise hint loss (with temperature‑scaled teacher logits) will yield higher accuracy for small models than using either loss alone."
+      ]
+    },
+    {
+      "sourceTitle": "Insight: learning to rank algorithms",
+      "sourceDomain": "knowledge",
+      "hypotheses": [
+        "Introducing a nuclear‑norm penalty on the latent factor matrices of a learning‑to‑rank model will lead to a statistically significant increase in top‑k ranking precision compared to conventional L2 regularization, because it explicitly encourages low‑rank structure that aligns with the true underlying relevance manifold."
+      ]
+    },
+    {
+      "sourceTitle": "Insight: emergent capabilities in large language models",
+      "sourceDomain": "knowledge",
+      "hypotheses": [
+        "Enforcing a controlled ℓ₂‑norm schedule (e.g., gradually increasing an upper bound) during training will accelerate the onset of emergent abilities compared to standard unconstrained training.",
+        "Incorporating a curriculum that presents increasingly complex prompts during early training epochs will improve the likelihood that a large bidirectional model develops few‑shot learning for a broader set of downstream tasks.",
+        "Adding a regularization term that explicitly encourages self‑attention weight matrices to achieve a target sparsity pattern will yield more robust emergent representations and reduce over‑fitting on small datasets."
       ]
     }
   ],
