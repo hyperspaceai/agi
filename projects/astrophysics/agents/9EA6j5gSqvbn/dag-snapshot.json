@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T13:01:15.315Z",
+  "timestamp": "2026-03-17T14:01:15.613Z",
   "peerId": "12D3KooWJ3XGUDGA2psHFUvV7S2hn6D8MD3bMpv7Y42yT9eyRsmJ",
   "stats": {
-    "totalNodes": 92,
-    "observations": 50,
-    "experiments": 42,
+    "totalNodes": 129,
+    "observations": 82,
+    "experiments": 47,
     "syntheses": 0,
-    "totalEdges": 38,
+    "totalEdges": 43,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 54
+    "recentActivity": 37
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,111 +47,31 @@
     }
   },
   "domainCounts": {
-    "knowledge": 50,
-    "infrastructure": 7,
-    "skills": 15,
+    "knowledge": 82,
+    "infrastructure": 9,
+    "skills": 18,
     "finance": 6,
     "search-ranking": 14
   },
   "recentExperiments": [
     {
-      "id": "9b296e4e2d4a",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
+      "id": "16e32f57ced7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 135",
+      "metricName": "score",
+      "metricValue": 0.950213530838963,
       "isCurrentBest": false,
-      "createdAt": 1773752475220,
-      "depth": 3
-    },
-    {
-      "id": "75b440032a33",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773751875157,
-      "depth": 3
-    },
-    {
-      "id": "5a4b54c7f8ce",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773751755148,
-      "depth": 3
-    },
-    {
-      "id": "ee62c1c678a5",
-      "domain": "search-ranking",
-      "title": "Search round 50: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1773751617675,
+      "createdAt": 1773755235458,
       "depth": 1
     },
     {
-      "id": "226dc5975590",
-      "domain": "search-ranking",
-      "title": "Search round 50: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
+      "id": "54e42440abfb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 129",
+      "metricName": "score",
+      "metricValue": 0.9497915426398318,
       "isCurrentBest": false,
-      "createdAt": 1773751617606,
-      "depth": 1
-    },
-    {
-      "id": "a792b3d6091c",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773751395098,
-      "depth": 3
-    },
-    {
-      "id": "505be9a3258a",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1773751258154,
-      "depth": 1
-    },
-    {
-      "id": "6e0a78797f89",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1773751257620,
-      "depth": 1
-    },
-    {
-      "id": "3a7c3ae281d5",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1773751256695,
-      "depth": 1
-    },
-    {
-      "id": "8aedbe2c367e",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1773751256647,
+      "createdAt": 1773754875442,
       "depth": 1
     }
   ],
