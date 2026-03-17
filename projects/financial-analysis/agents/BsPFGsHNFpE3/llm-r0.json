@@ -1,11 +1,11 @@
 {
   "runId": "llm-r0",
   "runNumber": 0,
-  "hypothesis": "[LLM] Increase momentum weight to 0.25 to capture stronger momentum returns and improve Sharpe ratio.",
-  "sharpeRatio": 1.0497,
-  "totalReturn": 2.4077,
-  "maxDrawdown": 0.082,
-  "alpha": 0.9135,
+  "hypothesis": "[LLM] Increase momentum weight to 0.3 and reduce low‑vol weight to 0.1 to capture more upside while keeping risk under control",
+  "sharpeRatio": 1.0165,
+  "totalReturn": 2.4074,
+  "maxDrawdown": 0.0863,
+  "alpha": 0.9131,
   "factors": [
     "momentumWeight",
     "valueWeight",
@@ -15,9 +15,9 @@
     "growthWeight"
   ],
   "positionSizing": "equal_weight",
-  "durationSec": 0.001,
+  "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-14T13:07:36.055Z"
+  "timestamp": "2026-03-17T07:27:10.206Z"
 }
