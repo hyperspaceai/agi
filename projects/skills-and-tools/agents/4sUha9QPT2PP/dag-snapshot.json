@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T20:27:11.129Z",
+  "timestamp": "2026-03-17T21:27:11.508Z",
   "peerId": "12D3KooWDgqsKGz6dvetNxVXK93af16a8wTc27fvoE4BUn6NqCsG",
   "stats": {
-    "totalNodes": 1529,
+    "totalNodes": 1536,
     "observations": 0,
-    "experiments": 1529,
+    "experiments": 1536,
     "syntheses": 0,
-    "totalEdges": 1524,
+    "totalEdges": 1531,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 19
+    "recentActivity": 7
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,83 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 507,
-    "skills": 578,
+    "infrastructure": 509,
+    "skills": 583,
     "finance": 354,
     "search-ranking": 89,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "7196ab936f1e",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 141",
+      "metricName": "score",
+      "metricValue": 0.9773857539186918,
+      "isCurrentBest": false,
+      "createdAt": 1773782351386,
+      "depth": 9
+    },
+    {
+      "id": "d36b6daf0777",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773782111373,
+      "depth": 4
+    },
+    {
+      "id": "4a8c81710e7e",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773781511343,
+      "depth": 4
+    },
+    {
+      "id": "5fe882372543",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773780311204,
+      "depth": 4
+    },
+    {
+      "id": "16628e05f8d4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 107",
+      "metricName": "score",
+      "metricValue": 141.0993457136464,
+      "isCurrentBest": false,
+      "createdAt": 1773780311185,
+      "depth": 9
+    },
+    {
+      "id": "fd0db86ba411",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773780071173,
+      "depth": 4
+    },
+    {
+      "id": "6a637f7b70e7",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773779471122,
+      "depth": 4
+    },
     {
       "id": "8b5471293d57",
       "domain": "skills",
@@ -191,76 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1773777648933,
       "depth": 2
-    },
-    {
-      "id": "b88c0512ae96",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773777430977,
-      "depth": 4
-    },
-    {
-      "id": "2ad547389391",
-      "domain": "search-ranking",
-      "title": "Search round 38: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773777289823,
-      "depth": 2
-    },
-    {
-      "id": "c3f520add730",
-      "domain": "search-ranking",
-      "title": "Search round 38: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773777289245,
-      "depth": 2
-    },
-    {
-      "id": "1a1aa0bea524",
-      "domain": "search-ranking",
-      "title": "Search round 38: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773777289149,
-      "depth": 2
-    },
-    {
-      "id": "e597f79d16a0",
-      "domain": "search-ranking",
-      "title": "Search round 38: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773777288761,
-      "depth": 2
-    },
-    {
-      "id": "b5fae2cff89a",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773776470922,
-      "depth": 4
-    },
-    {
-      "id": "8aeb6c5d5693",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773775630858,
-      "depth": 4
     }
   ],
   "frontier": [],
