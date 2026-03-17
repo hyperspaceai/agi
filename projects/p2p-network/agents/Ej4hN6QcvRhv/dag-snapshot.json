@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T08:48:25.015Z",
+  "timestamp": "2026-03-17T09:48:25.470Z",
   "peerId": "12D3KooWPYRs7DzL7KyQVds8Jm3RtBh2mmv2VNY1LgDgyf5ouGUR",
   "stats": {
-    "totalNodes": 775,
+    "totalNodes": 777,
     "observations": 0,
-    "experiments": 775,
+    "experiments": 777,
     "syntheses": 0,
-    "totalEdges": 768,
+    "totalEdges": 770,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 296,
+    "infrastructure": 298,
     "skills": 258,
     "finance": 168,
     "general": 3,
     "search-ranking": 50
   },
   "recentExperiments": [
+    {
+      "id": "0539080bcef0",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 537",
+      "metricName": "score",
+      "metricValue": 145.16961362504713,
+      "isCurrentBest": false,
+      "createdAt": 1773738984928,
+      "depth": 4
+    },
+    {
+      "id": "c6eeb902472a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 521",
+      "metricName": "score",
+      "metricValue": 0.9446198260826906,
+      "isCurrentBest": false,
+      "createdAt": 1773738024859,
+      "depth": 4
+    },
     {
       "id": "b461f5d63297",
       "domain": "infrastructure",
@@ -240,26 +260,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773710518787,
-      "depth": 2
-    },
-    {
-      "id": "2153e2c7267b",
-      "domain": "search-ranking",
-      "title": "Search round 42: increase diversity penalty (0.2)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773710518701,
-      "depth": 2
-    },
-    {
-      "id": "f8cca65cec90",
-      "domain": "search-ranking",
-      "title": "Search round 42: increase diversity penalty (0.2)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773710518602,
       "depth": 2
     }
   ],
