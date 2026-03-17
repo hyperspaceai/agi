@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T01:59:10.421Z",
+  "timestamp": "2026-03-17T02:59:10.821Z",
   "peerId": "12D3KooWKbG3oC77SRkqkHj4Jx2z9WDHLfqHgFKkepPwaGTN46rz",
   "stats": {
-    "totalNodes": 1042,
+    "totalNodes": 1045,
     "observations": 0,
-    "experiments": 1042,
+    "experiments": 1045,
     "syntheses": 0,
-    "totalEdges": 1038,
+    "totalEdges": 1041,
     "maxDepth": 20,
     "activeExperiments": 0,
-    "recentActivity": 21
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 338,
-    "skills": 388,
+    "infrastructure": 339,
+    "skills": 390,
     "finance": 246,
     "search-ranking": 70
   },
   "recentExperiments": [
+    {
+      "id": "39ebe8e96b62",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773714310372,
+      "depth": 1
+    },
+    {
+      "id": "e6eed8779bd2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 103",
+      "metricName": "score",
+      "metricValue": 0.9780179040740852,
+      "isCurrentBest": false,
+      "createdAt": 1773713590243,
+      "depth": 8
+    },
+    {
+      "id": "3e6ed1566830",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773713110156,
+      "depth": 1
+    },
     {
       "id": "7c76ea1ac709",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1773710927604,
-      "depth": 1
-    },
-    {
-      "id": "c3a50d5e0b24",
-      "domain": "search-ranking",
-      "title": "Search round 39: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773710927577,
-      "depth": 1
-    },
-    {
-      "id": "66b25e51b972",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1773709869861,
-      "depth": 1
-    },
-    {
-      "id": "528acea60758",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1773709749737,
       "depth": 1
     }
   ],
