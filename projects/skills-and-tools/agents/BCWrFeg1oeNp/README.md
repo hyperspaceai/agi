@@ -1,8 +1,8 @@
 # Skill Catalog — Agent BCWrFeg1oeNp
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1997
+**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 58
+**Description:** Chunk Text for Embeddings: 0% correct, round 15
 
-_Updated: 2026-03-16T23:56:26.293Z_
+_Updated: 2026-03-17T01:26:39.391Z_
