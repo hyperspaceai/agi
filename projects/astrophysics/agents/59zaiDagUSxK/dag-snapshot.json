@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T09:13:56.182Z",
+  "timestamp": "2026-03-17T10:17:09.959Z",
   "peerId": "12D3KooWDyMkTMAPfMDoS68UgKNd5PXgLA8ct6PQVi5cYdumEj1D",
   "stats": {
-    "totalNodes": 525,
-    "observations": 385,
-    "experiments": 140,
+    "totalNodes": 557,
+    "observations": 415,
+    "experiments": 142,
     "syntheses": 0,
-    "totalEdges": 133,
+    "totalEdges": 134,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 31
+    "recentActivity": 32
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,22 +38,43 @@
       "depth": 0
     },
     "general": {
-      "nodeId": "3017ad437fdf8d052afbb355f5911e7b232134976568e23139d6082a39bdde33",
-      "title": "AutoWeb round 79: 79/100",
+      "nodeId": "f84ae410693e6a0b48b84a5c87908ca9883bec7486f6498be74a47809173e9a0",
+      "title": "AutoWeb round 119: 81/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 79,
+      "metricValue": 81,
       "metricDirection": "maximize",
       "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 61,
+    "infrastructure": 62,
     "finance": 54,
     "search-ranking": 21,
-    "knowledge": 385,
-    "general": 4
+    "knowledge": 415,
+    "general": 5
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "adee0d157c86",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 487",
+      "metricName": "score",
+      "metricValue": 0.9477761190630287,
+      "isCurrentBest": false,
+      "createdAt": 1773741236459,
+      "depth": 4
+    },
+    {
+      "id": "f84ae410693e",
+      "domain": "general",
+      "title": "AutoWeb round 119: 81/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 81,
+      "isCurrentBest": true,
+      "createdAt": 1773740887429,
+      "depth": 0
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
@@ -136,9 +157,9 @@
     ],
     "general": [
       {
-        "id": "3017ad437fdf",
-        "title": "AutoWeb round 79: 79/100",
-        "metricValue": 79,
+        "id": "f84ae410693e",
+        "title": "AutoWeb round 119: 81/100",
+        "metricValue": 81,
         "depth": 0
       }
     ]
