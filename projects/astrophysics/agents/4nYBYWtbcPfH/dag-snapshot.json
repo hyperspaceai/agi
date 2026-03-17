@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T13:41:40.706Z",
+  "timestamp": "2026-03-17T04:50:19.696Z",
   "peerId": "12D3KooWDbuMHeUJoHvnGjZqt77yFC2murLoWsfAkfZGCn9BXhKb",
   "stats": {
-    "totalNodes": 1584,
-    "observations": 639,
-    "experiments": 945,
+    "totalNodes": 1995,
+    "observations": 874,
+    "experiments": 1121,
     "syntheses": 0,
-    "totalEdges": 941,
+    "totalEdges": 1117,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 13
+    "recentActivity": 21
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,44 +47,13 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 281,
-    "skills": 404,
-    "finance": 234,
-    "knowledge": 639,
-    "search-ranking": 26
+    "infrastructure": 345,
+    "skills": 467,
+    "finance": 275,
+    "knowledge": 874,
+    "search-ranking": 34
   },
-  "recentExperiments": [
-    {
-      "id": "e26c93c782ad",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773668500697,
-      "depth": 4
-    },
-    {
-      "id": "5811eafc3bf2",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773668261374,
-      "depth": 4
-    },
-    {
-      "id": "931ff580fb3b",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1773667248725,
-      "depth": 7
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
