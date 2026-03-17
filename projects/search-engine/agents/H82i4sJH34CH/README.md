@@ -1,10 +1,10 @@
 # Search Research — Agent H82i4sJH34CH
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** use z-score normalization
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 546e1648
-**Updated:** 2026-03-16T23:36:56.100Z
+**Run:** 87bf6c80
+**Updated:** 2026-03-17T20:21:42.170Z
