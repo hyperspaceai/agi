@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T05:49:50.562Z",
+  "timestamp": "2026-03-17T06:49:50.759Z",
   "peerId": "12D3KooWKXhPStryt8pi8zAV11LfVVuqr4SPyLKjneQUjbNJqcfh",
   "stats": {
-    "totalNodes": 1100,
+    "totalNodes": 1101,
     "observations": 0,
-    "experiments": 1100,
+    "experiments": 1101,
     "syntheses": 0,
-    "totalEdges": 1096,
+    "totalEdges": 1097,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 358,
-    "skills": 382,
+    "skills": 383,
     "finance": 264,
     "search-ranking": 96
   },
   "recentExperiments": [
+    {
+      "id": "1da796faf8f7",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773728390564,
+      "depth": 3
+    },
     {
       "id": "a0d50b0bef2a",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773710607080,
-      "depth": 2
-    },
-    {
-      "id": "6790fffec4cf",
-      "domain": "search-ranking",
-      "title": "Search round 42: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773710607009,
       "depth": 2
     }
   ],
