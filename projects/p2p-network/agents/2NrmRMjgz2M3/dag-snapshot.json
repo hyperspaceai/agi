@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T20:29:26.611Z",
+  "timestamp": "2026-03-17T21:29:26.731Z",
   "peerId": "12D3KooWBCDwAVKQAvcY923R2u7whc52TeH49aRHMrUDQSYBkrGJ",
   "stats": {
-    "totalNodes": 982,
+    "totalNodes": 985,
     "observations": 0,
-    "experiments": 982,
+    "experiments": 985,
     "syntheses": 0,
-    "totalEdges": 920,
+    "totalEdges": 921,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -46,22 +46,52 @@
       "depth": 2
     },
     "general": {
-      "nodeId": "2bd8de42287e8e05cbbe7113c4c6019d1db23e62f6fb254ddcff20a8e5251dad",
-      "title": "AutoWeb round 223: 90/100",
+      "nodeId": "6fa6f4420ef40c700ef40fb1ff56329ff9895c96a4ad55488bc7d645e2abd1c3",
+      "title": "AutoWeb round 35: 91/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 90,
+      "metricValue": 91,
       "metricDirection": "maximize",
       "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 350,
+    "infrastructure": 351,
     "skills": 250,
     "finance": 249,
     "search-ranking": 75,
-    "general": 58
+    "general": 60
   },
   "recentExperiments": [
+    {
+      "id": "b88882567cb8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 149",
+      "metricName": "score",
+      "metricValue": 0.9545486292188713,
+      "isCurrentBest": false,
+      "createdAt": 1773782936630,
+      "depth": 6
+    },
+    {
+      "id": "6fa6f4420ef4",
+      "domain": "general",
+      "title": "AutoWeb round 35: 91/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 91,
+      "isCurrentBest": true,
+      "createdAt": 1773782650391,
+      "depth": 0
+    },
+    {
+      "id": "a071126de172",
+      "domain": "general",
+      "title": "AutoWeb round 27: 86/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 86,
+      "isCurrentBest": false,
+      "createdAt": 1773780727782,
+      "depth": 0
+    },
     {
       "id": "96b95be003aa",
       "domain": "general",
@@ -231,36 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1773774386470,
       "depth": 17
-    },
-    {
-      "id": "b2411b3f263e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 6",
-      "metricName": "score",
-      "metricValue": 0.9627076210596046,
-      "isCurrentBest": false,
-      "createdAt": 1773774356423,
-      "depth": 6
-    },
-    {
-      "id": "595d5807ad1d",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1773774296430,
-      "depth": 2
-    },
-    {
-      "id": "e7315bebd3b8",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5",
-      "metricName": "score",
-      "metricValue": 141.2701646066202,
-      "isCurrentBest": false,
-      "createdAt": 1773774296422,
-      "depth": 6
     }
   ],
   "frontier": [],
@@ -401,9 +401,9 @@
     ],
     "general": [
       {
-        "id": "2bd8de42287e",
-        "title": "AutoWeb round 223: 90/100",
-        "metricValue": 90,
+        "id": "6fa6f4420ef4",
+        "title": "AutoWeb round 35: 91/100",
+        "metricValue": 91,
         "depth": 0
       }
     ]
