@@ -1,10 +1,10 @@
 # Search Research — Agent HdeojxwATVJR
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** reduce body weight (-0.05)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1c971bf0
-**Updated:** 2026-03-16T19:50:20.165Z
+**Run:** 9284f5f7
+**Updated:** 2026-03-17T02:08:24.112Z
