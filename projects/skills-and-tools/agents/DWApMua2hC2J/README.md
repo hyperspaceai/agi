@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DWApMua2hC2J
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 8
+**Description:** Chunk Text for Embeddings: 0% correct, round 9
 
-_Updated: 2026-03-17T13:21:49.327Z_
+_Updated: 2026-03-17T14:51:38.508Z_
