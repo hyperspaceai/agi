@@ -1,10 +1,10 @@
 # Search Research — Agent JPYnxZ4cB8o2
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** boost title weight (+0.05)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c3c2c2ca
-**Updated:** 2026-03-17T16:04:53.528Z
+**Run:** e3a49398
+**Updated:** 2026-03-17T20:43:10.974Z
