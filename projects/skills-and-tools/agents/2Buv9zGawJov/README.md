@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2Buv9zGawJov
 
-**Latest Skill:** Extract Entities from Text (LLM 3 iter) v1
-**Score:** 0.9974
+**Latest Skill:** Parse Key-Value Log (LLM 3 iter) v1
+**Score:** 0.9890
 **Permissions:** none
-**Description:** Extract Entities from Text: 100% correct [0.40→0.40→0.40]
+**Description:** Parse Key-Value Log: 100% correct [0.90→0.90]
 
-_Updated: 2026-03-17T15:34:10.756Z_
+_Updated: 2026-03-17T17:05:55.224Z_
