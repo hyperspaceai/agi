@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T22:28:08.886Z",
+  "timestamp": "2026-03-17T03:01:25.305Z",
   "peerId": "12D3KooWDaNJkQfLXcPhJ7A8PgrBZvn4uPCvRcyWXpMM1B4rvXx5",
   "stats": {
-    "totalNodes": 226,
-    "observations": 119,
-    "experiments": 107,
+    "totalNodes": 355,
+    "observations": 204,
+    "experiments": 151,
     "syntheses": 0,
-    "totalEdges": 91,
+    "totalEdges": 131,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 47
+    "recentActivity": 22
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,100 +38,80 @@
       "depth": 0
     },
     "search-ranking": {
-      "nodeId": "c0b5ae9a86853aca92994ef916ffa8d0675752871e99174eee46d91990eb74a2",
-      "title": "Search round 37: skip peer cascade (local-only fast)",
+      "nodeId": "9d42697ce16a14ce54d6270972bafda6eb2fc482e8225cc18bf044c777d7aea2",
+      "title": "Search round 33: boost diversity weight (+0.03)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 43,
-    "finance": 39,
-    "knowledge": 119,
-    "general": 13,
-    "search-ranking": 12
+    "infrastructure": 54,
+    "finance": 55,
+    "knowledge": 204,
+    "general": 17,
+    "search-ranking": 25
   },
   "recentExperiments": [
     {
-      "id": "b3aeebdeefbc",
-      "domain": "general",
-      "title": "AutoWeb round 6: 67/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 67,
-      "isCurrentBest": false,
-      "createdAt": 1773700023843,
-      "depth": 0
-    },
-    {
-      "id": "3b0ec8547257",
-      "domain": "general",
-      "title": "AutoWeb round 4: 65/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 65,
-      "isCurrentBest": false,
-      "createdAt": 1773699442088,
-      "depth": 0
-    },
-    {
-      "id": "2d4ec840129b",
-      "domain": "general",
-      "title": "AutoWeb round 4: 57/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 57,
-      "isCurrentBest": false,
-      "createdAt": 1773699408075,
-      "depth": 0
-    },
-    {
-      "id": "5a1d8f85d3a9",
+      "id": "379a9560b711",
       "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.3174",
+      "title": "Finance round 36: Sharpe=1.2946",
       "metricName": "Sharpe",
-      "metricValue": 1.3174,
+      "metricValue": 1.2946,
       "isCurrentBest": false,
-      "createdAt": 1773699130081,
+      "createdAt": 1773716483741,
       "depth": 6
     },
     {
-      "id": "4c706b2e5de0",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 17",
-      "metricName": "score",
-      "metricValue": 141.17457554880139,
+      "id": "6fd74862041c",
+      "domain": "finance",
+      "title": "Finance round 33: Sharpe=1.2890",
+      "metricName": "Sharpe",
+      "metricValue": 1.289,
       "isCurrentBest": false,
-      "createdAt": 1773699001563,
+      "createdAt": 1773715885410,
+      "depth": 6
+    },
+    {
+      "id": "a84ced40c168",
+      "domain": "finance",
+      "title": "Finance round 30: Sharpe=1.2854",
+      "metricName": "Sharpe",
+      "metricValue": 1.2854,
+      "isCurrentBest": false,
+      "createdAt": 1773715022343,
+      "depth": 6
+    },
+    {
+      "id": "817351b076dc",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 101",
+      "metricName": "score",
+      "metricValue": 141.08837147645318,
+      "isCurrentBest": false,
+      "createdAt": 1773714779422,
       "depth": 1
     },
     {
-      "id": "13c5bcd497af",
-      "domain": "general",
-      "title": "AutoWeb round 2: 63/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 63,
-      "isCurrentBest": false,
-      "createdAt": 1773698927825,
-      "depth": 0
-    },
-    {
-      "id": "2643f469537b",
+      "id": "01b860a1d894",
       "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.3040",
+      "title": "Finance round 26: Sharpe=1.2792",
       "metricName": "Sharpe",
-      "metricValue": 1.304,
+      "metricValue": 1.2792,
       "isCurrentBest": false,
-      "createdAt": 1773698840209,
+      "createdAt": 1773713843255,
       "depth": 6
     },
     {
-      "id": "2190cfdbe71f",
+      "id": "2e541baea8f5",
       "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.2081",
+      "title": "Finance round 25: Sharpe=1.2752",
       "metricName": "Sharpe",
-      "metricValue": 1.2081,
+      "metricValue": 1.2752,
       "isCurrentBest": false,
-      "createdAt": 1773698680331,
+      "createdAt": 1773713682200,
       "depth": 6
     }
   ],
@@ -192,6 +172,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "9d42697ce16a",
+        "title": "Search round 33: boost diversity weight (+0.03)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
       {
         "id": "c0b5ae9a8685",
         "title": "Search round 37: skip peer cascade (local-only fast)",
