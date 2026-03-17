@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWAzDWa6zbfTGszVAyLGdZzipVzfXMgDuMcvDtzDY9RiFE",
-  "runNumber": 16,
-  "timestamp": 1773751043426,
-  "hypothesis": "Improve on bd3202ac (loss=4.1556): switch to ReLU activation",
+  "runNumber": 15,
+  "timestamp": 1773751364172,
+  "hypothesis": "Improve on 079a562b (loss=4.2017): heavy weight decay (0.1)",
   "config": {
     "nLayers": 12,
     "nHeads": 16,
@@ -21,7 +21,7 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "relu",
+    "activation": "gelu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.12264605145632,
-    "trainLoss": 4.839736942155876,
+    "valLoss": 4.1555647686398585,
+    "trainLoss": 4.818967009278249,
     "lossCurve": [
       [
         1,
-        4.12264605145632
+        4.1555647686398585
       ]
     ],
-    "durationSec": 9991.237,
-    "tokensPerSec": 0.20497962364419942,
+    "durationSec": 11404.663,
+    "tokensPerSec": 0.17957567005706349,
     "totalTokens": 2048
   },
-  "improvement": -0.7921598871941845,
+  "improvement": -1.0986760198537258,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
