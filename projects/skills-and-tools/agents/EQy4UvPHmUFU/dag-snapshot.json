@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T09:47:40.337Z",
+  "timestamp": "2026-03-17T18:16:35.956Z",
   "peerId": "12D3KooWPELEE3xzxNWxfyHyonkJLaR3rSrezYA5B3EBoGnz76Ss",
   "stats": {
-    "totalNodes": 255,
+    "totalNodes": 300,
     "observations": 0,
-    "experiments": 255,
+    "experiments": 300,
     "syntheses": 0,
-    "totalEdges": 251,
+    "totalEdges": 296,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 23
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,220 +38,220 @@
       "depth": 8
     },
     "search-ranking": {
-      "nodeId": "37adab171cb171a7d6e691e4dc6b59de374b95f86e101949f4160eff66652580",
-      "title": "Search round 35: reduce body weight (-0.05)",
+      "nodeId": "3ada6a520e847b409a8ed9bf8c04bd60d783baec29027c1b14031a2b6b1b1f6e",
+      "title": "Search round 38: boost BM25 weight (+0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
+      "metricValue": 0.3963092975357146,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 75,
-    "skills": 122,
-    "finance": 44,
-    "search-ranking": 14
+    "infrastructure": 81,
+    "skills": 140,
+    "finance": 51,
+    "search-ranking": 28
   },
   "recentExperiments": [
     {
-      "id": "e2289ba98817",
+      "id": "7dc91c5c2d07",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 81",
+      "metricName": "score",
+      "metricValue": 141.2867195346177,
+      "isCurrentBest": false,
+      "createdAt": 1773770885876,
+      "depth": 3
+    },
+    {
+      "id": "8546a6e52471",
+      "domain": "search-ranking",
+      "title": "Search round 51: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773770602737,
+      "depth": 2
+    },
+    {
+      "id": "a1b5171ff74a",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773770253658,
+      "depth": 2
+    },
+    {
+      "id": "ec5aca9f02a3",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773770246221,
+      "depth": 2
+    },
+    {
+      "id": "2e44ebbd3d52",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773770242116,
+      "depth": 2
+    },
+    {
+      "id": "f025452e3470",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773770242038,
+      "depth": 2
+    },
+    {
+      "id": "39ab62edfb7a",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773770241954,
+      "depth": 2
+    },
+    {
+      "id": "31d8b1403353",
+      "domain": "search-ranking",
+      "title": "Search round 43: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773769885150,
+      "depth": 2
+    },
+    {
+      "id": "4c7ee9199e7a",
+      "domain": "search-ranking",
+      "title": "Search round 43: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773769885149,
+      "depth": 2
+    },
+    {
+      "id": "65809ae7e73a",
+      "domain": "search-ranking",
+      "title": "Search round 43: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773769885144,
+      "depth": 2
+    },
+    {
+      "id": "344fc19f164f",
+      "domain": "search-ranking",
+      "title": "Search round 43: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1773769885141,
+      "depth": 2
+    },
+    {
+      "id": "b005007056c7",
       "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1999,
-      "isCurrentBest": true,
-      "createdAt": 1773736973782,
-      "depth": 3
-    },
-    {
-      "id": "f6b1bb66fe33",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 68",
-      "metricName": "score",
-      "metricValue": 141.0660753093137,
       "isCurrentBest": false,
-      "createdAt": 1773733457028,
-      "depth": 3
+      "createdAt": 1773769835856,
+      "depth": 4
     },
     {
-      "id": "5ddd012a7596",
-      "domain": "search-ranking",
-      "title": "Search round 43: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773733287314,
-      "depth": 1
-    },
-    {
-      "id": "1e40f70910dd",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 61",
-      "metricName": "score",
-      "metricValue": 141.21894668556268,
-      "isCurrentBest": false,
-      "createdAt": 1773733036960,
-      "depth": 3
-    },
-    {
-      "id": "23ea4b05a2dc",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773732898039,
-      "depth": 1
-    },
-    {
-      "id": "2261700dcd32",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773732896924,
-      "depth": 1
-    },
-    {
-      "id": "3986362b5f6b",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773732896292,
-      "depth": 1
-    },
-    {
-      "id": "8c89ce47007c",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773732896229,
-      "depth": 1
-    },
-    {
-      "id": "a1171fed228d",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773732895933,
-      "depth": 1
-    },
-    {
-      "id": "bfb648cd6d96",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773732895837,
-      "depth": 1
-    },
-    {
-      "id": "3feb133826e3",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773732895767,
-      "depth": 1
-    },
-    {
-      "id": "24e4250f8a9e",
+      "id": "4d2cde1ca6d3",
       "domain": "skills",
       "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1998,
+      "metricValue": 0.1999,
       "isCurrentBest": false,
-      "createdAt": 1773732616884,
-      "depth": 3
+      "createdAt": 1773769475832,
+      "depth": 4
     },
     {
-      "id": "45541ffe2eee",
+      "id": "48fac655290b",
       "domain": "search-ranking",
-      "title": "Search round 35: reduce body weight (-0.05)",
+      "title": "Search round 38: boost BM25 weight (+0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1773732540386,
-      "depth": 1
+      "createdAt": 1773769470329,
+      "depth": 2
     },
     {
-      "id": "3ac8f08f6854",
+      "id": "c86a58062d74",
       "domain": "search-ranking",
-      "title": "Search round 35: reduce body weight (-0.05)",
+      "title": "Search round 38: boost BM25 weight (+0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1773732540315,
-      "depth": 1
+      "createdAt": 1773769462248,
+      "depth": 2
     },
     {
-      "id": "e80ff54df1ad",
+      "id": "21a5ef2a42e7",
       "domain": "search-ranking",
-      "title": "Search round 35: reduce body weight (-0.05)",
+      "title": "Search round 38: boost BM25 weight (+0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1773732540243,
-      "depth": 1
+      "createdAt": 1773769462221,
+      "depth": 2
     },
     {
-      "id": "1353451900e7",
+      "id": "3ada6a520e84",
       "domain": "search-ranking",
-      "title": "Search round 35: reduce body weight (-0.05)",
+      "title": "Search round 38: boost BM25 weight (+0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773732540172,
-      "depth": 1
-    },
-    {
-      "id": "a715a0139341",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773732538925,
-      "depth": 1
-    },
-    {
-      "id": "37adab171cb1",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": true,
-      "createdAt": 1773732536902,
-      "depth": 0
+      "createdAt": 1773769462216,
+      "depth": 1
     },
     {
-      "id": "57d7e39b865b",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 49",
-      "metricName": "score",
-      "metricValue": 141.23230269850376,
-      "isCurrentBest": false,
-      "createdAt": 1773732316824,
-      "depth": 3
-    },
-    {
-      "id": "9957958486fc",
+      "id": "ee3687d33e6d",
       "domain": "skills",
       "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1998,
+      "metricValue": 0.1999,
       "isCurrentBest": false,
-      "createdAt": 1773732256867,
-      "depth": 3
+      "createdAt": 1773769355834,
+      "depth": 4
+    },
+    {
+      "id": "3b9058e46f40",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1773769235833,
+      "depth": 4
+    },
+    {
+      "id": "84645d1edcd2",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1773768875921,
+      "depth": 4
     }
   ],
   "frontier": [],
@@ -359,6 +359,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "3ada6a520e84",
+        "title": "Search round 38: boost BM25 weight (+0.05)",
+        "metricValue": 0.3963092975357146,
+        "depth": 1
+      },
       {
         "id": "37adab171cb1",
         "title": "Search round 35: reduce body weight (-0.05)",
