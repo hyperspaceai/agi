@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2Buv9zGawJov
 
-**Latest Skill:** Extract Entities from Text (LLM 2 iter) v1
+**Latest Skill:** Extract Entities from Text (LLM 3 iter) v1
 **Score:** 0.9980
 **Permissions:** none
-**Description:** Extract Entities from Text: 100% correct [0.20→1.00]
+**Description:** Extract Entities from Text: 100% correct [0.40→0.40→0.40]
 
-_Updated: 2026-03-17T04:43:07.811Z_
+_Updated: 2026-03-17T06:52:41.991Z_
