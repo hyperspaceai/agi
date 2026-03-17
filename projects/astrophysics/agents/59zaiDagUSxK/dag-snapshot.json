@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T01:56:43.419Z",
+  "timestamp": "2026-03-17T02:58:39.359Z",
   "peerId": "12D3KooWDyMkTMAPfMDoS68UgKNd5PXgLA8ct6PQVi5cYdumEj1D",
   "stats": {
-    "totalNodes": 307,
-    "observations": 176,
-    "experiments": 131,
+    "totalNodes": 342,
+    "observations": 207,
+    "experiments": 135,
     "syntheses": 0,
-    "totalEdges": 127,
+    "totalEdges": 129,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 26
+    "recentActivity": 33
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,123 +38,22 @@
       "depth": 0
     },
     "general": {
-      "nodeId": "eb2bb8e016d8ac47b5d2490c6dd035e9400ba02abfb522cd80621a140b60cd73",
-      "title": "AutoWeb round 10: 59/100",
+      "nodeId": "1b94c71e62f2ac44203ddbc13d3e08c7fc14b395c19657771b81bf7d9dc3a951",
+      "title": "AutoWeb round 11: 77/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 59,
+      "metricValue": 77,
       "metricDirection": "maximize",
       "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 56,
-    "finance": 53,
+    "infrastructure": 57,
+    "finance": 54,
     "search-ranking": 21,
-    "knowledge": 176,
-    "general": 1
+    "knowledge": 207,
+    "general": 3
   },
-  "recentExperiments": [
-    {
-      "id": "78b92f561644",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.3105",
-      "metricName": "Sharpe",
-      "metricValue": 1.3105,
-      "isCurrentBest": false,
-      "createdAt": 1773712295678,
-      "depth": 7
-    },
-    {
-      "id": "2b5fd177d39a",
-      "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.3031",
-      "metricName": "Sharpe",
-      "metricValue": 1.3031,
-      "isCurrentBest": false,
-      "createdAt": 1773711985575,
-      "depth": 7
-    },
-    {
-      "id": "c13d790acd65",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
-      "isCurrentBest": false,
-      "createdAt": 1773711675698,
-      "depth": 7
-    },
-    {
-      "id": "92f5f806f9b1",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.1305",
-      "metricName": "Sharpe",
-      "metricValue": 1.1305,
-      "isCurrentBest": false,
-      "createdAt": 1773711519408,
-      "depth": 7
-    },
-    {
-      "id": "246fb3fb11c9",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.1203",
-      "metricName": "Sharpe",
-      "metricValue": 1.1203,
-      "isCurrentBest": false,
-      "createdAt": 1773711362899,
-      "depth": 7
-    },
-    {
-      "id": "9a5cfd1819e0",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1063",
-      "metricName": "Sharpe",
-      "metricValue": 1.1063,
-      "isCurrentBest": false,
-      "createdAt": 1773711207506,
-      "depth": 7
-    },
-    {
-      "id": "dca97000bc86",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5",
-      "metricName": "score",
-      "metricValue": 0.9670231755302998,
-      "isCurrentBest": false,
-      "createdAt": 1773711113270,
-      "depth": 4
-    },
-    {
-      "id": "1e713570ac73",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1031",
-      "metricName": "Sharpe",
-      "metricValue": 1.1031,
-      "isCurrentBest": false,
-      "createdAt": 1773711050445,
-      "depth": 7
-    },
-    {
-      "id": "72996577a9fc",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4",
-      "metricName": "score",
-      "metricValue": 0.9663873199835425,
-      "isCurrentBest": false,
-      "createdAt": 1773711050437,
-      "depth": 4
-    },
-    {
-      "id": "4b39f4803216",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3",
-      "metricName": "score",
-      "metricValue": 141.01705802747898,
-      "isCurrentBest": false,
-      "createdAt": 1773710987038,
-      "depth": 4
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
@@ -237,9 +136,9 @@
     ],
     "general": [
       {
-        "id": "eb2bb8e016d8",
-        "title": "AutoWeb round 10: 59/100",
-        "metricValue": 59,
+        "id": "1b94c71e62f2",
+        "title": "AutoWeb round 11: 77/100",
+        "metricValue": 77,
         "depth": 0
       }
     ]
