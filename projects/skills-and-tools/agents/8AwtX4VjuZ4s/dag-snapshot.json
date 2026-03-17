@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T21:26:57.326Z",
+  "timestamp": "2026-03-17T23:26:57.441Z",
   "peerId": "12D3KooWGzK4GC5T6TLMb29Kz2srVovWBnbZkWpTnvCq49ovVS9K",
   "stats": {
-    "totalNodes": 113,
+    "totalNodes": 115,
     "observations": 0,
-    "experiments": 113,
+    "experiments": 115,
     "syntheses": 0,
-    "totalEdges": 109,
+    "totalEdges": 111,
     "maxDepth": 16,
     "activeExperiments": 0,
     "recentActivity": 0
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 27,
-    "skills": 29,
+    "infrastructure": 28,
+    "skills": 30,
     "finance": 29,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "616ac8aa228e",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773786297061,
+      "depth": 2
+    },
+    {
+      "id": "8235526f7cd1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 158",
+      "metricName": "score",
+      "metricValue": 0.9702656616352661,
+      "isCurrentBest": false,
+      "createdAt": 1773783327019,
+      "depth": 1
+    },
     {
       "id": "ced356bf7dcd",
       "domain": "search-ranking",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1773777252494,
-      "depth": 2
-    },
-    {
-      "id": "453132303fe1",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": true,
-      "createdAt": 1773777252316,
-      "depth": 1
-    },
-    {
-      "id": "b22e1403bbe6",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773776577002,
       "depth": 2
     }
   ],
