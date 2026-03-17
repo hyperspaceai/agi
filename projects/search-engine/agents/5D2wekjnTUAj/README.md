@@ -1,10 +1,10 @@
 # Search Research — Agent 5D2wekjnTUAj
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** reduce body weight (-0.05)
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 11526844
-**Updated:** 2026-03-16T19:48:31.976Z
+**Run:** ec79e8a0
+**Updated:** 2026-03-17T01:48:11.279Z
