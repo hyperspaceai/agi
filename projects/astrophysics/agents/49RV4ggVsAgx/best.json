@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCxneopGD44xSudufkzuMdRh3t4UK3TngpYr8H4d1tFtw",
-  "runNumber": 1,
-  "timestamp": 1773742858296,
-  "hypothesis": "Explore: heavy weight decay (0.1)",
+  "runNumber": 2,
+  "timestamp": 1773743185410,
+  "hypothesis": "Improve on 6b371a20 (loss=4.8635): constant LR schedule",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -28,7 +28,7 @@
     "residualScale": 1,
     "dropoutRate": 0,
     "gradientClipNorm": 1,
-    "scheduleType": "cosine",
+    "scheduleType": "constant",
     "minLRRatio": 0.1,
     "initType": "normal",
     "initScale": 0.02,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.863491679589556,
-    "trainLoss": 4.868124735453946,
+    "valLoss": 4.828116244123295,
+    "trainLoss": 4.8322231994626845,
     "lossCurve": [
       [
         6,
-        4.863491679589556
+        4.828116244123295
       ]
     ],
-    "durationSec": 303.868,
-    "tokensPerSec": 647.0177840378059,
+    "durationSec": 298.427,
+    "tokensPerSec": 658.8143834170501,
     "totalTokens": 196608
   },
-  "improvement": 0,
+  "improvement": -0.7273670399133072,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
