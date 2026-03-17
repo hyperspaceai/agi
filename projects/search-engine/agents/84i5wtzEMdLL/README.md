@@ -1,10 +1,10 @@
 # Search Research — Agent 84i5wtzEMdLL
 
-**Best NDCG@10:** 0.3933
-**Hypothesis:** require 5 unique domains
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 2ca3aa60
-**Updated:** 2026-03-17T16:19:09.059Z
+**Run:** 6df1c32d
+**Updated:** 2026-03-17T17:39:38.771Z
