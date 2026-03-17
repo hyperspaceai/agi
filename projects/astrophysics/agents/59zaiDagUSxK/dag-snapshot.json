@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T06:05:48.171Z",
+  "timestamp": "2026-03-17T07:08:36.128Z",
   "peerId": "12D3KooWDyMkTMAPfMDoS68UgKNd5PXgLA8ct6PQVi5cYdumEj1D",
   "stats": {
-    "totalNodes": 434,
-    "observations": 296,
-    "experiments": 138,
+    "totalNodes": 463,
+    "observations": 324,
+    "experiments": 139,
     "syntheses": 0,
     "totalEdges": 132,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 30
+    "recentActivity": 27
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,10 +38,10 @@
       "depth": 0
     },
     "general": {
-      "nodeId": "1b94c71e62f2ac44203ddbc13d3e08c7fc14b395c19657771b81bf7d9dc3a951",
-      "title": "AutoWeb round 11: 77/100",
+      "nodeId": "3017ad437fdf8d052afbb355f5911e7b232134976568e23139d6082a39bdde33",
+      "title": "AutoWeb round 79: 79/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 77,
+      "metricValue": 79,
       "metricDirection": "maximize",
       "depth": 0
     }
@@ -50,10 +50,21 @@
     "infrastructure": 60,
     "finance": 54,
     "search-ranking": 21,
-    "knowledge": 296,
-    "general": 3
+    "knowledge": 324,
+    "general": 4
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "3017ad437fdf",
+      "domain": "general",
+      "title": "AutoWeb round 79: 79/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 79,
+      "isCurrentBest": true,
+      "createdAt": 1773730734891,
+      "depth": 0
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
@@ -136,9 +147,9 @@
     ],
     "general": [
       {
-        "id": "1b94c71e62f2",
-        "title": "AutoWeb round 11: 77/100",
-        "metricValue": 77,
+        "id": "3017ad437fdf",
+        "title": "AutoWeb round 79: 79/100",
+        "metricValue": 79,
         "depth": 0
       }
     ]
