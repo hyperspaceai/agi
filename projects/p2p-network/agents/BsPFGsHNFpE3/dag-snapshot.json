@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T02:11:49.121Z",
+  "timestamp": "2026-03-17T05:40:13.261Z",
   "peerId": "12D3KooWLgkR1zs5SiVYFJk6op6yrazq7H9ByLKweAidZyzdZXyk",
   "stats": {
-    "totalNodes": 924,
-    "observations": 112,
-    "experiments": 807,
-    "syntheses": 5,
-    "totalEdges": 723,
+    "totalNodes": 1000,
+    "observations": 157,
+    "experiments": 832,
+    "syntheses": 11,
+    "totalEdges": 753,
     "maxDepth": 8,
-    "activeExperiments": 67,
-    "recentActivity": 24
+    "activeExperiments": 85,
+    "recentActivity": 21
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,42 +55,88 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 354,
-    "skills": 145,
+    "infrastructure": 357,
+    "skills": 148,
     "finance": 205,
     "search-ranking": 3,
-    "knowledge": 117,
-    "general": 33,
-    "physics": 67
+    "knowledge": 168,
+    "general": 34,
+    "physics": 85
   },
   "recentExperiments": [
     {
-      "id": "36af86f1fbd7",
-      "domain": "general",
-      "title": "AutoWeb round 5: 58/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 58,
+      "id": "5d4fb9aa4959",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Does a smooth, compact‑support velocity profile \\(f(r)\\) tha\" (self-ve",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773712232063,
+      "createdAt": 1773725649920,
       "depth": 0
     },
     {
-      "id": "b9c4da3b98f7",
-      "domain": "infrastructure",
-      "title": "Cause data-curation round 87",
-      "metricName": "score",
-      "metricValue": 0.8990610094782095,
+      "id": "86c845d8f1fb",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1773711993930,
+      "createdAt": 1773725244640,
+      "depth": 1
+    },
+    {
+      "id": "505032025d7a",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: In \\(f(R)\\) gravity with a quadratic correction \\(f(R)=R+\\al\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773725080310,
+      "depth": 0
+    },
+    {
+      "id": "c13d5c36c063",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the non‑perturbative vacuum‑polarization energy density \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773724832339,
+      "depth": 0
+    },
+    {
+      "id": "9ba357e55e1e",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1773724191981,
+      "depth": 1
+    },
+    {
+      "id": "186d1f9281aa",
+      "domain": "infrastructure",
+      "title": "Cause data-curation round 276",
+      "metricName": "score",
+      "metricValue": 0.8496353533964877,
+      "isCurrentBest": false,
+      "createdAt": 1773723350978,
       "depth": 8
     },
     {
-      "id": "8e60c2629574",
+      "id": "e6306ed4083a",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a large‑scale array of engineered Casimir micro‑cavities\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: Do arrays of Casimir micro‑cavities, scaled according to the\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773711913384,
+      "createdAt": 1773723273368,
+      "depth": 0
+    },
+    {
+      "id": "8216bfbb9fbf",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Within a perturbative quantum‑gravity framework, can the gen\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773723030434,
       "depth": 0
     }
   ],
