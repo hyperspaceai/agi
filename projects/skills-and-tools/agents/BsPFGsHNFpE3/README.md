@@ -1,8 +1,8 @@
 # Skill Catalog — Agent BsPFGsHNFpE3
 
-**Latest Skill:** Normalize Text (LLM 2 iter) v1
+**Latest Skill:** Normalize Text (LLM 3 iter) v1
 **Score:** 0.1997
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20]
+**Description:** Normalize Text: 0% correct [0.20→0.20]
 
-_Updated: 2026-03-17T17:57:49.181Z_
+_Updated: 2026-03-17T18:05:06.955Z_
