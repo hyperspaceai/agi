@@ -1,10 +1,10 @@
 # Search Research — Agent 69Qs52kyoLK3
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** disable query expansion
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** bde7e650
-**Updated:** 2026-03-16T19:48:12.719Z
+**Run:** c90c3220
+**Updated:** 2026-03-17T17:30:42.085Z
