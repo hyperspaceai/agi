@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "timestamp": "2026-03-16T06:13:03.745Z",
+  "timestamp": "2026-03-17T07:36:45.795Z",
   "peerId": "12D3KooWB1H5u7rJ8D5R6P4mkXHagFDBfdNf4Prv33meY91wAKDD",
   "stats": {
-    "totalNodes": 301,
+    "totalNodes": 422,
     "observations": 0,
-    "experiments": 301,
+    "experiments": 422,
     "syntheses": 0,
-    "totalEdges": 286,
+    "totalEdges": 382,
     "maxDepth": 7,
-    "activeExperiments": 7,
+    "activeExperiments": 27,
     "recentActivity": 1
   },
   "bestPerDomain": {
@@ -22,12 +22,12 @@
       "depth": 3
     },
     "skills": {
-      "nodeId": "7b9b5a40c60520148274251420ef83f82e727897fa50bdfe6ad14782a927f694",
-      "title": "Skill Normalize Text (LLM 2 iter): 100%",
+      "nodeId": "80a36720834afcd5081ad3d76481eb088987ea609d9fb65db3b48a298b6265ff",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 100%",
       "metricName": "correctness",
-      "metricValue": 0.9979,
+      "metricValue": 0.998,
       "metricDirection": "maximize",
-      "depth": 5
+      "depth": 6
     },
     "finance": {
       "nodeId": "93d915a2c0480553c5688672f8cbd0e41d8123a03648653921c0257fac180b5e",
@@ -38,215 +38,215 @@
       "depth": 6
     },
     "general": {
-      "nodeId": "fbc0b1e1bd80ca9d8c3a525b20f2b006a2af1cd3f48f76d20fe10870cffe93f1",
-      "title": "AutoWeb round 6: 83/100",
+      "nodeId": "488ce7c43cce8085743db8a430c022cdd0cacc890f89a2b00f42ca6f39061ef2",
+      "title": "AutoWeb round 9: 89/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 83,
+      "metricValue": 89,
       "metricDirection": "maximize",
       "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 190,
-    "skills": 82,
+    "infrastructure": 257,
+    "skills": 111,
     "finance": 17,
-    "general": 5,
-    "physics": 7
+    "general": 10,
+    "physics": 27
   },
   "recentExperiments": [
     {
-      "id": "fbc0b1e1bd80",
-      "domain": "general",
-      "title": "AutoWeb round 6: 83/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 83,
-      "isCurrentBest": true,
-      "createdAt": 1773639067497,
-      "depth": 0
-    },
-    {
-      "id": "f1dd711e48c5",
+      "id": "9ec5f6c58816",
       "domain": "physics",
-      "title": "Wrote paper: \"On gravitational_waves: Can we build a library of gravitational wave templates from \" ",
+      "title": "Wrote paper: \"On warp_drives: Does the presence of a non-commutative spacetime structure, \" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773636571224,
+      "createdAt": 1773730678877,
       "depth": 0
     },
     {
-      "id": "490d173fd7d4",
+      "id": "7819cda6cdd2",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 307",
+      "title": "Cause infra-optimization round 368",
       "metricName": "score",
-      "metricValue": 141.041867869352,
+      "metricValue": 145.05490029243686,
       "isCurrentBest": false,
-      "createdAt": 1773635110641,
+      "createdAt": 1773729113707,
       "depth": 4
     },
     {
-      "id": "ce1f1dcf27ed",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Following Barzegar & Buchert (2025), what warp drive solutio\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1773633953953,
-      "depth": 0
-    },
-    {
-      "id": "b6867d579e16",
-      "domain": "general",
-      "title": "AutoWeb round 4: 81/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 81,
-      "isCurrentBest": false,
-      "createdAt": 1773632593837,
-      "depth": 0
-    },
-    {
-      "id": "c203d740b50f",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 281",
-      "metricName": "score",
-      "metricValue": 0.9296009251060073,
-      "isCurrentBest": false,
-      "createdAt": 1773632590634,
-      "depth": 4
-    },
-    {
-      "id": "9d2a6588c826",
+      "id": "6e214dae814c",
       "domain": "skills",
       "title": "Skill Extract Entities from Text (LLM 3 iter): 100%",
       "metricName": "correctness",
-      "metricValue": 0.9978,
+      "metricValue": 0.998,
       "isCurrentBest": false,
-      "createdAt": 1773631255275,
-      "depth": 6
+      "createdAt": 1773729105929,
+      "depth": 7
     },
     {
-      "id": "fcf029ff8112",
+      "id": "e1153ce77441",
       "domain": "physics",
-      "title": "Wrote paper: \"On modified_gravity: Do f(R) or Gauss-Bonnet modified gravity theories admit warp\" (se",
+      "title": "Wrote paper: \"On warp_drives: Considering the Fuchs et al. (2024) constant-velocity sublum\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773630113803,
+      "createdAt": 1773727958846,
       "depth": 0
     },
     {
-      "id": "75acb42e4061",
+      "id": "d61e1ba460ca",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 236",
+      "title": "Cause literature-analysis round 303",
       "metricName": "score",
-      "metricValue": 141.29425197700692,
+      "metricValue": 0.9538796092881155,
       "isCurrentBest": false,
-      "createdAt": 1773629950589,
+      "createdAt": 1773725213671,
       "depth": 4
     },
     {
-      "id": "304407b9e05c",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 100%",
-      "metricName": "correctness",
-      "metricValue": 0.9978,
+      "id": "a0008f1b5f71",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 284",
+      "metricName": "score",
+      "metricValue": 144.98975413475333,
       "isCurrentBest": false,
-      "createdAt": 1773628721635,
-      "depth": 6
+      "createdAt": 1773725213669,
+      "depth": 4
     },
     {
-      "id": "fb6ed839b80d",
+      "id": "026ff04a7507",
       "domain": "physics",
-      "title": "Wrote paper: \"On casimir_engineering: Can arrays of Casimir micro-cavities (following White/LSI 20\" ",
+      "title": "Wrote paper: \"On warp_drives: Considering recent advancements in metamaterial design and C\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773627462319,
+      "createdAt": 1773721486981,
       "depth": 0
     },
     {
-      "id": "f5cd6aba84ae",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 1 iter): 100%",
-      "metricName": "correctness",
-      "metricValue": 0.9978,
-      "isCurrentBest": false,
-      "createdAt": 1773627348460,
-      "depth": 6
-    },
-    {
-      "id": "dd48a17dfc20",
+      "id": "f58c966fa1e3",
       "domain": "skills",
       "title": "Skill Extract Entities from Text (LLM 2 iter): 100%",
       "metricName": "correctness",
-      "metricValue": 0.9978,
+      "metricValue": 0.998,
       "isCurrentBest": false,
-      "createdAt": 1773626067881,
-      "depth": 6
+      "createdAt": 1773720042530,
+      "depth": 7
     },
     {
-      "id": "5beb8b712cec",
-      "domain": "general",
-      "title": "AutoWeb round 2: 79/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 79,
+      "id": "30fb7a2f5402",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 216",
+      "metricName": "score",
+      "metricValue": 0.9541816689983458,
       "isCurrentBest": false,
-      "createdAt": 1773626065716,
-      "depth": 0
+      "createdAt": 1773719993034,
+      "depth": 4
     },
     {
-      "id": "4e781cebd794",
+      "id": "c03f0216ceeb",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the Fuchs et al. (2024) constant-velocity subluminal war\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: Can the tidal stresses experienced by an observer traversing\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773624859180,
+      "createdAt": 1773718842461,
       "depth": 0
     },
     {
-      "id": "f7ae339221b7",
+      "id": "0b71ce419f88",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 1 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.998,
+      "isCurrentBest": false,
+      "createdAt": 1773718714171,
+      "depth": 7
+    },
+    {
+      "id": "bfcb30bf69bb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 186",
+      "metricName": "score",
+      "metricValue": 0.9539285896749907,
+      "isCurrentBest": false,
+      "createdAt": 1773718702986,
+      "depth": 4
+    },
+    {
+      "id": "3d070be89b83",
       "domain": "skills",
       "title": "Skill Extract Entities from Text (LLM 3 iter): 100%",
       "metricName": "correctness",
-      "metricValue": 0.9978,
+      "metricValue": 0.998,
       "isCurrentBest": false,
-      "createdAt": 1773623513882,
-      "depth": 6
+      "createdAt": 1773717409449,
+      "depth": 7
     },
     {
-      "id": "047c6ec34a2e",
-      "domain": "general",
-      "title": "AutoWeb round 1: 73/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 73,
-      "isCurrentBest": false,
-      "createdAt": 1773622230815,
-      "depth": 0
-    },
-    {
-      "id": "8b62fbbda231",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 3 iter): 100%",
-      "metricName": "correctness",
-      "metricValue": 0.996,
-      "isCurrentBest": false,
-      "createdAt": 1773622224824,
-      "depth": 6
-    },
-    {
-      "id": "75e0c94fba0d",
+      "id": "242ab64b5969",
       "domain": "physics",
-      "title": "Wrote paper: \"On energy_conditions: What are the quantum gravity corrections to the null energy \" (s",
+      "title": "Wrote paper: \"On warp_drives: What is the impact of backreaction from quantum fields on th\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773621035774,
+      "createdAt": 1773716198949,
       "depth": 0
     },
     {
-      "id": "a7482636d305",
+      "id": "c374cbc1c9be",
       "domain": "skills",
-      "title": "Skill Normalize Text (LLM 1 iter): 100%",
+      "title": "Skill Extract Entities from Text (LLM 1 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.998,
+      "isCurrentBest": false,
+      "createdAt": 1773714838423,
+      "depth": 7
+    },
+    {
+      "id": "145a752fec18",
+      "domain": "general",
+      "title": "AutoWeb round 1: 87/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 87,
+      "isCurrentBest": false,
+      "createdAt": 1773713613697,
+      "depth": 0
+    },
+    {
+      "id": "b2a22cfbd809",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.998,
+      "isCurrentBest": false,
+      "createdAt": 1773713529518,
+      "depth": 7
+    },
+    {
+      "id": "ac5c2cc15e27",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 1 iter): 100%",
+      "metricName": "correctness",
+      "metricValue": 0.9971,
+      "isCurrentBest": false,
+      "createdAt": 1773712214754,
+      "depth": 7
+    },
+    {
+      "id": "70e02318d86a",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Is it possible to construct a self-consistent model of a war\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773709778654,
+      "depth": 0
+    },
+    {
+      "id": "7c0c3bdd9398",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 1 iter): 100%",
       "metricName": "correctness",
       "metricValue": 0.996,
       "isCurrentBest": false,
-      "createdAt": 1773620883331,
-      "depth": 6
+      "createdAt": 1773709660103,
+      "depth": 7
     }
   ],
   "frontier": [],
@@ -278,6 +278,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "80a36720834a",
+        "title": "Skill Extract Entities from Text (LLM 2 iter): 100%",
+        "metricValue": 0.998,
+        "depth": 6
+      },
       {
         "id": "7b9b5a40c605",
         "title": "Skill Normalize Text (LLM 2 iter): 100%",
@@ -361,9 +367,9 @@
     ],
     "general": [
       {
-        "id": "fbc0b1e1bd80",
-        "title": "AutoWeb round 6: 83/100",
-        "metricValue": 83,
+        "id": "488ce7c43cce",
+        "title": "AutoWeb round 9: 89/100",
+        "metricValue": 89,
         "depth": 0
       }
     ]
