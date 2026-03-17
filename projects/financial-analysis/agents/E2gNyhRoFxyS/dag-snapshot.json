@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T20:28:53.844Z",
+  "timestamp": "2026-03-17T21:28:53.957Z",
   "peerId": "12D3KooWNr3Yiq1WSsEvq4kEHYtRMv5ABFRn5P6niVSDoQW3bng5",
   "stats": {
-    "totalNodes": 348,
+    "totalNodes": 350,
     "observations": 0,
-    "experiments": 348,
+    "experiments": 350,
     "syntheses": 0,
-    "totalEdges": 345,
+    "totalEdges": 347,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 23
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 125,
+    "infrastructure": 127,
     "finance": 153,
     "search-ranking": 70
   },
   "recentExperiments": [
+    {
+      "id": "1203179fa99b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 131",
+      "metricName": "score",
+      "metricValue": 141.10591635067075,
+      "isCurrentBest": false,
+      "createdAt": 1773781853719,
+      "depth": 2
+    },
+    {
+      "id": "f541110db6d2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 98",
+      "metricName": "score",
+      "metricValue": 141.17438123500602,
+      "isCurrentBest": false,
+      "createdAt": 1773779873645,
+      "depth": 2
+    },
     {
       "id": "4cc7b9fc4cbf",
       "domain": "finance",
@@ -222,26 +242,6 @@
       "metricValue": 1.2818,
       "isCurrentBest": false,
       "createdAt": 1773777383555,
-      "depth": 10
-    },
-    {
-      "id": "caa42e984066",
-      "domain": "finance",
-      "title": "Finance round 22: Sharpe=1.2779",
-      "metricName": "Sharpe",
-      "metricValue": 1.2779,
-      "isCurrentBest": false,
-      "createdAt": 1773777233551,
-      "depth": 10
-    },
-    {
-      "id": "85d1663a5e10",
-      "domain": "finance",
-      "title": "Finance round 21: Sharpe=1.2738",
-      "metricName": "Sharpe",
-      "metricValue": 1.2738,
-      "isCurrentBest": false,
-      "createdAt": 1773777083545,
       "depth": 10
     }
   ],
