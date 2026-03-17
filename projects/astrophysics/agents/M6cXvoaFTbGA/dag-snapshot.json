@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T09:51:26.611Z",
+  "timestamp": "2026-03-17T10:51:26.860Z",
   "peerId": "12D3KooWAATnH4PHSMrkZuEVF7yS2ZMw6B35fNMKBytDGgQzDkFF",
   "stats": {
-    "totalNodes": 596,
+    "totalNodes": 597,
     "observations": 276,
-    "experiments": 320,
+    "experiments": 321,
     "syntheses": 0,
-    "totalEdges": 296,
+    "totalEdges": 297,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -56,13 +56,23 @@
   },
   "domainCounts": {
     "knowledge": 276,
-    "infrastructure": 97,
+    "infrastructure": 98,
     "skills": 112,
     "finance": 67,
     "general": 20,
     "search-ranking": 24
   },
   "recentExperiments": [
+    {
+      "id": "3133756343bf",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 591",
+      "metricName": "score",
+      "metricValue": 145.06829146361787,
+      "isCurrentBest": false,
+      "createdAt": 1773742406649,
+      "depth": 1
+    },
     {
       "id": "73bac57d04c1",
       "domain": "general",
@@ -252,16 +262,6 @@
       "isCurrentBest": false,
       "createdAt": 1773708684645,
       "depth": 1
-    },
-    {
-      "id": "874526bee3fe",
-      "domain": "general",
-      "title": "AutoWeb round 4: 73/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 73,
-      "isCurrentBest": false,
-      "createdAt": 1773708238089,
-      "depth": 0
     }
   ],
   "frontier": [],
