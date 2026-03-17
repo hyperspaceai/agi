@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T06:53:56.829Z",
+  "timestamp": "2026-03-17T07:54:26.871Z",
   "peerId": "12D3KooWBegh7irKw8LipTCMvH6tAFJKZ8Kuh3XUrAcnne2fzfbQ",
   "stats": {
-    "totalNodes": 1000,
+    "totalNodes": 1003,
     "observations": 0,
-    "experiments": 1000,
+    "experiments": 1003,
     "syntheses": 0,
-    "totalEdges": 997,
+    "totalEdges": 1000,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 544,
+    "infrastructure": 547,
     "finance": 388,
     "search-ranking": 68
   },
   "recentExperiments": [
+    {
+      "id": "93f64a22dc98",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 439",
+      "metricName": "score",
+      "metricValue": 0.950719218543005,
+      "isCurrentBest": false,
+      "createdAt": 1773733406769,
+      "depth": 8
+    },
+    {
+      "id": "f3ddc9843477",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 435",
+      "metricName": "score",
+      "metricValue": 0.9455461567405522,
+      "isCurrentBest": false,
+      "createdAt": 1773733166766,
+      "depth": 8
+    },
+    {
+      "id": "a82b4167177f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 411",
+      "metricName": "score",
+      "metricValue": 0.9452302960854818,
+      "isCurrentBest": false,
+      "createdAt": 1773731726743,
+      "depth": 8
+    },
     {
       "id": "75c145c1e7ae",
       "domain": "infrastructure",
@@ -213,36 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1773710616376,
       "depth": 2
-    },
-    {
-      "id": "7219b7fe1a99",
-      "domain": "search-ranking",
-      "title": "Search round 39: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773710616175,
-      "depth": 2
-    },
-    {
-      "id": "60519982a575",
-      "domain": "search-ranking",
-      "title": "Search round 39: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773710615936,
-      "depth": 2
-    },
-    {
-      "id": "58774b3b8f44",
-      "domain": "finance",
-      "title": "Finance round 22: Sharpe=1.3205",
-      "metricName": "Sharpe",
-      "metricValue": 1.3205,
-      "isCurrentBest": false,
-      "createdAt": 1773710336348,
-      "depth": 9
     }
   ],
   "frontier": [],
