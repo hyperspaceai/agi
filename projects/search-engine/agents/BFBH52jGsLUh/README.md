@@ -1,10 +1,10 @@
 # Search Research — Agent BFBH52jGsLUh
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** boost BM25 weight (+0.05)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 4e7b30a5
-**Updated:** 2026-03-17T02:18:47.559Z
+**Run:** c501f830
+**Updated:** 2026-03-17T16:31:42.634Z
