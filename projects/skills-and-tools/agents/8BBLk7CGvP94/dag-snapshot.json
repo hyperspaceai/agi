@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T21:29:31.785Z",
+  "timestamp": "2026-03-17T22:29:32.025Z",
   "peerId": "12D3KooWGzYWVEmz7HQYcHTMgWUDi19nSNMz5DdQsQExzfUhWRDF",
   "stats": {
-    "totalNodes": 1293,
+    "totalNodes": 1295,
     "observations": 0,
-    "experiments": 1293,
+    "experiments": 1295,
     "syntheses": 0,
-    "totalEdges": 1289,
+    "totalEdges": 1291,
     "maxDepth": 10,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 426,
-    "skills": 490,
+    "infrastructure": 427,
+    "skills": 491,
     "finance": 317,
     "search-ranking": 60
   },
   "recentExperiments": [
+    {
+      "id": "9c44538442a6",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1773785371612,
+      "depth": 5
+    },
+    {
+      "id": "a5150d8b728c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 187",
+      "metricName": "score",
+      "metricValue": 0.9303317752809883,
+      "isCurrentBest": false,
+      "createdAt": 1773785251576,
+      "depth": 4
+    },
     {
       "id": "11c6aa20fe1e",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773774391364,
       "depth": 4
-    },
-    {
-      "id": "ced0a52002b2",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 6",
-      "metricName": "score",
-      "metricValue": 141.47856097368708,
-      "isCurrentBest": false,
-      "createdAt": 1773774391358,
-      "depth": 4
-    },
-    {
-      "id": "12f2c3e9ff53",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1988,
-      "isCurrentBest": false,
-      "createdAt": 1773774331389,
-      "depth": 5
     }
   ],
   "frontier": [],
