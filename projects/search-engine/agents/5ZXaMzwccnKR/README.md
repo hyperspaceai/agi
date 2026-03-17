@@ -1,10 +1,10 @@
 # Search Research — Agent 5ZXaMzwccnKR
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1a3b0ec8
-**Updated:** 2026-03-17T16:04:36.944Z
+**Run:** 2adf64c0
+**Updated:** 2026-03-17T17:26:08.238Z
