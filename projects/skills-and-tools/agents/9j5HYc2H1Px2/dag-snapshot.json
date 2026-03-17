@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T21:28:38.978Z",
+  "timestamp": "2026-03-17T22:28:39.070Z",
   "peerId": "12D3KooWJYSTHjbzCJDXF53SoDkyyNXWtXsW1s7bv6syyPSkhmkM",
   "stats": {
-    "totalNodes": 172,
+    "totalNodes": 173,
     "observations": 0,
-    "experiments": 172,
+    "experiments": 173,
     "syntheses": 0,
-    "totalEdges": 168,
+    "totalEdges": 169,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 57,
-    "skills": 67,
+    "skills": 68,
     "finance": 29,
     "search-ranking": 19
   },
   "recentExperiments": [
+    {
+      "id": "d2c53a6329f5",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1773783878722,
+      "depth": 5
+    },
     {
       "id": "43d46615af47",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773775596920,
       "depth": 5
-    },
-    {
-      "id": "58479de7603a",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1773774966896,
-      "depth": 8
     }
   ],
   "frontier": [],
