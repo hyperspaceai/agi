@@ -1,10 +1,10 @@
 # Search Research — Agent 9tBCUmv7KT2E
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.3913
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8a4179ef
-**Updated:** 2026-03-16T23:24:10.306Z
+**Run:** 71d4efe4
+**Updated:** 2026-03-17T16:23:16.687Z
