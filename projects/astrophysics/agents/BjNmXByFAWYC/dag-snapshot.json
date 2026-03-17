@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-17T17:34:24.742Z",
+  "timestamp": "2026-03-17T18:34:25.110Z",
   "peerId": "12D3KooWLYjwGKYxMQogvePBvD8AHe3TPu6ybK9sgeLUwFEfxijU",
   "stats": {
-    "totalNodes": 3112,
-    "observations": 1754,
-    "experiments": 1358,
+    "totalNodes": 3149,
+    "observations": 1789,
+    "experiments": 1360,
     "syntheses": 0,
-    "totalEdges": 1354,
+    "totalEdges": 1356,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 53
+    "recentActivity": 37
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,74 +47,13 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 480,
-    "skills": 508,
+    "infrastructure": 481,
+    "skills": 509,
     "finance": 307,
     "search-ranking": 63,
-    "knowledge": 1754
+    "knowledge": 1789
   },
-  "recentExperiments": [
-    {
-      "id": "f41841110140",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773768264592,
-      "depth": 2
-    },
-    {
-      "id": "a45e97c2a71d",
-      "domain": "search-ranking",
-      "title": "Search round 50: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773768002165,
-      "depth": 2
-    },
-    {
-      "id": "dd4b9c367c5f",
-      "domain": "search-ranking",
-      "title": "Search round 46: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773767642220,
-      "depth": 2
-    },
-    {
-      "id": "42aa818cf487",
-      "domain": "search-ranking",
-      "title": "Search round 46: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773767641956,
-      "depth": 2
-    },
-    {
-      "id": "a3e1ba0ac981",
-      "domain": "search-ranking",
-      "title": "Search round 46: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773767641384,
-      "depth": 2
-    },
-    {
-      "id": "8bb7e54883c4",
-      "domain": "search-ranking",
-      "title": "Search round 46: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773767641300,
-      "depth": 2
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
