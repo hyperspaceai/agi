@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-18T17:24:34.433Z",
+  "peerId": "12D3KooWAmLRMfRpFwNd5qrd936zHwJVD9FEeLkWhhFp4R3v8Wko",
+  "stats": {
+    "totalNodes": 156,
+    "observations": 0,
+    "experiments": 156,
+    "syntheses": 0,
+    "totalEdges": 152,
+    "maxDepth": 7,
+    "activeExperiments": 0,
+    "recentActivity": 21
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "5da36f9c1021372dd3b0030860ce527033f3fae4bad5e74adf908a6d2850c781",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 148.91190932587534,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "skills": {
+      "nodeId": "5aaa33ffb34a03f593b3286ea104a720328e0055502f530739673e67eb14782c",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "metricDirection": "maximize",
+      "depth": 3
+    },
+    "finance": {
+      "nodeId": "3012858512c2092aebb385a48e69c7df49da39a5487cc147c3e7ff6f8b31d19a",
+      "title": "Finance round 11: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "metricDirection": "maximize",
+      "depth": 6
+    },
+    "search-ranking": {
+      "nodeId": "af410a84d6a019e7e84e40f34a22b2d4067026604810fe7016d3e5bd0e26ab94",
+      "title": "Search round 31: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 1
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 41,
+    "skills": 61,
+    "finance": 26,
+    "search-ranking": 28
+  },
+  "recentExperiments": [
+    {
+      "id": "989b2561ea29",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 75",
+      "metricName": "score",
+      "metricValue": 0.9645213420965061,
+      "isCurrentBest": false,
+      "createdAt": 1773853834204,
+      "depth": 2
+    },
+    {
+      "id": "2b2954e9b6fd",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1773853474241,
+      "depth": 4
+    },
+    {
+      "id": "f84420ef0b75",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 68",
+      "metricName": "score",
+      "metricValue": 141.1692763427316,
+      "isCurrentBest": false,
+      "createdAt": 1773853414194,
+      "depth": 2
+    },
+    {
+      "id": "7fe2daa986cc",
+      "domain": "search-ranking",
+      "title": "Search round 39: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852856090,
+      "depth": 2
+    },
+    {
+      "id": "962f874a3888",
+      "domain": "search-ranking",
+      "title": "Search round 39: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852856000,
+      "depth": 2
+    },
+    {
+      "id": "cdcdbbb6e285",
+      "domain": "search-ranking",
+      "title": "Search round 39: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852855169,
+      "depth": 2
+    },
+    {
+      "id": "aa2470cd137f",
+      "domain": "search-ranking",
+      "title": "Search round 39: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852855022,
+      "depth": 2
+    },
+    {
+      "id": "45afe03f8ad6",
+      "domain": "search-ranking",
+      "title": "Search round 39: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852854863,
+      "depth": 2
+    },
+    {
+      "id": "13cfd8620b13",
+      "domain": "search-ranking",
+      "title": "Search round 35: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852497171,
+      "depth": 2
+    },
+    {
+      "id": "e56e78526fa9",
+      "domain": "search-ranking",
+      "title": "Search round 35: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852496354,
+      "depth": 2
+    },
+    {
+      "id": "94250b5e1b83",
+      "domain": "search-ranking",
+      "title": "Search round 35: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852496242,
+      "depth": 2
+    },
+    {
+      "id": "11cb626b3bce",
+      "domain": "search-ranking",
+      "title": "Search round 35: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852495201,
+      "depth": 2
+    },
+    {
+      "id": "61f3e7394488",
+      "domain": "search-ranking",
+      "title": "Search round 35: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852494761,
+      "depth": 2
+    },
+    {
+      "id": "792545e554f4",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1773852154191,
+      "depth": 4
+    },
+    {
+      "id": "7a2b7502cd41",
+      "domain": "search-ranking",
+      "title": "Search round 31: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852140145,
+      "depth": 2
+    },
+    {
+      "id": "a514cf97d11f",
+      "domain": "search-ranking",
+      "title": "Search round 31: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852136278,
+      "depth": 2
+    },
+    {
+      "id": "1cf0789e59d8",
+      "domain": "search-ranking",
+      "title": "Search round 31: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773852135846,
+      "depth": 2
+    },
+    {
+      "id": "af410a84d6a0",
+      "domain": "search-ranking",
+      "title": "Search round 31: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": true,
+      "createdAt": 1773852135768,
+      "depth": 1
+    },
+    {
+      "id": "858b245e759c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 46",
+      "metricName": "score",
+      "metricValue": 141.2044774489314,
+      "isCurrentBest": false,
+      "createdAt": 1773852094159,
+      "depth": 2
+    },
+    {
+      "id": "a4241b948c08",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1773851674187,
+      "depth": 4
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "5da36f9c1021",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.91190932587534,
+        "depth": 1
+      },
+      {
+        "id": "fe57108cc9b8",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 142.2410383099046,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "5aaa33ffb34a",
+        "title": "Skill Normalize Text (seed/mutation): 0%",
+        "metricValue": 0.1994,
+        "depth": 3
+      },
+      {
+        "id": "f1e2cdc158a4",
+        "title": "Skill Normalize Text (seed/mutation): 0%",
+        "metricValue": 0.1993,
+        "depth": 2
+      },
+      {
+        "id": "7a126e1459b1",
+        "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+        "metricValue": 0.1992,
+        "depth": 1
+      },
+      {
+        "id": "18f31b164ff4",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1991,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "3012858512c2",
+        "title": "Finance round 11: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 6
+      },
+      {
+        "id": "bd019c291a9d",
+        "title": "Finance round 9: Sharpe=1.2237",
+        "metricValue": 1.2237,
+        "depth": 5
+      },
+      {
+        "id": "07a36252dfca",
+        "title": "Finance round 7: Sharpe=1.2160",
+        "metricValue": 1.216,
+        "depth": 4
+      },
+      {
+        "id": "2eb304791547",
+        "title": "Finance round 6: Sharpe=1.2081",
+        "metricValue": 1.2081,
+        "depth": 3
+      },
+      {
+        "id": "a4f259e22b3a",
+        "title": "Finance round 3: Sharpe=1.1870",
+        "metricValue": 1.187,
+        "depth": 2
+      },
+      {
+        "id": "f4341e86750b",
+        "title": "Finance round 2: Sharpe=1.1782",
+        "metricValue": 1.1782,
+        "depth": 1
+      },
+      {
+        "id": "deac1cd73015",
+        "title": "Finance round 1: Sharpe=1.0820",
+        "metricValue": 1.082,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "af410a84d6a0",
+        "title": "Search round 31: aggressive peer timeout (500ms)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
+      {
+        "id": "5655b08f3db5",
+        "title": "Search round 31: boost click weight (+0.03)",
+        "metricValue": 0.3963092975357146,
+        "depth": 0
+      }
+    ]
+  }
+}
