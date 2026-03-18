@@ -1,10 +1,10 @@
 # Search Research — Agent AKMCcaaWgQoS
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require 5 unique domains
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 103f85b7
-**Updated:** 2026-03-18T01:47:01.657Z
+**Run:** aeeb2a54
+**Updated:** 2026-03-18T17:04:44.908Z
