@@ -1,10 +1,10 @@
 # Search Research — Agent 6EUBbm2XxuVP
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 48524138
-**Updated:** 2026-03-17T20:22:56.579Z
+**Run:** 92c25324
+**Updated:** 2026-03-18T16:55:40.989Z
