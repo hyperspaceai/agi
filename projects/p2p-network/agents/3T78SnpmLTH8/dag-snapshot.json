@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T19:45:47.111Z",
+  "timestamp": "2026-03-18T20:45:47.163Z",
   "peerId": "12D3KooWCGUJBvQUXMYcmwDKTqoyGrxViCPmVJCpsjnAHxHLcFEm",
   "stats": {
-    "totalNodes": 49,
+    "totalNodes": 51,
     "observations": 0,
-    "experiments": 49,
+    "experiments": 51,
     "syntheses": 0,
-    "totalEdges": 45,
+    "totalEdges": 47,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "4497f1b41b4be9b86e6139805cf729a931c63d530909f281de197aae3f2b19b1",
-      "title": "Cause infra-optimization round 1",
+      "nodeId": "cc395cee36a4f23223defb78547236fbe75599d608c170b87702030ce8839d4a",
+      "title": "Cause infra-optimization round 271",
       "metricName": "score",
-      "metricValue": 142.48640303807997,
+      "metricValue": 145.08906706199758,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     },
     "skills": {
       "nodeId": "4134de7036b3edd7668a04c3f004c06f30e993889cae36477cf807bb3e225271",
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 14,
+    "infrastructure": 16,
     "skills": 12,
     "finance": 9,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "1ad6aa54b562",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 309",
+      "metricName": "score",
+      "metricValue": 0.9473276524855523,
+      "isCurrentBest": false,
+      "createdAt": 1773865546984,
+      "depth": 2
+    },
+    {
+      "id": "cc395cee36a4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 271",
+      "metricName": "score",
+      "metricValue": 145.08906706199758,
+      "isCurrentBest": true,
+      "createdAt": 1773863266965,
+      "depth": 1
+    },
     {
       "id": "84be7d94358d",
       "domain": "skills",
@@ -232,31 +252,17 @@
       "isCurrentBest": false,
       "createdAt": 1773850770931,
       "depth": 1
-    },
-    {
-      "id": "36b1fbab1a86",
-      "domain": "search-ranking",
-      "title": "Search round 42: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773850770649,
-      "depth": 1
-    },
-    {
-      "id": "6d7825287c94",
-      "domain": "search-ranking",
-      "title": "Search round 38: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773850413124,
-      "depth": 1
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "cc395cee36a4",
+        "title": "Cause infra-optimization round 271",
+        "metricValue": 145.08906706199758,
+        "depth": 1
+      },
       {
         "id": "4497f1b41b4b",
         "title": "Cause infra-optimization round 1",
