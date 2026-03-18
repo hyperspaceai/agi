@@ -2,20 +2,22 @@
   "runId": "finance-r10",
   "runNumber": 10,
   "hypothesis": "Round 10 best mutation",
-  "sharpeRatio": 1.2487,
-  "totalReturn": 2.8465,
-  "maxDrawdown": 0.0725,
-  "alpha": 1.3522,
+  "sharpeRatio": 1.2554,
+  "totalReturn": 2.7991,
+  "maxDrawdown": 0.0558,
+  "alpha": 1.3049,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0,
+  "durationSec": 0.002,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-18T11:01:07.660Z"
+  "timestamp": "2026-03-18T15:40:26.631Z"
 }
