@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWFs4r1b4csRgFFwcvL4cg7zjB2WoiuLAhpzX1x3nKch3Q",
+  "runNumber": 1653,
+  "timestamp": 1773858640831,
+  "hypothesis": "Improve on run #1645 (loss=1.2556): smaller batch (64 device)",
+  "config": {
+    "batchSize": 64
+  },
+  "result": {
+    "valLoss": 1.255367,
+    "trainLoss": 3.539684,
+    "lossCurve": [
+      [
+        0,
+        9.010851
+      ],
+      [
+        1,
+        9.186162
+      ],
+      [
+        2,
+        8.964413
+      ],
+      [
+        3,
+        8.568072
+      ],
+      [
+        4,
+        8.14254
+      ],
+      [
+        5,
+        7.773767
+      ],
+      [
+        6,
+        7.474248
+      ],
+      [
+        7,
+        7.223581
+      ],
+      [
+        8,
+        7.013029
+      ],
+      [
+        9,
+        6.826483
+      ],
+      [
+        10,
+        6.670111
+      ],
+      [
+        50,
+        4.963818
+      ],
+      [
+        100,
+        4.034233
+      ],
+      [
+        150,
+        3.547814
+      ]
+    ],
+    "durationSec": 300.5,
+    "tokensPerSec": 266888.5191347754,
+    "totalTokens": 80200000
+  },
+  "improvement": -0.01839760815166098,
+  "isNewBest": true,
+  "gpu": "NVIDIA Corporation GA102 [GeForce RTX 3090] (rev a1)",
+  "inspiredBy": null
+}
