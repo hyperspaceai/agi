@@ -1,10 +1,10 @@
 # Search Research — Agent B5sDAxZGGW8z
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f7aae98e
-**Updated:** 2026-03-18T01:57:31.132Z
+**Run:** 5d902740
+**Updated:** 2026-03-18T12:49:01.680Z
