@@ -1,10 +1,10 @@
 # Search Research — Agent 6ZQm6LcgRqkd
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost click weight (+0.03)
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5574dd3c
-**Updated:** 2026-03-17T01:55:33.353Z
+**Run:** 90dc6d66
+**Updated:** 2026-03-18T17:05:00.823Z
