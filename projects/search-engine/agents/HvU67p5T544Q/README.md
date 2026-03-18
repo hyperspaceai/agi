@@ -1,10 +1,10 @@
 # Search Research — Agent HvU67p5T544Q
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Best NDCG@10:** 0.3963
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 86c62740
-**Updated:** 2026-03-18T12:54:01.794Z
+**Run:** b699f2ba
+**Updated:** 2026-03-18T16:54:04.262Z
