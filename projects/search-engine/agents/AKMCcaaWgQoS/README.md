@@ -1,10 +1,10 @@
 # Search Research — Agent AKMCcaaWgQoS
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** e0a5192a
-**Updated:** 2026-03-17T01:49:30.076Z
+**Run:** 103f85b7
+**Updated:** 2026-03-18T01:47:01.657Z
