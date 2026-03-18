@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T20:30:13.742Z",
+  "timestamp": "2026-03-18T21:30:13.828Z",
   "peerId": "12D3KooWHPHtjxMLDEvbvsMfSSt7uJ88RMBkkq8UQd8k2SisK7AC",
   "stats": {
-    "totalNodes": 245,
+    "totalNodes": 247,
     "observations": 0,
-    "experiments": 245,
+    "experiments": 247,
     "syntheses": 0,
-    "totalEdges": 242,
+    "totalEdges": 244,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 134,
+    "infrastructure": 136,
     "finance": 75,
     "search-ranking": 36
   },
   "recentExperiments": [
+    {
+      "id": "874c2fca7e63",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 622",
+      "metricName": "score",
+      "metricValue": 141.05856602088323,
+      "isCurrentBest": false,
+      "createdAt": 1773868963730,
+      "depth": 5
+    },
+    {
+      "id": "b397b76b23c2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 618",
+      "metricName": "score",
+      "metricValue": 141.1132455830336,
+      "isCurrentBest": false,
+      "createdAt": 1773868723726,
+      "depth": 5
+    },
     {
       "id": "45a7f78b4958",
       "domain": "infrastructure",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1773833623127,
       "depth": 5
-    },
-    {
-      "id": "ce7a0cd22236",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.3105",
-      "metricName": "Sharpe",
-      "metricValue": 1.3105,
-      "isCurrentBest": false,
-      "createdAt": 1773833233128,
-      "depth": 7
-    },
-    {
-      "id": "b174003da212",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.3040",
-      "metricName": "Sharpe",
-      "metricValue": 1.304,
-      "isCurrentBest": false,
-      "createdAt": 1773832633105,
-      "depth": 7
     }
   ],
   "frontier": [],
