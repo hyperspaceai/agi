@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T17:46:08.305Z",
+  "timestamp": "2026-03-18T18:46:08.627Z",
   "peerId": "12D3KooWFKwCq2bNR7HKhj1sV3jXX4LVftRooigv2nk9GithMUVr",
   "stats": {
-    "totalNodes": 50,
+    "totalNodes": 51,
     "observations": 0,
-    "experiments": 50,
+    "experiments": 51,
     "syntheses": 0,
-    "totalEdges": 46,
+    "totalEdges": 47,
     "maxDepth": 15,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 7,
+    "infrastructure": 8,
     "skills": 13,
     "finance": 16,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "65a56856fef7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 192",
+      "metricName": "score",
+      "metricValue": 0.9533625271833888,
+      "isCurrentBest": false,
+      "createdAt": 1773858548437,
+      "depth": 1
+    },
     {
       "id": "6e2ad0a1b99e",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773849817860,
       "depth": 11
-    },
-    {
-      "id": "847bf39c1167",
-      "domain": "search-ranking",
-      "title": "Search round 31: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773849803396,
-      "depth": 1
     }
   ],
   "frontier": [],
