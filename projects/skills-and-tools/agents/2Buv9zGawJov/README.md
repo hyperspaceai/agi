@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2Buv9zGawJov
 
-**Latest Skill:** Parse Key-Value Log (LLM 3 iter) v1
-**Score:** 0.9977
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Score:** 0.9981
 **Permissions:** none
-**Description:** Parse Key-Value Log: 100% correct [0.40→0.40→0.40]
+**Description:** Structured JSON Diff: 100% correct, round 4
 
-_Updated: 2026-03-18T10:29:33.146Z_
+_Updated: 2026-03-18T10:51:54.913Z_
