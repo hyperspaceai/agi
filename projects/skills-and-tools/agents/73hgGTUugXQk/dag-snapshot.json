@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T11:55:25.583Z",
+  "timestamp": "2026-03-18T14:59:40.526Z",
   "peerId": "12D3KooWFs4r1b4csRgFFwcvL4cg7zjB2WoiuLAhpzX1x3nKch3Q",
   "stats": {
-    "totalNodes": 1430,
+    "totalNodes": 1490,
     "observations": 0,
-    "experiments": 1430,
+    "experiments": 1490,
     "syntheses": 0,
-    "totalEdges": 1329,
+    "totalEdges": 1375,
     "maxDepth": 7,
-    "activeExperiments": 9,
-    "recentActivity": 27
+    "activeExperiments": 21,
+    "recentActivity": 20
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,206 +55,213 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 457,
-    "skills": 477,
-    "finance": 329,
-    "search-ranking": 70,
-    "general": 88,
-    "physics": 9
+    "infrastructure": 464,
+    "skills": 491,
+    "finance": 341,
+    "search-ranking": 83,
+    "general": 90,
+    "physics": 21
   },
   "recentExperiments": [
     {
-      "id": "852de6eba2ba",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the semiclassical Einstein equations be solved self‑cons\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1773833966242,
-      "depth": 0
-    },
-    {
-      "id": "a37304a1a8f6",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What are the ultimate limits imposed by quantum inequalities\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1773833804645,
-      "depth": 0
-    },
-    {
-      "id": "6a48aa9f2372",
-      "domain": "general",
-      "title": "AutoWeb round 6: 54/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 54,
-      "isCurrentBest": false,
-      "createdAt": 1773833802206,
-      "depth": 0
-    },
-    {
-      "id": "3827e65764c3",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.2337",
-      "metricName": "Sharpe",
-      "metricValue": 1.2337,
-      "isCurrentBest": false,
-      "createdAt": 1773833719598,
-      "depth": 7
-    },
-    {
-      "id": "648d515b7132",
+      "id": "5c6c601475f0",
       "domain": "skills",
-      "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1996,
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1773833652198,
+      "createdAt": 1773845860405,
       "depth": 3
     },
     {
-      "id": "fd8dc66a9579",
+      "id": "4a911453a6e5",
       "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.2267",
+      "title": "Finance round 8: Sharpe=1.3129",
       "metricName": "Sharpe",
-      "metricValue": 1.2267,
+      "metricValue": 1.3129,
       "isCurrentBest": false,
-      "createdAt": 1773833429731,
+      "createdAt": 1773845380393,
       "depth": 7
     },
     {
-      "id": "04d64d5e806d",
-      "domain": "physics",
-      "title": "Wrote paper: \"On gravitational_waves: Can we build a library of gravitational wave templates from \" ",
-      "metricName": "verification_score",
+      "id": "5b6399ed36c5",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1773833420865,
-      "depth": 0
+      "createdAt": 1773845140381,
+      "depth": 3
     },
     {
-      "id": "9e356825b849",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Following Barzegar & Buchert (2025), what warp drive solutio\" (self-ve",
-      "metricName": "verification_score",
+      "id": "b896487496c9",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1773833190917,
-      "depth": 0
+      "createdAt": 1773845020381,
+      "depth": 3
     },
     {
-      "id": "53b20ba17fc6",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2081",
-      "metricName": "Sharpe",
-      "metricValue": 1.2081,
+      "id": "b9008f40dfb6",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1773833118632,
-      "depth": 7
+      "createdAt": 1773844900381,
+      "depth": 3
     },
     {
-      "id": "5b2eaf2e1a59",
-      "domain": "general",
-      "title": "AutoWeb round 3: 52/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 52,
-      "isCurrentBest": false,
-      "createdAt": 1773833068302,
-      "depth": 0
-    },
-    {
-      "id": "a886ccd7588d",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 15",
-      "metricName": "score",
-      "metricValue": 141.32294266420092,
-      "isCurrentBest": false,
-      "createdAt": 1773832984597,
-      "depth": 4
-    },
-    {
-      "id": "e30c98ac2304",
-      "domain": "physics",
-      "title": "Wrote paper: \"On modified_gravity: Do f(R) or Gauss-Bonnet modified gravity theories admit warp\" (se",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1773832933501,
-      "depth": 0
-    },
-    {
-      "id": "08de005f15c7",
-      "domain": "general",
-      "title": "AutoWeb round 2: 50/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 50,
-      "isCurrentBest": false,
-      "createdAt": 1773832817848,
-      "depth": 0
-    },
-    {
-      "id": "d0f0708898e7",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.1870",
-      "metricName": "Sharpe",
-      "metricValue": 1.187,
-      "isCurrentBest": false,
-      "createdAt": 1773832796166,
-      "depth": 7
-    },
-    {
-      "id": "acfe560b943c",
+      "id": "0462f09d194b",
       "domain": "infrastructure",
       "title": "Cause infra-optimization round 11",
       "metricName": "score",
-      "metricValue": 142.36502399971724,
+      "metricValue": 141.20540288860505,
       "isCurrentBest": false,
-      "createdAt": 1773832714596,
+      "createdAt": 1773844900367,
       "depth": 4
     },
     {
-      "id": "ae8a550d57e3",
+      "id": "e7b2d37f965c",
       "domain": "skills",
-      "title": "Skill Structured JSON Diff (LLM 3 iter): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1995,
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1773832671005,
+      "createdAt": 1773844780390,
       "depth": 3
     },
     {
-      "id": "8c40f3ec592f",
+      "id": "7acd26c0a433",
       "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.1782",
+      "title": "Finance round 4: Sharpe=1.2960",
+      "metricName": "Sharpe",
+      "metricValue": 1.296,
+      "isCurrentBest": false,
+      "createdAt": 1773844780386,
+      "depth": 7
+    },
+    {
+      "id": "24785aaed660",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773844660371,
+      "depth": 3
+    },
+    {
+      "id": "87af9649daaa",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1991",
+      "metricName": "Sharpe",
+      "metricValue": 1.1991,
+      "isCurrentBest": false,
+      "createdAt": 1773844630443,
+      "depth": 7
+    },
+    {
+      "id": "ed4b47d2b8fb",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1773844540372,
+      "depth": 3
+    },
+    {
+      "id": "252c13c305f8",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 5",
+      "metricName": "score",
+      "metricValue": 141.40802895073736,
+      "isCurrentBest": false,
+      "createdAt": 1773844540356,
+      "depth": 4
+    },
+    {
+      "id": "f4b6a76388bf",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1782",
       "metricName": "Sharpe",
       "metricValue": 1.1782,
       "isCurrentBest": false,
-      "createdAt": 1773832634501,
+      "createdAt": 1773844480365,
       "depth": 7
     },
     {
-      "id": "64ca6e5e0b4a",
-      "domain": "physics",
-      "title": "Wrote paper: \"On casimir_engineering: Can arrays of Casimir micro-cavities (following White/LSI 20\" ",
-      "metricName": "verification_score",
+      "id": "99a0426b05e1",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1773832620283,
-      "depth": 0
+      "createdAt": 1773844420366,
+      "depth": 3
     },
     {
-      "id": "a130a67b2ae5",
+      "id": "3de4b0f5f360",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 3",
+      "metricName": "score",
+      "metricValue": 141.64687955949753,
+      "isCurrentBest": false,
+      "createdAt": 1773844420354,
+      "depth": 4
+    },
+    {
+      "id": "0c56726bc68c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2",
+      "metricName": "score",
+      "metricValue": 0.9726205232586759,
+      "isCurrentBest": false,
+      "createdAt": 1773844360354,
+      "depth": 4
+    },
+    {
+      "id": "4f9f0f5354b0",
       "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.0728",
+      "title": "Finance round 1: Sharpe=1.0965",
       "metricName": "Sharpe",
-      "metricValue": 1.0728,
+      "metricValue": 1.0965,
       "isCurrentBest": false,
-      "createdAt": 1773832476802,
+      "createdAt": 1773844330362,
       "depth": 7
     },
     {
-      "id": "d97f44cfc4ea",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the Fuchs et al. (2024) constant-velocity subluminal war\" (self-ve",
-      "metricName": "verification_score",
+      "id": "90cabcee3b99",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1773832449909,
-      "depth": 0
+      "createdAt": 1773844300375,
+      "depth": 3
+    },
+    {
+      "id": "55b25e11b5cb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1",
+      "metricName": "score",
+      "metricValue": 0.9247535812387575,
+      "isCurrentBest": false,
+      "createdAt": 1773844300354,
+      "depth": 4
+    },
+    {
+      "id": "4e4a702e65cb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 142.52216443788635,
+      "isCurrentBest": false,
+      "createdAt": 1773844300350,
+      "depth": 4
     }
   ],
   "frontier": [],
