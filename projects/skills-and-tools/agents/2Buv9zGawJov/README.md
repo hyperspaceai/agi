@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2Buv9zGawJov
 
-**Latest Skill:** Extract Entities from Text (LLM 2 iter) v1
-**Score:** 0.9979
+**Latest Skill:** Detect Anomalies (IQR) (LLM 3 iter) v1
+**Score:** 0.8952
 **Permissions:** none
-**Description:** Extract Entities from Text: 100% correct [0.87→1.00]
+**Description:** Detect Anomalies (IQR): 100% correct [0.40→0.40→0.40]
 
-_Updated: 2026-03-18T00:05:38.502Z_
+_Updated: 2026-03-18T02:54:59.601Z_
