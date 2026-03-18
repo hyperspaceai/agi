@@ -1,10 +1,10 @@
 # Search Research — Agent EeCXEuyhCXab
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** dd856864
-**Updated:** 2026-03-17T16:16:32.463Z
+**Run:** a091af08
+**Updated:** 2026-03-18T01:46:51.072Z
