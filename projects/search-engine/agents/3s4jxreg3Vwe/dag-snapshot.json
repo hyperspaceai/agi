@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T20:45:38.852Z",
+  "timestamp": "2026-03-18T21:45:38.932Z",
   "peerId": "12D3KooWCgRuhzEPEQD94HoPJe43me8kRzFvW1SskmnDDCcw4khg",
   "stats": {
-    "totalNodes": 42,
+    "totalNodes": 45,
     "observations": 0,
-    "experiments": 42,
+    "experiments": 45,
     "syntheses": 0,
-    "totalEdges": 38,
+    "totalEdges": 41,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 8,
+    "infrastructure": 11,
     "skills": 12,
     "finance": 8,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "0faab8c48d0d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 364",
+      "metricName": "score",
+      "metricValue": 0.9211603662489947,
+      "isCurrentBest": false,
+      "createdAt": 1773868838797,
+      "depth": 2
+    },
+    {
+      "id": "366dc86930a7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 361",
+      "metricName": "score",
+      "metricValue": 0.920223026353499,
+      "isCurrentBest": false,
+      "createdAt": 1773868658791,
+      "depth": 2
+    },
+    {
+      "id": "2abbc8eae739",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 360",
+      "metricName": "score",
+      "metricValue": 0.9189766938809558,
+      "isCurrentBest": false,
+      "createdAt": 1773868598791,
+      "depth": 2
+    },
     {
       "id": "c96ac5725b6c",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773849825592,
       "depth": 1
-    },
-    {
-      "id": "1bb38522dd20",
-      "domain": "search-ranking",
-      "title": "Search round 32: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710802,
-      "isCurrentBest": false,
-      "createdAt": 1773849825369,
-      "depth": 1
-    },
-    {
-      "id": "30fa64eca559",
-      "domain": "search-ranking",
-      "title": "Search round 32: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710802,
-      "isCurrentBest": true,
-      "createdAt": 1773849825192,
-      "depth": 0
-    },
-    {
-      "id": "bc876c08dbbc",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773849697973,
-      "depth": 2
     }
   ],
   "frontier": [],
