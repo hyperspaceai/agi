@@ -1,10 +1,10 @@
 # Search Research — Agent 8HFreAmCF5pn
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 6ffe12e0
-**Updated:** 2026-03-13T21:43:02.468Z
+**Run:** 36b4b378
+**Updated:** 2026-03-18T12:56:15.283Z
