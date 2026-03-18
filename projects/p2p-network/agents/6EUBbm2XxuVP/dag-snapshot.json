@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T20:47:15.559Z",
+  "timestamp": "2026-03-18T22:47:15.681Z",
   "peerId": "12D3KooWF3qMLtcF9okstvyMiikCmDAsMrnXV3hJZRvcJiXMhrmB",
   "stats": {
-    "totalNodes": 55,
+    "totalNodes": 58,
     "observations": 0,
-    "experiments": 55,
+    "experiments": 58,
     "syntheses": 0,
-    "totalEdges": 51,
+    "totalEdges": 54,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 17,
+    "infrastructure": 20,
     "skills": 16,
     "finance": 8,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "3d89571cc76e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 412",
+      "metricName": "score",
+      "metricValue": 141.20798183616003,
+      "isCurrentBest": false,
+      "createdAt": 1773871815505,
+      "depth": 1
+    },
+    {
+      "id": "9ab2919a6637",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 408",
+      "metricName": "score",
+      "metricValue": 141.22028615431327,
+      "isCurrentBest": false,
+      "createdAt": 1773871575501,
+      "depth": 1
+    },
+    {
+      "id": "d35fafa67a86",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 387",
+      "metricName": "score",
+      "metricValue": 0.9478335100313746,
+      "isCurrentBest": false,
+      "createdAt": 1773870315478,
+      "depth": 1
+    },
     {
       "id": "efd411f6e1a2",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773850979771,
       "depth": 1
-    },
-    {
-      "id": "611fc3b7977b",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost diversity weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1773850979331,
-      "depth": 1
-    },
-    {
-      "id": "66ef965778f7",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773850754598,
-      "depth": 3
-    },
-    {
-      "id": "93e9ad258016",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773850634600,
-      "depth": 3
     }
   ],
   "frontier": [],
