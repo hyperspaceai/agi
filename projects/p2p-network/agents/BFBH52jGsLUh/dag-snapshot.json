@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T03:05:08.879Z",
+  "timestamp": "2026-03-18T04:05:09.276Z",
   "peerId": "12D3KooWL4YSpAJz4EkBQzuEhxuX5yi8YnwS2v5bE26fjtRLk5hk",
   "stats": {
-    "totalNodes": 449,
+    "totalNodes": 451,
     "observations": 0,
-    "experiments": 449,
+    "experiments": 451,
     "syntheses": 0,
-    "totalEdges": 446,
+    "totalEdges": 448,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 10
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 277,
+    "infrastructure": 279,
     "finance": 122,
     "search-ranking": 50
   },
   "recentExperiments": [
+    {
+      "id": "9e047ec829f8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 135",
+      "metricName": "score",
+      "metricValue": 0.9597114730010629,
+      "isCurrentBest": false,
+      "createdAt": 1773805869107,
+      "depth": 6
+    },
+    {
+      "id": "1eef55054843",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 130",
+      "metricName": "score",
+      "metricValue": 0.9579619361112619,
+      "isCurrentBest": false,
+      "createdAt": 1773805569076,
+      "depth": 6
+    },
     {
       "id": "a96dff2c54a0",
       "domain": "finance",
@@ -222,26 +242,6 @@
       "metricValue": 141.19967579487073,
       "isCurrentBest": false,
       "createdAt": 1773798068218,
-      "depth": 6
-    },
-    {
-      "id": "b7c14232cddf",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.2113",
-      "metricName": "Sharpe",
-      "metricValue": 1.2113,
-      "isCurrentBest": false,
-      "createdAt": 1773798008224,
-      "depth": 8
-    },
-    {
-      "id": "1de0c3a7f934",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4",
-      "metricName": "score",
-      "metricValue": 0.9691599527814634,
-      "isCurrentBest": false,
-      "createdAt": 1773798008215,
       "depth": 6
     }
   ],
