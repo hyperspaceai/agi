@@ -1,0 +1,24 @@
+{
+  "runId": "llm-r3",
+  "runNumber": 3,
+  "hypothesis": "[LLM] Added trend-following overlay (SMA crossover) and low volatility factor to improve Sharpe ratio.",
+  "sharpeRatio": 1.0766,
+  "totalReturn": 2.3931,
+  "maxDrawdown": 0.0782,
+  "alpha": 0.8988,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "equal_weight",
+  "durationSec": 0,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-03-18T14:56:11.314Z"
+}
