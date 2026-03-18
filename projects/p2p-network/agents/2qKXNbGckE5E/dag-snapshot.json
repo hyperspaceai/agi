@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T20:37:14.514Z",
+  "timestamp": "2026-03-18T21:37:14.592Z",
   "peerId": "12D3KooWBegh7irKw8LipTCMvH6tAFJKZ8Kuh3XUrAcnne2fzfbQ",
   "stats": {
-    "totalNodes": 1210,
+    "totalNodes": 1212,
     "observations": 0,
-    "experiments": 1210,
+    "experiments": 1212,
     "syntheses": 0,
-    "totalEdges": 1207,
+    "totalEdges": 1209,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 684,
+    "infrastructure": 686,
     "finance": 453,
     "search-ranking": 73
   },
   "recentExperiments": [
+    {
+      "id": "4bdf88cb6dfa",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 620",
+      "metricName": "score",
+      "metricValue": 0.948316365916175,
+      "isCurrentBest": false,
+      "createdAt": 1773869294451,
+      "depth": 8
+    },
+    {
+      "id": "7a9242022066",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 583",
+      "metricName": "score",
+      "metricValue": 145.0119852398159,
+      "isCurrentBest": false,
+      "createdAt": 1773867074411,
+      "depth": 8
+    },
     {
       "id": "d22b27584548",
       "domain": "infrastructure",
@@ -222,26 +242,6 @@
       "metricValue": 1.2946,
       "isCurrentBest": false,
       "createdAt": 1773836983821,
-      "depth": 9
-    },
-    {
-      "id": "9d847b203d4e",
-      "domain": "finance",
-      "title": "Finance round 31: Sharpe=1.2913",
-      "metricName": "Sharpe",
-      "metricValue": 1.2913,
-      "isCurrentBest": false,
-      "createdAt": 1773836683813,
-      "depth": 9
-    },
-    {
-      "id": "3d1a9ed07713",
-      "domain": "finance",
-      "title": "Finance round 29: Sharpe=1.2854",
-      "metricName": "Sharpe",
-      "metricValue": 1.2854,
-      "isCurrentBest": false,
-      "createdAt": 1773836383806,
       "depth": 9
     }
   ],
