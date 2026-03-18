@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T17:24:34.433Z",
+  "timestamp": "2026-03-18T18:24:34.825Z",
   "peerId": "12D3KooWAmLRMfRpFwNd5qrd936zHwJVD9FEeLkWhhFp4R3v8Wko",
   "stats": {
-    "totalNodes": 156,
+    "totalNodes": 157,
     "observations": 0,
-    "experiments": 156,
+    "experiments": 157,
     "syntheses": 0,
-    "totalEdges": 152,
+    "totalEdges": 153,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 21
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 41,
+    "infrastructure": 42,
     "skills": 61,
     "finance": 26,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "ab5ed35656ca",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 108",
+      "metricName": "score",
+      "metricValue": 0.9678127137323002,
+      "isCurrentBest": false,
+      "createdAt": 1773855814451,
+      "depth": 2
+    },
     {
       "id": "989b2561ea29",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773852094159,
       "depth": 2
-    },
-    {
-      "id": "a4241b948c08",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1773851674187,
-      "depth": 4
     }
   ],
   "frontier": [],
