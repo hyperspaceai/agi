@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-19T06:15:40.418Z",
+  "timestamp": "2026-03-19T08:43:22.489Z",
   "peerId": "12D3KooWKdrcYD4bf2yggUhGcwoHkrpHmdjrfGFPEdAzGFcPNz8V",
   "stats": {
-    "totalNodes": 805,
+    "totalNodes": 807,
     "observations": 0,
-    "experiments": 805,
+    "experiments": 807,
     "syntheses": 0,
-    "totalEdges": 797,
+    "totalEdges": 799,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 318,
+    "infrastructure": 319,
     "skills": 258,
-    "finance": 175,
+    "finance": 176,
     "general": 4,
     "search-ranking": 50
   },
   "recentExperiments": [
+    {
+      "id": "074257a18d7a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 152",
+      "metricName": "score",
+      "metricValue": 0.9701733073890215,
+      "isCurrentBest": false,
+      "createdAt": 1773904134825,
+      "depth": 4
+    },
+    {
+      "id": "c41fc009b250",
+      "domain": "finance",
+      "title": "Finance round 10: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "isCurrentBest": false,
+      "createdAt": 1773901731826,
+      "depth": 6
+    },
     {
       "id": "6658fe3ec3d1",
       "domain": "finance",
@@ -240,26 +260,6 @@
       "metricValue": 0.9246363731566416,
       "isCurrentBest": false,
       "createdAt": 1773855431714,
-      "depth": 4
-    },
-    {
-      "id": "5b7f557c05b2",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1",
-      "metricName": "score",
-      "metricValue": 143.07308789343134,
-      "isCurrentBest": false,
-      "createdAt": 1773855431712,
-      "depth": 4
-    },
-    {
-      "id": "8c1db29a99ff",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 867",
-      "metricName": "score",
-      "metricValue": 0.934006841273704,
-      "isCurrentBest": false,
-      "createdAt": 1773758787125,
       "depth": 4
     }
   ],
