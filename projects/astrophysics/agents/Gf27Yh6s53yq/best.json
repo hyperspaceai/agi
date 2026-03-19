@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWRUPHHpgaFxFKxyx1aWPU34uoMYnPhEkBSkz9c5dS3vXa",
-  "runNumber": 1,
-  "timestamp": 1773913978925,
-  "hypothesis": "Explore: disable gradient clip",
+  "runNumber": 9,
+  "timestamp": 1773914352222,
+  "hypothesis": "Improve on 8ee5a3c4 (loss=3.1231): Kaiming initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -12,7 +12,7 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.08,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
@@ -30,25 +30,25 @@
     "gradientClipNorm": 0,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "normal",
+    "initType": "kaiming",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.639400647645095,
-    "trainLoss": 4.655124094060595,
+    "valLoss": 3.0155146749230894,
+    "trainLoss": 3.087596454330206,
     "lossCurve": [
       [
-        22,
-        4.639400647645095
+        16,
+        3.0155146749230894
       ]
     ],
-    "durationSec": 161.782,
-    "tokensPerSec": 278.4982260078377,
-    "totalTokens": 45056
+    "durationSec": 174.135,
+    "tokensPerSec": 188.17584058345537,
+    "totalTokens": 32768
   },
-  "improvement": 0,
+  "improvement": -3.445087170250517,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
