@@ -1,0 +1,22 @@
+{
+  "runId": "llm-r14",
+  "runNumber": 14,
+  "hypothesis": "[LLM] Added low volatility factor and trend overlay, reduced max drawdown and vol target, and enabled drawdown protection and regime detection.",
+  "sharpeRatio": 1.6714,
+  "totalReturn": 3.1823,
+  "maxDrawdown": 0.0236,
+  "alpha": 1.6881,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "inverse_vol",
+  "durationSec": 0,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-03-19T08:33:07.039Z"
+}
