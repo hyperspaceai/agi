@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-19T03:37:32.941Z",
+  "peerId": "12D3KooWS4d27bv3NgFtGaHa86TVuX39e9mfb9VoeiJG7zivvG77",
+  "stats": {
+    "totalNodes": 1040,
+    "observations": 800,
+    "experiments": 240,
+    "syntheses": 0,
+    "totalEdges": 214,
+    "maxDepth": 7,
+    "activeExperiments": 0,
+    "recentActivity": 37
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "1cf690e0be1b4aa2d55b484163b2f9dab2ec249071a2eaade5370f5b30119105",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 147.8907235235498,
+      "metricDirection": "maximize",
+      "depth": 3
+    },
+    "finance": {
+      "nodeId": "960b6a785e94125327d959c8885897f41e09bae341499adee4e4ec6c7af6e297",
+      "title": "Finance round 18: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "metricDirection": "maximize",
+      "depth": 6
+    },
+    "search-ranking": {
+      "nodeId": "5db3e6d316894735e664950244aa3b1b7fd77212cb150e28bb1581bf2eae67b1",
+      "title": "Search round 32: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "general": {
+      "nodeId": "1e7818e0a7f11698ad072bdce72619422d0cc8c194fc7217236973aea3b6340a",
+      "title": "AutoWeb round 57: 98/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 98,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 102,
+    "finance": 59,
+    "search-ranking": 56,
+    "knowledge": 800,
+    "general": 23
+  },
+  "recentExperiments": [
+    {
+      "id": "d09dfaab9742",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 338",
+      "metricName": "score",
+      "metricValue": 145.116387533,
+      "isCurrentBest": false,
+      "createdAt": 1773890003825,
+      "depth": 4
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "1cf690e0be1b",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.8907235235498,
+        "depth": 3
+      },
+      {
+        "id": "1644ca6c8805",
+        "title": "Cause infra-optimization round 124",
+        "metricValue": 145.2403369507747,
+        "depth": 2
+      },
+      {
+        "id": "8ace9d49f5b5",
+        "title": "Cause infra-optimization round 162",
+        "metricValue": 144.97770075895707,
+        "depth": 1
+      },
+      {
+        "id": "9439b6208a02",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 142.86028180214805,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "960b6a785e94",
+        "title": "Finance round 18: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 6
+      },
+      {
+        "id": "2212548a845a",
+        "title": "Finance round 9: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 5
+      },
+      {
+        "id": "0ac9beb853fe",
+        "title": "Finance round 6: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 4
+      },
+      {
+        "id": "4c96a0159ec9",
+        "title": "Finance round 4: Sharpe=1.3040",
+        "metricValue": 1.304,
+        "depth": 3
+      },
+      {
+        "id": "1c75705b3968",
+        "title": "Finance round 3: Sharpe=1.1991",
+        "metricValue": 1.1991,
+        "depth": 2
+      },
+      {
+        "id": "b5504e7fa686",
+        "title": "Finance round 2: Sharpe=1.1088",
+        "metricValue": 1.1088,
+        "depth": 1
+      },
+      {
+        "id": "9f201354e89c",
+        "title": "Finance round 1: Sharpe=1.0852",
+        "metricValue": 1.0852,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "5db3e6d31689",
+        "title": "Search round 32: reduce body weight (-0.05)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "1e7818e0a7f1",
+        "title": "AutoWeb round 57: 98/100",
+        "metricValue": 98,
+        "depth": 0
+      }
+    ]
+  }
+}
