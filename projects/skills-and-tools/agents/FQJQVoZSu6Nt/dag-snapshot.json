@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T19:47:12.580Z",
+  "timestamp": "2026-03-19T12:44:50.827Z",
   "peerId": "12D3KooWQDfaEw9A5zePP1gFgxNmNNYByYJMbqmDVFYKaFnnNVp1",
   "stats": {
-    "totalNodes": 314,
-    "observations": 77,
-    "experiments": 237,
+    "totalNodes": 433,
+    "observations": 113,
+    "experiments": 320,
     "syntheses": 0,
-    "totalEdges": 234,
+    "totalEdges": 316,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 29
+    "recentActivity": 17
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "327e6886dc623437de5a0ea2951ed0a9384ccd633b90be235c1ba03a4024e4ac",
+      "nodeId": "1397a378bf0d943215953bbbb9f91f1c02125c9010a38d79c731d8bad4fc6046",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 145.1783337507576,
+      "metricValue": 146.40050914988166,
       "metricDirection": "maximize",
-      "depth": 3
+      "depth": 4
     },
     "skills": {
       "nodeId": "9ffb0729fa1eb85847759f07a9914e02cc863fea3e814869596ebfc9ca55873e",
@@ -36,18 +36,234 @@
       "metricValue": 1.3205,
       "metricDirection": "maximize",
       "depth": 9
+    },
+    "search-ranking": {
+      "nodeId": "450a104d4f1b19a5a4b161466208ed42a5e70600dd67b4e449f2234e608c47ef",
+      "title": "Search round 38: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 71,
-    "skills": 109,
-    "finance": 57,
-    "knowledge": 77
+    "infrastructure": 95,
+    "skills": 134,
+    "finance": 77,
+    "knowledge": 113,
+    "search-ranking": 14
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "832107f51364",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1773923330730,
+      "depth": 3
+    },
+    {
+      "id": "0a40774d72de",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773923131301,
+      "depth": 1
+    },
+    {
+      "id": "47b8185c72f6",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922742294,
+      "depth": 1
+    },
+    {
+      "id": "465255a16755",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922741758,
+      "depth": 1
+    },
+    {
+      "id": "bfd76b30400e",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922741619,
+      "depth": 1
+    },
+    {
+      "id": "18a0a3f44008",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922741345,
+      "depth": 1
+    },
+    {
+      "id": "a0b0a693b44a",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922741226,
+      "depth": 1
+    },
+    {
+      "id": "b7fb9d2e29b1",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922740483,
+      "depth": 1
+    },
+    {
+      "id": "bae3d6c2a994",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922740309,
+      "depth": 1
+    },
+    {
+      "id": "de7d2f911678",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922740194,
+      "depth": 1
+    },
+    {
+      "id": "ff24b368e1d8",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922712427,
+      "depth": 1
+    },
+    {
+      "id": "33094bd1a3ae",
+      "domain": "search-ranking",
+      "title": "Search round 38: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922352807,
+      "depth": 1
+    },
+    {
+      "id": "1488348068fe",
+      "domain": "search-ranking",
+      "title": "Search round 38: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922352073,
+      "depth": 1
+    },
+    {
+      "id": "a1c64899e693",
+      "domain": "search-ranking",
+      "title": "Search round 38: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773922351615,
+      "depth": 1
+    },
+    {
+      "id": "450a104d4f1b",
+      "domain": "search-ranking",
+      "title": "Search round 38: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": true,
+      "createdAt": 1773922351395,
+      "depth": 0
+    },
+    {
+      "id": "985322376c82",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1773921770704,
+      "depth": 3
+    },
+    {
+      "id": "782c748edbe5",
+      "domain": "finance",
+      "title": "Finance round 14: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "isCurrentBest": false,
+      "createdAt": 1773920990689,
+      "depth": 10
+    },
+    {
+      "id": "b0002b36f339",
+      "domain": "finance",
+      "title": "Finance round 7: Sharpe=1.3137",
+      "metricName": "Sharpe",
+      "metricValue": 1.3137,
+      "isCurrentBest": false,
+      "createdAt": 1773919940627,
+      "depth": 10
+    },
+    {
+      "id": "cf6f61d3a493",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 16",
+      "metricName": "score",
+      "metricValue": 141.11009125736425,
+      "isCurrentBest": false,
+      "createdAt": 1773919910623,
+      "depth": 5
+    },
+    {
+      "id": "751367cc7b0b",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773919850635,
+      "depth": 3
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "1397a378bf0d",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 146.40050914988166,
+        "depth": 4
+      },
       {
         "id": "327e6886dc62",
         "title": "Cause infra-optimization round 1",
@@ -152,6 +368,14 @@
         "id": "723893f23bea",
         "title": "Finance round 1: Sharpe=1.0820",
         "metricValue": 1.082,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "450a104d4f1b",
+        "title": "Search round 38: boost authority weight (+0.05)",
+        "metricValue": 0.4,
         "depth": 0
       }
     ]
