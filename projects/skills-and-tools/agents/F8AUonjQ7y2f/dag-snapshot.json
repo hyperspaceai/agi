@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-19T17:02:08.978Z",
+  "timestamp": "2026-03-19T19:02:09.709Z",
   "peerId": "12D3KooWPwXeYvK7JsJ9uL1DE6nppg6vjcK8fV6DG1NGcdiM68iv",
   "stats": {
-    "totalNodes": 345,
+    "totalNodes": 350,
     "observations": 0,
-    "experiments": 345,
+    "experiments": 350,
     "syntheses": 0,
-    "totalEdges": 342,
+    "totalEdges": 347,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,61 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 130,
-    "skills": 162,
+    "infrastructure": 131,
+    "skills": 166,
     "finance": 53
   },
   "recentExperiments": [
+    {
+      "id": "1e63cfece726",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1773946209695,
+      "depth": 3
+    },
+    {
+      "id": "8470e6b509f6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 240",
+      "metricName": "score",
+      "metricValue": 0.9342439116505724,
+      "isCurrentBest": false,
+      "createdAt": 1773945159655,
+      "depth": 1
+    },
+    {
+      "id": "dc21d2dfcfb3",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1773944529662,
+      "depth": 3
+    },
+    {
+      "id": "fbac1b5f14e4",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1773943089611,
+      "depth": 3
+    },
+    {
+      "id": "255f05977dbc",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1773940089093,
+      "depth": 3
+    },
     {
       "id": "0dca9703d18c",
       "domain": "skills",
@@ -193,56 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1773931808551,
       "depth": 3
-    },
-    {
-      "id": "803114cc470e",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1773931688585,
-      "depth": 3
-    },
-    {
-      "id": "8681e774be3c",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.3105",
-      "metricName": "Sharpe",
-      "metricValue": 1.3105,
-      "isCurrentBest": false,
-      "createdAt": 1773931628531,
-      "depth": 8
-    },
-    {
-      "id": "0a5c98692c96",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1773931568766,
-      "depth": 3
-    },
-    {
-      "id": "e7800ba1524f",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1987,
-      "isCurrentBest": false,
-      "createdAt": 1773931448426,
-      "depth": 3
-    },
-    {
-      "id": "9f797402064c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 11",
-      "metricName": "score",
-      "metricValue": 0.9718381768996144,
-      "isCurrentBest": false,
-      "createdAt": 1773931418373,
-      "depth": 1
     }
   ],
   "frontier": [],
