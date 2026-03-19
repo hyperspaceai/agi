@@ -1,10 +1,10 @@
 # Search Research — Agent C3LgTes2Zt6F
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1481d7ec
-**Updated:** 2026-03-15T12:07:54.970Z
+**Run:** 5d212ca2
+**Updated:** 2026-03-19T15:32:29.624Z
