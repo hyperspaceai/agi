@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-19T15:45:37.327Z",
+  "timestamp": "2026-03-19T16:45:37.400Z",
   "peerId": "12D3KooWFNmvqUCPck27ghZ4txJnZKWmFMcrQadfnec3Ld7sn52n",
   "stats": {
-    "totalNodes": 78,
+    "totalNodes": 80,
     "observations": 0,
-    "experiments": 78,
+    "experiments": 80,
     "syntheses": 0,
-    "totalEdges": 74,
+    "totalEdges": 76,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 45,
-    "skills": 14,
+    "infrastructure": 46,
+    "skills": 15,
     "finance": 5,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "ffde9adb486b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1500",
+      "metricName": "score",
+      "metricValue": 145.0105120149603,
+      "isCurrentBest": false,
+      "createdAt": 1773936997197,
+      "depth": 5
+    },
+    {
+      "id": "3806f1495047",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1773936577201,
+      "depth": 2
+    },
     {
       "id": "ce587edeedab",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.9231140278709633,
       "isCurrentBest": false,
       "createdAt": 1773897936471,
-      "depth": 1
-    },
-    {
-      "id": "2a7697a04db6",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 752",
-      "metricName": "score",
-      "metricValue": 141.0467507523345,
-      "isCurrentBest": false,
-      "createdAt": 1773892116379,
-      "depth": 1
-    },
-    {
-      "id": "9963e3854621",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 733",
-      "metricName": "score",
-      "metricValue": 141.10207710117612,
-      "isCurrentBest": false,
-      "createdAt": 1773890976372,
       "depth": 1
     }
   ],
