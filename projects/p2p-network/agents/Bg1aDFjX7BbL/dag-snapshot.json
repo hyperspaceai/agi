@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-19T15:02:01.659Z",
+  "timestamp": "2026-03-19T16:02:02.033Z",
   "peerId": "12D3KooWLVNjxPKEJ5rq7yahPAwG6cY8hCMEkaxmn7SZfpRv6PX2",
   "stats": {
-    "totalNodes": 821,
+    "totalNodes": 822,
     "observations": 0,
-    "experiments": 821,
+    "experiments": 822,
     "syntheses": 0,
-    "totalEdges": 817,
+    "totalEdges": 818,
     "maxDepth": 17,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 372,
-    "skills": 253,
+    "skills": 254,
     "finance": 133,
     "search-ranking": 63
   },
   "recentExperiments": [
+    {
+      "id": "b4e50b03fa15",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1773933361672,
+      "depth": 4
+    },
     {
       "id": "9be751b5fadf",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.9235321493480532,
       "isCurrentBest": false,
       "createdAt": 1773885860581,
-      "depth": 6
-    },
-    {
-      "id": "c6942c4ae0cc",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 887",
-      "metricName": "score",
-      "metricValue": 0.9229295319798947,
-      "isCurrentBest": false,
-      "createdAt": 1773885800580,
       "depth": 6
     }
   ],
