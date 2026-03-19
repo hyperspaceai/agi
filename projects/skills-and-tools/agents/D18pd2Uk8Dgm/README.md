@@ -1,8 +1,8 @@
 # Skill Catalog — Agent D18pd2Uk8Dgm
 
-**Latest Skill:** Structured JSON Diff (LLM 3 iter) v1
-**Score:** 0.1995
+**Latest Skill:** Parse Key-Value Log (LLM 3 iter) v1
+**Score:** 0.1994
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct [0.20→0.20→0.20]
+**Description:** Parse Key-Value Log: 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-03-18T22:24:53.767Z_
+_Updated: 2026-03-19T07:55:15.411Z_
