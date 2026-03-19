@@ -1,8 +1,8 @@
 # Skill Catalog — Agent BkuQGkJFH1x2
 
-**Latest Skill:** Cosine Text Similarity (LLM 3 iter) v1
+**Latest Skill:** Detect Anomalies (IQR) (LLM 3 iter) v1
 **Score:** 0.1997
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct [0.20→0.20→0.20]
+**Description:** Detect Anomalies (IQR): 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-03-18T19:39:19.124Z_
+_Updated: 2026-03-19T16:05:06.627Z_
