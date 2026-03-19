@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HC77RrTSnj29
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 760
+**Description:** Structured JSON Diff: 0% correct, round 860
 
-_Updated: 2026-03-19T18:57:50.099Z_
+_Updated: 2026-03-19T22:43:49.007Z_
