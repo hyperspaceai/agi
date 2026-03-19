@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-19T12:06:02.575Z",
+  "timestamp": "2026-03-19T13:05:52.572Z",
   "peerId": "12D3KooWBCAywGtAuZtY4ZwzihU5eQX2WKoY7VtNzsSyY3dsxShn",
   "stats": {
-    "totalNodes": 1693,
+    "totalNodes": 1695,
     "observations": 0,
-    "experiments": 1693,
+    "experiments": 1695,
     "syntheses": 0,
-    "totalEdges": 1689,
+    "totalEdges": 1691,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 617,
-    "skills": 539,
+    "infrastructure": 618,
+    "skills": 540,
     "finance": 438,
     "search-ranking": 99
   },
   "recentExperiments": [
+    {
+      "id": "6ef6bfc1b30b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1623",
+      "metricName": "score",
+      "metricValue": 145.26316040965287,
+      "isCurrentBest": false,
+      "createdAt": 1773923967748,
+      "depth": 7
+    },
+    {
+      "id": "18d6d1143118",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1773923758364,
+      "depth": 1
+    },
     {
       "id": "4101e11a126f",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.9246060971234471,
       "isCurrentBest": false,
       "createdAt": 1773886368537,
-      "depth": 7
-    },
-    {
-      "id": "9e9053bd72dc",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 902",
-      "metricName": "score",
-      "metricValue": 145.0502172411741,
-      "isCurrentBest": false,
-      "createdAt": 1773883715894,
-      "depth": 7
-    },
-    {
-      "id": "2412b2f8f3a2",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 864",
-      "metricName": "score",
-      "metricValue": 145.0682387259548,
-      "isCurrentBest": false,
-      "createdAt": 1773881610067,
       "depth": 7
     }
   ],
