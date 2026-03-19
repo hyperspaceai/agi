@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-19T18:45:54.389Z",
+  "timestamp": "2026-03-19T19:45:54.656Z",
   "peerId": "12D3KooWLQmBzTRyELNUuUGxZcZbiWUMKRmpBx7GxYHaPw1aKpQ5",
   "stats": {
-    "totalNodes": 100,
+    "totalNodes": 101,
     "observations": 0,
-    "experiments": 100,
+    "experiments": 101,
     "syntheses": 0,
-    "totalEdges": 96,
+    "totalEdges": 97,
     "maxDepth": 14,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 54,
+    "infrastructure": 55,
     "skills": 17,
     "finance": 15,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "404b420b7813",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1671",
+      "metricName": "score",
+      "metricValue": 145.1493095970246,
+      "isCurrentBest": false,
+      "createdAt": 1773947244166,
+      "depth": 2
+    },
     {
       "id": "bab3fb06a87b",
       "domain": "skills",
@@ -241,16 +251,6 @@
       "metricValue": 0.9247509844994581,
       "isCurrentBest": false,
       "createdAt": 1773913943541,
-      "depth": 2
-    },
-    {
-      "id": "947a262c3e98",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1110",
-      "metricName": "score",
-      "metricValue": 0.9239512757006652,
-      "isCurrentBest": false,
-      "createdAt": 1773913583538,
       "depth": 2
     }
   ],
