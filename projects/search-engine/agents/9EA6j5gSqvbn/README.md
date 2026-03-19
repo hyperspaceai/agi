@@ -1,10 +1,10 @@
 # Search Research — Agent 9EA6j5gSqvbn
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 787680e8
-**Updated:** 2026-03-17T17:43:41.152Z
+**Run:** 3c6a9b78
+**Updated:** 2026-03-19T14:35:22.427Z
