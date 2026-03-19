@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-19T04:46:45.463Z",
+  "timestamp": "2026-03-19T05:46:45.810Z",
   "peerId": "12D3KooWGiftc7ZQuFTXvHwvfsdCUdujmnypi1zLyWeDwG1M5D4w",
   "stats": {
-    "totalNodes": 60,
+    "totalNodes": 62,
     "observations": 0,
-    "experiments": 60,
+    "experiments": 62,
     "syntheses": 0,
-    "totalEdges": 56,
+    "totalEdges": 58,
     "maxDepth": 4,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 21,
-    "skills": 20,
+    "infrastructure": 22,
+    "skills": 21,
     "finance": 5,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "858360823b0f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 841",
+      "metricName": "score",
+      "metricValue": 144.99215615462347,
+      "isCurrentBest": false,
+      "createdAt": 1773897525336,
+      "depth": 3
+    },
+    {
+      "id": "3599dec42054",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773895965307,
+      "depth": 2
+    },
     {
       "id": "89f89a71ee07",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.1995,
       "isCurrentBest": false,
       "createdAt": 1773858283942,
-      "depth": 2
-    },
-    {
-      "id": "22f3d4cb9dd2",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 164",
-      "metricName": "score",
-      "metricValue": 0.9358265084418916,
-      "isCurrentBest": false,
-      "createdAt": 1773856903905,
-      "depth": 1
-    },
-    {
-      "id": "747e0c5bd765",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773853483847,
       "depth": 2
     }
   ],
