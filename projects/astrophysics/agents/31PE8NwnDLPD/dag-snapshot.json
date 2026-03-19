@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-19T01:37:31.471Z",
+  "timestamp": "2026-03-19T03:21:19.934Z",
   "peerId": "12D3KooWBpkPsWXVQEehc1XHD2BQyCyqVBsCzTq3Lpi4d7eW3f5R",
   "stats": {
-    "totalNodes": 4522,
-    "observations": 3349,
-    "experiments": 1173,
+    "totalNodes": 4607,
+    "observations": 3403,
+    "experiments": 1204,
     "syntheses": 0,
-    "totalEdges": 1170,
+    "totalEdges": 1201,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 25
+    "recentActivity": 54
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,30 +39,70 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 648,
-    "finance": 464,
-    "search-ranking": 61,
-    "knowledge": 3349
+    "infrastructure": 659,
+    "finance": 470,
+    "search-ranking": 75,
+    "knowledge": 3403
   },
   "recentExperiments": [
     {
-      "id": "970e9f6ef1ed",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 859",
-      "metricName": "score",
-      "metricValue": 0.9237652543278784,
+      "id": "7c2c88721e80",
+      "domain": "search-ranking",
+      "title": "Search round 46: boost diversity weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773883651256,
-      "depth": 5
+      "createdAt": 1773889256206,
+      "depth": 1
     },
     {
-      "id": "d090e9cd316e",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 839",
-      "metricName": "score",
-      "metricValue": 145.0188902292499,
+      "id": "9889bfba5a25",
+      "domain": "search-ranking",
+      "title": "Search round 46: boost diversity weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1773882451178,
+      "createdAt": 1773889256092,
+      "depth": 1
+    },
+    {
+      "id": "9386c7166a3b",
+      "domain": "search-ranking",
+      "title": "Search round 46: boost diversity weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773889255970,
+      "depth": 1
+    },
+    {
+      "id": "10b5ab439f70",
+      "domain": "search-ranking",
+      "title": "Search round 46: boost diversity weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773889255738,
+      "depth": 1
+    },
+    {
+      "id": "b447e8b2c3cb",
+      "domain": "search-ranking",
+      "title": "Search round 46: boost diversity weight (+0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1773889255659,
+      "depth": 1
+    },
+    {
+      "id": "2a21f8620d28",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 66",
+      "metricName": "score",
+      "metricValue": 141.01646121847557,
+      "isCurrentBest": false,
+      "createdAt": 1773889099763,
       "depth": 5
     }
   ],
