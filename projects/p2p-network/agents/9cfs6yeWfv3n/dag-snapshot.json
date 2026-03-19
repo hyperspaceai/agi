@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T09:52:31.430Z",
+  "timestamp": "2026-03-19T14:00:44.948Z",
   "peerId": "12D3KooWJS32r7EDrpKGtx9hsUQ7XBTMexLtXF2dgRtrPSjwQVRv",
   "stats": {
-    "totalNodes": 355,
+    "totalNodes": 458,
     "observations": 0,
-    "experiments": 355,
+    "experiments": 458,
     "syntheses": 0,
-    "totalEdges": 351,
+    "totalEdges": 422,
     "maxDepth": 10,
-    "activeExperiments": 0,
-    "recentActivity": 0
+    "activeExperiments": 28,
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -44,214 +44,216 @@
       "metricValue": 0.4,
       "metricDirection": "maximize",
       "depth": 2
+    },
+    "general": {
+      "nodeId": "f1ca343cdfb0d1d2bb0ef0afe9b07778671b333ddbfda2549ebc35b252ec21bd",
+      "title": "AutoWeb round 14: 79/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 79,
+      "metricDirection": "maximize",
+      "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 124,
-    "skills": 109,
-    "finance": 80,
-    "search-ranking": 42
+    "infrastructure": 173,
+    "skills": 126,
+    "finance": 84,
+    "search-ranking": 43,
+    "physics": 28,
+    "general": 4
   },
   "recentExperiments": [
     {
-      "id": "2e46d89b1930",
+      "id": "9032efff004b",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 448",
+      "title": "Cause infra-optimization round 1584",
       "metricName": "score",
-      "metricValue": 141.1219183963483,
+      "metricValue": 145.13282917765048,
       "isCurrentBest": false,
-      "createdAt": 1773823891333,
+      "createdAt": 1773927222913,
       "depth": 3
     },
     {
-      "id": "b9a324276a38",
+      "id": "b15869ecbd3e",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 397",
+      "title": "Cause literature-analysis round 1571",
       "metricName": "score",
-      "metricValue": 141.17755032948554,
+      "metricValue": 0.9209796500671037,
       "isCurrentBest": false,
-      "createdAt": 1773820831152,
+      "createdAt": 1773926442907,
       "depth": 3
     },
     {
-      "id": "3157901a14fb",
+      "id": "e1d253bfceb8",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 388",
+      "title": "Cause infra-optimization round 1550",
       "metricName": "score",
-      "metricValue": 0.9463975182283334,
+      "metricValue": 145.14316802967556,
       "isCurrentBest": false,
-      "createdAt": 1773820291150,
+      "createdAt": 1773925182898,
       "depth": 3
     },
     {
-      "id": "081147ab12e5",
+      "id": "4695d26c18c1",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 380",
+      "title": "Cause literature-analysis round 1509",
       "metricName": "score",
-      "metricValue": 0.942170418568582,
+      "metricValue": 0.9177166882474045,
       "isCurrentBest": false,
-      "createdAt": 1773819811151,
+      "createdAt": 1773923142883,
       "depth": 3
     },
     {
-      "id": "5b87b949b8a4",
+      "id": "d5f89b2cfe58",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "isCurrentBest": false,
+      "createdAt": 1773921943620,
+      "depth": 10
+    },
+    {
+      "id": "e2471144113b",
+      "domain": "physics",
+      "title": "Wrote paper: \"Exploring Gauss-Bonnet Modified Gravity for Warp Drive Geometries: Scaling of Higher-C",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773920946795,
+      "depth": 0
+    },
+    {
+      "id": "bbd472fcda68",
+      "domain": "physics",
+      "title": "Wrote paper: \"**  Casimir-Induced Wormhole Geometry: A Scaled Micro-Cavity Model\" (self-verification",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773919646134,
+      "depth": 0
+    },
+    {
+      "id": "8ef42c1bde85",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 339",
+      "title": "Cause literature-analysis round 1434",
       "metricName": "score",
-      "metricValue": 141.30370342069222,
+      "metricValue": 0.9168834122252827,
       "isCurrentBest": false,
-      "createdAt": 1773817351071,
+      "createdAt": 1773918222454,
       "depth": 3
     },
     {
-      "id": "6b1bea4ab1fc",
+      "id": "daad6bc0db25",
+      "domain": "physics",
+      "title": "Wrote paper: \"Holographic Renormalization of the Fuchs et al. (2024) Warp Drive Solution: Assessing ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773917114025,
+      "depth": 0
+    },
+    {
+      "id": "b58796217fab",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 335",
+      "title": "Cause literature-analysis round 1347",
       "metricName": "score",
-      "metricValue": 0.9408335728454587,
+      "metricValue": 0.9173345997049477,
       "isCurrentBest": false,
-      "createdAt": 1773817111071,
+      "createdAt": 1773913062422,
       "depth": 3
     },
     {
-      "id": "c796773d55f1",
+      "id": "6c0497368731",
+      "domain": "physics",
+      "title": "Wrote paper: \"Localized Negative Energy Density within Warp Bubbles: A Casimir Micro-Cavity Architec",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773911969170,
+      "depth": 0
+    },
+    {
+      "id": "377b317ff525",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 222",
+      "title": "Cause infra-optimization round 1329",
       "metricName": "score",
-      "metricValue": 0.9500585890754623,
+      "metricValue": 144.9741366712527,
       "isCurrentBest": false,
-      "createdAt": 1773810330791,
+      "createdAt": 1773911922382,
       "depth": 3
     },
     {
-      "id": "f03d7a6c6da5",
+      "id": "15c517ea90a5",
+      "domain": "physics",
+      "title": "Wrote paper: \"Investigating Rotating, Asymmetric Warp Bubbles and the Null Energy Condition: A f(R) ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773909412269,
+      "depth": 0
+    },
+    {
+      "id": "702a1ec8aeb8",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 94",
+      "title": "Cause literature-analysis round 1241",
       "metricName": "score",
-      "metricValue": 141.01051985673473,
+      "metricValue": 0.9247100001638984,
       "isCurrentBest": false,
-      "createdAt": 1773802650666,
+      "createdAt": 1773906912341,
       "depth": 3
     },
     {
-      "id": "5e346bbc53ca",
+      "id": "8dde1f9c707e",
+      "domain": "physics",
+      "title": "Wrote paper: \"Stabilizing Warp Bubble Geometry via a Dynamically Evolving Quantum Horizon**\" (self-v",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1773905845916,
+      "depth": 0
+    },
+    {
+      "id": "0c93fd9e6896",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 81",
+      "title": "Cause infra-optimization round 1210",
       "metricName": "score",
-      "metricValue": 141.11600850241302,
+      "metricValue": 145.08226640404513,
       "isCurrentBest": false,
-      "createdAt": 1773801870666,
+      "createdAt": 1773905622332,
       "depth": 3
     },
     {
-      "id": "a1159734e357",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "id": "8d59140043dd",
+      "domain": "physics",
+      "title": "Wrote paper: \"Gravitational Wave Signatures of Near-c Warp Drives: A Computational Analysis**\" (self",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773800436088,
-      "depth": 3
+      "createdAt": 1773902033809,
+      "depth": 0
     },
     {
-      "id": "87cd145e32bd",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "id": "636bcd5ff8cb",
+      "domain": "physics",
+      "title": "Wrote paper: \"Harnessing Casimir Micro-Cavities and f(R) Gravity for Stable Warp Bubble Generation**",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1773800435910,
-      "depth": 3
+      "createdAt": 1773899417160,
+      "depth": 0
     },
     {
-      "id": "76ca72b5d7e0",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773800435740,
-      "depth": 3
-    },
-    {
-      "id": "fb3eed569a53",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773800435628,
-      "depth": 3
-    },
-    {
-      "id": "630decdbd2a8",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773800435128,
-      "depth": 3
-    },
-    {
-      "id": "e0cb3f7b8811",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773800434932,
-      "depth": 3
-    },
-    {
-      "id": "6fe8da7e03d1",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773800434819,
-      "depth": 3
-    },
-    {
-      "id": "d9fb74816dc3",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773800434743,
-      "depth": 3
-    },
-    {
-      "id": "c93448ac35a3",
+      "id": "f26ba92a549e",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 57",
+      "title": "Cause infra-optimization round 1096",
       "metricName": "score",
-      "metricValue": 141.29587584320228,
+      "metricValue": 145.1742089919348,
       "isCurrentBest": false,
-      "createdAt": 1773800430634,
+      "createdAt": 1773898002145,
       "depth": 3
     },
     {
-      "id": "5e7f5b295ba1",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 51",
-      "metricName": "score",
-      "metricValue": 141.55721353301024,
+      "id": "2bb7f350cf45",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1991",
+      "metricName": "Sharpe",
+      "metricValue": 1.1991,
       "isCurrentBest": false,
-      "createdAt": 1773800070632,
-      "depth": 3
-    },
-    {
-      "id": "90d9880443b7",
-      "domain": "search-ranking",
-      "title": "Search round 32: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1773799836778,
-      "depth": 3
+      "createdAt": 1773896743150,
+      "depth": 10
     }
   ],
   "frontier": [],
@@ -363,6 +365,14 @@
         "id": "35cb37d56230",
         "title": "Search round 38: increase diversity penalty (0.2)",
         "metricValue": 0.3935620718710802,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "f1ca343cdfb0",
+        "title": "AutoWeb round 14: 79/100",
+        "metricValue": 79,
         "depth": 0
       }
     ]
