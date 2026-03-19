@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-19T21:53:58.681Z",
+  "peerId": "12D3KooWJVLL6B8kvDyxMzXfogDGATHGbZ4nYvTaBx3pBGnf1WAG",
+  "stats": {
+    "totalNodes": 184,
+    "observations": 165,
+    "experiments": 19,
+    "syntheses": 0,
+    "totalEdges": 13,
+    "maxDepth": 2,
+    "activeExperiments": 0,
+    "recentActivity": 25
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "968315258c4883a383b9c353d327b58b4b454af114f6bdec758316a4664b9ad7",
+      "title": "Cause infra-optimization round 8",
+      "metricName": "score",
+      "metricValue": 141.35836518810896,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "skills": {
+      "nodeId": "064f31c519eef87d0142aa2b1b653ebe3477defe95354de17eb238267a16149d",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "general": {
+      "nodeId": "e999088661f94c06b7a5df06d5e074c8522fd1845b0e7d714b6b438cb207f45f",
+      "title": "AutoWeb round 6: 26/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 26,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "knowledge": 165,
+    "infrastructure": 3,
+    "skills": 12,
+    "general": 4
+  },
+  "recentExperiments": [
+    {
+      "id": "e999088661f9",
+      "domain": "general",
+      "title": "AutoWeb round 6: 26/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 26,
+      "isCurrentBest": true,
+      "createdAt": 1773956057805,
+      "depth": 0
+    },
+    {
+      "id": "fa57443f1b33",
+      "domain": "general",
+      "title": "AutoWeb round 5: 24/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 24,
+      "isCurrentBest": false,
+      "createdAt": 1773954851476,
+      "depth": 0
+    },
+    {
+      "id": "b7e21383a4b3",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1773954843762,
+      "depth": 2
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "968315258c48",
+        "title": "Cause infra-optimization round 8",
+        "metricValue": 141.35836518810896,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "064f31c519ee",
+        "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+        "metricValue": 0.1995,
+        "depth": 1
+      },
+      {
+        "id": "3601387c7377",
+        "title": "Skill Normalize Text (LLM 3 iter): 0%",
+        "metricValue": 0.1994,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "e999088661f9",
+        "title": "AutoWeb round 6: 26/100",
+        "metricValue": 26,
+        "depth": 0
+      }
+    ]
+  }
+}
