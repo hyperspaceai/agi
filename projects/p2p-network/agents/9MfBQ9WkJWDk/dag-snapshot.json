@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-18T23:46:00.964Z",
+  "timestamp": "2026-03-19T00:46:01.054Z",
   "peerId": "12D3KooWJB2M9H6TVQVF55KwWCuecX5t8m5u34VvQmd9AwAqfHmJ",
   "stats": {
-    "totalNodes": 52,
+    "totalNodes": 54,
     "observations": 0,
-    "experiments": 52,
+    "experiments": 54,
     "syntheses": 0,
-    "totalEdges": 48,
+    "totalEdges": 50,
     "maxDepth": 5,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 20,
+    "infrastructure": 22,
     "skills": 12,
     "finance": 6,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "a58b47f13e41",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 551",
+      "metricName": "score",
+      "metricValue": 141.1621918823193,
+      "isCurrentBest": false,
+      "createdAt": 1773880080913,
+      "depth": 1
+    },
+    {
+      "id": "2ef6021eec8b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 512",
+      "metricName": "score",
+      "metricValue": 141.27240081715843,
+      "isCurrentBest": false,
+      "createdAt": 1773877740870,
+      "depth": 1
+    },
     {
       "id": "fcbf7d79c371",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.3935620718710802,
       "isCurrentBest": false,
       "createdAt": 1773850783619,
-      "depth": 1
-    },
-    {
-      "id": "97cfa44d06ae",
-      "domain": "search-ranking",
-      "title": "Search round 42: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710802,
-      "isCurrentBest": false,
-      "createdAt": 1773850783392,
-      "depth": 1
-    },
-    {
-      "id": "c9c634786fbf",
-      "domain": "search-ranking",
-      "title": "Search round 42: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710802,
-      "isCurrentBest": false,
-      "createdAt": 1773850782962,
       "depth": 1
     }
   ],
