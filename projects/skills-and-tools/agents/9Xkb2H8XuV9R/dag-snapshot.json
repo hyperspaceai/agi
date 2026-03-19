@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-19T04:32:16.050Z",
+  "timestamp": "2026-03-19T05:32:16.338Z",
   "peerId": "12D3KooWJM7kmQiF6PQv2LRWzaTCmZmrNRATsWhSQrsb1cTa1FLd",
   "stats": {
-    "totalNodes": 1141,
+    "totalNodes": 1143,
     "observations": 0,
-    "experiments": 1141,
+    "experiments": 1143,
     "syntheses": 0,
-    "totalEdges": 1137,
+    "totalEdges": 1139,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 383,
+    "infrastructure": 385,
     "skills": 469,
     "finance": 208,
     "search-ranking": 81
   },
   "recentExperiments": [
+    {
+      "id": "8da893b766b8",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1083",
+      "metricName": "score",
+      "metricValue": 145.07175340624,
+      "isCurrentBest": false,
+      "createdAt": 1773896745939,
+      "depth": 5
+    },
+    {
+      "id": "7c4dec658984",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1070",
+      "metricName": "score",
+      "metricValue": 145.2235999599639,
+      "isCurrentBest": false,
+      "createdAt": 1773895965913,
+      "depth": 5
+    },
     {
       "id": "f163a7a09ecb",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 145.06190110059387,
       "isCurrentBest": false,
       "createdAt": 1773857744367,
-      "depth": 5
-    },
-    {
-      "id": "9c67d895621b",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773857504400,
-      "depth": 3
-    },
-    {
-      "id": "3c3e82e99237",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 346",
-      "metricName": "score",
-      "metricValue": 145.11382606131374,
-      "isCurrentBest": false,
-      "createdAt": 1773852524275,
       "depth": 5
     }
   ],
