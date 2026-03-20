@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-20T08:59:26.196Z",
+  "timestamp": "2026-03-20T11:51:02.588Z",
   "peerId": "12D3KooWRMN12SKyAiu38xWPVxGmFSik9vdYTrftCfdHCeN69qjA",
   "stats": {
-    "totalNodes": 766,
+    "totalNodes": 769,
     "observations": 0,
-    "experiments": 766,
+    "experiments": 769,
     "syntheses": 0,
-    "totalEdges": 762,
+    "totalEdges": 765,
     "maxDepth": 10,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 300,
-    "skills": 266,
+    "infrastructure": 302,
+    "skills": 267,
     "finance": 153,
     "search-ranking": 47
   },
   "recentExperiments": [
+    {
+      "id": "30f1e7e44c88",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774005657940,
+      "depth": 1
+    },
+    {
+      "id": "915c7d8f6e4e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 815",
+      "metricName": "score",
+      "metricValue": 144.9705101191251,
+      "isCurrentBest": false,
+      "createdAt": 1774000766446,
+      "depth": 10
+    },
+    {
+      "id": "62a70319633d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 793",
+      "metricName": "score",
+      "metricValue": 145.10250051749415,
+      "isCurrentBest": false,
+      "createdAt": 1773999446357,
+      "depth": 10
+    },
     {
       "id": "b2226c310dce",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773923852235,
       "depth": 10
-    },
-    {
-      "id": "e14109dbdbb2",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 271",
-      "metricName": "score",
-      "metricValue": 0.9625261041351925,
-      "isCurrentBest": false,
-      "createdAt": 1773923792232,
-      "depth": 10
-    },
-    {
-      "id": "ae317533015d",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773921992258,
-      "depth": 1
-    },
-    {
-      "id": "d6ca1c3d9e0c",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1773920792023,
-      "depth": 1
     }
   ],
   "frontier": [],
