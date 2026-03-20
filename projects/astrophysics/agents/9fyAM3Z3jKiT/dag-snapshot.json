@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-19T21:53:58.681Z",
+  "timestamp": "2026-03-20T11:23:30.022Z",
   "peerId": "12D3KooWJVLL6B8kvDyxMzXfogDGATHGbZ4nYvTaBx3pBGnf1WAG",
   "stats": {
-    "totalNodes": 184,
-    "observations": 165,
-    "experiments": 19,
+    "totalNodes": 578,
+    "observations": 535,
+    "experiments": 43,
     "syntheses": 0,
-    "totalEdges": 13,
-    "maxDepth": 2,
+    "totalEdges": 34,
+    "maxDepth": 3,
     "activeExperiments": 0,
-    "recentActivity": 25
+    "recentActivity": 38
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "968315258c4883a383b9c353d327b58b4b454af114f6bdec758316a4664b9ad7",
-      "title": "Cause infra-optimization round 8",
+      "nodeId": "2f7aedde84b5365e094ffb6d42ce154cb4b5ae158176f4e3e3f67bec0bcbac7e",
+      "title": "Cause infra-optimization round 1123",
       "metricName": "score",
-      "metricValue": 141.35836518810896,
+      "metricValue": 145.43169426092823,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 2
     },
     "skills": {
       "nodeId": "064f31c519eef87d0142aa2b1b653ebe3477defe95354de17eb238267a16149d",
@@ -30,55 +30,66 @@
       "depth": 1
     },
     "general": {
-      "nodeId": "e999088661f94c06b7a5df06d5e074c8522fd1845b0e7d714b6b438cb207f45f",
-      "title": "AutoWeb round 6: 26/100",
+      "nodeId": "044dbf13220aedaca27fab7d380aeaa6348cbcc5f59c4cf4cd524403448836d0",
+      "title": "AutoWeb round 14: 46/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 26,
+      "metricValue": 46,
       "metricDirection": "maximize",
       "depth": 0
+    },
+    "finance": {
+      "nodeId": "aac3139540c776fbcc44ef4475bd58597ac3d4b1a5fd80813b253cd8caffb806",
+      "title": "Finance round 2: Sharpe=1.0938",
+      "metricName": "Sharpe",
+      "metricValue": 1.0938,
+      "metricDirection": "maximize",
+      "depth": 1
     }
   },
   "domainCounts": {
-    "knowledge": 165,
-    "infrastructure": 3,
-    "skills": 12,
-    "general": 4
+    "knowledge": 535,
+    "infrastructure": 18,
+    "skills": 17,
+    "general": 6,
+    "finance": 2
   },
   "recentExperiments": [
     {
-      "id": "e999088661f9",
-      "domain": "general",
-      "title": "AutoWeb round 6: 26/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 26,
+      "id": "aac3139540c7",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.0938",
+      "metricName": "Sharpe",
+      "metricValue": 1.0938,
       "isCurrentBest": true,
-      "createdAt": 1773956057805,
-      "depth": 0
+      "createdAt": 1774005808301,
+      "depth": 1
     },
     {
-      "id": "fa57443f1b33",
-      "domain": "general",
-      "title": "AutoWeb round 5: 24/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 24,
+      "id": "84b794dc229d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1139",
+      "metricName": "score",
+      "metricValue": 145.39720017564352,
       "isCurrentBest": false,
-      "createdAt": 1773954851476,
-      "depth": 0
-    },
-    {
-      "id": "b7e21383a4b3",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1773954843762,
-      "depth": 2
+      "createdAt": 1774004533571,
+      "depth": 3
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "2f7aedde84b5",
+        "title": "Cause infra-optimization round 1123",
+        "metricValue": 145.43169426092823,
+        "depth": 2
+      },
+      {
+        "id": "4daddae62264",
+        "title": "Cause infra-optimization round 434",
+        "metricValue": 145.26541200094826,
+        "depth": 1
+      },
       {
         "id": "968315258c48",
         "title": "Cause infra-optimization round 8",
@@ -102,9 +113,23 @@
     ],
     "general": [
       {
-        "id": "e999088661f9",
-        "title": "AutoWeb round 6: 26/100",
-        "metricValue": 26,
+        "id": "044dbf13220a",
+        "title": "AutoWeb round 14: 46/100",
+        "metricValue": 46,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "aac3139540c7",
+        "title": "Finance round 2: Sharpe=1.0938",
+        "metricValue": 1.0938,
+        "depth": 1
+      },
+      {
+        "id": "0093736808b8",
+        "title": "Finance round 1: Sharpe=1.0697",
+        "metricValue": 1.0697,
         "depth": 0
       }
     ]
