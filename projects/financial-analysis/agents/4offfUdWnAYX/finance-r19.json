@@ -1,21 +1,28 @@
 {
-  "runId": "finance-r19",
-  "runNumber": 19,
+  "version": 1,
+  "peerId": "12D3KooWDd2qQcDDy4p29j4qdpubuR7Lbb6TCWyFTctborzM7VWh",
+  "timestamp": 1773678098171,
+  "title": "Finance round 19: Sharpe=1.2780",
   "hypothesis": "Round 19 best mutation",
-  "sharpeRatio": 1.2711,
-  "totalReturn": 2.843,
-  "maxDrawdown": 0.0703,
-  "alpha": 1.3488,
+  "metricName": "Sharpe",
+  "metricValue": 1.278,
+  "isCurrentBest": false,
+  "roundNumber": 19,
+  "depth": 14,
+  "sharpeRatio": 1.278,
+  "sortinoRatio": 2.1346,
+  "maxDrawdown": 0.0698,
+  "alpha": 1.3569,
+  "totalReturn": 2.8511,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "meanReversionWeight",
+    "trendWeight"
   ],
-  "positionSizing": "risk_parity",
-  "durationSec": 0,
-  "isNewBest": true,
-  "improvement": null,
-  "llmModel": null,
-  "timestamp": "2026-03-12T17:33:57.112Z"
+  "positionSizing": "risk_parity"
 }
