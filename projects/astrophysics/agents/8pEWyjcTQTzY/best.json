@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWHdbgisCAbNG2VRWc72g7Lnvjbn2YRoUoqRu1LKzSMVWn",
-  "runNumber": 1,
-  "timestamp": 1774035205633,
-  "hypothesis": "Explore: muon LR (0.08)",
+  "runNumber": 2,
+  "timestamp": 1774035580273,
+  "hypothesis": "Improve on c998bf3c (loss=3.2032): switch to RMSNorm",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -22,7 +22,7 @@
     "evalSteps": 10,
     "dataset": "astrophysics",
     "activation": "gelu",
-    "normalization": "layernorm",
+    "normalization": "rmsnorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
     "residualScale": 1,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.2031874272557284,
-    "trainLoss": 3.1402920966595773,
+    "valLoss": 2.87606215829727,
+    "trainLoss": 2.8720635599319633,
     "lossCurve": [
       [
-        36,
-        3.2031874272557284
+        38,
+        2.87606215829727
       ]
     ],
-    "durationSec": 147.659,
-    "tokensPerSec": 499.3126053948625,
-    "totalTokens": 73728
+    "durationSec": 142.714,
+    "tokensPerSec": 545.314405033844,
+    "totalTokens": 77824
   },
-  "improvement": 0,
+  "improvement": -10.212492287368798,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
