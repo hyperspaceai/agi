@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-20T22:01:08.832Z",
+  "timestamp": "2026-03-20T23:01:08.883Z",
   "peerId": "12D3KooWA7kiY68mo5QHSgj3rzpXDV4AX4DRnjQGWiwRiYonLXMw",
   "stats": {
-    "totalNodes": 2354,
+    "totalNodes": 2355,
     "observations": 0,
-    "experiments": 2354,
+    "experiments": 2355,
     "syntheses": 0,
-    "totalEdges": 2350,
+    "totalEdges": 2351,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 803,
+    "infrastructure": 804,
     "skills": 913,
     "finance": 524,
     "search-ranking": 114
   },
   "recentExperiments": [
+    {
+      "id": "fed1975d2f0c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1017",
+      "metricName": "score",
+      "metricValue": 145.10889385944606,
+      "isCurrentBest": false,
+      "createdAt": 1774045748712,
+      "depth": 9
+    },
     {
       "id": "bca9effbdb6b",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774014188276,
       "depth": 9
-    },
-    {
-      "id": "69cda8676fd0",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1774011428246,
-      "depth": 2
     }
   ],
   "frontier": [],
