@@ -1,21 +1,28 @@
 {
-  "runId": "finance-r23",
-  "runNumber": 23,
+  "version": 1,
+  "peerId": "12D3KooWDd2qQcDDy4p29j4qdpubuR7Lbb6TCWyFTctborzM7VWh",
+  "timestamp": 1773679066284,
+  "title": "Finance round 23: Sharpe=1.2818",
   "hypothesis": "Round 23 best mutation",
-  "sharpeRatio": 1.2754,
-  "totalReturn": 2.8483,
-  "maxDrawdown": 0.07,
-  "alpha": 1.3541,
+  "metricName": "Sharpe",
+  "metricValue": 1.2818,
+  "isCurrentBest": false,
+  "roundNumber": 23,
+  "depth": 14,
+  "sharpeRatio": 1.2818,
+  "sortinoRatio": 2.1439,
+  "maxDrawdown": 0.0694,
+  "alpha": 1.353,
+  "totalReturn": 2.8473,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "meanReversionWeight",
+    "trendWeight"
   ],
-  "positionSizing": "risk_parity",
-  "durationSec": 0,
-  "isNewBest": true,
-  "improvement": null,
-  "llmModel": null,
-  "timestamp": "2026-03-13T12:12:32.907Z"
+  "positionSizing": "risk_parity"
 }
