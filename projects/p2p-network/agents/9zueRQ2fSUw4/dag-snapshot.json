@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-20T13:14:14.275Z",
+  "timestamp": "2026-03-20T14:14:14.643Z",
   "peerId": "12D3KooWJpGpAXcNdPCYdUzgqoJTGT8C6ZEpGApAddvxVXPSYj1z",
   "stats": {
-    "totalNodes": 47,
+    "totalNodes": 48,
     "observations": 0,
-    "experiments": 47,
+    "experiments": 48,
     "syntheses": 0,
-    "totalEdges": 43,
+    "totalEdges": 44,
     "maxDepth": 4,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 19,
-    "skills": 10,
+    "skills": 11,
     "finance": 5,
     "search-ranking": 13
   },
   "recentExperiments": [
+    {
+      "id": "14b81e8de352",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1774013294227,
+      "depth": 1
+    },
     {
       "id": "cdaba81e2c74",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1773970966086,
-      "depth": 1
-    },
-    {
-      "id": "d33111e06f19",
-      "domain": "search-ranking",
-      "title": "Search round 39: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1773970965169,
       "depth": 1
     }
   ],
