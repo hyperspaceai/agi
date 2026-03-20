@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 7ibDocMHZSik
 
-**Best Sharpe Ratio:** 1.2685
-**Hypothesis:** [LLM] Increased Sharpe Ratio by combining multiple factors and adjusting position sizing.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
+**Best Sharpe Ratio:** 1.2890
+**Hypothesis:** Round 28 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.4597
-**Max Drawdown:** 0.0576
+**Alpha:** 1.3542
+**Max Drawdown:** 0.0687
 **LLM:** unknown
-**Run:** llm-r5
-**Updated:** 2026-03-20T01:14:38.679Z
+**Run:** finance-r28
+**Updated:** 2026-03-20T04:16:02.460Z
