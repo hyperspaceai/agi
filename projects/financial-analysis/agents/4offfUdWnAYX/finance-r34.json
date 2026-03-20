@@ -1,21 +1,28 @@
 {
-  "runId": "finance-r34",
-  "runNumber": 34,
+  "version": 1,
+  "peerId": "12D3KooWDd2qQcDDy4p29j4qdpubuR7Lbb6TCWyFTctborzM7VWh",
+  "timestamp": 1773405602952,
+  "title": "Finance round 34: Sharpe=1.2946",
   "hypothesis": "Round 34 best mutation",
+  "metricName": "Sharpe",
+  "metricValue": 1.2946,
+  "isCurrentBest": false,
+  "roundNumber": 34,
+  "depth": 13,
   "sharpeRatio": 1.2946,
-  "totalReturn": 2.8475,
+  "sortinoRatio": 2.1746,
   "maxDrawdown": 0.0682,
   "alpha": 1.3532,
+  "totalReturn": 2.8475,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "meanReversionWeight",
+    "trendWeight"
   ],
-  "positionSizing": "risk_parity",
-  "durationSec": 0,
-  "isNewBest": true,
-  "improvement": null,
-  "llmModel": null,
-  "timestamp": "2026-03-13T12:40:02.951Z"
+  "positionSizing": "risk_parity"
 }
