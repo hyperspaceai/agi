@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-20T17:35:14.753Z",
+  "peerId": "12D3KooWMtv63QMCXr5La8k8peTTkBst7XaKxwGPVvR8s6RB8yhe",
+  "stats": {
+    "totalNodes": 79,
+    "observations": 49,
+    "experiments": 30,
+    "syntheses": 0,
+    "totalEdges": 27,
+    "maxDepth": 5,
+    "activeExperiments": 0,
+    "recentActivity": 51
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "6172145a05077a2b978445c8a722b778304008ff7707e153db55067d578675a1",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 143.76974266323847,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "finance": {
+      "nodeId": "dc289a4177f7276641b31448f51c685b9b66b37cdb824300cfda57a3d9f1d5b4",
+      "title": "Finance round 10: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "metricDirection": "maximize",
+      "depth": 5
+    },
+    "search-ranking": {
+      "nodeId": "fbd246328f6ab377e02d66516ed20149bf7ef0e85a98b94cb77e377e3d9c6a55",
+      "title": "Search round 35: boost freshness weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 10,
+    "finance": 6,
+    "knowledge": 49,
+    "search-ranking": 14
+  },
+  "recentExperiments": [
+    {
+      "id": "ddc814bc5d67",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost freshness weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774027009461,
+      "depth": 1
+    },
+    {
+      "id": "c2c555d833ac",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost freshness weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774027009245,
+      "depth": 1
+    },
+    {
+      "id": "53a93596e555",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost freshness weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774027009061,
+      "depth": 1
+    },
+    {
+      "id": "780ee14144e9",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost freshness weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774027008963,
+      "depth": 1
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "6172145a0507",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 143.76974266323847,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "dc289a4177f7",
+        "title": "Finance round 10: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 5
+      },
+      {
+        "id": "f81ec04716f9",
+        "title": "Finance round 9: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 4
+      },
+      {
+        "id": "123c0dad51e4",
+        "title": "Finance round 4: Sharpe=1.3040",
+        "metricValue": 1.304,
+        "depth": 3
+      },
+      {
+        "id": "d5046b5c65e6",
+        "title": "Finance round 3: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 2
+      },
+      {
+        "id": "02eb2be5624d",
+        "title": "Finance round 2: Sharpe=1.1773",
+        "metricValue": 1.1773,
+        "depth": 1
+      },
+      {
+        "id": "32eccb26a776",
+        "title": "Finance round 1: Sharpe=1.1665",
+        "metricValue": 1.1665,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "fbd246328f6a",
+        "title": "Search round 35: boost freshness weight (+0.05)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
