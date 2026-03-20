@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-20T02:00:44.545Z",
+  "timestamp": "2026-03-20T03:00:45.924Z",
   "peerId": "12D3KooWJS32r7EDrpKGtx9hsUQ7XBTMexLtXF2dgRtrPSjwQVRv",
   "stats": {
-    "totalNodes": 472,
+    "totalNodes": 474,
     "observations": 0,
-    "experiments": 472,
+    "experiments": 474,
     "syntheses": 0,
-    "totalEdges": 436,
+    "totalEdges": 438,
     "maxDepth": 10,
     "activeExperiments": 28,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 187,
+    "infrastructure": 189,
     "skills": 126,
     "finance": 84,
     "search-ranking": 43,
@@ -63,6 +63,26 @@
     "general": 4
   },
   "recentExperiments": [
+    {
+      "id": "57d15a98b712",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2381",
+      "metricName": "score",
+      "metricValue": 144.99332436343425,
+      "isCurrentBest": false,
+      "createdAt": 1773975044059,
+      "depth": 3
+    },
+    {
+      "id": "f431196b4fe3",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2357",
+      "metricName": "score",
+      "metricValue": 145.0949645995283,
+      "isCurrentBest": false,
+      "createdAt": 1773973604047,
+      "depth": 3
+    },
     {
       "id": "f709f1044304",
       "domain": "infrastructure",
@@ -242,25 +262,6 @@
       "isCurrentBest": false,
       "createdAt": 1773923142883,
       "depth": 3
-    },
-    {
-      "id": "d5f89b2cfe58",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.3129",
-      "metricName": "Sharpe",
-      "metricValue": 1.3129,
-      "isCurrentBest": false,
-      "createdAt": 1773921943620,
-      "depth": 10
-    },
-    {
-      "id": "e2471144113b",
-      "domain": "physics",
-      "title": "Wrote paper: \"Exploring Gauss-Bonnet Modified Gravity for Warp Drive Geometries: Scaling of Higher-C",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1773920946795,
-      "depth": 0
     }
   ],
   "frontier": [],
