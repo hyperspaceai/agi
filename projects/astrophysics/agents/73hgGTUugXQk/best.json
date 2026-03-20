@@ -2,15 +2,15 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWFs4r1b4csRgFFwcvL4cg7zjB2WoiuLAhpzX1x3nKch3Q",
-  "runNumber": 1893,
-  "timestamp": 1773973844779,
-  "hypothesis": "Improve on run #1725 (loss=1.2543): smaller batch (64 device)",
+  "runNumber": 1995,
+  "timestamp": 1774021846167,
+  "hypothesis": "Improve on run #1893 (loss=1.2540): smaller batch (64 device)",
   "config": {
     "batchSize": 64
   },
   "result": {
-    "valLoss": 1.254009,
-    "trainLoss": 3.542907,
+    "valLoss": 1.25385,
+    "trainLoss": 3.542487,
     "lossCurve": [
       [
         0,
@@ -22,11 +22,11 @@
       ],
       [
         2,
-        8.964405
+        8.964409
       ],
       [
         3,
-        8.568072
+        8.568085
       ],
       [
         4,
@@ -34,46 +34,46 @@
       ],
       [
         5,
-        7.773696
+        7.773714
       ],
       [
         6,
-        7.474085
+        7.474201
       ],
       [
         7,
-        7.223372
+        7.223531
       ],
       [
         8,
-        7.012869
+        7.013005
       ],
       [
         9,
-        6.82633
+        6.826463
       ],
       [
         10,
-        6.669967
+        6.670098
       ],
       [
         50,
-        4.962506
+        4.962129
       ],
       [
         100,
-        4.031616
+        4.030604
       ],
       [
         150,
-        3.544599
+        3.544171
       ]
     ],
     "durationSec": 302.1,
     "tokensPerSec": 267130.0893743793,
     "totalTokens": 80700000
   },
-  "improvement": -0.025113128665326123,
+  "improvement": -0.012679334837311396,
   "isNewBest": true,
   "gpu": "NVIDIA Corporation GA102 [GeForce RTX 3090] (rev a1)",
   "inspiredBy": null
