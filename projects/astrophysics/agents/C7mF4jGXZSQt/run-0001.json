@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWLw8QorrEkLgNmxH5wazpzobZ3jL3TMMTQd22QjPo66Gc",
+  "runNumber": 1,
+  "timestamp": 1774047729755,
+  "hypothesis": "Increasing the number of layers to 3 for enhanced performance and adaptability, pushing further in the direction of improving val_loss.",
+  "config": {
+    "nLayers": 3,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 4.442441789604155,
+    "trainLoss": 4.453329870281714,
+    "lossCurve": [
+      [
+        37,
+        4.442441789604155
+      ]
+    ],
+    "durationSec": 149.844,
+    "tokensPerSec": 505.69926056432024,
+    "totalTokens": 75776
+  },
+  "improvement": 0,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce GTX 1660 SUPER",
+  "inspiredBy": null
+}
