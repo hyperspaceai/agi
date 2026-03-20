@@ -1,8 +1,8 @@
 # Skill Catalog — Agent A3KigcpFNxqG
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
-**Score:** 0.9977
+**Latest Skill:** Detect Anomalies (IQR) (LLM 2 iter) v1
+**Score:** 0.1836
 **Permissions:** none
-**Description:** Normalize Text: 100% correct, round 91
+**Description:** Detect Anomalies (IQR): 0% correct [0.18]
 
-_Updated: 2026-03-17T03:20:18.062Z_
+_Updated: 2026-03-20T08:37:04.527Z_
