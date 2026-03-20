@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-20T00:47:28.339Z",
+  "timestamp": "2026-03-20T02:47:28.519Z",
   "peerId": "12D3KooWF6Uittizr6SsS68LeM1QQnXvx7R9UMQMUKGv1PQfnnu1",
   "stats": {
-    "totalNodes": 91,
+    "totalNodes": 94,
     "observations": 0,
-    "experiments": 91,
+    "experiments": 94,
     "syntheses": 0,
-    "totalEdges": 87,
+    "totalEdges": 90,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 56,
+    "infrastructure": 59,
     "skills": 16,
     "finance": 5,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "1bb6b073a0f5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2099",
+      "metricName": "score",
+      "metricValue": 145.25662973955076,
+      "isCurrentBest": false,
+      "createdAt": 1773972928353,
+      "depth": 7
+    },
+    {
+      "id": "6311a84b185a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2069",
+      "metricName": "score",
+      "metricValue": 145.25958454219955,
+      "isCurrentBest": false,
+      "createdAt": 1773971128284,
+      "depth": 7
+    },
+    {
+      "id": "9248bae42db5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2050",
+      "metricName": "score",
+      "metricValue": 0.9138548317724837,
+      "isCurrentBest": false,
+      "createdAt": 1773969988266,
+      "depth": 7
+    },
     {
       "id": "9e07c3c114ac",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1773937407413,
       "depth": 6
-    },
-    {
-      "id": "68339013874a",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1500",
-      "metricName": "score",
-      "metricValue": 145.43043753558518,
-      "isCurrentBest": false,
-      "createdAt": 1773936987408,
-      "depth": 5
-    },
-    {
-      "id": "89a30c947b40",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1773936087399,
-      "depth": 3
-    },
-    {
-      "id": "29c5f8808984",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1485",
-      "metricName": "score",
-      "metricValue": 0.9084992445450405,
-      "isCurrentBest": false,
-      "createdAt": 1773936087389,
-      "depth": 5
     }
   ],
   "frontier": [],
