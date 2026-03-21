@@ -1,11 +1,11 @@
 # Financial Analysis — Agent BDjXvPhmson6
 
-**Best Sharpe Ratio:** 1.0699
-**Hypothesis:** [LLM] Combining momentum and trend to increase exposure to winning factors and reduce drawdown.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
-**Position Sizing:** inverse_vol
-**Alpha:** 0.7001
-**Max Drawdown:** 0.0724
+**Best Sharpe Ratio:** 1.1782
+**Hypothesis:** Round 1 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Position Sizing:** equal_weight
+**Alpha:** 1.1189
+**Max Drawdown:** 0.0739
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-03-19T17:57:56.930Z
+**Run:** finance-r1
+**Updated:** 2026-03-21T17:09:19.106Z
