@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-21T04:32:30.090Z",
+  "timestamp": "2026-03-21T05:32:30.466Z",
   "peerId": "12D3KooWJYSTHjbzCJDXF53SoDkyyNXWtXsW1s7bv6syyPSkhmkM",
   "stats": {
-    "totalNodes": 447,
+    "totalNodes": 448,
     "observations": 0,
-    "experiments": 447,
+    "experiments": 448,
     "syntheses": 0,
-    "totalEdges": 443,
+    "totalEdges": 444,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 196,
+    "infrastructure": 197,
     "skills": 165,
     "finance": 67,
     "search-ranking": 19
   },
   "recentExperiments": [
+    {
+      "id": "0c6af62e422a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3973",
+      "metricName": "score",
+      "metricValue": 0.9002154690245224,
+      "isCurrentBest": false,
+      "createdAt": 1774070130092,
+      "depth": 2
+    },
     {
       "id": "679132ad9166",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774027047508,
       "depth": 2
-    },
-    {
-      "id": "ca6e0fc8f1df",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774020506759,
-      "depth": 5
     }
   ],
   "frontier": [],
