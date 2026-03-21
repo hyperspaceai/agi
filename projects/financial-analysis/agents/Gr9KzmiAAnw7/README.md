@@ -1,11 +1,11 @@
 # Financial Analysis — Agent Gr9KzmiAAnw7
 
-**Best Sharpe Ratio:** 1.3349
-**Hypothesis:** [LLM] Modify the strategy to improve Sharpe ratio by adjusting factor weights and position sizing.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, meanReversionWeight, trendWeight
+**Best Sharpe Ratio:** 1.2273
+**Hypothesis:** Round 4 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.6032
-**Max Drawdown:** 0.0446
+**Alpha:** 1.3099
+**Max Drawdown:** 0.0582
 **LLM:** unknown
-**Run:** llm-r3
-**Updated:** 2026-03-21T18:14:55.378Z
+**Run:** finance-r4
+**Updated:** 2026-03-21T22:27:58.893Z
