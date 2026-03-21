@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-20T03:57:01.017Z",
+  "timestamp": "2026-03-21T01:18:34.889Z",
   "peerId": "12D3KooWP8hjo2mfULfjM7jkbQqU6qoKZGxv6Lx7LphPp87Frjbe",
   "stats": {
-    "totalNodes": 1248,
-    "observations": 1055,
-    "experiments": 193,
+    "totalNodes": 1299,
+    "observations": 1092,
+    "experiments": 207,
     "syntheses": 0,
-    "totalEdges": 191,
+    "totalEdges": 205,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 32
+    "recentActivity": 26
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "6a9a1b0345f2aeb10f4dd62ce9c502e02291f4c8268f7edd33098088f36db9eb",
+      "nodeId": "145c336487e9cd0c81e2960bfe02ba7c44df55c56654be89e90d47304fd6d9be",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 146.88527884447348,
+      "metricValue": 148.27290921316788,
       "metricDirection": "maximize",
-      "depth": 3
+      "depth": 4
     },
     "finance": {
       "nodeId": "20bac792183a3a78821a340397d27f86d879e6ba14beefdc77211c2ed5ae8417",
@@ -31,25 +31,101 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 115,
-    "finance": 78,
-    "knowledge": 1055
+    "infrastructure": 122,
+    "finance": 85,
+    "knowledge": 1092
   },
   "recentExperiments": [
     {
-      "id": "406ed54921bb",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 355",
-      "metricName": "score",
-      "metricValue": 0.9531817042695628,
+      "id": "02af841ed0fb",
+      "domain": "finance",
+      "title": "Finance round 11: Sharpe=1.2487",
+      "metricName": "Sharpe",
+      "metricValue": 1.2487,
       "isCurrentBest": false,
-      "createdAt": 1773976950311,
-      "depth": 4
+      "createdAt": 1774055764840,
+      "depth": 6
+    },
+    {
+      "id": "b08573c8139c",
+      "domain": "finance",
+      "title": "Finance round 10: Sharpe=1.2430",
+      "metricName": "Sharpe",
+      "metricValue": 1.243,
+      "isCurrentBest": false,
+      "createdAt": 1774055614847,
+      "depth": 6
+    },
+    {
+      "id": "9af890c2c982",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 23",
+      "metricName": "score",
+      "metricValue": 0.9679613697372027,
+      "isCurrentBest": false,
+      "createdAt": 1774055554831,
+      "depth": 5
+    },
+    {
+      "id": "d53211ac584c",
+      "domain": "finance",
+      "title": "Finance round 9: Sharpe=1.2337",
+      "metricName": "Sharpe",
+      "metricValue": 1.2337,
+      "isCurrentBest": false,
+      "createdAt": 1774055464837,
+      "depth": 6
+    },
+    {
+      "id": "aff4dc1feb2c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 16",
+      "metricName": "score",
+      "metricValue": 141.01111331262962,
+      "isCurrentBest": false,
+      "createdAt": 1774055134827,
+      "depth": 5
+    },
+    {
+      "id": "c856d9f9b3d6",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.2267",
+      "metricName": "Sharpe",
+      "metricValue": 1.2267,
+      "isCurrentBest": false,
+      "createdAt": 1774054864830,
+      "depth": 6
+    },
+    {
+      "id": "2a330ae62858",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2191",
+      "metricName": "Sharpe",
+      "metricValue": 1.2191,
+      "isCurrentBest": false,
+      "createdAt": 1774054714837,
+      "depth": 6
+    },
+    {
+      "id": "a539d7cfd370",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 5",
+      "metricName": "score",
+      "metricValue": 141.42428341494153,
+      "isCurrentBest": false,
+      "createdAt": 1774054474826,
+      "depth": 5
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "145c336487e9",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.27290921316788,
+        "depth": 4
+      },
       {
         "id": "6a9a1b0345f2",
         "title": "Cause infra-optimization round 1",
