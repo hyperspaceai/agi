@@ -1,0 +1,33 @@
+{
+  "runId": "llm-r4",
+  "runNumber": 4,
+  "hypothesis": "[LLM] Adjusting strategy to enhance Sharpe ratio by incorporating mean reversion signal and increasing weight of quality factor.",
+  "sharpeRatio": 1.2357,
+  "totalReturn": 2.8174,
+  "maxDrawdown": 0.058,
+  "alpha": 1.3232,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "meanReversionWeight",
+    "trendWeight",
+    "momentum",
+    "value",
+    "quality",
+    "lowVol",
+    "dividend",
+    "growth",
+    "meanReversion",
+    "trendSignal"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0.005,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-03-21T22:36:28.842Z"
+}
