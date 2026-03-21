@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 9cfs6yeWfv3n
 
-**Latest Skill:** Normalize Text (LLM 3 iter) v1
-**Score:** 0.1997
+**Latest Skill:** Cosine Text Similarity (LLM 3 iter) v1
+**Score:** 0.1992
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20→0.20→0.20]
+**Description:** Cosine Text Similarity: 0% correct [0.20→0.20]
 
-_Updated: 2026-03-21T12:07:11.248Z_
+_Updated: 2026-03-21T16:02:01.707Z_
