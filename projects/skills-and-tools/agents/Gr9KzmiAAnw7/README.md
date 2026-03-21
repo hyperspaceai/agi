@@ -1,8 +1,8 @@
 # Skill Catalog — Agent Gr9KzmiAAnw7
 
-**Latest Skill:** Extract Entities from Text (LLM 3 iter) v1
-**Score:** 0.1979
+**Latest Skill:** Chunk Text for Embeddings (LLM 3 iter) v1
+**Score:** 0.1982
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct [0.20→0.20]
+**Description:** Chunk Text for Embeddings: 0% correct [0.20→0.20]
 
-_Updated: 2026-03-21T16:43:45.794Z_
+_Updated: 2026-03-21T17:27:41.506Z_
