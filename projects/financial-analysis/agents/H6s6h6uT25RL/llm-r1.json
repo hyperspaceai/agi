@@ -1,0 +1,26 @@
+{
+  "runId": "llm-r1",
+  "runNumber": 1,
+  "hypothesis": "[LLM] Adjusting strategy to improve Sharpe ratio by combining momentum and trend factors.",
+  "sharpeRatio": 1.1867,
+  "totalReturn": 2.5727,
+  "maxDrawdown": 0.0474,
+  "alpha": 1.0785,
+  "factors": [
+    "momentumWeight",
+    "trendWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "meanReversionWeight",
+    "regimeDetectionWeight"
+  ],
+  "positionSizing": "inverse_vol",
+  "durationSec": 0.001,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-03-21T18:33:01.685Z"
+}
