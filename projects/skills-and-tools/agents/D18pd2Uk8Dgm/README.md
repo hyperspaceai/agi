@@ -1,8 +1,8 @@
 # Skill Catalog — Agent D18pd2Uk8Dgm
 
-**Latest Skill:** Chunk Text for Embeddings (LLM 3 iter) v1
-**Score:** 0.1995
+**Latest Skill:** Normalize Text (LLM 3 iter) v1
+**Score:** 0.1992
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct [0.20→0.20→0.20]
+**Description:** Normalize Text: 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-03-19T13:57:28.827Z_
+_Updated: 2026-03-21T09:42:01.717Z_
