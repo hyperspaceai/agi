@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-21T11:16:14.856Z",
+  "timestamp": "2026-03-21T12:16:15.152Z",
   "peerId": "12D3KooWPrNHeBrtCPkP4fBkDAP61feqFie2QtuGJDT7WyfL4B7y",
   "stats": {
-    "totalNodes": 1244,
+    "totalNodes": 1246,
     "observations": 0,
-    "experiments": 1244,
+    "experiments": 1246,
     "syntheses": 0,
-    "totalEdges": 1240,
+    "totalEdges": 1242,
     "maxDepth": 11,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 433,
-    "skills": 480,
+    "infrastructure": 434,
+    "skills": 481,
     "finance": 256,
     "search-ranking": 75
   },
   "recentExperiments": [
+    {
+      "id": "6559856d1d5f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774094774970,
+      "depth": 1
+    },
+    {
+      "id": "c7f266a4cb86",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 537",
+      "metricName": "score",
+      "metricValue": 0.9282899180558204,
+      "isCurrentBest": false,
+      "createdAt": 1774093454790,
+      "depth": 6
+    },
     {
       "id": "cee9cb706dac",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.1998,
       "isCurrentBest": false,
       "createdAt": 1774062971651,
-      "depth": 1
-    },
-    {
-      "id": "79c2bafc49ae",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 28",
-      "metricName": "score",
-      "metricValue": 141.29404988604102,
-      "isCurrentBest": false,
-      "createdAt": 1774062911616,
-      "depth": 6
-    },
-    {
-      "id": "1b53496ff89b",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1774062851660,
       "depth": 1
     }
   ],
