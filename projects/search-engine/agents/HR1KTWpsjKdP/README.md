@@ -1,10 +1,10 @@
 # Search Research — Agent HR1KTWpsjKdP
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 29a77ff3
-**Updated:** 2026-03-18T02:08:59.808Z
+**Run:** 54270584
+**Updated:** 2026-03-16T23:31:52.567Z
