@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-21T00:42:30.479Z",
+  "peerId": "12D3KooWRfWVjuHsMhCcFXpM7G2UmeA47pDopMeX6z8MAAcipkGb",
+  "stats": {
+    "totalNodes": 12,
+    "observations": 0,
+    "experiments": 12,
+    "syntheses": 0,
+    "totalEdges": 4,
+    "maxDepth": 2,
+    "activeExperiments": 3,
+    "recentActivity": 1
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "28934acbdaad6fe7eccaa0dd206f9534f9c8dff438b38ac8d01e7f44954a7483",
+      "title": "Cause infra-optimization round 340",
+      "metricName": "score",
+      "metricValue": 145.0409483406558,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "general": {
+      "nodeId": "56939be115bb26b233d949a275d2e8d09084f0169e259b3c29465239acdfd900",
+      "title": "AutoWeb round 2: 34/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 34,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "skills": {
+      "nodeId": "d1581dc638e1a757754e8a8df211d689fbc6992b0cb56133e30ade4fb86984d5",
+      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1963,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "finance": {
+      "nodeId": "14aa0a7d2793efb49f756663cb63727d013ffc56e9248f8f5984f5b708d255d6",
+      "title": "Finance round 1: Sharpe=1.0697",
+      "metricName": "Sharpe",
+      "metricValue": 1.0697,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 5,
+    "general": 2,
+    "skills": 1,
+    "physics": 3,
+    "finance": 1
+  },
+  "recentExperiments": [
+    {
+      "id": "2a49a4537d43",
+      "domain": "physics",
+      "title": "Wrote paper: \"On casimir_engineering: Can arrays of Casimir micro-cavities (following White/LSI 20\" ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774051202355,
+      "depth": 0
+    },
+    {
+      "id": "14aa0a7d2793",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.0697",
+      "metricName": "Sharpe",
+      "metricValue": 1.0697,
+      "isCurrentBest": true,
+      "createdAt": 1774046355954,
+      "depth": 0
+    },
+    {
+      "id": "dc44acaa446f",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the Fuchs et al. (2024) constant-velocity subluminal war\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774045202249,
+      "depth": 0
+    },
+    {
+      "id": "28934acbdaad",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 340",
+      "metricName": "score",
+      "metricValue": 145.0409483406558,
+      "isCurrentBest": true,
+      "createdAt": 1774044896237,
+      "depth": 2
+    },
+    {
+      "id": "dfdd91f8ddf1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On energy_conditions: What are the quantum gravity corrections to the null energy \" (s",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774041016398,
+      "depth": 0
+    },
+    {
+      "id": "bb70aae52969",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 243",
+      "metricName": "score",
+      "metricValue": 0.959809785803097,
+      "isCurrentBest": false,
+      "createdAt": 1774038889201,
+      "depth": 2
+    },
+    {
+      "id": "f115482d3bad",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 233",
+      "metricName": "score",
+      "metricValue": 145.03550587946643,
+      "isCurrentBest": false,
+      "createdAt": 1774038889194,
+      "depth": 1
+    },
+    {
+      "id": "56939be115bb",
+      "domain": "general",
+      "title": "AutoWeb round 2: 34/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 34,
+      "isCurrentBest": true,
+      "createdAt": 1774036276729,
+      "depth": 0
+    },
+    {
+      "id": "d1581dc638e1",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1963,
+      "isCurrentBest": true,
+      "createdAt": 1774035995884,
+      "depth": 0
+    },
+    {
+      "id": "8d8b8a59a604",
+      "domain": "general",
+      "title": "AutoWeb round 1: 14/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 14,
+      "isCurrentBest": false,
+      "createdAt": 1774031859605,
+      "depth": 0
+    },
+    {
+      "id": "70c34e095486",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1",
+      "metricName": "score",
+      "metricValue": 0.9487853866971674,
+      "isCurrentBest": false,
+      "createdAt": 1774024149134,
+      "depth": 1
+    },
+    {
+      "id": "551746b164b5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 143.64671128405593,
+      "isCurrentBest": false,
+      "createdAt": 1774024149125,
+      "depth": 0
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "28934acbdaad",
+        "title": "Cause infra-optimization round 340",
+        "metricValue": 145.0409483406558,
+        "depth": 2
+      },
+      {
+        "id": "f115482d3bad",
+        "title": "Cause infra-optimization round 233",
+        "metricValue": 145.03550587946643,
+        "depth": 1
+      },
+      {
+        "id": "551746b164b5",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 143.64671128405593,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "56939be115bb",
+        "title": "AutoWeb round 2: 34/100",
+        "metricValue": 34,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "d1581dc638e1",
+        "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+        "metricValue": 0.1963,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "14aa0a7d2793",
+        "title": "Finance round 1: Sharpe=1.0697",
+        "metricValue": 1.0697,
+        "depth": 0
+      }
+    ]
+  }
+}
