@@ -1,0 +1,17 @@
+[Unit]
+Description=OrbVM Runtime
+After=network.target timechain-sync.service
+Requires=timechain-sync.service
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/orbvm-runtime --config /etc/orbvm/engine.conf
+Restart=on-failure
+WatchdogSec=30s
+
+# Hardening
+NoNewPrivileges=true
+CapabilityBoundingSet=CAP_NET_RAW CAP_SYS_TIME
+
+[Install]
+WantedBy=orbvm.target

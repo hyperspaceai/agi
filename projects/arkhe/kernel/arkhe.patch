@@ -1,0 +1,16 @@
+--- a/include/linux/time64.h
++++ b/include/linux/time64.h
+@@ -0,0 +1,15 @@
++/*
++ * phase_t: Represents time as a continuous phase field [0, 2π)
++ * Immune to integer overflow. Used by OrbVM syscalls.
++ */
++typedef struct {
++    __s64 cycles;       /* Number of completed cycles (Möbius wraps) */
++    __u64 phase_ns;     /* Nanoseconds into current cycle */
++} phase_t;
++
++/* System calls for OrbVM */
++#define __NR_orb_evolve 450
++#define __NR_orb_collapse 451
++
