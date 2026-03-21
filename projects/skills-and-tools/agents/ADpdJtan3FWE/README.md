@@ -1,8 +1,8 @@
 # Skill Catalog — Agent ADpdJtan3FWE
 
-**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
-**Score:** 0.1997
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Detect Anomalies (IQR): 0% correct, round 34
+**Description:** Parse Key-Value Log: 0% correct, round 38
 
-_Updated: 2026-03-21T13:25:57.944Z_
+_Updated: 2026-03-21T13:31:28.043Z_
