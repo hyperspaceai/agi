@@ -1,0 +1,25 @@
+{
+  "runId": "llm-r3",
+  "runNumber": 3,
+  "hypothesis": "[LLM] Adjusting strategy to improve Sharpe ratio by considering additional factors and adjusting position sizing.",
+  "sharpeRatio": 1.2637,
+  "totalReturn": 2.4803,
+  "maxDrawdown": 0.0453,
+  "alpha": 0.9861,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "meanReversionWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "inverse_vol",
+  "durationSec": 0.001,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-03-21T19:17:06.796Z"
+}
