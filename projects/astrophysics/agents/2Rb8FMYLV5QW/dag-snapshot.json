@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-21T03:23:52.738Z",
+  "timestamp": "2026-03-21T05:50:59.535Z",
   "peerId": "12D3KooWBExHzV83fyg1QoeNQ3qp7LorZpZ1GmU3tBx2mX6ujgBR",
   "stats": {
-    "totalNodes": 3506,
-    "observations": 1432,
-    "experiments": 2074,
+    "totalNodes": 3563,
+    "observations": 1446,
+    "experiments": 2117,
     "syntheses": 0,
-    "totalEdges": 2070,
+    "totalEdges": 2113,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 37
+    "recentActivity": 19
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,22 +47,212 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 690,
-    "skills": 826,
-    "finance": 456,
-    "search-ranking": 102,
-    "knowledge": 1432
+    "infrastructure": 701,
+    "skills": 839,
+    "finance": 461,
+    "search-ranking": 116,
+    "knowledge": 1446
   },
   "recentExperiments": [
     {
-      "id": "4c1b6b857a96",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2399",
-      "metricName": "score",
-      "metricValue": 0.9153283366459454,
+      "id": "4f8a62389985",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1774061632314,
+      "createdAt": 1774071179254,
+      "depth": 3
+    },
+    {
+      "id": "3a6298ff884a",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774070819262,
+      "depth": 3
+    },
+    {
+      "id": "9287e11010fc",
+      "domain": "search-ranking",
+      "title": "Search round 42: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774070712720,
+      "depth": 3
+    },
+    {
+      "id": "e74b8b31b44b",
+      "domain": "search-ranking",
+      "title": "Search round 42: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774070711162,
+      "depth": 3
+    },
+    {
+      "id": "38550b56fbd8",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 61",
+      "metricName": "score",
+      "metricValue": 141.094335413403,
+      "isCurrentBest": false,
+      "createdAt": 1774070579232,
       "depth": 6
+    },
+    {
+      "id": "3eca8ad92447",
+      "domain": "search-ranking",
+      "title": "Search round 38: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774070352640,
+      "depth": 3
+    },
+    {
+      "id": "2fcf736c5abf",
+      "domain": "search-ranking",
+      "title": "Search round 38: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774070352498,
+      "depth": 3
+    },
+    {
+      "id": "4969d8244a35",
+      "domain": "search-ranking",
+      "title": "Search round 38: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774070351999,
+      "depth": 3
+    },
+    {
+      "id": "c62336bb2656",
+      "domain": "search-ranking",
+      "title": "Search round 38: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774070351871,
+      "depth": 3
+    },
+    {
+      "id": "8bd1890caab2",
+      "domain": "search-ranking",
+      "title": "Search round 38: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774070351433,
+      "depth": 3
+    },
+    {
+      "id": "38456040afed",
+      "domain": "search-ranking",
+      "title": "Search round 38: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774070351234,
+      "depth": 3
+    },
+    {
+      "id": "6f6152d815f7",
+      "domain": "search-ranking",
+      "title": "Search round 34: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774069997776,
+      "depth": 3
+    },
+    {
+      "id": "72c54ae05ed0",
+      "domain": "search-ranking",
+      "title": "Search round 34: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774069993376,
+      "depth": 3
+    },
+    {
+      "id": "dcf0d4b3c9b2",
+      "domain": "search-ranking",
+      "title": "Search round 34: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774069992564,
+      "depth": 3
+    },
+    {
+      "id": "782f8ec3c195",
+      "domain": "search-ranking",
+      "title": "Search round 34: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774069991995,
+      "depth": 3
+    },
+    {
+      "id": "a22337b93c69",
+      "domain": "search-ranking",
+      "title": "Search round 34: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774069991771,
+      "depth": 3
+    },
+    {
+      "id": "aa743529e435",
+      "domain": "search-ranking",
+      "title": "Search round 34: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774069991520,
+      "depth": 3
+    },
+    {
+      "id": "30b9c63daf71",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774069259280,
+      "depth": 3
+    },
+    {
+      "id": "bbb85091a234",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774068899221,
+      "depth": 3
+    },
+    {
+      "id": "e2440be91549",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774068659382,
+      "depth": 3
     }
   ],
   "frontier": [],
