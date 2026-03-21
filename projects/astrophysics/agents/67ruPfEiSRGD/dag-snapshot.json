@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-21T13:10:30.283Z",
+  "peerId": "12D3KooWEwE58npRdKXiER6XZTv86vwDsVZGP5taYQcToedm1yPQ",
+  "stats": {
+    "totalNodes": 252,
+    "observations": 240,
+    "experiments": 12,
+    "syntheses": 0,
+    "totalEdges": 10,
+    "maxDepth": 1,
+    "activeExperiments": 0,
+    "recentActivity": 25
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "54a30f931766dd8a462ff490320387aaeaf0baf32def4fe4a888df3bb87cc073",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 145.7998160622728,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "general": {
+      "nodeId": "e868868e1efe16ed041558c363d8843ddd15911fe48f26b3bc3aa85489f8c2b6",
+      "title": "AutoWeb round 1: 36/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 36,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 11,
+    "knowledge": 240,
+    "general": 1
+  },
+  "recentExperiments": [],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "54a30f931766",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 145.7998160622728,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "e868868e1efe",
+        "title": "AutoWeb round 1: 36/100",
+        "metricValue": 36,
+        "depth": 0
+      }
+    ]
+  }
+}
