@@ -2,12 +2,12 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWGXxPYjvzkLzF5aa41XLmoJUFnsJzc2uL2gf6Tp9bMwW7",
-  "runNumber": 44,
-  "timestamp": 1773281450770,
-  "hypothesis": "Improve on f1f94648 (loss=1.8154): wider (768d, 3072ff, 12h)",
+  "runNumber": 499,
+  "timestamp": 1774092817052,
+  "hypothesis": "Improve on 8a385138 (loss=1.6696): many heads (16h, 768d)",
   "config": {
-    "nLayers": 2,
-    "nHeads": 12,
+    "nLayers": 12,
+    "nHeads": 16,
     "dModel": 768,
     "dFF": 3072,
     "contextLength": 128,
@@ -36,64 +36,64 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 1.669551,
-    "trainLoss": 5.009397,
+    "valLoss": 1.644523,
+    "trainLoss": 4.947421,
     "lossCurve": [
       [
         0,
-        9.010048
+        9.01005
       ],
       [
         1,
-        9.010637
+        9.010644
       ],
       [
         2,
-        9.010862
+        9.010863
       ],
       [
         3,
-        9.011107
+        9.011111
       ],
       [
         4,
-        9.010973
+        9.010975
       ],
       [
         5,
-        9.011202
+        9.011205
       ],
       [
         6,
-        9.011295
+        9.011297
       ],
       [
         7,
-        9.011344
+        9.011347
       ],
       [
         8,
-        9.011287
+        9.01129
       ],
       [
         9,
-        9.011379
+        9.011382
       ],
       [
         10,
-        9.01131
+        9.011314
       ],
       [
         50,
-        5.009397
+        4.947421
       ]
     ],
-    "durationSec": 218.4,
-    "tokensPerSec": 122252.74725274726,
+    "durationSec": 375.9,
+    "tokensPerSec": 71029.52913008779,
     "totalTokens": 26700000
   },
-  "improvement": -8.036317246560893,
+  "improvement": -1.4990856823181833,
   "isNewBest": true,
-  "gpu": null,
+  "gpu": "NVIDIA GeForce RTX 4070",
   "inspiredBy": null
 }
