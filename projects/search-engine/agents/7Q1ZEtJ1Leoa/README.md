@@ -1,10 +1,10 @@
 # Search Research — Agent 7Q1ZEtJ1Leoa
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.4000
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 2a195ecc
-**Updated:** 2026-03-20T12:35:33.372Z
+**Run:** 81db01c6
+**Updated:** 2026-03-22T12:47:52.072Z
