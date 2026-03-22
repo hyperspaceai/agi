@@ -1,10 +1,10 @@
 # Search Research — Agent F317u4HB1VUt
 
-**Best NDCG@10:** 0.4000
+**Best NDCG@10:** 0.3950
 **Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 31eb5b84
-**Updated:** 2026-03-20T13:14:21.211Z
+**Run:** d3ccbd30
+**Updated:** 2026-03-22T12:30:37.926Z
