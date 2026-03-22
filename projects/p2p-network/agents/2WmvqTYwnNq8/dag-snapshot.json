@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-22T09:16:24.526Z",
+  "timestamp": "2026-03-22T10:16:21.364Z",
   "peerId": "12D3KooWBL96ab8eyH6cj6AcYZUdce7weqBqew5U64aZntTHLZjm",
   "stats": {
-    "totalNodes": 790,
+    "totalNodes": 795,
     "observations": 0,
-    "experiments": 790,
+    "experiments": 795,
     "syntheses": 0,
-    "totalEdges": 786,
+    "totalEdges": 791,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 334,
+    "infrastructure": 339,
     "skills": 229,
     "finance": 138,
     "search-ranking": 89
   },
   "recentExperiments": [
+    {
+      "id": "23e7dd32b678",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 563",
+      "metricName": "score",
+      "metricValue": 144.97829855428037,
+      "isCurrentBest": false,
+      "createdAt": 1774174221444,
+      "depth": 2
+    },
+    {
+      "id": "72e7f42688e1",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 547",
+      "metricName": "score",
+      "metricValue": 145.2202442235985,
+      "isCurrentBest": false,
+      "createdAt": 1774173261762,
+      "depth": 2
+    },
+    {
+      "id": "c72e2837b436",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 539",
+      "metricName": "score",
+      "metricValue": 0.9516182399920878,
+      "isCurrentBest": false,
+      "createdAt": 1774172781824,
+      "depth": 2
+    },
+    {
+      "id": "3de28a6b13c8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 533",
+      "metricName": "score",
+      "metricValue": 0.9502547425029183,
+      "isCurrentBest": false,
+      "createdAt": 1774172422483,
+      "depth": 2
+    },
+    {
+      "id": "7fa4946e93d2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 530",
+      "metricName": "score",
+      "metricValue": 0.9502531754811852,
+      "isCurrentBest": false,
+      "createdAt": 1774172243107,
+      "depth": 2
+    },
     {
       "id": "2807c094666c",
       "domain": "infrastructure",
@@ -201,56 +251,6 @@
       "metricValue": 0.1994,
       "isCurrentBest": false,
       "createdAt": 1774144845855,
-      "depth": 4
-    },
-    {
-      "id": "cee81e15f42a",
-      "domain": "search-ranking",
-      "title": "Search round 45: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774144529092,
-      "depth": 4
-    },
-    {
-      "id": "4488fdd7318a",
-      "domain": "search-ranking",
-      "title": "Search round 45: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774144528901,
-      "depth": 4
-    },
-    {
-      "id": "8d2845ae55e9",
-      "domain": "search-ranking",
-      "title": "Search round 45: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774144528718,
-      "depth": 4
-    },
-    {
-      "id": "8c00c3972b43",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774144126189,
-      "depth": 4
-    },
-    {
-      "id": "4be731778009",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774144006239,
       "depth": 4
     }
   ],
