@@ -1,10 +1,10 @@
 # Search Research — Agent DwpN8dtVTvuP
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 59532500
-**Updated:** 2026-03-18T17:12:26.119Z
+**Run:** 923b4b3c
+**Updated:** 2026-03-22T12:43:37.341Z
