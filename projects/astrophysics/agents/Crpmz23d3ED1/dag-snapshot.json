@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-22T17:51:33.564Z",
+  "peerId": "12D3KooWMgBwj9dLE8UVSz5BMxaa8oTEeWeCNp5Z6XfvK7QkcZqn",
+  "stats": {
+    "totalNodes": 117,
+    "observations": 60,
+    "experiments": 57,
+    "syntheses": 0,
+    "totalEdges": 54,
+    "maxDepth": 7,
+    "activeExperiments": 0,
+    "recentActivity": 36
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "701ed6927e4bc9d0749afeae84f79ac073cd819a7613ffc8474e88b92974a5ca",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 147.34102877960981,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "skills": {
+      "nodeId": "198d5ca975fcbeebb5c05d95f0887a6e42748a772036264b32228c36ce241802",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "finance": {
+      "nodeId": "615ce4b9559edb8b0899cc38c19ab1ba0958b0649d0e2c4392196fa336605183",
+      "title": "Finance round 5: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "metricDirection": "maximize",
+      "depth": 7
+    }
+  },
+  "domainCounts": {
+    "knowledge": 60,
+    "infrastructure": 22,
+    "skills": 21,
+    "finance": 14
+  },
+  "recentExperiments": [],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "701ed6927e4b",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.34102877960981,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "198d5ca975fc",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "615ce4b9559e",
+        "title": "Finance round 5: Sharpe=1.3129",
+        "metricValue": 1.3129,
+        "depth": 7
+      },
+      {
+        "id": "856eb9688f74",
+        "title": "Finance round 4: Sharpe=1.3031",
+        "metricValue": 1.3031,
+        "depth": 6
+      },
+      {
+        "id": "ce9f40df278c",
+        "title": "Finance round 6: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 5
+      },
+      {
+        "id": "ddcf72ac66a2",
+        "title": "Finance round 5: Sharpe=1.2286",
+        "metricValue": 1.2286,
+        "depth": 4
+      },
+      {
+        "id": "81110357750f",
+        "title": "Finance round 4: Sharpe=1.2273",
+        "metricValue": 1.2273,
+        "depth": 3
+      },
+      {
+        "id": "a65dc1f29773",
+        "title": "Finance round 3: Sharpe=1.2171",
+        "metricValue": 1.2171,
+        "depth": 2
+      },
+      {
+        "id": "1cd8f2cd6666",
+        "title": "Finance round 2: Sharpe=1.2041",
+        "metricValue": 1.2041,
+        "depth": 1
+      },
+      {
+        "id": "4cad63ee1939",
+        "title": "Finance round 1: Sharpe=1.0820",
+        "metricValue": 1.082,
+        "depth": 0
+      }
+    ]
+  }
+}
