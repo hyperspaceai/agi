@@ -1,10 +1,10 @@
 # Search Research — Agent 8HFreAmCF5pn
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 922c9c7c
-**Updated:** 2026-03-22T16:31:49.957Z
+**Run:** e4f65224
+**Updated:** 2026-03-23T00:46:58.363Z
