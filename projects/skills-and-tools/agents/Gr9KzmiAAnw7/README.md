@@ -1,8 +1,8 @@
 # Skill Catalog — Agent Gr9KzmiAAnw7
 
-**Latest Skill:** Compute Text Statistics (LLM 2 iter) v1
-**Score:** 0.1885
+**Latest Skill:** Detect Anomalies (IQR) (LLM 3 iter) v1
+**Score:** 0.1969
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct [0.19]
+**Description:** Detect Anomalies (IQR): 0% correct [0.20→0.20]
 
-_Updated: 2026-03-22T01:17:21.570Z_
+_Updated: 2026-03-22T01:59:39.515Z_
