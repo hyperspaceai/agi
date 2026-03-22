@@ -1,10 +1,10 @@
 # Search Research — Agent 2WmvqTYwnNq8
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** boost diversity weight (+0.03)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1e6f9f98
-**Updated:** 2026-03-22T00:35:30.501Z
+**Run:** 6d74f0d8
+**Updated:** 2026-03-22T02:35:38.517Z
