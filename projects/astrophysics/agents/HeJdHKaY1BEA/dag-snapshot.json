@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-22T08:19:34.695Z",
+  "peerId": "12D3KooWSTfo2TAFC5Vf5k1nE16UFynivxCcSL7ZzXhvXCcgeWqb",
+  "stats": {
+    "totalNodes": 74,
+    "observations": 50,
+    "experiments": 24,
+    "syntheses": 0,
+    "totalEdges": 21,
+    "maxDepth": 4,
+    "activeExperiments": 0,
+    "recentActivity": 47
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "ec736818ad3661acf86e25fbfe4bc0f2375f9c0c10de0acf031d6abe6bd162df",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 150.5400913757173,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "finance": {
+      "nodeId": "e4db969127f48b5a63bd008c14a6daaebbfadeb427fd758c5243f716da45ae31",
+      "title": "Finance round 10: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "metricDirection": "maximize",
+      "depth": 4
+    },
+    "search-ranking": {
+      "nodeId": "003b2bc218c50a8202cbf689643d7c934678ae5e23fd0dc10487e7cb0c446fe6",
+      "title": "Search round 39: more expansion terms (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 5,
+    "finance": 5,
+    "knowledge": 50,
+    "search-ranking": 14
+  },
+  "recentExperiments": [
+    {
+      "id": "b49220615656",
+      "domain": "search-ranking",
+      "title": "Search round 43: more expansion terms (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1774166113965,
+      "depth": 1
+    },
+    {
+      "id": "352bfa147e9a",
+      "domain": "search-ranking",
+      "title": "Search round 43: more expansion terms (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1774166113911,
+      "depth": 1
+    },
+    {
+      "id": "e42f53769cf8",
+      "domain": "search-ranking",
+      "title": "Search round 43: more expansion terms (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1774166112912,
+      "depth": 1
+    },
+    {
+      "id": "fa6eb1411676",
+      "domain": "search-ranking",
+      "title": "Search round 43: more expansion terms (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1774166112858,
+      "depth": 1
+    },
+    {
+      "id": "b4005e060bdd",
+      "domain": "search-ranking",
+      "title": "Search round 43: more expansion terms (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1774166112801,
+      "depth": 1
+    },
+    {
+      "id": "c850b0269256",
+      "domain": "search-ranking",
+      "title": "Search round 43: more expansion terms (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1774166112746,
+      "depth": 1
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "ec736818ad36",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 150.5400913757173,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "e4db969127f4",
+        "title": "Finance round 10: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 4
+      },
+      {
+        "id": "80f4a5c7f9c9",
+        "title": "Finance round 4: Sharpe=1.3137",
+        "metricValue": 1.3137,
+        "depth": 3
+      },
+      {
+        "id": "85adce5830a8",
+        "title": "Finance round 3: Sharpe=1.3064",
+        "metricValue": 1.3064,
+        "depth": 2
+      },
+      {
+        "id": "8a298ed8e09e",
+        "title": "Finance round 2: Sharpe=1.1991",
+        "metricValue": 1.1991,
+        "depth": 1
+      },
+      {
+        "id": "4716b30e020c",
+        "title": "Finance round 1: Sharpe=1.0820",
+        "metricValue": 1.082,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "003b2bc218c5",
+        "title": "Search round 39: more expansion terms (5)",
+        "metricValue": 0.395,
+        "depth": 0
+      }
+    ]
+  }
+}
