@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HR1KTWpsjKdP
 
-**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
-**Score:** 0.1985
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1991
 **Permissions:** none
-**Description:** Parse Key-Value Log: 0% correct, round 17
+**Description:** Extract Entities from Text: 0% correct, round 28
 
-_Updated: 2026-03-22T23:24:59.827Z_
+_Updated: 2026-03-22T23:47:14.231Z_
