@@ -1,10 +1,10 @@
 # Search Research — Agent AiLDhmHGhEZD
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase freshness bias (0.15)
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 815c6edc
-**Updated:** 2026-03-18T01:38:02.561Z
+**Run:** b012c65c
+**Updated:** 2026-03-22T16:27:45.758Z
