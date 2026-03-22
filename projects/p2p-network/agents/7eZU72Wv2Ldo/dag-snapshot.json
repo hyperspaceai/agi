@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-22T09:17:21.073Z",
+  "timestamp": "2026-03-22T10:17:21.121Z",
   "peerId": "12D3KooWGTvdrA6dDEuHxtZCRUS2kdu2uqjYqzCKMvge77UQ3FDg",
   "stats": {
-    "totalNodes": 290,
+    "totalNodes": 291,
     "observations": 0,
-    "experiments": 290,
+    "experiments": 291,
     "syntheses": 0,
-    "totalEdges": 286,
+    "totalEdges": 287,
     "maxDepth": 15,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 168,
+    "infrastructure": 169,
     "skills": 64,
     "finance": 30,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "36755b6baf7f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 510",
+      "metricName": "score",
+      "metricValue": 145.08268262587546,
+      "isCurrentBest": false,
+      "createdAt": 1774171100810,
+      "depth": 15
+    },
     {
       "id": "558626720888",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1774144055132,
-      "depth": 1
-    },
-    {
-      "id": "c4e0412c298d",
-      "domain": "search-ranking",
-      "title": "Search round 40: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774144054766,
       "depth": 1
     }
   ],
