@@ -1,10 +1,10 @@
 # Search Research — Agent 6ZQm6LcgRqkd
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 90dc6d66
-**Updated:** 2026-03-18T17:05:00.823Z
+**Run:** ba054490
+**Updated:** 2026-03-22T12:51:57.959Z
