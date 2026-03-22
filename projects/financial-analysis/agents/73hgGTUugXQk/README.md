@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 73hgGTUugXQk
 
-**Best Sharpe Ratio:** 1.1991
-**Hypothesis:** [LLM] Switch position sizing to risk parity to reduce portfolio volatility and improve Sharpe
+**Best Sharpe Ratio:** 1.2077
+**Hypothesis:** Round 3 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.3505
-**Max Drawdown:** 0.0776
+**Alpha:** 1.3452
+**Max Drawdown:** 0.0765
 **LLM:** unknown
-**Run:** llm-r2
-**Updated:** 2026-03-21T23:04:46.752Z
+**Run:** finance-r3
+**Updated:** 2026-03-21T23:07:01.869Z
