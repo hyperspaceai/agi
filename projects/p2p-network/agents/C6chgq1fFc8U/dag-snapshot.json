@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-22T07:22:54.822Z",
+  "timestamp": "2026-03-22T08:22:55.189Z",
   "peerId": "12D3KooWLuysRxbNSWPyCNuGtPmv5dUVWMo1i6rnae1ev3JCNaHg",
   "stats": {
-    "totalNodes": 1001,
+    "totalNodes": 1003,
     "observations": 30,
-    "experiments": 971,
+    "experiments": 973,
     "syntheses": 0,
-    "totalEdges": 965,
+    "totalEdges": 967,
     "maxDepth": 11,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,14 +55,34 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 364,
-    "skills": 343,
+    "infrastructure": 365,
+    "skills": 344,
     "finance": 225,
     "search-ranking": 37,
     "general": 2,
     "knowledge": 30
   },
   "recentExperiments": [
+    {
+      "id": "787ac13a645c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 449",
+      "metricName": "score",
+      "metricValue": 0.9303224830991575,
+      "isCurrentBest": false,
+      "createdAt": 1774167775070,
+      "depth": 4
+    },
+    {
+      "id": "99ccae4f789e",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774167055016,
+      "depth": 5
+    },
     {
       "id": "bfa6130d67e3",
       "domain": "infrastructure",
@@ -241,26 +261,6 @@
       "metricValue": 1.3137,
       "isCurrentBest": false,
       "createdAt": 1774141671880,
-      "depth": 11
-    },
-    {
-      "id": "963986623fa1",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1774141611883,
-      "depth": 5
-    },
-    {
-      "id": "04b083cac2f8",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.2194",
-      "metricName": "Sharpe",
-      "metricValue": 1.2194,
-      "isCurrentBest": false,
-      "createdAt": 1774141521856,
       "depth": 11
     }
   ],
