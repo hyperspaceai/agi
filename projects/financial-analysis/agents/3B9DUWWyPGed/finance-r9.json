@@ -2,20 +2,23 @@
   "runId": "finance-r9",
   "runNumber": 9,
   "hypothesis": "Round 9 best mutation",
-  "sharpeRatio": 1.3205,
-  "totalReturn": 3.0146,
-  "maxDrawdown": 0.0546,
-  "alpha": 1.5203,
+  "sharpeRatio": 1.2303,
+  "totalReturn": 2.77,
+  "maxDrawdown": 0.0574,
+  "alpha": 1.2757,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "meanReversionWeight"
   ],
   "positionSizing": "risk_parity",
   "durationSec": 0.001,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-14T13:35:03.040Z"
+  "timestamp": "2026-03-22T14:07:21.892Z"
 }
