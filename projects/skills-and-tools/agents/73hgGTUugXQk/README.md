@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 73hgGTUugXQk
 
-**Latest Skill:** Parse Key-Value Log (LLM 2 iter) v1
-**Score:** 0.1995
+**Latest Skill:** Extract Entities from Text (LLM 2 iter) v1
+**Score:** 0.1985
 **Permissions:** none
-**Description:** Parse Key-Value Log: 0% correct [0.20]
+**Description:** Extract Entities from Text: 0% correct [0.20]
 
-_Updated: 2026-03-22T18:03:34.754Z_
+_Updated: 2026-03-22T19:05:34.650Z_
