@@ -1,10 +1,10 @@
 # Search Research — Agent HVu49qXgYrm9
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** fbef885c
-**Updated:** 2026-03-22T09:14:12.930Z
+**Run:** b1a16f00
+**Updated:** 2026-03-22T10:40:50.612Z
