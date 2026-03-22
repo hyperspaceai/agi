@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-22T05:20:28.649Z",
+  "timestamp": "2026-03-22T07:20:28.945Z",
   "peerId": "12D3KooWFdX87zgmzLYpnkouKLsH7RwBNyMqBuAaS5nTJvwZc5yZ",
   "stats": {
-    "totalNodes": 382,
+    "totalNodes": 385,
     "observations": 0,
-    "experiments": 382,
+    "experiments": 385,
     "syntheses": 0,
-    "totalEdges": 379,
+    "totalEdges": 382,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 235,
+    "infrastructure": 238,
     "finance": 106,
     "search-ranking": 41
   },
   "recentExperiments": [
+    {
+      "id": "b7acfa9be297",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 353",
+      "metricName": "score",
+      "metricValue": 141.11257015651887,
+      "isCurrentBest": false,
+      "createdAt": 1774161868539,
+      "depth": 13
+    },
+    {
+      "id": "04f85cfd5a33",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 350",
+      "metricName": "score",
+      "metricValue": 141.19598340500647,
+      "isCurrentBest": false,
+      "createdAt": 1774161688534,
+      "depth": 13
+    },
+    {
+      "id": "fb2cab928d2d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 329",
+      "metricName": "score",
+      "metricValue": 141.28523460499676,
+      "isCurrentBest": false,
+      "createdAt": 1774160428507,
+      "depth": 13
+    },
     {
       "id": "5fb11406ff3a",
       "domain": "infrastructure",
@@ -212,36 +242,6 @@
       "metricValue": 1.2622,
       "isCurrentBest": false,
       "createdAt": 1774139413193,
-      "depth": 8
-    },
-    {
-      "id": "649170153e07",
-      "domain": "finance",
-      "title": "Finance round 13: Sharpe=1.2570",
-      "metricName": "Sharpe",
-      "metricValue": 1.257,
-      "isCurrentBest": false,
-      "createdAt": 1774139112978,
-      "depth": 8
-    },
-    {
-      "id": "7b97d294fcbb",
-      "domain": "finance",
-      "title": "Finance round 12: Sharpe=1.2487",
-      "metricName": "Sharpe",
-      "metricValue": 1.2487,
-      "isCurrentBest": false,
-      "createdAt": 1774138962996,
-      "depth": 8
-    },
-    {
-      "id": "30f4f9767f74",
-      "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.2430",
-      "metricName": "Sharpe",
-      "metricValue": 1.243,
-      "isCurrentBest": false,
-      "createdAt": 1774138512174,
       "depth": 8
     }
   ],
