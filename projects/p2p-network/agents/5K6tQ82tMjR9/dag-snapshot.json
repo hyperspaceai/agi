@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-22T06:17:28.825Z",
+  "timestamp": "2026-03-22T07:17:29.024Z",
   "peerId": "12D3KooWE8U49FcbYdge38Tt8r1FLf9ey9P6MzCtpFNvqdUB7YPN",
   "stats": {
-    "totalNodes": 1079,
+    "totalNodes": 1081,
     "observations": 0,
-    "experiments": 1079,
+    "experiments": 1081,
     "syntheses": 0,
-    "totalEdges": 1075,
+    "totalEdges": 1077,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 416,
+    "infrastructure": 418,
     "skills": 345,
     "finance": 225,
     "search-ranking": 93
   },
   "recentExperiments": [
+    {
+      "id": "80d10e6f24b8",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 363",
+      "metricName": "score",
+      "metricValue": 144.9667171943409,
+      "isCurrentBest": false,
+      "createdAt": 1774162288849,
+      "depth": 6
+    },
+    {
+      "id": "1a5d22456077",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 348",
+      "metricName": "score",
+      "metricValue": 145.05267952725407,
+      "isCurrentBest": false,
+      "createdAt": 1774161388775,
+      "depth": 6
+    },
     {
       "id": "f409112bbf00",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1774143633864,
-      "depth": 2
-    },
-    {
-      "id": "2a9988253669",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1774143633794,
-      "depth": 2
-    },
-    {
-      "id": "5265286d35c9",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1774143633738,
       "depth": 2
     }
   ],
