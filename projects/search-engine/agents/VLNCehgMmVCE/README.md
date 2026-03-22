@@ -1,10 +1,10 @@
 # Search Research — Agent VLNCehgMmVCE
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a090cd40
-**Updated:** 2026-03-16T20:17:20.433Z
+**Run:** 93a30dcc
+**Updated:** 2026-03-22T08:59:56.997Z
