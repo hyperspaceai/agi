@@ -1,11 +1,11 @@
 {
   "runId": "llm-r0",
   "runNumber": 0,
-  "hypothesis": "[LLM] Increase momentum weight, reduce drawdown protection, and enable regime detection.",
-  "sharpeRatio": 1.0323,
-  "totalReturn": 2.4157,
-  "maxDrawdown": 0.0845,
-  "alpha": 0.9214,
+  "hypothesis": "[LLM] Adjust position sizing method to inverse_vol to reduce volatility",
+  "sharpeRatio": 1.0473,
+  "totalReturn": 2.2036,
+  "maxDrawdown": 0.0753,
+  "alpha": 0.7093,
   "factors": [
     "momentumWeight",
     "valueWeight",
@@ -14,10 +14,10 @@
     "dividendWeight",
     "growthWeight"
   ],
-  "positionSizing": "equal_weight",
+  "positionSizing": "inverse_vol",
   "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-18T10:58:11.081Z"
+  "timestamp": "2026-03-22T18:41:43.152Z"
 }
