@@ -1,8 +1,8 @@
 # Skill Catalog — Agent EDKiRCoFcEqT
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 36
+**Description:** Parse Key-Value Log: 0% correct, round 26
 
-_Updated: 2026-03-22T21:28:54.419Z_
+_Updated: 2026-03-22T23:39:08.020Z_
