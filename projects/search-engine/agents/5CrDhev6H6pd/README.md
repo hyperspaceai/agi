@@ -1,10 +1,10 @@
 # Search Research — Agent 5CrDhev6H6pd
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost authority weight (+0.05)
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 10b1beb6
-**Updated:** 2026-03-18T14:03:17.189Z
+**Run:** 66e95074
+**Updated:** 2026-03-23T00:19:03.677Z
