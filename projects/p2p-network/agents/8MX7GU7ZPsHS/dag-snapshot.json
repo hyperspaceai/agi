@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-22T16:08:37.733Z",
+  "timestamp": "2026-03-22T17:08:37.741Z",
   "peerId": "12D3KooWHAtH1bhGamYvwsW9inHFKufAsFnboDrfLKWTqCcVPQtk",
   "stats": {
-    "totalNodes": 487,
+    "totalNodes": 488,
     "observations": 0,
-    "experiments": 487,
+    "experiments": 488,
     "syntheses": 0,
-    "totalEdges": 483,
+    "totalEdges": 484,
     "maxDepth": 11,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 226,
-    "skills": 129,
+    "skills": 130,
     "finance": 85,
     "search-ranking": 47
   },
   "recentExperiments": [
+    {
+      "id": "d2833b527496",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774196197605,
+      "depth": 2
+    },
     {
       "id": "f77ca378e88b",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774190677364,
       "depth": 2
-    },
-    {
-      "id": "0e158e98ccd3",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.0788",
-      "metricName": "Sharpe",
-      "metricValue": 1.0788,
-      "isCurrentBest": false,
-      "createdAt": 1774190617370,
-      "depth": 11
     }
   ],
   "frontier": [],
