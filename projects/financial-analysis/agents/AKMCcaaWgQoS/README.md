@@ -1,11 +1,11 @@
 # Financial Analysis — Agent AKMCcaaWgQoS
 
-**Best Sharpe Ratio:** 1.2570
-**Hypothesis:** Round 16 best mutation
+**Best Sharpe Ratio:** 1.2843
+**Hypothesis:** Round 25 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.3511
-**Max Drawdown:** 0.0717
+**Alpha:** 1.3470
+**Max Drawdown:** 0.0690
 **LLM:** unknown
-**Run:** finance-r16
-**Updated:** 2026-03-22T22:10:35.212Z
+**Run:** finance-r25
+**Updated:** 2026-03-22T22:33:05.231Z
