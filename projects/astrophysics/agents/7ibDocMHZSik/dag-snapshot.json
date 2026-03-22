@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-21T06:55:30.381Z",
+  "timestamp": "2026-03-22T10:36:34.326Z",
   "peerId": "12D3KooWGXxPYjvzkLzF5aa41XLmoJUFnsJzc2uL2gf6Tp9bMwW7",
   "stats": {
-    "totalNodes": 1069,
-    "observations": 849,
-    "experiments": 220,
+    "totalNodes": 1749,
+    "observations": 1470,
+    "experiments": 279,
     "syntheses": 0,
-    "totalEdges": 209,
+    "totalEdges": 264,
     "maxDepth": 4,
     "activeExperiments": 0,
     "recentActivity": 32
@@ -38,31 +38,51 @@
       "depth": 3
     },
     "general": {
-      "nodeId": "11cdf3a91efc41b0457b6738e5ae58f46bcac98b004a730c03109d36359a8f23",
-      "title": "AutoWeb round 11: 62/100",
+      "nodeId": "47621dab62c3266c6e07e64f03717fff5ea3008250fbbf0c4b8d1f1928f6c663",
+      "title": "AutoWeb round 7: 65/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 62,
+      "metricValue": 65,
       "metricDirection": "maximize",
       "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 99,
+    "infrastructure": 147,
     "skills": 53,
-    "finance": 60,
-    "knowledge": 849,
-    "general": 8
+    "finance": 67,
+    "knowledge": 1470,
+    "general": 12
   },
   "recentExperiments": [
     {
-      "id": "cb1ac8395638",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 343",
-      "metricName": "score",
-      "metricValue": 141.18114089307986,
+      "id": "ed0c7078b372",
+      "domain": "general",
+      "title": "AutoWeb round 6: 50/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 50,
       "isCurrentBest": false,
-      "createdAt": 1774073857145,
+      "createdAt": 1774175793756,
+      "depth": 0
+    },
+    {
+      "id": "fbfa97ae1d1d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 208",
+      "metricName": "score",
+      "metricValue": 141.18850268334472,
+      "isCurrentBest": false,
+      "createdAt": 1774175181752,
       "depth": 3
+    },
+    {
+      "id": "54bcd23bf8df",
+      "domain": "general",
+      "title": "AutoWeb round 5: 46/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 46,
+      "isCurrentBest": false,
+      "createdAt": 1774174610349,
+      "depth": 0
     }
   ],
   "frontier": [],
@@ -129,9 +149,9 @@
     ],
     "general": [
       {
-        "id": "11cdf3a91efc",
-        "title": "AutoWeb round 11: 62/100",
-        "metricValue": 62,
+        "id": "47621dab62c3",
+        "title": "AutoWeb round 7: 65/100",
+        "metricValue": 65,
         "depth": 0
       }
     ]
