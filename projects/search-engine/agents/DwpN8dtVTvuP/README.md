@@ -1,10 +1,10 @@
 # Search Research — Agent DwpN8dtVTvuP
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** boost diversity weight (+0.03)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** decrease diversity penalty (0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 0941e838
-**Updated:** 2026-03-22T22:08:18.485Z
+**Run:** af3f1208
+**Updated:** 2026-03-23T00:08:02.184Z
