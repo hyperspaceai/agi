@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWBFDJFwEweZK3t6UD9fTir3r8NU76byunojNAG9wno2Yq",
-  "runNumber": 4,
-  "timestamp": 1774181475115,
-  "hypothesis": "Improve on 5a181108 (loss=3.5172): higher gradient clip (5.0)",
+  "runNumber": 1,
+  "timestamp": 1774181858789,
+  "hypothesis": "Explore: Xavier initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -27,7 +27,7 @@
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 5,
+    "gradientClipNorm": 1,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
     "initType": "xavier",
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.491599857169411,
-    "trainLoss": 3.485856327947419,
+    "valLoss": 3.517204981976594,
+    "trainLoss": 3.5460916406917056,
     "lossCurve": [
       [
-        79,
-        3.491599857169411
+        64,
+        3.517204981976594
       ]
     ],
-    "durationSec": 131.411,
-    "tokensPerSec": 1231.1906917990123,
-    "totalTokens": 161792
+    "durationSec": 132.645,
+    "tokensPerSec": 988.1412793546684,
+    "totalTokens": 131072
   },
-  "improvement": -0.7279963760540729,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
