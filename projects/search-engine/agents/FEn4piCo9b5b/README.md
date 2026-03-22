@@ -1,10 +1,10 @@
 # Search Research — Agent FEn4piCo9b5b
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** cb7f6238
-**Updated:** 2026-03-21T20:33:00.037Z
+**Run:** 6521ca55
+**Updated:** 2026-03-22T02:38:57.435Z
