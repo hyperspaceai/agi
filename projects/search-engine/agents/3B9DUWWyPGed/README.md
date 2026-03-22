@@ -1,10 +1,10 @@
 # Search Research — Agent 3B9DUWWyPGed
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 0753e23c
-**Updated:** 2026-03-22T02:39:46.162Z
+**Run:** 6baf1058
+**Updated:** 2026-03-22T12:29:41.585Z
