@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-22T07:27:46.250Z",
+  "timestamp": "2026-03-22T08:29:48.532Z",
   "peerId": "12D3KooWDQut1ntdxb8zgqBjGDLKGC1gQLWrdQAKS1PRZ9cyyDFG",
   "stats": {
-    "totalNodes": 357,
+    "totalNodes": 358,
     "observations": 65,
-    "experiments": 292,
+    "experiments": 293,
     "syntheses": 0,
-    "totalEdges": 288,
+    "totalEdges": 289,
     "maxDepth": 6,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,13 +47,23 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 134,
+    "infrastructure": 135,
     "skills": 104,
     "finance": 40,
     "knowledge": 65,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "019f8f12d89a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 433",
+      "metricName": "score",
+      "metricValue": 0.9497839481215369,
+      "isCurrentBest": false,
+      "createdAt": 1774167130934,
+      "depth": 1
+    },
     {
       "id": "175bec2dd3c3",
       "domain": "skills",
@@ -243,16 +253,6 @@
       "isCurrentBest": false,
       "createdAt": 1774141328835,
       "depth": 6
-    },
-    {
-      "id": "c3f970911653",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774141268760,
-      "depth": 3
     }
   ],
   "frontier": [],
