@@ -1,10 +1,10 @@
 # Search Research — Agent 5QjjCh875MFR
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Hypothesis:** Increase authorityWeight and combine it with titleWeight, and slightly boost freshnessWeight, building on the successful cross-encoder reranking and authority/title combination.
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d455d4cc
-**Updated:** 2026-03-19T17:25:08.669Z
+**Run:** 432a7343
+**Updated:** 2026-03-22T23:05:25.530Z
