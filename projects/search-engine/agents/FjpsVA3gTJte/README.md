@@ -1,10 +1,10 @@
 # Search Research — Agent FjpsVA3gTJte
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** require 5 unique domains
+**Best NDCG@10:** 0.4000
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f7c9421c
-**Updated:** 2026-03-22T12:39:19.819Z
+**Run:** 0d54cfa8
+**Updated:** 2026-03-22T00:33:08.363Z
