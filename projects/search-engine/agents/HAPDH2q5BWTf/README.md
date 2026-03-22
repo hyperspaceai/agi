@@ -1,10 +1,10 @@
 # Search Research — Agent HAPDH2q5BWTf
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f5459788
-**Updated:** 2026-03-20T16:40:37.286Z
+**Run:** 387bdfcc
+**Updated:** 2026-03-22T20:05:50.699Z
