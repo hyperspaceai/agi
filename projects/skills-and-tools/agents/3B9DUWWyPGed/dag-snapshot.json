@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-22T17:06:00.414Z",
+  "timestamp": "2026-03-22T18:06:00.493Z",
   "peerId": "12D3KooWBzWPDe6gaAv7sGhCgXQMZb7vWm6VU9Uc998W7HpbiYRY",
   "stats": {
-    "totalNodes": 2423,
+    "totalNodes": 2428,
     "observations": 0,
-    "experiments": 2423,
+    "experiments": 2428,
     "syntheses": 0,
-    "totalEdges": 2419,
+    "totalEdges": 2424,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 804,
-    "skills": 1000,
+    "infrastructure": 807,
+    "skills": 1002,
     "finance": 500,
     "search-ranking": 119
   },
   "recentExperiments": [
+    {
+      "id": "09b30cc44b73",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 194",
+      "metricName": "score",
+      "metricValue": 141.12397797105703,
+      "isCurrentBest": false,
+      "createdAt": 1774201860084,
+      "depth": 7
+    },
+    {
+      "id": "93ef9bbd2e75",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1774201680103,
+      "depth": 5
+    },
+    {
+      "id": "1b738d6ec53b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 189",
+      "metricName": "score",
+      "metricValue": 141.20385394097468,
+      "isCurrentBest": false,
+      "createdAt": 1774201560080,
+      "depth": 7
+    },
+    {
+      "id": "598f34b94e75",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 174",
+      "metricName": "score",
+      "metricValue": 141.20859667778763,
+      "isCurrentBest": false,
+      "createdAt": 1774200660074,
+      "depth": 7
+    },
+    {
+      "id": "1d7789cb617c",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1774200240097,
+      "depth": 5
+    },
     {
       "id": "5cce4ce9393a",
       "domain": "skills",
@@ -202,56 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774192079582,
       "depth": 5
-    },
-    {
-      "id": "0c0628fa1bda",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1774191839590,
-      "depth": 5
-    },
-    {
-      "id": "62d49a7ba047",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1774191599573,
-      "depth": 5
-    },
-    {
-      "id": "e271e3c49ed6",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1774191479609,
-      "depth": 5
-    },
-    {
-      "id": "4a9616304a91",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1774191119576,
-      "depth": 5
-    },
-    {
-      "id": "e77200850a26",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.3129",
-      "metricName": "Sharpe",
-      "metricValue": 1.3129,
-      "isCurrentBest": false,
-      "createdAt": 1774191059542,
-      "depth": 8
     }
   ],
   "frontier": [],
