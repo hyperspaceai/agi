@@ -1,11 +1,11 @@
 # Financial Analysis — Agent EEeWRR84S91g
 
-**Best Sharpe Ratio:** 1.2181
-**Hypothesis:** Round 4 best mutation
+**Best Sharpe Ratio:** 1.2198
+**Hypothesis:** Round 5 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.3103
-**Max Drawdown:** 0.0592
+**Alpha:** 1.2996
+**Max Drawdown:** 0.0589
 **LLM:** unknown
-**Run:** finance-r4
-**Updated:** 2026-03-23T14:20:54.223Z
+**Run:** finance-r5
+**Updated:** 2026-03-23T14:23:24.214Z
