@@ -1,10 +1,10 @@
 # Search Research — Agent 6p9xNs74oSHL
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost diversity weight (+0.03)
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 24a84988
-**Updated:** 2026-03-22T00:24:35.998Z
+**Run:** 648ce7a8
+**Updated:** 2026-03-23T16:27:10.471Z
