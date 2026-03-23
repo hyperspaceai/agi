@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DRXJ9TeY1BQ4
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1997
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 35
+**Description:** Normalize Text: 0% correct, round 18
 
-_Updated: 2026-03-23T01:54:51.023Z_
+_Updated: 2026-03-23T03:24:41.869Z_
