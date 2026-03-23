@@ -1,10 +1,10 @@
 # Search Research — Agent BwMjcLzt4feJ
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** decrease diversity penalty (0.05)
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 6a3221d8
-**Updated:** 2026-03-23T04:10:37.633Z
+**Run:** fc20b2c0
+**Updated:** 2026-03-23T21:53:09.044Z
