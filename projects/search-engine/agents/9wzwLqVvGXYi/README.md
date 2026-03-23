@@ -1,10 +1,10 @@
 # Search Research — Agent 9wzwLqVvGXYi
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Hypothesis:** increase diversity penalty (0.2)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** cc21669f
-**Updated:** 2026-03-23T02:35:25.188Z
+**Run:** 7d0b9ae0
+**Updated:** 2026-03-23T22:02:22.822Z
