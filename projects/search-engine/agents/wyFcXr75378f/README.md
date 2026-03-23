@@ -1,10 +1,10 @@
 # Search Research — Agent wyFcXr75378f
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5543468c
-**Updated:** 2026-03-18T17:38:57.999Z
+**Run:** 168223d9
+**Updated:** 2026-03-23T16:39:00.493Z
