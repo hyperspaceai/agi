@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-23T03:35:52.789Z",
+  "timestamp": "2026-03-23T05:52:38.889Z",
   "peerId": "12D3KooWDPWJL9F38cX6uF3nHkrYQEV1SWx661UQXVsEdTr3zdPB",
   "stats": {
-    "totalNodes": 1497,
-    "observations": 1217,
-    "experiments": 280,
+    "totalNodes": 1619,
+    "observations": 1291,
+    "experiments": 328,
     "syntheses": 0,
-    "totalEdges": 276,
+    "totalEdges": 324,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 35
+    "recentActivity": 56
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "1447bfe0adaeb6a1900626a3b04e5604a572ebfa5148558c736238db21089317",
-      "title": "Cause infra-optimization round 435",
+      "nodeId": "b72d1557e7f78d78b8e00c68a9529e765b61fc7a0dc8f14e9801114579adc890",
+      "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 145.32195980141736,
+      "metricValue": 148.93925618316288,
       "metricDirection": "maximize",
-      "depth": 4
+      "depth": 5
     },
     "skills": {
       "nodeId": "e64ad5206795820de2442ed8522073d98c6dfaf795fcb424b3e361bf214ef2b4",
@@ -47,16 +47,103 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 121,
+    "infrastructure": 138,
     "skills": 54,
-    "finance": 35,
-    "search-ranking": 70,
-    "knowledge": 1217
+    "finance": 52,
+    "search-ranking": 84,
+    "knowledge": 1291
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "5b807b0e1de4",
+      "domain": "search-ranking",
+      "title": "Search round 50: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1774244300865,
+      "depth": 2
+    },
+    {
+      "id": "f04aae957471",
+      "domain": "search-ranking",
+      "title": "Search round 50: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1774244300578,
+      "depth": 2
+    },
+    {
+      "id": "acef5bc9c333",
+      "domain": "search-ranking",
+      "title": "Search round 46: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1774243940775,
+      "depth": 2
+    },
+    {
+      "id": "5bc49f2109e5",
+      "domain": "search-ranking",
+      "title": "Search round 46: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1774243940450,
+      "depth": 2
+    },
+    {
+      "id": "7960eaf077e3",
+      "domain": "search-ranking",
+      "title": "Search round 46: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1774243940095,
+      "depth": 2
+    },
+    {
+      "id": "fca4799aa38a",
+      "domain": "search-ranking",
+      "title": "Search round 46: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1774243939733,
+      "depth": 2
+    },
+    {
+      "id": "ce200d898663",
+      "domain": "finance",
+      "title": "Finance round 27: Sharpe=1.2946",
+      "metricName": "Sharpe",
+      "metricValue": 1.2946,
+      "isCurrentBest": false,
+      "createdAt": 1774243807827,
+      "depth": 8
+    },
+    {
+      "id": "78874cf8f5b6",
+      "domain": "finance",
+      "title": "Finance round 26: Sharpe=1.2890",
+      "metricName": "Sharpe",
+      "metricValue": 1.289,
+      "isCurrentBest": false,
+      "createdAt": 1774243657700,
+      "depth": 8
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "b72d1557e7f7",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.93925618316288,
+        "depth": 5
+      },
       {
         "id": "1447bfe0adae",
         "title": "Cause infra-optimization round 435",
