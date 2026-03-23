@@ -1,10 +1,10 @@
 # Search Research — Agent 2Tiot5DaEvTZ
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 0a719b78
-**Updated:** 2026-03-22T12:36:51.797Z
+**Run:** 39af2248
+**Updated:** 2026-03-18T03:32:31.381Z
