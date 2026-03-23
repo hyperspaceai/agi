@@ -1,10 +1,10 @@
 # Search Research — Agent FbTciT4DnnxF
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 2fa77690
-**Updated:** 2026-03-22T22:07:05.141Z
+**Run:** d1ac33f0
+**Updated:** 2026-03-23T07:47:52.208Z
