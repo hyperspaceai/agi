@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-23T03:51:46.083Z",
+  "timestamp": "2026-03-23T05:51:46.351Z",
   "peerId": "12D3KooWBH3droiKQmXBih1uSjEX1NXqjvX6GXhe1G1GDWJitAve",
   "stats": {
-    "totalNodes": 722,
+    "totalNodes": 726,
     "observations": 0,
-    "experiments": 722,
+    "experiments": 726,
     "syntheses": 0,
-    "totalEdges": 718,
+    "totalEdges": 722,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 27
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 283,
-    "skills": 256,
+    "infrastructure": 285,
+    "skills": 258,
     "finance": 155,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "994d6c541aa8",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774242106160,
+      "depth": 3
+    },
+    {
+      "id": "867af62e67bc",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 151",
+      "metricName": "score",
+      "metricValue": 0.9616030185655554,
+      "isCurrentBest": false,
+      "createdAt": 1774241626117,
+      "depth": 3
+    },
+    {
+      "id": "bd4329242fb6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 147",
+      "metricName": "score",
+      "metricValue": 0.9615800071948631,
+      "isCurrentBest": false,
+      "createdAt": 1774241386109,
+      "depth": 3
+    },
+    {
+      "id": "4b295b100318",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774240906106,
+      "depth": 3
+    },
     {
       "id": "15df75d82e00",
       "domain": "skills",
@@ -212,46 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774236255913,
       "depth": 12
-    },
-    {
-      "id": "0b66e34f4408",
-      "domain": "search-ranking",
-      "title": "Search round 38: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774235967044,
-      "depth": 2
-    },
-    {
-      "id": "ac76514fa3eb",
-      "domain": "search-ranking",
-      "title": "Search round 38: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774235965976,
-      "depth": 2
-    },
-    {
-      "id": "bc4434ea31f0",
-      "domain": "search-ranking",
-      "title": "Search round 38: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774235965874,
-      "depth": 2
-    },
-    {
-      "id": "4985c01666d9",
-      "domain": "search-ranking",
-      "title": "Search round 38: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": true,
-      "createdAt": 1774235965793,
-      "depth": 1
     }
   ],
   "frontier": [],
