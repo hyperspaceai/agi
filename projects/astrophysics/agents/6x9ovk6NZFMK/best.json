@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWFmWyfsg5k9cpPeXQDu1oMRXmqdwfh8BdhFKWmjWRUwx7",
-  "runNumber": 1,
-  "timestamp": 1773270792291,
-  "hypothesis": "Explore: more heads (8h)",
+  "runNumber": 4,
+  "timestamp": 1774243151592,
+  "hypothesis": "Improve on 8b028218 (loss=4.7706): higher gradient clip (5.0)",
   "config": {
     "nLayers": 2,
     "nHeads": 8,
@@ -27,7 +27,7 @@
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 1,
+    "gradientClipNorm": 5,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
     "initType": "normal",
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.770629121448432,
-    "trainLoss": 4.784026378696795,
+    "valLoss": 4.521094853936109,
+    "trainLoss": 4.543031265287105,
     "lossCurve": [
       [
-        15,
-        4.770629121448432
+        32,
+        4.521094853936109
       ]
     ],
-    "durationSec": 182.147,
-    "tokensPerSec": 168.6549874551873,
-    "totalTokens": 30720
+    "durationSec": 158.338,
+    "tokensPerSec": 413.89937980775306,
+    "totalTokens": 65536
   },
-  "improvement": 0,
+  "improvement": -5.230636487553258,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
