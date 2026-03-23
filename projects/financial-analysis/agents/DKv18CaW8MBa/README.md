@@ -1,11 +1,11 @@
 # Financial Analysis — Agent DKv18CaW8MBa
 
-**Best Sharpe Ratio:** 1.0827
-**Hypothesis:** Round 1 best mutation
+**Best Sharpe Ratio:** 1.1031
+**Hypothesis:** Round 2 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
-**Position Sizing:** equal_weight
-**Alpha:** 0.9212
-**Max Drawdown:** 0.0783
+**Position Sizing:** risk_parity
+**Alpha:** 1.1297
+**Max Drawdown:** 0.0822
 **LLM:** unknown
-**Run:** finance-r1
-**Updated:** 2026-03-23T20:42:47.422Z
+**Run:** finance-r2
+**Updated:** 2026-03-23T20:45:17.395Z
