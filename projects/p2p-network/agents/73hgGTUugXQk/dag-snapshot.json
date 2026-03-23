@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-23T08:26:18.582Z",
+  "peerId": "12D3KooWFs4r1b4csRgFFwcvL4cg7zjB2WoiuLAhpzX1x3nKch3Q",
+  "stats": {
+    "totalNodes": 2269,
+    "observations": 0,
+    "experiments": 2269,
+    "syntheses": 0,
+    "totalEdges": 1881,
+    "maxDepth": 7,
+    "activeExperiments": 249,
+    "recentActivity": 3
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "33f5b53781da8f484adc0f8d0d7ff63db596e713ccc2787da80690e440a3be96",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 149.61277209169373,
+      "metricDirection": "maximize",
+      "depth": 3
+    },
+    "skills": {
+      "nodeId": "dee4722ad6fe8b25913a57d6841a9a61d36bc15e2df8be044939740862afba1d",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "finance": {
+      "nodeId": "39eecad7af0f11c44acc6266beac55ea1a3a6ca7ecd7d154336d2f975a28ff1c",
+      "title": "Finance round 11: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "metricDirection": "maximize",
+      "depth": 6
+    },
+    "search-ranking": {
+      "nodeId": "be6a2aa9ab7daef0961be7f665265669a6fb49c391dd6fa26e95eb7dfad2c8da",
+      "title": "Search round 38: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "general": {
+      "nodeId": "f242b734225e433b6e8c8051928f2bbd8331a8e23e6cd075c4430d1971857efa",
+      "title": "AutoWeb round 98: 89/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 89,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 750,
+    "skills": 587,
+    "finance": 450,
+    "search-ranking": 98,
+    "general": 135,
+    "physics": 249
+  },
+  "recentExperiments": [
+    {
+      "id": "e108912a2433",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Do f(R) or Gauss‑Bonnet modified‑gravity theories admit warp\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774253261897,
+      "depth": 0
+    },
+    {
+      "id": "11624b4540a1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a semiclassical warp‑bubble geometry satisfy the Ford–Ro\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774253050235,
+      "depth": 0
+    },
+    {
+      "id": "3a1db43f52b7",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774251156636,
+      "depth": 0
+    },
+    {
+      "id": "c734871bc290",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774249786435,
+      "depth": 0
+    },
+    {
+      "id": "6ed5bc03378c",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774249568927,
+      "depth": 0
+    },
+    {
+      "id": "ac627d0f808a",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the gravitational‑wave emission of a warp‑drive bubble b\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774249173842,
+      "depth": 0
+    },
+    {
+      "id": "d85fede60825",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What are the permittivity \\(\\varepsilon(\\omega)\\) and permea\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774248908883,
+      "depth": 0
+    },
+    {
+      "id": "3a868f215ead",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 265",
+      "metricName": "score",
+      "metricValue": 145.08531394634983,
+      "isCurrentBest": false,
+      "createdAt": 1774248283692,
+      "depth": 4
+    },
+    {
+      "id": "45b56752b6e4",
+      "domain": "physics",
+      "title": "Wrote paper: \"## ABSTRACT\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774246971347,
+      "depth": 0
+    },
+    {
+      "id": "86dd5d4cb3d2",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What metamaterial permittivity and permeability dispersion p\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774246499308,
+      "depth": 0
+    },
+    {
+      "id": "9bc885590ee3",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a warp‑drive bubble be engineered such that its gravitat\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774245330292,
+      "depth": 0
+    },
+    {
+      "id": "ac4b7efd21bd",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1774245190174,
+      "depth": 3
+    },
+    {
+      "id": "17d005d932af",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: In non‑local \\(f(R)\\) gravity containing terms up to \\(R^{4}\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774245190171,
+      "depth": 0
+    },
+    {
+      "id": "e4a16e9ef6a3",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1774244970329,
+      "depth": 3
+    },
+    {
+      "id": "41ee658329c6",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the negative‑energy flux required for a stable warp driv\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774243504439,
+      "depth": 0
+    },
+    {
+      "id": "1c06d7ed7edd",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a rotating, anisotropic lattice of Casimir micro‑cavitie\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774243366506,
+      "depth": 0
+    },
+    {
+      "id": "6cf1068e3787",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 181",
+      "metricName": "score",
+      "metricValue": 145.0455502453353,
+      "isCurrentBest": false,
+      "createdAt": 1774243237500,
+      "depth": 4
+    },
+    {
+      "id": "e0e0a9fc3b46",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: In \\(f(R)\\) or Gauss–Bonnet modified gravity, can a warp‑dri\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1774243124123,
+      "depth": 0
+    },
+    {
+      "id": "d18e431f6c2e",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1774243103293,
+      "depth": 3
+    },
+    {
+      "id": "935ac4c1c662",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 175",
+      "metricName": "score",
+      "metricValue": 145.05933283619507,
+      "isCurrentBest": false,
+      "createdAt": 1774242877497,
+      "depth": 4
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "33f5b53781da",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 149.61277209169373,
+        "depth": 3
+      },
+      {
+        "id": "0aad48e40e33",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 149.4529835476562,
+        "depth": 2
+      },
+      {
+        "id": "65573e310ede",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.77901102971467,
+        "depth": 1
+      },
+      {
+        "id": "f96d9c592137",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.67803973024488,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "dee4722ad6fe",
+        "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 2
+      },
+      {
+        "id": "6c7f798cccca",
+        "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+        "metricValue": 0.1997,
+        "depth": 1
+      },
+      {
+        "id": "2cf28e1a4f3a",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1996,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "39eecad7af0f",
+        "title": "Finance round 11: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 6
+      },
+      {
+        "id": "f587bad7a80e",
+        "title": "Finance round 8: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 5
+      },
+      {
+        "id": "44da121bf40b",
+        "title": "Finance round 6: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 4
+      },
+      {
+        "id": "54cfb0dc4bc8",
+        "title": "Finance round 4: Sharpe=1.3031",
+        "metricValue": 1.3031,
+        "depth": 3
+      },
+      {
+        "id": "f8a107eb1a98",
+        "title": "Finance round 3: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 2
+      },
+      {
+        "id": "1439ffa88aa3",
+        "title": "Finance round 2: Sharpe=1.1550",
+        "metricValue": 1.155,
+        "depth": 1
+      },
+      {
+        "id": "8ac94e0215e1",
+        "title": "Finance round 1: Sharpe=1.1400",
+        "metricValue": 1.14,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "be6a2aa9ab7d",
+        "title": "Search round 38: require more local results (5)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
+      {
+        "id": "cd9a25a08807",
+        "title": "Search round 31: boost click weight (+0.03)",
+        "metricValue": 0.3963092975357146,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "f242b734225e",
+        "title": "AutoWeb round 98: 89/100",
+        "metricValue": 89,
+        "depth": 0
+      }
+    ]
+  }
+}
