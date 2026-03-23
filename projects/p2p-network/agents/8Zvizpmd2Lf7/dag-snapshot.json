@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-23T16:59:42.186Z",
+  "timestamp": "2026-03-23T17:59:42.489Z",
   "peerId": "12D3KooWHPHtjxMLDEvbvsMfSSt7uJ88RMBkkq8UQd8k2SisK7AC",
   "stats": {
-    "totalNodes": 689,
+    "totalNodes": 691,
     "observations": 0,
-    "experiments": 689,
+    "experiments": 691,
     "syntheses": 0,
-    "totalEdges": 686,
+    "totalEdges": 688,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 18
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 419,
+    "infrastructure": 421,
     "finance": 220,
     "search-ranking": 50
   },
   "recentExperiments": [
+    {
+      "id": "80f48d8f0ecf",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 62",
+      "metricName": "score",
+      "metricValue": 0.9789604433594586,
+      "isCurrentBest": false,
+      "createdAt": 1774287162307,
+      "depth": 6
+    },
+    {
+      "id": "e57aaf3918c8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 51",
+      "metricName": "score",
+      "metricValue": 0.9772352051760991,
+      "isCurrentBest": false,
+      "createdAt": 1774286502295,
+      "depth": 6
+    },
     {
       "id": "1ece31862fce",
       "domain": "finance",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1774281851899,
       "depth": 6
-    },
-    {
-      "id": "dcaf166bd395",
-      "domain": "finance",
-      "title": "Finance round 21: Sharpe=1.2779",
-      "metricName": "Sharpe",
-      "metricValue": 1.2779,
-      "isCurrentBest": false,
-      "createdAt": 1774281401894,
-      "depth": 7
-    },
-    {
-      "id": "aaea0d53a36a",
-      "domain": "finance",
-      "title": "Finance round 20: Sharpe=1.2738",
-      "metricName": "Sharpe",
-      "metricValue": 1.2738,
-      "isCurrentBest": false,
-      "createdAt": 1774281251899,
-      "depth": 7
     }
   ],
   "frontier": [],
