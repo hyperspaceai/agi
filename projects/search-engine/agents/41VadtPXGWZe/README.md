@@ -1,10 +1,10 @@
 # Search Research — Agent 41VadtPXGWZe
 
 **Best NDCG@10:** 0.3936
-**Hypothesis:** use softmax normalization
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 85714f12
-**Updated:** 2026-03-23T00:21:23.358Z
+**Run:** 0704af88
+**Updated:** 2026-03-23T04:01:03.502Z
