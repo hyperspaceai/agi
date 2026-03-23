@@ -1,10 +1,10 @@
 # Search Research — Agent 2ArLpyQtUZ1P
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5a72fc27
-**Updated:** 2026-03-18T03:21:20.586Z
+**Run:** 6699faac
+**Updated:** 2026-03-23T02:14:42.856Z
