@@ -1,10 +1,10 @@
 # Search Research — Agent ADpdJtan3FWE
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 01965a4a
-**Updated:** 2026-03-18T21:11:15.371Z
+**Run:** b9cb64f0
+**Updated:** 2026-03-23T02:00:47.954Z
