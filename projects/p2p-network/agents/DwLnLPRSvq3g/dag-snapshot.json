@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-23T03:35:27.082Z",
+  "timestamp": "2026-03-23T04:35:26.463Z",
   "peerId": "12D3KooWNkhx5X1A7jKB11a5gZdyapMw6hsVGy7pEdzikpp74J9m",
   "stats": {
-    "totalNodes": 316,
+    "totalNodes": 318,
     "observations": 0,
-    "experiments": 316,
+    "experiments": 318,
     "syntheses": 0,
-    "totalEdges": 314,
+    "totalEdges": 316,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 14
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -31,10 +31,30 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 208,
+    "infrastructure": 210,
     "finance": 108
   },
   "recentExperiments": [
+    {
+      "id": "f01b64c2432c",
+      "domain": "infrastructure",
+      "title": "Cause data-curation round 81",
+      "metricName": "score",
+      "metricValue": 0.9103352995679167,
+      "isCurrentBest": false,
+      "createdAt": 1774240046046,
+      "depth": 4
+    },
+    {
+      "id": "6e1e95e7fa02",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 69",
+      "metricName": "score",
+      "metricValue": 141.11926847713588,
+      "isCurrentBest": false,
+      "createdAt": 1774239325997,
+      "depth": 4
+    },
     {
       "id": "c2f4075a4ed9",
       "domain": "finance",
@@ -213,26 +233,6 @@
       "metricValue": 0.9555791212691536,
       "isCurrentBest": false,
       "createdAt": 1774231957088,
-      "depth": 4
-    },
-    {
-      "id": "6e12d1f53419",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1923",
-      "metricName": "Sharpe",
-      "metricValue": 1.1923,
-      "isCurrentBest": false,
-      "createdAt": 1774231927262,
-      "depth": 8
-    },
-    {
-      "id": "3f6bba795cc9",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 6",
-      "metricName": "score",
-      "metricValue": 0.9636717274304227,
-      "isCurrentBest": false,
-      "createdAt": 1774231897087,
       "depth": 4
     }
   ],
