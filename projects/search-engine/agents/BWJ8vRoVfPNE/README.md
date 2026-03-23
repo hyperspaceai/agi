@@ -1,10 +1,10 @@
 # Search Research — Agent BWJ8vRoVfPNE
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 17915fe1
-**Updated:** 2026-03-23T00:43:46.972Z
+**Run:** dbd85224
+**Updated:** 2026-03-23T02:32:09.862Z
