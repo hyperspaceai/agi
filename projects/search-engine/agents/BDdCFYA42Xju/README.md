@@ -1,10 +1,10 @@
 # Search Research — Agent BDdCFYA42Xju
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.4000
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 0ab5a420
-**Updated:** 2026-03-23T02:23:17.203Z
+**Run:** 425c3dcc
+**Updated:** 2026-03-23T03:57:28.968Z
