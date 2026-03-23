@@ -1,10 +1,10 @@
 # Search Research — Agent 8HFreAmCF5pn
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.4000
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** e4f65224
-**Updated:** 2026-03-23T00:46:58.363Z
+**Run:** 5f7bb57c
+**Updated:** 2026-03-23T04:27:39.807Z
