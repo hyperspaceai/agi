@@ -1,10 +1,10 @@
 # Search Research — Agent JWnLeAj9Ye1d
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** boost title weight (+0.05)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 6a542b28
-**Updated:** 2026-03-22T04:56:41.032Z
+**Run:** 5242d768
+**Updated:** 2026-03-23T22:52:00.930Z
