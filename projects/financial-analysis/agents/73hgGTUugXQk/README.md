@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 73hgGTUugXQk
 
-**Best Sharpe Ratio:** 1.2800
-**Hypothesis:** [LLM] Strengthen trend‑momentum tilt, tighten volatility target, add regime detection and reduce position size to curb drawdowns and improve Sharpe.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, trendWeight
+**Best Sharpe Ratio:** 1.3174
+**Hypothesis:** Round 11 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.5536
-**Max Drawdown:** 0.0547
+**Alpha:** 1.5172
+**Max Drawdown:** 0.0546
 **LLM:** unknown
-**Run:** llm-r8
-**Updated:** 2026-03-22T15:18:02.692Z
+**Run:** finance-r11
+**Updated:** 2026-03-23T01:38:08.097Z
