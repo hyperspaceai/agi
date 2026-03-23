@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-23T09:12:59.459Z",
+  "timestamp": "2026-03-23T10:12:59.479Z",
   "peerId": "12D3KooWJS32r7EDrpKGtx9hsUQ7XBTMexLtXF2dgRtrPSjwQVRv",
   "stats": {
-    "totalNodes": 699,
+    "totalNodes": 705,
     "observations": 0,
-    "experiments": 699,
+    "experiments": 705,
     "syntheses": 0,
-    "totalEdges": 616,
+    "totalEdges": 622,
     "maxDepth": 11,
     "activeExperiments": 64,
-    "recentActivity": 2
+    "recentActivity": 6
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,14 +55,74 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 261,
+    "infrastructure": 264,
     "skills": 196,
-    "finance": 119,
+    "finance": 122,
     "search-ranking": 44,
     "physics": 64,
     "general": 15
   },
   "recentExperiments": [
+    {
+      "id": "d2685050cd79",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 316",
+      "metricName": "score",
+      "metricValue": 0.9594102342436008,
+      "isCurrentBest": false,
+      "createdAt": 1774259488967,
+      "depth": 3
+    },
+    {
+      "id": "51b7f8b1176d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 312",
+      "metricName": "score",
+      "metricValue": 145.065076993898,
+      "isCurrentBest": false,
+      "createdAt": 1774259218965,
+      "depth": 3
+    },
+    {
+      "id": "68667bef5a74",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 299",
+      "metricName": "score",
+      "metricValue": 0.9502318987985525,
+      "isCurrentBest": false,
+      "createdAt": 1774258468961,
+      "depth": 3
+    },
+    {
+      "id": "ef069927db5c",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "isCurrentBest": false,
+      "createdAt": 1774257629099,
+      "depth": 11
+    },
+    {
+      "id": "6ab7e11432df",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.3064",
+      "metricName": "Sharpe",
+      "metricValue": 1.3064,
+      "isCurrentBest": false,
+      "createdAt": 1774257478967,
+      "depth": 11
+    },
+    {
+      "id": "7601db39d809",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2113",
+      "metricName": "Sharpe",
+      "metricValue": 1.2113,
+      "isCurrentBest": false,
+      "createdAt": 1774257328973,
+      "depth": 11
+    },
     {
       "id": "7bff75e21570",
       "domain": "finance",
@@ -199,65 +259,6 @@
       "isCurrentBest": false,
       "createdAt": 1774241817584,
       "depth": 1
-    },
-    {
-      "id": "7e5ebebbcde6",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 65",
-      "metricName": "score",
-      "metricValue": 141.28135784103162,
-      "isCurrentBest": false,
-      "createdAt": 1774236475735,
-      "depth": 3
-    },
-    {
-      "id": "b8e6aaada7e0",
-      "domain": "physics",
-      "title": "Wrote paper: \"Quantum Gravity Corrections to Warp Bubble Stability: Predicting the Velocity Threshol",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1774235282298,
-      "depth": 0
-    },
-    {
-      "id": "a393d4deb8d0",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774235181626,
-      "depth": 1
-    },
-    {
-      "id": "a8ea62b12080",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774233850262,
-      "depth": 1
-    },
-    {
-      "id": "3011872e121d",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 13",
-      "metricName": "score",
-      "metricValue": 141.55265901726122,
-      "isCurrentBest": false,
-      "createdAt": 1774233835683,
-      "depth": 3
-    },
-    {
-      "id": "ea2a6b97c9c9",
-      "domain": "general",
-      "title": "AutoWeb round 1: 63/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 63,
-      "isCurrentBest": false,
-      "createdAt": 1774229988199,
-      "depth": 0
     }
   ],
   "frontier": [],
