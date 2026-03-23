@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWFmWyfsg5k9cpPeXQDu1oMRXmqdwfh8BdhFKWmjWRUwx7",
-  "runNumber": 11,
-  "timestamp": 1774284432200,
-  "hypothesis": "Improve on 088f2f9c (loss=3.2900): muon LR (0.08)",
+  "runNumber": 4,
+  "timestamp": 1774294991822,
+  "hypothesis": "Improve on 8b028218 (loss=4.7706): higher gradient clip (5.0)",
   "config": {
     "nLayers": 2,
     "nHeads": 8,
@@ -12,23 +12,23 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.08,
+    "learningRate": 0.0003,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 600,
+    "maxDurationSec": 120,
     "warmupSteps": 100,
     "weightDecay": 0.01,
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "silu",
+    "activation": "gelu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 1,
-    "scheduleType": "constant",
+    "gradientClipNorm": 5,
+    "scheduleType": "cosine",
     "minLRRatio": 0.1,
     "initType": "normal",
     "initScale": 0.02,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.0715167674207153,
-    "trainLoss": 3.1009738630767862,
+    "valLoss": 4.521094853936109,
+    "trainLoss": 4.543031265287105,
     "lossCurve": [
       [
-        157,
-        3.0715167674207153
+        32,
+        4.521094853936109
       ]
     ],
-    "durationSec": 634.607,
-    "tokensPerSec": 506.6694820573993,
-    "totalTokens": 321536
+    "durationSec": 158.338,
+    "tokensPerSec": 413.89937980775306,
+    "totalTokens": 65536
   },
-  "improvement": -6.640966103104909,
+  "improvement": -5.230636487553258,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
