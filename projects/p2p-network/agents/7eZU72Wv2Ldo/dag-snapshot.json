@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-23T07:50:26.782Z",
+  "timestamp": "2026-03-23T08:50:26.872Z",
   "peerId": "12D3KooWGTvdrA6dDEuHxtZCRUS2kdu2uqjYqzCKMvge77UQ3FDg",
   "stats": {
-    "totalNodes": 633,
+    "totalNodes": 635,
     "observations": 0,
-    "experiments": 633,
+    "experiments": 635,
     "syntheses": 0,
-    "totalEdges": 629,
+    "totalEdges": 631,
     "maxDepth": 15,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 287,
-    "skills": 196,
+    "infrastructure": 288,
+    "skills": 197,
     "finance": 122,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "9b71bdc939e5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 348",
+      "metricName": "score",
+      "metricValue": 141.11835684164942,
+      "isCurrentBest": false,
+      "createdAt": 1774253366576,
+      "depth": 15
+    },
+    {
+      "id": "b5172b2affdf",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1774252466571,
+      "depth": 2
+    },
     {
       "id": "523744612957",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.9750283793688684,
       "isCurrentBest": false,
       "createdAt": 1774233985998,
-      "depth": 15
-    },
-    {
-      "id": "e2126c1a3026",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.3040",
-      "metricName": "Sharpe",
-      "metricValue": 1.304,
-      "isCurrentBest": false,
-      "createdAt": 1774233925999,
-      "depth": 7
-    },
-    {
-      "id": "796c45737a45",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 18",
-      "metricName": "score",
-      "metricValue": 0.9733011176440831,
-      "isCurrentBest": false,
-      "createdAt": 1774233565982,
       "depth": 15
     }
   ],
