@@ -1,10 +1,10 @@
 # Search Research — Agent BDdCFYA42Xju
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 178d9e25
-**Updated:** 2026-03-22T00:28:47.048Z
+**Run:** 0ab5a420
+**Updated:** 2026-03-23T02:23:17.203Z
