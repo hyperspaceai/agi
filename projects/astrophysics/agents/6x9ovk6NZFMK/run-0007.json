@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWFmWyfsg5k9cpPeXQDu1oMRXmqdwfh8BdhFKWmjWRUwx7",
+  "runNumber": 7,
+  "timestamp": 1774244908614,
+  "hypothesis": "Improve on 19321a64 (loss=4.0862): Xavier initialization",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 8,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 600,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "constant",
+    "minLRRatio": 0.1,
+    "initType": "xavier",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.29000487602825,
+    "trainLoss": 3.321257848522507,
+    "lossCurve": [
+      [
+        80,
+        3.29000487602825
+      ]
+    ],
+    "durationSec": 659.67,
+    "tokensPerSec": 248.36660754619734,
+    "totalTokens": 163840
+  },
+  "improvement": -19.484753905003892,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
