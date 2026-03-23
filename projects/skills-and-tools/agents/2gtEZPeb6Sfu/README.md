@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2gtEZPeb6Sfu
 
-**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct, round 38
+**Description:** Parse Key-Value Log: 0% correct, round 18
 
-_Updated: 2026-03-23T16:23:58.291Z_
+_Updated: 2026-03-23T17:08:52.212Z_
