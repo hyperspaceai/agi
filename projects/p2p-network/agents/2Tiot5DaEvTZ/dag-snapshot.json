@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-22T23:11:58.207Z",
+  "timestamp": "2026-03-23T00:11:58.359Z",
   "peerId": "12D3KooWBH5ydCoHRpj3eh94m3mYxfCXqHwwAepmCtm87fgBrdNE",
   "stats": {
-    "totalNodes": 1219,
+    "totalNodes": 1221,
     "observations": 0,
-    "experiments": 1219,
+    "experiments": 1221,
     "syntheses": 0,
-    "totalEdges": 1216,
+    "totalEdges": 1218,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 15
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 714,
+    "infrastructure": 716,
     "finance": 414,
     "search-ranking": 91
   },
   "recentExperiments": [
+    {
+      "id": "19b639d9f632",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 59",
+      "metricName": "score",
+      "metricValue": 0.972916665593979,
+      "isCurrentBest": false,
+      "createdAt": 1774222918073,
+      "depth": 4
+    },
+    {
+      "id": "067530c0d361",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 31",
+      "metricName": "score",
+      "metricValue": 0.9727018423492527,
+      "isCurrentBest": false,
+      "createdAt": 1774221238046,
+      "depth": 4
+    },
     {
       "id": "ace0b5d177c5",
       "domain": "finance",
@@ -222,26 +242,6 @@
       "metricValue": 1.3137,
       "isCurrentBest": false,
       "createdAt": 1774210727424,
-      "depth": 5
-    },
-    {
-      "id": "8c3ab2b21342",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.2194",
-      "metricName": "Sharpe",
-      "metricValue": 1.2194,
-      "isCurrentBest": false,
-      "createdAt": 1774210577442,
-      "depth": 5
-    },
-    {
-      "id": "bcb7d8247c34",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.2081",
-      "metricName": "Sharpe",
-      "metricValue": 1.2081,
-      "isCurrentBest": false,
-      "createdAt": 1774210427465,
       "depth": 5
     }
   ],
