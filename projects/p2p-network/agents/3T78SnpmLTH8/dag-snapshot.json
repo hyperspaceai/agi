@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-23T09:48:17.928Z",
+  "timestamp": "2026-03-23T10:48:17.975Z",
   "peerId": "12D3KooWCGUJBvQUXMYcmwDKTqoyGrxViCPmVJCpsjnAHxHLcFEm",
   "stats": {
-    "totalNodes": 664,
+    "totalNodes": 668,
     "observations": 0,
-    "experiments": 664,
+    "experiments": 668,
     "syntheses": 0,
-    "totalEdges": 660,
+    "totalEdges": 664,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 288,
+    "infrastructure": 292,
     "skills": 191,
     "finance": 132,
     "search-ranking": 53
   },
   "recentExperiments": [
+    {
+      "id": "e48f7c3d11da",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 492",
+      "metricName": "score",
+      "metricValue": 145.21564016290648,
+      "isCurrentBest": false,
+      "createdAt": 1774261877748,
+      "depth": 9
+    },
+    {
+      "id": "07152f5c1eac",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 480",
+      "metricName": "score",
+      "metricValue": 0.9308967374001256,
+      "isCurrentBest": false,
+      "createdAt": 1774261157744,
+      "depth": 9
+    },
+    {
+      "id": "6b4b83662db6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 470",
+      "metricName": "score",
+      "metricValue": 0.9293766316461421,
+      "isCurrentBest": false,
+      "createdAt": 1774260557741,
+      "depth": 9
+    },
+    {
+      "id": "420cf2697042",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 451",
+      "metricName": "score",
+      "metricValue": 0.929245505520062,
+      "isCurrentBest": false,
+      "createdAt": 1774259417727,
+      "depth": 9
+    },
     {
       "id": "adec2a668f1e",
       "domain": "infrastructure",
@@ -211,46 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1774235818569,
-      "depth": 2
-    },
-    {
-      "id": "a9d505145b4d",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774235818117,
-      "depth": 2
-    },
-    {
-      "id": "610f76e60f60",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774235817768,
-      "depth": 2
-    },
-    {
-      "id": "73db23ebbe77",
-      "domain": "finance",
-      "title": "Finance round 23: Sharpe=1.2780",
-      "metricName": "Sharpe",
-      "metricValue": 1.278,
-      "isCurrentBest": false,
-      "createdAt": 1774235747090,
-      "depth": 10
-    },
-    {
-      "id": "db4ed28d00d4",
-      "domain": "search-ranking",
-      "title": "Search round 32: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774235189102,
       "depth": 2
     }
   ],
