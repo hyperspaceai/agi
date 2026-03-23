@@ -1,10 +1,10 @@
 # Search Research — Agent wyFcXr75378f
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** disable intent classification
+**Best NDCG@10:** 0.4000
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 51119168
-**Updated:** 2026-03-23T03:51:51.176Z
+**Run:** 5543468c
+**Updated:** 2026-03-18T17:38:57.999Z
