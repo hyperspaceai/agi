@@ -1,10 +1,10 @@
 # Search Research — Agent H6iSbW1qGXgU
 
 **Best NDCG@10:** 0.3963
-**Hypothesis:** decrease diversity penalty (0.05)
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 29212c8d
-**Updated:** 2026-03-22T19:57:03.955Z
+**Run:** 37e40ceb
+**Updated:** 2026-03-23T02:03:17.657Z
