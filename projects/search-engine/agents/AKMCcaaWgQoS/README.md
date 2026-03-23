@@ -1,10 +1,10 @@
 # Search Research — Agent AKMCcaaWgQoS
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Hypothesis:** increase diversity penalty (0.2)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 068d80e4
-**Updated:** 2026-03-22T19:59:45.465Z
+**Run:** 947cc63b
+**Updated:** 2026-03-23T02:20:25.653Z
