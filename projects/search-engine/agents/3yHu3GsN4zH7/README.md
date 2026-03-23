@@ -1,10 +1,10 @@
 # Search Research — Agent 3yHu3GsN4zH7
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a1e6b5ac
-**Updated:** 2026-03-22T22:03:57.837Z
+**Run:** ddafe638
+**Updated:** 2026-03-23T00:35:28.908Z
