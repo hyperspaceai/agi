@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-23T12:51:12.482Z",
+  "timestamp": "2026-03-23T13:51:42.553Z",
   "peerId": "12D3KooWLkiuMUabFZunwPE4CBQz9XsTDpG79rfM4mkKJMYR4FoS",
   "stats": {
-    "totalNodes": 693,
+    "totalNodes": 695,
     "observations": 0,
-    "experiments": 693,
+    "experiments": 695,
     "syntheses": 0,
-    "totalEdges": 689,
+    "totalEdges": 691,
     "maxDepth": 11,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 319,
+    "infrastructure": 321,
     "skills": 212,
     "finance": 120,
     "search-ranking": 42
   },
   "recentExperiments": [
+    {
+      "id": "c7fb5164be42",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 659",
+      "metricName": "score",
+      "metricValue": 141.3204612501383,
+      "isCurrentBest": false,
+      "createdAt": 1774272072333,
+      "depth": 11
+    },
+    {
+      "id": "c279b2b933bd",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 637",
+      "metricName": "score",
+      "metricValue": 0.9378027237031968,
+      "isCurrentBest": false,
+      "createdAt": 1774270752314,
+      "depth": 11
+    },
     {
       "id": "6981e47f41e9",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774237511136,
       "depth": 11
-    },
-    {
-      "id": "671b7ff08041",
-      "domain": "search-ranking",
-      "title": "Search round 50: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774237015310,
-      "depth": 1
-    },
-    {
-      "id": "92999efceba2",
-      "domain": "search-ranking",
-      "title": "Search round 50: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774237015137,
-      "depth": 1
     }
   ],
   "frontier": [],
