@@ -1,10 +1,10 @@
 # Search Research — Agent C6ohknJtBwbS
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** e987c150
-**Updated:** 2026-03-22T12:37:45.013Z
+**Run:** 366e87f0
+**Updated:** 2026-03-23T16:51:59.512Z
