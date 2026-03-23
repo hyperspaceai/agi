@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 5QUGnodu8pSs
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Normalize Text (seed/mutation) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 197
+**Description:** Normalize Text: 0% correct, round 21
 
-_Updated: 2026-03-23T08:55:40.257Z_
+_Updated: 2026-03-23T15:43:11.345Z_
