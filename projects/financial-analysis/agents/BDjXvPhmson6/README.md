@@ -1,11 +1,11 @@
 # Financial Analysis — Agent BDjXvPhmson6
 
-**Best Sharpe Ratio:** 1.3161
-**Hypothesis:** [LLM] Adding drawdown protection to reduce exposure in bear markets and increasing weight of low volatility factor to improve Sharpe ratio.
+**Best Sharpe Ratio:** 1.4337
+**Hypothesis:** [LLM] Added drawdown protection to reduce exposure in bear market, and increased low volatility factor to reduce risk.
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.5045
-**Max Drawdown:** 0.0546
+**Alpha:** 1.6757
+**Max Drawdown:** 0.0446
 **LLM:** unknown
-**Run:** llm-r5
-**Updated:** 2026-03-23T10:10:33.964Z
+**Run:** llm-r9
+**Updated:** 2026-03-23T14:52:54.548Z
