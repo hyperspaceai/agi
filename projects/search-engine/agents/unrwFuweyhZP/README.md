@@ -1,10 +1,10 @@
 # Search Research — Agent unrwFuweyhZP
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** use z-score normalization
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9caccd94
-**Updated:** 2026-03-22T21:47:32.138Z
+**Run:** 0d9dcc30
+**Updated:** 2026-03-23T16:47:19.136Z
