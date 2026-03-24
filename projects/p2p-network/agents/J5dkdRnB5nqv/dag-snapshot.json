@@ -1,0 +1,346 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-24T13:55:34.076Z",
+  "peerId": "12D3KooWStzvNZMtGh7RBHQ96WCSRo2pfXqvBF4adMeKFiW4MQtx",
+  "stats": {
+    "totalNodes": 89,
+    "observations": 0,
+    "experiments": 89,
+    "syntheses": 0,
+    "totalEdges": 85,
+    "maxDepth": 15,
+    "activeExperiments": 0,
+    "recentActivity": 3
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "7d63660c8db9ecd78d17ff8ac9f5124463d7ba6b684a68ed76119a8e5e82f559",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 145.19662049287092,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "skills": {
+      "nodeId": "737cfe88a3c59b265631eb25a46096d451c48f4e3c0707b222803e7b6ae81d43",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "finance": {
+      "nodeId": "799a385ead4fe8806307de5f1e1bf1eb04a5213751638e095a399dfb4fb00aea",
+      "title": "Finance round 30: Sharpe=1.2946",
+      "metricName": "Sharpe",
+      "metricValue": 1.2946,
+      "metricDirection": "maximize",
+      "depth": 15
+    },
+    "search-ranking": {
+      "nodeId": "19c6fcd72f76c579b2d3d9972216994c672fee2e3a67a8ba0e5eafbb2b93da17",
+      "title": "Search round 35: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 26,
+    "skills": 26,
+    "finance": 23,
+    "search-ranking": 14
+  },
+  "recentExperiments": [
+    {
+      "id": "00ff2d1cb492",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 369",
+      "metricName": "score",
+      "metricValue": 0.9323350838351754,
+      "isCurrentBest": false,
+      "createdAt": 1774359204231,
+      "depth": 1
+    },
+    {
+      "id": "11728947da48",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 361",
+      "metricName": "score",
+      "metricValue": 0.9310592129412644,
+      "isCurrentBest": false,
+      "createdAt": 1774358719938,
+      "depth": 1
+    },
+    {
+      "id": "1b25858335fd",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 350",
+      "metricName": "score",
+      "metricValue": 0.9287857266812939,
+      "isCurrentBest": false,
+      "createdAt": 1774358053007,
+      "depth": 1
+    },
+    {
+      "id": "d43f44fa0515",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 228",
+      "metricName": "score",
+      "metricValue": 0.9439165626387167,
+      "isCurrentBest": false,
+      "createdAt": 1774350684048,
+      "depth": 1
+    },
+    {
+      "id": "37eeaeb0c5ef",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 224",
+      "metricName": "score",
+      "metricValue": 0.9401124294101642,
+      "isCurrentBest": false,
+      "createdAt": 1774350442023,
+      "depth": 1
+    },
+    {
+      "id": "7e49734314a4",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 214",
+      "metricName": "score",
+      "metricValue": 0.9376091733275285,
+      "isCurrentBest": false,
+      "createdAt": 1774349866887,
+      "depth": 1
+    },
+    {
+      "id": "899455c19955",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 191",
+      "metricName": "score",
+      "metricValue": 141.07824631823118,
+      "isCurrentBest": false,
+      "createdAt": 1774348469876,
+      "depth": 1
+    },
+    {
+      "id": "c0e04e0dd4e3",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 188",
+      "metricName": "score",
+      "metricValue": 141.29032658657667,
+      "isCurrentBest": false,
+      "createdAt": 1774348289502,
+      "depth": 1
+    },
+    {
+      "id": "a33d180d5586",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 123",
+      "metricName": "score",
+      "metricValue": 0.9404812446145823,
+      "isCurrentBest": false,
+      "createdAt": 1774344363658,
+      "depth": 1
+    },
+    {
+      "id": "799a385ead4f",
+      "domain": "finance",
+      "title": "Finance round 30: Sharpe=1.2946",
+      "metricName": "Sharpe",
+      "metricValue": 1.2946,
+      "isCurrentBest": true,
+      "createdAt": 1774341464813,
+      "depth": 15
+    },
+    {
+      "id": "54c79f912399",
+      "domain": "finance",
+      "title": "Finance round 29: Sharpe=1.2914",
+      "metricName": "Sharpe",
+      "metricValue": 1.2914,
+      "isCurrentBest": false,
+      "createdAt": 1774341314933,
+      "depth": 14
+    },
+    {
+      "id": "19c8c0ef6ab7",
+      "domain": "search-ranking",
+      "title": "Search round 47: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774341278806,
+      "depth": 1
+    },
+    {
+      "id": "4e09b798e976",
+      "domain": "search-ranking",
+      "title": "Search round 47: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774341278778,
+      "depth": 1
+    },
+    {
+      "id": "5be9f24b7677",
+      "domain": "search-ranking",
+      "title": "Search round 47: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774341278746,
+      "depth": 1
+    },
+    {
+      "id": "8f7c55b05679",
+      "domain": "search-ranking",
+      "title": "Search round 47: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774341278664,
+      "depth": 1
+    },
+    {
+      "id": "6fbe5351e9f3",
+      "domain": "search-ranking",
+      "title": "Search round 47: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774341275937,
+      "depth": 1
+    },
+    {
+      "id": "86d8b4a01988",
+      "domain": "search-ranking",
+      "title": "Search round 43: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774340919860,
+      "depth": 1
+    },
+    {
+      "id": "73f140c29a03",
+      "domain": "search-ranking",
+      "title": "Search round 43: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774340918255,
+      "depth": 1
+    },
+    {
+      "id": "772604deb017",
+      "domain": "search-ranking",
+      "title": "Search round 43: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774340914740,
+      "depth": 1
+    },
+    {
+      "id": "656a81d3bb08",
+      "domain": "search-ranking",
+      "title": "Search round 43: relaxed peer timeout (5s)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1774340909421,
+      "depth": 1
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "7d63660c8db9",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 145.19662049287092,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "737cfe88a3c5",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1999,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "799a385ead4f",
+        "title": "Finance round 30: Sharpe=1.2946",
+        "metricValue": 1.2946,
+        "depth": 15
+      },
+      {
+        "id": "54c79f912399",
+        "title": "Finance round 29: Sharpe=1.2914",
+        "metricValue": 1.2914,
+        "depth": 14
+      },
+      {
+        "id": "0c268969fc6e",
+        "title": "Finance round 25: Sharpe=1.2856",
+        "metricValue": 1.2856,
+        "depth": 13
+      },
+      {
+        "id": "4c81868f7f4a",
+        "title": "Finance round 24: Sharpe=1.2818",
+        "metricValue": 1.2818,
+        "depth": 12
+      },
+      {
+        "id": "05a00efaeb7a",
+        "title": "Finance round 21: Sharpe=1.2754",
+        "metricValue": 1.2754,
+        "depth": 11
+      },
+      {
+        "id": "5195d6bfb3c7",
+        "title": "Finance round 19: Sharpe=1.2711",
+        "metricValue": 1.2711,
+        "depth": 10
+      },
+      {
+        "id": "f39747099f31",
+        "title": "Finance round 16: Sharpe=1.2668",
+        "metricValue": 1.2668,
+        "depth": 9
+      },
+      {
+        "id": "ff6cfc7a8772",
+        "title": "Finance round 15: Sharpe=1.2619",
+        "metricValue": 1.2619,
+        "depth": 8
+      },
+      {
+        "id": "f6bdf0e66c44",
+        "title": "Finance round 9: Sharpe=1.2487",
+        "metricValue": 1.2487,
+        "depth": 7
+      },
+      {
+        "id": "3b291fb2a21b",
+        "title": "Finance round 11: Sharpe=1.2430",
+        "metricValue": 1.243,
+        "depth": 6
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "19c6fcd72f76",
+        "title": "Search round 35: relaxed peer timeout (5s)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
