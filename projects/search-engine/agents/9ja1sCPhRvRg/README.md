@@ -1,10 +1,10 @@
 # Search Research — Agent 9ja1sCPhRvRg
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 505d1e1a
-**Updated:** 2026-03-24T02:38:08.952Z
+**Run:** 0afdba40
+**Updated:** 2026-03-24T20:49:10.292Z
