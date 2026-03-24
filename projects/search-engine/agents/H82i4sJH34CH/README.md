@@ -1,10 +1,10 @@
 # Search Research — Agent H82i4sJH34CH
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase freshness bias (0.15)
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f9f4152b
-**Updated:** 2026-03-22T02:38:18.077Z
+**Run:** b88d1ef2
+**Updated:** 2026-03-24T02:24:56.144Z
