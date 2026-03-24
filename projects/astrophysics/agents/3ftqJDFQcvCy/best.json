@@ -2,27 +2,27 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCVG13Lq7opUUDGmmsb6D4LnyX32Aw9HZXZwiqbcbpcSu",
-  "runNumber": 1381,
-  "timestamp": 1773551088355,
-  "hypothesis": "Inspired by ZyzdZXyk (loss=1.7057): lower matrix LR (0.02)",
+  "runNumber": 2607,
+  "timestamp": 1774388209390,
+  "hypothesis": "Inspired by Y91wAKDD (loss=0.9954): heavy weight decay (0.4)",
   "config": {
-    "learningRate": 0.02
+    "weightDecay": 0.4
   },
   "result": {
-    "valLoss": 3.088005542130368,
-    "trainLoss": 3.0529514472421067,
+    "valLoss": 3.073446097199507,
+    "trainLoss": 3.0658748546593255,
     "lossCurve": [
       [
-        54,
-        3.088005542130368
+        96,
+        3.073446097199507
       ]
     ],
-    "durationSec": 135.618,
-    "tokensPerSec": 815.4669734106093,
-    "totalTokens": 110592
+    "durationSec": 128.961,
+    "tokensPerSec": 1524.5539349105543,
+    "totalTokens": 196608
   },
-  "improvement": -0.08635177111196368,
+  "improvement": -0.4714837694500028,
   "isNewBest": true,
   "gpu": null,
-  "inspiredBy": "12D3KooWLgkR1zs5SiVYFJk6op6yrazq7H9ByLKweAidZyzdZXyk"
+  "inspiredBy": "12D3KooWB1H5u7rJ8D5R6P4mkXHagFDBfdNf4Prv33meY91wAKDD"
 }
