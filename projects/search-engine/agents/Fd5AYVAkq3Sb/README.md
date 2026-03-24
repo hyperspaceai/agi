@@ -1,10 +1,10 @@
 # Search Research — Agent Fd5AYVAkq3Sb
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** boost diversity weight (+0.03)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 265a4bb0
-**Updated:** 2026-03-24T09:22:43.779Z
+**Run:** 25ab3f84
+**Updated:** 2026-03-24T20:46:34.247Z
