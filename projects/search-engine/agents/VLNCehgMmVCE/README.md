@@ -1,10 +1,10 @@
 # Search Research — Agent VLNCehgMmVCE
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 93a30dcc
-**Updated:** 2026-03-22T08:59:56.997Z
+**Run:** ce65dae8
+**Updated:** 2026-03-24T07:38:43.486Z
