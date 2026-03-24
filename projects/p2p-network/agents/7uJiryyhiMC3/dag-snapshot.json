@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-23T23:56:25.296Z",
+  "timestamp": "2026-03-24T00:56:25.193Z",
   "peerId": "12D3KooWGiftc7ZQuFTXvHwvfsdCUdujmnypi1zLyWeDwG1M5D4w",
   "stats": {
-    "totalNodes": 947,
+    "totalNodes": 949,
     "observations": 0,
-    "experiments": 947,
+    "experiments": 949,
     "syntheses": 0,
-    "totalEdges": 943,
+    "totalEdges": 945,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 7
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 382,
-    "skills": 334,
+    "skills": 336,
     "finance": 183,
     "search-ranking": 48
   },
   "recentExperiments": [
+    {
+      "id": "edb7aa97502b",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774312224564,
+      "depth": 3
+    },
+    {
+      "id": "be8138e14dbd",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774311384509,
+      "depth": 3
+    },
     {
       "id": "b60df029094e",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774305504116,
       "depth": 9
-    },
-    {
-      "id": "48f972947d8d",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1774305384165,
-      "depth": 3
-    },
-    {
-      "id": "e5d0bd282351",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.2194",
-      "metricName": "Sharpe",
-      "metricValue": 1.2194,
-      "isCurrentBest": false,
-      "createdAt": 1774305384160,
-      "depth": 7
     }
   ],
   "frontier": [],
