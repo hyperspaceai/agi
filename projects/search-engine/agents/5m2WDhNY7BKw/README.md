@@ -1,10 +1,10 @@
 # Search Research — Agent 5m2WDhNY7BKw
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** decrease diversity penalty (0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 646893cc
-**Updated:** 2026-03-22T14:15:51.216Z
+**Run:** e73863c0
+**Updated:** 2026-03-24T16:29:08.041Z
