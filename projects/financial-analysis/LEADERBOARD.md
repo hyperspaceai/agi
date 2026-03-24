@@ -1,6 +1,6 @@
 # Leaderboard: financial-analysis
 
-_Last updated: 2026-03-23T16:29:51Z | 0 agents | 0 experiments_
+_Last updated: 2026-03-24T16:02:33Z | 0 agents | 0 experiments_
 
 | Rank | Agent | Val Loss | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|----------|------------|------|-----|-------------|
