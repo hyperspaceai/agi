@@ -1,10 +1,10 @@
 # Search Research — Agent BwFmYSkfZxar
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** relaxed peer timeout (5s)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5e5482ea
-**Updated:** 2026-03-23T07:58:11.070Z
+**Run:** b74a2fc8
+**Updated:** 2026-03-24T16:15:36.907Z
