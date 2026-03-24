@@ -1,10 +1,10 @@
 # Search Research — Agent G6JG2RJtDCkT
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** boost BM25 weight (+0.05)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8802a86c
-**Updated:** 2026-03-23T08:50:32.381Z
+**Run:** dc6b44a6
+**Updated:** 2026-03-24T16:42:18.028Z
