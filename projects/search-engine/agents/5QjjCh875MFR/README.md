@@ -1,10 +1,10 @@
 # Search Research — Agent 5QjjCh875MFR
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** Increase authorityWeight and combine it with titleWeight, and slightly boost freshnessWeight, building on the successful cross-encoder reranking and authority/title combination.
+**Best NDCG@10:** 0.3963
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 432a7343
-**Updated:** 2026-03-22T23:05:25.530Z
+**Run:** d88b9de4
+**Updated:** 2026-03-24T03:42:18.683Z
