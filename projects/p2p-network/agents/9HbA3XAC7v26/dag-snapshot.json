@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T16:21:40.228Z",
+  "timestamp": "2026-03-24T17:21:40.664Z",
   "peerId": "12D3KooWJ6xKnejuJpHbEGf9hNH69bMJBZM955zbP7Wyrd3cpbxd",
   "stats": {
-    "totalNodes": 396,
+    "totalNodes": 397,
     "observations": 0,
-    "experiments": 396,
+    "experiments": 397,
     "syntheses": 0,
-    "totalEdges": 392,
+    "totalEdges": 393,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 12
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 146,
-    "skills": 138,
+    "skills": 139,
     "finance": 71,
     "search-ranking": 41
   },
   "recentExperiments": [
+    {
+      "id": "ad5b270d3aed",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774370860387,
+      "depth": 3
+    },
     {
       "id": "c5de96fa5b91",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774364859649,
       "depth": 3
-    },
-    {
-      "id": "8a31c67d7e0d",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 15",
-      "metricName": "score",
-      "metricValue": 0.9699781305474934,
-      "isCurrentBest": false,
-      "createdAt": 1774364859615,
-      "depth": 5
     }
   ],
   "frontier": [],
