@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T11:37:57.944Z",
+  "timestamp": "2026-03-24T12:37:58.453Z",
   "peerId": "12D3KooWRWtjMqJo2CsSPhv7fc2QuM3pFvcvLUySMWMdaLszMPKF",
   "stats": {
-    "totalNodes": 1757,
+    "totalNodes": 1760,
     "observations": 6,
-    "experiments": 1751,
+    "experiments": 1754,
     "syntheses": 0,
-    "totalEdges": 1747,
+    "totalEdges": 1750,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,13 +47,43 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 683,
+    "infrastructure": 686,
     "skills": 528,
     "finance": 402,
     "knowledge": 6,
     "search-ranking": 138
   },
   "recentExperiments": [
+    {
+      "id": "8e01718ed796",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 661",
+      "metricName": "score",
+      "metricValue": 145.00965650588128,
+      "isCurrentBest": false,
+      "createdAt": 1774354198219,
+      "depth": 2
+    },
+    {
+      "id": "fc8979dd583b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 660",
+      "metricName": "score",
+      "metricValue": 145.1177394496509,
+      "isCurrentBest": false,
+      "createdAt": 1774354138209,
+      "depth": 2
+    },
+    {
+      "id": "df46d71b9683",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 657",
+      "metricName": "score",
+      "metricValue": 145.1647173450016,
+      "isCurrentBest": false,
+      "createdAt": 1774353958170,
+      "depth": 2
+    },
     {
       "id": "b05ac27fb19c",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1774318649514,
-      "depth": 1
-    },
-    {
-      "id": "475d6fc79960",
-      "domain": "search-ranking",
-      "title": "Search round 46: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774318649453,
-      "depth": 1
-    },
-    {
-      "id": "79967d0243da",
-      "domain": "search-ranking",
-      "title": "Search round 46: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774318649408,
-      "depth": 1
-    },
-    {
-      "id": "9e232bab7c15",
-      "domain": "search-ranking",
-      "title": "Search round 42: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774318290677,
       "depth": 1
     }
   ],
