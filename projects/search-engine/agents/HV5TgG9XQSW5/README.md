@@ -1,10 +1,10 @@
 # Search Research — Agent HV5TgG9XQSW5
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** increase diversity penalty (0.2)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a6d9be50
-**Updated:** 2026-03-24T00:00:53.511Z
+**Run:** 23af9d4c
+**Updated:** 2026-03-24T02:26:52.851Z
