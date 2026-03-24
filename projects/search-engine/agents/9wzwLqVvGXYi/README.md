@@ -1,10 +1,10 @@
 # Search Research — Agent 9wzwLqVvGXYi
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** increase diversity penalty (0.2)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7d0b9ae0
-**Updated:** 2026-03-23T22:02:22.822Z
+**Run:** 84b27414
+**Updated:** 2026-03-24T02:57:47.303Z
