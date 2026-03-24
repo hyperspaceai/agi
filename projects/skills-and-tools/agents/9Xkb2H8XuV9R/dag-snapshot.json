@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T16:22:45.754Z",
+  "timestamp": "2026-03-24T17:22:45.760Z",
   "peerId": "12D3KooWJM7kmQiF6PQv2LRWzaTCmZmrNRATsWhSQrsb1cTa1FLd",
   "stats": {
-    "totalNodes": 2163,
+    "totalNodes": 2168,
     "observations": 0,
-    "experiments": 2163,
+    "experiments": 2168,
     "syntheses": 0,
-    "totalEdges": 2159,
+    "totalEdges": 2164,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 20
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 752,
-    "skills": 865,
+    "infrastructure": 754,
+    "skills": 868,
     "finance": 381,
     "search-ranking": 165
   },
   "recentExperiments": [
+    {
+      "id": "f3295c94bb6e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 135",
+      "metricName": "score",
+      "metricValue": 141.01486846790104,
+      "isCurrentBest": false,
+      "createdAt": 1774372125431,
+      "depth": 5
+    },
+    {
+      "id": "05dff52e3f27",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 113",
+      "metricName": "score",
+      "metricValue": 141.14486367334786,
+      "isCurrentBest": false,
+      "createdAt": 1774370805418,
+      "depth": 5
+    },
+    {
+      "id": "9fe6d21f81b3",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1774370445429,
+      "depth": 3
+    },
+    {
+      "id": "d1c7b8032481",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1774370325426,
+      "depth": 3
+    },
+    {
+      "id": "ee7f2ebc7b6a",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1774369965436,
+      "depth": 3
+    },
     {
       "id": "bfa04dca728c",
       "domain": "search-ranking",
@@ -202,56 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774367443725,
       "depth": 1
-    },
-    {
-      "id": "c74057caab71",
-      "domain": "search-ranking",
-      "title": "Search round 38: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774367442995,
-      "depth": 1
-    },
-    {
-      "id": "9bd30c4b9bcf",
-      "domain": "search-ranking",
-      "title": "Search round 38: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774367442284,
-      "depth": 1
-    },
-    {
-      "id": "a941d4cffd67",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1774366724863,
-      "depth": 3
-    },
-    {
-      "id": "aa4c2ac4d7a3",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1774366364879,
-      "depth": 3
-    },
-    {
-      "id": "91b2019d91e4",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 34",
-      "metricName": "score",
-      "metricValue": 0.9645364653775601,
-      "isCurrentBest": false,
-      "createdAt": 1774366064836,
-      "depth": 5
     }
   ],
   "frontier": [],
