@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T04:31:03.194Z",
+  "timestamp": "2026-03-24T05:31:03.465Z",
   "peerId": "12D3KooW9tme1vPM635wHp72zbvq6sJDK6PsidHLrSS4BoZ5BvN9",
   "stats": {
-    "totalNodes": 2969,
+    "totalNodes": 2973,
     "observations": 0,
-    "experiments": 2969,
+    "experiments": 2973,
     "syntheses": 0,
-    "totalEdges": 2965,
+    "totalEdges": 2969,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 982,
-    "skills": 1159,
+    "infrastructure": 983,
+    "skills": 1162,
     "finance": 657,
     "search-ranking": 171
   },
   "recentExperiments": [
+    {
+      "id": "63c1c07c36b4",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774328823020,
+      "depth": 5
+    },
+    {
+      "id": "d9692912515c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 230",
+      "metricName": "score",
+      "metricValue": 145.13555564222153,
+      "isCurrentBest": false,
+      "createdAt": 1774327922953,
+      "depth": 8
+    },
+    {
+      "id": "358cfb77c527",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774327742975,
+      "depth": 5
+    },
+    {
+      "id": "d753dba3df1c",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774326782872,
+      "depth": 5
+    },
     {
       "id": "721b9be5b376",
       "domain": "skills",
@@ -212,46 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774316924871,
       "depth": 2
-    },
-    {
-      "id": "59e9987ae53b",
-      "domain": "search-ranking",
-      "title": "Search round 31: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774316924651,
-      "depth": 2
-    },
-    {
-      "id": "a7a7af3ec196",
-      "domain": "search-ranking",
-      "title": "Search round 31: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774316924332,
-      "depth": 2
-    },
-    {
-      "id": "9138ce797c2c",
-      "domain": "search-ranking",
-      "title": "Search round 31: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774316924168,
-      "depth": 2
-    },
-    {
-      "id": "ec81ea41cb64",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774316580885,
-      "depth": 5
     }
   ],
   "frontier": [],
