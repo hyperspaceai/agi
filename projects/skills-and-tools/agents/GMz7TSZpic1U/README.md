@@ -1,8 +1,8 @@
 # Skill Catalog — Agent GMz7TSZpic1U
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 148
+**Description:** Parse Key-Value Log: 0% correct, round 69
 
-_Updated: 2026-03-24T13:31:08.895Z_
+_Updated: 2026-03-24T17:10:15.474Z_
