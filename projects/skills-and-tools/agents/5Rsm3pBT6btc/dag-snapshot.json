@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T06:48:13.295Z",
+  "timestamp": "2026-03-24T07:49:29.950Z",
   "peerId": "12D3KooWEFEvnwmAHWA6cRGhbjWMcR2TSTjbkMJ18H7nWpQh2k1e",
   "stats": {
-    "totalNodes": 539,
+    "totalNodes": 541,
     "observations": 32,
-    "experiments": 507,
+    "experiments": 509,
     "syntheses": 0,
-    "totalEdges": 503,
+    "totalEdges": 505,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 29
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,12 +48,32 @@
   },
   "domainCounts": {
     "infrastructure": 147,
-    "skills": 226,
+    "skills": 228,
     "finance": 84,
     "knowledge": 32,
     "search-ranking": 50
   },
   "recentExperiments": [
+    {
+      "id": "2e54dbf49b6c",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1774335753503,
+      "depth": 6
+    },
+    {
+      "id": "4243776056aa",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1774335138033,
+      "depth": 6
+    },
     {
       "id": "fe4a4bc62302",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "metricValue": 0.9742797106076072,
       "isCurrentBest": false,
       "createdAt": 1774332401753,
-      "depth": 3
-    },
-    {
-      "id": "7bc2153e5c25",
-      "domain": "search-ranking",
-      "title": "Search round 32: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774332341330,
-      "depth": 3
-    },
-    {
-      "id": "8ab08f1581ae",
-      "domain": "search-ranking",
-      "title": "Search round 32: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774332338858,
       "depth": 3
     }
   ],
