@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T06:29:16.915Z",
+  "timestamp": "2026-03-24T07:29:17.321Z",
   "peerId": "12D3KooWRwPsozszDxTmYegRngDNhG1cKNeoHMTaBUy3DLr7LP2e",
   "stats": {
-    "totalNodes": 1969,
+    "totalNodes": 1972,
     "observations": 0,
-    "experiments": 1969,
+    "experiments": 1972,
     "syntheses": 0,
-    "totalEdges": 1965,
+    "totalEdges": 1968,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 753,
-    "skills": 674,
+    "infrastructure": 754,
+    "skills": 676,
     "finance": 446,
     "search-ranking": 96
   },
   "recentExperiments": [
+    {
+      "id": "14b2dfed072d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 372",
+      "metricName": "score",
+      "metricValue": 141.18491013519215,
+      "isCurrentBest": false,
+      "createdAt": 1774336337150,
+      "depth": 7
+    },
+    {
+      "id": "6d3c0e16e778",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774336277143,
+      "depth": 3
+    },
+    {
+      "id": "924baf7856b0",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774335557064,
+      "depth": 3
+    },
     {
       "id": "496267f3a630",
       "domain": "skills",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774317554897,
       "depth": 9
-    },
-    {
-      "id": "398b099054ca",
-      "domain": "search-ranking",
-      "title": "Search round 39: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774317471156,
-      "depth": 2
-    },
-    {
-      "id": "50c319f471ab",
-      "domain": "search-ranking",
-      "title": "Search round 39: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774317470676,
-      "depth": 2
-    },
-    {
-      "id": "6bd79193003b",
-      "domain": "search-ranking",
-      "title": "Search round 39: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774317470644,
-      "depth": 2
     }
   ],
   "frontier": [],
