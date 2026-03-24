@@ -1,10 +1,10 @@
 # Search Research — Agent G2PrgmMeG1x8
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost freshness weight (+0.05)
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 10f8723f
-**Updated:** 2026-03-23T18:08:44.013Z
+**Run:** 5aa1bdd8
+**Updated:** 2026-03-24T02:54:24.214Z
