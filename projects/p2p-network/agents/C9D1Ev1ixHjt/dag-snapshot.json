@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T04:22:18.880Z",
+  "timestamp": "2026-03-24T05:41:56.632Z",
   "peerId": "12D3KooWLxaAz3bS9C1Nkti9rg6P13UizdkeVUKJnUt7hk4RRDdL",
   "stats": {
-    "totalNodes": 244,
+    "totalNodes": 248,
     "observations": 0,
-    "experiments": 244,
+    "experiments": 248,
     "syntheses": 0,
-    "totalEdges": 240,
+    "totalEdges": 244,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 7
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -30,12 +30,12 @@
       "depth": 1
     },
     "finance": {
-      "nodeId": "5c9011336d5cf47cce136e485f545510399ce520b16f189f1b48a78f419fa0ba",
-      "title": "Finance round 8: Sharpe=1.3137",
+      "nodeId": "aa667b1a1024cfb8460d5919239af759a1a681aad6312b4ee6864e4b165f13a7",
+      "title": "Finance round 17: Sharpe=1.3205",
       "metricName": "Sharpe",
-      "metricValue": 1.3137,
+      "metricValue": 1.3205,
       "metricDirection": "maximize",
-      "depth": 7
+      "depth": 8
     },
     "search-ranking": {
       "nodeId": "f669e0d21c4bf02a63cae649ef3523c541e9d6a09b214e3ef3f21c3b9d417ee7",
@@ -48,11 +48,51 @@
   },
   "domainCounts": {
     "infrastructure": 87,
-    "skills": 85,
-    "finance": 63,
+    "skills": 87,
+    "finance": 65,
     "search-ranking": 9
   },
   "recentExperiments": [
+    {
+      "id": "b000c8ba7637",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774327597833,
+      "depth": 2
+    },
+    {
+      "id": "a2f80f70d19e",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774327237822,
+      "depth": 2
+    },
+    {
+      "id": "aa667b1a1024",
+      "domain": "finance",
+      "title": "Finance round 17: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "isCurrentBest": true,
+      "createdAt": 1774326907809,
+      "depth": 8
+    },
+    {
+      "id": "b81e73eb0192",
+      "domain": "finance",
+      "title": "Finance round 14: Sharpe=1.3137",
+      "metricName": "Sharpe",
+      "metricValue": 1.3137,
+      "isCurrentBest": false,
+      "createdAt": 1774326438934,
+      "depth": 8
+    },
     {
       "id": "c77b7c2b662d",
       "domain": "finance",
@@ -212,46 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774318022846,
       "depth": 2
-    },
-    {
-      "id": "805c26d0ff8d",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1774317303921,
-      "depth": 2
-    },
-    {
-      "id": "febd9ae4190a",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1940",
-      "metricName": "Sharpe",
-      "metricValue": 1.194,
-      "isCurrentBest": false,
-      "createdAt": 1774317273974,
-      "depth": 8
-    },
-    {
-      "id": "627d7fb6653f",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1774316584544,
-      "depth": 2
-    },
-    {
-      "id": "e96ec6bba642",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1774315861236,
-      "depth": 2
     }
   ],
   "frontier": [],
@@ -279,6 +279,12 @@
       }
     ],
     "finance": [
+      {
+        "id": "aa667b1a1024",
+        "title": "Finance round 17: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 8
+      },
       {
         "id": "5c9011336d5c",
         "title": "Finance round 8: Sharpe=1.3137",
