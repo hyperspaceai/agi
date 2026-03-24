@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T02:31:02.068Z",
+  "timestamp": "2026-03-24T03:31:02.579Z",
   "peerId": "12D3KooW9tme1vPM635wHp72zbvq6sJDK6PsidHLrSS4BoZ5BvN9",
   "stats": {
-    "totalNodes": 2965,
+    "totalNodes": 2969,
     "observations": 0,
-    "experiments": 2965,
+    "experiments": 2969,
     "syntheses": 0,
-    "totalEdges": 2961,
+    "totalEdges": 2965,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 18
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 981,
-    "skills": 1156,
+    "infrastructure": 982,
+    "skills": 1159,
     "finance": 657,
     "search-ranking": 171
   },
   "recentExperiments": [
+    {
+      "id": "721b9be5b376",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774321501330,
+      "depth": 5
+    },
+    {
+      "id": "1e14f0c8f8b7",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774321021349,
+      "depth": 5
+    },
+    {
+      "id": "5ab99ac8e8df",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774319701234,
+      "depth": 5
+    },
+    {
+      "id": "adc0d439b032",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 92",
+      "metricName": "score",
+      "metricValue": 0.9662559903580624,
+      "isCurrentBest": false,
+      "createdAt": 1774319641217,
+      "depth": 8
+    },
     {
       "id": "e6ec8b948cc4",
       "domain": "search-ranking",
@@ -211,46 +251,6 @@
       "metricValue": 0.1994,
       "isCurrentBest": false,
       "createdAt": 1774316580885,
-      "depth": 5
-    },
-    {
-      "id": "a1c8301f169c",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774316460939,
-      "depth": 5
-    },
-    {
-      "id": "7f7b6bc70ab2",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774316100873,
-      "depth": 5
-    },
-    {
-      "id": "7fccef757c5c",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774315740848,
-      "depth": 5
-    },
-    {
-      "id": "0c6ef6dc4ca0",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1774315620860,
       "depth": 5
     }
   ],
