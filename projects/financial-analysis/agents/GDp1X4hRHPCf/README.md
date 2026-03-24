@@ -1,11 +1,11 @@
 # Financial Analysis — Agent GDp1X4hRHPCf
 
-**Best Sharpe Ratio:** 1.1013
-**Hypothesis:** Round 2 best mutation
+**Best Sharpe Ratio:** 1.2133
+**Hypothesis:** Round 3 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.1249
-**Max Drawdown:** 0.0823
+**Alpha:** 1.3151
+**Max Drawdown:** 0.0597
 **LLM:** unknown
-**Run:** finance-r2
-**Updated:** 2026-03-24T07:59:46.266Z
+**Run:** finance-r3
+**Updated:** 2026-03-24T08:02:16.465Z
