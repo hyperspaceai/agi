@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T09:31:06.989Z",
+  "timestamp": "2026-03-24T11:31:07.428Z",
   "peerId": "12D3KooWDmkAwKSXiiaCfiqAuqfLjmPud724JZzBo3fWCfzkdtWX",
   "stats": {
-    "totalNodes": 187,
+    "totalNodes": 190,
     "observations": 0,
-    "experiments": 187,
+    "experiments": 190,
     "syntheses": 0,
-    "totalEdges": 183,
+    "totalEdges": 186,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 69,
+    "infrastructure": 72,
     "skills": 61,
     "finance": 38,
     "search-ranking": 19
   },
   "recentExperiments": [
+    {
+      "id": "97835920db3b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 567",
+      "metricName": "score",
+      "metricValue": 144.99249679489793,
+      "isCurrentBest": false,
+      "createdAt": 1774348117091,
+      "depth": 2
+    },
+    {
+      "id": "8464496c379e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 526",
+      "metricName": "score",
+      "metricValue": 145.06736740846566,
+      "isCurrentBest": false,
+      "createdAt": 1774345656942,
+      "depth": 2
+    },
+    {
+      "id": "188b49eaef25",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 521",
+      "metricName": "score",
+      "metricValue": 145.06952605608626,
+      "isCurrentBest": false,
+      "createdAt": 1774345356932,
+      "depth": 2
+    },
     {
       "id": "f3f26ece8931",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.395,
       "isCurrentBest": false,
       "createdAt": 1774318225684,
-      "depth": 2
-    },
-    {
-      "id": "1080de768373",
-      "domain": "search-ranking",
-      "title": "Search round 46: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1774318225173,
-      "depth": 2
-    },
-    {
-      "id": "ba43751fdf51",
-      "domain": "search-ranking",
-      "title": "Search round 42: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1774317866311,
-      "depth": 2
-    },
-    {
-      "id": "c76d6a5e4829",
-      "domain": "search-ranking",
-      "title": "Search round 42: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1774317865685,
       "depth": 2
     }
   ],
