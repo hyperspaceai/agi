@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-24T07:16:39.358Z",
+  "peerId": "12D3KooWEW8T6ktTHiPvSfwt4zQCyYD5sW1pmcdiQWTuNnaRKF8z",
+  "stats": {
+    "totalNodes": 547,
+    "observations": 480,
+    "experiments": 67,
+    "syntheses": 0,
+    "totalEdges": 57,
+    "maxDepth": 3,
+    "activeExperiments": 0,
+    "recentActivity": 31
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "b304907133c1e27a9f21674898981445dd1095cb1eab955ee06c037209be5a48",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 147.382589568223,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "finance": {
+      "nodeId": "bf8a15e75efa05ba51ec75f88cf52b648e39e93d1be06e63538d63fa140b43be",
+      "title": "Finance round 3: Sharpe=1.1948",
+      "metricName": "Sharpe",
+      "metricValue": 1.1948,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "general": {
+      "nodeId": "057e6579c8bb4c4ec76974e28937b9af6246b440dee684a232f09674dc0ca366",
+      "title": "AutoWeb round 2: 74/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 74,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "skills": {
+      "nodeId": "cbd3600bbfba2274938e4c40c922de888fb15ecfcbe2ca661f34833fc9521073",
+      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1975,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "knowledge": 480,
+    "infrastructure": 51,
+    "finance": 8,
+    "general": 7,
+    "skills": 1
+  },
+  "recentExperiments": [
+    {
+      "id": "37070a87c230",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1122",
+      "metricName": "Sharpe",
+      "metricValue": 1.1122,
+      "isCurrentBest": false,
+      "createdAt": 1774336599160,
+      "depth": 3
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "b304907133c1",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.382589568223,
+        "depth": 2
+      },
+      {
+        "id": "a8427c2a6f3b",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 145.6199299516069,
+        "depth": 1
+      },
+      {
+        "id": "4daf2a9ae663",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 142.41062180684793,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "bf8a15e75efa",
+        "title": "Finance round 3: Sharpe=1.1948",
+        "metricValue": 1.1948,
+        "depth": 2
+      },
+      {
+        "id": "bef12d9b5628",
+        "title": "Finance round 2: Sharpe=1.1870",
+        "metricValue": 1.187,
+        "depth": 1
+      },
+      {
+        "id": "60ae67593ec6",
+        "title": "Finance round 1: Sharpe=1.1782",
+        "metricValue": 1.1782,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "057e6579c8bb",
+        "title": "AutoWeb round 2: 74/100",
+        "metricValue": 74,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "cbd3600bbfba",
+        "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
+        "metricValue": 0.1975,
+        "depth": 0
+      }
+    ]
+  }
+}
