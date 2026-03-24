@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T04:32:02.105Z",
+  "timestamp": "2026-03-24T06:32:03.088Z",
   "peerId": "12D3KooWQ49EZqnWLVM5yWCuFL7St5NnR1kwjLpMWYnRtqF4xTXh",
   "stats": {
-    "totalNodes": 944,
+    "totalNodes": 948,
     "observations": 0,
-    "experiments": 944,
+    "experiments": 948,
     "syntheses": 0,
-    "totalEdges": 940,
+    "totalEdges": 944,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 292,
-    "skills": 306,
+    "infrastructure": 295,
+    "skills": 307,
     "finance": 229,
     "search-ranking": 117
   },
   "recentExperiments": [
+    {
+      "id": "95d316bd3819",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 307",
+      "metricName": "score",
+      "metricValue": 0.978855676298841,
+      "isCurrentBest": false,
+      "createdAt": 1774332602832,
+      "depth": 1
+    },
+    {
+      "id": "98e462fe18a8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 265",
+      "metricName": "score",
+      "metricValue": 0.9773534661680233,
+      "isCurrentBest": false,
+      "createdAt": 1774330082503,
+      "depth": 1
+    },
+    {
+      "id": "1a3407c26d63",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 254",
+      "metricName": "score",
+      "metricValue": 0.9725403871026584,
+      "isCurrentBest": false,
+      "createdAt": 1774329422422,
+      "depth": 1
+    },
+    {
+      "id": "99b611a00366",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1774327202126,
+      "depth": 2
+    },
     {
       "id": "5e6f4d1cf6fa",
       "domain": "infrastructure",
@@ -211,46 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1774317217971,
-      "depth": 2
-    },
-    {
-      "id": "bca1e02bb54f",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost diversity weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1774317217840,
-      "depth": 2
-    },
-    {
-      "id": "1ac6e6d774ce",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost diversity weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1774317217787,
-      "depth": 2
-    },
-    {
-      "id": "6578fc43fcf3",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 45",
-      "metricName": "score",
-      "metricValue": 0.973560852632276,
-      "isCurrentBest": false,
-      "createdAt": 1774316880826,
-      "depth": 1
-    },
-    {
-      "id": "e5aa55390c30",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1774316640808,
       "depth": 2
     }
   ],
