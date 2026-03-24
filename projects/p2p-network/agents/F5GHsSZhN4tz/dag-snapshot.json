@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-24T07:30:01.953Z",
+  "timestamp": "2026-03-24T08:30:02.009Z",
   "peerId": "12D3KooWPtdTca9QYyAUTEu9kkqRzNHidDBvxfo72QHGQFo5zUmj",
   "stats": {
-    "totalNodes": 715,
+    "totalNodes": 716,
     "observations": 0,
-    "experiments": 715,
+    "experiments": 716,
     "syntheses": 0,
-    "totalEdges": 712,
+    "totalEdges": 713,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,21 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 423,
+    "infrastructure": 424,
     "finance": 217,
     "search-ranking": 75
   },
   "recentExperiments": [
+    {
+      "id": "4d36ef38f62a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 419",
+      "metricName": "score",
+      "metricValue": 145.11865426605343,
+      "isCurrentBest": false,
+      "createdAt": 1774339201716,
+      "depth": 9
+    },
     {
       "id": "7c88ba353dac",
       "domain": "infrastructure",
@@ -232,16 +242,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1774316801930,
-      "depth": 1
-    },
-    {
-      "id": "a88686f90e67",
-      "domain": "search-ranking",
-      "title": "Search round 31: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774316801613,
       "depth": 1
     }
   ],
