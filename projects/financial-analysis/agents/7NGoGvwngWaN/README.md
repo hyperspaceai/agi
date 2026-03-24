@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 7NGoGvwngWaN
 
-**Best Sharpe Ratio:** 1.0735
-**Hypothesis:** Round 1 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
-**Position Sizing:** equal_weight
-**Alpha:** 0.8981
-**Max Drawdown:** 0.0786
+**Best Sharpe Ratio:** 1.1400
+**Hypothesis:** [LLM] Implement regime-adaptive factor weights based on recent research suggesting title and authority weights improve NDCG@10.
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, regimeWeight
+**Position Sizing:** inverse_vol
+**Alpha:** 0.8403
+**Max Drawdown:** 0.0552
 **LLM:** unknown
-**Run:** finance-r1
-**Updated:** 2026-03-24T14:09:55.138Z
+**Run:** llm-r1
+**Updated:** 2026-03-24T21:19:05.093Z
