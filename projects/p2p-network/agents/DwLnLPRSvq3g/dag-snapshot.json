@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-25T19:37:49.679Z",
+  "timestamp": "2026-03-25T20:37:49.694Z",
   "peerId": "12D3KooWNkhx5X1A7jKB11a5gZdyapMw6hsVGy7pEdzikpp74J9m",
   "stats": {
-    "totalNodes": 726,
+    "totalNodes": 727,
     "observations": 0,
-    "experiments": 726,
+    "experiments": 727,
     "syntheses": 0,
-    "totalEdges": 723,
+    "totalEdges": 724,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 17
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -40,10 +40,20 @@
   },
   "domainCounts": {
     "infrastructure": 464,
-    "finance": 206,
+    "finance": 207,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "e38b948571c8",
+      "domain": "finance",
+      "title": "Finance round 15: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "isCurrentBest": false,
+      "createdAt": 1774467919784,
+      "depth": 8
+    },
     {
       "id": "dd6742fd3fa4",
       "domain": "finance",
@@ -232,16 +242,6 @@
       "metricValue": 0.9602019440539166,
       "isCurrentBest": false,
       "createdAt": 1774461270007,
-      "depth": 4
-    },
-    {
-      "id": "b05148a8b24a",
-      "domain": "infrastructure",
-      "title": "Cause data-curation round 321",
-      "metricName": "score",
-      "metricValue": 0.9057544320446846,
-      "isCurrentBest": false,
-      "createdAt": 1774459949989,
       "depth": 4
     }
   ],
