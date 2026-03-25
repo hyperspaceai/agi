@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 3wC64TLRAPv3
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 56
+**Description:** Structured JSON Diff: 0% correct, round 9
 
-_Updated: 2026-03-24T20:51:01.441Z_
+_Updated: 2026-03-25T02:23:48.603Z_
