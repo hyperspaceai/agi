@@ -1,10 +1,10 @@
 # Search Research — Agent AnwBieLfcrhd
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1ebb278c
-**Updated:** 2026-03-23T23:54:12.450Z
+**Run:** daa64b30
+**Updated:** 2026-03-25T16:33:42.208Z
