@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWFtp3GoeBgpD6JGUJT9tm1kQTUD5HkzkihfLFMVCiDRqe",
-  "runNumber": 1,
-  "timestamp": 1774415654788,
-  "hypothesis": "Explore: higher gradient clip (5.0)",
+  "runNumber": 3,
+  "timestamp": 1774416235693,
+  "hypothesis": "Improve on 90dd5a89 (loss=4.6197): switch to ReLU activation",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -21,7 +21,7 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "gelu",
+    "activation": "relu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.619686664778232,
-    "trainLoss": 4.620418014887859,
+    "valLoss": 4.564774531207469,
+    "trainLoss": 4.577783020564681,
     "lossCurve": [
       [
-        25,
-        4.619686664778232
+        28,
+        4.564774531207469
       ]
     ],
-    "durationSec": 155.064,
-    "tokensPerSec": 330.18624567920347,
-    "totalTokens": 51200
+    "durationSec": 151.708,
+    "tokensPerSec": 377.98929522503755,
+    "totalTokens": 57344
   },
-  "improvement": 0,
+  "improvement": -1.1886549360463876,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
