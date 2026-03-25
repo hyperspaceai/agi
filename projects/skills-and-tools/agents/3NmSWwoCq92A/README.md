@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 3NmSWwoCq92A
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 79
+**Description:** Structured JSON Diff: 0% correct, round 100
 
-_Updated: 2026-03-25T19:07:35.880Z_
+_Updated: 2026-03-25T19:49:35.715Z_
