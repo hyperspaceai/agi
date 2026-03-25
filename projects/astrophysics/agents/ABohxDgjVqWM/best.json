@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWK1AshMGSgjmqj5Yi2f3ZqLoUubwxn3ksN4EFLTuCKidd",
-  "runNumber": 1,
-  "timestamp": 1774401934494,
-  "hypothesis": "Explore: higher LR (0.003)",
+  "runNumber": 2,
+  "timestamp": 1774402602579,
+  "hypothesis": "Improve on f5f1aac8 (loss=4.0565): extended training (600s)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -15,7 +15,7 @@
     "learningRate": 0.003,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 120,
+    "maxDurationSec": 600,
     "warmupSteps": 100,
     "weightDecay": 0.01,
     "evalInterval": 200,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.056461636769042,
-    "trainLoss": 4.097983747706387,
+    "valLoss": 3.572395144713281,
+    "trainLoss": 3.611597219405186,
     "lossCurve": [
       [
-        23,
-        4.056461636769042
+        113,
+        3.572395144713281
       ]
     ],
-    "durationSec": 153.653,
-    "tokensPerSec": 306.5608871938719,
-    "totalTokens": 47104
+    "durationSec": 639.268,
+    "tokensPerSec": 362.014053573775,
+    "totalTokens": 231424
   },
-  "improvement": 0,
+  "improvement": -11.933220017860636,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
