@@ -1,10 +1,10 @@
 # Search Research — Agent 6ZQm6LcgRqkd
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.3899
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** df9caf0c
-**Updated:** 2026-03-24T16:14:42.821Z
+**Run:** 1ba8737c
+**Updated:** 2026-03-25T15:46:00.291Z
