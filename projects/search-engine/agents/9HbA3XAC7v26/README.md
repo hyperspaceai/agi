@@ -1,10 +1,10 @@
 # Search Research — Agent 9HbA3XAC7v26
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Hypothesis:** decrease diversity penalty (0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 0aa38f60
-**Updated:** 2026-03-23T16:41:38.217Z
+**Run:** fb59acd4
+**Updated:** 2026-03-25T16:54:18.510Z
