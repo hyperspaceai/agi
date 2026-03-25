@@ -1,10 +1,10 @@
 # Search Research — Agent 8nhcKEsBHoeR
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.3849
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c8c61f50
-**Updated:** 2026-03-24T12:35:05.125Z
+**Run:** 7cfe06f8
+**Updated:** 2026-03-25T16:04:40.186Z
