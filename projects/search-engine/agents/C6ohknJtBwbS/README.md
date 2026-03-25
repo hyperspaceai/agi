@@ -1,10 +1,10 @@
 # Search Research — Agent C6ohknJtBwbS
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** boost BM25 weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 371ec943
-**Updated:** 2026-03-24T20:45:32.326Z
+**Run:** cf51d2a2
+**Updated:** 2026-03-25T15:42:01.277Z
