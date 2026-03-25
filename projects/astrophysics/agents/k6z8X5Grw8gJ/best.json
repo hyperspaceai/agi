@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWAZU9seez3qQAiFipLsvuxbaN5TQHPEMf3Cm75FQRXM5V",
-  "runNumber": 1,
-  "timestamp": 1774407770714,
-  "hypothesis": "Explore: lower min LR ratio (0.01)",
+  "runNumber": 9,
+  "timestamp": 1774408430372,
+  "hypothesis": "Improve on 90ec0960 (loss=3.8761): aggressive LR (0.006) + warmup",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -12,11 +12,11 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.006,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
-    "warmupSteps": 100,
+    "warmupSteps": 500,
     "weightDecay": 0.01,
     "evalInterval": 200,
     "evalSteps": 10,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.8761027434019995,
-    "trainLoss": 3.9009696309569497,
+    "valLoss": 3.6666491054752504,
+    "trainLoss": 3.706714491235477,
     "lossCurve": [
       [
         80,
-        3.8761027434019995
+        3.6666491054752504
       ]
     ],
-    "durationSec": 132.691,
-    "tokensPerSec": 1234.7484004190187,
+    "durationSec": 133.433,
+    "tokensPerSec": 1227.8821580868303,
     "totalTokens": 163840
   },
-  "improvement": 0,
+  "improvement": -5.403717388123583,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
