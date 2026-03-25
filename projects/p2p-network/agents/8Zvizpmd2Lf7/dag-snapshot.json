@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-25T14:44:02.766Z",
+  "timestamp": "2026-03-25T15:44:03.178Z",
   "peerId": "12D3KooWHPHtjxMLDEvbvsMfSSt7uJ88RMBkkq8UQd8k2SisK7AC",
   "stats": {
-    "totalNodes": 912,
+    "totalNodes": 913,
     "observations": 0,
-    "experiments": 912,
+    "experiments": 913,
     "syntheses": 0,
-    "totalEdges": 909,
+    "totalEdges": 910,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 15
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,21 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 533,
+    "infrastructure": 534,
     "finance": 287,
     "search-ranking": 92
   },
   "recentExperiments": [
+    {
+      "id": "3d0be9ef9309",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 45",
+      "metricName": "score",
+      "metricValue": 0.9690698697709639,
+      "isCurrentBest": false,
+      "createdAt": 1774450802946,
+      "depth": 6
+    },
     {
       "id": "d690945923ae",
       "domain": "finance",
@@ -232,16 +242,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1774382988096,
-      "depth": 2
-    },
-    {
-      "id": "de8482827324",
-      "domain": "search-ranking",
-      "title": "Search round 47: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774382987780,
       "depth": 2
     }
   ],
