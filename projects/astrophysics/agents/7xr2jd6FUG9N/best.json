@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWGnDCUkfxfAQrfb9guWofspbzZHeuMjK4gcvsSZf7SJiA",
-  "runNumber": 1,
-  "timestamp": 1774413668997,
-  "hypothesis": "Explore: light weight decay (0.01)",
+  "runNumber": 3,
+  "timestamp": 1774414063472,
+  "hypothesis": "Improve on 5f9c20f4 (loss=4.6247): higher gradient clip (5.0)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -27,7 +27,7 @@
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 1,
+    "gradientClipNorm": 5,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
     "initType": "normal",
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.624717496415076,
-    "trainLoss": 4.643596276422121,
+    "valLoss": 4.547543653376854,
+    "trainLoss": 4.559656561312907,
     "lossCurve": [
       [
-        24,
-        4.624717496415076
+        26,
+        4.547543653376854
       ]
     ],
-    "durationSec": 154.728,
-    "tokensPerSec": 317.66713199937954,
-    "totalTokens": 49152
+    "durationSec": 155.407,
+    "tokensPerSec": 342.63578860669077,
+    "totalTokens": 53248
   },
-  "improvement": 0,
+  "improvement": -1.6687255621136678,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
