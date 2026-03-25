@@ -1,10 +1,10 @@
 # Search Research — Agent EDKiRCoFcEqT
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** boost BM25 weight (+0.05)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 945a9120
-**Updated:** 2026-03-24T20:50:50.603Z
+**Run:** 8d3050cc
+**Updated:** 2026-03-25T15:56:20.178Z
