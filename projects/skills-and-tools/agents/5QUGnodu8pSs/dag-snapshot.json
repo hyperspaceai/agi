@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-25T22:07:43.641Z",
+  "timestamp": "2026-03-25T23:07:43.850Z",
   "peerId": "12D3KooW9tme1vPM635wHp72zbvq6sJDK6PsidHLrSS4BoZ5BvN9",
   "stats": {
-    "totalNodes": 3796,
+    "totalNodes": 3798,
     "observations": 0,
-    "experiments": 3796,
+    "experiments": 3798,
     "syntheses": 0,
-    "totalEdges": 3792,
+    "totalEdges": 3794,
     "maxDepth": 12,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1250,
-    "skills": 1498,
+    "infrastructure": 1251,
+    "skills": 1499,
     "finance": 868,
     "search-ranking": 180
   },
   "recentExperiments": [
+    {
+      "id": "d24a02b3bb94",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1774479223387,
+      "depth": 5
+    },
+    {
+      "id": "a75a71529e1f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 346",
+      "metricName": "score",
+      "metricValue": 145.18233213011916,
+      "isCurrentBest": false,
+      "createdAt": 1774477483327,
+      "depth": 8
+    },
     {
       "id": "be7efa34f7a6",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 1.304,
       "isCurrentBest": false,
       "createdAt": 1774458462566,
-      "depth": 12
-    },
-    {
-      "id": "5465df1ef893",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1774458342530,
-      "depth": 5
-    },
-    {
-      "id": "9d8014bfc62e",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
-      "isCurrentBest": false,
-      "createdAt": 1774458162460,
       "depth": 12
     }
   ],
