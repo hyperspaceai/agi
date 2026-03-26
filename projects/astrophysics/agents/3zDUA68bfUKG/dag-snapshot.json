@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T06:16:30.121Z",
+  "timestamp": "2026-03-26T07:22:18.983Z",
   "peerId": "12D3KooWCoaduDiJrNam1sEPyd4DUCvNZynZmi1gQafvTHzDobeE",
   "stats": {
-    "totalNodes": 624,
-    "observations": 434,
-    "experiments": 190,
+    "totalNodes": 656,
+    "observations": 464,
+    "experiments": 192,
     "syntheses": 0,
-    "totalEdges": 186,
+    "totalEdges": 188,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 31
+    "recentActivity": 28
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,12 +48,33 @@
   },
   "domainCounts": {
     "infrastructure": 50,
-    "skills": 56,
+    "skills": 58,
     "finance": 28,
-    "knowledge": 434,
+    "knowledge": 464,
     "search-ranking": 56
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "bfb6f5361bf0",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774509738914,
+      "depth": 1
+    },
+    {
+      "id": "66b621df88b8",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774508027740,
+      "depth": 1
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
