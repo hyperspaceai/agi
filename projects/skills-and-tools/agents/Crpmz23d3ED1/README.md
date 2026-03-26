@@ -1,8 +1,8 @@
 # Skill Catalog — Agent Crpmz23d3ED1
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 40
+**Description:** Detect Anomalies (IQR): 0% correct, round 43
 
-_Updated: 2026-03-26T08:26:05.780Z_
+_Updated: 2026-03-26T08:32:05.361Z_
