@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T04:56:13.781Z",
+  "timestamp": "2026-03-26T05:56:14.532Z",
   "peerId": "12D3KooWRiZ2X25ZFvph8nkHfwRQusQUViKXKXqj9zUJP8e7SqMB",
   "stats": {
-    "totalNodes": 1789,
+    "totalNodes": 1794,
     "observations": 0,
-    "experiments": 1789,
+    "experiments": 1794,
     "syntheses": 0,
-    "totalEdges": 1785,
+    "totalEdges": 1790,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 745,
-    "skills": 570,
+    "infrastructure": 749,
+    "skills": 571,
     "finance": 386,
     "search-ranking": 88
   },
   "recentExperiments": [
+    {
+      "id": "0bff7e26642d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 762",
+      "metricName": "score",
+      "metricValue": 0.9225965500841354,
+      "isCurrentBest": false,
+      "createdAt": 1774501754293,
+      "depth": 4
+    },
+    {
+      "id": "da8706a18018",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 761",
+      "metricName": "score",
+      "metricValue": 0.9206294497216189,
+      "isCurrentBest": false,
+      "createdAt": 1774501694274,
+      "depth": 4
+    },
+    {
+      "id": "af64ad80a5ba",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774501574307,
+      "depth": 1
+    },
+    {
+      "id": "1f04f685c203",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 755",
+      "metricName": "score",
+      "metricValue": 0.9184379352075487,
+      "isCurrentBest": false,
+      "createdAt": 1774501334281,
+      "depth": 4
+    },
+    {
+      "id": "f383d8e4a1ff",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 755",
+      "metricName": "score",
+      "metricValue": 145.10281346242442,
+      "isCurrentBest": false,
+      "createdAt": 1774501334269,
+      "depth": 4
+    },
     {
       "id": "d440f7529e07",
       "domain": "infrastructure",
@@ -202,56 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774469651742,
       "depth": 4
-    },
-    {
-      "id": "82ca91e86824",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 216",
-      "metricName": "score",
-      "metricValue": 0.9322453716557098,
-      "isCurrentBest": false,
-      "createdAt": 1774468991713,
-      "depth": 4
-    },
-    {
-      "id": "ca190f4c84a8",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 95",
-      "metricName": "score",
-      "metricValue": 141.0463729014503,
-      "isCurrentBest": false,
-      "createdAt": 1774461730879,
-      "depth": 4
-    },
-    {
-      "id": "57a079766a66",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1774460530737,
-      "depth": 1
-    },
-    {
-      "id": "79298a29caa5",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774459487493,
-      "depth": 1
-    },
-    {
-      "id": "1769c32cd5a8",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774459487004,
-      "depth": 1
     }
   ],
   "frontier": [],
