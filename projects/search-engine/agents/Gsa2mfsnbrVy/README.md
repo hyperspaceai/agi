@@ -1,10 +1,10 @@
 # Search Research — Agent Gsa2mfsnbrVy
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** e3270e03
-**Updated:** 2026-03-25T16:10:53.583Z
+**Run:** 6d0cda9c
+**Updated:** 2026-03-25T18:43:13.258Z
