@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T07:00:11.606Z",
+  "timestamp": "2026-03-26T08:00:11.734Z",
   "peerId": "12D3KooWFKwCq2bNR7HKhj1sV3jXX4LVftRooigv2nk9GithMUVr",
   "stats": {
-    "totalNodes": 2666,
+    "totalNodes": 2667,
     "observations": 0,
-    "experiments": 2666,
+    "experiments": 2667,
     "syntheses": 0,
-    "totalEdges": 2662,
+    "totalEdges": 2663,
     "maxDepth": 20,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1212,
+    "infrastructure": 1213,
     "skills": 778,
     "finance": 564,
     "search-ranking": 112
   },
   "recentExperiments": [
+    {
+      "id": "0ad9bd388bd9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 877",
+      "metricName": "score",
+      "metricValue": 0.9182461698054283,
+      "isCurrentBest": false,
+      "createdAt": 1774508861489,
+      "depth": 9
+    },
     {
       "id": "798f5a187b14",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1774460725747,
-      "depth": 1
-    },
-    {
-      "id": "800448ee323d",
-      "domain": "search-ranking",
-      "title": "Search round 50: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774460725362,
       "depth": 1
     }
   ],
