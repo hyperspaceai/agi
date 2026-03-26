@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T01:05:58.540Z",
+  "timestamp": "2026-03-26T02:05:58.627Z",
   "peerId": "12D3KooWF16QET5x2rubkCDxZ3JaoiFkeiGmt6uzVjFQiUiGHUo1",
   "stats": {
-    "totalNodes": 2628,
+    "totalNodes": 2630,
     "observations": 0,
-    "experiments": 2628,
+    "experiments": 2630,
     "syntheses": 0,
-    "totalEdges": 2624,
+    "totalEdges": 2626,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1194,
+    "infrastructure": 1196,
     "skills": 768,
     "finance": 578,
     "search-ranking": 88
   },
   "recentExperiments": [
+    {
+      "id": "bca82ca55d81",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 533",
+      "metricName": "score",
+      "metricValue": 141.20345249714921,
+      "isCurrentBest": false,
+      "createdAt": 1774488568392,
+      "depth": 17
+    },
+    {
+      "id": "b8c9b7862f6f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 529",
+      "metricName": "score",
+      "metricValue": 141.2364971285739,
+      "isCurrentBest": false,
+      "createdAt": 1774488328389,
+      "depth": 17
+    },
     {
       "id": "10df5843346d",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774460505988,
       "depth": 1
-    },
-    {
-      "id": "422446aa8414",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1774460157440,
-      "depth": 3
-    },
-    {
-      "id": "9f547ec7207a",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1774460037419,
-      "depth": 3
     }
   ],
   "frontier": [],
