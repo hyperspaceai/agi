@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-25T23:52:05.176Z",
+  "timestamp": "2026-03-26T00:52:06.813Z",
   "peerId": "12D3KooWRMTktXJJvF8cSrkJayoA6t6cCpKBWckvWZU8SGmXLuQE",
   "stats": {
-    "totalNodes": 959,
-    "observations": 676,
-    "experiments": 283,
+    "totalNodes": 995,
+    "observations": 706,
+    "experiments": 289,
     "syntheses": 0,
-    "totalEdges": 280,
+    "totalEdges": 286,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 30
+    "recentActivity": 36
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,20 +39,60 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 95,
-    "skills": 125,
+    "infrastructure": 97,
+    "skills": 129,
     "finance": 63,
-    "knowledge": 676
+    "knowledge": 706
   },
   "recentExperiments": [
     {
-      "id": "e8112cc2ebac",
+      "id": "49d2b60e84b0",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774486326753,
+      "depth": 2
+    },
+    {
+      "id": "57e89d971c43",
       "domain": "skills",
       "title": "Skill Compute Text Statistics (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1774482365135,
+      "createdAt": 1774485966719,
+      "depth": 2
+    },
+    {
+      "id": "d71ec7c7a9c2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 193",
+      "metricName": "score",
+      "metricValue": 0.9591515606045851,
+      "isCurrentBest": false,
+      "createdAt": 1774485336673,
+      "depth": 4
+    },
+    {
+      "id": "140ec7e34ab4",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774485126673,
+      "depth": 2
+    },
+    {
+      "id": "2456b0f199e8",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1774484766646,
       "depth": 2
     }
   ],
