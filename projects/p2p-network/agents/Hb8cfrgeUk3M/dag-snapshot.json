@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T13:42:00.695Z",
+  "timestamp": "2026-03-26T15:42:00.971Z",
   "peerId": "12D3KooWSQVnQzGMfeJrDwquvJa4u8ib1hCJFcR5oRAo5RjLSPNx",
   "stats": {
-    "totalNodes": 2400,
+    "totalNodes": 2409,
     "observations": 0,
-    "experiments": 2400,
+    "experiments": 2409,
     "syntheses": 0,
-    "totalEdges": 2396,
+    "totalEdges": 2405,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,102 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1108,
-    "skills": 699,
+    "infrastructure": 1115,
+    "skills": 701,
     "finance": 507,
     "search-ranking": 86
   },
   "recentExperiments": [
+    {
+      "id": "3b096e524137",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 317",
+      "metricName": "score",
+      "metricValue": 0.953688407778419,
+      "isCurrentBest": false,
+      "createdAt": 1774539000839,
+      "depth": 12
+    },
+    {
+      "id": "27519fce4049",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 316",
+      "metricName": "score",
+      "metricValue": 0.953621803188493,
+      "isCurrentBest": false,
+      "createdAt": 1774538940837,
+      "depth": 12
+    },
+    {
+      "id": "0260cb524276",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 309",
+      "metricName": "score",
+      "metricValue": 0.9534919122226969,
+      "isCurrentBest": false,
+      "createdAt": 1774538520800,
+      "depth": 12
+    },
+    {
+      "id": "48d155be556b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 269",
+      "metricName": "score",
+      "metricValue": 0.9533120227723669,
+      "isCurrentBest": false,
+      "createdAt": 1774536120657,
+      "depth": 12
+    },
+    {
+      "id": "0bda146a7a82",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1774534560644,
+      "depth": 2
+    },
+    {
+      "id": "3c096dd817cb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 240",
+      "metricName": "score",
+      "metricValue": 0.9500647710915326,
+      "isCurrentBest": false,
+      "createdAt": 1774534380627,
+      "depth": 12
+    },
+    {
+      "id": "dfc518d4467b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 239",
+      "metricName": "score",
+      "metricValue": 145.06738010660064,
+      "isCurrentBest": false,
+      "createdAt": 1774534320625,
+      "depth": 12
+    },
+    {
+      "id": "138c9f377dc2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 237",
+      "metricName": "score",
+      "metricValue": 0.9490546487208867,
+      "isCurrentBest": false,
+      "createdAt": 1774534200622,
+      "depth": 12
+    },
+    {
+      "id": "bf3d69c695ad",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1774533120618,
+      "depth": 2
+    },
     {
       "id": "a97bc8a42b90",
       "domain": "infrastructure",
@@ -161,96 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1774523291010,
-      "depth": 2
-    },
-    {
-      "id": "b6249462b6fe",
-      "domain": "search-ranking",
-      "title": "Search round 31: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774522782141,
-      "depth": 2
-    },
-    {
-      "id": "a0bca5537c62",
-      "domain": "search-ranking",
-      "title": "Search round 31: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774522781798,
-      "depth": 2
-    },
-    {
-      "id": "cb138521202a",
-      "domain": "search-ranking",
-      "title": "Search round 31: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774522781433,
-      "depth": 2
-    },
-    {
-      "id": "e7137fb40f03",
-      "domain": "search-ranking",
-      "title": "Search round 31: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774522781184,
-      "depth": 2
-    },
-    {
-      "id": "0e15bbc361ce",
-      "domain": "search-ranking",
-      "title": "Search round 31: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774522780792,
-      "depth": 2
-    },
-    {
-      "id": "3188f2a6450f",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1774522680393,
-      "depth": 2
-    },
-    {
-      "id": "fd078a3f83cc",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1774522320409,
-      "depth": 2
-    },
-    {
-      "id": "6302905944f6",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1774521960377,
-      "depth": 2
-    },
-    {
-      "id": "50062b0a4eb9",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1774521720384,
       "depth": 2
     }
   ],
