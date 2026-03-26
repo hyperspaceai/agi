@@ -1,10 +1,10 @@
 # Search Research — Agent BSmgtCzBekq2
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 60fa5d24
-**Updated:** 2026-03-25T18:14:14.512Z
+**Run:** cafa043a
+**Updated:** 2026-03-26T05:48:41.317Z
