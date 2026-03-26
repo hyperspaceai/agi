@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T02:01:44.450Z",
+  "timestamp": "2026-03-26T03:01:44.704Z",
   "peerId": "12D3KooWLkiuMUabFZunwPE4CBQz9XsTDpG79rfM4mkKJMYR4FoS",
   "stats": {
-    "totalNodes": 2195,
+    "totalNodes": 2196,
     "observations": 0,
-    "experiments": 2195,
+    "experiments": 2196,
     "syntheses": 0,
-    "totalEdges": 2191,
+    "totalEdges": 2192,
     "maxDepth": 14,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 1031,
-    "skills": 629,
+    "skills": 630,
     "finance": 451,
     "search-ranking": 84
   },
   "recentExperiments": [
+    {
+      "id": "99922c27f17c",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1774491224247,
+      "depth": 2
+    },
     {
       "id": "fa2c4b0fb589",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.3935620718710803,
       "isCurrentBest": false,
       "createdAt": 1774459886541,
-      "depth": 1
-    },
-    {
-      "id": "8d407a9fb4da",
-      "domain": "search-ranking",
-      "title": "Search round 39: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1774459886364,
       "depth": 1
     }
   ],
