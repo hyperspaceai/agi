@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HZiaTjNm4nKq
 
-**Latest Skill:** Normalize Text (LLM 2 iter) v1
-**Score:** 0.1995
+**Latest Skill:** Parse Key-Value Log (LLM 3 iter) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20]
+**Description:** Parse Key-Value Log: 0% correct [0.20→0.20]
 
-_Updated: 2026-03-26T18:04:00.272Z_
+_Updated: 2026-03-26T18:23:49.593Z_
