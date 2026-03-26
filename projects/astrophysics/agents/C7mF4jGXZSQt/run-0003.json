@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWLw8QorrEkLgNmxH5wazpzobZ3jL3TMMTQd22QjPo66Gc",
+  "runNumber": 3,
+  "timestamp": 1774490916578,
+  "hypothesis": "Improve on run #1 (loss=4.4424): wider model (dim=768)",
+  "config": {
+    "dModel": 768
+  },
+  "result": {
+    "valLoss": 4.396456000885817,
+    "trainLoss": 4.411981214872807,
+    "lossCurve": [
+      [
+        39,
+        4.396456000885817
+      ]
+    ],
+    "durationSec": 141.865,
+    "tokensPerSec": 563.0141331547597,
+    "totalTokens": 79872
+  },
+  "improvement": -1.0351466805023746,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce GTX 1660 SUPER",
+  "inspiredBy": null
+}
