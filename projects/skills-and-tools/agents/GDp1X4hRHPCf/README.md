@@ -1,8 +1,8 @@
 # Skill Catalog — Agent GDp1X4hRHPCf
 
-**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct, round 199
+**Description:** Normalize Text: 0% correct, round 583
 
-_Updated: 2026-03-25T23:19:46.477Z_
+_Updated: 2026-03-26T12:07:50.127Z_
