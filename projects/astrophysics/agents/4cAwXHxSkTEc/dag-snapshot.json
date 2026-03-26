@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-26T09:41:00.161Z",
+  "peerId": "12D3KooWDRY7GRY9wMW6wTsNNLu8RCxqkQ9kdZWNKyUpLtMmRtnT",
+  "stats": {
+    "totalNodes": 258,
+    "observations": 71,
+    "experiments": 187,
+    "syntheses": 0,
+    "totalEdges": 183,
+    "maxDepth": 10,
+    "activeExperiments": 0,
+    "recentActivity": 26
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "b6a2692d5c9eaa091e9904f3a76eeef1060f6e6500cd5f2960e30b48a0983ab2",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 145.48148333523469,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "skills": {
+      "nodeId": "2a1c392f2e6cd75d7ef47f8bc7ee8832d5ff018954b62b3ae5a7a6f1fa625d0e",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "finance": {
+      "nodeId": "2546916fb1a6a8b99ffd2ee7fc73949662896c6743196ab195a0f61e67fe1a12",
+      "title": "Finance round 14: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "metricDirection": "maximize",
+      "depth": 10
+    },
+    "search-ranking": {
+      "nodeId": "932cf38f088f531fc30b73e59fc3cdb00c36f2ebdd3f31a987c987d3dd2e17cb",
+      "title": "Search round 38: more expansion terms (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 1
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 65,
+    "skills": 59,
+    "finance": 35,
+    "search-ranking": 28,
+    "knowledge": 71
+  },
+  "recentExperiments": [],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "b6a2692d5c9e",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 145.48148333523469,
+        "depth": 1
+      },
+      {
+        "id": "92b7e1fb26a6",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 142.70660361841084,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "2a1c392f2e6c",
+        "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+        "metricValue": 0.1994,
+        "depth": 1
+      },
+      {
+        "id": "cc9631757ea1",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1993,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "2546916fb1a6",
+        "title": "Finance round 14: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 10
+      },
+      {
+        "id": "2dcf11a18f52",
+        "title": "Finance round 17: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 9
+      },
+      {
+        "id": "8e035b4a1916",
+        "title": "Finance round 14: Sharpe=1.3129",
+        "metricValue": 1.3129,
+        "depth": 8
+      },
+      {
+        "id": "454f0893d1b3",
+        "title": "Finance round 13: Sharpe=1.3031",
+        "metricValue": 1.3031,
+        "depth": 7
+      },
+      {
+        "id": "5b343dc27c22",
+        "title": "Finance round 12: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 6
+      },
+      {
+        "id": "38f912bfdcb8",
+        "title": "Finance round 9: Sharpe=1.2464",
+        "metricValue": 1.2464,
+        "depth": 5
+      },
+      {
+        "id": "2b7751cd09f1",
+        "title": "Finance round 8: Sharpe=1.2314",
+        "metricValue": 1.2314,
+        "depth": 4
+      },
+      {
+        "id": "cb10c4bfccd3",
+        "title": "Finance round 6: Sharpe=1.2196",
+        "metricValue": 1.2196,
+        "depth": 3
+      },
+      {
+        "id": "39fe3c19f884",
+        "title": "Finance round 5: Sharpe=1.1820",
+        "metricValue": 1.182,
+        "depth": 2
+      },
+      {
+        "id": "97b71453854e",
+        "title": "Finance round 2: Sharpe=1.0831",
+        "metricValue": 1.0831,
+        "depth": 1
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "932cf38f088f",
+        "title": "Search round 38: more expansion terms (5)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
+      {
+        "id": "4ce07f61195d",
+        "title": "Search round 38: relaxed peer timeout (5s)",
+        "metricValue": 0.3963092975357146,
+        "depth": 0
+      }
+    ]
+  }
+}
