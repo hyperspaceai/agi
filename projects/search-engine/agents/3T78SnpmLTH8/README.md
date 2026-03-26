@@ -1,10 +1,10 @@
 # Search Research — Agent 3T78SnpmLTH8
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** boost authority weight (+0.05)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7c8132c0
-**Updated:** 2026-03-25T18:50:09.370Z
+**Run:** 95c744dc
+**Updated:** 2026-03-26T20:57:20.766Z
