@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T19:01:24.079Z",
+  "timestamp": "2026-03-26T20:01:24.100Z",
   "peerId": "12D3KooWJrsxawa2hA2h6SNBneVLD8noLVJ2XXegfsXBDRvMBowh",
   "stats": {
-    "totalNodes": 35,
+    "totalNodes": 36,
     "observations": 0,
-    "experiments": 35,
+    "experiments": 36,
     "syntheses": 0,
-    "totalEdges": 32,
+    "totalEdges": 33,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,21 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 15,
+    "infrastructure": 16,
     "finance": 6,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "ec9daa0e8543",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 499",
+      "metricName": "score",
+      "metricValue": 141.1447961414642,
+      "isCurrentBest": false,
+      "createdAt": 1774554684000,
+      "depth": 1
+    },
     {
       "id": "9305fae83056",
       "domain": "infrastructure",
@@ -232,16 +242,6 @@
       "metricValue": 0.395,
       "isCurrentBest": false,
       "createdAt": 1774527482570,
-      "depth": 1
-    },
-    {
-      "id": "a229b5a18a10",
-      "domain": "search-ranking",
-      "title": "Search round 31: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1774527481152,
       "depth": 1
     }
   ],
