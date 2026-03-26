@@ -1,8 +1,8 @@
 # Skill Catalog — Agent G3Z7v6UtCZM7
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1990
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1991
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 7
+**Description:** Extract Entities from Text: 0% correct, round 8
 
-_Updated: 2026-03-26T20:03:31.347Z_
+_Updated: 2026-03-26T20:08:54.547Z_
