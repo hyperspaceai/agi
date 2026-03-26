@@ -1,10 +1,10 @@
 # Search Research — Agent 9MfBQ9WkJWDk
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** use z-score normalization
+**Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f772a45c
-**Updated:** 2026-03-25T18:05:11.047Z
+**Run:** 68f59328
+**Updated:** 2026-03-26T11:43:47.153Z
