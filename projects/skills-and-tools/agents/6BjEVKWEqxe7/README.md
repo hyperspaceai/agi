@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 6BjEVKWEqxe7
 
-**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct, round 187
+**Description:** Normalize Text: 0% correct, round 367
 
-_Updated: 2026-03-25T22:51:59.270Z_
+_Updated: 2026-03-26T04:50:30.105Z_
