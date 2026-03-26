@@ -1,11 +1,11 @@
 # Financial Analysis — Agent BDjXvPhmson6
 
-**Best Sharpe Ratio:** 1.3129
-**Hypothesis:** Round 8 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.5013
-**Max Drawdown:** 0.0546
+**Best Sharpe Ratio:** 1.3297
+**Hypothesis:** [LLM] Added inverse volatility weighting, quality factor (high ROE), multi-factor Z-score composite, low volatility factor, and risk parity position sizing. Enabled drawdown protection and reduced vol target.
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
+**Position Sizing:** inverse_vol
+**Alpha:** 1.0769
+**Max Drawdown:** 0.0422
 **LLM:** unknown
-**Run:** finance-r8
-**Updated:** 2026-03-26T03:49:21.751Z
+**Run:** llm-r8
+**Updated:** 2026-03-26T04:57:25.376Z
