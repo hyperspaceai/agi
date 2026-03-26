@@ -1,10 +1,10 @@
 # Search Research — Agent 9zueRQ2fSUw4
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** boost BM25 weight (+0.05)
+**Best NDCG@10:** 0.3913
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 3a07e24c
-**Updated:** 2026-03-25T18:01:02.210Z
+**Run:** 455026e0
+**Updated:** 2026-03-26T22:36:54.232Z
