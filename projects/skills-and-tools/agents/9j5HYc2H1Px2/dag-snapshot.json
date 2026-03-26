@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-25T23:59:07.106Z",
+  "timestamp": "2026-03-26T00:59:07.786Z",
   "peerId": "12D3KooWJYSTHjbzCJDXF53SoDkyyNXWtXsW1s7bv6syyPSkhmkM",
   "stats": {
-    "totalNodes": 1606,
+    "totalNodes": 1607,
     "observations": 0,
-    "experiments": 1606,
+    "experiments": 1607,
     "syntheses": 0,
-    "totalEdges": 1602,
+    "totalEdges": 1603,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 552,
+    "infrastructure": 553,
     "skills": 684,
     "finance": 295,
     "search-ranking": 75
   },
   "recentExperiments": [
+    {
+      "id": "7c5caccc902d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 476",
+      "metricName": "score",
+      "metricValue": 0.9247737153523963,
+      "isCurrentBest": false,
+      "createdAt": 1774484766892,
+      "depth": 3
+    },
     {
       "id": "e14145d38032",
       "domain": "skills",
@@ -241,16 +251,6 @@
       "metricValue": 0.395,
       "isCurrentBest": false,
       "createdAt": 1774459967232,
-      "depth": 2
-    },
-    {
-      "id": "752991884c7c",
-      "domain": "search-ranking",
-      "title": "Search round 38: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1774459612106,
       "depth": 2
     }
   ],
