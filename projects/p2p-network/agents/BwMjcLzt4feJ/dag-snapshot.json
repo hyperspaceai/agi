@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T01:01:44.432Z",
+  "timestamp": "2026-03-26T02:01:44.450Z",
   "peerId": "12D3KooWLkiuMUabFZunwPE4CBQz9XsTDpG79rfM4mkKJMYR4FoS",
   "stats": {
-    "totalNodes": 2194,
+    "totalNodes": 2195,
     "observations": 0,
-    "experiments": 2194,
+    "experiments": 2195,
     "syntheses": 0,
-    "totalEdges": 2190,
+    "totalEdges": 2191,
     "maxDepth": 14,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1030,
+    "infrastructure": 1031,
     "skills": 629,
     "finance": 451,
     "search-ranking": 84
   },
   "recentExperiments": [
+    {
+      "id": "fa2c4b0fb589",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 527",
+      "metricName": "score",
+      "metricValue": 145.07146844903076,
+      "isCurrentBest": false,
+      "createdAt": 1774487984202,
+      "depth": 14
+    },
     {
       "id": "4c0e8f5572d2",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.3935620718710803,
       "isCurrentBest": false,
       "createdAt": 1774459886364,
-      "depth": 1
-    },
-    {
-      "id": "8006fa8e3509",
-      "domain": "search-ranking",
-      "title": "Search round 39: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1774459885334,
       "depth": 1
     }
   ],
