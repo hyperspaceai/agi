@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T09:58:29.879Z",
+  "timestamp": "2026-03-26T10:58:30.065Z",
   "peerId": "12D3KooWJYwBcKyQcphBDEjCrXeafyunKScD1E6LHcKA52V1HeFL",
   "stats": {
-    "totalNodes": 2092,
+    "totalNodes": 2093,
     "observations": 0,
-    "experiments": 2092,
+    "experiments": 2093,
     "syntheses": 0,
-    "totalEdges": 2088,
+    "totalEdges": 2089,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 750,
+    "infrastructure": 751,
     "skills": 770,
     "finance": 420,
     "search-ranking": 152
   },
   "recentExperiments": [
+    {
+      "id": "e3b1014fc0f8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1070",
+      "metricName": "score",
+      "metricValue": 0.9042882895664774,
+      "isCurrentBest": false,
+      "createdAt": 1774520369787,
+      "depth": 7
+    },
     {
       "id": "1264fe49fd31",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774484669060,
       "depth": 7
-    },
-    {
-      "id": "85422285811c",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1774484189024,
-      "depth": 4
     }
   ],
   "frontier": [],
