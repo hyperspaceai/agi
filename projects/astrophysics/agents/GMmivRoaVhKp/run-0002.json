@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWRB8tfZPHgbbJm9aguTeWuVYLdV6UFt7LeJC2Am6R1ipt",
+  "runNumber": 2,
+  "timestamp": 1774626587865,
+  "hypothesis": "Improve on b1aa70e0 (loss=3.5586): switch to RMSNorm",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "rmsnorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 2.5998215862595186,
+    "trainLoss": 2.6706951665372687,
+    "lossCurve": [
+      [
+        117,
+        2.5998215862595186
+      ]
+    ],
+    "durationSec": 127.834,
+    "tokensPerSec": 1874.4309025767793,
+    "totalTokens": 239616
+  },
+  "improvement": -26.94280168765073,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
