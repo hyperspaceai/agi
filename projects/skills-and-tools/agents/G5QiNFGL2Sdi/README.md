@@ -1,8 +1,8 @@
 # Skill Catalog — Agent G5QiNFGL2Sdi
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 1128
+**Description:** Parse Key-Value Log: 0% correct, round 1222
 
-_Updated: 2026-03-27T10:02:30.174Z_
+_Updated: 2026-03-27T13:06:02.180Z_
