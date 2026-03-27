@@ -1,0 +1,21 @@
+{
+  "runId": "llm-r6",
+  "runNumber": 6,
+  "hypothesis": "[LLM] Implemented new risk parity position sizing for better diversification, added drawdown protection to limit exposure during bear markets, and modified Sharpe ratio by increasing the value factor and momentum factor.",
+  "sharpeRatio": 1.3456,
+  "totalReturn": 3.2165,
+  "maxDrawdown": 0.0524,
+  "alpha": 1.7222,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-03-27T14:35:30.017Z"
+}
