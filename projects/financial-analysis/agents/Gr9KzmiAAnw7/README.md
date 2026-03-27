@@ -1,11 +1,11 @@
 # Financial Analysis — Agent Gr9KzmiAAnw7
 
-**Best Sharpe Ratio:** 0.0000
-**Hypothesis:** [LLM] Increasing momentum factor weight to 0.3 and reducing value factor weight to 0.05 to improve Sharpe ratio.
-**Factors:** momentumWeight
-**Position Sizing:** inverse_vol
-**Alpha:** N/A
-**Max Drawdown:** 0.0000
+**Best Sharpe Ratio:** 1.0607
+**Hypothesis:** Round 1 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, meanReversionWeight
+**Position Sizing:** equal_weight
+**Alpha:** 0.8764
+**Max Drawdown:** 0.0794
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-03-25T21:39:12.627Z
+**Run:** finance-r1
+**Updated:** 2026-03-25T21:43:18.173Z
