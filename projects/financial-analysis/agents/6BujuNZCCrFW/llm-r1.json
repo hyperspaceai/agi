@@ -1,0 +1,23 @@
+{
+  "runId": "llm-r1",
+  "runNumber": 1,
+  "hypothesis": "[LLM] Increase momentum and low vol factor weights and enable drawdown protection to improve Sharpe ratio.",
+  "sharpeRatio": 1.2501,
+  "totalReturn": 2.5247,
+  "maxDrawdown": 0.0475,
+  "alpha": 1.0305,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight"
+  ],
+  "positionSizing": "inverse_vol",
+  "durationSec": 0.004,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-03-27T08:09:11.458Z"
+}
