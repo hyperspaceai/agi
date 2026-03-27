@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-27T21:59:17.651Z",
+  "timestamp": "2026-03-27T22:59:17.736Z",
   "peerId": "12D3KooWJM7kmQiF6PQv2LRWzaTCmZmrNRATsWhSQrsb1cTa1FLd",
   "stats": {
-    "totalNodes": 2367,
+    "totalNodes": 2369,
     "observations": 0,
-    "experiments": 2367,
+    "experiments": 2369,
     "syntheses": 0,
-    "totalEdges": 2363,
+    "totalEdges": 2365,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -22,12 +22,12 @@
       "depth": 4
     },
     "skills": {
-      "nodeId": "6b24503316e67589937f51193f07ffb15808bb5e601f3dc1680e64697472d031",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "nodeId": "0970104104aa2d8d185f8f87f5b328fb61c27499a3f5706a600b196c299eaddc",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1995,
+      "metricValue": 0.1996,
       "metricDirection": "maximize",
-      "depth": 2
+      "depth": 3
     },
     "finance": {
       "nodeId": "d2aa8264f4650cc61edfa81d65814df098dd3a7369c02c5f1e82e3a5e52f7505",
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 868,
-    "skills": 933,
+    "infrastructure": 869,
+    "skills": 934,
     "finance": 401,
     "search-ranking": 165
   },
   "recentExperiments": [
+    {
+      "id": "0970104104aa",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": true,
+      "createdAt": 1774651877507,
+      "depth": 3
+    },
+    {
+      "id": "62e7d77b1495",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 3255",
+      "metricName": "score",
+      "metricValue": 145.7499045306959,
+      "isCurrentBest": false,
+      "createdAt": 1774651487488,
+      "depth": 5
+    },
     {
       "id": "069245b41e0f",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774606905436,
       "depth": 5
-    },
-    {
-      "id": "57bde3efe86a",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2451",
-      "metricName": "score",
-      "metricValue": 0.9050109668705313,
-      "isCurrentBest": false,
-      "createdAt": 1774603245072,
-      "depth": 5
-    },
-    {
-      "id": "b4de3d94ce1e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2403",
-      "metricName": "score",
-      "metricValue": 0.9040450648188308,
-      "isCurrentBest": false,
-      "createdAt": 1774600364967,
-      "depth": 5
     }
   ],
   "frontier": [],
@@ -289,6 +289,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "0970104104aa",
+        "title": "Skill Normalize Text (seed/mutation): 0%",
+        "metricValue": 0.1996,
+        "depth": 3
+      },
       {
         "id": "6b24503316e6",
         "title": "Skill Compute Text Statistics (seed/mutation): 0%",
