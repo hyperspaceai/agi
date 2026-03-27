@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 84CjXG715bYR
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 789
+**Description:** Chunk Text for Embeddings: 0% correct, round 866
 
-_Updated: 2026-03-27T09:40:51.302Z_
+_Updated: 2026-03-27T19:22:50.507Z_
