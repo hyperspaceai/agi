@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-27T22:41:43.404Z",
+  "peerId": "12D3KooWMAawSKFMz2ZQzKiWtBsJxufi6oufZXP7xrpuGB8LodjX",
+  "stats": {
+    "totalNodes": 417,
+    "observations": 370,
+    "experiments": 47,
+    "syntheses": 0,
+    "totalEdges": 39,
+    "maxDepth": 4,
+    "activeExperiments": 0,
+    "recentActivity": 34
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "c3dc111414d4a5ff9dc9605f98dd7a6819ca586dba567a62c96194772b701418",
+      "title": "Cause infra-optimization round 198",
+      "metricName": "score",
+      "metricValue": 145.19786510028,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "finance": {
+      "nodeId": "efde3f93ae35333c050f78ebc7c30495d302a68388675763d05b4dd1560a4078",
+      "title": "Finance round 10: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "metricDirection": "maximize",
+      "depth": 4
+    },
+    "skills": {
+      "nodeId": "94a68b2316ce0537ee3031bc8682d698b850451a88e67335e9ef6e67d03a1f33",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "general": {
+      "nodeId": "4b7cceef68cb5d515047b24b270b1efe4674571f3a6139ba3877ef34e5d57667",
+      "title": "AutoWeb round 17: 75/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 75,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "search-ranking": {
+      "nodeId": "e54b71bd1caa21e15990e903ab2e2897d92092a8fcf45db7641cf33b4d8cb413",
+      "title": "Search round 4: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "knowledge": 370,
+    "infrastructure": 24,
+    "finance": 5,
+    "skills": 12,
+    "general": 4,
+    "search-ranking": 2
+  },
+  "recentExperiments": [],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "c3dc111414d4",
+        "title": "Cause infra-optimization round 198",
+        "metricValue": 145.19786510028,
+        "depth": 1
+      },
+      {
+        "id": "a6c51a99485e",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 142.4806198652221,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "efde3f93ae35",
+        "title": "Finance round 10: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 4
+      },
+      {
+        "id": "5f86ee430615",
+        "title": "Finance round 4: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 3
+      },
+      {
+        "id": "a91cfb6999cb",
+        "title": "Finance round 3: Sharpe=1.3031",
+        "metricValue": 1.3031,
+        "depth": 2
+      },
+      {
+        "id": "ab1475165337",
+        "title": "Finance round 2: Sharpe=1.2077",
+        "metricValue": 1.2077,
+        "depth": 1
+      },
+      {
+        "id": "c11d213062e6",
+        "title": "Finance round 1: Sharpe=1.1866",
+        "metricValue": 1.1866,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "94a68b2316ce",
+        "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+        "metricValue": 0.1998,
+        "depth": 1
+      },
+      {
+        "id": "0e219804d81c",
+        "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+        "metricValue": 0.1997,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "4b7cceef68cb",
+        "title": "AutoWeb round 17: 75/100",
+        "metricValue": 75,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "e54b71bd1caa",
+        "title": "Search round 4: increase freshness bias (0.15)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
