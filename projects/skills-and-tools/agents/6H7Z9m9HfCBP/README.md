@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 6H7Z9m9HfCBP
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1997
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 543
+**Description:** Compute Text Statistics: 0% correct, round 781
 
-_Updated: 2026-03-27T04:33:00.114Z_
+_Updated: 2026-03-27T12:21:31.012Z_
