@@ -1,11 +1,11 @@
 # Financial Analysis — Agent CMDmhBfeo8Hv
 
-**Best Sharpe Ratio:** 1.3456
-**Hypothesis:** [LLM] Implemented new risk parity position sizing for better diversification, added drawdown protection to limit exposure during bear markets, and modified Sharpe ratio by increasing the value factor and momentum factor.
+**Best Sharpe Ratio:** 1.3174
+**Hypothesis:** Round 10 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.7222
-**Max Drawdown:** 0.0524
+**Alpha:** 1.5172
+**Max Drawdown:** 0.0546
 **LLM:** unknown
-**Run:** llm-r6
-**Updated:** 2026-03-27T14:35:30.017Z
+**Run:** finance-r10
+**Updated:** 2026-03-27T19:43:07.890Z
