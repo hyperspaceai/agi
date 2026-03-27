@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-27T13:59:28.163Z",
+  "peerId": "12D3KooWCzPy4i52jF8FfpfZtK8sXaTzQyseeSd4hZ7au1nrH2Dr",
+  "stats": {
+    "totalNodes": 205,
+    "observations": 138,
+    "experiments": 67,
+    "syntheses": 0,
+    "totalEdges": 63,
+    "maxDepth": 6,
+    "activeExperiments": 0,
+    "recentActivity": 33
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "285c4bef54e5f71829a5aebd322e5545ab49e867939363c81535147371f26d1f",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 144.50437128868705,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "skills": {
+      "nodeId": "0a8bd9665a09bdc38fa31682a30cd9ded7fae1aafacdd3827352319b3908628f",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "finance": {
+      "nodeId": "23fb7418f6a60ed6318bca541b521e722582325ac39e9ba26152b489ccd98f64",
+      "title": "Finance round 12: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "metricDirection": "maximize",
+      "depth": 6
+    },
+    "search-ranking": {
+      "nodeId": "3bdeb8a8a94a4c533f0e4bfbed3753b8a7ae7ab178215a7143824bad334a380f",
+      "title": "Search round 31: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 23,
+    "skills": 22,
+    "finance": 8,
+    "knowledge": 138,
+    "search-ranking": 14
+  },
+  "recentExperiments": [
+    {
+      "id": "379cc749a437",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 260",
+      "metricName": "score",
+      "metricValue": 0.9429287442022835,
+      "isCurrentBest": false,
+      "createdAt": 1774619427832,
+      "depth": 1
+    },
+    {
+      "id": "f6e28242cba1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 249",
+      "metricName": "score",
+      "metricValue": 0.9396871791062283,
+      "isCurrentBest": false,
+      "createdAt": 1774618767820,
+      "depth": 1
+    },
+    {
+      "id": "b8daddbaf4ce",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 241",
+      "metricName": "score",
+      "metricValue": 0.9392281966935594,
+      "isCurrentBest": false,
+      "createdAt": 1774618287818,
+      "depth": 1
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "285c4bef54e5",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 144.50437128868705,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "0a8bd9665a09",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1993,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "23fb7418f6a6",
+        "title": "Finance round 12: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 6
+      },
+      {
+        "id": "2b2742d33b0d",
+        "title": "Finance round 6: Sharpe=1.3137",
+        "metricValue": 1.3137,
+        "depth": 5
+      },
+      {
+        "id": "ab8c94454169",
+        "title": "Finance round 4: Sharpe=1.3064",
+        "metricValue": 1.3064,
+        "depth": 4
+      },
+      {
+        "id": "bd1fb4d12530",
+        "title": "Finance round 3: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 3
+      },
+      {
+        "id": "915bbfa84a16",
+        "title": "Finance round 2: Sharpe=1.1057",
+        "metricValue": 1.1057,
+        "depth": 2
+      },
+      {
+        "id": "b680278e27b4",
+        "title": "Finance round 2: Sharpe=1.0820",
+        "metricValue": 1.082,
+        "depth": 1
+      },
+      {
+        "id": "8e7bb120784c",
+        "title": "Finance round 1: Sharpe=1.0697",
+        "metricValue": 1.0697,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "3bdeb8a8a94a",
+        "title": "Search round 31: use softmax normalization",
+        "metricValue": 0.395,
+        "depth": 0
+      }
+    ]
+  }
+}
