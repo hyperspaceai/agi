@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T23:34:00.964Z",
+  "timestamp": "2026-03-27T06:17:01.662Z",
   "peerId": "12D3KooWFSKovkkp9MaCVxrJynJKqDEWVnB6sN67trdmyYXH9YbT",
   "stats": {
-    "totalNodes": 58,
+    "totalNodes": 62,
     "observations": 0,
-    "experiments": 58,
+    "experiments": 62,
     "syntheses": 0,
-    "totalEdges": 55,
+    "totalEdges": 59,
     "maxDepth": 6,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -22,12 +22,12 @@
       "depth": 2
     },
     "skills": {
-      "nodeId": "e0ff6711af2a484bf40164cd068ec887e2b46bd6a47b405ba0bf8b339435830f",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "nodeId": "ba0415eee472ddd54b44771dccbe251de6773f45334350d0ec71e6481509661c",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1998,
+      "metricValue": 0.1999,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "finance": {
       "nodeId": "779f1a8ca3a7ce90a81931bd53df19e550c032142ae5d54e238aa29274400968",
@@ -39,11 +39,51 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 19,
-    "skills": 24,
+    "infrastructure": 20,
+    "skills": 27,
     "finance": 15
   },
   "recentExperiments": [
+    {
+      "id": "6f1a8d7aba1f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 331",
+      "metricName": "score",
+      "metricValue": 0.9494045770677025,
+      "isCurrentBest": false,
+      "createdAt": 1774591261530,
+      "depth": 3
+    },
+    {
+      "id": "e94a1b85d57a",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1774585958339,
+      "depth": 3
+    },
+    {
+      "id": "ec8bb1ea71e5",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1774578328352,
+      "depth": 3
+    },
+    {
+      "id": "ba0415eee472",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": true,
+      "createdAt": 1774576340548,
+      "depth": 2
+    },
     {
       "id": "6b10fa03ca2a",
       "domain": "skills",
@@ -203,46 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1774545413577,
       "depth": 2
-    },
-    {
-      "id": "e4cb466868c9",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14",
-      "metricName": "score",
-      "metricValue": 141.52983855719972,
-      "isCurrentBest": false,
-      "createdAt": 1774545323566,
-      "depth": 2
-    },
-    {
-      "id": "fac354d4bbb7",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1774545293573,
-      "depth": 2
-    },
-    {
-      "id": "7589ebe4e1e8",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.2196",
-      "metricName": "Sharpe",
-      "metricValue": 1.2196,
-      "isCurrentBest": false,
-      "createdAt": 1774545203563,
-      "depth": 6
-    },
-    {
-      "id": "c3ae0e2d3332",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1774545173570,
-      "depth": 2
     }
   ],
   "frontier": [],
@@ -268,6 +268,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "ba0415eee472",
+        "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+        "metricValue": 0.1999,
+        "depth": 2
+      },
       {
         "id": "e0ff6711af2a",
         "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
