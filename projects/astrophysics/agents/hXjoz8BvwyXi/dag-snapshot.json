@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-27T08:01:12.341Z",
+  "timestamp": "2026-03-27T12:08:47.998Z",
   "peerId": "12D3KooWAWtuZ7hu7rF28rHqbN4vWXSfgqipuSrA2NrnjEeeREMa",
   "stats": {
-    "totalNodes": 1028,
-    "observations": 788,
-    "experiments": 240,
+    "totalNodes": 1168,
+    "observations": 917,
+    "experiments": 251,
     "syntheses": 0,
-    "totalEdges": 236,
+    "totalEdges": 247,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 25
+    "recentActivity": 37
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "373f2686eb4377158c02d60036c4204ae44eee650c05bb1096bb13d99b22f2f6",
-      "title": "Cause infra-optimization round 120",
+      "nodeId": "a98c868984ca0f332d03c4cd9a72fdc7e8cc12e355f271cd8b2cd7948958c25c",
+      "title": "Cause infra-optimization round 1529",
       "metricName": "score",
-      "metricValue": 145.1927726144968,
+      "metricValue": 145.40502303315938,
       "metricDirection": "maximize",
-      "depth": 2
+      "depth": 3
     },
     "skills": {
       "nodeId": "0c6be9d3f3bd2060f71519e39b64d61eb2336fa81ffbeee78d93f3d013db7822",
@@ -47,27 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 90,
+    "infrastructure": 101,
     "skills": 72,
     "finance": 36,
     "search-ranking": 42,
-    "knowledge": 788
+    "knowledge": 917
   },
-  "recentExperiments": [
-    {
-      "id": "237d12438fd6",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1425",
-      "metricName": "score",
-      "metricValue": 144.96783531221283,
-      "isCurrentBest": false,
-      "createdAt": 1774595718668,
-      "depth": 3
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "a98c868984ca",
+        "title": "Cause infra-optimization round 1529",
+        "metricValue": 145.40502303315938,
+        "depth": 3
+      },
       {
         "id": "373f2686eb43",
         "title": "Cause infra-optimization round 120",
