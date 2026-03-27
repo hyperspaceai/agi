@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-26T23:35:12.625Z",
+  "timestamp": "2026-03-27T03:35:13.312Z",
   "peerId": "12D3KooWFKJvJ8Tj3hGznudKBgETemM8wc2qdGzv5jtERm8dhJAx",
   "stats": {
-    "totalNodes": 4696,
-    "observations": 2972,
-    "experiments": 1724,
+    "totalNodes": 4832,
+    "observations": 3092,
+    "experiments": 1740,
     "syntheses": 0,
-    "totalEdges": 1720,
+    "totalEdges": 1736,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 34
+    "recentActivity": 38
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,22 +47,52 @@
     }
   },
   "domainCounts": {
-    "knowledge": 2972,
-    "infrastructure": 647,
-    "skills": 581,
+    "knowledge": 3092,
+    "infrastructure": 657,
+    "skills": 587,
     "finance": 400,
     "search-ranking": 96
   },
   "recentExperiments": [
     {
-      "id": "242a3cf10eb6",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 983",
-      "metricName": "score",
-      "metricValue": 145.06602961665382,
+      "id": "0e9c55d8a408",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1774567752473,
-      "depth": 5
+      "createdAt": 1774581913162,
+      "depth": 1
+    },
+    {
+      "id": "0f1a78f98c9e",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1774581313107,
+      "depth": 1
+    },
+    {
+      "id": "51b3c589900f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1774580713035,
+      "depth": 1
+    },
+    {
+      "id": "4ddec807c769",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1774580593023,
+      "depth": 1
     }
   ],
   "frontier": [],
