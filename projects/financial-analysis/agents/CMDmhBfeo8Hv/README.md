@@ -1,11 +1,11 @@
 # Financial Analysis — Agent CMDmhBfeo8Hv
 
-**Best Sharpe Ratio:** 0.9711
-**Hypothesis:** [LLM] Increased momentum and trend weight to improve Sharpe ratio, added inverse volatility position sizing method.
-**Factors:** momentumWeight, trendWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
-**Position Sizing:** inverse_vol
-**Alpha:** 0.6836
-**Max Drawdown:** 0.0837
+**Best Sharpe Ratio:** 1.1866
+**Hypothesis:** Round 1 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Position Sizing:** equal_weight
+**Alpha:** 1.1140
+**Max Drawdown:** 0.0729
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-03-27T10:50:35.777Z
+**Run:** finance-r1
+**Updated:** 2026-03-27T11:10:40.135Z
