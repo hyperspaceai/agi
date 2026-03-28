@@ -1,11 +1,11 @@
 # Financial Analysis — Agent Gr9KzmiAAnw7
 
-**Best Sharpe Ratio:** 1.4465
-**Hypothesis:** [LLM] Adjusting Sharpe ratio by introducing a momentum factor that adjusts weight based on recent outperformance.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, maxDrawdownPct, volTargetPct, enableDrawdownProtection
-**Position Sizing:** risk_parity
-**Alpha:** 1.5378
-**Max Drawdown:** 0.0470
+**Best Sharpe Ratio:** 1.3685
+**Hypothesis:** [LLM] Adjusting scoring script for NDCG by combining titleWeight and authorityWeight f to improve relevance for each project.
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
+**Position Sizing:** equal_weight
+**Alpha:** 1.4204
+**Max Drawdown:** 0.0462
 **LLM:** unknown
-**Run:** llm-r25
-**Updated:** 2026-03-28T23:52:09.209Z
+**Run:** llm-r26
+**Updated:** 2026-03-28T23:58:00.056Z
