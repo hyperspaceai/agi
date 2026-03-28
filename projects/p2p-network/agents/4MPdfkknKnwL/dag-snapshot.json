@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-28T15:49:22.761Z",
+  "timestamp": "2026-03-28T16:49:23.167Z",
   "peerId": "12D3KooWDAkoQtLVWhCpR79wvLfjpGPwWixa9fNVZypaJvdak3s9",
   "stats": {
-    "totalNodes": 1618,
+    "totalNodes": 1619,
     "observations": 0,
-    "experiments": 1618,
+    "experiments": 1619,
     "syntheses": 0,
-    "totalEdges": 1614,
+    "totalEdges": 1615,
     "maxDepth": 16,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 632,
+    "infrastructure": 633,
     "skills": 569,
     "finance": 366,
     "search-ranking": 51
   },
   "recentExperiments": [
+    {
+      "id": "b974b894001c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2185",
+      "metricName": "score",
+      "metricValue": 145.07096387602766,
+      "isCurrentBest": false,
+      "createdAt": 1774713502898,
+      "depth": 3
+    },
     {
       "id": "711e6dec58ec",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774656217448,
       "depth": 3
-    },
-    {
-      "id": "bba87e83d81c",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1774653427194,
-      "depth": 1
     }
   ],
   "frontier": [],
