@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-28T17:14:14.768Z",
+  "timestamp": "2026-03-28T18:14:23.928Z",
   "peerId": "12D3KooWDRY7GRY9wMW6wTsNNLu8RCxqkQ9kdZWNKyUpLtMmRtnT",
   "stats": {
-    "totalNodes": 1970,
-    "observations": 1708,
-    "experiments": 262,
+    "totalNodes": 1996,
+    "observations": 1731,
+    "experiments": 265,
     "syntheses": 0,
-    "totalEdges": 258,
+    "totalEdges": 261,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 30
+    "recentActivity": 26
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "555c17b9f98ab30a68968d097e3c176a19558828f935c965861f5aa2323d82d1",
-      "title": "Cause infra-optimization round 2760",
+      "nodeId": "961fd73a7550c72c19eb556252fc58a02adbbb856031c6c3456220336d4c99a1",
+      "title": "Cause infra-optimization round 3320",
       "metricName": "score",
-      "metricValue": 145.56876723143134,
+      "metricValue": 145.8344298249726,
       "metricDirection": "maximize",
-      "depth": 3
+      "depth": 4
     },
     "skills": {
       "nodeId": "2a1c392f2e6cd75d7ef47f8bc7ee8832d5ff018954b62b3ae5a7a6f1fa625d0e",
@@ -47,16 +47,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 137,
+    "infrastructure": 140,
     "skills": 62,
     "finance": 35,
     "search-ranking": 28,
-    "knowledge": 1708
+    "knowledge": 1731
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "961fd73a7550",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 3320",
+      "metricName": "score",
+      "metricValue": 145.8344298249726,
+      "isCurrentBest": true,
+      "createdAt": 1774721122123,
+      "depth": 4
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "961fd73a7550",
+        "title": "Cause infra-optimization round 3320",
+        "metricValue": 145.8344298249726,
+        "depth": 4
+      },
       {
         "id": "555c17b9f98a",
         "title": "Cause infra-optimization round 2760",
