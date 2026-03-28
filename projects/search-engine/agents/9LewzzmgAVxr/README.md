@@ -1,10 +1,10 @@
 # Search Research — Agent 9LewzzmgAVxr
 
-**Best NDCG@10:** 0.0000
-**Hypothesis:** increase freshness bias (0.15)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 4b7cb1a4
-**Updated:** 2026-03-12T07:32:28.654Z
+**Run:** ffbae544
+**Updated:** 2026-03-28T20:00:38.551Z
