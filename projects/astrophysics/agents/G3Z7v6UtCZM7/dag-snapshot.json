@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-28T13:21:19.422Z",
+  "timestamp": "2026-03-28T14:21:19.988Z",
   "peerId": "12D3KooWQrvHfE4bPTcc6bnJ5Aa5HwSF8FBJ48zyok17ykv3STnj",
   "stats": {
-    "totalNodes": 1392,
-    "observations": 1297,
-    "experiments": 95,
+    "totalNodes": 1431,
+    "observations": 1333,
+    "experiments": 98,
     "syntheses": 0,
-    "totalEdges": 91,
-    "maxDepth": 7,
+    "totalEdges": 94,
+    "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 27
+    "recentActivity": 39
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "65cd692d6cd29d87af768c93309cc48fd783df5ae631037d3d7e0c7823357c95",
-      "title": "Cause infra-optimization round 2379",
+      "nodeId": "49be847e08b02412daf91317aef802c53cc729d329eab19c399cbfc38c45d225",
+      "title": "Cause infra-optimization round 2552",
       "metricName": "score",
-      "metricValue": 145.40480140242352,
+      "metricValue": 145.4349731103187,
       "metricDirection": "maximize",
-      "depth": 6
+      "depth": 7
     },
     "skills": {
       "nodeId": "9e2490c4df771b39efd688703bd9e186d07ea5471760bd19bec6b11e3c2b8a3f",
@@ -47,16 +47,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 54,
+    "infrastructure": 57,
     "skills": 20,
     "finance": 8,
-    "knowledge": 1297,
+    "knowledge": 1333,
     "search-ranking": 13
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "0ebb69111f5d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2597",
+      "metricName": "score",
+      "metricValue": 145.06739349974347,
+      "isCurrentBest": false,
+      "createdAt": 1774706869493,
+      "depth": 8
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "49be847e08b0",
+        "title": "Cause infra-optimization round 2552",
+        "metricValue": 145.4349731103187,
+        "depth": 7
+      },
       {
         "id": "65cd692d6cd2",
         "title": "Cause infra-optimization round 2379",
