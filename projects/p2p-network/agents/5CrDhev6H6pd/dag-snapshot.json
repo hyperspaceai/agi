@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-28T14:52:47.975Z",
+  "timestamp": "2026-03-28T15:51:32.006Z",
   "peerId": "12D3KooWE2DPSnVoU167VNkXcftetYMwKFSRUZwudUAZFoHxQfCW",
   "stats": {
-    "totalNodes": 3404,
+    "totalNodes": 3406,
     "observations": 0,
-    "experiments": 3404,
+    "experiments": 3406,
     "syntheses": 0,
-    "totalEdges": 3398,
+    "totalEdges": 3400,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1308,
-    "skills": 1229,
+    "infrastructure": 1309,
+    "skills": 1230,
     "finance": 715,
     "search-ranking": 150,
     "general": 2
   },
   "recentExperiments": [
+    {
+      "id": "0922dad12cfc",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1774712386979,
+      "depth": 3
+    },
+    {
+      "id": "05b45bdff1e5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 4390",
+      "metricName": "score",
+      "metricValue": 0.8956107962157722,
+      "isCurrentBest": false,
+      "createdAt": 1774711972993,
+      "depth": 8
+    },
     {
       "id": "c5704f817498",
       "domain": "infrastructure",
@@ -240,26 +260,6 @@
       "metricValue": 0.902557955144379,
       "isCurrentBest": false,
       "createdAt": 1774666588104,
-      "depth": 8
-    },
-    {
-      "id": "35f8424d3d15",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3590",
-      "metricName": "score",
-      "metricValue": 144.9633495699498,
-      "isCurrentBest": false,
-      "createdAt": 1774665280287,
-      "depth": 8
-    },
-    {
-      "id": "7d8f4b5bc76e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3542",
-      "metricName": "score",
-      "metricValue": 0.9022441908725533,
-      "isCurrentBest": false,
-      "createdAt": 1774662537845,
       "depth": 8
     }
   ],
