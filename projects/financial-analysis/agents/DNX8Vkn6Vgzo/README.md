@@ -1,11 +1,11 @@
 # Financial Analysis — Agent DNX8Vkn6Vgzo
 
-**Best Sharpe Ratio:** 1.3808
-**Hypothesis:** [LLM] Adjusting momentum factor weight to 0.3 for better risk-return balance
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Best Sharpe Ratio:** 1.8153
+**Hypothesis:** [LLM] Increasing the momentum factor weight to 0.4 and reducing the volatility target to 0.05
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.7250
-**Max Drawdown:** 0.0498
+**Alpha:** 2.8046
+**Max Drawdown:** 0.0270
 **LLM:** unknown
-**Run:** llm-r114
-**Updated:** 2026-03-27T14:22:37.215Z
+**Run:** llm-r148
+**Updated:** 2026-03-28T00:17:01.912Z
