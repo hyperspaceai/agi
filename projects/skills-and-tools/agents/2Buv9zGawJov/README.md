@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2Buv9zGawJov
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
-**Score:** 0.9988
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.9985
 **Permissions:** none
-**Description:** Normalize Text: 100% correct, round 446
+**Description:** Parse Key-Value Log: 100% correct, round 11
 
-_Updated: 2026-03-28T05:38:30.122Z_
+_Updated: 2026-03-28T19:08:28.462Z_
