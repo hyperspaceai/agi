@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-27T22:41:43.404Z",
+  "timestamp": "2026-03-28T07:19:37.595Z",
   "peerId": "12D3KooWMAawSKFMz2ZQzKiWtBsJxufi6oufZXP7xrpuGB8LodjX",
   "stats": {
-    "totalNodes": 417,
-    "observations": 370,
-    "experiments": 47,
+    "totalNodes": 716,
+    "observations": 645,
+    "experiments": 71,
     "syntheses": 0,
-    "totalEdges": 39,
+    "totalEdges": 62,
     "maxDepth": 4,
     "activeExperiments": 0,
-    "recentActivity": 34
+    "recentActivity": 25
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,10 +38,10 @@
       "depth": 1
     },
     "general": {
-      "nodeId": "4b7cceef68cb5d515047b24b270b1efe4674571f3a6139ba3877ef34e5d57667",
-      "title": "AutoWeb round 17: 75/100",
+      "nodeId": "1e3f839b7b15d5677ba78b1809b3c15e6790769506287613f665417a04e877d0",
+      "title": "AutoWeb round 22: 85/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 75,
+      "metricValue": 85,
       "metricDirection": "maximize",
       "depth": 0
     },
@@ -55,14 +55,25 @@
     }
   },
   "domainCounts": {
-    "knowledge": 370,
-    "infrastructure": 24,
+    "knowledge": 645,
+    "infrastructure": 45,
     "finance": 5,
-    "skills": 12,
-    "general": 4,
+    "skills": 14,
+    "general": 5,
     "search-ranking": 2
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "aab2f3fb1186",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774679985982,
+      "depth": 2
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
@@ -127,9 +138,9 @@
     ],
     "general": [
       {
-        "id": "4b7cceef68cb",
-        "title": "AutoWeb round 17: 75/100",
-        "metricValue": 75,
+        "id": "1e3f839b7b15",
+        "title": "AutoWeb round 22: 85/100",
+        "metricValue": 85,
         "depth": 0
       }
     ],
