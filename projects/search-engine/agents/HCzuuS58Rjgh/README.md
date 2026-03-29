@@ -1,10 +1,10 @@
 # Search Research — Agent HCzuuS58Rjgh
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 0d82e4b8
-**Updated:** 2026-03-25T15:59:18.376Z
+**Run:** f49682a8
+**Updated:** 2026-03-29T20:55:06.904Z
