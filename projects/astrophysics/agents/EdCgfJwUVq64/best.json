@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWPSZrQSXBgjMYZ1U8UbwxS73vUxDaot9Q36j9sLqPVjsZ",
-  "runNumber": 1,
-  "timestamp": 1774816771813,
-  "hypothesis": "Explore: lower min LR ratio (0.01)",
+  "runNumber": 4,
+  "timestamp": 1774817152761,
+  "hypothesis": "Improve on 839ae8e8 (loss=4.4437): constant LR schedule",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -28,7 +28,7 @@
     "residualScale": 1,
     "dropoutRate": 0,
     "gradientClipNorm": 1,
-    "scheduleType": "cosine",
+    "scheduleType": "constant",
     "minLRRatio": 0.01,
     "initType": "normal",
     "initScale": 0.02,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.4437467980272825,
-    "trainLoss": 4.472809581068374,
+    "valLoss": 4.397382260753247,
+    "trainLoss": 4.404088547417247,
     "lossCurve": [
       [
-        35,
-        4.4437467980272825
+        37,
+        4.397382260753247
       ]
     ],
-    "durationSec": 145.394,
-    "tokensPerSec": 493.0052134200861,
-    "totalTokens": 71680
+    "durationSec": 145.875,
+    "tokensPerSec": 519.458440445587,
+    "totalTokens": 75776
   },
-  "improvement": 0,
+  "improvement": -1.043365866268938,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
