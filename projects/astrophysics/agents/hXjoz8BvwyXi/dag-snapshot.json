@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-29T07:32:27.927Z",
+  "timestamp": "2026-03-29T09:36:33.983Z",
   "peerId": "12D3KooWAWtuZ7hu7rF28rHqbN4vWXSfgqipuSrA2NrnjEeeREMa",
   "stats": {
-    "totalNodes": 2517,
-    "observations": 2206,
-    "experiments": 311,
+    "totalNodes": 2585,
+    "observations": 2270,
+    "experiments": 315,
     "syntheses": 0,
-    "totalEdges": 307,
+    "totalEdges": 311,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 29
+    "recentActivity": 36
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "11beddd6c7d4cdd3dd5a1b2220544e030eb519963a59ff42f301ec409b821ae3",
-      "title": "Cause infra-optimization round 2049",
+      "nodeId": "666a9027bf3bdb47b29fe6f2680e9957c0c9147bea2a499604ddf856a8d66af6",
+      "title": "Cause infra-optimization round 4264",
       "metricName": "score",
-      "metricValue": 145.46149520053194,
+      "metricValue": 145.75183101185402,
       "metricDirection": "maximize",
-      "depth": 4
+      "depth": 5
     },
     "skills": {
       "nodeId": "0c6be9d3f3bd2060f71519e39b64d61eb2336fa81ffbeee78d93f3d013db7822",
@@ -47,27 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 158,
+    "infrastructure": 162,
     "skills": 75,
     "finance": 36,
     "search-ranking": 42,
-    "knowledge": 2206
+    "knowledge": 2270
   },
-  "recentExperiments": [
-    {
-      "id": "25f81831858c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4213",
-      "metricName": "score",
-      "metricValue": 0.8928246529870425,
-      "isCurrentBest": false,
-      "createdAt": 1774768524845,
-      "depth": 5
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "666a9027bf3b",
+        "title": "Cause infra-optimization round 4264",
+        "metricValue": 145.75183101185402,
+        "depth": 5
+      },
       {
         "id": "11beddd6c7d4",
         "title": "Cause infra-optimization round 2049",
