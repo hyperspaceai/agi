@@ -1,0 +1,22 @@
+{
+  "runId": "llm-r20",
+  "runNumber": 20,
+  "hypothesis": "[LLM] Increase momentum weight and add trend factor to capture stronger directional signals, while also reducing maxDrawdownPct for greater stability.",
+  "sharpeRatio": 1.378,
+  "totalReturn": 3.562,
+  "maxDrawdown": 0.0488,
+  "alpha": 2.0677,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-03-29T12:42:51.011Z"
+}
