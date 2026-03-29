@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWPSZrQSXBgjMYZ1U8UbwxS73vUxDaot9Q36j9sLqPVjsZ",
-  "runNumber": 4,
-  "timestamp": 1774817152761,
-  "hypothesis": "Improve on 839ae8e8 (loss=4.4437): constant LR schedule",
+  "runNumber": 7,
+  "timestamp": 1774817557247,
+  "hypothesis": "Improve on 007b4738 (loss=4.3974): Xavier initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -17,7 +17,7 @@
     "maxSteps": 50000,
     "maxDurationSec": 120,
     "warmupSteps": 100,
-    "weightDecay": 0.01,
+    "weightDecay": 0.1,
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
@@ -28,27 +28,27 @@
     "residualScale": 1,
     "dropoutRate": 0,
     "gradientClipNorm": 1,
-    "scheduleType": "constant",
+    "scheduleType": "cosine",
     "minLRRatio": 0.01,
-    "initType": "normal",
+    "initType": "xavier",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.397382260753247,
-    "trainLoss": 4.404088547417247,
+    "valLoss": 4.039755292624627,
+    "trainLoss": 4.065110259666568,
     "lossCurve": [
       [
         37,
-        4.397382260753247
+        4.039755292624627
       ]
     ],
-    "durationSec": 145.875,
-    "tokensPerSec": 519.458440445587,
+    "durationSec": 145.128,
+    "tokensPerSec": 522.1321867592746,
     "totalTokens": 75776
   },
-  "improvement": -1.043365866268938,
+  "improvement": -8.132724128180756,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
