@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWGXxPYjvzkLzF5aa41XLmoJUFnsJzc2uL2gf6Tp9bMwW7",
+  "runNumber": 783,
+  "timestamp": 1774830284176,
+  "hypothesis": "Improve on f25a60a0 (loss=1.6438): lower min LR ratio (0.01)",
+  "config": {
+    "nLayers": 12,
+    "nHeads": 12,
+    "dModel": 768,
+    "dFF": 3072,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.08,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 600,
+    "warmupSteps": 1000,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "relu",
+    "normalization": "rmsnorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": true,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 5,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.01,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 1.637287,
+    "trainLoss": 4.935146,
+    "lossCurve": [
+      [
+        0,
+        9.01005
+      ],
+      [
+        1,
+        9.010644
+      ],
+      [
+        2,
+        9.010863
+      ],
+      [
+        3,
+        9.011111
+      ],
+      [
+        4,
+        9.010975
+      ],
+      [
+        5,
+        9.011205
+      ],
+      [
+        6,
+        9.011297
+      ],
+      [
+        7,
+        9.011347
+      ],
+      [
+        8,
+        9.01129
+      ],
+      [
+        9,
+        9.011382
+      ],
+      [
+        10,
+        9.011314
+      ],
+      [
+        50,
+        4.935146
+      ]
+    ],
+    "durationSec": 366.5,
+    "tokensPerSec": 72851.29604365621,
+    "totalTokens": 26700000
+  },
+  "improvement": -0.39863977029394776,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "inspiredBy": null
+}
