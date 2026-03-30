@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CMDmhBfeo8Hv
 
 **Latest Skill:** Extract Entities from Text (LLM 3 iter) v1
-**Score:** 0.1998
+**Score:** 0.1997
 **Permissions:** none
 **Description:** Extract Entities from Text: 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-03-28T06:59:11.872Z_
+_Updated: 2026-03-30T10:46:26.883Z_
