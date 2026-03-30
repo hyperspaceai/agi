@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-30T20:27:21.181Z",
+  "timestamp": "2026-03-30T21:27:21.619Z",
   "peerId": "12D3KooWBmQUea8C8u7vbEA6AdLfNJ4Ra7GF45yZTUZve3VT7TS3",
   "stats": {
-    "totalNodes": 2985,
+    "totalNodes": 2986,
     "observations": 0,
-    "experiments": 2985,
+    "experiments": 2986,
     "syntheses": 0,
-    "totalEdges": 2981,
+    "totalEdges": 2982,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 7
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 1313,
-    "skills": 922,
+    "skills": 923,
     "finance": 587,
     "search-ranking": 163
   },
   "recentExperiments": [
+    {
+      "id": "2d6aecba80c0",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774905441462,
+      "depth": 2
+    },
     {
       "id": "830ae00cb00f",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774897040644,
       "depth": 2
-    },
-    {
-      "id": "61e5206ceeec",
-      "domain": "search-ranking",
-      "title": "Search round 35: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1774896608064,
-      "depth": 1
     }
   ],
   "frontier": [],
