@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-28T15:26:05.361Z",
+  "timestamp": "2026-03-30T20:19:49.589Z",
   "peerId": "12D3KooWFmWyfsg5k9cpPeXQDu1oMRXmqdwfh8BdhFKWmjWRUwx7",
   "stats": {
-    "totalNodes": 149,
+    "totalNodes": 151,
     "observations": 0,
-    "experiments": 149,
+    "experiments": 151,
     "syntheses": 0,
-    "totalEdges": 146,
+    "totalEdges": 148,
     "maxDepth": 4,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 90,
+    "infrastructure": 92,
     "finance": 52,
     "search-ranking": 7
   },
   "recentExperiments": [
+    {
+      "id": "cdde8980919e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 297",
+      "metricName": "score",
+      "metricValue": 145.14590586891052,
+      "isCurrentBest": false,
+      "createdAt": 1774899426951,
+      "depth": 2
+    },
+    {
+      "id": "07ffc6cd5a95",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 191",
+      "metricName": "score",
+      "metricValue": 0.9619920519009819,
+      "isCurrentBest": false,
+      "createdAt": 1774711583857,
+      "depth": 2
+    },
     {
       "id": "060482c023cf",
       "domain": "infrastructure",
@@ -222,26 +242,6 @@
       "metricValue": 1.2267,
       "isCurrentBest": false,
       "createdAt": 1774587931222,
-      "depth": 4
-    },
-    {
-      "id": "aecda6ef5734",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.2052",
-      "metricName": "Sharpe",
-      "metricValue": 1.2052,
-      "isCurrentBest": false,
-      "createdAt": 1774582062092,
-      "depth": 4
-    },
-    {
-      "id": "fc52ccdc1ca8",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1981",
-      "metricName": "Sharpe",
-      "metricValue": 1.1981,
-      "isCurrentBest": false,
-      "createdAt": 1774581717662,
       "depth": 4
     }
   ],
