@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-30T01:58:53.434Z",
+  "timestamp": "2026-03-30T04:06:40.957Z",
   "peerId": "12D3KooWDRY7GRY9wMW6wTsNNLu8RCxqkQ9kdZWNKyUpLtMmRtnT",
   "stats": {
-    "totalNodes": 2971,
-    "observations": 2654,
-    "experiments": 317,
+    "totalNodes": 3041,
+    "observations": 2719,
+    "experiments": 322,
     "syntheses": 0,
-    "totalEdges": 313,
+    "totalEdges": 318,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 30
+    "recentActivity": 33
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "eeea09180992e566326f6892ac94341a33d2df267d533dabd819ac073f8f762d",
-      "title": "Cause infra-optimization round 3577",
+      "nodeId": "b221417caa2cb528d97ac3520e604e977a068a711f12c3c8252ca82811b50fc5",
+      "title": "Cause infra-optimization round 5131",
       "metricName": "score",
-      "metricValue": 146.7011894817236,
+      "metricValue": 146.71724746930605,
       "metricDirection": "maximize",
-      "depth": 6
+      "depth": 7
     },
     "skills": {
       "nodeId": "2a1c392f2e6cd75d7ef47f8bc7ee8832d5ff018954b62b3ae5a7a6f1fa625d0e",
@@ -47,16 +47,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 192,
+    "infrastructure": 197,
     "skills": 62,
     "finance": 35,
     "search-ranking": 28,
-    "knowledge": 2654
+    "knowledge": 2719
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "273499fc6bdd",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 5239",
+      "metricName": "score",
+      "metricValue": 0.8993248049018532,
+      "isCurrentBest": false,
+      "createdAt": 1774842959449,
+      "depth": 8
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "b221417caa2c",
+        "title": "Cause infra-optimization round 5131",
+        "metricValue": 146.71724746930605,
+        "depth": 7
+      },
       {
         "id": "eeea09180992",
         "title": "Cause infra-optimization round 3577",
