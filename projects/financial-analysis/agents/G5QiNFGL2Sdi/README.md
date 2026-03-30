@@ -1,11 +1,11 @@
 # Financial Analysis — Agent G5QiNFGL2Sdi
 
-**Best Sharpe Ratio:** 1.1678
-**Hypothesis:** Round 1 best mutation
+**Best Sharpe Ratio:** 1.1807
+**Hypothesis:** Round 2 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** equal_weight
-**Alpha:** 1.0593
-**Max Drawdown:** 0.0581
+**Alpha:** 1.0505
+**Max Drawdown:** 0.0566
 **LLM:** unknown
-**Run:** finance-r1
-**Updated:** 2026-03-25T20:23:17.531Z
+**Run:** finance-r2
+**Updated:** 2026-03-25T20:25:47.532Z
