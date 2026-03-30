@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-30T20:15:06.966Z",
+  "timestamp": "2026-03-30T21:15:07.328Z",
   "peerId": "12D3KooWHFdPFoV2ByeefEAnZCfEcippH85qzM6u8c2uZ27XCSwv",
   "stats": {
-    "totalNodes": 109,
+    "totalNodes": 110,
     "observations": 0,
-    "experiments": 109,
+    "experiments": 110,
     "syntheses": 0,
-    "totalEdges": 105,
+    "totalEdges": 106,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 28,
-    "skills": 42,
+    "skills": 43,
     "finance": 11,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "752faa3095f1",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774904827204,
+      "depth": 2
+    },
     {
       "id": "3559f48626c2",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1774871777418,
-      "depth": 2
-    },
-    {
-      "id": "b8c720a82706",
-      "domain": "search-ranking",
-      "title": "Search round 47: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1774871776899,
       "depth": 2
     }
   ],
