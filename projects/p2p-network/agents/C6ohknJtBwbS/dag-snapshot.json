@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-30T11:08:36.525Z",
+  "timestamp": "2026-03-30T12:08:36.730Z",
   "peerId": "12D3KooWLvAsVutbNqrvzq2LAMePpzCVgKub4ymbAcoiJDSHnAkU",
   "stats": {
-    "totalNodes": 2388,
+    "totalNodes": 2391,
     "observations": 0,
-    "experiments": 2388,
+    "experiments": 2391,
     "syntheses": 0,
-    "totalEdges": 2384,
+    "totalEdges": 2387,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 974,
+    "infrastructure": 977,
     "skills": 752,
     "finance": 513,
     "search-ranking": 149
   },
   "recentExperiments": [
+    {
+      "id": "8a8948f620c4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 792",
+      "metricName": "score",
+      "metricValue": 141.01536394343776,
+      "isCurrentBest": false,
+      "createdAt": 1774869816514,
+      "depth": 8
+    },
+    {
+      "id": "15c2407a9534",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 786",
+      "metricName": "score",
+      "metricValue": 141.19487071110578,
+      "isCurrentBest": false,
+      "createdAt": 1774869456499,
+      "depth": 8
+    },
+    {
+      "id": "ca682f52e406",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 782",
+      "metricName": "score",
+      "metricValue": 141.32948386628092,
+      "isCurrentBest": false,
+      "createdAt": 1774869216478,
+      "depth": 8
+    },
     {
       "id": "24b6d7c3189d",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1774723550105,
       "depth": 8
-    },
-    {
-      "id": "ffbd09e5b4d9",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 169",
-      "metricName": "score",
-      "metricValue": 141.06201439329098,
-      "isCurrentBest": false,
-      "createdAt": 1774719169850,
-      "depth": 8
-    },
-    {
-      "id": "865d91b96b9d",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1774717999961,
-      "depth": 1
-    },
-    {
-      "id": "b083e0bde848",
-      "domain": "search-ranking",
-      "title": "Search round 46: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1774713207243,
-      "depth": 3
     }
   ],
   "frontier": [],
