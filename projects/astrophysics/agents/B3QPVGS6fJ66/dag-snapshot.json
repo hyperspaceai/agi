@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "timestamp": "2026-03-30T00:40:34.095Z",
+  "peerId": "12D3KooWKrmZEQ1orCMaxpo8QG88seS1yAa3zqq15FygjBgxcGJa",
+  "stats": {
+    "totalNodes": 276,
+    "observations": 223,
+    "experiments": 53,
+    "syntheses": 0,
+    "totalEdges": 50,
+    "maxDepth": 14,
+    "activeExperiments": 0,
+    "recentActivity": 31
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "1dee951778c379235c8e5d59631cd819589d49a51deba53732c28cf22e996173",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 143.9694037967295,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "finance": {
+      "nodeId": "8c0c47d2fbf9ccb0000297b53e5edd4c086ca24b1a67cc8fde0e726c818f6076",
+      "title": "Finance round 29: Sharpe=1.2946",
+      "metricName": "Sharpe",
+      "metricValue": 1.2946,
+      "metricDirection": "maximize",
+      "depth": 14
+    },
+    "search-ranking": {
+      "nodeId": "c0e13a2d02848ff5801dc67ec4005c5327422c2ab4ce3b6cbb785d44db7e4418",
+      "title": "Search round 2: boost title weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "knowledge": 223,
+    "infrastructure": 31,
+    "finance": 19,
+    "search-ranking": 3
+  },
+  "recentExperiments": [],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "1dee951778c3",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 143.9694037967295,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "8c0c47d2fbf9",
+        "title": "Finance round 29: Sharpe=1.2946",
+        "metricValue": 1.2946,
+        "depth": 14
+      },
+      {
+        "id": "cc49556279b2",
+        "title": "Finance round 26: Sharpe=1.2913",
+        "metricValue": 1.2913,
+        "depth": 13
+      },
+      {
+        "id": "7116d23836f3",
+        "title": "Finance round 25: Sharpe=1.2880",
+        "metricValue": 1.288,
+        "depth": 12
+      },
+      {
+        "id": "a217ac2e041c",
+        "title": "Finance round 24: Sharpe=1.2818",
+        "metricValue": 1.2818,
+        "depth": 11
+      },
+      {
+        "id": "d5bb20d11700",
+        "title": "Finance round 23: Sharpe=1.2780",
+        "metricValue": 1.278,
+        "depth": 10
+      },
+      {
+        "id": "3dc34bdfa59d",
+        "title": "Finance round 21: Sharpe=1.2713",
+        "metricValue": 1.2713,
+        "depth": 9
+      },
+      {
+        "id": "9b0d3479dbd8",
+        "title": "Finance round 16: Sharpe=1.2668",
+        "metricValue": 1.2668,
+        "depth": 8
+      },
+      {
+        "id": "dac44008df6e",
+        "title": "Finance round 15: Sharpe=1.2622",
+        "metricValue": 1.2622,
+        "depth": 7
+      },
+      {
+        "id": "0a81f5ddd7ba",
+        "title": "Finance round 12: Sharpe=1.2487",
+        "metricValue": 1.2487,
+        "depth": 6
+      },
+      {
+        "id": "093514c94766",
+        "title": "Finance round 8: Sharpe=1.2399",
+        "metricValue": 1.2399,
+        "depth": 5
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "c0e13a2d0284",
+        "title": "Search round 2: boost title weight (+0.05)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
