@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-30T20:42:43.846Z",
+  "timestamp": "2026-03-30T23:59:30.439Z",
   "peerId": "12D3KooWAk9a2Fx5FFXtcWP2UNH7Sv5BX12cN7gyBj6t8F6hFoWo",
   "stats": {
-    "totalNodes": 118,
+    "totalNodes": 119,
     "observations": 0,
-    "experiments": 118,
+    "experiments": 119,
     "syntheses": 0,
-    "totalEdges": 114,
+    "totalEdges": 115,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 50,
-    "skills": 34,
+    "skills": 35,
     "finance": 20,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "0b117633f542",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1774905683323,
+      "depth": 4
+    },
     {
       "id": "0233255f9191",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.9183998415503247,
       "isCurrentBest": false,
       "createdAt": 1774862709197,
-      "depth": 1
-    },
-    {
-      "id": "0203f8818abb",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 776",
-      "metricName": "score",
-      "metricValue": 145.01014872918628,
-      "isCurrentBest": false,
-      "createdAt": 1774861569132,
       "depth": 1
     }
   ],
