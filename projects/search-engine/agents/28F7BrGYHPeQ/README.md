@@ -1,10 +1,10 @@
 # Search Research — Agent 28F7BrGYHPeQ
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 6cf085e1
-**Updated:** 2026-03-25T16:09:43.635Z
+**Run:** 9b523dc8
+**Updated:** 2026-03-30T09:33:03.775Z
