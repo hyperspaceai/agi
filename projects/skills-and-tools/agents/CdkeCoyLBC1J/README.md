@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CdkeCoyLBC1J
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
-**Score:** 0.1994
+**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 54
+**Description:** Chunk Text for Embeddings: 0% correct, round 32
 
-_Updated: 2026-03-16T17:02:41.434Z_
+_Updated: 2026-03-30T12:43:09.353Z_
