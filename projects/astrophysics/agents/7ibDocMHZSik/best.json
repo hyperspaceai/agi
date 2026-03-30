@@ -2,12 +2,12 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWGXxPYjvzkLzF5aa41XLmoJUFnsJzc2uL2gf6Tp9bMwW7",
-  "runNumber": 499,
-  "timestamp": 1774092817052,
-  "hypothesis": "Improve on 8a385138 (loss=1.6696): many heads (16h, 768d)",
+  "runNumber": 784,
+  "timestamp": 1774829973233,
+  "hypothesis": "Improve on f25a60a0 (loss=1.6438): deeper (12 layers)",
   "config": {
     "nLayers": 12,
-    "nHeads": 16,
+    "nHeads": 12,
     "dModel": 768,
     "dFF": 3072,
     "contextLength": 128,
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 1.644523,
-    "trainLoss": 4.947421,
+    "valLoss": 1.634782,
+    "trainLoss": 4.930007,
     "lossCurve": [
       [
         0,
@@ -85,14 +85,14 @@
       ],
       [
         50,
-        4.947421
+        4.930007
       ]
     ],
-    "durationSec": 375.9,
-    "tokensPerSec": 71029.52913008779,
+    "durationSec": 366,
+    "tokensPerSec": 72950.81967213115,
     "totalTokens": 26700000
   },
-  "improvement": -1.4990856823181833,
+  "improvement": -0.15299700052586868,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 4070",
   "inspiredBy": null
