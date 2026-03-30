@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-29T23:01:15.232Z",
+  "timestamp": "2026-03-30T00:03:09.482Z",
   "peerId": "12D3KooWAWtuZ7hu7rF28rHqbN4vWXSfgqipuSrA2NrnjEeeREMa",
   "stats": {
-    "totalNodes": 3012,
-    "observations": 2681,
-    "experiments": 331,
+    "totalNodes": 3049,
+    "observations": 2716,
+    "experiments": 333,
     "syntheses": 0,
-    "totalEdges": 327,
+    "totalEdges": 329,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 33
+    "recentActivity": 35
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "1769f3f9afe58bca2af7e0aa5d198a0d247d9041cc0563a351bdc58f5d941fc6",
-      "title": "Cause infra-optimization round 4894",
+      "nodeId": "adee77a656c90cec6e2637f7213edfb6a5379533776a03265599c1c567a712b7",
+      "title": "Cause infra-optimization round 5135",
       "metricName": "score",
-      "metricValue": 145.89896256211773,
+      "metricValue": 146.0389241641737,
       "metricDirection": "maximize",
-      "depth": 7
+      "depth": 8
     },
     "skills": {
       "nodeId": "0c6be9d3f3bd2060f71519e39b64d61eb2336fa81ffbeee78d93f3d013db7822",
@@ -47,16 +47,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 178,
+    "infrastructure": 180,
     "skills": 75,
     "finance": 36,
     "search-ranking": 42,
-    "knowledge": 2681
+    "knowledge": 2716
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "59fe3498f3b6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 5155",
+      "metricName": "score",
+      "metricValue": 0.8909789227653875,
+      "isCurrentBest": false,
+      "createdAt": 1774826849706,
+      "depth": 9
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "adee77a656c9",
+        "title": "Cause infra-optimization round 5135",
+        "metricValue": 146.0389241641737,
+        "depth": 8
+      },
       {
         "id": "1769f3f9afe5",
         "title": "Cause infra-optimization round 4894",
