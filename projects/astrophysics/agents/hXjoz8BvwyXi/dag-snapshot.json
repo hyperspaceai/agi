@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-30T02:06:53.227Z",
+  "timestamp": "2026-03-30T03:08:46.739Z",
   "peerId": "12D3KooWAWtuZ7hu7rF28rHqbN4vWXSfgqipuSrA2NrnjEeeREMa",
   "stats": {
-    "totalNodes": 3118,
-    "observations": 2782,
-    "experiments": 336,
+    "totalNodes": 3152,
+    "observations": 2814,
+    "experiments": 338,
     "syntheses": 0,
-    "totalEdges": 332,
+    "totalEdges": 334,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 35
+    "recentActivity": 31
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "adee77a656c90cec6e2637f7213edfb6a5379533776a03265599c1c567a712b7",
-      "title": "Cause infra-optimization round 5135",
+      "nodeId": "a8fa54888aa34c27bd60accc90938475c5c12f4f3790276488cd59f2555ee7b1",
+      "title": "Cause infra-optimization round 5333",
       "metricName": "score",
-      "metricValue": 146.0389241641737,
+      "metricValue": 146.25475983284886,
       "metricDirection": "maximize",
-      "depth": 8
+      "depth": 9
     },
     "skills": {
       "nodeId": "0c6be9d3f3bd2060f71519e39b64d61eb2336fa81ffbeee78d93f3d013db7822",
@@ -47,16 +47,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 183,
+    "infrastructure": 185,
     "skills": 75,
     "finance": 36,
     "search-ranking": 42,
-    "knowledge": 2782
+    "knowledge": 2814
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "a8fa54888aa3",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 5333",
+      "metricName": "score",
+      "metricValue": 146.25475983284886,
+      "isCurrentBest": true,
+      "createdAt": 1774837866050,
+      "depth": 9
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "a8fa54888aa3",
+        "title": "Cause infra-optimization round 5333",
+        "metricValue": 146.25475983284886,
+        "depth": 9
+      },
       {
         "id": "adee77a656c9",
         "title": "Cause infra-optimization round 5135",
