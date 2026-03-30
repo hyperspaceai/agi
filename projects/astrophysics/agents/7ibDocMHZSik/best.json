@@ -2,12 +2,12 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWGXxPYjvzkLzF5aa41XLmoJUFnsJzc2uL2gf6Tp9bMwW7",
-  "runNumber": 781,
-  "timestamp": 1774830594758,
-  "hypothesis": "Improve on d3f41866 (loss=1.6445): deep + wide (12L, 768d, 12h)",
+  "runNumber": 791,
+  "timestamp": 1774837210386,
+  "hypothesis": "Improve on 7be964a8 (loss=1.6348): enable tied embeddings",
   "config": {
     "nLayers": 12,
-    "nHeads": 12,
+    "nHeads": 16,
     "dModel": 768,
     "dFF": 3072,
     "contextLength": 128,
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 1.64384,
-    "trainLoss": 4.946827,
+    "valLoss": 1.624182,
+    "trainLoss": 4.891258,
     "lossCurve": [
       [
         0,
@@ -85,14 +85,14 @@
       ],
       [
         50,
-        4.946827
+        4.891258
       ]
     ],
-    "durationSec": 378.9,
-    "tokensPerSec": 70467.1417260491,
+    "durationSec": 384.9,
+    "tokensPerSec": 69368.66718628215,
     "totalTokens": 26700000
   },
-  "improvement": -0.04153179979848194,
+  "improvement": -0.6484044967463517,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 4070",
   "inspiredBy": null
