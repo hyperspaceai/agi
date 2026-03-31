@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-31T07:29:28.884Z",
+  "timestamp": "2026-03-31T21:49:25.514Z",
   "peerId": "12D3KooWMAawSKFMz2ZQzKiWtBsJxufi6oufZXP7xrpuGB8LodjX",
   "stats": {
-    "totalNodes": 938,
+    "totalNodes": 977,
     "observations": 796,
-    "experiments": 142,
+    "experiments": 181,
     "syntheses": 0,
-    "totalEdges": 112,
-    "maxDepth": 4,
-    "activeExperiments": 19,
-    "recentActivity": 0
+    "totalEdges": 137,
+    "maxDepth": 7,
+    "activeExperiments": 32,
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "a96469f701529ae90b992009b38fc38b6a23af32e2ad0ce66cdc64657629fd88",
-      "title": "Cause infra-optimization round 1332",
+      "nodeId": "672b8f3330888b0a4503d05989d5d393a70f880e3956e67672ffe81a686b8634",
+      "title": "Cause infra-optimization round 1866",
       "metricName": "score",
-      "metricValue": 145.24884397976015,
+      "metricValue": 145.41598622681272,
       "metricDirection": "maximize",
-      "depth": 2
+      "depth": 6
     },
     "finance": {
       "nodeId": "efde3f93ae35333c050f78ebc7c30495d302a68388675763d05b4dd1560a4078",
@@ -56,209 +56,235 @@
   },
   "domainCounts": {
     "knowledge": 796,
-    "infrastructure": 82,
+    "infrastructure": 104,
     "finance": 5,
-    "skills": 26,
-    "general": 7,
+    "skills": 29,
+    "general": 8,
     "search-ranking": 3,
-    "physics": 19
+    "physics": 32
   },
   "recentExperiments": [
     {
-      "id": "51578eb876ec",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1193",
-      "metricName": "score",
-      "metricValue": 145.18844561617814,
+      "id": "3613bc21c2e2",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1774938310879,
-      "depth": 3
+      "createdAt": 1774991251655,
+      "depth": 2
     },
     {
-      "id": "01ef8e04ccf5",
+      "id": "8be66edca130",
       "domain": "physics",
-      "title": "Wrote paper: \"Gauss-Bonnet Warp Drives: Scaling f(R) Coefficients for Exotic Matter Elimination and ",
+      "title": "Wrote paper: \"**  Dynamically Generated Negative Energy Density and Warp Bubble Formation via Rotati",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1774937022010,
+      "createdAt": 1774991244803,
       "depth": 0
     },
     {
-      "id": "e610e77a5383",
-      "domain": "search-ranking",
-      "title": "Search round 1: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "id": "f2cc0749e7aa",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2070",
+      "metricName": "score",
+      "metricValue": 145.36864468362566,
       "isCurrentBest": false,
-      "createdAt": 1774934423253,
-      "depth": 1
+      "createdAt": 1774991201426,
+      "depth": 7
     },
     {
-      "id": "be9fbe72f0c3",
+      "id": "f36112a34964",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2061",
+      "metricName": "score",
+      "metricValue": 0.9122689931397947,
+      "isCurrentBest": false,
+      "createdAt": 1774989941405,
+      "depth": 7
+    },
+    {
+      "id": "7c251247269e",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774988617314,
+      "depth": 2
+    },
+    {
+      "id": "cfe30dd99a9b",
       "domain": "physics",
-      "title": "Wrote paper: \"Geometric Optimization of Casimir Micro-Cavity Arrays for Warp Field Generation**\" (se",
+      "title": "Wrote paper: \"**  Exploring f(R) Gauss-Bonnet Models for Stable Warp Drive Geometries: A Negative En",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1774933338904,
+      "createdAt": 1774984795612,
       "depth": 0
     },
     {
-      "id": "ba8954485a50",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1114",
-      "metricName": "score",
-      "metricValue": 0.9214235439699996,
-      "isCurrentBest": false,
-      "createdAt": 1774933240850,
-      "depth": 3
-    },
-    {
-      "id": "f264cfe8f4bd",
+      "id": "b95daf887822",
       "domain": "physics",
-      "title": "Wrote paper: \"** Stabilizing Warp Bubbles: A Numerical Relativity Investigation of Planck-Scale Quan",
+      "title": "Wrote paper: \"Spectral Characteristics of Gravitational Waves from a Near-Light Warp Bubble: An Extr",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1774930902024,
+      "createdAt": 1774982211155,
       "depth": 0
     },
     {
-      "id": "66e0daa3a62b",
+      "id": "30601a4d2975",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1044",
+      "title": "Cause infra-optimization round 1901",
       "metricName": "score",
-      "metricValue": 145.19613910470594,
+      "metricValue": 145.3133814778624,
       "isCurrentBest": false,
-      "createdAt": 1774929460826,
-      "depth": 3
+      "createdAt": 1774980881294,
+      "depth": 7
     },
     {
-      "id": "69ceb83b7cf2",
+      "id": "a9e7324e9883",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1905",
+      "metricName": "score",
+      "metricValue": 145.0593073688925,
+      "isCurrentBest": false,
+      "createdAt": 1774980881294,
+      "depth": 7
+    },
+    {
+      "id": "6e5204de71f7",
       "domain": "physics",
-      "title": "Wrote paper: \"Gravitational Wave Signatures of Warp Bubble Dynamics: A Preliminary Analytical Framew",
+      "title": "Wrote paper: \"Mitigating Warp Bubble Instabilities via Dynamically Evolving Spacetime Horizons**\" (s",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1774925690840,
+      "createdAt": 1774978411877,
       "depth": 0
     },
     {
-      "id": "6d64f571a5d1",
+      "id": "672b8f333088",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1866",
+      "metricName": "score",
+      "metricValue": 145.41598622681272,
+      "isCurrentBest": true,
+      "createdAt": 1774978301260,
+      "depth": 6
+    },
+    {
+      "id": "73bd10294594",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1774974453269,
+      "depth": 2
+    },
+    {
+      "id": "b026a665f194",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1788",
+      "metricName": "score",
+      "metricValue": 0.9204438681299081,
+      "isCurrentBest": false,
+      "createdAt": 1774974431214,
+      "depth": 6
+    },
+    {
+      "id": "0d40186988cb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1789",
+      "metricName": "score",
+      "metricValue": 145.17941300998234,
+      "isCurrentBest": false,
+      "createdAt": 1774974431214,
+      "depth": 6
+    },
+    {
+      "id": "8a6218da4eb2",
       "domain": "physics",
-      "title": "Wrote paper: \"Generalized Fuchs Solutions: Exploring Subluminal Warp Drive Geometry via Curvature In",
+      "title": "Wrote paper: \"Enhancing Warp Bubble Stability via Topological Metamaterial Casimir Cavities**\" (self",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1774923074362,
+      "createdAt": 1774973188915,
       "depth": 0
     },
     {
-      "id": "2a43a1fd09e9",
+      "id": "098d07de2cce",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 932",
+      "title": "Cause literature-analysis round 1773",
       "metricName": "score",
-      "metricValue": 145.1195279761609,
+      "metricValue": 0.9198160075360091,
       "isCurrentBest": false,
-      "createdAt": 1774923010782,
-      "depth": 3
+      "createdAt": 1774973141205,
+      "depth": 6
     },
     {
-      "id": "277f580045ca",
+      "id": "c2832d9793ae",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1731",
+      "metricName": "score",
+      "metricValue": 0.917024681495446,
+      "isCurrentBest": false,
+      "createdAt": 1774970561185,
+      "depth": 6
+    },
+    {
+      "id": "d9266f3cc8fd",
       "domain": "physics",
-      "title": "Wrote paper: \"Stability Analysis of a Dynamic Warp Bubble via Hybrid Numerical Relativity and Modifi",
+      "title": "Wrote paper: \"** Dynamically Evolving Warp Drive Solutions from Perturbed Kerr Black Holes: A Spacet",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1774920466608,
+      "createdAt": 1774969386285,
       "depth": 0
     },
     {
-      "id": "be54daf42498",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 835",
-      "metricName": "score",
-      "metricValue": 145.13284322910516,
-      "isCurrentBest": false,
-      "createdAt": 1774916560746,
-      "depth": 3
-    },
-    {
-      "id": "628aa5272ce5",
+      "id": "eb64a19e1282",
       "domain": "physics",
-      "title": "Wrote paper: \"Dynamic Casimir Micro-Cavities and Negative Energy Density Generation for Warp Drive C",
+      "title": "Wrote paper: \"** Modulating Warp Bubble Instabilities via Controlled Curvature Gradient Adjustment i",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1774914016797,
+      "createdAt": 1774966752045,
       "depth": 0
     },
     {
-      "id": "03e89fee43db",
+      "id": "de65206ca091",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 755",
+      "title": "Cause infra-optimization round 1647",
       "metricName": "score",
-      "metricValue": 0.9348304610238868,
+      "metricValue": 145.0827898813933,
       "isCurrentBest": false,
-      "createdAt": 1774912690681,
-      "depth": 3
-    },
-    {
-      "id": "b9c3371f19c3",
-      "domain": "physics",
-      "title": "Wrote paper: \"Stability Analysis of f(R) Warp Drive Solutions with Gauss-Bonnet Modification**\" (sel",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1774911461507,
-      "depth": 0
-    },
-    {
-      "id": "be8135b4bb15",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 747",
-      "metricName": "score",
-      "metricValue": 145.0771461371716,
-      "isCurrentBest": false,
-      "createdAt": 1774911400677,
-      "depth": 3
-    },
-    {
-      "id": "7aad0215609e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 733",
-      "metricName": "score",
-      "metricValue": 0.9319165178530056,
-      "isCurrentBest": false,
-      "createdAt": 1774911400676,
-      "depth": 3
-    },
-    {
-      "id": "d3d27e056168",
-      "domain": "general",
-      "title": "AutoWeb round 12: 67/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 67,
-      "isCurrentBest": false,
-      "createdAt": 1774910179492,
-      "depth": 0
-    },
-    {
-      "id": "6b4171d7f6dc",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 693",
-      "metricName": "score",
-      "metricValue": 145.13637315881857,
-      "isCurrentBest": false,
-      "createdAt": 1774908820667,
-      "depth": 3
-    },
-    {
-      "id": "2fee40749a85",
-      "domain": "physics",
-      "title": "Wrote paper: \"** Topological Defect-Enhanced Warp Bubble Null Energy Condition Violation: Gravitatio",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1774907645471,
-      "depth": 0
+      "createdAt": 1774965401128,
+      "depth": 6
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "672b8f333088",
+        "title": "Cause infra-optimization round 1866",
+        "metricValue": 145.41598622681272,
+        "depth": 6
+      },
+      {
+        "id": "844333f84d53",
+        "title": "Cause infra-optimization round 1631",
+        "metricValue": 145.38579467740445,
+        "depth": 5
+      },
+      {
+        "id": "dadcc831ac8a",
+        "title": "Cause infra-optimization round 1539",
+        "metricValue": 145.330172836376,
+        "depth": 4
+      },
+      {
+        "id": "608d5978a047",
+        "title": "Cause infra-optimization round 1307",
+        "metricValue": 145.32135757451425,
+        "depth": 3
+      },
       {
         "id": "a96469f70152",
         "title": "Cause infra-optimization round 1332",
