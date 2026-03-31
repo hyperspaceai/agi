@@ -1,24 +1,23 @@
 {
   "runId": "llm-r1",
   "runNumber": 1,
-  "hypothesis": "[LLM] Added RSI momentum filter to refine momentum factor and potentially reduce whipsaws.",
-  "sharpeRatio": 1.0912,
-  "totalReturn": 2.3932,
-  "maxDrawdown": 0.0612,
-  "alpha": 0.899,
+  "hypothesis": "[LLM] Increase low volatility weight and enable drawdown protection for improved Sharpe ratio.",
+  "sharpeRatio": 1.0915,
+  "totalReturn": 2.2187,
+  "maxDrawdown": 0.071,
+  "alpha": 0.7245,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
     "lowVolWeight",
     "dividendWeight",
-    "growthWeight",
-    "trendWeight"
+    "growthWeight"
   ],
   "positionSizing": "inverse_vol",
   "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-18T23:06:30.891Z"
+  "timestamp": "2026-03-24T08:57:02.532Z"
 }
