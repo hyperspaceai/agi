@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-31T11:15:06.470Z",
+  "timestamp": "2026-03-31T13:04:26.596Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 4562,
-    "observations": 4254,
-    "experiments": 308,
+    "totalNodes": 4632,
+    "observations": 4321,
+    "experiments": 311,
     "syntheses": 0,
-    "totalEdges": 304,
+    "totalEdges": 307,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 28
+    "recentActivity": 37
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "e034c7f81147d508d0cfb299ba6a89d4a06fc6a913824d48d6724ee78ed67456",
-      "title": "Cause infra-optimization round 7554",
+      "nodeId": "200d6fd7dc9533061efcb2857ab259ae4fef3f0d703f131025b6deafbb0a19dc",
+      "title": "Cause infra-optimization round 8187",
       "metricName": "score",
-      "metricValue": 145.9324239644306,
+      "metricValue": 146.0930383250091,
       "metricDirection": "maximize",
-      "depth": 8
+      "depth": 9
     },
     "skills": {
       "nodeId": "637aa2b26a3cb2e78566fa3027b487f1c5c691cbf44fe989b7c8b9c7f0d3336d",
@@ -47,27 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 212,
+    "infrastructure": 215,
     "skills": 61,
     "finance": 15,
-    "knowledge": 4254,
+    "knowledge": 4321,
     "search-ranking": 20
   },
-  "recentExperiments": [
-    {
-      "id": "e1c00efa2ed5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 8088",
-      "metricName": "score",
-      "metricValue": 145.7987118652067,
-      "isCurrentBest": false,
-      "createdAt": 1774953463610,
-      "depth": 9
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "200d6fd7dc95",
+        "title": "Cause infra-optimization round 8187",
+        "metricValue": 146.0930383250091,
+        "depth": 9
+      },
       {
         "id": "e034c7f81147",
         "title": "Cause infra-optimization round 7554",
