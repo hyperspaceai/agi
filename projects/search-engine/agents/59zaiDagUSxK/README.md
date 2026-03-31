@@ -1,10 +1,10 @@
 # Search Research — Agent 59zaiDagUSxK
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require 5 unique domains
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f961f514
-**Updated:** 2026-03-15T15:05:53.569Z
+**Run:** a02b9a48
+**Updated:** 2026-03-18T20:00:29.039Z
