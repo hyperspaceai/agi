@@ -2,12 +2,12 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWGg56wguBybYupM2G6MfCEzj2Q9Nh2sBGu3Tm3S8JVges",
-  "runNumber": 6,
-  "timestamp": 1774997179116,
-  "hypothesis": "Improve on d09ab6a8 (loss=4.7909): more heads (8h)",
+  "runNumber": 1,
+  "timestamp": 1774998005366,
+  "hypothesis": "Explore: constant LR schedule",
   "config": {
     "nLayers": 2,
-    "nHeads": 8,
+    "nHeads": 2,
     "dModel": 64,
     "dFF": 256,
     "contextLength": 128,
@@ -29,26 +29,26 @@
     "dropoutRate": 0,
     "gradientClipNorm": 1,
     "scheduleType": "constant",
-    "minLRRatio": 0.01,
+    "minLRRatio": 0.1,
     "initType": "normal",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.738868043634062,
-    "trainLoss": 4.7554781451644486,
+    "valLoss": 4.8194483738520795,
+    "trainLoss": 4.834400772306062,
     "lossCurve": [
       [
-        19,
-        4.738868043634062
+        11,
+        4.8194483738520795
       ]
     ],
-    "durationSec": 160.14,
-    "tokensPerSec": 242.98738603721745,
-    "totalTokens": 38912
+    "durationSec": 192.398,
+    "tokensPerSec": 117.09061424754935,
+    "totalTokens": 22528
   },
-  "improvement": -1.0868907376106158,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
