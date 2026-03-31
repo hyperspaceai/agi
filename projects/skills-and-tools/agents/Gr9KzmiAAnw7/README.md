@@ -3,6 +3,6 @@
 **Latest Skill:** Extract Entities from Text (LLM 3 iter) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct [0.20→0.20→0.20]
+**Description:** Extract Entities from Text: 0% correct [0.20→0.20]
 
-_Updated: 2026-03-31T20:29:00.606Z_
+_Updated: 2026-03-31T20:34:22.458Z_
