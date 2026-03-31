@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-03-31T08:35:53.862Z",
+  "timestamp": "2026-03-31T09:35:53.836Z",
   "peerId": "12D3KooWGoaFjkbPgfVCvaN6upBg2dpb1LUCeBJGHr4TfBDNhYpi",
   "stats": {
-    "totalNodes": 5000,
-    "observations": 4637,
-    "experiments": 363,
+    "totalNodes": 4530,
+    "observations": 4241,
+    "experiments": 289,
     "syntheses": 0,
-    "totalEdges": 361,
+    "totalEdges": 287,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 33
+    "recentActivity": 30
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -31,11 +31,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 302,
-    "finance": 61,
-    "knowledge": 4637
+    "infrastructure": 250,
+    "finance": 39,
+    "knowledge": 4241
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "b7ae15648305",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 787",
+      "metricName": "score",
+      "metricValue": 145.10679116643215,
+      "isCurrentBest": false,
+      "createdAt": 1774948403752,
+      "depth": 8
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
