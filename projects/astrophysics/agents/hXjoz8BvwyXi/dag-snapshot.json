@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-31T19:24:03.756Z",
+  "timestamp": "2026-03-31T20:25:55.029Z",
   "peerId": "12D3KooWAWtuZ7hu7rF28rHqbN4vWXSfgqipuSrA2NrnjEeeREMa",
   "stats": {
-    "totalNodes": 4412,
-    "observations": 4010,
-    "experiments": 402,
+    "totalNodes": 4436,
+    "observations": 4033,
+    "experiments": 403,
     "syntheses": 0,
-    "totalEdges": 398,
+    "totalEdges": 399,
     "maxDepth": 15,
     "activeExperiments": 0,
-    "recentActivity": 35
+    "recentActivity": 22
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "de9516586ee68ef7a003cb83962d7be63e5e75ca5100582c3e87e5eec9950297",
-      "title": "Cause infra-optimization round 7627",
+      "nodeId": "30ce40e9246e1e2f6ad50de8e66d4835b8c4fe5b46b53fa228c3b5eb218968e8",
+      "title": "Cause infra-optimization round 7713",
       "metricName": "score",
-      "metricValue": 146.67996041871982,
+      "metricValue": 146.68945284497835,
       "metricDirection": "maximize",
-      "depth": 14
+      "depth": 15
     },
     "skills": {
       "nodeId": "0c6be9d3f3bd2060f71519e39b64d61eb2336fa81ffbeee78d93f3d013db7822",
@@ -47,16 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 248,
+    "infrastructure": 249,
     "skills": 76,
     "finance": 36,
     "search-ranking": 42,
-    "knowledge": 4010
+    "knowledge": 4033
   },
   "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "30ce40e9246e",
+        "title": "Cause infra-optimization round 7713",
+        "metricValue": 146.68945284497835,
+        "depth": 15
+      },
       {
         "id": "de9516586ee6",
         "title": "Cause infra-optimization round 7627",
@@ -110,12 +116,6 @@
         "title": "Cause infra-optimization round 4444",
         "metricValue": 145.753690106824,
         "depth": 6
-      },
-      {
-        "id": "666a9027bf3b",
-        "title": "Cause infra-optimization round 4264",
-        "metricValue": 145.75183101185402,
-        "depth": 5
       }
     ],
     "skills": [
