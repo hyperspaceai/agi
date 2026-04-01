@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-01T20:52:47.835Z",
+  "timestamp": "2026-04-01T23:52:47.979Z",
   "peerId": "12D3KooWBExHzV83fyg1QoeNQ3qp7LorZpZ1GmU3tBx2mX6ujgBR",
   "stats": {
-    "totalNodes": 4101,
+    "totalNodes": 4105,
     "observations": 1446,
-    "experiments": 2655,
+    "experiments": 2659,
     "syntheses": 0,
-    "totalEdges": 2651,
+    "totalEdges": 2655,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,13 +47,53 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 906,
-    "skills": 1044,
+    "infrastructure": 908,
+    "skills": 1046,
     "finance": 561,
     "search-ranking": 144,
     "knowledge": 1446
   },
   "recentExperiments": [
+    {
+      "id": "8d358b087749",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 371",
+      "metricName": "score",
+      "metricValue": 145.07985704362517,
+      "isCurrentBest": false,
+      "createdAt": 1775086487743,
+      "depth": 6
+    },
+    {
+      "id": "847b87d626e4",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1775083847729,
+      "depth": 3
+    },
+    {
+      "id": "e0d559b400f8",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 306",
+      "metricName": "score",
+      "metricValue": 145.1374589709173,
+      "isCurrentBest": false,
+      "createdAt": 1775082587676,
+      "depth": 6
+    },
+    {
+      "id": "aceed0241a47",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1775079527645,
+      "depth": 3
+    },
     {
       "id": "4a1f96b0f0a0",
       "domain": "skills",
@@ -212,46 +252,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1775067689976,
-      "depth": 3
-    },
-    {
-      "id": "6b2c381c38a7",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1775067647268,
-      "depth": 3
-    },
-    {
-      "id": "ef973ad571c4",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 53",
-      "metricName": "score",
-      "metricValue": 141.0192556751605,
-      "isCurrentBest": false,
-      "createdAt": 1775067407256,
-      "depth": 6
-    },
-    {
-      "id": "f43425b834b4",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775067302973,
-      "depth": 3
-    },
-    {
-      "id": "b2365a7d27d3",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775067300650,
       "depth": 3
     }
   ],
