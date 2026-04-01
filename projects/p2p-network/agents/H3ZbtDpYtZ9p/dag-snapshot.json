@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "timestamp": "2026-04-01T13:47:29.567Z",
+  "timestamp": "2026-04-01T23:45:37.381Z",
   "peerId": "12D3KooWRrvmdMQG5TRJcw18EjhjBAnPrUX67v5wnVSXjK3mgmjM",
   "stats": {
-    "totalNodes": 103,
+    "totalNodes": 127,
     "observations": 0,
-    "experiments": 103,
+    "experiments": 127,
     "syntheses": 0,
-    "totalEdges": 88,
+    "totalEdges": 108,
     "maxDepth": 8,
-    "activeExperiments": 7,
+    "activeExperiments": 9,
     "recentActivity": 1
   },
   "bestPerDomain": {
@@ -30,228 +30,236 @@
       "depth": 7
     },
     "general": {
-      "nodeId": "418c499b0eb239358ab31067abe26202bc4421a83a680e08830e756afca9c039",
-      "title": "AutoWeb round 4: 62/100",
+      "nodeId": "0887ef6c830d92fe8a40ca4ec8c231545662f2bec09045caa62696047285248e",
+      "title": "AutoWeb round 5: 75/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 62,
+      "metricValue": 75,
       "metricDirection": "maximize",
       "depth": 0
     },
     "search-ranking": {
-      "nodeId": "8669cf48028d80dbc7293ea4f89045118a94b940d2f6654adc8d81a3483e82da",
-      "title": "Search round 2: require 5 unique domains",
+      "nodeId": "646ce2854185da542732393bcfa0e60d2f446d3789436c3d8765154c93a01c43",
+      "title": "Search round 1: Increased diversity penalty and added domain diversity to im",
       "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
+    },
+    "skills": {
+      "nodeId": "e2d295c3b7e2f146657be84cf480ee460cfa3c3c215580ed9008cbad538e9725",
+      "title": "Skill Normalize Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1958,
+      "metricDirection": "maximize",
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 68,
-    "finance": 21,
-    "physics": 7,
-    "general": 5,
-    "search-ranking": 2
+    "infrastructure": 85,
+    "finance": 22,
+    "physics": 9,
+    "general": 6,
+    "search-ranking": 3,
+    "skills": 2
   },
   "recentExperiments": [
     {
-      "id": "4d408aef3c81",
+      "id": "e9973b90b768",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 387",
+      "metricName": "score",
+      "metricValue": 141.14573139972276,
+      "isCurrentBest": false,
+      "createdAt": 1775084328924,
+      "depth": 2
+    },
+    {
+      "id": "0887ef6c830d",
+      "domain": "general",
+      "title": "AutoWeb round 5: 75/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 75,
+      "isCurrentBest": true,
+      "createdAt": 1775083061904,
+      "depth": 0
+    },
+    {
+      "id": "e2d295c3b7e2",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1958,
+      "isCurrentBest": true,
+      "createdAt": 1775082989771,
+      "depth": 1
+    },
+    {
+      "id": "399c43713304",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 218",
+      "metricName": "score",
+      "metricValue": 141.06193182105932,
+      "isCurrentBest": false,
+      "createdAt": 1775076117874,
+      "depth": 2
+    },
+    {
+      "id": "a7544f949c16",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1922,
+      "isCurrentBest": false,
+      "createdAt": 1775074897739,
+      "depth": 0
+    },
+    {
+      "id": "c8b73b646112",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 194",
+      "metricName": "score",
+      "metricValue": 141.30013138518308,
+      "isCurrentBest": false,
+      "createdAt": 1775074726241,
+      "depth": 2
+    },
+    {
+      "id": "6fe184be3d92",
+      "domain": "physics",
+      "title": "Wrote paper: \"Gravitational Wave Templates from Warp Drive Creation and Collapse\" (self-verification",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775074088440,
+      "depth": 0
+    },
+    {
+      "id": "f10c825c535e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 156",
+      "metricName": "score",
+      "metricValue": 141.36784327556035,
+      "isCurrentBest": false,
+      "createdAt": 1775071801043,
+      "depth": 2
+    },
+    {
+      "id": "9cfdaf742a4e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 153",
+      "metricName": "score",
+      "metricValue": 141.54209497946536,
+      "isCurrentBest": false,
+      "createdAt": 1775071608152,
+      "depth": 2
+    },
+    {
+      "id": "965a10ec7413",
       "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.2077",
-      "metricName": "Sharpe",
-      "metricValue": 1.2077,
-      "isCurrentBest": false,
-      "createdAt": 1775051249048,
-      "depth": 8
-    },
-    {
-      "id": "de04a2f0b9cf",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 336",
-      "metricName": "score",
-      "metricValue": 141.02203833259912,
-      "isCurrentBest": false,
-      "createdAt": 1775045934794,
-      "depth": 2
-    },
-    {
-      "id": "312571063c16",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 304",
-      "metricName": "score",
-      "metricValue": 141.02731112786844,
-      "isCurrentBest": false,
-      "createdAt": 1775043834910,
-      "depth": 2
-    },
-    {
-      "id": "64d8b2a1a31c",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.1991",
-      "metricName": "Sharpe",
-      "metricValue": 1.1991,
-      "isCurrentBest": false,
-      "createdAt": 1775042599051,
-      "depth": 8
-    },
-    {
-      "id": "be3deaba3292",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 272",
-      "metricName": "score",
-      "metricValue": 141.1200914194118,
-      "isCurrentBest": false,
-      "createdAt": 1775042036299,
-      "depth": 2
-    },
-    {
-      "id": "4249fd0674ff",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 251",
-      "metricName": "score",
-      "metricValue": 141.24218878927988,
-      "isCurrentBest": false,
-      "createdAt": 1775040824175,
-      "depth": 2
-    },
-    {
-      "id": "dbd131d09262",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1782",
+      "title": "Finance round 1: Sharpe=1.1782",
       "metricName": "Sharpe",
       "metricValue": 1.1782,
       "isCurrentBest": false,
-      "createdAt": 1775038730720,
+      "createdAt": 1775071102963,
       "depth": 8
     },
     {
-      "id": "8b41ec3971db",
-      "domain": "general",
-      "title": "AutoWeb round 2: 50/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 50,
-      "isCurrentBest": false,
-      "createdAt": 1775036957164,
-      "depth": 0
+      "id": "646ce2854185",
+      "domain": "search-ranking",
+      "title": "Search round 1: Increased diversity penalty and added domain diversity to im",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": true,
+      "createdAt": 1775069861578,
+      "depth": 1
     },
     {
-      "id": "0892400e24d7",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.0645",
-      "metricName": "Sharpe",
-      "metricValue": 1.0645,
-      "isCurrentBest": false,
-      "createdAt": 1775036621355,
-      "depth": 8
-    },
-    {
-      "id": "87b19f04d4bb",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.0524",
-      "metricName": "Sharpe",
-      "metricValue": 1.0524,
-      "isCurrentBest": false,
-      "createdAt": 1775035034364,
-      "depth": 8
-    },
-    {
-      "id": "b49a1b3c1dc8",
+      "id": "ffdabbcf297d",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 105",
+      "title": "Cause literature-analysis round 45",
       "metricName": "score",
-      "metricValue": 141.08373458356854,
+      "metricValue": 0.9733573056596274,
       "isCurrentBest": false,
-      "createdAt": 1775033504399,
+      "createdAt": 1775066426059,
       "depth": 2
     },
     {
-      "id": "283a649a20f1",
-      "domain": "physics",
-      "title": "Wrote paper: \"\"Regularizing Semiclassical Instability in Superluminal Warp Bubbles with Quantum Grav",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1775029653567,
-      "depth": 0
-    },
-    {
-      "id": "af62ef572f8e",
+      "id": "8cbe2acf6f93",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4",
+      "title": "Cause infra-optimization round 33",
       "metricName": "score",
-      "metricValue": 0.9687498691521191,
+      "metricValue": 141.17047740625327,
       "isCurrentBest": false,
-      "createdAt": 1775027699866,
+      "createdAt": 1775066426057,
       "depth": 2
     },
     {
-      "id": "ab6e68e16c01",
+      "id": "dae9e991fdbd",
       "domain": "infrastructure",
       "title": "Cause literature-analysis round 6",
       "metricName": "score",
-      "metricValue": 0.9689953114145167,
+      "metricValue": 0.9697328299369533,
       "isCurrentBest": false,
-      "createdAt": 1775027699866,
+      "createdAt": 1775064569485,
       "depth": 2
     },
     {
-      "id": "7f95190d9bf9",
+      "id": "d440966811d5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 4",
+      "metricName": "score",
+      "metricValue": 141.27215233340735,
+      "isCurrentBest": false,
+      "createdAt": 1775064569484,
+      "depth": 2
+    },
+    {
+      "id": "9b8272e55641",
       "domain": "infrastructure",
       "title": "Cause literature-analysis round 3",
       "metricName": "score",
-      "metricValue": 0.9602249409957992,
+      "metricValue": 0.96192195023752,
       "isCurrentBest": false,
-      "createdAt": 1775027699865,
+      "createdAt": 1775064569483,
       "depth": 2
     },
     {
-      "id": "d14acebbf889",
+      "id": "14aa82512529",
       "domain": "infrastructure",
       "title": "Cause infra-optimization round 3",
       "metricName": "score",
-      "metricValue": 141.14420982665416,
+      "metricValue": 142.55645369770198,
       "isCurrentBest": false,
-      "createdAt": 1775027699864,
+      "createdAt": 1775064569482,
       "depth": 2
     },
     {
-      "id": "e5295f6aff7f",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2",
-      "metricName": "score",
-      "metricValue": 0.9325853681181449,
-      "isCurrentBest": false,
-      "createdAt": 1775027699863,
-      "depth": 2
-    },
-    {
-      "id": "494d55a6343d",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2",
-      "metricName": "score",
-      "metricValue": 142.4871382811508,
-      "isCurrentBest": false,
-      "createdAt": 1775027699862,
-      "depth": 2
-    },
-    {
-      "id": "8b0f12701b56",
+      "id": "8d1700ce3021",
       "domain": "infrastructure",
       "title": "Cause literature-analysis round 1",
       "metricName": "score",
-      "metricValue": 0.9159711890492913,
+      "metricValue": 0.9457539718667972,
       "isCurrentBest": false,
-      "createdAt": 1775026417222,
+      "createdAt": 1775063268453,
       "depth": 2
     },
     {
-      "id": "858b8e690e59",
+      "id": "847f054eb6aa",
       "domain": "infrastructure",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 146.57678063643036,
-      "isCurrentBest": true,
-      "createdAt": 1775026417220,
-      "depth": 1
+      "metricValue": 146.2013772276981,
+      "isCurrentBest": false,
+      "createdAt": 1775063268451,
+      "depth": 2
+    },
+    {
+      "id": "e3183bd10c99",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the Fuchs et al. (2024) constant-velocity subluminal war\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775057840831,
+      "depth": 0
     }
   ],
   "frontier": [],
@@ -322,17 +330,37 @@
     ],
     "general": [
       {
-        "id": "418c499b0eb2",
-        "title": "AutoWeb round 4: 62/100",
-        "metricValue": 62,
+        "id": "0887ef6c830d",
+        "title": "AutoWeb round 5: 75/100",
+        "metricValue": 75,
         "depth": 0
       }
     ],
     "search-ranking": [
       {
+        "id": "646ce2854185",
+        "title": "Search round 1: Increased diversity penalty and added domain diversity to im",
+        "metricValue": 0.4,
+        "depth": 1
+      },
+      {
         "id": "8669cf48028d",
         "title": "Search round 2: require 5 unique domains",
         "metricValue": 0.3898713694067948,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "e2d295c3b7e2",
+        "title": "Skill Normalize Text (LLM 2 iter): 0%",
+        "metricValue": 0.1958,
+        "depth": 1
+      },
+      {
+        "id": "a7544f949c16",
+        "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
+        "metricValue": 0.1922,
         "depth": 0
       }
     ]
