@@ -1,0 +1,25 @@
+{
+  "runId": "llm-r10",
+  "runNumber": 10,
+  "hypothesis": "[LLM] Modified the strategy to improve Sharpe ratio by adjusting factor weights and position sizing, and enabling drawdown protection.",
+  "sharpeRatio": 1.2843,
+  "totalReturn": 2.4981,
+  "maxDrawdown": 0.0442,
+  "alpha": 1.0039,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "meanReversionWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "inverse_vol",
+  "durationSec": 0.001,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-04-01T16:05:21.304Z"
+}
