@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-30T18:59:08.798Z",
+  "timestamp": "2026-04-01T02:20:37.381Z",
   "peerId": "12D3KooWKrmZEQ1orCMaxpo8QG88seS1yAa3zqq15FygjBgxcGJa",
   "stats": {
-    "totalNodes": 773,
-    "observations": 698,
-    "experiments": 75,
+    "totalNodes": 1716,
+    "observations": 1546,
+    "experiments": 170,
     "syntheses": 0,
-    "totalEdges": 72,
+    "totalEdges": 159,
     "maxDepth": 14,
     "activeExperiments": 0,
-    "recentActivity": 27
+    "recentActivity": 33
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "a7a220df5c86163f78b266ac1fac33cc580fc2afe2b1d3ee0af3eb5faaab380c",
-      "title": "Cause infra-optimization round 1020",
+      "nodeId": "2b8397cb7d3acf447b3178c0a2cfd2a91b3b539f29523d02125cd15b4b9e0b1d",
+      "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 145.216580850535,
+      "metricValue": 147.61066068294437,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 3
     },
     "finance": {
       "nodeId": "8c0c47d2fbf9ccb0000297b53e5edd4c086ca24b1a67cc8fde0e726c818f6076",
@@ -36,29 +36,59 @@
       "metricValue": 0.4,
       "metricDirection": "maximize",
       "depth": 0
+    },
+    "skills": {
+      "nodeId": "1d13dd2164df735be2b75ecb1a53238c8f09ff50a96c01866fe3ee74825271db",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "general": {
+      "nodeId": "3dcff614190a9128850b99526992301c98edc4c1c8a04067fda00cc153a6c43f",
+      "title": "AutoWeb round 12: 77/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 77,
+      "metricDirection": "maximize",
+      "depth": 0
     }
   },
   "domainCounts": {
-    "knowledge": 698,
-    "infrastructure": 53,
+    "knowledge": 1546,
+    "infrastructure": 107,
     "finance": 19,
-    "search-ranking": 3
+    "search-ranking": 4,
+    "skills": 33,
+    "general": 7
   },
   "recentExperiments": [
     {
-      "id": "c55be2c52c40",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1107",
-      "metricName": "score",
-      "metricValue": 145.18723027764602,
+      "id": "0a25f3b86547",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1774896301225,
-      "depth": 2
+      "createdAt": 1775008897552,
+      "depth": 3
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "2b8397cb7d3a",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.61066068294437,
+        "depth": 3
+      },
+      {
+        "id": "8839c7f5c261",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 145.34631184077006,
+        "depth": 2
+      },
       {
         "id": "a7a220df5c86",
         "title": "Cause infra-optimization round 1020",
@@ -139,6 +169,34 @@
         "id": "c0e13a2d0284",
         "title": "Search round 2: boost title weight (+0.05)",
         "metricValue": 0.4,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "1d13dd2164df",
+        "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+        "metricValue": 0.1997,
+        "depth": 2
+      },
+      {
+        "id": "54b2253f6415",
+        "title": "Skill Chunk Text for Embeddings (LLM 3 iter): 0%",
+        "metricValue": 0.1996,
+        "depth": 1
+      },
+      {
+        "id": "3047bc15b8f9",
+        "title": "Skill Normalize Text (LLM 3 iter): 0%",
+        "metricValue": 0.1992,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "3dcff614190a",
+        "title": "AutoWeb round 12: 77/100",
+        "metricValue": 77,
         "depth": 0
       }
     ]
