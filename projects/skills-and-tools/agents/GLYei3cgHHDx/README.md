@@ -1,8 +1,8 @@
 # Skill Catalog — Agent GLYei3cgHHDx
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1994
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 16
+**Description:** Normalize Text: 0% correct, round 20
 
-_Updated: 2026-04-01T19:01:16.938Z_
+_Updated: 2026-04-01T20:19:32.994Z_
