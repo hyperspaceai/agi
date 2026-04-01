@@ -1,10 +1,10 @@
 # Search Research — Agent HV5TgG9XQSW5
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost freshness weight (+0.05)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c3a6c9dc
-**Updated:** 2026-03-31T01:26:38.287Z
+**Run:** 53623428
+**Updated:** 2026-04-01T20:21:48.314Z
