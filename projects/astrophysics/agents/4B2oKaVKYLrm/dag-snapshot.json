@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-01T21:00:19.131Z",
+  "timestamp": "2026-04-01T22:00:19.335Z",
   "peerId": "12D3KooWCzPy4i52jF8FfpfZtK8sXaTzQyseeSd4hZ7au1nrH2Dr",
   "stats": {
-    "totalNodes": 4397,
-    "observations": 4138,
-    "experiments": 259,
+    "totalNodes": 4437,
+    "observations": 4176,
+    "experiments": 261,
     "syntheses": 0,
-    "totalEdges": 255,
-    "maxDepth": 12,
+    "totalEdges": 257,
+    "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 36
+    "recentActivity": 40
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "4f29f1ace40acd83ab711945838bb576598522b827bf6294d6e38d7c6134b244",
-      "title": "Cause infra-optimization round 6735",
+      "nodeId": "2babb817b889e22fdc74202f27e463577f8b113ab695bcd8427b43053bccfe83",
+      "title": "Cause infra-optimization round 7896",
       "metricName": "score",
-      "metricValue": 146.43451832399455,
+      "metricValue": 146.6119338741177,
       "metricDirection": "maximize",
-      "depth": 11
+      "depth": 12
     },
     "skills": {
       "nodeId": "0a8bd9665a09bdc38fa31682a30cd9ded7fae1aafacdd3827352319b3908628f",
@@ -47,16 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 209,
+    "infrastructure": 211,
     "skills": 28,
     "finance": 8,
-    "knowledge": 4138,
+    "knowledge": 4176,
     "search-ranking": 14
   },
   "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "2babb817b889",
+        "title": "Cause infra-optimization round 7896",
+        "metricValue": 146.6119338741177,
+        "depth": 12
+      },
       {
         "id": "4f29f1ace40a",
         "title": "Cause infra-optimization round 6735",
@@ -110,12 +116,6 @@
         "title": "Cause infra-optimization round 777",
         "metricValue": 145.2525743593108,
         "depth": 3
-      },
-      {
-        "id": "e3305fabb7ca",
-        "title": "Cause infra-optimization round 622",
-        "metricValue": 145.17089275063415,
-        "depth": 2
       }
     ],
     "skills": [
