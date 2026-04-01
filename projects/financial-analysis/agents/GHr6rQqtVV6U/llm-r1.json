@@ -1,0 +1,24 @@
+{
+  "runId": "llm-r1",
+  "runNumber": 1,
+  "hypothesis": "[LLM] Increase trend following weight and enable drawdown protection for improved Sharpe ratio.",
+  "sharpeRatio": 1.0826,
+  "totalReturn": 2.2991,
+  "maxDrawdown": 0.0595,
+  "alpha": 0.8049,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "inverse_vol",
+  "durationSec": 0.001,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-04-01T23:12:11.844Z"
+}
