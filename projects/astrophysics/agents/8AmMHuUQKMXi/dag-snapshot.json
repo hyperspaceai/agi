@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-01T05:28:27.792Z",
+  "timestamp": "2026-04-01T08:12:28.637Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 4698,
-    "observations": 4463,
-    "experiments": 235,
+    "totalNodes": 4804,
+    "observations": 4561,
+    "experiments": 243,
     "syntheses": 0,
-    "totalEdges": 231,
-    "maxDepth": 14,
+    "totalEdges": 239,
+    "maxDepth": 15,
     "activeExperiments": 0,
-    "recentActivity": 35
+    "recentActivity": 38
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "a153dddf82992805d96e3d3c02257d37109b22068e45862e56add3ffd160b382",
-      "title": "Cause infra-optimization round 9092",
+      "nodeId": "239aea625e459fdac89000a27779f1e239810973cc1aee2b0c5b1758f3d117a8",
+      "title": "Cause infra-optimization round 9345",
       "metricName": "score",
-      "metricValue": 146.27790716103732,
+      "metricValue": 146.2803754213502,
       "metricDirection": "maximize",
-      "depth": 13
+      "depth": 14
     },
     "skills": {
       "nodeId": "637aa2b26a3cb2e78566fa3027b487f1c5c691cbf44fe989b7c8b9c7f0d3336d",
@@ -47,16 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 219,
+    "infrastructure": 227,
     "skills": 10,
     "finance": 4,
     "search-ranking": 2,
-    "knowledge": 4463
+    "knowledge": 4561
   },
   "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "239aea625e45",
+        "title": "Cause infra-optimization round 9345",
+        "metricValue": 146.2803754213502,
+        "depth": 14
+      },
       {
         "id": "a153dddf8299",
         "title": "Cause infra-optimization round 9092",
@@ -110,12 +116,6 @@
         "title": "Cause infra-optimization round 2528",
         "metricValue": 145.50566026195781,
         "depth": 5
-      },
-      {
-        "id": "6673636583ef",
-        "title": "Cause infra-optimization round 1331",
-        "metricValue": 145.3195625414938,
-        "depth": 4
       }
     ],
     "skills": [
