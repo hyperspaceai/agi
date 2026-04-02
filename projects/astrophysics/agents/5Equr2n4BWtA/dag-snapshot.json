@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-02T11:29:05.727Z",
+  "timestamp": "2026-04-02T13:29:05.824Z",
   "peerId": "12D3KooWE4D5bAMmNR9eaYhj69V89yFC66EVyCB9jgZB1ffAu15R",
   "stats": {
-    "totalNodes": 1266,
-    "observations": 1180,
-    "experiments": 86,
+    "totalNodes": 1337,
+    "observations": 1246,
+    "experiments": 91,
     "syntheses": 0,
-    "totalEdges": 83,
+    "totalEdges": 88,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 27
+    "recentActivity": 37
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -22,12 +22,12 @@
       "depth": 1
     },
     "skills": {
-      "nodeId": "7f79b0aa7f172a8a7263030272ddb444130296afca2e6b8ca5d385b38fcfcd5a",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "nodeId": "56755160d80934f9ae24bb15c3dba82e5d1cd69a0f253e0b785d9e8f51283a58",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1997,
+      "metricValue": 0.1998,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "finance": {
       "nodeId": "70aa3de441336ad2f694fa052fa9e8b60f8e7f09b6cf582e67a343cda586b4a4",
@@ -39,12 +39,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 65,
-    "skills": 14,
+    "infrastructure": 69,
+    "skills": 15,
     "finance": 7,
-    "knowledge": 1180
+    "knowledge": 1246
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "3371ca79a6d7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2412",
+      "metricName": "score",
+      "metricValue": 0.91146492371621,
+      "isCurrentBest": false,
+      "createdAt": 1775135495750,
+      "depth": 2
+    },
+    {
+      "id": "5b4c9e91774b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2405",
+      "metricName": "score",
+      "metricValue": 0.9111299329527207,
+      "isCurrentBest": false,
+      "createdAt": 1775135075748,
+      "depth": 2
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
@@ -62,6 +83,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "56755160d809",
+        "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 2
+      },
       {
         "id": "7f79b0aa7f17",
         "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
