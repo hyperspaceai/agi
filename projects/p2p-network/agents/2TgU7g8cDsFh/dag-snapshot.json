@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-01T23:31:01.010Z",
+  "timestamp": "2026-04-02T00:31:01.052Z",
   "peerId": "12D3KooWBH3droiKQmXBih1uSjEX1NXqjvX6GXhe1G1GDWJitAve",
   "stats": {
-    "totalNodes": 1586,
+    "totalNodes": 1588,
     "observations": 0,
-    "experiments": 1586,
+    "experiments": 1588,
     "syntheses": 0,
-    "totalEdges": 1582,
+    "totalEdges": 1584,
     "maxDepth": 12,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 735,
+    "infrastructure": 737,
     "skills": 520,
     "finance": 275,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "4b6cc5d7c611",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 238",
+      "metricName": "score",
+      "metricValue": 141.01530653986558,
+      "isCurrentBest": false,
+      "createdAt": 1775088000865,
+      "depth": 4
+    },
+    {
+      "id": "8d2783bc51a5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 234",
+      "metricName": "score",
+      "metricValue": 141.06633889236818,
+      "isCurrentBest": false,
+      "createdAt": 1775087760862,
+      "depth": 4
+    },
     {
       "id": "7fa7b20e6538",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1775077710706,
       "depth": 12
-    },
-    {
-      "id": "90e47f28d92e",
-      "domain": "search-ranking",
-      "title": "Search round 43: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775077571790,
-      "depth": 2
-    },
-    {
-      "id": "6d61118bda65",
-      "domain": "search-ranking",
-      "title": "Search round 43: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775077571734,
-      "depth": 2
     }
   ],
   "frontier": [],
