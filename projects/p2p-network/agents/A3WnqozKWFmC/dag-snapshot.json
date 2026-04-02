@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-02T07:01:32.215Z",
+  "timestamp": "2026-04-02T08:01:32.273Z",
   "peerId": "12D3KooWJrsxawa2hA2h6SNBneVLD8noLVJ2XXegfsXBDRvMBowh",
   "stats": {
-    "totalNodes": 272,
+    "totalNodes": 275,
     "observations": 0,
-    "experiments": 272,
+    "experiments": 275,
     "syntheses": 0,
-    "totalEdges": 269,
-    "maxDepth": 12,
+    "totalEdges": 272,
+    "maxDepth": 14,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "61c986ebdbdca54a0bdce5382831006864feda77ee87c3fcfe645f022b981cc1",
-      "title": "Cause infra-optimization round 9737",
+      "nodeId": "a6b00d25c6606371ec4a387258ab86d238dbcabb560ac638c9e9a489c97f33f8",
+      "title": "Cause infra-optimization round 9834",
       "metricName": "score",
-      "metricValue": 146.61685441562383,
+      "metricValue": 146.66603703440586,
       "metricDirection": "maximize",
-      "depth": 12
+      "depth": 13
     },
     "finance": {
       "nodeId": "9fb2bf5ac5dda128053708ebbe02edb81c94a67c7b2fd1cf62ab54bc1cd9b618",
@@ -39,18 +39,48 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 252,
+    "infrastructure": 255,
     "finance": 6,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "ca0e31d15300",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 9857",
+      "metricName": "score",
+      "metricValue": 0.8898126054225788,
+      "isCurrentBest": false,
+      "createdAt": 1775116172130,
+      "depth": 14
+    },
+    {
+      "id": "03c872260909",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 9854",
+      "metricName": "score",
+      "metricValue": 0.8879528041401241,
+      "isCurrentBest": false,
+      "createdAt": 1775115992125,
+      "depth": 14
+    },
+    {
+      "id": "a6b00d25c660",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 9834",
+      "metricName": "score",
+      "metricValue": 146.66603703440586,
+      "isCurrentBest": true,
+      "createdAt": 1775114792072,
+      "depth": 13
+    },
     {
       "id": "61c986ebdbdc",
       "domain": "infrastructure",
       "title": "Cause infra-optimization round 9737",
       "metricName": "score",
       "metricValue": 146.61685441562383,
-      "isCurrentBest": true,
+      "isCurrentBest": false,
       "createdAt": 1775108971938,
       "depth": 12
     },
@@ -213,41 +243,17 @@
       "isCurrentBest": false,
       "createdAt": 1775068710931,
       "depth": 10
-    },
-    {
-      "id": "e31a2b9c82d5",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 9065",
-      "metricName": "score",
-      "metricValue": 0.8898845583136327,
-      "isCurrentBest": false,
-      "createdAt": 1775068650929,
-      "depth": 10
-    },
-    {
-      "id": "496743ff7e91",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 9040",
-      "metricName": "score",
-      "metricValue": 146.1509794299812,
-      "isCurrentBest": false,
-      "createdAt": 1775067150915,
-      "depth": 9
-    },
-    {
-      "id": "9c488624ff2f",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 9012",
-      "metricName": "score",
-      "metricValue": 0.8898687715470421,
-      "isCurrentBest": false,
-      "createdAt": 1775065470909,
-      "depth": 9
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "a6b00d25c660",
+        "title": "Cause infra-optimization round 9834",
+        "metricValue": 146.66603703440586,
+        "depth": 13
+      },
       {
         "id": "61c986ebdbdc",
         "title": "Cause infra-optimization round 9737",
@@ -301,12 +307,6 @@
         "title": "Cause infra-optimization round 7164",
         "metricValue": 145.42307435115077,
         "depth": 4
-      },
-      {
-        "id": "47592618b302",
-        "title": "Cause infra-optimization round 5938",
-        "metricValue": 145.40707840189557,
-        "depth": 3
       }
     ],
     "finance": [
