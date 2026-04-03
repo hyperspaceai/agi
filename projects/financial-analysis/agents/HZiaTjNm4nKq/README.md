@@ -7,5 +7,5 @@
 **Alpha:** 1.7895
 **Max Drawdown:** 0.0483
 **LLM:** unknown
-**Run:** llm-r143
-**Updated:** 2026-04-03T09:58:57.300Z
+**Run:** llm-r144
+**Updated:** 2026-04-03T10:42:42.981Z
