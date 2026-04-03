@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-03T05:32:13.910Z",
+  "timestamp": "2026-04-03T06:32:13.928Z",
   "peerId": "12D3KooWAPjWW5HhwKjR9wC4uqiDQ9s4jFX3na1w7tystCSNeXQG",
   "stats": {
-    "totalNodes": 1662,
+    "totalNodes": 1664,
     "observations": 0,
-    "experiments": 1662,
+    "experiments": 1664,
     "syntheses": 0,
-    "totalEdges": 1658,
+    "totalEdges": 1660,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 703,
-    "skills": 500,
+    "infrastructure": 704,
+    "skills": 501,
     "finance": 310,
     "search-ranking": 149
   },
   "recentExperiments": [
+    {
+      "id": "dc53ee4ba2eb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3702",
+      "metricName": "score",
+      "metricValue": 0.8964806129362054,
+      "isCurrentBest": false,
+      "createdAt": 1775195083760,
+      "depth": 6
+    },
+    {
+      "id": "e00cf90ddca3",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1775194933792,
+      "depth": 4
+    },
     {
       "id": "a8442a0311e5",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 145.67375139998492,
       "isCurrentBest": false,
       "createdAt": 1775149242956,
-      "depth": 6
-    },
-    {
-      "id": "0e166ba0db60",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2890",
-      "metricName": "score",
-      "metricValue": 0.8992100885913803,
-      "isCurrentBest": false,
-      "createdAt": 1775146362930,
-      "depth": 6
-    },
-    {
-      "id": "3d686172d34f",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2784",
-      "metricName": "score",
-      "metricValue": 0.9012273653647328,
-      "isCurrentBest": false,
-      "createdAt": 1775140002832,
       "depth": 6
     }
   ],
