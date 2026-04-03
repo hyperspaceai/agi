@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "timestamp": "2026-04-03T02:24:53.670Z",
+  "peerId": "12D3KooWR7DGbYRbgPMxU5DBkxvzGg3UZGCYxwmxGC3B1LqqHxao",
+  "stats": {
+    "totalNodes": 336,
+    "observations": 268,
+    "experiments": 68,
+    "syntheses": 0,
+    "totalEdges": 63,
+    "maxDepth": 6,
+    "activeExperiments": 0,
+    "recentActivity": 34
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "2dbd3b1fbc0cb7407245c82f0d7bdeed25aae506ed47b7dfe65ed249b44d34c7",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 148.89821244600506,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "finance": {
+      "nodeId": "32822a2cba9342acd2f1f9f9c4a0dfacb550f96d4d85ed88b6e0ca5ed25410e1",
+      "title": "Finance round 9: Sharpe=1.3105",
+      "metricName": "Sharpe",
+      "metricValue": 1.3105,
+      "metricDirection": "maximize",
+      "depth": 6
+    },
+    "search-ranking": {
+      "nodeId": "fa94488b71fbe1e218b7c0db7318b223e541927ca465f6e848e89fdc6e4c731d",
+      "title": "Search round 4: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "general": {
+      "nodeId": "ca9930d5d8853301f0a4c499c56fea02eea7177f161b3c1311b1cc62e11f0ef7",
+      "title": "AutoWeb round 3: 48/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 48,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "skills": {
+      "nodeId": "3f26aefa02f5fe756027e352a09a82763e38525852a5714ba9d9c0deb13cb6b6",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.197,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 51,
+    "finance": 13,
+    "knowledge": 268,
+    "search-ranking": 2,
+    "general": 1,
+    "skills": 1
+  },
+  "recentExperiments": [
+    {
+      "id": "58a1c056cdd8",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 353",
+      "metricName": "score",
+      "metricValue": 145.13469061177491,
+      "isCurrentBest": false,
+      "createdAt": 1775182427325,
+      "depth": 3
+    },
+    {
+      "id": "32822a2cba93",
+      "domain": "finance",
+      "title": "Finance round 9: Sharpe=1.3105",
+      "metricName": "Sharpe",
+      "metricValue": 1.3105,
+      "isCurrentBest": true,
+      "createdAt": 1775181357685,
+      "depth": 6
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "2dbd3b1fbc0c",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.89821244600506,
+        "depth": 2
+      },
+      {
+        "id": "941bb953a0a0",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.2439576974168,
+        "depth": 1
+      },
+      {
+        "id": "b3cf8c1e08bd",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 144.52435420329599,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "32822a2cba93",
+        "title": "Finance round 9: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 6
+      },
+      {
+        "id": "3978c50cb723",
+        "title": "Finance round 8: Sharpe=1.3040",
+        "metricValue": 1.304,
+        "depth": 5
+      },
+      {
+        "id": "863bd4bed259",
+        "title": "Finance round 6: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 4
+      },
+      {
+        "id": "6fe75e8bc064",
+        "title": "Finance round 5: Sharpe=1.2228",
+        "metricValue": 1.2228,
+        "depth": 3
+      },
+      {
+        "id": "5e9784ad8211",
+        "title": "Finance round 4: Sharpe=1.2214",
+        "metricValue": 1.2214,
+        "depth": 2
+      },
+      {
+        "id": "f45665bc36e7",
+        "title": "Finance round 1: Sharpe=1.1818",
+        "metricValue": 1.1818,
+        "depth": 1
+      },
+      {
+        "id": "7b382e19c3ee",
+        "title": "Finance round 1: Sharpe=1.0852",
+        "metricValue": 1.0852,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "fa94488b71fb",
+        "title": "Search round 4: require 5 unique domains",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "ca9930d5d885",
+        "title": "AutoWeb round 3: 48/100",
+        "metricValue": 48,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "3f26aefa02f5",
+        "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+        "metricValue": 0.197,
+        "depth": 0
+      }
+    ]
+  }
+}
