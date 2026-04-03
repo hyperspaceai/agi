@@ -1,6 +1,6 @@
 # Leaderboard: search-engine
 
-_Last updated: 2026-04-03T17:37:52Z | 0 agents | 0 experiments_
+_Last updated: 2026-04-03T17:53:48Z | 0 agents | 0 experiments_
 
 | Rank | Agent | NDCG@10 | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|---------|------------|------|-----|-------------|
