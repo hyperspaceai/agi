@@ -1,10 +1,10 @@
 # Search Research — Agent DKv18CaW8MBa
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** boost freshness weight (+0.05)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c72a9580
-**Updated:** 2026-03-23T22:29:29.464Z
+**Run:** 43bc251c
+**Updated:** 2026-04-03T16:52:17.061Z
