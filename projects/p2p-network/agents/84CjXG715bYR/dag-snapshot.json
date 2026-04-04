@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-03T23:15:56.632Z",
+  "timestamp": "2026-04-04T00:15:56.601Z",
   "peerId": "12D3KooWGsZuGPgiGVov4xYV36DABoag9o6eMDUnXRPkFea2YQEQ",
   "stats": {
-    "totalNodes": 372,
+    "totalNodes": 375,
     "observations": 0,
-    "experiments": 372,
+    "experiments": 375,
     "syntheses": 0,
-    "totalEdges": 369,
+    "totalEdges": 372,
     "maxDepth": 11,
     "activeExperiments": 0,
-    "recentActivity": 14
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 252,
+    "infrastructure": 255,
     "skills": 72,
     "finance": 48
   },
   "recentExperiments": [
+    {
+      "id": "ee81f19b7e98",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 109",
+      "metricName": "score",
+      "metricValue": 0.9674982407499579,
+      "isCurrentBest": false,
+      "createdAt": 1775259356446,
+      "depth": 11
+    },
+    {
+      "id": "ee6b6bc8bff8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 107",
+      "metricName": "score",
+      "metricValue": 0.9661467631930819,
+      "isCurrentBest": false,
+      "createdAt": 1775259236441,
+      "depth": 11
+    },
+    {
+      "id": "10be42ab2a8a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 106",
+      "metricName": "score",
+      "metricValue": 141.30288797666924,
+      "isCurrentBest": false,
+      "createdAt": 1775259176439,
+      "depth": 11
+    },
     {
       "id": "2a92f4a4f3f4",
       "domain": "finance",
@@ -212,36 +242,6 @@
       "metricValue": 0.1999,
       "isCurrentBest": false,
       "createdAt": 1775254435896,
-      "depth": 2
-    },
-    {
-      "id": "c9294731338d",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.2399",
-      "metricName": "Sharpe",
-      "metricValue": 1.2399,
-      "isCurrentBest": false,
-      "createdAt": 1775254255884,
-      "depth": 7
-    },
-    {
-      "id": "3423d8e45787",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1775254195865,
-      "depth": 2
-    },
-    {
-      "id": "1708a64f3f1b",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1775254075853,
       "depth": 2
     }
   ],
