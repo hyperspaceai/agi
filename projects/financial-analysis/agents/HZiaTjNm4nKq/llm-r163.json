@@ -1,0 +1,22 @@
+{
+  "runId": "llm-r163",
+  "runNumber": 163,
+  "hypothesis": "[LLM] Increase momentum factor weight and implement trend factor to capitalize on trending assets, while adjusting risk parameters for better Sharpe ratio.",
+  "sharpeRatio": 1.378,
+  "totalReturn": 3.562,
+  "maxDrawdown": 0.0488,
+  "alpha": 2.0677,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-04-04T11:51:08.004Z"
+}
