@@ -1,11 +1,11 @@
 # Financial Analysis — Agent GHr6rQqtVV6U
 
-**Best Sharpe Ratio:** 1.3114
-**Hypothesis:** Round 7 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Best Sharpe Ratio:** 1.3642
+**Hypothesis:** [LLM] Increase momentum weight and reduce maxDrawdownPct for improved Sharpe ratio.
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.5271
-**Max Drawdown:** 0.0554
+**Alpha:** 1.9104
+**Max Drawdown:** 0.0469
 **LLM:** unknown
-**Run:** finance-r7
-**Updated:** 2026-04-04T14:11:01.409Z
+**Run:** llm-r8
+**Updated:** 2026-04-04T15:05:22.070Z
