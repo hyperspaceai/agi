@@ -1,8 +1,8 @@
 # Skill Catalog — Agent GDp1X4hRHPCf
 
-**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Parse Key-Value Log: 0% correct, round 5185
+**Description:** Chunk Text for Embeddings: 0% correct, round 7658
 
-_Updated: 2026-04-01T21:32:37.608Z_
+_Updated: 2026-04-05T07:58:55.466Z_
