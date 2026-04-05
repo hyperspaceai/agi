@@ -1,10 +1,10 @@
 # Search Research — Agent 4Bn8BuE5dqgG
 
-**Best NDCG@10:** 0.3886
-**Hypothesis:** boost authority weight (+0.05)
+**Best NDCG@10:** 0.3899
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 3c5e9bec
-**Updated:** 2026-03-27T13:41:25.331Z
+**Run:** 746db76c
+**Updated:** 2026-04-05T04:23:40.136Z
