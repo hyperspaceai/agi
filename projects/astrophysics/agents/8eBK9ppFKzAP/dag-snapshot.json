@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-05T01:51:15.439Z",
+  "timestamp": "2026-04-05T02:46:37.723Z",
   "peerId": "12D3KooWHTYUtxPxWtRsUCxxBVZQSBntCNm5f2k25GxW7HsAThZc",
   "stats": {
-    "totalNodes": 1195,
-    "observations": 1109,
-    "experiments": 86,
+    "totalNodes": 1227,
+    "observations": 1140,
+    "experiments": 87,
     "syntheses": 0,
-    "totalEdges": 83,
+    "totalEdges": 84,
     "maxDepth": 16,
     "activeExperiments": 0,
-    "recentActivity": 39
+    "recentActivity": 34
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -22,12 +22,12 @@
       "depth": 3
     },
     "skills": {
-      "nodeId": "d2dc4833397aad343fbbdd49dff560775328bd9f620ce9146fd2c920731e229a",
+      "nodeId": "ff7bdd8e0b3fd86448029ec6d6aa831ec6655f2a99102b952b4e8725c7b90d5c",
       "title": "Skill Normalize Text (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1997,
+      "metricValue": 0.1998,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "finance": {
       "nodeId": "bcfde994d3fa5bb349791ca434af6e0db49ee169380bd04c7533e91a731f0e5c",
@@ -39,33 +39,12 @@
     }
   },
   "domainCounts": {
-    "knowledge": 1109,
+    "knowledge": 1140,
     "infrastructure": 54,
-    "skills": 15,
+    "skills": 16,
     "finance": 17
   },
-  "recentExperiments": [
-    {
-      "id": "6ee8f7947b28",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2115",
-      "metricName": "score",
-      "metricValue": 145.09889368923515,
-      "isCurrentBest": false,
-      "createdAt": 1775353072295,
-      "depth": 4
-    },
-    {
-      "id": "02adf9707309",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2097",
-      "metricName": "score",
-      "metricValue": 0.9111417709820322,
-      "isCurrentBest": false,
-      "createdAt": 1775352074108,
-      "depth": 4
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
@@ -95,6 +74,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "ff7bdd8e0b3f",
+        "title": "Skill Normalize Text (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 2
+      },
       {
         "id": "d2dc4833397a",
         "title": "Skill Normalize Text (seed/mutation): 0%",
