@@ -1,11 +1,11 @@
 # Financial Analysis — Agent Aa75DgNY1AJF
 
-**Best Sharpe Ratio:** 1.1305
-**Hypothesis:** Round 4 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Best Sharpe Ratio:** 1.1991
+**Hypothesis:** Round 5 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.1351
-**Max Drawdown:** 0.0791
+**Alpha:** 1.3505
+**Max Drawdown:** 0.0776
 **LLM:** unknown
-**Run:** finance-r4
-**Updated:** 2026-04-05T09:58:34.063Z
+**Run:** finance-r5
+**Updated:** 2026-04-05T10:01:04.066Z
