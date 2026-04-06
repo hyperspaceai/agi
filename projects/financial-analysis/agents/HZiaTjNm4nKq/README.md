@@ -1,11 +1,11 @@
 # Financial Analysis — Agent HZiaTjNm4nKq
 
-**Best Sharpe Ratio:** 1.1233
-**Hypothesis:** [LLM] Incorporate volatility targeting and quality factor to improve Sharpe ratio and reduce drawdown.
+**Best Sharpe Ratio:** 1.1782
+**Hypothesis:** Round 2 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** inverse_vol
-**Alpha:** 0.9621
-**Max Drawdown:** 0.0599
+**Position Sizing:** equal_weight
+**Alpha:** 1.1189
+**Max Drawdown:** 0.0739
 **LLM:** unknown
-**Run:** llm-r1
-**Updated:** 2026-04-06T07:51:48.484Z
+**Run:** finance-r2
+**Updated:** 2026-04-06T08:45:37.508Z
