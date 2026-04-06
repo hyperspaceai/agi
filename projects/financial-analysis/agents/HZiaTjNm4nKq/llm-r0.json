@@ -1,11 +1,11 @@
 {
   "runId": "llm-r0",
   "runNumber": 0,
-  "hypothesis": "[LLM] Increase momentum weight and enable drawdown protection to mitigate volatility and capitalize on positive momentum.",
-  "sharpeRatio": 0.9659,
-  "totalReturn": 2.2732,
-  "maxDrawdown": 0.0884,
-  "alpha": 0.7789,
+  "hypothesis": "[LLM] Increase momentum weight and enable drawdown protection for improved Sharpe ratio.",
+  "sharpeRatio": 1.0064,
+  "totalReturn": 2.2724,
+  "maxDrawdown": 0.0829,
+  "alpha": 0.7781,
   "factors": [
     "momentumWeight",
     "valueWeight",
@@ -13,9 +13,9 @@
     "lowVolWeight"
   ],
   "positionSizing": "inverse_vol",
-  "durationSec": 0.002,
+  "durationSec": 0.001,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-19T18:09:35.922Z"
+  "timestamp": "2026-04-06T01:36:01.816Z"
 }
