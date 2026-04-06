@@ -1,24 +1,22 @@
 {
   "runId": "llm-r2",
   "runNumber": 2,
-  "hypothesis": "[LLM] Enhance Sharpe ratio by incorporating volatility targeting and adjusting position sizing for greater risk-adjusted returns.",
-  "sharpeRatio": 1.1537,
-  "totalReturn": 2.8641,
-  "maxDrawdown": 0.0666,
-  "alpha": 1.3698,
+  "hypothesis": "[LLM] Increase volatility targeting and enable drawdown protection for improved risk management and Sharpe ratio.",
+  "sharpeRatio": 1.1874,
+  "totalReturn": 2.5636,
+  "maxDrawdown": 0.0567,
+  "alpha": 1.0694,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
     "lowVolWeight",
-    "growthWeight",
-    "trendWeight",
     "roeWeight"
   ],
-  "positionSizing": "risk_parity",
-  "durationSec": 0,
+  "positionSizing": "inverse_vol",
+  "durationSec": 0.001,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-26T20:04:09.684Z"
+  "timestamp": "2026-04-06T08:49:44.457Z"
 }
