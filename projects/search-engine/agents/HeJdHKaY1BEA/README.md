@@ -1,10 +1,10 @@
 # Search Research — Agent HeJdHKaY1BEA
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 3fbb1f5e
-**Updated:** 2026-03-22T08:41:21.215Z
+**Run:** 735e0174
+**Updated:** 2026-04-06T05:33:17.543Z
