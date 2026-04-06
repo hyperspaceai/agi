@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-05T22:47:23.770Z",
+  "timestamp": "2026-04-06T18:16:36.882Z",
   "peerId": "12D3KooWSP5kCrxUFgbL2hCedB3C8QQSYbSYxDB4HTnFwVfxhdAC",
   "stats": {
-    "totalNodes": 1054,
+    "totalNodes": 1133,
     "observations": 0,
-    "experiments": 1054,
+    "experiments": 1133,
     "syntheses": 0,
-    "totalEdges": 677,
+    "totalEdges": 731,
     "maxDepth": 6,
-    "activeExperiments": 364,
-    "recentActivity": 5
+    "activeExperiments": 386,
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,12 +38,12 @@
       "depth": 5
     },
     "search-ranking": {
-      "nodeId": "bdd9e08fa3d73468bb00076d46e10a47ee314df6423e70e8bcc8fcac7e9f68b9",
-      "title": "Search round 31: require more local results (5)",
+      "nodeId": "a746924474512a541e4c73a209d5d1cd4a725e83fb4c86dccad64373c5809962",
+      "title": "Search round 1: Increase authorityWeight and combine it with titleWeight, bu",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710802,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     },
     "general": {
       "nodeId": "61f233f214a8b05b09952daac6fbdec8dbeba7cf31719f39cca568e663426a07",
@@ -55,203 +55,203 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 495,
-    "skills": 97,
-    "finance": 75,
-    "search-ranking": 14,
-    "physics": 364,
-    "general": 9
+    "infrastructure": 528,
+    "skills": 113,
+    "finance": 79,
+    "search-ranking": 15,
+    "physics": 386,
+    "general": 12
   },
   "recentExperiments": [
     {
-      "id": "3c91c6011cb5",
+      "id": "64abb99b8412",
       "domain": "physics",
-      "title": "Wrote paper: \"Bayesian Network Modeling of Topological Defect Geometries in Static Warp Bubbles via ",
+      "title": "Wrote paper: \"Dynamic Casimir Field Compensation for Warp Bubble Drag: A Feedback System Approach**\"",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1775427693557,
+      "createdAt": 1775496694414,
       "depth": 0
     },
     {
-      "id": "d8d053b9304c",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14909",
-      "metricName": "score",
-      "metricValue": 146.65587643598656,
+      "id": "fe21546fd1c8",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.2191",
+      "metricName": "Sharpe",
+      "metricValue": 1.2191,
       "isCurrentBest": false,
-      "createdAt": 1775427230033,
+      "createdAt": 1775496511051,
+      "depth": 6
+    },
+    {
+      "id": "db17b1dc4740",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 705",
+      "metricName": "score",
+      "metricValue": 145.03310266561917,
+      "isCurrentBest": false,
+      "createdAt": 1775492563617,
       "depth": 1
     },
     {
-      "id": "2ec2487da729",
+      "id": "a8694649a799",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14908",
+      "title": "Cause literature-analysis round 699",
       "metricName": "score",
-      "metricValue": 146.708575376555,
+      "metricValue": 0.9271150451431319,
       "isCurrentBest": false,
-      "createdAt": 1775427171609,
+      "createdAt": 1775492563615,
       "depth": 1
     },
     {
-      "id": "b4110e76d580",
+      "id": "0479bc865488",
       "domain": "physics",
-      "title": "Wrote paper: \"Hybrid Numerical Simulation of Warp Bubble Formation via Holographic Renormalization a",
+      "title": "Wrote paper: \"Gravitational Drag in Warp Bubbles: A Perturbative Analysis of Casimir Field Anomalies",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1775426534088,
+      "createdAt": 1775491734482,
       "depth": 0
     },
     {
-      "id": "948a731d6f5e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 14874",
-      "metricName": "score",
-      "metricValue": 0.8899540884912929,
+      "id": "45688d8e0bbb",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1775425942981,
-      "depth": 1
+      "createdAt": 1775491278208,
+      "depth": 2
     },
     {
-      "id": "a8fa7b1ea9f4",
+      "id": "f5c415507358",
       "domain": "physics",
-      "title": "Wrote paper: \"Dynamics of Warp Bubble Formation via Coupled Holographic Renormalization and Dynamica",
+      "title": "Wrote paper: \"Casimir Field Gradient Modulation and Gravitational Wave Signatures: A Predictive Mode",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1775423352982,
+      "createdAt": 1775490346542,
       "depth": 0
     },
     {
-      "id": "36f220d1fbd3",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14797",
-      "metricName": "score",
-      "metricValue": 146.60010645975927,
+      "id": "0ec850e2dfd2",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1775421237878,
-      "depth": 1
+      "createdAt": 1775488697318,
+      "depth": 2
     },
     {
-      "id": "c8e965de2d0d",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 14792",
-      "metricName": "score",
-      "metricValue": 0.8898451924699716,
+      "id": "7cff3f39f43a",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.1991",
+      "metricName": "Sharpe",
+      "metricValue": 1.1991,
       "isCurrentBest": false,
-      "createdAt": 1775421237872,
-      "depth": 1
+      "createdAt": 1775488661678,
+      "depth": 6
     },
     {
-      "id": "2a824d6a7dd3",
+      "id": "88d6e7ad51a5",
       "domain": "physics",
-      "title": "Wrote paper: \"Holographic Renormalization and Dynamically Adjusted Casimir Fields: A Framework for M",
+      "title": "Wrote paper: \"# Investigating Warp Bubble Stability Through Quantum Fluctuations and Holographic Ren",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1775420424188,
+      "createdAt": 1775487689703,
       "depth": 0
     },
     {
-      "id": "3672985eb88a",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14776",
-      "metricName": "score",
-      "metricValue": 146.64710836919096,
+      "id": "dd4e31bc63b9",
+      "domain": "physics",
+      "title": "Wrote paper: \"Leveraging Dynamically Tunable Metamaterials for Gravitational Lens Enhancement in War",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1775420068068,
+      "createdAt": 1775483640183,
+      "depth": 0
+    },
+    {
+      "id": "1fc401f35272",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Analytical Prediction of Gravitational Wave Signatures from Warp Bubble Steering vi",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775480994479,
+      "depth": 0
+    },
+    {
+      "id": "06999e25d988",
+      "domain": "physics",
+      "title": "Wrote paper: \"Dynamic Casimir Compensation and Self-Healing in Warp Bubble Interiors: A Holographic ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775478261295,
+      "depth": 0
+    },
+    {
+      "id": "1eaccf158f5f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775474422875,
+      "depth": 2
+    },
+    {
+      "id": "e6da0c42778c",
+      "domain": "physics",
+      "title": "Wrote paper: \"Dynamic Spacetime Manipulation via Controlled Casimir Field Gradients in Warp Drive Sy",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775474359857,
+      "depth": 0
+    },
+    {
+      "id": "b18372ed3576",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 406",
+      "metricName": "score",
+      "metricValue": 141.13447158004826,
+      "isCurrentBest": false,
+      "createdAt": 1775474182881,
       "depth": 1
     },
     {
-      "id": "e5e57b5dba0c",
+      "id": "80e18f048fb2",
+      "domain": "physics",
+      "title": "Wrote paper: \"Mapping Topological Defects in Gravitational Waves to Casimir Field Gradients for Warp",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775473229138,
+      "depth": 0
+    },
+    {
+      "id": "d9ff35acc2a4",
+      "domain": "general",
+      "title": "AutoWeb round 10: 77/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 77,
+      "isCurrentBest": false,
+      "createdAt": 1775471751037,
+      "depth": 0
+    },
+    {
+      "id": "d3a2a459d1bc",
+      "domain": "physics",
+      "title": "Wrote paper: \"Casimir Field-Induced Spacetime Curvature and Topological Defect Formation within Warp",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775470718355,
+      "depth": 0
+    },
+    {
+      "id": "5a487fee1874",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14751",
+      "title": "Cause literature-analysis round 340",
       "metricName": "score",
-      "metricValue": 146.65606126867092,
+      "metricValue": 0.941298732554282,
       "isCurrentBest": false,
-      "createdAt": 1775418896918,
+      "createdAt": 1775470297863,
       "depth": 1
-    },
-    {
-      "id": "6e1453f1e17d",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14735",
-      "metricName": "score",
-      "metricValue": 146.66679231878476,
-      "isCurrentBest": false,
-      "createdAt": 1775417669126,
-      "depth": 1
-    },
-    {
-      "id": "756eb0838e25",
-      "domain": "physics",
-      "title": "Wrote paper: \"Dynamically Adjustable Spacetime Curvature via Spatially-Gradient Casimir Fields for W",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1775416973647,
-      "depth": 0
-    },
-    {
-      "id": "0c07414b3b6b",
-      "domain": "physics",
-      "title": "Wrote paper: \"** Discriminative Gravitational Wave Polarization Analysis for Topological Defect Char",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1775415933704,
-      "depth": 0
-    },
-    {
-      "id": "0b3c51c973e4",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14688",
-      "metricName": "score",
-      "metricValue": 146.67018377513128,
-      "isCurrentBest": false,
-      "createdAt": 1775415356529,
-      "depth": 1
-    },
-    {
-      "id": "449fc26051bb",
-      "domain": "physics",
-      "title": "Wrote paper: \"Holographic Renormalization and Stochastic Back-Reaction: A Multi-Scale Simulation for",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1775414129915,
-      "depth": 0
-    },
-    {
-      "id": "782cd02e942b",
-      "domain": "physics",
-      "title": "Wrote paper: \"Spatially-Graded Casimir Field Stabilization for Vorticity-Controlled Warp Bubble Dyna",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1775413059373,
-      "depth": 0
-    },
-    {
-      "id": "1571f8658ece",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14651",
-      "metricName": "score",
-      "metricValue": 146.67453837378343,
-      "isCurrentBest": false,
-      "createdAt": 1775412511238,
-      "depth": 1
-    },
-    {
-      "id": "ddb9a67ff055",
-      "domain": "physics",
-      "title": "Wrote paper: \"** Predictive Gravitational Wave Signatures of Topological Defects in Warp Bubble Dyna",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1775410019336,
-      "depth": 0
-    },
-    {
-      "id": "c610d9189ae9",
-      "domain": "physics",
-      "title": "Wrote paper: \"Hybrid Numerical Simulation of Warp Bubble Decay: Incorporating Holographic Renormaliz",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1775409819378,
-      "depth": 0
     }
   ],
   "frontier": [],
@@ -317,6 +317,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "a74692447451",
+        "title": "Search round 1: Increase authorityWeight and combine it with titleWeight, bu",
+        "metricValue": 0.4,
+        "depth": 1
+      },
       {
         "id": "bdd9e08fa3d7",
         "title": "Search round 31: require more local results (5)",
