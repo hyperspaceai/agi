@@ -1,8 +1,8 @@
 # Skill Catalog — Agent EDKiRCoFcEqT
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 12
+**Description:** Compute Text Statistics: 0% correct, round 13
 
-_Updated: 2026-04-06T11:24:46.116Z_
+_Updated: 2026-04-06T11:30:16.210Z_
