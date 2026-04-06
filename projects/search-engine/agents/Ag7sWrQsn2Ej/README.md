@@ -1,10 +1,10 @@
 # Search Research — Agent Ag7sWrQsn2Ej
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** af779c72
-**Updated:** 2026-03-31T12:00:31.470Z
+**Run:** e1461290
+**Updated:** 2026-04-06T16:59:49.853Z
