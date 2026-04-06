@@ -3,6 +3,6 @@
 **Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Detect Anomalies (IQR): 0% correct, round 35
+**Description:** Detect Anomalies (IQR): 0% correct, round 60
 
-_Updated: 2026-04-06T17:21:14.394Z_
+_Updated: 2026-04-06T18:27:14.838Z_
