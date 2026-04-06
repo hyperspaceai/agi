@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-06T03:14:40.972Z",
+  "timestamp": "2026-04-06T04:14:41.193Z",
   "peerId": "12D3KooWAwcGvyrFUHuuE2xqDqVUZPjP5Yz698UZ6BE2TJmERy7i",
   "stats": {
-    "totalNodes": 170,
+    "totalNodes": 173,
     "observations": 0,
-    "experiments": 170,
+    "experiments": 173,
     "syntheses": 0,
-    "totalEdges": 167,
-    "maxDepth": 11,
+    "totalEdges": 170,
+    "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "1a5773081eac33eeddbdde9fe5aa83e0469fcebad68863d7b12e58546ea1f0be",
-      "title": "Cause infra-optimization round 4966",
+      "nodeId": "34264db4be34eec90134f846e5d5b92bef96f1a2dbd34b4a0ebdeda4bdecc878",
+      "title": "Cause infra-optimization round 5676",
       "metricName": "score",
-      "metricValue": 146.26802241583894,
+      "metricValue": 146.35792255872514,
       "metricDirection": "maximize",
-      "depth": 10
+      "depth": 11
     },
     "skills": {
       "nodeId": "ef94641f1cf4381aea07d4961d68bb43f60ea8d5b83f7c7729584391e49fb70f",
@@ -39,11 +39,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 141,
+    "infrastructure": 144,
     "skills": 23,
     "finance": 6
   },
   "recentExperiments": [
+    {
+      "id": "b35911f49396",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 5676",
+      "metricName": "score",
+      "metricValue": 0.8923211816710166,
+      "isCurrentBest": false,
+      "createdAt": 1775446510965,
+      "depth": 12
+    },
+    {
+      "id": "34264db4be34",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 5676",
+      "metricName": "score",
+      "metricValue": 146.35792255872514,
+      "isCurrentBest": true,
+      "createdAt": 1775446510962,
+      "depth": 11
+    },
+    {
+      "id": "048c11e3b9ff",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 5675",
+      "metricName": "score",
+      "metricValue": 0.8917790590330282,
+      "isCurrentBest": false,
+      "createdAt": 1775446450960,
+      "depth": 11
+    },
     {
       "id": "1cce340a372d",
       "domain": "infrastructure",
@@ -210,44 +240,20 @@
       "title": "Cause infra-optimization round 4966",
       "metricName": "score",
       "metricValue": 146.26802241583894,
-      "isCurrentBest": true,
+      "isCurrentBest": false,
       "createdAt": 1775399242812,
-      "depth": 10
-    },
-    {
-      "id": "de717c4ba946",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4958",
-      "metricName": "score",
-      "metricValue": 0.8947901649484745,
-      "isCurrentBest": false,
-      "createdAt": 1775398762803,
-      "depth": 10
-    },
-    {
-      "id": "4a5e1d229772",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 4885",
-      "metricName": "score",
-      "metricValue": 146.0299049470329,
-      "isCurrentBest": false,
-      "createdAt": 1775394382507,
-      "depth": 10
-    },
-    {
-      "id": "e94217c0306c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4874",
-      "metricName": "score",
-      "metricValue": 0.8940511808030577,
-      "isCurrentBest": false,
-      "createdAt": 1775393722478,
       "depth": 10
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "34264db4be34",
+        "title": "Cause infra-optimization round 5676",
+        "metricValue": 146.35792255872514,
+        "depth": 11
+      },
       {
         "id": "1a5773081eac",
         "title": "Cause infra-optimization round 4966",
@@ -301,12 +307,6 @@
         "title": "Cause infra-optimization round 3366",
         "metricValue": 145.37250087411533,
         "depth": 2
-      },
-      {
-        "id": "6cd1f6523fdf",
-        "title": "Cause infra-optimization round 251",
-        "metricValue": 145.244060133015,
-        "depth": 1
       }
     ],
     "skills": [
