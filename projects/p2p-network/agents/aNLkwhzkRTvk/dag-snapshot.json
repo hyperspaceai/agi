@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-07T00:37:22.415Z",
+  "timestamp": "2026-04-07T01:37:22.320Z",
   "peerId": "12D3KooWAPjWW5HhwKjR9wC4uqiDQ9s4jFX3na1w7tystCSNeXQG",
   "stats": {
-    "totalNodes": 1888,
+    "totalNodes": 1890,
     "observations": 0,
-    "experiments": 1888,
+    "experiments": 1890,
     "syntheses": 0,
-    "totalEdges": 1884,
+    "totalEdges": 1886,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 853,
+    "infrastructure": 855,
     "skills": 543,
     "finance": 329,
     "search-ranking": 163
   },
   "recentExperiments": [
+    {
+      "id": "ea01cfdd6068",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 472",
+      "metricName": "score",
+      "metricValue": 145.00974850040444,
+      "isCurrentBest": false,
+      "createdAt": 1775523622177,
+      "depth": 6
+    },
+    {
+      "id": "97b4f2fdd137",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 457",
+      "metricName": "score",
+      "metricValue": 145.07530599064813,
+      "isCurrentBest": false,
+      "createdAt": 1775522722178,
+      "depth": 6
+    },
     {
       "id": "92a8ac005fba",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.1992,
       "isCurrentBest": false,
       "createdAt": 1775499921660,
-      "depth": 4
-    },
-    {
-      "id": "7bf0ab57fdfc",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1992,
-      "isCurrentBest": false,
-      "createdAt": 1775499561659,
-      "depth": 4
-    },
-    {
-      "id": "c345ac50ecf1",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1992,
-      "isCurrentBest": false,
-      "createdAt": 1775499441675,
       "depth": 4
     }
   ],
