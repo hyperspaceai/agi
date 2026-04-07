@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-07T12:04:45.629Z",
+  "timestamp": "2026-04-07T13:04:45.898Z",
   "peerId": "12D3KooWD19Hw2onpjwkX8t89pKCLeqhzfmkAL74Cex2KcdeyPAb",
   "stats": {
-    "totalNodes": 4968,
-    "observations": 4679,
-    "experiments": 289,
+    "totalNodes": 4510,
+    "observations": 4241,
+    "experiments": 269,
     "syntheses": 0,
-    "totalEdges": 286,
+    "totalEdges": 266,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 32
+    "recentActivity": 42
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,12 +39,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 259,
+    "infrastructure": 239,
     "finance": 14,
     "search-ranking": 16,
-    "knowledge": 4679
+    "knowledge": 4241
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "68f39e5d9342",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3492",
+      "metricName": "score",
+      "metricValue": 0.9072450972203733,
+      "isCurrentBest": false,
+      "createdAt": 1775566065764,
+      "depth": 13
+    },
+    {
+      "id": "2de3c9e892e9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3485",
+      "metricName": "score",
+      "metricValue": 0.9059152957997928,
+      "isCurrentBest": false,
+      "createdAt": 1775565645738,
+      "depth": 13
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
