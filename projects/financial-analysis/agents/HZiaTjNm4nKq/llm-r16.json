@@ -1,21 +1,22 @@
 {
   "runId": "llm-r16",
   "runNumber": 16,
-  "hypothesis": "[LLM] Increase momentum factor weight and refine risk parity for improved Sharpe ratio.",
-  "sharpeRatio": 1.3264,
-  "totalReturn": 3.3771,
-  "maxDrawdown": 0.0483,
-  "alpha": 1.8829,
+  "hypothesis": "[LLM] Increase momentum factor weight and add a trend factor to capture stronger directional movements, while incorporating volatility targeting for risk management.",
+  "sharpeRatio": 1.3226,
+  "totalReturn": 3.3693,
+  "maxDrawdown": 0.0486,
+  "alpha": 1.8751,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "trendWeight"
   ],
   "positionSizing": "risk_parity",
   "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-27T12:31:23.810Z"
+  "timestamp": "2026-04-07T06:43:29.461Z"
 }
