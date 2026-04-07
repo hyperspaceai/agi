@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-07T03:00:49.223Z",
+  "timestamp": "2026-04-07T05:04:28.433Z",
   "peerId": "12D3KooWRgwCWoTVnkmUDvUQB7TtZuPqQpwN9k6QW7tieVZx8WYs",
   "stats": {
-    "totalNodes": 639,
+    "totalNodes": 642,
     "observations": 0,
-    "experiments": 639,
+    "experiments": 642,
     "syntheses": 0,
-    "totalEdges": 635,
+    "totalEdges": 638,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 315,
+    "infrastructure": 318,
     "skills": 169,
     "finance": 99,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "ba869288b2cb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 479",
+      "metricName": "score",
+      "metricValue": 145.1201638517596,
+      "isCurrentBest": false,
+      "createdAt": 1775535670710,
+      "depth": 4
+    },
+    {
+      "id": "2d0ad2f8c7cf",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 468",
+      "metricName": "score",
+      "metricValue": 145.32641428740845,
+      "isCurrentBest": false,
+      "createdAt": 1775534204719,
+      "depth": 4
+    },
+    {
+      "id": "a77772dc6ff5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 463",
+      "metricName": "score",
+      "metricValue": 145.42047293290287,
+      "isCurrentBest": false,
+      "createdAt": 1775531089139,
+      "depth": 4
+    },
     {
       "id": "c546d4ac0d49",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1775471507858,
-      "depth": 2
-    },
-    {
-      "id": "d43e36922b47",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775471507800,
-      "depth": 2
-    },
-    {
-      "id": "cb318933bf8b",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775471507059,
-      "depth": 2
-    },
-    {
-      "id": "f1c48e8ef1bf",
-      "domain": "search-ranking",
-      "title": "Search round 31: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775471148705,
       "depth": 2
     }
   ],
