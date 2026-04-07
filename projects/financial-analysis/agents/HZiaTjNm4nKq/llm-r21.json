@@ -1,21 +1,22 @@
 {
   "runId": "llm-r21",
   "runNumber": 21,
-  "hypothesis": "[LLM] Increase momentum factor weight and reduce maxDrawdownPct for improved risk-adjusted returns.",
-  "sharpeRatio": 1.3426,
-  "totalReturn": 3.2838,
-  "maxDrawdown": 0.0483,
-  "alpha": 1.7895,
+  "hypothesis": "[LLM] Increase momentum weight and enable trend factor to capitalize on momentum while incorporating directional information.",
+  "sharpeRatio": 1.3206,
+  "totalReturn": 3.3509,
+  "maxDrawdown": 0.0484,
+  "alpha": 1.8566,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "trendWeight"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0,
+  "durationSec": 0.004,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-27T20:13:04.329Z"
+  "timestamp": "2026-04-07T13:32:20.182Z"
 }
