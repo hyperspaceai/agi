@@ -1,11 +1,11 @@
 {
   "runId": "llm-r12",
   "runNumber": 12,
-  "hypothesis": "[LLM] Increase momentum factor weight and implement a more aggressive drawdown protection strategy.",
-  "sharpeRatio": 1.3687,
-  "totalReturn": 3.5945,
-  "maxDrawdown": 0.0499,
-  "alpha": 2.1002,
+  "hypothesis": "[LLM] Enhance Sharpe ratio by incorporating trend following and adjusting risk parity based on volatility targeting.",
+  "sharpeRatio": 1.3671,
+  "totalReturn": 3.3524,
+  "maxDrawdown": 0.046,
+  "alpha": 1.8582,
   "factors": [
     "momentumWeight",
     "valueWeight",
@@ -14,9 +14,9 @@
     "trendWeight"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0.001,
+  "durationSec": 0.006,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-27T09:28:50.070Z"
+  "timestamp": "2026-04-07T01:52:30.997Z"
 }
