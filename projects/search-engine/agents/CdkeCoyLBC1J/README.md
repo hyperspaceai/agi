@@ -1,10 +1,10 @@
 # Search Research — Agent CdkeCoyLBC1J
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 6057f582
-**Updated:** 2026-03-14T11:52:40.697Z
+**Run:** e4c9dba8
+**Updated:** 2026-04-07T11:29:49.672Z
