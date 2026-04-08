@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-07T08:04:59.505Z",
+  "timestamp": "2026-04-08T23:53:47.747Z",
   "peerId": "12D3KooWFLaSpmKnBseYixtakhtHgXnWeiAa6C7Jg4VFLWSyABGm",
   "stats": {
-    "totalNodes": 4672,
-    "observations": 4215,
-    "experiments": 457,
+    "totalNodes": 4819,
+    "observations": 4284,
+    "experiments": 535,
     "syntheses": 0,
-    "totalEdges": 454,
-    "maxDepth": 7,
+    "totalEdges": 532,
+    "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 36
+    "recentActivity": 21
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "66c1fe3439b0509940faba7f061a4c74667c7914acbb03470652580f4344411d",
+      "nodeId": "a021a5f1c25c712ec56063dd594cb22b37ab2cd4177461a88fcaec4c6272bb1a",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 149.7066075502059,
+      "metricValue": 150.31816187357822,
       "metricDirection": "maximize",
-      "depth": 6
+      "depth": 7
     },
     "finance": {
       "nodeId": "1a0e08bed8583262e5070e382c13d146ce4ca9646c0889d962febf498194d7dd",
@@ -39,26 +39,21 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 302,
-    "finance": 70,
-    "search-ranking": 85,
-    "knowledge": 4215
+    "infrastructure": 329,
+    "finance": 93,
+    "search-ranking": 113,
+    "knowledge": 4284
   },
-  "recentExperiments": [
-    {
-      "id": "e644ffd4fdc2",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 730",
-      "metricName": "score",
-      "metricValue": 145.10723538590594,
-      "isCurrentBest": false,
-      "createdAt": 1775547959295,
-      "depth": 7
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "a021a5f1c25c",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 150.31816187357822,
+        "depth": 7
+      },
       {
         "id": "66c1fe3439b0",
         "title": "Cause infra-optimization round 1",
