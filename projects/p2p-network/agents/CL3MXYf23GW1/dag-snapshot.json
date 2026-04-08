@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-08T10:03:25.749Z",
+  "timestamp": "2026-04-08T11:03:25.914Z",
   "peerId": "12D3KooWM9QXGgEjEAmW6fE67Yv5zpDZGt3NjfekdajgrF8vLVK9",
   "stats": {
-    "totalNodes": 407,
+    "totalNodes": 409,
     "observations": 0,
-    "experiments": 407,
+    "experiments": 409,
     "syntheses": 0,
-    "totalEdges": 403,
+    "totalEdges": 405,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 274,
+    "infrastructure": 276,
     "skills": 80,
     "finance": 39,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "e8bcf3b38b0c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 522",
+      "metricName": "score",
+      "metricValue": 145.070503891032,
+      "isCurrentBest": false,
+      "createdAt": 1775645155716,
+      "depth": 7
+    },
+    {
+      "id": "968805c9c43e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 491",
+      "metricName": "score",
+      "metricValue": 145.11523489313942,
+      "isCurrentBest": false,
+      "createdAt": 1775643295632,
+      "depth": 7
+    },
     {
       "id": "7df696d9825f",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1775596565920,
       "depth": 3
-    },
-    {
-      "id": "a0b6699ef9e9",
-      "domain": "finance",
-      "title": "Finance round 15: Sharpe=1.2593",
-      "metricName": "Sharpe",
-      "metricValue": 1.2593,
-      "isCurrentBest": false,
-      "createdAt": 1775595399535,
-      "depth": 8
-    },
-    {
-      "id": "02285dfad122",
-      "domain": "finance",
-      "title": "Finance round 14: Sharpe=1.2543",
-      "metricName": "Sharpe",
-      "metricValue": 1.2543,
-      "isCurrentBest": false,
-      "createdAt": 1775595160549,
-      "depth": 8
     }
   ],
   "frontier": [],
