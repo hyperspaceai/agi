@@ -1,11 +1,11 @@
 # Financial Analysis — Agent HZiaTjNm4nKq
 
-**Best Sharpe Ratio:** 1.3593
-**Hypothesis:** [LLM] Enhance Sharpe ratio by incorporating trend following and adjusting risk parameters for improved drawdown protection.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight, roeWeight
+**Best Sharpe Ratio:** 1.3830
+**Hypothesis:** [LLM] Increase momentum factor weight and enable a more aggressive drawdown protection strategy.
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.9082
-**Max Drawdown:** 0.0472
+**Alpha:** 1.9499
+**Max Drawdown:** 0.0459
 **LLM:** unknown
-**Run:** llm-r30
-**Updated:** 2026-04-08T02:57:15.619Z
+**Run:** llm-r31
+**Updated:** 2026-04-08T06:18:35.104Z
