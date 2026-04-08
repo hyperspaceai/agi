@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-08T21:41:22.869Z",
+  "timestamp": "2026-04-08T22:41:22.913Z",
   "peerId": "12D3KooWRBMHCa9XuWGxvVazbdz6ErT2cZJJ2j7Dz58SWbSbWGvD",
   "stats": {
-    "totalNodes": 162,
+    "totalNodes": 164,
     "observations": 0,
-    "experiments": 162,
+    "experiments": 164,
     "syntheses": 0,
-    "totalEdges": 158,
+    "totalEdges": 160,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 82,
+    "infrastructure": 84,
     "skills": 38,
     "finance": 14,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "041be4eed99a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 795",
+      "metricName": "score",
+      "metricValue": 0.9162816131545747,
+      "isCurrentBest": false,
+      "createdAt": 1775687242773,
+      "depth": 8
+    },
+    {
+      "id": "3cb9f18c180b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 761",
+      "metricName": "score",
+      "metricValue": 0.9155408579569037,
+      "isCurrentBest": false,
+      "createdAt": 1775685202742,
+      "depth": 8
+    },
     {
       "id": "6b354df1e1c9",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.395,
       "isCurrentBest": false,
       "createdAt": 1775643006919,
-      "depth": 1
-    },
-    {
-      "id": "c7dd545ae6d0",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1775643006247,
-      "depth": 1
-    },
-    {
-      "id": "8b568cc5d067",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1775643005341,
       "depth": 1
     }
   ],
