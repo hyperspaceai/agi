@@ -1,10 +1,10 @@
 # Search Research — Agent 5KaxrWJtkZ55
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 4433f804
-**Updated:** 2026-04-07T14:13:11.637Z
+**Run:** 508c5e97
+**Updated:** 2026-04-08T23:57:58.829Z
