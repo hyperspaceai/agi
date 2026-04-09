@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWCyhvx12WwenknNMBkLbgYvxTTrPBnaGWADE4FGcnsy8y",
+  "runNumber": 20,
+  "timestamp": 1775744729069,
+  "hypothesis": "Improve on a145f040 (loss=3.8106): muon LR (0.08)",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.08,
+    "batchSize": 64,
+    "maxSteps": 50000,
+    "maxDurationSec": 600,
+    "warmupSteps": 500,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 5,
+    "scheduleType": "constant",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.2556484935757846,
+    "trainLoss": 3.2936792267015846,
+    "lossCurve": [
+      [
+        34,
+        3.2556484935757846
+      ]
+    ],
+    "durationSec": 711.094,
+    "tokensPerSec": 391.6894250267897,
+    "totalTokens": 278528
+  },
+  "improvement": -14.564393175097026,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
