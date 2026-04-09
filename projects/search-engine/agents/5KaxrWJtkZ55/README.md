@@ -1,10 +1,10 @@
 # Search Research — Agent 5KaxrWJtkZ55
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.3936
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 508c5e97
-**Updated:** 2026-04-08T23:57:58.829Z
+**Run:** 9264ad68
+**Updated:** 2026-04-09T10:42:31.454Z
