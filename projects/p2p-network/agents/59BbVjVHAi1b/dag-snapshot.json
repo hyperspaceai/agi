@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-09T17:48:33.043Z",
+  "timestamp": "2026-04-09T18:48:33.287Z",
   "peerId": "12D3KooWDxYmEs4zMcH5duAuE7RpThmAs6LNxPapMM9hpgcdUrfq",
   "stats": {
-    "totalNodes": 576,
+    "totalNodes": 578,
     "observations": 0,
-    "experiments": 576,
+    "experiments": 578,
     "syntheses": 0,
-    "totalEdges": 572,
+    "totalEdges": 574,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 509,
-    "skills": 37,
+    "infrastructure": 510,
+    "skills": 38,
     "finance": 16,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "0c6295b020f3",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1775758713157,
+      "depth": 2
+    },
+    {
+      "id": "ad22abbcbd93",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1565",
+      "metricName": "score",
+      "metricValue": 0.911019857901988,
+      "isCurrentBest": false,
+      "createdAt": 1775758683092,
+      "depth": 8
+    },
     {
       "id": "916f33d7a869",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 145.02422027915006,
       "isCurrentBest": false,
       "createdAt": 1775718371641,
-      "depth": 8
-    },
-    {
-      "id": "f323e1c8ec17",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 948",
-      "metricName": "score",
-      "metricValue": 0.9167228583969396,
-      "isCurrentBest": false,
-      "createdAt": 1775712463577,
-      "depth": 8
-    },
-    {
-      "id": "c8ad8e62bf22",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 894",
-      "metricName": "score",
-      "metricValue": 144.97120882547603,
-      "isCurrentBest": false,
-      "createdAt": 1775709223202,
       "depth": 8
     }
   ],
