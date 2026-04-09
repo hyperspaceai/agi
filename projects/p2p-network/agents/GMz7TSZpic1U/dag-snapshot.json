@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-09T01:41:23.135Z",
+  "timestamp": "2026-04-09T02:41:23.288Z",
   "peerId": "12D3KooWRBMHCa9XuWGxvVazbdz6ErT2cZJJ2j7Dz58SWbSbWGvD",
   "stats": {
-    "totalNodes": 167,
+    "totalNodes": 170,
     "observations": 0,
-    "experiments": 167,
+    "experiments": 170,
     "syntheses": 0,
-    "totalEdges": 163,
+    "totalEdges": 166,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 87,
+    "infrastructure": 90,
     "skills": 38,
     "finance": 14,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "7e5c9f35a585",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1022",
+      "metricName": "score",
+      "metricValue": 144.96157440016373,
+      "isCurrentBest": false,
+      "createdAt": 1775700863102,
+      "depth": 8
+    },
+    {
+      "id": "d0980c30363d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1018",
+      "metricName": "score",
+      "metricValue": 0.9168086264031498,
+      "isCurrentBest": false,
+      "createdAt": 1775700623095,
+      "depth": 8
+    },
+    {
+      "id": "07975d73f8e0",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1011",
+      "metricName": "score",
+      "metricValue": 0.9158752564252717,
+      "isCurrentBest": false,
+      "createdAt": 1775700203084,
+      "depth": 8
+    },
     {
       "id": "d32d65b22ffa",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1775652321886,
       "depth": 8
-    },
-    {
-      "id": "81f13db9fbe1",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1775649561838,
-      "depth": 3
-    },
-    {
-      "id": "f909dfa554b4",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1775648961812,
-      "depth": 3
-    },
-    {
-      "id": "584c2058d251",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1775647161801,
-      "depth": 3
     }
   ],
   "frontier": [],
