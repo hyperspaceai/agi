@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-10T08:47:36.822Z",
+  "timestamp": "2026-04-10T19:18:50.715Z",
   "peerId": "12D3KooWHNYeRuAxhyAYo7METk2Yem7bQjwu3JCQYsQkGRULxJwv",
   "stats": {
-    "totalNodes": 860,
+    "totalNodes": 872,
     "observations": 0,
-    "experiments": 860,
+    "experiments": 872,
     "syntheses": 0,
-    "totalEdges": 856,
+    "totalEdges": 868,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 0
@@ -47,12 +47,132 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 417,
-    "skills": 239,
+    "infrastructure": 428,
+    "skills": 240,
     "finance": 135,
     "search-ranking": 69
   },
   "recentExperiments": [
+    {
+      "id": "ebe7ea3b78cb",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1775843309016,
+      "depth": 1
+    },
+    {
+      "id": "eabe38c6a13b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 668",
+      "metricName": "score",
+      "metricValue": 144.96810041936274,
+      "isCurrentBest": false,
+      "createdAt": 1775842768992,
+      "depth": 4
+    },
+    {
+      "id": "f62deef85b1b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 629",
+      "metricName": "score",
+      "metricValue": 0.9502146746590544,
+      "isCurrentBest": false,
+      "createdAt": 1775840428898,
+      "depth": 4
+    },
+    {
+      "id": "91d08ae5cab8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 605",
+      "metricName": "score",
+      "metricValue": 0.9489490348290278,
+      "isCurrentBest": false,
+      "createdAt": 1775838838595,
+      "depth": 4
+    },
+    {
+      "id": "69313f2d374e",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 601",
+      "metricName": "score",
+      "metricValue": 0.9485624589852042,
+      "isCurrentBest": false,
+      "createdAt": 1775838598592,
+      "depth": 4
+    },
+    {
+      "id": "68513fde9f94",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 549",
+      "metricName": "score",
+      "metricValue": 145.05177074238676,
+      "isCurrentBest": false,
+      "createdAt": 1775834248133,
+      "depth": 4
+    },
+    {
+      "id": "eb226838d0d0",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 473",
+      "metricName": "score",
+      "metricValue": 0.9563302918771133,
+      "isCurrentBest": false,
+      "createdAt": 1775829687862,
+      "depth": 4
+    },
+    {
+      "id": "e88b8f45856e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 465",
+      "metricName": "score",
+      "metricValue": 144.9699263943763,
+      "isCurrentBest": false,
+      "createdAt": 1775828979871,
+      "depth": 4
+    },
+    {
+      "id": "fe8d9d4f60c3",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 425",
+      "metricName": "score",
+      "metricValue": 145.05873526268087,
+      "isCurrentBest": false,
+      "createdAt": 1775826579665,
+      "depth": 4
+    },
+    {
+      "id": "93a4beb32fe9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 394",
+      "metricName": "score",
+      "metricValue": 0.9563538694420104,
+      "isCurrentBest": false,
+      "createdAt": 1775824719544,
+      "depth": 4
+    },
+    {
+      "id": "d6466081aa89",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 360",
+      "metricName": "score",
+      "metricValue": 145.23580048942827,
+      "isCurrentBest": false,
+      "createdAt": 1775822679325,
+      "depth": 4
+    },
+    {
+      "id": "e9e3229dce5f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 359",
+      "metricName": "score",
+      "metricValue": 145.2513635641517,
+      "isCurrentBest": false,
+      "createdAt": 1775822619324,
+      "depth": 4
+    },
     {
       "id": "748d568b562c",
       "domain": "infrastructure",
@@ -131,126 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1775755121214,
-      "depth": 1
-    },
-    {
-      "id": "68daead20b31",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775755121180,
-      "depth": 1
-    },
-    {
-      "id": "7959c1746618",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775755120516,
-      "depth": 1
-    },
-    {
-      "id": "013f224a1125",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775755120484,
-      "depth": 1
-    },
-    {
-      "id": "9b57dce6ae51",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775755120081,
-      "depth": 1
-    },
-    {
-      "id": "23819e01bae8",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775754761122,
-      "depth": 1
-    },
-    {
-      "id": "5a3fd4bc594a",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775754761089,
-      "depth": 1
-    },
-    {
-      "id": "2de00657e740",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775754760365,
-      "depth": 1
-    },
-    {
-      "id": "e67ae99deec4",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775754760359,
-      "depth": 1
-    },
-    {
-      "id": "ca109e01dcd2",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 52",
-      "metricName": "score",
-      "metricValue": 141.4585944429312,
-      "isCurrentBest": false,
-      "createdAt": 1775754754722,
-      "depth": 4
-    },
-    {
-      "id": "7fe0174a8f3e",
-      "domain": "search-ranking",
-      "title": "Search round 31: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775754402322,
-      "depth": 1
-    },
-    {
-      "id": "406a7748d235",
-      "domain": "search-ranking",
-      "title": "Search round 31: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775754401082,
-      "depth": 1
-    },
-    {
-      "id": "aa77dcb315db",
-      "domain": "search-ranking",
-      "title": "Search round 31: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775754401049,
       "depth": 1
     }
   ],
