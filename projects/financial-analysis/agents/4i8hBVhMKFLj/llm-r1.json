@@ -1,0 +1,22 @@
+{
+  "runId": "llm-r1",
+  "runNumber": 1,
+  "hypothesis": "[LLM] Incorporate RSI momentum filter and increase low volatility weight for improved risk-adjusted returns.",
+  "sharpeRatio": 1.0789,
+  "totalReturn": 2.2755,
+  "maxDrawdown": 0.0744,
+  "alpha": 0.7813,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight"
+  ],
+  "positionSizing": "inverse_vol",
+  "durationSec": 0.002,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-04-10T11:18:38.684Z"
+}
