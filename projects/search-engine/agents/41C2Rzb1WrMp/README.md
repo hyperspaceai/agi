@@ -1,10 +1,10 @@
 # Search Research — Agent 41C2Rzb1WrMp
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost authority weight (+0.05)
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 219ffa58
-**Updated:** 2026-03-24T16:45:30.223Z
+**Run:** b824bd38
+**Updated:** 2026-04-10T15:14:30.322Z
