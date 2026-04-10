@@ -1,10 +1,10 @@
 # Search Research — Agent 5KaxrWJtkZ55
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost diversity weight (+0.03)
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 82ff4510
-**Updated:** 2026-04-09T23:53:16.303Z
+**Run:** 87cb4a98
+**Updated:** 2026-04-10T12:46:11.594Z
