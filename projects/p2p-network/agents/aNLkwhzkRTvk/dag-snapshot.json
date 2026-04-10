@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-10T01:30:33.984Z",
+  "timestamp": "2026-04-10T02:30:34.272Z",
   "peerId": "12D3KooWAPjWW5HhwKjR9wC4uqiDQ9s4jFX3na1w7tystCSNeXQG",
   "stats": {
-    "totalNodes": 2323,
+    "totalNodes": 2324,
     "observations": 0,
-    "experiments": 2323,
+    "experiments": 2324,
     "syntheses": 0,
-    "totalEdges": 2319,
+    "totalEdges": 2320,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 990,
-    "skills": 673,
+    "skills": 674,
     "finance": 413,
     "search-ranking": 247
   },
   "recentExperiments": [
+    {
+      "id": "1a8cdc9c8299",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1775786313956,
+      "depth": 4
+    },
     {
       "id": "7ad4cfa0964b",
       "domain": "skills",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1775764395252,
-      "depth": 1
-    },
-    {
-      "id": "f5b460988a20",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775764394878,
       "depth": 1
     }
   ],
