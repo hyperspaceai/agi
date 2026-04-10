@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-10T20:27:12.832Z",
+  "timestamp": "2026-04-10T23:27:13.188Z",
   "peerId": "12D3KooWAPjWW5HhwKjR9wC4uqiDQ9s4jFX3na1w7tystCSNeXQG",
   "stats": {
-    "totalNodes": 2413,
+    "totalNodes": 2422,
     "observations": 0,
-    "experiments": 2413,
+    "experiments": 2422,
     "syntheses": 0,
-    "totalEdges": 2409,
+    "totalEdges": 2418,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,102 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1020,
-    "skills": 704,
+    "infrastructure": 1028,
+    "skills": 705,
     "finance": 428,
     "search-ranking": 261
   },
   "recentExperiments": [
+    {
+      "id": "74f739061216",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 548",
+      "metricName": "score",
+      "metricValue": 144.97598012593338,
+      "isCurrentBest": false,
+      "createdAt": 1775862372976,
+      "depth": 6
+    },
+    {
+      "id": "33cfe87ae361",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 543",
+      "metricName": "score",
+      "metricValue": 145.31773084960597,
+      "isCurrentBest": false,
+      "createdAt": 1775862072965,
+      "depth": 6
+    },
+    {
+      "id": "01f2c348ec5d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 533",
+      "metricName": "score",
+      "metricValue": 0.9690214849146567,
+      "isCurrentBest": false,
+      "createdAt": 1775861472953,
+      "depth": 6
+    },
+    {
+      "id": "546c93f611f5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 497",
+      "metricName": "score",
+      "metricValue": 0.961850624858045,
+      "isCurrentBest": false,
+      "createdAt": 1775859312899,
+      "depth": 6
+    },
+    {
+      "id": "6bdd02db835b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 496",
+      "metricName": "score",
+      "metricValue": 0.9568519717172197,
+      "isCurrentBest": false,
+      "createdAt": 1775859252898,
+      "depth": 6
+    },
+    {
+      "id": "17db976fa95d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 447",
+      "metricName": "score",
+      "metricValue": 0.9540438865514843,
+      "isCurrentBest": false,
+      "createdAt": 1775856312812,
+      "depth": 6
+    },
+    {
+      "id": "e5e52f9cf776",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 444",
+      "metricName": "score",
+      "metricValue": 145.00503911939057,
+      "isCurrentBest": false,
+      "createdAt": 1775856132811,
+      "depth": 6
+    },
+    {
+      "id": "db49e89b1650",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 417",
+      "metricName": "score",
+      "metricValue": 0.9534357318838158,
+      "isCurrentBest": false,
+      "createdAt": 1775854512784,
+      "depth": 6
+    },
+    {
+      "id": "c871c8555d7d",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1775854392792,
+      "depth": 4
+    },
     {
       "id": "62605f10053c",
       "domain": "infrastructure",
@@ -162,96 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1775836152053,
       "depth": 6
-    },
-    {
-      "id": "111f50b7fbf1",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 105",
-      "metricName": "score",
-      "metricValue": 0.9622553152274548,
-      "isCurrentBest": false,
-      "createdAt": 1775835792046,
-      "depth": 6
-    },
-    {
-      "id": "6aeb785be9c1",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1984,
-      "isCurrentBest": false,
-      "createdAt": 1775834232079,
-      "depth": 4
-    },
-    {
-      "id": "799c301ad5d3",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1984,
-      "isCurrentBest": false,
-      "createdAt": 1775833632070,
-      "depth": 4
-    },
-    {
-      "id": "f04e8d3de557",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775833618827,
-      "depth": 1
-    },
-    {
-      "id": "baced5e5cfc9",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775833618716,
-      "depth": 1
-    },
-    {
-      "id": "59b2831d7bab",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775833618621,
-      "depth": 1
-    },
-    {
-      "id": "06d78d066aa5",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775833617337,
-      "depth": 1
-    },
-    {
-      "id": "62ab717c0d66",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775833617187,
-      "depth": 1
-    },
-    {
-      "id": "f6c8ab7c2401",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775833258552,
-      "depth": 1
     }
   ],
   "frontier": [],
