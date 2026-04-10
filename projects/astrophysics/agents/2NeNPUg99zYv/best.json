@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWBC1Y8cFrLtpRDVsKuCJPPoNpHxWhUSxSwBw3VbipFJmQ",
+  "runNumber": 4,
+  "timestamp": 1775811194629,
+  "hypothesis": "Removing \"nLayers = 1\" since we're trying to improve val_loss.",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 676,
+    "dFF": 1536,
+    "contextLength": 2048,
+    "vocabSize": 3072,
+    "learningRate": 0.01,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 1000,
+    "weightDecay": 0,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0.2,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.00025,
+    "beta1": 0.945,
+    "beta2": 0.965
+  },
+  "result": {
+    "valLoss": 1.94293,
+    "trainLoss": 5.517801,
+    "lossCurve": [
+      [
+        0,
+        9.011221
+      ],
+      [
+        1,
+        9.011127
+      ],
+      [
+        2,
+        9.011066
+      ],
+      [
+        3,
+        9.011074
+      ],
+      [
+        4,
+        9.010988
+      ],
+      [
+        5,
+        9.010963
+      ],
+      [
+        6,
+        9.010901
+      ],
+      [
+        7,
+        9.01093
+      ],
+      [
+        8,
+        9.010987
+      ],
+      [
+        9,
+        9.011056
+      ],
+      [
+        10,
+        9.011075
+      ],
+      [
+        50,
+        6.29793
+      ],
+      [
+        100,
+        5.635289
+      ]
+    ],
+    "durationSec": 120.6,
+    "tokensPerSec": 161691.54228855722,
+    "totalTokens": 19500000
+  },
+  "improvement": 0,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce GTX 1660 Ti",
+  "inspiredBy": null
+}
