@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2NeNPUg99zYv
 
-**Latest Skill:** Normalize Text (LLM 3 iter) v1
+**Latest Skill:** Normalize Text (LLM 2 iter) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20→0.20]
+**Description:** Normalize Text: 0% correct [0.20]
 
-_Updated: 2026-04-10T13:21:43.051Z_
+_Updated: 2026-04-10T13:48:46.475Z_
