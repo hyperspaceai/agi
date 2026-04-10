@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 5Equr2n4BWtA
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 5200
+**Description:** Chunk Text for Embeddings: 0% correct, round 5202
 
-_Updated: 2026-04-10T22:26:15.613Z_
+_Updated: 2026-04-10T22:31:45.745Z_
