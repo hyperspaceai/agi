@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-11T09:27:14.639Z",
+  "timestamp": "2026-04-11T10:27:15.020Z",
   "peerId": "12D3KooWAPjWW5HhwKjR9wC4uqiDQ9s4jFX3na1w7tystCSNeXQG",
   "stats": {
-    "totalNodes": 2440,
+    "totalNodes": 2441,
     "observations": 0,
-    "experiments": 2440,
+    "experiments": 2441,
     "syntheses": 0,
-    "totalEdges": 2436,
+    "totalEdges": 2437,
     "maxDepth": 6,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 1043,
-    "skills": 708,
+    "skills": 709,
     "finance": 428,
     "search-ranking": 261
   },
   "recentExperiments": [
+    {
+      "id": "e52e99cdf644",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1775900234585,
+      "depth": 4
+    },
     {
       "id": "08235963de43",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 144.97598012593338,
       "isCurrentBest": false,
       "createdAt": 1775862372976,
-      "depth": 6
-    },
-    {
-      "id": "33cfe87ae361",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 543",
-      "metricName": "score",
-      "metricValue": 145.31773084960597,
-      "isCurrentBest": false,
-      "createdAt": 1775862072965,
       "depth": 6
     }
   ],
