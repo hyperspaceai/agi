@@ -2,24 +2,24 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWBC1Y8cFrLtpRDVsKuCJPPoNpHxWhUSxSwBw3VbipFJmQ",
-  "runNumber": 6,
-  "timestamp": 1775813826917,
-  "hypothesis": "Adjusting nLayers to explore different model architectures for val_loss improvement, one at a time.",
+  "runNumber": 107,
+  "timestamp": 1775876573609,
+  "hypothesis": "Improve on f3c73dd8 (loss=1.9358): extended training (600s)",
   "config": {
     "nLayers": 5,
     "nHeads": 1,
     "dModel": 2048,
-    "dFF": 1280,
-    "contextLength": 1024,
-    "vocabSize": 319937,
-    "learningRate": 0.01,
+    "dFF": 2048,
+    "contextLength": 512,
+    "vocabSize": 319997,
+    "learningRate": 0.0003,
     "batchSize": 16,
-    "maxSteps": 510000,
-    "maxDurationSec": 120,
+    "maxSteps": 50000,
+    "maxDurationSec": 600,
     "warmupSteps": 100,
-    "weightDecay": 0.0001,
-    "evalInterval": 20000,
-    "evalSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
     "dataset": "astrophysics",
     "activation": "gelu",
     "normalization": "rmsnorm",
@@ -32,71 +32,107 @@
     "minLRRatio": 0.1,
     "initType": "normal",
     "initScale": 0.02,
-    "beta1": 0.968,
-    "beta2": 0.966
+    "beta1": 0.9,
+    "beta2": 0.999
   },
   "result": {
-    "valLoss": 1.935834,
-    "trainLoss": 5.396622,
+    "valLoss": 1.899531,
+    "trainLoss": 5.278,
     "lossCurve": [
       [
         0,
-        9.011147
+        9.010963
       ],
       [
         1,
-        9.011109
+        9.010236
       ],
       [
         2,
-        9.01105
+        9.010564
       ],
       [
         3,
-        9.011013
+        9.010568
       ],
       [
         4,
-        9.010934
+        9.010513
       ],
       [
         5,
-        9.010989
+        9.01072
       ],
       [
         6,
-        9.011001
+        9.010816
       ],
       [
         7,
-        9.010916
+        9.010723
       ],
       [
         8,
-        9.010878
+        9.010805
       ],
       [
         9,
-        9.010806
+        9.010894
       ],
       [
         10,
-        9.010845
+        9.010944
       ],
       [
         50,
-        6.112936
+        6.389712
       ],
       [
         100,
-        5.566349
+        5.535135
+      ],
+      [
+        150,
+        5.463439
+      ],
+      [
+        200,
+        5.415496
+      ],
+      [
+        250,
+        5.299927
+      ],
+      [
+        300,
+        5.439834
+      ],
+      [
+        350,
+        5.212594
+      ],
+      [
+        400,
+        5.3352
+      ],
+      [
+        450,
+        5.277839
+      ],
+      [
+        500,
+        5.255723
+      ],
+      [
+        550,
+        5.414397
       ]
     ],
-    "durationSec": 120.7,
-    "tokensPerSec": 156586.57829328915,
-    "totalTokens": 18900000
+    "durationSec": 600.9,
+    "tokensPerSec": 130637.3772674322,
+    "totalTokens": 78500000
   },
-  "improvement": -0.36522159830771006,
+  "improvement": -1.8753157553798503,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce GTX 1660 Ti",
   "inspiredBy": null
