@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CL3MXYf23GW1
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1998
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1999
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 59
+**Description:** Extract Entities from Text: 0% correct, round 792
 
-_Updated: 2026-04-09T11:27:57.766Z_
+_Updated: 2026-04-11T14:14:19.283Z_
