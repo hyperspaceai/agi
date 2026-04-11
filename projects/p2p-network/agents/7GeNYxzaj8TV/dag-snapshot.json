@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-11T21:49:50.280Z",
+  "timestamp": "2026-04-11T22:49:50.240Z",
   "peerId": "12D3KooWG61YJ6aHv2izPRghtc7kirt4XfcMBp9QV89uezJ9Nfwu",
   "stats": {
-    "totalNodes": 144,
+    "totalNodes": 147,
     "observations": 0,
-    "experiments": 144,
+    "experiments": 147,
     "syntheses": 0,
-    "totalEdges": 141,
-    "maxDepth": 12,
+    "totalEdges": 144,
+    "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "c4c1945296de10b56c5cacf3ba5863246fbf0b6e02173d7067f83f0e6bb190df",
-      "title": "Cause infra-optimization round 4572",
+      "nodeId": "ad18eba1cbbaa37340a9780d3c6de21a0a2e612a2668948287f801736a1edc25",
+      "title": "Cause infra-optimization round 4733",
       "metricName": "score",
-      "metricValue": 146.3276141909689,
+      "metricValue": 146.66842112386516,
       "metricDirection": "maximize",
-      "depth": 11
+      "depth": 12
     },
     "finance": {
       "nodeId": "bda58b8f8bd72f65a7402a56347c9e91de9c91006e24a3c2f0941f61383f1bcf",
@@ -39,11 +39,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 124,
+    "infrastructure": 127,
     "finance": 6,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "ece94fbf7624",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 4759",
+      "metricName": "score",
+      "metricValue": 146.64728580858096,
+      "isCurrentBest": false,
+      "createdAt": 1775947159848,
+      "depth": 13
+    },
+    {
+      "id": "a6c2c856e9d7",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 4756",
+      "metricName": "score",
+      "metricValue": 146.66605554537844,
+      "isCurrentBest": false,
+      "createdAt": 1775946979847,
+      "depth": 13
+    },
+    {
+      "id": "ad18eba1cbba",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 4733",
+      "metricName": "score",
+      "metricValue": 146.66842112386516,
+      "isCurrentBest": true,
+      "createdAt": 1775945599833,
+      "depth": 12
+    },
     {
       "id": "19e7688c2e14",
       "domain": "infrastructure",
@@ -70,7 +100,7 @@
       "title": "Cause infra-optimization round 4572",
       "metricName": "score",
       "metricValue": 146.3276141909689,
-      "isCurrentBest": true,
+      "isCurrentBest": false,
       "createdAt": 1775935939196,
       "depth": 11
     },
@@ -213,41 +243,17 @@
       "isCurrentBest": false,
       "createdAt": 1775893871784,
       "depth": 10
-    },
-    {
-      "id": "97df3198a23e",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3835",
-      "metricName": "score",
-      "metricValue": 146.13031484102274,
-      "isCurrentBest": false,
-      "createdAt": 1775891711767,
-      "depth": 10
-    },
-    {
-      "id": "172e08ca361e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3807",
-      "metricName": "score",
-      "metricValue": 0.9109387223505817,
-      "isCurrentBest": false,
-      "createdAt": 1775890031627,
-      "depth": 10
-    },
-    {
-      "id": "34ef976858a3",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3797",
-      "metricName": "score",
-      "metricValue": 0.9087628228271405,
-      "isCurrentBest": false,
-      "createdAt": 1775889431605,
-      "depth": 10
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "ad18eba1cbba",
+        "title": "Cause infra-optimization round 4733",
+        "metricValue": 146.66842112386516,
+        "depth": 12
+      },
       {
         "id": "c4c1945296de",
         "title": "Cause infra-optimization round 4572",
@@ -301,12 +307,6 @@
         "title": "Cause infra-optimization round 862",
         "metricValue": 145.23792529651885,
         "depth": 3
-      },
-      {
-        "id": "3d19a74b4af8",
-        "title": "Cause infra-optimization round 289",
-        "metricValue": 145.19249402103316,
-        "depth": 2
       }
     ],
     "finance": [
