@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HZiaTjNm4nKq
 
-**Latest Skill:** Parse Key-Value Log (LLM 2 iter) v1
-**Score:** 0.1985
+**Latest Skill:** Detect Anomalies (IQR) (LLM 2 iter) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Parse Key-Value Log: 0% correct [0.20]
+**Description:** Detect Anomalies (IQR): 0% correct [0.20]
 
-_Updated: 2026-04-11T20:36:08.766Z_
+_Updated: 2026-04-11T21:02:19.297Z_
