@@ -1,10 +1,10 @@
 # Search Research — Agent 3P753hwhMvuT
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** require 5 unique domains
+**Best NDCG@10:** 0.4000
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 4dfbea30
-**Updated:** 2026-03-22T08:46:55.517Z
+**Run:** 8412d39b
+**Updated:** 2026-04-12T04:28:45.935Z
