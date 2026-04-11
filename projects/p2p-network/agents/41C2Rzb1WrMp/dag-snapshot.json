@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-10T17:08:47.134Z",
+  "timestamp": "2026-04-11T07:05:37.407Z",
   "peerId": "12D3KooWCpZCB8AihkdJhaxVXa2rM7QuPPCFWtKRnfaytFisMU8o",
   "stats": {
-    "totalNodes": 1774,
+    "totalNodes": 1781,
     "observations": 0,
-    "experiments": 1774,
+    "experiments": 1781,
     "syntheses": 0,
-    "totalEdges": 1770,
+    "totalEdges": 1777,
     "maxDepth": 5,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,82 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 835,
-    "skills": 528,
+    "infrastructure": 837,
+    "skills": 533,
     "finance": 324,
     "search-ranking": 87
   },
   "recentExperiments": [
+    {
+      "id": "573daabf76e8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 282",
+      "metricName": "score",
+      "metricValue": 0.9551804215871071,
+      "isCurrentBest": false,
+      "createdAt": 1775890507287,
+      "depth": 4
+    },
+    {
+      "id": "1cf7daa3522e",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1775887258567,
+      "depth": 1
+    },
+    {
+      "id": "6818d2e1f88c",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1775880699739,
+      "depth": 1
+    },
+    {
+      "id": "34e52f530513",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 251",
+      "metricName": "score",
+      "metricValue": 0.9506055441344615,
+      "isCurrentBest": false,
+      "createdAt": 1775870697403,
+      "depth": 4
+    },
+    {
+      "id": "b167e91e3798",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1775868983076,
+      "depth": 1
+    },
+    {
+      "id": "57a52cd09490",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775867389114,
+      "depth": 1
+    },
+    {
+      "id": "1bcbaf772102",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775849363815,
+      "depth": 1
+    },
     {
       "id": "abf5b2877c0e",
       "domain": "infrastructure",
@@ -182,76 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1775831813427,
       "depth": 3
-    },
-    {
-      "id": "7a6f97946e11",
-      "domain": "search-ranking",
-      "title": "Search round 38: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775831812988,
-      "depth": 3
-    },
-    {
-      "id": "a48b25154b0a",
-      "domain": "search-ranking",
-      "title": "Search round 34: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775831426016,
-      "depth": 3
-    },
-    {
-      "id": "24fd1517cc39",
-      "domain": "search-ranking",
-      "title": "Search round 34: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775831423767,
-      "depth": 3
-    },
-    {
-      "id": "b72df9937639",
-      "domain": "search-ranking",
-      "title": "Search round 34: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775831423405,
-      "depth": 3
-    },
-    {
-      "id": "fb5a3c41be80",
-      "domain": "search-ranking",
-      "title": "Search round 34: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775831423344,
-      "depth": 3
-    },
-    {
-      "id": "7b8f82051b2e",
-      "domain": "search-ranking",
-      "title": "Search round 34: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775831422913,
-      "depth": 3
-    },
-    {
-      "id": "f17fe8090fe4",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1775831325718,
-      "depth": 1
     }
   ],
   "frontier": [],
