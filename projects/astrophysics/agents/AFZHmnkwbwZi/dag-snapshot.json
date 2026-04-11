@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-11T00:03:36.161Z",
+  "timestamp": "2026-04-11T02:03:36.421Z",
   "peerId": "12D3KooWK4vTWvLenqqDK2LfJsk1VqoGrrhr4hKuviFr3vWtTPdE",
   "stats": {
-    "totalNodes": 340,
-    "observations": 280,
-    "experiments": 60,
+    "totalNodes": 404,
+    "observations": 340,
+    "experiments": 64,
     "syntheses": 0,
-    "totalEdges": 56,
+    "totalEdges": 60,
     "maxDepth": 5,
     "activeExperiments": 0,
     "recentActivity": 29
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "2c434d04db3492a3a4e5069859bcca0a469e4b503e085672921a1ede62b9f176",
-      "title": "Cause infra-optimization round 1",
+      "nodeId": "fdbd4da929f02d223d88171ee06101583a053444f04f3ece2455e940bae74e0d",
+      "title": "Cause infra-optimization round 511",
       "metricName": "score",
-      "metricValue": 143.6643361224752,
+      "metricValue": 145.15484243209085,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     },
     "skills": {
       "nodeId": "0cd916b0712a37ea5f02adecfd82da91adb8058633edd591e418b7e960d0fa78",
@@ -47,9 +47,9 @@
     }
   },
   "domainCounts": {
-    "knowledge": 280,
-    "infrastructure": 11,
-    "skills": 29,
+    "knowledge": 340,
+    "infrastructure": 13,
+    "skills": 31,
     "finance": 6,
     "search-ranking": 14
   },
@@ -57,6 +57,12 @@
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "fdbd4da929f0",
+        "title": "Cause infra-optimization round 511",
+        "metricValue": 145.15484243209085,
+        "depth": 1
+      },
       {
         "id": "2c434d04db34",
         "title": "Cause infra-optimization round 1",
