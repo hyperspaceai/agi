@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-11T03:14:10.770Z",
+  "timestamp": "2026-04-11T04:14:10.780Z",
   "peerId": "12D3KooWSJSdRPjEbLmZUStJPHcT6vth7UfPuoPyB2R6dAbNqpCy",
   "stats": {
-    "totalNodes": 4041,
+    "totalNodes": 4042,
     "observations": 0,
-    "experiments": 4041,
+    "experiments": 4042,
     "syntheses": 0,
-    "totalEdges": 4036,
+    "totalEdges": 4037,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,23 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1700,
+    "infrastructure": 1701,
     "skills": 1257,
     "finance": 789,
     "search-ranking": 294,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "8d81875bb626",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 601",
+      "metricName": "score",
+      "metricValue": 0.9166539706243956,
+      "isCurrentBest": false,
+      "createdAt": 1775879170553,
+      "depth": 10
+    },
     {
       "id": "aadabe76390a",
       "domain": "infrastructure",
@@ -251,16 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1775846769334,
       "depth": 3
-    },
-    {
-      "id": "a51d97417c67",
-      "domain": "search-ranking",
-      "title": "Search round 39: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1775846572889,
-      "depth": 1
     }
   ],
   "frontier": [],
