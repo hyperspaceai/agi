@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-11T13:16:41.568Z",
+  "timestamp": "2026-04-11T14:16:41.973Z",
   "peerId": "12D3KooWBExHzV83fyg1QoeNQ3qp7LorZpZ1GmU3tBx2mX6ujgBR",
   "stats": {
-    "totalNodes": 160,
+    "totalNodes": 162,
     "observations": 0,
-    "experiments": 160,
+    "experiments": 162,
     "syntheses": 0,
-    "totalEdges": 157,
+    "totalEdges": 159,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 94,
-    "skills": 51,
+    "infrastructure": 95,
+    "skills": 52,
     "finance": 15
   },
   "recentExperiments": [
+    {
+      "id": "538f31cbec7c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 405",
+      "metricName": "score",
+      "metricValue": 0.9350084128434375,
+      "isCurrentBest": false,
+      "createdAt": 1775914361477,
+      "depth": 1
+    },
+    {
+      "id": "59408cbbcff0",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1775913761480,
+      "depth": 4
+    },
     {
       "id": "173aec81e769",
       "domain": "skills",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1775897500976,
       "depth": 1
-    },
-    {
-      "id": "9a285982c0d2",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1775897080963,
-      "depth": 4
-    },
-    {
-      "id": "a8a6ce6218dd",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1775896600943,
-      "depth": 4
     }
   ],
   "frontier": [],
