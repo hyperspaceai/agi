@@ -1,10 +1,10 @@
 # Search Research — Agent 28F7BrGYHPeQ
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** reduce body weight (-0.05)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9b523dc8
-**Updated:** 2026-03-30T09:37:32.501Z
+**Run:** f3c2d0e8
+**Updated:** 2026-04-13T00:18:44.259Z
