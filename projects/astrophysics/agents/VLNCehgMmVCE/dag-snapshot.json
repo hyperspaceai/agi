@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "timestamp": "2026-04-12T03:17:26.252Z",
+  "peerId": "12D3KooWAJhXwnHPYfkgeYovmSj1ssktxqrB1DJbtehoZoZkThP7",
+  "stats": {
+    "totalNodes": 1409,
+    "observations": 539,
+    "experiments": 870,
+    "syntheses": 0,
+    "totalEdges": 866,
+    "maxDepth": 8,
+    "activeExperiments": 0,
+    "recentActivity": 33
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "8a762cb0f527b33d4715a29257ca0b799905ade0aa55a34043d0821f01849389",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 149.2682896934922,
+      "metricDirection": "maximize",
+      "depth": 4
+    },
+    "finance": {
+      "nodeId": "848ae307a6ffe06a60e439c99ee510c73c6b41cc7f998c218b7a8810e1c31218",
+      "title": "Finance round 10: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "metricDirection": "maximize",
+      "depth": 7
+    },
+    "general": {
+      "nodeId": "cbd2bb34d8f104d2f893342fb4a46bc93d2d7eeb5896605fcb9dab0d7cafca40",
+      "title": "AutoWeb round 2: 40/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 40,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "search-ranking": {
+      "nodeId": "d1961d5f0977e0f89919167dbba56e8fe74b99bbe74edcea90a0405da3cce626",
+      "title": "Search round 37: more expansion terms (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 534,
+    "finance": 279,
+    "general": 1,
+    "search-ranking": 56,
+    "knowledge": 539
+  },
+  "recentExperiments": [
+    {
+      "id": "9bd2875637ce",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1095",
+      "metricName": "score",
+      "metricValue": 0.9163322854280378,
+      "isCurrentBest": false,
+      "createdAt": 1775961861729,
+      "depth": 5
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "8a762cb0f527",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 149.2682896934922,
+        "depth": 4
+      },
+      {
+        "id": "a609e8873c2d",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.60942210087646,
+        "depth": 3
+      },
+      {
+        "id": "d8d61cbd95d8",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.64547312699943,
+        "depth": 2
+      },
+      {
+        "id": "8a4ae798c2f5",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.53570498375936,
+        "depth": 1
+      },
+      {
+        "id": "8522f2f2aa1f",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 145.96333989236868,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "848ae307a6ff",
+        "title": "Finance round 10: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 7
+      },
+      {
+        "id": "31f132442797",
+        "title": "Finance round 13: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 6
+      },
+      {
+        "id": "1b20a0f5ecac",
+        "title": "Finance round 7: Sharpe=1.3161",
+        "metricValue": 1.3161,
+        "depth": 5
+      },
+      {
+        "id": "61a1f4b846bb",
+        "title": "Finance round 5: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 4
+      },
+      {
+        "id": "a96a34e57860",
+        "title": "Finance round 4: Sharpe=1.2160",
+        "metricValue": 1.216,
+        "depth": 3
+      },
+      {
+        "id": "aedb14ac07fc",
+        "title": "Finance round 2: Sharpe=1.2077",
+        "metricValue": 1.2077,
+        "depth": 2
+      },
+      {
+        "id": "b11a3156808c",
+        "title": "Finance round 3: Sharpe=1.1870",
+        "metricValue": 1.187,
+        "depth": 1
+      },
+      {
+        "id": "c92bbeb19277",
+        "title": "Finance round 1: Sharpe=1.1782",
+        "metricValue": 1.1782,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "cbd2bb34d8f1",
+        "title": "AutoWeb round 2: 40/100",
+        "metricValue": 40,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "d1961d5f0977",
+        "title": "Search round 37: more expansion terms (5)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
