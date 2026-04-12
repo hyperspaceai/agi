@@ -1,10 +1,10 @@
 # Search Research — Agent HVbtZmvZ9gfB
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b784e1d9
-**Updated:** 2026-04-12T08:23:30.224Z
+**Run:** 9678b27a
+**Updated:** 2026-04-12T12:28:33.278Z
