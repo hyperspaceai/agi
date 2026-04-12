@@ -1,10 +1,10 @@
 # Search Research — Agent HZiaTjNm4nKq
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** Increase authorityWeight and combine it with titleWeight, building on previous successful experiments.
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 37c00468
-**Updated:** 2026-03-14T17:27:03.979Z
+**Run:** 7a5e1278
+**Updated:** 2026-04-06T06:59:57.508Z
