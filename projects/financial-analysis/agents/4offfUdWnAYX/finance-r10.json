@@ -1,28 +1,21 @@
 {
-  "version": 1,
-  "peerId": "12D3KooWDd2qQcDDy4p29j4qdpubuR7Lbb6TCWyFTctborzM7VWh",
-  "timestamp": 1773559770676,
-  "title": "Finance round 10: Sharpe=1.3137",
+  "runId": "finance-r10",
+  "runNumber": 10,
   "hypothesis": "Round 10 best mutation",
-  "metricName": "Sharpe",
-  "metricValue": 1.3137,
-  "isCurrentBest": false,
-  "roundNumber": 10,
-  "depth": 14,
-  "sharpeRatio": 1.3137,
-  "sortinoRatio": 2.2761,
+  "sharpeRatio": 1.3105,
+  "totalReturn": 3.0068,
   "maxDrawdown": 0.055,
-  "alpha": 1.5158,
-  "totalReturn": 3.01,
+  "alpha": 1.5126,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight",
-    "dividendWeight",
-    "growthWeight",
-    "meanReversionWeight",
-    "trendWeight"
+    "lowVolWeight"
   ],
-  "positionSizing": "risk_parity"
+  "positionSizing": "risk_parity",
+  "durationSec": 0,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-04-12T08:47:15.792Z"
 }
