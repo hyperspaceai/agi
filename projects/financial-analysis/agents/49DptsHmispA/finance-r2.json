@@ -2,22 +2,23 @@
   "runId": "finance-r2",
   "runNumber": 2,
   "hypothesis": "Round 2 best mutation",
-  "sharpeRatio": 1.1796,
-  "totalReturn": 2.5669,
-  "maxDrawdown": 0.0574,
-  "alpha": 1.0726,
+  "sharpeRatio": 1.0963,
+  "totalReturn": 2.5849,
+  "maxDrawdown": 0.0819,
+  "alpha": 1.0907,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
     "lowVolWeight",
     "dividendWeight",
-    "growthWeight"
+    "growthWeight",
+    "meanReversionWeight"
   ],
-  "positionSizing": "equal_weight",
+  "positionSizing": "risk_parity",
   "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-28T09:44:39.608Z"
+  "timestamp": "2026-04-12T19:09:42.312Z"
 }
