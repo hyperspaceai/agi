@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "timestamp": "2026-04-12T15:39:14.456Z",
+  "peerId": "12D3KooWFML6kkM2eLBuhqJuxCGzRE9bHaK76nXAvCFSbMrpSrvr",
+  "stats": {
+    "totalNodes": 173,
+    "observations": 97,
+    "experiments": 76,
+    "syntheses": 0,
+    "totalEdges": 72,
+    "maxDepth": 15,
+    "activeExperiments": 0,
+    "recentActivity": 30
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "1b29b7f7e3645047d5e4b21aff3f2cc096cca22b5e23270d222e75ae6e4c380a",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 147.54324860932167,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "skills": {
+      "nodeId": "d29088afb108ad5b8d87912e02dbec5226b367e739d0d8f63700def71b2729c3",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "finance": {
+      "nodeId": "4a390da377a19e1d1951f83b90e3798ad9382e52d128657924b84193acfa0deb",
+      "title": "Finance round 30: Sharpe=1.2946",
+      "metricName": "Sharpe",
+      "metricValue": 1.2946,
+      "metricDirection": "maximize",
+      "depth": 15
+    },
+    "search-ranking": {
+      "nodeId": "fb7fc804d618d06e18ae2f372aae16168b9784313ab19f6a1a47b5b4af625319",
+      "title": "Search round 32: disable intent classification",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 16,
+    "skills": 23,
+    "finance": 23,
+    "knowledge": 97,
+    "search-ranking": 14
+  },
+  "recentExperiments": [],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "1b29b7f7e364",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.54324860932167,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "d29088afb108",
+        "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+        "metricValue": 0.1995,
+        "depth": 1
+      },
+      {
+        "id": "3cdb4a1e5738",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1994,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "4a390da377a1",
+        "title": "Finance round 30: Sharpe=1.2946",
+        "metricValue": 1.2946,
+        "depth": 15
+      },
+      {
+        "id": "84bc2a1ced4d",
+        "title": "Finance round 28: Sharpe=1.2914",
+        "metricValue": 1.2914,
+        "depth": 14
+      },
+      {
+        "id": "63ba25d32f82",
+        "title": "Finance round 26: Sharpe=1.2856",
+        "metricValue": 1.2856,
+        "depth": 13
+      },
+      {
+        "id": "b8075c38683a",
+        "title": "Finance round 22: Sharpe=1.2818",
+        "metricValue": 1.2818,
+        "depth": 12
+      },
+      {
+        "id": "a6a929f86fbf",
+        "title": "Finance round 21: Sharpe=1.2754",
+        "metricValue": 1.2754,
+        "depth": 11
+      },
+      {
+        "id": "e1fcfb42b994",
+        "title": "Finance round 20: Sharpe=1.2711",
+        "metricValue": 1.2711,
+        "depth": 10
+      },
+      {
+        "id": "1db89aecacbd",
+        "title": "Finance round 18: Sharpe=1.2668",
+        "metricValue": 1.2668,
+        "depth": 9
+      },
+      {
+        "id": "7170b772ae8e",
+        "title": "Finance round 16: Sharpe=1.2593",
+        "metricValue": 1.2593,
+        "depth": 8
+      },
+      {
+        "id": "15932ccf08db",
+        "title": "Finance round 13: Sharpe=1.2540",
+        "metricValue": 1.254,
+        "depth": 7
+      },
+      {
+        "id": "ccf7683ea98b",
+        "title": "Finance round 11: Sharpe=1.2487",
+        "metricValue": 1.2487,
+        "depth": 6
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "fb7fc804d618",
+        "title": "Search round 32: disable intent classification",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
