@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-12T18:12:41.620Z",
+  "timestamp": "2026-04-12T21:52:30.483Z",
   "peerId": "12D3KooWBwNKNkaZq89rKSYThA91W4K8tfo9K9UoQHZjZJmssdv2",
   "stats": {
-    "totalNodes": 1906,
-    "observations": 1789,
-    "experiments": 117,
+    "totalNodes": 2068,
+    "observations": 1908,
+    "experiments": 160,
     "syntheses": 0,
-    "totalEdges": 114,
-    "maxDepth": 8,
+    "totalEdges": 157,
+    "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 38
+    "recentActivity": 28
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -30,42 +30,21 @@
       "depth": 8
     },
     "search-ranking": {
-      "nodeId": "20d9882f6969ca6d16d8cbc2e6d62b6530acb0bcbb13de3c5664bcf1885c0f90",
-      "title": "Search round 38: boost title weight (+0.05)",
+      "nodeId": "5466c4bcf32533232f55c9d2dc5a6de561b9dbb4b57bd86bd255ef1ee583cf90",
+      "title": "Search round 34: reduce body weight (-0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.395,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 94,
-    "finance": 9,
-    "knowledge": 1789,
-    "search-ranking": 14
+    "infrastructure": 116,
+    "finance": 21,
+    "knowledge": 1908,
+    "search-ranking": 23
   },
-  "recentExperiments": [
-    {
-      "id": "050c0bdaf4c3",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3309",
-      "metricName": "score",
-      "metricValue": 0.9030965334545932,
-      "isCurrentBest": false,
-      "createdAt": 1776016361234,
-      "depth": 1
-    },
-    {
-      "id": "1210b9372c4c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3299",
-      "metricName": "score",
-      "metricValue": 0.9022678740725056,
-      "isCurrentBest": false,
-      "createdAt": 1776015761224,
-      "depth": 1
-    }
-  ],
+  "recentExperiments": [],
   "frontier": [],
   "lineages": {
     "infrastructure": [
@@ -133,6 +112,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "5466c4bcf325",
+        "title": "Search round 34: reduce body weight (-0.05)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
       {
         "id": "20d9882f6969",
         "title": "Search round 38: boost title weight (+0.05)",
