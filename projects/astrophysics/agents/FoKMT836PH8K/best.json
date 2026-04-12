@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQcgXCFcoaBPoW3euyVh5dxqAa65qJX9gLkK9TT3wdBai",
-  "runNumber": 11,
-  "timestamp": 1776026559882,
-  "hypothesis": "Improve on 3b1af1b4 (loss=3.1725): larger batch (256)",
+  "runNumber": 16,
+  "timestamp": 1776030328615,
+  "hypothesis": "Improve on 2e62f394 (loss=3.0334): aggressive LR (0.006) + warmup",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -12,11 +12,11 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
-    "batchSize": 256,
+    "learningRate": 0.006,
+    "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
-    "warmupSteps": 100,
+    "warmupSteps": 500,
     "weightDecay": 0.01,
     "evalInterval": 200,
     "evalSteps": 10,
@@ -27,7 +27,7 @@
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 1,
+    "gradientClipNorm": 0,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
     "initType": "normal",
@@ -36,67 +36,63 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.033355,
-    "trainLoss": 8.336933,
+    "valLoss": 2.22277,
+    "trainLoss": 6.1845,
     "lossCurve": [
       [
         0,
-        9.010993
+        9.010782
       ],
       [
         1,
-        9.011046
+        9.010808
       ],
       [
         2,
-        9.011028
+        9.010866
       ],
       [
         3,
-        9.011021
+        9.010815
       ],
       [
         4,
-        9.011012
+        9.010802
       ],
       [
         5,
-        9.011001
+        9.010891
       ],
       [
         6,
-        9.011001
+        9.010924
       ],
       [
         7,
-        9.011009
+        9.010923
       ],
       [
         8,
-        9.010999
+        9.01094
       ],
       [
         9,
-        9.010987
+        9.010968
       ],
       [
         10,
-        9.010981
+        9.010988
       ],
       [
         50,
-        8.954431
-      ],
-      [
-        100,
-        8.534748
+        7.370259
       ]
     ],
-    "durationSec": 120.7,
-    "tokensPerSec": 616404.3082021541,
-    "totalTokens": 74400000
+    "durationSec": 121.3,
+    "tokensPerSec": 389117.8895300907,
+    "totalTokens": 47200000
   },
-  "improvement": -4.385641683864004,
+  "improvement": -26.722391543357098,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3060 Ti",
   "inspiredBy": null
