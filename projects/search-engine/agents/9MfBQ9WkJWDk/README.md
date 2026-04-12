@@ -1,10 +1,10 @@
 # Search Research — Agent 9MfBQ9WkJWDk
 
-**Best NDCG@10:** 0.4000
+**Best NDCG@10:** 0.3963
 **Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 68f59328
-**Updated:** 2026-03-26T11:49:51.408Z
+**Run:** 816b7f7f
+**Updated:** 2026-04-13T00:33:27.485Z
