@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-12T19:04:01.423Z",
+  "timestamp": "2026-04-12T23:20:38.042Z",
   "peerId": "12D3KooWK4vTWvLenqqDK2LfJsk1VqoGrrhr4hKuviFr3vWtTPdE",
   "stats": {
-    "totalNodes": 1794,
-    "observations": 1659,
-    "experiments": 135,
+    "totalNodes": 1991,
+    "observations": 1758,
+    "experiments": 233,
     "syntheses": 0,
-    "totalEdges": 131,
-    "maxDepth": 8,
+    "totalEdges": 229,
+    "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 32
+    "recentActivity": 43
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "f30c3d493b56ac79ff90c827009e6ce1fb51ab347fbd97c9f94ac97669d578f1",
-      "title": "Cause infra-optimization round 2534",
+      "nodeId": "61bd012a7b7020d94e6c64f90c998e9cd5e369e2e35b3ed9d9b990a36c4f502d",
+      "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 145.34351236770442,
+      "metricValue": 147.55687342221677,
       "metricDirection": "maximize",
-      "depth": 7
+      "depth": 9
     },
     "skills": {
       "nodeId": "0cd916b0712a37ea5f02adecfd82da91adb8058633edd591e418b7e960d0fa78",
@@ -38,25 +38,158 @@
       "depth": 5
     },
     "search-ranking": {
-      "nodeId": "ba550105554894e3b81891d98bf67516959d4482a91d7acb9a4f157dbc434649",
-      "title": "Search round 38: local + peer only",
+      "nodeId": "d72eea5ac2913eb846d83d00ba51c0758003a5fdd19874f7d90e944a6205573d",
+      "title": "Search round 35: boost BM25 weight (+0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710802,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "knowledge": 1659,
-    "infrastructure": 82,
-    "skills": 33,
-    "finance": 6,
-    "search-ranking": 14
+    "knowledge": 1758,
+    "infrastructure": 104,
+    "skills": 77,
+    "finance": 24,
+    "search-ranking": 28
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "ce12044c84e8",
+      "domain": "finance",
+      "title": "Finance round 12: Sharpe=1.2487",
+      "metricName": "Sharpe",
+      "metricValue": 1.2487,
+      "isCurrentBest": false,
+      "createdAt": 1776036037891,
+      "depth": 6
+    },
+    {
+      "id": "d03e736b4b41",
+      "domain": "finance",
+      "title": "Finance round 11: Sharpe=1.2427",
+      "metricName": "Sharpe",
+      "metricValue": 1.2427,
+      "isCurrentBest": false,
+      "createdAt": 1776035880239,
+      "depth": 6
+    },
+    {
+      "id": "31eb80c014c5",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1776035784693,
+      "depth": 4
+    },
+    {
+      "id": "e91655214461",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1776035544321,
+      "depth": 4
+    },
+    {
+      "id": "f9c45c17bcca",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1776035126078,
+      "depth": 4
+    },
+    {
+      "id": "28f763af6d7b",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.2267",
+      "metricName": "Sharpe",
+      "metricValue": 1.2267,
+      "isCurrentBest": false,
+      "createdAt": 1776035063709,
+      "depth": 6
+    },
+    {
+      "id": "b14c21ef9662",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1776034999294,
+      "depth": 4
+    },
+    {
+      "id": "bddf08a601f8",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1776034879287,
+      "depth": 4
+    },
+    {
+      "id": "3ce3c3620875",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "isCurrentBest": false,
+      "createdAt": 1776034759611,
+      "depth": 4
+    },
+    {
+      "id": "790962900072",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.1981",
+      "metricName": "Sharpe",
+      "metricValue": 1.1981,
+      "isCurrentBest": false,
+      "createdAt": 1776034759565,
+      "depth": 6
+    },
+    {
+      "id": "a0162245107f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "isCurrentBest": false,
+      "createdAt": 1776034614431,
+      "depth": 4
+    },
+    {
+      "id": "9796363cc5ab",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 7",
+      "metricName": "score",
+      "metricValue": 0.9736836634449444,
+      "isCurrentBest": false,
+      "createdAt": 1776034554401,
+      "depth": 10
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "61bd012a7b70",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.55687342221677,
+        "depth": 9
+      },
+      {
+        "id": "bf6f5df5b1df",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 146.34025460112878,
+        "depth": 8
+      },
       {
         "id": "f30c3d493b56",
         "title": "Cause infra-optimization round 2534",
@@ -171,6 +304,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "d72eea5ac291",
+        "title": "Search round 35: boost BM25 weight (+0.05)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
       {
         "id": "ba5501055548",
         "title": "Search round 38: local + peer only",
