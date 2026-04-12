@@ -1,8 +1,8 @@
 # Skill Catalog — Agent C9D1Ev1ixHjt
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
-**Score:** 0.1999
+**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 768
+**Description:** Detect Anomalies (IQR): 0% correct, round 9
 
-_Updated: 2026-04-12T14:53:15.264Z_
+_Updated: 2026-04-12T19:52:41.750Z_
