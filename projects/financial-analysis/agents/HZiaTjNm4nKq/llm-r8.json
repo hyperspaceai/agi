@@ -1,0 +1,22 @@
+{
+  "runId": "llm-r8",
+  "runNumber": 8,
+  "hypothesis": "[LLM] Increase momentum factor weight and add a trend factor to capture stronger directional movements, while also reducing the max drawdown target for better risk management.",
+  "sharpeRatio": 1.3199,
+  "totalReturn": 3.2626,
+  "maxDrawdown": 0.0499,
+  "alpha": 1.7683,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0.001,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-04-12T06:42:23.484Z"
+}
