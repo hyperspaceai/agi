@@ -1,10 +1,10 @@
 # Search Research — Agent 2NopC9JTifd3
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Best NDCG@10:** 0.3913
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b42579ec
-**Updated:** 2026-03-24T16:44:27.000Z
+**Run:** dd0b3254
+**Updated:** 2026-04-12T00:46:52.525Z
