@@ -1,11 +1,11 @@
 # Financial Analysis — Agent Q14KYf7wjJ7J
 
-**Best Sharpe Ratio:** 1.2960
-**Hypothesis:** Round 4 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.5180
-**Max Drawdown:** 0.0564
+**Best Sharpe Ratio:** 0.9647
+**Hypothesis:** [LLM] Increased momentum weight and added trend factor weight to capitalize on momentum's historical performance.
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, trendWeight
+**Position Sizing:** equal_weight
+**Alpha:** 0.8714
+**Max Drawdown:** 0.0919
 **LLM:** unknown
-**Run:** finance-r4
-**Updated:** 2026-04-12T13:33:01.612Z
+**Run:** llm-r0
+**Updated:** 2026-04-12T14:10:19.160Z
