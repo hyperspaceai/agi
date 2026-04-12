@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWSrcjm59WCipahbrvXLFM4TfrdeuZEhyAQiVShaebyA42",
+  "runNumber": 38,
+  "timestamp": 1776036606578,
+  "hypothesis": "Adjusting hyperparameters to improve val_loss and explore architectural changes, normalization methods, and optimizer configurations.",
+  "config": {
+    "nLayers": 8,
+    "nHeads": 4,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.000001,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 1000,
+    "weightDecay": 0.00005,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.001,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.28322,
+    "trainLoss": 9.010861,
+    "lossCurve": [
+      [
+        0,
+        9.010677
+      ],
+      [
+        1,
+        9.010988
+      ],
+      [
+        2,
+        9.011049
+      ],
+      [
+        3,
+        9.011016
+      ],
+      [
+        4,
+        9.011065
+      ],
+      [
+        5,
+        9.011036
+      ],
+      [
+        6,
+        9.011118
+      ],
+      [
+        7,
+        9.011045
+      ],
+      [
+        8,
+        9.011
+      ],
+      [
+        9,
+        9.01102
+      ],
+      [
+        10,
+        9.01105
+      ],
+      [
+        50,
+        9.010774
+      ]
+    ],
+    "durationSec": 122.1,
+    "tokensPerSec": 240786.24078624079,
+    "totalTokens": 29400000
+  },
+  "improvement": 0,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "inspiredBy": "12D3KooWQcgXCFcoaBPoW3euyVh5dxqAa65qJX9gLkK9TT3wdBai"
+}
