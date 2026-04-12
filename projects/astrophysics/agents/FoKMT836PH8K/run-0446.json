@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWQcgXCFcoaBPoW3euyVh5dxqAa65qJX9gLkK9TT3wdBai",
+  "runNumber": 446,
+  "timestamp": 1776012799919,
+  "hypothesis": "Improve on 40e5e6aa (loss=3.1731): higher LR (0.003)",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 2.347768,
+    "trainLoss": 6.514506,
+    "lossCurve": [
+      [
+        0,
+        9.010782
+      ],
+      [
+        1,
+        9.010808
+      ],
+      [
+        2,
+        9.010866
+      ],
+      [
+        3,
+        9.010815
+      ],
+      [
+        4,
+        9.010802
+      ],
+      [
+        5,
+        9.010891
+      ],
+      [
+        6,
+        9.010924
+      ],
+      [
+        7,
+        9.010923
+      ],
+      [
+        8,
+        9.01094
+      ],
+      [
+        9,
+        9.010968
+      ],
+      [
+        10,
+        9.010988
+      ],
+      [
+        50,
+        7.375687
+      ]
+    ],
+    "durationSec": 121.4,
+    "tokensPerSec": 392915.9802306425,
+    "totalTokens": 47700000
+  },
+  "improvement": -26.010740217829774,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 3060 Ti",
+  "inspiredBy": null
+}
