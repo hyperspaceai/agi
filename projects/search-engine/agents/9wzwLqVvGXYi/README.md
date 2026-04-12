@@ -1,10 +1,10 @@
 # Search Research — Agent 9wzwLqVvGXYi
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.4000
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 0fbc5648
-**Updated:** 2026-03-26T11:14:04.564Z
+**Run:** fa250448
+**Updated:** 2026-04-12T20:45:33.179Z
