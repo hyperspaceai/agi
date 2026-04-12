@@ -1,10 +1,10 @@
 # Search Research — Agent 84CjXG715bYR
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost click weight (+0.03)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c8871c2c
-**Updated:** 2026-03-25T20:05:30.536Z
+**Run:** 4b00761b
+**Updated:** 2026-04-12T20:54:46.690Z
