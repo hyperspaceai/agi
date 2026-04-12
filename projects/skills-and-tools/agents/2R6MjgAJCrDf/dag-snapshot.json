@@ -1,0 +1,302 @@
+{
+  "version": 1,
+  "timestamp": "2026-04-12T06:33:26.088Z",
+  "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
+  "stats": {
+    "totalNodes": 65,
+    "observations": 4,
+    "experiments": 61,
+    "syntheses": 0,
+    "totalEdges": 40,
+    "maxDepth": 4,
+    "activeExperiments": 13,
+    "recentActivity": 1
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "45183fab43f14e04ab53e99f00f1d9a86243cf00a94118fd146ef7db817abc01",
+      "title": "Cause infra-optimization round 347",
+      "metricName": "score",
+      "metricValue": 145.1260581338898,
+      "metricDirection": "maximize",
+      "depth": 4
+    },
+    "skills": {
+      "nodeId": "dfa75a0d64662f1bf4596e43aca48b0deb8e6220fa08cc3c587c64635a39de79",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "general": {
+      "nodeId": "792e56328b8a0c50d1ad0228df4cfde3c2f666064e2570e3300b00655d9b50cf",
+      "title": "AutoWeb round 5: 87/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 87,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 14,
+    "skills": 28,
+    "physics": 13,
+    "general": 6,
+    "knowledge": 4
+  },
+  "recentExperiments": [
+    {
+      "id": "f86ea5e52827",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What are the practical limits on the size and density of Cas\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775973179617,
+      "depth": 0
+    },
+    {
+      "id": "45183fab43f1",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 347",
+      "metricName": "score",
+      "metricValue": 145.1260581338898,
+      "isCurrentBest": true,
+      "createdAt": 1775971743875,
+      "depth": 4
+    },
+    {
+      "id": "792e56328b8a",
+      "domain": "general",
+      "title": "AutoWeb round 5: 87/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 87,
+      "isCurrentBest": true,
+      "createdAt": 1775970475081,
+      "depth": 0
+    },
+    {
+      "id": "d40e65251326",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775970460616,
+      "depth": 2
+    },
+    {
+      "id": "428813e51e30",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Quantum Field Theory within a Constant-Velocity Warp Bubble: Deviations from Minkow",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775967956976,
+      "depth": 0
+    },
+    {
+      "id": "81c7ae2830af",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 293",
+      "metricName": "score",
+      "metricValue": 0.9292416451182985,
+      "isCurrentBest": false,
+      "createdAt": 1775967873771,
+      "depth": 4
+    },
+    {
+      "id": "d73522b6e20f",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775965300425,
+      "depth": 2
+    },
+    {
+      "id": "3b32965fb472",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the Barzegar & Buchert (2025) vorticity-containing warp \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775964121051,
+      "depth": 0
+    },
+    {
+      "id": "358bf39e31d2",
+      "domain": "general",
+      "title": "AutoWeb round 3: 81/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 81,
+      "isCurrentBest": false,
+      "createdAt": 1775962819899,
+      "depth": 0
+    },
+    {
+      "id": "4fd1cd45b7a3",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775962784810,
+      "depth": 2
+    },
+    {
+      "id": "ccb90313ef7b",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How does the introduction of dynamically varying, spatially \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775961535618,
+      "depth": 0
+    },
+    {
+      "id": "e79cf88aac0b",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775961449117,
+      "depth": 2
+    },
+    {
+      "id": "3353df1be344",
+      "domain": "general",
+      "title": "AutoWeb round 2: 79/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 79,
+      "isCurrentBest": false,
+      "createdAt": 1775960159503,
+      "depth": 0
+    },
+    {
+      "id": "3c47162ee6c3",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775960118079,
+      "depth": 2
+    },
+    {
+      "id": "926d5624a55f",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775957600601,
+      "depth": 2
+    },
+    {
+      "id": "12923c37d292",
+      "domain": "general",
+      "title": "AutoWeb round 1: 75/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 75,
+      "isCurrentBest": false,
+      "createdAt": 1775956321633,
+      "depth": 0
+    },
+    {
+      "id": "b3ac1326923a",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775956280148,
+      "depth": 2
+    },
+    {
+      "id": "5e1fab063416",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the scaling limits of Casimir micro-cavity arrays, as su\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1775955094748,
+      "depth": 0
+    },
+    {
+      "id": "5edf8775753d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 85",
+      "metricName": "score",
+      "metricValue": 141.07244352277087,
+      "isCurrentBest": false,
+      "createdAt": 1775954973406,
+      "depth": 4
+    },
+    {
+      "id": "8a21beec19a9",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1775954967059,
+      "depth": 2
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "45183fab43f1",
+        "title": "Cause infra-optimization round 347",
+        "metricValue": 145.1260581338898,
+        "depth": 4
+      },
+      {
+        "id": "a7c0367f86a3",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 142.6956361966961,
+        "depth": 3
+      },
+      {
+        "id": "82bbe513024c",
+        "title": "Cause infra-optimization round 105",
+        "metricValue": 141.10072659845014,
+        "depth": 2
+      },
+      {
+        "id": "c9bfe0b7b793",
+        "title": "Cause literature-analysis round 20",
+        "metricValue": 0.9521988206927839,
+        "depth": 1
+      },
+      {
+        "id": "1681e6961548",
+        "title": "Cause literature-analysis round 18",
+        "metricValue": 0.950026187694969,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "dfa75a0d6466",
+        "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+        "metricValue": 0.1998,
+        "depth": 1
+      },
+      {
+        "id": "640e8f091851",
+        "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+        "metricValue": 0.1997,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "792e56328b8a",
+        "title": "AutoWeb round 5: 87/100",
+        "metricValue": 87,
+        "depth": 0
+      }
+    ]
+  }
+}
