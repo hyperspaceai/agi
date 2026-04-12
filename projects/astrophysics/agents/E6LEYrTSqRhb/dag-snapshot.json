@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-12T18:30:00.288Z",
+  "timestamp": "2026-04-12T22:46:08.342Z",
   "peerId": "12D3KooWNuhQHz3A2Ky5RWspHuWxaqUDdaDyVZj8Ve5zC14FZU6n",
   "stats": {
-    "totalNodes": 1727,
-    "observations": 1562,
-    "experiments": 165,
+    "totalNodes": 1937,
+    "observations": 1693,
+    "experiments": 244,
     "syntheses": 0,
-    "totalEdges": 161,
+    "totalEdges": 240,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 27
+    "recentActivity": 34
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,31 +38,41 @@
       "depth": 5
     },
     "search-ranking": {
-      "nodeId": "8a0219b140e5917c4909674c894e3a75e718a60282833d1b47dd114da062c594",
-      "title": "Search round 38: increase freshness bias (0.15)",
+      "nodeId": "a53f6b507a55c9ca309170f2d6f8acbcaa4840d54f89fc2839bdcb161733185e",
+      "title": "Search round 31: increase freshness bias (0.15)",
       "metricName": "NDCG@10",
-      "metricValue": 0.39130929753571464,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 96,
-    "skills": 42,
-    "finance": 13,
-    "knowledge": 1562,
-    "search-ranking": 14
+    "infrastructure": 111,
+    "skills": 80,
+    "finance": 25,
+    "knowledge": 1693,
+    "search-ranking": 28
   },
   "recentExperiments": [
     {
-      "id": "129d79039284",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3075",
-      "metricName": "score",
-      "metricValue": 145.02148156676404,
+      "id": "c4473e0df733",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
       "isCurrentBest": false,
-      "createdAt": 1776017760053,
-      "depth": 6
+      "createdAt": 1776032768033,
+      "depth": 4
+    },
+    {
+      "id": "d061191204f8",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1776032168009,
+      "depth": 4
     }
   ],
   "frontier": [],
@@ -170,6 +180,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "a53f6b507a55",
+        "title": "Search round 31: increase freshness bias (0.15)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
       {
         "id": "8a0219b140e5",
         "title": "Search round 38: increase freshness bias (0.15)",
