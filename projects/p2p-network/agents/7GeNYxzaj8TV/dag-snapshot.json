@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-12T03:49:50.809Z",
+  "timestamp": "2026-04-12T05:49:53.604Z",
   "peerId": "12D3KooWG61YJ6aHv2izPRghtc7kirt4XfcMBp9QV89uezJ9Nfwu",
   "stats": {
-    "totalNodes": 156,
+    "totalNodes": 159,
     "observations": 0,
-    "experiments": 156,
+    "experiments": 159,
     "syntheses": 0,
-    "totalEdges": 153,
+    "totalEdges": 156,
     "maxDepth": 13,
     "activeExperiments": 0,
     "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "ad18eba1cbbaa37340a9780d3c6de21a0a2e612a2668948287f801736a1edc25",
-      "title": "Cause infra-optimization round 4733",
+      "nodeId": "550d528364834913f281939e9ff268e17b8b62527585855f3edb4ba4e987642f",
+      "title": "Cause infra-optimization round 5160",
       "metricName": "score",
-      "metricValue": 146.66842112386516,
+      "metricValue": 146.68663144944952,
       "metricDirection": "maximize",
-      "depth": 12
+      "depth": 13
     },
     "finance": {
       "nodeId": "bda58b8f8bd72f65a7402a56347c9e91de9c91006e24a3c2f0941f61383f1bcf",
@@ -39,11 +39,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 136,
+    "infrastructure": 139,
     "finance": 6,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "550d52836483",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 5160",
+      "metricName": "score",
+      "metricValue": 146.68663144944952,
+      "isCurrentBest": true,
+      "createdAt": 1775971223218,
+      "depth": 13
+    },
+    {
+      "id": "d3dec2c1b72e",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 5127",
+      "metricName": "score",
+      "metricValue": 0.9033727261635868,
+      "isCurrentBest": false,
+      "createdAt": 1775969240781,
+      "depth": 13
+    },
+    {
+      "id": "04611b128252",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 5114",
+      "metricName": "score",
+      "metricValue": 0.9030372942127551,
+      "isCurrentBest": false,
+      "createdAt": 1775968460779,
+      "depth": 13
+    },
     {
       "id": "00396680c45b",
       "domain": "infrastructure",
@@ -160,7 +190,7 @@
       "title": "Cause infra-optimization round 4733",
       "metricName": "score",
       "metricValue": 146.66842112386516,
-      "isCurrentBest": true,
+      "isCurrentBest": false,
       "createdAt": 1775945599833,
       "depth": 12
     },
@@ -213,41 +243,17 @@
       "isCurrentBest": false,
       "createdAt": 1775930598860,
       "depth": 11
-    },
-    {
-      "id": "7409215d571b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4377",
-      "metricName": "score",
-      "metricValue": 0.9057984684071048,
-      "isCurrentBest": false,
-      "createdAt": 1775924233745,
-      "depth": 11
-    },
-    {
-      "id": "71d82022dae2",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4326",
-      "metricName": "score",
-      "metricValue": 0.9054933143259742,
-      "isCurrentBest": false,
-      "createdAt": 1775921173291,
-      "depth": 11
-    },
-    {
-      "id": "9c40c30e4376",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 4305",
-      "metricName": "score",
-      "metricValue": 146.0210880717276,
-      "isCurrentBest": false,
-      "createdAt": 1775919913273,
-      "depth": 11
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "550d52836483",
+        "title": "Cause infra-optimization round 5160",
+        "metricValue": 146.68663144944952,
+        "depth": 13
+      },
       {
         "id": "ad18eba1cbba",
         "title": "Cause infra-optimization round 4733",
@@ -301,12 +307,6 @@
         "title": "Cause infra-optimization round 2535",
         "metricValue": 145.27597081758273,
         "depth": 4
-      },
-      {
-        "id": "043a9f5e2208",
-        "title": "Cause infra-optimization round 862",
-        "metricValue": 145.23792529651885,
-        "depth": 3
       }
     ],
     "finance": [
