@@ -2,20 +2,23 @@
   "runId": "finance-r7",
   "runNumber": 7,
   "hypothesis": "Round 7 best mutation",
-  "sharpeRatio": 1.243,
-  "totalReturn": 2.8512,
-  "maxDrawdown": 0.0733,
-  "alpha": 1.3569,
+  "sharpeRatio": 1.2387,
+  "totalReturn": 2.7822,
+  "maxDrawdown": 0.057,
+  "alpha": 1.2879,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "meanReversionWeight"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0,
+  "durationSec": 0.001,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-21T23:14:01.506Z"
+  "timestamp": "2026-03-26T19:39:03.973Z"
 }
