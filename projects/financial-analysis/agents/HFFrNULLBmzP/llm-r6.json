@@ -1,25 +1,25 @@
 {
   "runId": "llm-r6",
   "runNumber": 6,
-  "hypothesis": "[LLM] Adjusting strategy to improve Sharpe ratio by considering factors, position sizing, and risk management.",
-  "sharpeRatio": 1.2844,
-  "totalReturn": 2.7105,
-  "maxDrawdown": 0.0482,
-  "alpha": 1.2162,
+  "hypothesis": "[LLM] Increasing momentum weight to 0.35 and decreasing drawdown protection threshold to 0.05",
+  "sharpeRatio": 1.8082,
+  "totalReturn": 4.1888,
+  "maxDrawdown": 0.0254,
+  "alpha": 2.6946,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
     "lowVolWeight",
-    "dividendWeight",
-    "growthWeight",
-    "meanReversionWeight",
-    "trendWeight"
+    "trendWeight",
+    "momentumSignal",
+    "valueSignal",
+    "lowVolSignal"
   ],
-  "positionSizing": "equal_weight",
+  "positionSizing": "risk_parity",
   "durationSec": 0.001,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-29T11:25:17.645Z"
+  "timestamp": "2026-04-12T02:53:20.476Z"
 }
