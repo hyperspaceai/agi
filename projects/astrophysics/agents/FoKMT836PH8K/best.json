@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQcgXCFcoaBPoW3euyVh5dxqAa65qJX9gLkK9TT3wdBai",
-  "runNumber": 442,
-  "timestamp": 1776010381526,
-  "hypothesis": "Explore: switch to Swish activation for better performance.",
+  "runNumber": 446,
+  "timestamp": 1776012799919,
+  "hypothesis": "Improve on 40e5e6aa (loss=3.1731): higher LR (0.003)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -12,7 +12,7 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.003,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.17312,
-    "trainLoss": 8.733181,
+    "valLoss": 2.347768,
+    "trainLoss": 6.514506,
     "lossCurve": [
       [
         0,
@@ -85,15 +85,15 @@
       ],
       [
         50,
-        8.935234
+        7.375687
       ]
     ],
-    "durationSec": 120,
-    "tokensPerSec": 389166.6666666667,
-    "totalTokens": 46700000
+    "durationSec": 121.4,
+    "tokensPerSec": 392915.9802306425,
+    "totalTokens": 47700000
   },
-  "improvement": 0,
+  "improvement": -26.010740217829774,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3060 Ti",
-  "inspiredBy": "12D3KooWEHbNKCqAUZdkQqMWw6yNetdmcZb6Viifiw6EAKPH7ddF"
+  "inspiredBy": null
 }
