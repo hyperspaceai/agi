@@ -1,10 +1,10 @@
 # Search Research — Agent AFZHmnkwbwZi
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b8004253
-**Updated:** 2026-04-10T17:21:54.118Z
+**Run:** 07d3fbac
+**Updated:** 2026-04-12T22:49:23.810Z
