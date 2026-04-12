@@ -1,10 +1,10 @@
 # Search Research — Agent JPYnxZ4cB8o2
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.3899
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a24069c7
-**Updated:** 2026-03-25T15:56:12.451Z
+**Run:** 9fa49964
+**Updated:** 2026-04-13T00:28:20.787Z
