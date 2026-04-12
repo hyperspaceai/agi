@@ -1,10 +1,10 @@
 # Search Research — Agent JWnLeAj9Ye1d
 
 **Best NDCG@10:** 0.3963
-**Hypothesis:** increase diversity penalty (0.2)
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 178548e8
-**Updated:** 2026-03-24T21:11:28.761Z
+**Run:** b27e3b94
+**Updated:** 2026-04-12T03:48:00.350Z
