@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQcgXCFcoaBPoW3euyVh5dxqAa65qJX9gLkK9TT3wdBai",
-  "runNumber": 10,
-  "timestamp": 1776022750521,
-  "hypothesis": "Reduced number of layers and heads to improve performance",
+  "runNumber": 11,
+  "timestamp": 1776026559882,
+  "hypothesis": "Improve on 3b1af1b4 (loss=3.1725): larger batch (256)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -13,7 +13,7 @@
     "contextLength": 128,
     "vocabSize": 128,
     "learningRate": 0.0003,
-    "batchSize": 16,
+    "batchSize": 256,
     "maxSteps": 50000,
     "maxDurationSec": 120,
     "warmupSteps": 100,
@@ -36,63 +36,67 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.172489,
-    "trainLoss": 8.731464,
+    "valLoss": 3.033355,
+    "trainLoss": 8.336933,
     "lossCurve": [
       [
         0,
-        9.010782
+        9.010993
       ],
       [
         1,
-        9.010808
+        9.011046
       ],
       [
         2,
-        9.010866
+        9.011028
       ],
       [
         3,
-        9.010815
+        9.011021
       ],
       [
         4,
-        9.010802
+        9.011012
       ],
       [
         5,
-        9.010891
+        9.011001
       ],
       [
         6,
-        9.010924
+        9.011001
       ],
       [
         7,
-        9.010923
+        9.011009
       ],
       [
         8,
-        9.01094
+        9.010999
       ],
       [
         9,
-        9.010968
+        9.010987
       ],
       [
         10,
-        9.010988
+        9.010981
       ],
       [
         50,
-        8.935124
+        8.954431
+      ],
+      [
+        100,
+        8.534748
       ]
     ],
-    "durationSec": 120.1,
-    "tokensPerSec": 388842.6311407161,
-    "totalTokens": 46700000
+    "durationSec": 120.7,
+    "tokensPerSec": 616404.3082021541,
+    "totalTokens": 74400000
   },
-  "improvement": 0,
+  "improvement": -4.385641683864004,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3060 Ti",
   "inspiredBy": null
