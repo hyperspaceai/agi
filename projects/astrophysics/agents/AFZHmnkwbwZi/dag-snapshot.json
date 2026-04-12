@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-12T09:03:56.383Z",
+  "timestamp": "2026-04-12T12:03:58.093Z",
   "peerId": "12D3KooWK4vTWvLenqqDK2LfJsk1VqoGrrhr4hKuviFr3vWtTPdE",
   "stats": {
-    "totalNodes": 1468,
-    "observations": 1348,
-    "experiments": 120,
+    "totalNodes": 1577,
+    "observations": 1445,
+    "experiments": 132,
     "syntheses": 0,
-    "totalEdges": 116,
-    "maxDepth": 7,
+    "totalEdges": 128,
+    "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 34
+    "recentActivity": 38
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "5434c3711372a19af6c6e194f74c152de350b842f1d80686ca132a2b10530553",
-      "title": "Cause infra-optimization round 1855",
+      "nodeId": "f30c3d493b56ac79ff90c827009e6ce1fb51ab347fbd97c9f94ac97669d578f1",
+      "title": "Cause infra-optimization round 2534",
       "metricName": "score",
-      "metricValue": 145.34162026469858,
+      "metricValue": 145.34351236770442,
       "metricDirection": "maximize",
-      "depth": 6
+      "depth": 7
     },
     "skills": {
       "nodeId": "0cd916b0712a37ea5f02adecfd82da91adb8058633edd591e418b7e960d0fa78",
@@ -47,16 +47,33 @@
     }
   },
   "domainCounts": {
-    "knowledge": 1348,
-    "infrastructure": 67,
+    "knowledge": 1445,
+    "infrastructure": 79,
     "skills": 33,
     "finance": 6,
     "search-ranking": 14
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "3871240f9d81",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2643",
+      "metricName": "score",
+      "metricValue": 0.9340931753456522,
+      "isCurrentBest": false,
+      "createdAt": 1775993877741,
+      "depth": 8
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "f30c3d493b56",
+        "title": "Cause infra-optimization round 2534",
+        "metricValue": 145.34351236770442,
+        "depth": 7
+      },
       {
         "id": "5434c3711372",
         "title": "Cause infra-optimization round 1855",
