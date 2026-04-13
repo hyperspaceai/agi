@@ -1,8 +1,8 @@
 # Skill Catalog — Agent Ag7sWrQsn2Ej
 
-**Latest Skill:** Normalize Text (LLM 2 iter) v1
-**Score:** 0.1993
+**Latest Skill:** Chunk Text for Embeddings (LLM 2 iter) v1
+**Score:** 0.1995
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20]
+**Description:** Chunk Text for Embeddings: 0% correct [0.20]
 
-_Updated: 2026-04-13T11:10:50.961Z_
+_Updated: 2026-04-13T11:32:02.951Z_
