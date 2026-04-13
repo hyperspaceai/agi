@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWPALn9GMDfqRuLr1hEgsn6Qs2MtfeSyxoCX5JjBbv8nJ7",
-  "runNumber": 9,
-  "timestamp": 1776060585969,
-  "hypothesis": "Improve on 354bf3f1 (loss=2.9597): switch to SiLU activation",
+  "runNumber": 8,
+  "timestamp": 1776060944466,
+  "hypothesis": "Improve on 112e1374 (loss=3.0977): Kaiming initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -21,7 +21,7 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "silu",
+    "activation": "gelu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.9574547613143496,
-    "trainLoss": 2.9914531310387127,
+    "valLoss": 2.9596518835321204,
+    "trainLoss": 2.993782567349758,
     "lossCurve": [
       [
-        12,
-        2.9574547613143496
+        10,
+        2.9596518835321204
       ]
     ],
-    "durationSec": 208.122,
-    "tokensPerSec": 118.08458500302706,
-    "totalTokens": 24576
+    "durationSec": 208.056,
+    "tokensPerSec": 98.43503672088283,
+    "totalTokens": 20480
   },
-  "improvement": -0.07423583259895748,
+  "improvement": -4.456525719254352,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
