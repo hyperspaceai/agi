@@ -1,8 +1,8 @@
 # Skill Catalog — Agent FoKMT836PH8K
 
-**Latest Skill:** Detect Anomalies (IQR) (LLM 3 iter) v1
-**Score:** 0.1997
+**Latest Skill:** Chunk Text for Embeddings (LLM 3 iter) v1
+**Score:** 0.1995
 **Permissions:** none
-**Description:** Detect Anomalies (IQR): 0% correct [0.20→0.20→0.20]
+**Description:** Chunk Text for Embeddings: 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-04-13T17:25:04.902Z_
+_Updated: 2026-04-13T20:06:04.073Z_
