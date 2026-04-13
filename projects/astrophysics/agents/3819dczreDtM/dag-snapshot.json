@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T04:24:26.084Z",
+  "timestamp": "2026-04-13T05:48:13.921Z",
   "peerId": "12D3KooWBwNKNkaZq89rKSYThA91W4K8tfo9K9UoQHZjZJmssdv2",
   "stats": {
-    "totalNodes": 2302,
-    "observations": 2091,
-    "experiments": 211,
+    "totalNodes": 2354,
+    "observations": 2128,
+    "experiments": 226,
     "syntheses": 0,
-    "totalEdges": 208,
+    "totalEdges": 223,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 37
+    "recentActivity": 41
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -40,60 +40,40 @@
   },
   "domainCounts": {
     "infrastructure": 141,
-    "finance": 47,
-    "knowledge": 2091,
-    "search-ranking": 23
+    "finance": 48,
+    "knowledge": 2128,
+    "search-ranking": 37
   },
   "recentExperiments": [
     {
-      "id": "7e7735581ff0",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.3105",
-      "metricName": "Sharpe",
-      "metricValue": 1.3105,
+      "id": "9a9df8c937ea",
+      "domain": "search-ranking",
+      "title": "Search round 43: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1776053901875,
-      "depth": 10
+      "createdAt": 1776057108559,
+      "depth": 2
     },
     {
-      "id": "0db8a371f0db",
-      "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.3040",
-      "metricName": "Sharpe",
-      "metricValue": 1.304,
+      "id": "f64f2591a1d3",
+      "domain": "search-ranking",
+      "title": "Search round 43: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1776053403921,
-      "depth": 10
+      "createdAt": 1776057102587,
+      "depth": 2
     },
     {
-      "id": "56a4c4207ae5",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
+      "id": "221557fc9ddd",
+      "domain": "search-ranking",
+      "title": "Search round 43: aggressive peer timeout (500ms)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1776052646295,
-      "depth": 10
-    },
-    {
-      "id": "f9dabe68bcd9",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.1991",
-      "metricName": "Sharpe",
-      "metricValue": 1.1991,
-      "isCurrentBest": false,
-      "createdAt": 1776052423548,
-      "depth": 10
-    },
-    {
-      "id": "fd6ea7a5bce9",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.1782",
-      "metricName": "Sharpe",
-      "metricValue": 1.1782,
-      "isCurrentBest": false,
-      "createdAt": 1776052057096,
-      "depth": 10
+      "createdAt": 1776057101830,
+      "depth": 2
     }
   ],
   "frontier": [],
