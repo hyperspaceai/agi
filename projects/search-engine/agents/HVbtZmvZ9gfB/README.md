@@ -1,10 +1,10 @@
 # Search Research — Agent HVbtZmvZ9gfB
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost click weight (+0.03)
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9678b27a
-**Updated:** 2026-04-12T12:28:33.278Z
+**Run:** 95184e48
+**Updated:** 2026-04-14T00:29:28.212Z
