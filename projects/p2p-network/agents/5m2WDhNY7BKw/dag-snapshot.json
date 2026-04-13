@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T07:59:11.422Z",
+  "timestamp": "2026-04-13T08:59:11.497Z",
   "peerId": "12D3KooWEaPfxpxFJ5bRjDDsicBg5HBB7jJxpsDc1YQ3DtLrt5hx",
   "stats": {
-    "totalNodes": 3062,
+    "totalNodes": 3064,
     "observations": 0,
-    "experiments": 3062,
+    "experiments": 3064,
     "syntheses": 0,
-    "totalEdges": 3058,
+    "totalEdges": 3060,
     "maxDepth": 10,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1740,
+    "infrastructure": 1742,
     "skills": 729,
     "finance": 524,
     "search-ranking": 69
   },
   "recentExperiments": [
+    {
+      "id": "541bd03cd3f1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 300",
+      "metricName": "score",
+      "metricValue": 0.9732420370677416,
+      "isCurrentBest": false,
+      "createdAt": 1776069011168,
+      "depth": 6
+    },
+    {
+      "id": "c961957f9b89",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 275",
+      "metricName": "score",
+      "metricValue": 0.9703955718093968,
+      "isCurrentBest": false,
+      "createdAt": 1776067511123,
+      "depth": 6
+    },
     {
       "id": "8bf917accbde",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.395,
       "isCurrentBest": false,
       "createdAt": 1776054534495,
-      "depth": 1
-    },
-    {
-      "id": "b0e2cec0f321",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1776054534232,
-      "depth": 1
-    },
-    {
-      "id": "799a5069a1c3",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1776054533982,
       "depth": 1
     }
   ],
