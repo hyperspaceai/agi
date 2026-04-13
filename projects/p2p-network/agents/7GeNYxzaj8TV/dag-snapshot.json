@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-12T18:50:49.916Z",
+  "timestamp": "2026-04-13T08:24:14.238Z",
   "peerId": "12D3KooWG61YJ6aHv2izPRghtc7kirt4XfcMBp9QV89uezJ9Nfwu",
   "stats": {
-    "totalNodes": 180,
+    "totalNodes": 271,
     "observations": 0,
-    "experiments": 180,
+    "experiments": 271,
     "syntheses": 0,
-    "totalEdges": 177,
+    "totalEdges": 255,
     "maxDepth": 14,
-    "activeExperiments": 0,
-    "recentActivity": 2
+    "activeExperiments": 7,
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -36,212 +36,218 @@
       "metricValue": 0.4,
       "metricDirection": "maximize",
       "depth": 0
+    },
+    "general": {
+      "nodeId": "36acc72dbb72297f3a5cbcee446bfeed7083e3dc0292484fe9dd265c9e504d98",
+      "title": "AutoWeb round 4: 50/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 50,
+      "metricDirection": "maximize",
+      "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 160,
-    "finance": 6,
-    "search-ranking": 14
+    "infrastructure": 216,
+    "finance": 27,
+    "search-ranking": 15,
+    "physics": 7,
+    "general": 6
   },
   "recentExperiments": [
     {
-      "id": "e7784ad5609e",
+      "id": "05057e805032",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5961",
+      "title": "Cause literature-analysis round 258",
       "metricName": "score",
-      "metricValue": 0.9107084573542907,
+      "metricValue": 0.9590806545527695,
       "isCurrentBest": false,
-      "createdAt": 1776019339450,
+      "createdAt": 1776066797920,
       "depth": 14
     },
     {
-      "id": "051929e222c2",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5925",
-      "metricName": "score",
-      "metricValue": 0.9101536551264817,
+      "id": "90ecc634f34b",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How do quantum gravity effects influence the stability and p\" (self-ve",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776017179424,
+      "createdAt": 1776062014743,
+      "depth": 0
+    },
+    {
+      "id": "36acc72dbb72",
+      "domain": "general",
+      "title": "AutoWeb round 4: 50/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 50,
+      "isCurrentBest": true,
+      "createdAt": 1776061438151,
+      "depth": 0
+    },
+    {
+      "id": "447126b0f918",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2160",
+      "metricName": "Sharpe",
+      "metricValue": 1.216,
+      "isCurrentBest": false,
+      "createdAt": 1776061336075,
+      "depth": 6
+    },
+    {
+      "id": "030bf06ee894",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 155",
+      "metricName": "score",
+      "metricValue": 0.9635779137715895,
+      "isCurrentBest": false,
+      "createdAt": 1776061326051,
       "depth": 14
     },
     {
-      "id": "b8a74d2624ed",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5893",
-      "metricName": "score",
-      "metricValue": 0.9098780617054683,
+      "id": "4a1ebbfc8973",
+      "domain": "physics",
+      "title": "Wrote paper: \"\"Quantum Gravity Effects on Superluminal Warp Bubble Structure and Stability\"\" (self-v",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776015259220,
+      "createdAt": 1776060078246,
+      "depth": 0
+    },
+    {
+      "id": "bad4307cd01e",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.2077",
+      "metricName": "Sharpe",
+      "metricValue": 1.2077,
+      "isCurrentBest": false,
+      "createdAt": 1776059642151,
+      "depth": 6
+    },
+    {
+      "id": "5e23e5468af2",
+      "domain": "general",
+      "title": "AutoWeb round 3: 45/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 45,
+      "isCurrentBest": false,
+      "createdAt": 1776059527846,
+      "depth": 0
+    },
+    {
+      "id": "e479457f30e6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 123",
+      "metricName": "score",
+      "metricValue": 0.9617275854313925,
+      "isCurrentBest": false,
+      "createdAt": 1776059056623,
       "depth": 14
     },
     {
-      "id": "25793db3a011",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5849",
-      "metricName": "score",
-      "metricValue": 146.60810477790966,
+      "id": "d3062307b796",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1991",
+      "metricName": "Sharpe",
+      "metricValue": 1.1991,
       "isCurrentBest": false,
-      "createdAt": 1776012619188,
+      "createdAt": 1776057693349,
+      "depth": 6
+    },
+    {
+      "id": "c355a446e9d0",
+      "domain": "general",
+      "title": "AutoWeb round 2: 42/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 42,
+      "isCurrentBest": false,
+      "createdAt": 1776057607603,
+      "depth": 0
+    },
+    {
+      "id": "d917f4aba19a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 107",
+      "metricName": "score",
+      "metricValue": 0.958993083538086,
+      "isCurrentBest": false,
+      "createdAt": 1776057526282,
       "depth": 14
     },
     {
-      "id": "82e18433e6ab",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5835",
-      "metricName": "score",
-      "metricValue": 0.9080142439518231,
+      "id": "921464b8a6e0",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.1550",
+      "metricName": "Sharpe",
+      "metricValue": 1.155,
       "isCurrentBest": false,
-      "createdAt": 1776011779121,
+      "createdAt": 1776056222773,
+      "depth": 6
+    },
+    {
+      "id": "b01013c17887",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 69",
+      "metricName": "score",
+      "metricValue": 141.1064146545333,
+      "isCurrentBest": false,
+      "createdAt": 1776056085967,
       "depth": 14
     },
     {
-      "id": "5a52b478d0ac",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5821",
-      "metricName": "score",
-      "metricValue": 0.9075353947981506,
+      "id": "fabdbe225a31",
+      "domain": "physics",
+      "title": "Wrote paper: \"On gravitational_waves: Can we build a library of gravitational wave templates from \" ",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776010939111,
+      "createdAt": 1776055752810,
+      "depth": 0
+    },
+    {
+      "id": "dae0eb141951",
+      "domain": "general",
+      "title": "AutoWeb round 1: 25/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 25,
+      "isCurrentBest": false,
+      "createdAt": 1776055332229,
+      "depth": 0
+    },
+    {
+      "id": "444c2ab40c84",
+      "domain": "search-ranking",
+      "title": "Search round 1: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776054734564,
+      "depth": 1
+    },
+    {
+      "id": "9068a0c5917d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 25",
+      "metricName": "score",
+      "metricValue": 141.392501867485,
+      "isCurrentBest": false,
+      "createdAt": 1776053558115,
       "depth": 14
     },
     {
-      "id": "1d91369674f3",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5811",
-      "metricName": "score",
-      "metricValue": 0.9074922689502041,
+      "id": "fda81bfc99cb",
+      "domain": "physics",
+      "title": "Wrote paper: \"Warp Drives with Vorticity and Curved Spatial Sections: Energy Conditions and Stabilit",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776010338903,
-      "depth": 14
+      "createdAt": 1776053266607,
+      "depth": 0
     },
     {
-      "id": "575ab8e8dc4e",
+      "id": "e93cfac64711",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5719",
+      "title": "Cause infra-optimization round 3",
       "metricName": "score",
-      "metricValue": 0.9078600771899232,
+      "metricValue": 141.42485135712917,
       "isCurrentBest": false,
-      "createdAt": 1776004818608,
-      "depth": 14
-    },
-    {
-      "id": "691258b9e6e8",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5704",
-      "metricName": "score",
-      "metricValue": 146.60201063740348,
-      "isCurrentBest": false,
-      "createdAt": 1776003918484,
-      "depth": 14
-    },
-    {
-      "id": "5f09cd158b08",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5675",
-      "metricName": "score",
-      "metricValue": 146.61059771146392,
-      "isCurrentBest": false,
-      "createdAt": 1776002178451,
-      "depth": 14
-    },
-    {
-      "id": "98940933eee9",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5537",
-      "metricName": "score",
-      "metricValue": 0.9072655620376328,
-      "isCurrentBest": false,
-      "createdAt": 1775993853528,
-      "depth": 14
-    },
-    {
-      "id": "206126a59209",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5503",
-      "metricName": "score",
-      "metricValue": 0.9052733694772422,
-      "isCurrentBest": false,
-      "createdAt": 1775991813241,
-      "depth": 14
-    },
-    {
-      "id": "0b6d6f615791",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5446",
-      "metricName": "score",
-      "metricValue": 146.60199216535332,
-      "isCurrentBest": false,
-      "createdAt": 1775988392905,
-      "depth": 14
-    },
-    {
-      "id": "61be4b890088",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5361",
-      "metricName": "score",
-      "metricValue": 0.9057591820358514,
-      "isCurrentBest": false,
-      "createdAt": 1775983287851,
-      "depth": 14
-    },
-    {
-      "id": "7a23d490accb",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5355",
-      "metricName": "score",
-      "metricValue": 146.6205151701834,
-      "isCurrentBest": false,
-      "createdAt": 1775982927831,
-      "depth": 14
-    },
-    {
-      "id": "212f33e5c7c1",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5352",
-      "metricName": "score",
-      "metricValue": 146.62546578280703,
-      "isCurrentBest": false,
-      "createdAt": 1775982747819,
-      "depth": 14
-    },
-    {
-      "id": "d4c08d6b74cb",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5347",
-      "metricName": "score",
-      "metricValue": 0.9045475372184892,
-      "isCurrentBest": false,
-      "createdAt": 1775982447814,
-      "depth": 14
-    },
-    {
-      "id": "0db431420199",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5245",
-      "metricName": "score",
-      "metricValue": 146.61270057469892,
-      "isCurrentBest": false,
-      "createdAt": 1775976323294,
-      "depth": 14
-    },
-    {
-      "id": "83617e856541",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5235",
-      "metricName": "score",
-      "metricValue": 146.62873515102652,
-      "isCurrentBest": false,
-      "createdAt": 1775975723284,
-      "depth": 14
-    },
-    {
-      "id": "271b33ff2b88",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5221",
-      "metricName": "score",
-      "metricValue": 0.9034945307439943,
-      "isCurrentBest": false,
-      "createdAt": 1775974883266,
+      "createdAt": 1776051247389,
       "depth": 14
     }
   ],
@@ -352,6 +358,14 @@
         "id": "ea14c0942065",
         "title": "Search round 38: increase diversity penalty (0.2)",
         "metricValue": 0.4,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "36acc72dbb72",
+        "title": "AutoWeb round 4: 50/100",
+        "metricValue": 50,
         "depth": 0
       }
     ]
