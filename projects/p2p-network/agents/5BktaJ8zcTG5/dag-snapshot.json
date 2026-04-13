@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T05:58:04.607Z",
+  "timestamp": "2026-04-13T06:58:15.121Z",
   "peerId": "12D3KooWE184KRihoMXa8kj8qC9j3Ev3srZdpiShSxxkkvNwfvHv",
   "stats": {
-    "totalNodes": 3551,
+    "totalNodes": 3554,
     "observations": 0,
-    "experiments": 3551,
+    "experiments": 3554,
     "syntheses": 0,
-    "totalEdges": 3547,
+    "totalEdges": 3550,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1903,
-    "skills": 885,
+    "infrastructure": 1905,
+    "skills": 886,
     "finance": 597,
     "search-ranking": 166
   },
   "recentExperiments": [
+    {
+      "id": "d4dcbe7f10e6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 187",
+      "metricName": "score",
+      "metricValue": 0.9370522421588282,
+      "isCurrentBest": false,
+      "createdAt": 1776062140988,
+      "depth": 12
+    },
+    {
+      "id": "058e1611ec0b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 185",
+      "metricName": "score",
+      "metricValue": 0.9348672883484952,
+      "isCurrentBest": false,
+      "createdAt": 1776062020038,
+      "depth": 12
+    },
+    {
+      "id": "3d4c5fd1a2fd",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776061326556,
+      "depth": 3
+    },
     {
       "id": "4006e10bbf49",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.1995,
       "isCurrentBest": false,
       "createdAt": 1776054225021,
-      "depth": 3
-    },
-    {
-      "id": "cf8fcfd4d2a4",
-      "domain": "finance",
-      "title": "Finance round 18: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1776053557554,
-      "depth": 11
-    },
-    {
-      "id": "68788b69b11a",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 37",
-      "metricName": "score",
-      "metricValue": 141.01156666672603,
-      "isCurrentBest": false,
-      "createdAt": 1776053130284,
-      "depth": 12
-    },
-    {
-      "id": "a4394e7e2b5b",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776052887574,
       "depth": 3
     }
   ],
