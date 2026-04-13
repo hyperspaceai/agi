@@ -1,10 +1,10 @@
 # Search Research — Agent FfAKTr5Wdb6c
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** boost freshness weight (+0.05)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9baa5564
-**Updated:** 2026-03-27T04:00:07.588Z
+**Run:** d7241960
+**Updated:** 2026-04-13T05:48:09.665Z
