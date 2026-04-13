@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQcgXCFcoaBPoW3euyVh5dxqAa65qJX9gLkK9TT3wdBai",
-  "runNumber": 16,
-  "timestamp": 1776030328615,
-  "hypothesis": "Improve on 2e62f394 (loss=3.0334): aggressive LR (0.006) + warmup",
+  "runNumber": 28,
+  "timestamp": 1776043781921,
+  "hypothesis": "Improve on bd31737c (loss=2.2228): higher LR (0.003)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -12,11 +12,11 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.006,
-    "batchSize": 16,
+    "learningRate": 0.003,
+    "batchSize": 64,
     "maxSteps": 50000,
     "maxDurationSec": 120,
-    "warmupSteps": 500,
+    "warmupSteps": 100,
     "weightDecay": 0.01,
     "evalInterval": 200,
     "evalSteps": 10,
@@ -36,63 +36,67 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.22277,
-    "trainLoss": 6.1845,
+    "valLoss": 2.197801,
+    "trainLoss": 6.056542,
     "lossCurve": [
       [
         0,
-        9.010782
+        9.010927
       ],
       [
         1,
-        9.010808
+        9.010938
       ],
       [
         2,
-        9.010866
+        9.010962
       ],
       [
         3,
-        9.010815
+        9.010953
       ],
       [
         4,
-        9.010802
+        9.01099
       ],
       [
         5,
-        9.010891
+        9.011017
       ],
       [
         6,
-        9.010924
+        9.011018
       ],
       [
         7,
-        9.010923
+        9.01098
       ],
       [
         8,
-        9.01094
+        9.010977
       ],
       [
         9,
-        9.010968
+        9.01099
       ],
       [
         10,
-        9.010988
+        9.010996
       ],
       [
         50,
-        7.370259
+        7.513286
+      ],
+      [
+        100,
+        6.238368
       ]
     ],
-    "durationSec": 121.3,
-    "tokensPerSec": 389117.8895300907,
-    "totalTokens": 47200000
+    "durationSec": 120.5,
+    "tokensPerSec": 556846.4730290456,
+    "totalTokens": 67099999.99999999
   },
-  "improvement": -26.722391543357098,
+  "improvement": -1.1233280996234436,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3060 Ti",
   "inspiredBy": null
