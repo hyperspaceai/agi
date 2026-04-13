@@ -1,10 +1,10 @@
 # Search Research — Agent Gbwsk9SYAxzD
 
 **Best NDCG@10:** 0.3963
-**Hypothesis:** require more local results (5)
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 968e9284
-**Updated:** 2026-03-26T19:45:31.223Z
+**Run:** ed88a4f8
+**Updated:** 2026-04-13T21:37:45.669Z
