@@ -1,10 +1,10 @@
 # Search Research — Agent CiUxcznjfESQ
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost authority weight (+0.05)
+**Best NDCG@10:** 0.3913
+**Hypothesis:** increase diversity penalty (0.2)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 737996e0
-**Updated:** 2026-03-13T13:56:33.946Z
+**Run:** 6a827628
+**Updated:** 2026-04-13T07:58:36.807Z
