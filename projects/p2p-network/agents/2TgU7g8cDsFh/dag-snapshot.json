@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T01:17:40.364Z",
+  "timestamp": "2026-04-13T03:09:31.937Z",
   "peerId": "12D3KooWBH3droiKQmXBih1uSjEX1NXqjvX6GXhe1G1GDWJitAve",
   "stats": {
-    "totalNodes": 370,
+    "totalNodes": 414,
     "observations": 0,
-    "experiments": 370,
+    "experiments": 414,
     "syntheses": 0,
-    "totalEdges": 366,
-    "maxDepth": 8,
+    "totalEdges": 410,
+    "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 16
+    "recentActivity": 20
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,220 +38,220 @@
       "depth": 8
     },
     "search-ranking": {
-      "nodeId": "243ebd21af5b9e523d806c2a38c61f786c1c81fbb7b0135dee853cdf94cb2f55",
-      "title": "Search round 34: increase freshness bias (0.15)",
+      "nodeId": "ba4c598d2cce80c0cc5319333788912d49bd725fed2b3f56bf47069f0e9c8a35",
+      "title": "Search round 38: local + peer only",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
+      "metricValue": 0.395,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 180,
-    "skills": 99,
-    "finance": 81,
-    "search-ranking": 10
+    "infrastructure": 188,
+    "skills": 114,
+    "finance": 88,
+    "search-ranking": 24
   },
   "recentExperiments": [
     {
-      "id": "557a9d597937",
-      "domain": "search-ranking",
-      "title": "Search round 51: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776042290628,
-      "depth": 1
-    },
-    {
-      "id": "e9240d8e3752",
-      "domain": "search-ranking",
-      "title": "Search round 47: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776041930603,
-      "depth": 1
-    },
-    {
-      "id": "276138a36ed5",
-      "domain": "search-ranking",
-      "title": "Search round 47: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776041930508,
-      "depth": 1
-    },
-    {
-      "id": "098bf484c986",
-      "domain": "search-ranking",
-      "title": "Search round 47: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776041929515,
-      "depth": 1
-    },
-    {
-      "id": "ce8a621ebedc",
-      "domain": "search-ranking",
-      "title": "Search round 47: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776041929482,
-      "depth": 1
-    },
-    {
-      "id": "189fe05219b4",
-      "domain": "search-ranking",
-      "title": "Search round 47: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776041900603,
-      "depth": 1
-    },
-    {
-      "id": "673b998d4979",
-      "domain": "search-ranking",
-      "title": "Search round 39: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776041179384,
-      "depth": 1
-    },
-    {
-      "id": "3ea76f4b31bb",
-      "domain": "search-ranking",
-      "title": "Search round 39: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776041178805,
-      "depth": 1
-    },
-    {
-      "id": "0fc0da811075",
-      "domain": "search-ranking",
-      "title": "Search round 39: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776041178728,
-      "depth": 1
-    },
-    {
-      "id": "2c1a55ac2e34",
+      "id": "78fa1e334d20",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1776041140268,
+      "createdAt": 1776049411799,
       "depth": 3
     },
     {
-      "id": "243ebd21af5b",
+      "id": "5fdebd8e5fab",
       "domain": "search-ranking",
-      "title": "Search round 34: increase freshness bias (0.15)",
+      "title": "Search round 50: local + peer only",
       "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776048912003,
+      "depth": 2
+    },
+    {
+      "id": "6e97bc172048",
+      "domain": "search-ranking",
+      "title": "Search round 50: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776048911899,
+      "depth": 2
+    },
+    {
+      "id": "f098d2db54b0",
+      "domain": "search-ranking",
+      "title": "Search round 46: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776048552279,
+      "depth": 2
+    },
+    {
+      "id": "7c6030817e6e",
+      "domain": "search-ranking",
+      "title": "Search round 46: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776048552175,
+      "depth": 2
+    },
+    {
+      "id": "b3d56b83e22f",
+      "domain": "search-ranking",
+      "title": "Search round 46: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776048552071,
+      "depth": 2
+    },
+    {
+      "id": "a9dbcdd555de",
+      "domain": "search-ranking",
+      "title": "Search round 46: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776048551971,
+      "depth": 2
+    },
+    {
+      "id": "fa2b384396a2",
+      "domain": "search-ranking",
+      "title": "Search round 42: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776048191617,
+      "depth": 2
+    },
+    {
+      "id": "f6ca14698420",
+      "domain": "search-ranking",
+      "title": "Search round 42: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776048191373,
+      "depth": 2
+    },
+    {
+      "id": "0e92162c96b0",
+      "domain": "search-ranking",
+      "title": "Search round 42: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776048191248,
+      "depth": 2
+    },
+    {
+      "id": "1f2718a6162a",
+      "domain": "search-ranking",
+      "title": "Search round 38: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776047833125,
+      "depth": 2
+    },
+    {
+      "id": "13d76ecd88e3",
+      "domain": "search-ranking",
+      "title": "Search round 38: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776047831846,
+      "depth": 2
+    },
+    {
+      "id": "c4aec28d5451",
+      "domain": "search-ranking",
+      "title": "Search round 38: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776047831733,
+      "depth": 2
+    },
+    {
+      "id": "8cddcbac9e47",
+      "domain": "search-ranking",
+      "title": "Search round 38: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
+      "isCurrentBest": false,
+      "createdAt": 1776047831628,
+      "depth": 2
+    },
+    {
+      "id": "ba4c598d2cce",
+      "domain": "search-ranking",
+      "title": "Search round 38: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.395,
       "isCurrentBest": true,
-      "createdAt": 1776040788224,
-      "depth": 0
+      "createdAt": 1776047830679,
+      "depth": 1
     },
     {
-      "id": "3a4fb8f8a0ba",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776040660263,
-      "depth": 3
-    },
-    {
-      "id": "334bba14e2e9",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 49",
-      "metricName": "score",
-      "metricValue": 141.0897688214815,
-      "isCurrentBest": false,
-      "createdAt": 1776040660250,
-      "depth": 6
-    },
-    {
-      "id": "529260ba6969",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 40",
-      "metricName": "score",
-      "metricValue": 141.29321064293822,
-      "isCurrentBest": false,
-      "createdAt": 1776040120239,
-      "depth": 6
-    },
-    {
-      "id": "a2dacbac131f",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776040060246,
-      "depth": 3
-    },
-    {
-      "id": "6f9fd6306ec0",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776039580241,
-      "depth": 3
-    },
-    {
-      "id": "6bc159929d07",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776039460241,
-      "depth": 3
-    },
-    {
-      "id": "6c8917539bf4",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776038860132,
-      "depth": 3
-    },
-    {
-      "id": "1c73b7dd2d67",
+      "id": "0dddab22abf8",
       "domain": "skills",
       "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1776038620136,
+      "createdAt": 1776047731787,
       "depth": 3
     },
     {
-      "id": "635fd8ce4c8d",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.3129",
-      "metricName": "Sharpe",
-      "metricValue": 1.3129,
-      "isCurrentBest": true,
-      "createdAt": 1776038560122,
-      "depth": 8
+      "id": "e8fff8c3255b",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776047491773,
+      "depth": 3
+    },
+    {
+      "id": "376a62641d49",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 48",
+      "metricName": "score",
+      "metricValue": 0.9780651001091173,
+      "isCurrentBest": false,
+      "createdAt": 1776047311761,
+      "depth": 6
+    },
+    {
+      "id": "47c10a630a9a",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776047251757,
+      "depth": 3
+    },
+    {
+      "id": "6b0eaa68cdad",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776047131743,
+      "depth": 3
     }
   ],
   "frontier": [],
@@ -371,6 +371,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "ba4c598d2cce",
+        "title": "Search round 38: local + peer only",
+        "metricValue": 0.395,
+        "depth": 1
+      },
       {
         "id": "243ebd21af5b",
         "title": "Search round 34: increase freshness bias (0.15)",
