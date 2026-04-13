@@ -1,0 +1,24 @@
+{
+  "runId": "llm-r1",
+  "runNumber": 1,
+  "hypothesis": "[LLM] Add momentum and value factors to combine with trend, add drawdown protection and enable regime detection for improved risk management.",
+  "sharpeRatio": 1.0804,
+  "totalReturn": 2.0937,
+  "maxDrawdown": 0.0677,
+  "alpha": 0.5994,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "meanReversionWeight"
+  ],
+  "positionSizing": "inverse_vol",
+  "durationSec": 0.001,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-04-13T04:27:33.239Z"
+}
