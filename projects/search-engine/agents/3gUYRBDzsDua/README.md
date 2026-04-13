@@ -1,10 +1,10 @@
 # Search Research — Agent 3gUYRBDzsDua
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase freshness bias (0.15)
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 26fdcd48
-**Updated:** 2026-03-26T11:59:00.232Z
+**Run:** 540812f0
+**Updated:** 2026-04-13T04:56:14.582Z
