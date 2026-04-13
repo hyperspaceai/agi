@@ -1,11 +1,11 @@
 # Financial Analysis — Agent FoKMT836PH8K
 
-**Best Sharpe Ratio:** 1.2513
-**Hypothesis:** [LLM] Add momentum, value, and quality factors; increase position sizing to inverse_vol and enable drawdown protection to reduce maxDrawdownPct.
+**Best Sharpe Ratio:** 1.2012
+**Hypothesis:** Round 3 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, meanReversionWeight
-**Position Sizing:** inverse_vol
-**Alpha:** 0.9054
-**Max Drawdown:** 0.0442
+**Position Sizing:** risk_parity
+**Alpha:** 1.1859
+**Max Drawdown:** 0.0580
 **LLM:** unknown
-**Run:** llm-r2
-**Updated:** 2026-04-13T06:09:27.793Z
+**Run:** finance-r3
+**Updated:** 2026-04-13T06:11:58.332Z
