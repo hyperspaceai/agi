@@ -1,21 +1,25 @@
 {
   "runId": "llm-r3",
   "runNumber": 3,
-  "hypothesis": "[LLM] Increase the value factor weight and enable drawdown protection to mitigate risk and potentially improve Sharpe ratio.",
-  "sharpeRatio": 1.2324,
-  "totalReturn": 2.8314,
-  "maxDrawdown": 0.0736,
-  "alpha": 1.3372,
+  "hypothesis": "[LLM] Enhance Sharpe ratio by incorporating trend following and adjusting risk management parameters.",
+  "sharpeRatio": 1.2187,
+  "totalReturn": 3.0067,
+  "maxDrawdown": 0.0597,
+  "alpha": 1.5124,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "trendWeight",
+    "trendStrength",
+    "correlationAwareness"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0.001,
+  "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-20T02:10:34.895Z"
+  "timestamp": "2026-04-13T09:21:45.860Z"
 }
