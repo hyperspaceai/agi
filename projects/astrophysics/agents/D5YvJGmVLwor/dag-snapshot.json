@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T20:05:03.298Z",
+  "timestamp": "2026-04-13T21:05:05.266Z",
   "peerId": "12D3KooWMtv63QMCXr5La8k8peTTkBst7XaKxwGPVvR8s6RB8yhe",
   "stats": {
-    "totalNodes": 4794,
-    "observations": 4440,
-    "experiments": 354,
+    "totalNodes": 4838,
+    "observations": 4462,
+    "experiments": 376,
     "syntheses": 0,
-    "totalEdges": 351,
+    "totalEdges": 373,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 36
+    "recentActivity": 44
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -40,90 +40,130 @@
   },
   "domainCounts": {
     "infrastructure": 273,
-    "finance": 66,
-    "search-ranking": 15,
-    "knowledge": 4440
+    "finance": 74,
+    "search-ranking": 29,
+    "knowledge": 4462
   },
   "recentExperiments": [
     {
-      "id": "e3499a9eef16",
-      "domain": "finance",
-      "title": "Finance round 12: Sharpe=1.2487",
-      "metricName": "Sharpe",
-      "metricValue": 1.2487,
+      "id": "1c07ed16a2a1",
+      "domain": "search-ranking",
+      "title": "Search round 50: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1776110703206,
+      "createdAt": 1776113439408,
+      "depth": 1
+    },
+    {
+      "id": "d50340667486",
+      "domain": "search-ranking",
+      "title": "Search round 50: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1776113439323,
+      "depth": 1
+    },
+    {
+      "id": "7f735555745f",
+      "domain": "finance",
+      "title": "Finance round 29: Sharpe=1.2946",
+      "metricName": "Sharpe",
+      "metricValue": 1.2946,
+      "isCurrentBest": false,
+      "createdAt": 1776113253277,
       "depth": 7
     },
     {
-      "id": "50cc0b1fbb7f",
-      "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.2427",
-      "metricName": "Sharpe",
-      "metricValue": 1.2427,
+      "id": "74d054e035a6",
+      "domain": "search-ranking",
+      "title": "Search round 46: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1776110253077,
+      "createdAt": 1776113079822,
+      "depth": 1
+    },
+    {
+      "id": "58f6b642da69",
+      "domain": "search-ranking",
+      "title": "Search round 46: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1776113079257,
+      "depth": 1
+    },
+    {
+      "id": "06e13c73cff2",
+      "domain": "search-ranking",
+      "title": "Search round 46: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1776113079029,
+      "depth": 1
+    },
+    {
+      "id": "b59d52df7c7e",
+      "domain": "search-ranking",
+      "title": "Search round 46: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1776113078928,
+      "depth": 1
+    },
+    {
+      "id": "358793db3a5a",
+      "domain": "finance",
+      "title": "Finance round 26: Sharpe=1.2914",
+      "metricName": "Sharpe",
+      "metricValue": 1.2914,
+      "isCurrentBest": false,
+      "createdAt": 1776112803272,
       "depth": 7
     },
     {
-      "id": "d37c3c6dbfe8",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.2333",
-      "metricName": "Sharpe",
-      "metricValue": 1.2333,
+      "id": "f3cd0a4f1fe9",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1776109953070,
-      "depth": 7
+      "createdAt": 1776112719336,
+      "depth": 1
     },
     {
-      "id": "b0464d5a81a4",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2267",
-      "metricName": "Sharpe",
-      "metricValue": 1.2267,
+      "id": "d81e71326039",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1776109803058,
-      "depth": 7
+      "createdAt": 1776112718969,
+      "depth": 1
     },
     {
-      "id": "ba68b3dc9640",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.1981",
-      "metricName": "Sharpe",
-      "metricValue": 1.1981,
+      "id": "e719a7ea8e6c",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1776109652175,
-      "depth": 7
+      "createdAt": 1776112718882,
+      "depth": 1
     },
     {
-      "id": "8b71c1d4b74f",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1901",
-      "metricName": "Sharpe",
-      "metricValue": 1.1901,
+      "id": "88c1968868c3",
+      "domain": "search-ranking",
+      "title": "Search round 42: boost authority weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1776109352255,
-      "depth": 7
-    },
-    {
-      "id": "d67e56655f03",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1782",
-      "metricName": "Sharpe",
-      "metricValue": 1.1782,
-      "isCurrentBest": false,
-      "createdAt": 1776109201802,
-      "depth": 7
-    },
-    {
-      "id": "43e7a08e5a3c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4",
-      "metricName": "score",
-      "metricValue": 0.9689448539430388,
-      "isCurrentBest": false,
-      "createdAt": 1776109171757,
-      "depth": 9
+      "createdAt": 1776112718801,
+      "depth": 1
     }
   ],
   "frontier": [],
