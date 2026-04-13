@@ -1,11 +1,11 @@
 # Financial Analysis — Agent FoKMT836PH8K
 
-**Best Sharpe Ratio:** 1.3769
-**Hypothesis:** [LLM] Increase Sharpe ratio by adding mean reversion signal and reducing max drawdown.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, meanReversionWeight
+**Best Sharpe Ratio:** 1.3040
+**Hypothesis:** Round 8 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.4069
-**Max Drawdown:** 0.0440
+**Alpha:** 1.5228
+**Max Drawdown:** 0.0558
 **LLM:** unknown
-**Run:** llm-r7
-**Updated:** 2026-04-13T13:41:33.791Z
+**Run:** finance-r8
+**Updated:** 2026-04-13T14:23:23.680Z
