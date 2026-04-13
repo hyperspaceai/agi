@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T07:00:19.942Z",
+  "timestamp": "2026-04-13T09:01:06.035Z",
   "peerId": "12D3KooWF3qMLtcF9okstvyMiikCmDAsMrnXV3hJZRvcJiXMhrmB",
   "stats": {
-    "totalNodes": 3450,
+    "totalNodes": 3461,
     "observations": 0,
-    "experiments": 3450,
+    "experiments": 3461,
     "syntheses": 0,
-    "totalEdges": 3446,
+    "totalEdges": 3457,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,122 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1834,
-    "skills": 886,
+    "infrastructure": 1844,
+    "skills": 887,
     "finance": 618,
     "search-ranking": 112
   },
   "recentExperiments": [
+    {
+      "id": "e9211ae4ad79",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 303",
+      "metricName": "score",
+      "metricValue": 141.08878344076982,
+      "isCurrentBest": false,
+      "createdAt": 1776069234595,
+      "depth": 10
+    },
+    {
+      "id": "4dcffec9f6f9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 289",
+      "metricName": "score",
+      "metricValue": 141.16754306575234,
+      "isCurrentBest": false,
+      "createdAt": 1776068389031,
+      "depth": 10
+    },
+    {
+      "id": "65bf8f79a3ab",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776067363773,
+      "depth": 4
+    },
+    {
+      "id": "e8cf53b67c78",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 261",
+      "metricName": "score",
+      "metricValue": 141.24939878759176,
+      "isCurrentBest": false,
+      "createdAt": 1776066728545,
+      "depth": 10
+    },
+    {
+      "id": "4cca2322fcb3",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 258",
+      "metricName": "score",
+      "metricValue": 141.52074051201197,
+      "isCurrentBest": false,
+      "createdAt": 1776066547580,
+      "depth": 10
+    },
+    {
+      "id": "16e55e5b2ebd",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 257",
+      "metricName": "score",
+      "metricValue": 141.7269742417604,
+      "isCurrentBest": false,
+      "createdAt": 1776066487577,
+      "depth": 10
+    },
+    {
+      "id": "c6d610a5e9cf",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 251",
+      "metricName": "score",
+      "metricValue": 141.90781689899663,
+      "isCurrentBest": false,
+      "createdAt": 1776066124381,
+      "depth": 10
+    },
+    {
+      "id": "3325ec3e882f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 235",
+      "metricName": "score",
+      "metricValue": 141.93018486988737,
+      "isCurrentBest": false,
+      "createdAt": 1776065158194,
+      "depth": 10
+    },
+    {
+      "id": "4bf9d5e2ce9d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 234",
+      "metricName": "score",
+      "metricValue": 142.5876838087395,
+      "isCurrentBest": false,
+      "createdAt": 1776065098191,
+      "depth": 10
+    },
+    {
+      "id": "98b0c5abf846",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 232",
+      "metricName": "score",
+      "metricValue": 143.9298223596147,
+      "isCurrentBest": false,
+      "createdAt": 1776064978184,
+      "depth": 10
+    },
+    {
+      "id": "301a66d054bc",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 230",
+      "metricName": "score",
+      "metricValue": 143.97285887353127,
+      "isCurrentBest": false,
+      "createdAt": 1776064856581,
+      "depth": 10
+    },
     {
       "id": "87449060944b",
       "domain": "skills",
@@ -142,116 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776055478988,
       "depth": 9
-    },
-    {
-      "id": "dacf4444a5b4",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776055419032,
-      "depth": 4
-    },
-    {
-      "id": "36f55317a2e1",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776055058394,
-      "depth": 4
-    },
-    {
-      "id": "4e0ee88a5f14",
-      "domain": "finance",
-      "title": "Finance round 27: Sharpe=1.2843",
-      "metricName": "Sharpe",
-      "metricValue": 1.2843,
-      "isCurrentBest": false,
-      "createdAt": 1776055028587,
-      "depth": 9
-    },
-    {
-      "id": "f6ae83bd08ca",
-      "domain": "search-ranking",
-      "title": "Search round 40: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776054603709,
-      "depth": 2
-    },
-    {
-      "id": "e48fe662c56d",
-      "domain": "search-ranking",
-      "title": "Search round 40: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776054602284,
-      "depth": 2
-    },
-    {
-      "id": "1af0c4dbbbf1",
-      "domain": "search-ranking",
-      "title": "Search round 40: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776054601539,
-      "depth": 2
-    },
-    {
-      "id": "83244dd9a0af",
-      "domain": "search-ranking",
-      "title": "Search round 40: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776054600880,
-      "depth": 2
-    },
-    {
-      "id": "89ae8e638fce",
-      "domain": "finance",
-      "title": "Finance round 22: Sharpe=1.2779",
-      "metricName": "Sharpe",
-      "metricValue": 1.2779,
-      "isCurrentBest": false,
-      "createdAt": 1776054277936,
-      "depth": 9
-    },
-    {
-      "id": "676dfa5a1932",
-      "domain": "search-ranking",
-      "title": "Search round 36: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776054247856,
-      "depth": 2
-    },
-    {
-      "id": "94b591f9a95f",
-      "domain": "search-ranking",
-      "title": "Search round 36: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776054244899,
-      "depth": 2
-    },
-    {
-      "id": "befc449deb08",
-      "domain": "search-ranking",
-      "title": "Search round 36: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776054242445,
-      "depth": 2
     }
   ],
   "frontier": [],
