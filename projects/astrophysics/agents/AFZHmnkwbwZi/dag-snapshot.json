@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T03:09:04.014Z",
+  "timestamp": "2026-04-13T05:04:24.543Z",
   "peerId": "12D3KooWK4vTWvLenqqDK2LfJsk1VqoGrrhr4hKuviFr3vWtTPdE",
   "stats": {
-    "totalNodes": 2225,
-    "observations": 1889,
-    "experiments": 336,
+    "totalNodes": 2342,
+    "observations": 1947,
+    "experiments": 395,
     "syntheses": 0,
-    "totalEdges": 332,
+    "totalEdges": 391,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 64
+    "recentActivity": 55
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,92 +47,72 @@
     }
   },
   "domainCounts": {
-    "knowledge": 1889,
-    "infrastructure": 129,
-    "skills": 116,
-    "finance": 49,
-    "search-ranking": 42
+    "knowledge": 1947,
+    "infrastructure": 142,
+    "skills": 139,
+    "finance": 58,
+    "search-ranking": 56
   },
   "recentExperiments": [
     {
-      "id": "1871165876db",
+      "id": "56ef952a064d",
       "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1992,
       "isCurrentBest": false,
-      "createdAt": 1776049263525,
+      "createdAt": 1776056424370,
       "depth": 4
     },
     {
-      "id": "c3c18643c190",
-      "domain": "search-ranking",
-      "title": "Search round 50: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "id": "bc2678572907",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
       "isCurrentBest": false,
-      "createdAt": 1776048902909,
+      "createdAt": 1776055344356,
+      "depth": 4
+    },
+    {
+      "id": "813f557b80fa",
+      "domain": "search-ranking",
+      "title": "Search round 43: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776055223636,
       "depth": 2
     },
     {
-      "id": "f05c82706956",
+      "id": "aeade446c4f3",
       "domain": "search-ranking",
-      "title": "Search round 50: boost freshness weight (+0.05)",
+      "title": "Search round 43: decrease diversity penalty (0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1776048902456,
+      "createdAt": 1776055222145,
       "depth": 2
     },
     {
-      "id": "78420c644db9",
-      "domain": "finance",
-      "title": "Finance round 29: Sharpe=1.2946",
-      "metricName": "Sharpe",
-      "metricValue": 1.2946,
-      "isCurrentBest": false,
-      "createdAt": 1776048693505,
-      "depth": 6
-    },
-    {
-      "id": "ba022c09d7cf",
+      "id": "152855d1b33f",
       "domain": "search-ranking",
-      "title": "Search round 46: boost freshness weight (+0.05)",
+      "title": "Search round 43: decrease diversity penalty (0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1776048542550,
+      "createdAt": 1776055221172,
       "depth": 2
     },
     {
-      "id": "6475fffb3553",
+      "id": "8ce056d26851",
       "domain": "search-ranking",
-      "title": "Search round 46: boost freshness weight (+0.05)",
+      "title": "Search round 43: decrease diversity penalty (0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1776048542227,
+      "createdAt": 1776055220690,
       "depth": 2
-    },
-    {
-      "id": "fb9fd2daac0d",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776048541282,
-      "depth": 2
-    },
-    {
-      "id": "02fb888c54a5",
-      "domain": "finance",
-      "title": "Finance round 27: Sharpe=1.2890",
-      "metricName": "Sharpe",
-      "metricValue": 1.289,
-      "isCurrentBest": false,
-      "createdAt": 1776048393730,
-      "depth": 6
     }
   ],
   "frontier": [],
