@@ -1,11 +1,11 @@
 # Financial Analysis — Agent FoKMT836PH8K
 
-**Best Sharpe Ratio:** 1.2115
-**Hypothesis:** Round 4 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, meanReversionWeight
+**Best Sharpe Ratio:** 1.2960
+**Hypothesis:** Round 6 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.2026
-**Max Drawdown:** 0.0575
+**Alpha:** 1.5180
+**Max Drawdown:** 0.0564
 **LLM:** unknown
-**Run:** finance-r4
-**Updated:** 2026-04-13T06:49:59.399Z
+**Run:** finance-r6
+**Updated:** 2026-04-13T08:10:10.070Z
