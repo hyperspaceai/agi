@@ -1,10 +1,10 @@
 # Search Research — Agent JWnLeAj9Ye1d
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** increase freshness bias (0.15)
+**Best NDCG@10:** 0.3913
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b27e3b94
-**Updated:** 2026-04-12T03:48:00.350Z
+**Run:** 4e31386c
+**Updated:** 2026-04-13T19:20:21.032Z
