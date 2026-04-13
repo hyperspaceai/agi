@@ -1,10 +1,10 @@
 # Search Research — Agent JPYnxZ4cB8o2
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost freshness weight (+0.05)
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a941ed70
-**Updated:** 2026-04-13T01:36:00.205Z
+**Run:** fcaccb58
+**Updated:** 2026-04-13T19:18:05.972Z
