@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T19:05:04.847Z",
+  "timestamp": "2026-04-13T21:03:44.627Z",
   "peerId": "12D3KooWBpkPsWXVQEehc1XHD2BQyCyqVBsCzTq3Lpi4d7eW3f5R",
   "stats": {
-    "totalNodes": 4578,
-    "observations": 4298,
-    "experiments": 280,
+    "totalNodes": 4661,
+    "observations": 4353,
+    "experiments": 308,
     "syntheses": 0,
-    "totalEdges": 277,
+    "totalEdges": 305,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 36
+    "recentActivity": 39
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,12 +39,83 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 250,
-    "finance": 29,
-    "search-ranking": 1,
-    "knowledge": 4298
+    "infrastructure": 259,
+    "finance": 34,
+    "search-ranking": 15,
+    "knowledge": 4353
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "05791d992f2d",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost title weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776113090667,
+      "depth": 1
+    },
+    {
+      "id": "a2e4b82d4552",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost title weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776113090583,
+      "depth": 1
+    },
+    {
+      "id": "bca033dafc52",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost title weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776113090496,
+      "depth": 1
+    },
+    {
+      "id": "23e31790c527",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost title weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776113090406,
+      "depth": 1
+    },
+    {
+      "id": "e15d8cee547d",
+      "domain": "search-ranking",
+      "title": "Search round 47: boost title weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776113090328,
+      "depth": 1
+    },
+    {
+      "id": "c6b3475300dc",
+      "domain": "search-ranking",
+      "title": "Search round 39: boost title weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776112370245,
+      "depth": 1
+    },
+    {
+      "id": "8a6eb7d09ba3",
+      "domain": "search-ranking",
+      "title": "Search round 39: boost title weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776112369827,
+      "depth": 1
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
