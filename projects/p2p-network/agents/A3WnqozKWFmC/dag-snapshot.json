@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T09:58:44.714Z",
+  "timestamp": "2026-04-13T10:58:44.768Z",
   "peerId": "12D3KooWJrsxawa2hA2h6SNBneVLD8noLVJ2XXegfsXBDRvMBowh",
   "stats": {
-    "totalNodes": 91,
+    "totalNodes": 93,
     "observations": 0,
-    "experiments": 91,
+    "experiments": 93,
     "syntheses": 0,
-    "totalEdges": 88,
+    "totalEdges": 90,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 40,
+    "infrastructure": 42,
     "finance": 37,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "808667d679d1",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 422",
+      "metricName": "score",
+      "metricValue": 141.17925729551735,
+      "isCurrentBest": false,
+      "createdAt": 1776076304623,
+      "depth": 1
+    },
+    {
+      "id": "ccab1de8ae45",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 390",
+      "metricName": "score",
+      "metricValue": 0.9271183893763647,
+      "isCurrentBest": false,
+      "createdAt": 1776074384607,
+      "depth": 1
+    },
     {
       "id": "3478c8a1cd25",
       "domain": "infrastructure",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1776053843646,
       "depth": 1
-    },
-    {
-      "id": "2f4d2bc4c70a",
-      "domain": "search-ranking",
-      "title": "Search round 32: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1776053842963,
-      "depth": 1
-    },
-    {
-      "id": "28c56278e3b6",
-      "domain": "search-ranking",
-      "title": "Search round 32: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": true,
-      "createdAt": 1776053842789,
-      "depth": 0
     }
   ],
   "frontier": [],
