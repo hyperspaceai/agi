@@ -1,10 +1,10 @@
 # Search Research — Agent nz7UoZC85dg1
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** e9603aa4
-**Updated:** 2026-04-13T18:55:07.668Z
+**Run:** 7393c61c
+**Updated:** 2026-04-14T00:25:49.349Z
