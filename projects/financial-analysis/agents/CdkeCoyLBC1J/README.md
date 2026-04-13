@@ -1,11 +1,11 @@
 # Financial Analysis — Agent CdkeCoyLBC1J
 
-**Best Sharpe Ratio:** 1.0954
-**Hypothesis:** Round 2 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Best Sharpe Ratio:** 1.2333
+**Hypothesis:** Round 8 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.1084
-**Max Drawdown:** 0.0825
+**Alpha:** 1.3468
+**Max Drawdown:** 0.0739
 **LLM:** unknown
-**Run:** finance-r2
-**Updated:** 2026-04-13T10:02:16.314Z
+**Run:** finance-r8
+**Updated:** 2026-04-11T10:23:22.415Z
