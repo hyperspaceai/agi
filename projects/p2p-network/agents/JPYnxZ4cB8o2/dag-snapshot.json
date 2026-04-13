@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T18:00:17.246Z",
+  "timestamp": "2026-04-13T19:00:17.335Z",
   "peerId": "12D3KooWA7kiY68mo5QHSgj3rzpXDV4AX4DRnjQGWiwRiYonLXMw",
   "stats": {
-    "totalNodes": 4468,
+    "totalNodes": 4487,
     "observations": 0,
-    "experiments": 4468,
+    "experiments": 4487,
     "syntheses": 0,
-    "totalEdges": 4464,
+    "totalEdges": 4483,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 25
+    "recentActivity": 19
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,201 @@
   },
   "domainCounts": {
     "infrastructure": 1897,
-    "skills": 1502,
-    "finance": 821,
-    "search-ranking": 248
+    "skills": 1506,
+    "finance": 822,
+    "search-ranking": 262
   },
   "recentExperiments": [
+    {
+      "id": "5c534825e0e8",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776106217239,
+      "depth": 2
+    },
+    {
+      "id": "1851af6bd54a",
+      "domain": "search-ranking",
+      "title": "Search round 50: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776105957961,
+      "depth": 1
+    },
+    {
+      "id": "8904784cd5d1",
+      "domain": "search-ranking",
+      "title": "Search round 50: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776105956832,
+      "depth": 1
+    },
+    {
+      "id": "82e4556c0f69",
+      "domain": "search-ranking",
+      "title": "Search round 46: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776105597811,
+      "depth": 1
+    },
+    {
+      "id": "721a1d3633f4",
+      "domain": "search-ranking",
+      "title": "Search round 46: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776105597376,
+      "depth": 1
+    },
+    {
+      "id": "6f206fc09196",
+      "domain": "search-ranking",
+      "title": "Search round 46: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776105596976,
+      "depth": 1
+    },
+    {
+      "id": "fa29227f9d2b",
+      "domain": "search-ranking",
+      "title": "Search round 46: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776105596974,
+      "depth": 1
+    },
+    {
+      "id": "48b039388cb8",
+      "domain": "search-ranking",
+      "title": "Search round 42: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776105237050,
+      "depth": 1
+    },
+    {
+      "id": "210a8a9916c7",
+      "domain": "search-ranking",
+      "title": "Search round 42: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776105236788,
+      "depth": 1
+    },
+    {
+      "id": "2a56b9cd3bef",
+      "domain": "search-ranking",
+      "title": "Search round 42: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776105236786,
+      "depth": 1
+    },
+    {
+      "id": "b4f97b67799f",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776105017216,
+      "depth": 2
+    },
+    {
+      "id": "f49b42bf4b37",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776104897180,
+      "depth": 2
+    },
+    {
+      "id": "3dc45c2eeb44",
+      "domain": "search-ranking",
+      "title": "Search round 38: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776104878431,
+      "depth": 1
+    },
+    {
+      "id": "7e9159afe056",
+      "domain": "search-ranking",
+      "title": "Search round 38: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776104876976,
+      "depth": 1
+    },
+    {
+      "id": "9b2ba733baaf",
+      "domain": "search-ranking",
+      "title": "Search round 38: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776104876947,
+      "depth": 1
+    },
+    {
+      "id": "8afd679ab85a",
+      "domain": "search-ranking",
+      "title": "Search round 38: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776104876571,
+      "depth": 1
+    },
+    {
+      "id": "7d2040d7dbf5",
+      "domain": "search-ranking",
+      "title": "Search round 38: require 5 unique domains",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776104876545,
+      "depth": 1
+    },
+    {
+      "id": "29e6e7d3f8d6",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776103817193,
+      "depth": 2
+    },
+    {
+      "id": "964bd93d6e5f",
+      "domain": "finance",
+      "title": "Finance round 13: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "isCurrentBest": false,
+      "createdAt": 1776103367152,
+      "depth": 17
+    },
     {
       "id": "fcc971c8a2ac",
       "domain": "skills",
@@ -62,196 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776103217190,
       "depth": 2
-    },
-    {
-      "id": "20612fccac48",
-      "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.3064",
-      "metricName": "Sharpe",
-      "metricValue": 1.3064,
-      "isCurrentBest": false,
-      "createdAt": 1776102767133,
-      "depth": 17
-    },
-    {
-      "id": "c27302ff2f8f",
-      "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
-      "isCurrentBest": false,
-      "createdAt": 1776102617159,
-      "depth": 17
-    },
-    {
-      "id": "e6506c3c52d6",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.2386",
-      "metricName": "Sharpe",
-      "metricValue": 1.2386,
-      "isCurrentBest": false,
-      "createdAt": 1776102467123,
-      "depth": 17
-    },
-    {
-      "id": "732e8af61ad5",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776102377130,
-      "depth": 2
-    },
-    {
-      "id": "01b30886bcb0",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2286",
-      "metricName": "Sharpe",
-      "metricValue": 1.2286,
-      "isCurrentBest": false,
-      "createdAt": 1776102317125,
-      "depth": 17
-    },
-    {
-      "id": "469d80110b19",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776102257130,
-      "depth": 2
-    },
-    {
-      "id": "b8b6d4019dcf",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.2198",
-      "metricName": "Sharpe",
-      "metricValue": 1.2198,
-      "isCurrentBest": false,
-      "createdAt": 1776102167127,
-      "depth": 17
-    },
-    {
-      "id": "9697da62e7c5",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776102137132,
-      "depth": 2
-    },
-    {
-      "id": "04ff38e58ad4",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776102017164,
-      "depth": 2
-    },
-    {
-      "id": "e873b1f19804",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776101897132,
-      "depth": 2
-    },
-    {
-      "id": "b4322d5cd5f0",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1940",
-      "metricName": "Sharpe",
-      "metricValue": 1.194,
-      "isCurrentBest": false,
-      "createdAt": 1776101867260,
-      "depth": 17
-    },
-    {
-      "id": "92ecba897387",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776101777123,
-      "depth": 2
-    },
-    {
-      "id": "771487e103d8",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5",
-      "metricName": "score",
-      "metricValue": 140.87181222782763,
-      "isCurrentBest": false,
-      "createdAt": 1776101777115,
-      "depth": 9
-    },
-    {
-      "id": "8e69ee9432d6",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1818",
-      "metricName": "Sharpe",
-      "metricValue": 1.1818,
-      "isCurrentBest": false,
-      "createdAt": 1776101717137,
-      "depth": 17
-    },
-    {
-      "id": "a6c8f7544e0f",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 4",
-      "metricName": "score",
-      "metricValue": 0.975453262321671,
-      "isCurrentBest": false,
-      "createdAt": 1776101717120,
-      "depth": 9
-    },
-    {
-      "id": "acaad3dd4f95",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 4",
-      "metricName": "score",
-      "metricValue": 141.2934547807975,
-      "isCurrentBest": false,
-      "createdAt": 1776101717115,
-      "depth": 9
-    },
-    {
-      "id": "b110a6f0f668",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776101657147,
-      "depth": 2
-    },
-    {
-      "id": "ee014495d1aa",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3",
-      "metricName": "score",
-      "metricValue": 0.9533451336308909,
-      "isCurrentBest": false,
-      "createdAt": 1776101657121,
-      "depth": 9
-    },
-    {
-      "id": "395ab48c89f5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3",
-      "metricName": "score",
-      "metricValue": 141.72177411269533,
-      "isCurrentBest": false,
-      "createdAt": 1776101657115,
-      "depth": 9
     }
   ],
   "frontier": [],
