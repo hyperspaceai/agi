@@ -1,23 +1,22 @@
 {
   "runId": "llm-r3",
   "runNumber": 3,
-  "hypothesis": "[LLM] Increase momentum and improve risk management with a drawdown protection mechanism.",
-  "sharpeRatio": 1.1447,
-  "totalReturn": 2.9225,
-  "maxDrawdown": 0.0689,
-  "alpha": 1.4283,
+  "hypothesis": "[LLM] Increase momentum factor weight and refine risk management to mitigate drawdown.",
+  "sharpeRatio": 1.328,
+  "totalReturn": 3.2087,
+  "maxDrawdown": 0.0485,
+  "alpha": 1.7144,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
     "lowVolWeight",
-    "dividendWeight",
-    "trendWeight"
+    "dividendWeight"
   ],
   "positionSizing": "risk_parity",
   "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-04-06T19:51:20.864Z"
+  "timestamp": "2026-04-13T08:51:00.358Z"
 }
