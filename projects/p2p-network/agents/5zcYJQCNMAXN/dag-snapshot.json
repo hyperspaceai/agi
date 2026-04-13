@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T11:03:46.927Z",
+  "timestamp": "2026-04-13T12:04:23.766Z",
   "peerId": "12D3KooWEoyi3Xn5Y4nrebBwPZTDVyjwuLSUMCLSJo9mBSpGrx38",
   "stats": {
-    "totalNodes": 3489,
+    "totalNodes": 3494,
     "observations": 0,
-    "experiments": 3489,
+    "experiments": 3494,
     "syntheses": 0,
-    "totalEdges": 3485,
+    "totalEdges": 3490,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1881,
-    "skills": 864,
+    "infrastructure": 1884,
+    "skills": 866,
     "finance": 628,
     "search-ranking": 116
   },
   "recentExperiments": [
+    {
+      "id": "878237f6d987",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 494",
+      "metricName": "score",
+      "metricValue": 141.2581026891732,
+      "isCurrentBest": false,
+      "createdAt": 1776080798880,
+      "depth": 6
+    },
+    {
+      "id": "f00bc67ba9f9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 491",
+      "metricName": "score",
+      "metricValue": 0.9277509832999664,
+      "isCurrentBest": false,
+      "createdAt": 1776080618857,
+      "depth": 6
+    },
+    {
+      "id": "8e015da84fa8",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776079678043,
+      "depth": 2
+    },
+    {
+      "id": "830960b007ca",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776078471911,
+      "depth": 2
+    },
+    {
+      "id": "db201c509a60",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 453",
+      "metricName": "score",
+      "metricValue": 0.9269226209936917,
+      "isCurrentBest": false,
+      "createdAt": 1776078321407,
+      "depth": 6
+    },
     {
       "id": "043959b35ee9",
       "domain": "infrastructure",
@@ -202,56 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776056905442,
       "depth": 2
-    },
-    {
-      "id": "e5eba0a3652d",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 88",
-      "metricName": "score",
-      "metricValue": 141.10558966776605,
-      "isCurrentBest": false,
-      "createdAt": 1776056295380,
-      "depth": 6
-    },
-    {
-      "id": "a12610d80c55",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776055806911,
-      "depth": 2
-    },
-    {
-      "id": "b1d1e58c1429",
-      "domain": "search-ranking",
-      "title": "Search round 50: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776055564456,
-      "depth": 1
-    },
-    {
-      "id": "8918a564d8cf",
-      "domain": "finance",
-      "title": "Finance round 28: Sharpe=1.2946",
-      "metricName": "Sharpe",
-      "metricValue": 1.2946,
-      "isCurrentBest": false,
-      "createdAt": 1776055202169,
-      "depth": 12
-    },
-    {
-      "id": "4e21f48486d9",
-      "domain": "search-ranking",
-      "title": "Search round 46: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776055202005,
-      "depth": 1
     }
   ],
   "frontier": [],
