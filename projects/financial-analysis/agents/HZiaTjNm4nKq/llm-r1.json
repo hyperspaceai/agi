@@ -1,21 +1,24 @@
 {
   "runId": "llm-r1",
   "runNumber": 1,
-  "hypothesis": "[LLM] Incorporate volatility targeting and quality factor to improve Sharpe ratio and reduce drawdown.",
-  "sharpeRatio": 1.1233,
-  "totalReturn": 2.4563,
-  "maxDrawdown": 0.0599,
-  "alpha": 0.9621,
+  "hypothesis": "[LLM] Increase trend factor weight and enable drawdown protection for improved risk-adjusted returns.",
+  "sharpeRatio": 1.1116,
+  "totalReturn": 2.308,
+  "maxDrawdown": 0.0571,
+  "alpha": 0.8138,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
+    "trendWeight"
   ],
   "positionSizing": "inverse_vol",
-  "durationSec": 0.001,
+  "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-04-06T07:51:48.484Z"
+  "timestamp": "2026-04-13T06:14:33.951Z"
 }
