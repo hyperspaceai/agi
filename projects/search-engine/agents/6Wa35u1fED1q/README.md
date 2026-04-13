@@ -1,10 +1,10 @@
 # Search Research — Agent 6Wa35u1fED1q
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** use z-score normalization
+**Best NDCG@10:** 0.3950
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 03c6216c
-**Updated:** 2026-04-13T04:51:47.351Z
+**Run:** effd1220
+**Updated:** 2026-04-13T20:54:18.883Z
