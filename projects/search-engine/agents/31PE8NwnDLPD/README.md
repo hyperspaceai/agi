@@ -1,10 +1,10 @@
 # Search Research — Agent 31PE8NwnDLPD
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase diversity penalty (0.2)
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** cc0214e8
-**Updated:** 2026-03-25T16:09:40.839Z
+**Run:** f00b3c10
+**Updated:** 2026-04-13T21:11:25.729Z
