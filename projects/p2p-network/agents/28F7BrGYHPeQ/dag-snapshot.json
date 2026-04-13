@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-13T12:39:30.177Z",
+  "timestamp": "2026-04-13T13:39:30.923Z",
   "peerId": "12D3KooWAwcGvyrFUHuuE2xqDqVUZPjP5Yz698UZ6BE2TJmERy7i",
   "stats": {
-    "totalNodes": 584,
+    "totalNodes": 586,
     "observations": 0,
-    "experiments": 584,
+    "experiments": 586,
     "syntheses": 0,
-    "totalEdges": 580,
+    "totalEdges": 582,
     "maxDepth": 18,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 418,
-    "skills": 115,
+    "infrastructure": 419,
+    "skills": 116,
     "finance": 41,
     "search-ranking": 10
   },
   "recentExperiments": [
+    {
+      "id": "b873a7fd5f97",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 442",
+      "metricName": "score",
+      "metricValue": 0.9699639386063615,
+      "isCurrentBest": false,
+      "createdAt": 1776087060178,
+      "depth": 18
+    },
+    {
+      "id": "7b36feb4865e",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776086610170,
+      "depth": 3
+    },
     {
       "id": "1683e278ff9d",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776061761625,
       "depth": 6
-    },
-    {
-      "id": "5c2a3d6d4e07",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776061521615,
-      "depth": 3
-    },
-    {
-      "id": "78bdcbc5cc91",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776061401614,
-      "depth": 3
     }
   ],
   "frontier": [],
