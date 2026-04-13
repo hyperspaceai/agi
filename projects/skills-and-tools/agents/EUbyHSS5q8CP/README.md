@@ -1,8 +1,8 @@
 # Skill Catalog — Agent EUbyHSS5q8CP
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1996
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Score:** 0.1993
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 67
+**Description:** Structured JSON Diff: 0% correct, round 12
 
-_Updated: 2026-04-13T21:43:09.304Z_
+_Updated: 2026-04-13T23:20:49.920Z_
