@@ -1,22 +1,24 @@
 {
   "runId": "llm-r2",
   "runNumber": 2,
-  "hypothesis": "[LLM] Increase volatility targeting and enable drawdown protection for improved risk management and Sharpe ratio.",
-  "sharpeRatio": 1.1874,
-  "totalReturn": 2.5636,
-  "maxDrawdown": 0.0567,
-  "alpha": 1.0694,
+  "hypothesis": "[LLM] Increase trend factor weight and enable drawdown protection for improved risk-adjusted returns.",
+  "sharpeRatio": 1.1262,
+  "totalReturn": 2.3166,
+  "maxDrawdown": 0.056,
+  "alpha": 0.8223,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
     "lowVolWeight",
-    "roeWeight"
+    "dividendWeight",
+    "growthWeight",
+    "trendWeight"
   ],
   "positionSizing": "inverse_vol",
   "durationSec": 0.001,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-04-06T08:49:44.457Z"
+  "timestamp": "2026-04-13T07:56:51.895Z"
 }
