@@ -1,10 +1,10 @@
 # Search Research — Agent FmCjABHSXmk7
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require 5 unique domains
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1e709874
-**Updated:** 2026-04-10T04:37:47.496Z
+**Run:** 022cf588
+**Updated:** 2026-04-13T02:05:58.996Z
