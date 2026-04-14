@@ -1,10 +1,10 @@
 # Search Research — Agent Gtz4moos5ufU
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** local + peer only
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1c5dc218
-**Updated:** 2026-04-10T19:55:45.058Z
+**Run:** 86da6c18
+**Updated:** 2026-04-14T23:38:14.009Z
