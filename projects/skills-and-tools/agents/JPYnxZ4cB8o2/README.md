@@ -1,8 +1,8 @@
 # Skill Catalog — Agent JPYnxZ4cB8o2
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1998
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Score:** 0.1997
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 145
+**Description:** Structured JSON Diff: 0% correct, round 21
 
-_Updated: 2026-04-14T07:18:10.153Z_
+_Updated: 2026-04-14T18:19:35.033Z_
