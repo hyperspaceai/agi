@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-14T07:56:31.996Z",
+  "timestamp": "2026-04-14T08:56:32.026Z",
   "peerId": "12D3KooWJrsxawa2hA2h6SNBneVLD8noLVJ2XXegfsXBDRvMBowh",
   "stats": {
-    "totalNodes": 248,
+    "totalNodes": 250,
     "observations": 0,
-    "experiments": 248,
+    "experiments": 250,
     "syntheses": 0,
-    "totalEdges": 245,
+    "totalEdges": 247,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 119,
+    "infrastructure": 121,
     "finance": 87,
     "search-ranking": 42
   },
   "recentExperiments": [
+    {
+      "id": "5b4ae18e9915",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 352",
+      "metricName": "score",
+      "metricValue": 0.9787272280060393,
+      "isCurrentBest": false,
+      "createdAt": 1776154771912,
+      "depth": 3
+    },
+    {
+      "id": "15bbabc5e9cf",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 345",
+      "metricName": "score",
+      "metricValue": 0.977949490709024,
+      "isCurrentBest": false,
+      "createdAt": 1776154351912,
+      "depth": 3
+    },
     {
       "id": "57ea307e0989",
       "domain": "infrastructure",
@@ -222,26 +242,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776137082541,
-      "depth": 2
-    },
-    {
-      "id": "1beeff7e1b90",
-      "domain": "search-ranking",
-      "title": "Search round 38: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776137082461,
-      "depth": 2
-    },
-    {
-      "id": "8eb417bd00aa",
-      "domain": "search-ranking",
-      "title": "Search round 38: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776137081911,
       "depth": 2
     }
   ],
