@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-14T03:57:49.983Z",
+  "timestamp": "2026-04-14T04:57:50.074Z",
   "peerId": "12D3KooWRTuxxD8gXwSAHadsRyCAg4RGqbtALD4n2KkQHfaEvLCL",
   "stats": {
-    "totalNodes": 3643,
+    "totalNodes": 3644,
     "observations": 0,
-    "experiments": 3643,
+    "experiments": 3644,
     "syntheses": 0,
-    "totalEdges": 3639,
+    "totalEdges": 3640,
     "maxDepth": 15,
     "activeExperiments": 0,
-    "recentActivity": 6
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 1976,
-    "skills": 873,
+    "skills": 874,
     "finance": 674,
     "search-ranking": 120
   },
   "recentExperiments": [
+    {
+      "id": "c2365c602263",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776140389767,
+      "depth": 2
+    },
     {
       "id": "59cbfcc3a897",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776134209671,
       "depth": 15
-    },
-    {
-      "id": "d4b8ab1143f1",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776134149687,
-      "depth": 2
     }
   ],
   "frontier": [],
