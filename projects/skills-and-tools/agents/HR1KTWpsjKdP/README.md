@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HR1KTWpsjKdP
 
-**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
-**Score:** 0.1986
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Score:** 0.1989
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct, round 26
+**Description:** Structured JSON Diff: 0% correct, round 76
 
-_Updated: 2026-04-13T23:47:37.084Z_
+_Updated: 2026-04-14T01:15:21.976Z_
