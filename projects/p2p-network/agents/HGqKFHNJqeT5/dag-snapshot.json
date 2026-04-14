@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-14T20:04:55.676Z",
+  "timestamp": "2026-04-14T22:31:50.630Z",
   "peerId": "12D3KooWS6CUzQx22Yia79SsZ1EeuUey9KSCQxXjs4ZKhzKZiqRK",
   "stats": {
-    "totalNodes": 1274,
+    "totalNodes": 1303,
     "observations": 0,
-    "experiments": 1274,
+    "experiments": 1303,
     "syntheses": 0,
-    "totalEdges": 1270,
+    "totalEdges": 1299,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 20
+    "recentActivity": 26
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,211 +47,211 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 579,
-    "skills": 361,
-    "finance": 269,
+    "infrastructure": 587,
+    "skills": 372,
+    "finance": 279,
     "search-ranking": 65
   },
   "recentExperiments": [
     {
-      "id": "27cc3e07b7c9",
+      "id": "b8a399c55b2a",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1998,
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1776197095659,
+      "createdAt": 1776205910554,
       "depth": 1
     },
     {
-      "id": "ad52f2d7e73d",
-      "domain": "search-ranking",
-      "title": "Search round 45: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "id": "17fd647090cb",
+      "domain": "finance",
+      "title": "Finance round 12: Sharpe=1.2960",
+      "metricName": "Sharpe",
+      "metricValue": 1.296,
       "isCurrentBest": false,
-      "createdAt": 1776195813937,
-      "depth": 1
+      "createdAt": 1776205910550,
+      "depth": 6
     },
     {
-      "id": "6cbb2a18042b",
-      "domain": "search-ranking",
-      "title": "Search round 45: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "id": "9301facb8b9b",
+      "domain": "finance",
+      "title": "Finance round 11: Sharpe=1.2392",
+      "metricName": "Sharpe",
+      "metricValue": 1.2392,
       "isCurrentBest": false,
-      "createdAt": 1776195813855,
-      "depth": 1
+      "createdAt": 1776205760497,
+      "depth": 6
     },
     {
-      "id": "9d25d8793728",
-      "domain": "search-ranking",
-      "title": "Search round 45: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "id": "edbc6e9328d9",
+      "domain": "finance",
+      "title": "Finance round 10: Sharpe=1.2322",
+      "metricName": "Sharpe",
+      "metricValue": 1.2322,
       "isCurrentBest": false,
-      "createdAt": 1776195812862,
-      "depth": 1
+      "createdAt": 1776205610479,
+      "depth": 6
     },
     {
-      "id": "55b8c4e4370c",
+      "id": "863ad1916805",
+      "domain": "finance",
+      "title": "Finance round 8: Sharpe=1.2311",
+      "metricName": "Sharpe",
+      "metricValue": 1.2311,
+      "isCurrentBest": false,
+      "createdAt": 1776205310480,
+      "depth": 6
+    },
+    {
+      "id": "0f53e9de232d",
+      "domain": "finance",
+      "title": "Finance round 7: Sharpe=1.2225",
+      "metricName": "Sharpe",
+      "metricValue": 1.2225,
+      "isCurrentBest": false,
+      "createdAt": 1776205160454,
+      "depth": 6
+    },
+    {
+      "id": "fba35a5faff6",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1998,
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1776195295524,
+      "createdAt": 1776205070416,
       "depth": 1
     },
     {
-      "id": "ffe6d0c72fac",
-      "domain": "search-ranking",
-      "title": "Search round 38: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "id": "2ef482442c1d",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.2117",
+      "metricName": "Sharpe",
+      "metricValue": 1.2117,
       "isCurrentBest": false,
-      "createdAt": 1776195122642,
-      "depth": 1
+      "createdAt": 1776205010412,
+      "depth": 6
     },
     {
-      "id": "0b616427f9f9",
-      "domain": "search-ranking",
-      "title": "Search round 38: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776195122518,
-      "depth": 1
-    },
-    {
-      "id": "0804c926c123",
-      "domain": "search-ranking",
-      "title": "Search round 38: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776195122010,
-      "depth": 1
-    },
-    {
-      "id": "42ba6b4ec842",
-      "domain": "search-ranking",
-      "title": "Search round 38: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776195121894,
-      "depth": 1
-    },
-    {
-      "id": "db4f5a59746b",
-      "domain": "search-ranking",
-      "title": "Search round 33: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776194737489,
-      "depth": 1
-    },
-    {
-      "id": "11d0ecb78c4c",
-      "domain": "search-ranking",
-      "title": "Search round 33: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776194736319,
-      "depth": 1
-    },
-    {
-      "id": "1d18000533f4",
-      "domain": "search-ranking",
-      "title": "Search round 33: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776194736207,
-      "depth": 1
-    },
-    {
-      "id": "2d19b036678b",
-      "domain": "search-ranking",
-      "title": "Search round 33: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776194732674,
-      "depth": 1
-    },
-    {
-      "id": "cc0ccd1562aa",
-      "domain": "search-ranking",
-      "title": "Search round 33: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776194732552,
-      "depth": 1
-    },
-    {
-      "id": "2592eb2b3ce5",
-      "domain": "search-ranking",
-      "title": "Search round 33: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776194732342,
-      "depth": 1
-    },
-    {
-      "id": "291265e545c6",
-      "domain": "search-ranking",
-      "title": "Search round 33: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776194732230,
-      "depth": 1
-    },
-    {
-      "id": "eadfb6835075",
+      "id": "26cd936c4930",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1998,
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1776194215374,
+      "createdAt": 1776204950417,
       "depth": 1
     },
     {
-      "id": "54be814100d9",
+      "id": "ab8568b94e99",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.1745",
+      "metricName": "Sharpe",
+      "metricValue": 1.1745,
+      "isCurrentBest": false,
+      "createdAt": 1776204860387,
+      "depth": 6
+    },
+    {
+      "id": "034763462440",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1998,
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1776194095319,
+      "createdAt": 1776204830390,
       "depth": 1
     },
     {
-      "id": "48c596b4d881",
+      "id": "4ac6039d7b70",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776204710382,
+      "depth": 1
+    },
+    {
+      "id": "7d13ba9f5278",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.0750",
+      "metricName": "Sharpe",
+      "metricValue": 1.075,
+      "isCurrentBest": false,
+      "createdAt": 1776204710379,
+      "depth": 6
+    },
+    {
+      "id": "a2c206069653",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 36",
+      "title": "Cause infra-optimization round 9",
       "metricName": "score",
-      "metricValue": 141.19165188126817,
+      "metricValue": 141.7988918223671,
       "isCurrentBest": false,
-      "createdAt": 1776193765227,
+      "createdAt": 1776204710361,
       "depth": 9
     },
     {
-      "id": "8803c7a44f4b",
+      "id": "c44d9d5292d8",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1998,
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1776193615225,
+      "createdAt": 1776204590365,
       "depth": 1
+    },
+    {
+      "id": "f31aa89dfdb7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 7",
+      "metricName": "score",
+      "metricValue": 0.976436471798302,
+      "isCurrentBest": false,
+      "createdAt": 1776204590354,
+      "depth": 9
+    },
+    {
+      "id": "91f4114b42e1",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.0636",
+      "metricName": "Sharpe",
+      "metricValue": 1.0636,
+      "isCurrentBest": false,
+      "createdAt": 1776204560473,
+      "depth": 6
+    },
+    {
+      "id": "e2b9c78c742e",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776204470357,
+      "depth": 1
+    },
+    {
+      "id": "8ec6048260f1",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 5",
+      "metricName": "score",
+      "metricValue": 141.8857617561045,
+      "isCurrentBest": false,
+      "createdAt": 1776204470347,
+      "depth": 9
+    },
+    {
+      "id": "89f1de432e5f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 4",
+      "metricName": "score",
+      "metricValue": 0.973571089127335,
+      "isCurrentBest": false,
+      "createdAt": 1776204410343,
+      "depth": 9
     }
   ],
   "frontier": [],
