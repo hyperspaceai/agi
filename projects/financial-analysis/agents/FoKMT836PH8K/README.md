@@ -1,11 +1,11 @@
 # Financial Analysis — Agent FoKMT836PH8K
 
-**Best Sharpe Ratio:** 1.3174
-**Hypothesis:** Round 12 best mutation
+**Best Sharpe Ratio:** 1.4017
+**Hypothesis:** [LLM] Adjust factor weights and position sizing to improve Sharpe ratio.
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.5172
-**Max Drawdown:** 0.0546
+**Position Sizing:** equal_weight
+**Alpha:** 1.4106
+**Max Drawdown:** 0.0432
 **LLM:** unknown
-**Run:** finance-r12
-**Updated:** 2026-04-14T11:11:58.472Z
+**Run:** llm-r14
+**Updated:** 2026-04-14T12:31:08.924Z
