@@ -1,10 +1,10 @@
 # Search Research — Agent 9FN122t6VWeb
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.4000
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** e2c58294
-**Updated:** 2026-04-14T05:08:54.619Z
+**Run:** 9d49be0b
+**Updated:** 2026-04-15T02:54:03.409Z
