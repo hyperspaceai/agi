@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-14T12:00:02.721Z",
+  "timestamp": "2026-04-14T13:00:02.855Z",
   "peerId": "12D3KooWF16QET5x2rubkCDxZ3JaoiFkeiGmt6uzVjFQiUiGHUo1",
   "stats": {
-    "totalNodes": 3788,
+    "totalNodes": 3789,
     "observations": 0,
-    "experiments": 3788,
+    "experiments": 3789,
     "syntheses": 0,
-    "totalEdges": 3784,
+    "totalEdges": 3785,
     "maxDepth": 17,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1996,
+    "infrastructure": 1997,
     "skills": 970,
     "finance": 692,
     "search-ranking": 130
   },
   "recentExperiments": [
+    {
+      "id": "50ce1ce0cd26",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 623",
+      "metricName": "score",
+      "metricValue": 0.9294566182909999,
+      "isCurrentBest": false,
+      "createdAt": 1776171242469,
+      "depth": 17
+    },
     {
       "id": "3daeea0a3173",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776137638638,
       "depth": 3
-    },
-    {
-      "id": "de469b9cf064",
-      "domain": "search-ranking",
-      "title": "Search round 39: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776137357927,
-      "depth": 1
     }
   ],
   "frontier": [],
