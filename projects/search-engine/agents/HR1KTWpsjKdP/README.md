@@ -1,10 +1,10 @@
 # Search Research — Agent HR1KTWpsjKdP
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost authority weight (+0.05)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 322a1e78
-**Updated:** 2026-04-13T20:58:53.708Z
+**Run:** 4284f714
+**Updated:** 2026-04-14T23:28:27.554Z
