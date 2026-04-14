@@ -1,10 +1,10 @@
 # Search Research — Agent 7pNFKPdBcHEW
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d41a4154
-**Updated:** 2026-03-25T18:06:49.781Z
+**Run:** c0028c9c
+**Updated:** 2026-04-14T17:23:09.159Z
