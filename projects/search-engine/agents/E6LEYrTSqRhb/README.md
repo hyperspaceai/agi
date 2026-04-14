@@ -1,10 +1,10 @@
 # Search Research — Agent E6LEYrTSqRhb
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost click weight (+0.03)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ed16c4a2
-**Updated:** 2026-04-13T19:10:53.323Z
+**Run:** 35a514ec
+**Updated:** 2026-04-14T18:28:08.446Z
