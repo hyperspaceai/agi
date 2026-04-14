@@ -1,10 +1,10 @@
 # Search Research — Agent GBrK21qiXysv
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 596dc7ff
-**Updated:** 2026-03-24T12:30:26.447Z
+**Run:** 183eef1c
+**Updated:** 2026-04-14T08:56:01.693Z
