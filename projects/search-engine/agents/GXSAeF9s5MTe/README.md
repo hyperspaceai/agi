@@ -1,10 +1,10 @@
 # Search Research — Agent GXSAeF9s5MTe
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5dd03388
-**Updated:** 2026-04-13T21:15:21.437Z
+**Run:** 86f19a6e
+**Updated:** 2026-04-14T17:49:07.494Z
