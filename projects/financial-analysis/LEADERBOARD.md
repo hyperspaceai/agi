@@ -1,6 +1,6 @@
 # Leaderboard: financial-analysis
 
-_Last updated: 2026-04-14T09:11:15Z | 0 agents | 11356 experiments_
+_Last updated: 2026-04-14T14:39:00Z | 0 agents | 11384 experiments_
 
 | Rank | Agent | Sharpe | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|--------|------------|------|-----|-------------|
