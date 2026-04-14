@@ -1,25 +1,24 @@
 {
   "runId": "llm-r5",
   "runNumber": 5,
-  "hypothesis": "[LLM] Adjusting strategy to improve Sharpe ratio by evolving the factor-based portfolio strategy step by step",
-  "sharpeRatio": 1.2753,
-  "totalReturn": 2.4878,
-  "maxDrawdown": 0.0445,
-  "alpha": 0.9935,
+  "hypothesis": "[LLM] Adjusting the strategy to improve Sharpe ratio by modifying the factor weights and position sizing.",
+  "sharpeRatio": 1.2998,
+  "totalReturn": 2.7471,
+  "maxDrawdown": 0.0478,
+  "alpha": 1.2528,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
     "lowVolWeight",
-    "dividendWeight",
     "growthWeight",
     "meanReversionWeight",
     "trendWeight"
   ],
-  "positionSizing": "inverse_vol",
+  "positionSizing": "equal_weight",
   "durationSec": 0.001,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-29T10:08:48.552Z"
+  "timestamp": "2026-04-13T19:52:21.721Z"
 }
