@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-14T04:56:31.863Z",
+  "timestamp": "2026-04-14T05:56:31.880Z",
   "peerId": "12D3KooWJrsxawa2hA2h6SNBneVLD8noLVJ2XXegfsXBDRvMBowh",
   "stats": {
-    "totalNodes": 243,
+    "totalNodes": 244,
     "observations": 0,
-    "experiments": 243,
+    "experiments": 244,
     "syntheses": 0,
-    "totalEdges": 240,
+    "totalEdges": 241,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,21 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 114,
+    "infrastructure": 115,
     "finance": 87,
     "search-ranking": 42
   },
   "recentExperiments": [
+    {
+      "id": "bd4514d04d9f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 187",
+      "metricName": "score",
+      "metricValue": 141.38549275987438,
+      "isCurrentBest": false,
+      "createdAt": 1776144871780,
+      "depth": 3
+    },
     {
       "id": "945f0946ac12",
       "domain": "infrastructure",
@@ -233,16 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1776136891723,
       "depth": 9
-    },
-    {
-      "id": "e0f1cf177a85",
-      "domain": "search-ranking",
-      "title": "Search round 34: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776136693146,
-      "depth": 2
     }
   ],
   "frontier": [],
