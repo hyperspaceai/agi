@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWDAvZ5EK5xKQtzJmFwpV6Pkeg3mwBdi4yMKJen9kKBREh",
-  "runNumber": 1,
-  "timestamp": 1776177360993,
-  "hypothesis": "Explore: linear LR schedule",
+  "runNumber": 4,
+  "timestamp": 1776185769119,
+  "hypothesis": "Improve on 8035f3d4 (loss=3.9968): lower LR (3e-4)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.9968148875213054,
-    "trainLoss": 4.0199827561455965,
+    "valLoss": 3.9790088843394775,
+    "trainLoss": 4.0114572850450685,
     "lossCurve": [
       [
-        127,
-        3.9968148875213054
+        122,
+        3.9790088843394775
       ]
     ],
-    "durationSec": 127.875,
-    "tokensPerSec": 2033.9863147605083,
-    "totalTokens": 260096
+    "durationSec": 127.799,
+    "tokensPerSec": 1955.0700709708212,
+    "totalTokens": 249856
   },
-  "improvement": 0,
+  "improvement": -0.4455048252902852,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
