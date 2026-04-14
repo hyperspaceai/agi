@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-14T06:52:38.058Z",
+  "timestamp": "2026-04-14T21:02:05.300Z",
   "peerId": "12D3KooWQcgXCFcoaBPoW3euyVh5dxqAa65qJX9gLkK9TT3wdBai",
   "stats": {
-    "totalNodes": 210,
+    "totalNodes": 273,
     "observations": 0,
-    "experiments": 210,
+    "experiments": 273,
     "syntheses": 0,
-    "totalEdges": 157,
-    "maxDepth": 4,
-    "activeExperiments": 40,
-    "recentActivity": 2
+    "totalEdges": 198,
+    "maxDepth": 5,
+    "activeExperiments": 57,
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -30,12 +30,12 @@
       "depth": 0
     },
     "finance": {
-      "nodeId": "8da19e2f9eea2f0162d015822c1d111a26a47c4eb8fe45909058f7adff12d4c8",
-      "title": "Finance round 11: Sharpe=1.3137",
+      "nodeId": "231c6dcb110899921cfb4877b58645a615350a867cb8653b2725391d2610fede",
+      "title": "Finance round 12: Sharpe=1.3174",
       "metricName": "Sharpe",
-      "metricValue": 1.3137,
+      "metricValue": 1.3174,
       "metricDirection": "maximize",
-      "depth": 3
+      "depth": 4
     },
     "skills": {
       "nodeId": "5ed382c552ff619a1e4fdebba1f0d327d2b00d6eaeff997a787e2569c7dde3bc",
@@ -47,206 +47,206 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 116,
-    "physics": 40,
-    "general": 10,
-    "finance": 20,
-    "skills": 24
+    "infrastructure": 137,
+    "physics": 57,
+    "general": 15,
+    "finance": 24,
+    "skills": 40
   },
   "recentExperiments": [
     {
-      "id": "edf548deafeb",
+      "id": "7eeacfe458e5",
       "domain": "physics",
-      "title": "Wrote paper: \"The Fate of a Superluminal Warp Bubble When Encountering a Black Hole\" (self-verificat",
+      "title": "Wrote paper: \"On warp_drives: How do quantum gravity effects influence the stability and p\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776147336539,
+      "createdAt": 1776199264471,
       "depth": 0
     },
     {
-      "id": "85bad9c3791c",
+      "id": "00126416b3fd",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.0634",
+      "metricName": "Sharpe",
+      "metricValue": 1.0634,
+      "isCurrentBest": false,
+      "createdAt": 1776199157270,
+      "depth": 5
+    },
+    {
+      "id": "bebc4c2ab5c6",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 200",
+      "title": "Cause literature-analysis round 242",
       "metricName": "score",
-      "metricValue": 144.9752196693675,
+      "metricValue": 0.9607600225017858,
       "isCurrentBest": false,
-      "createdAt": 1776147137793,
+      "createdAt": 1776197856670,
       "depth": 4
     },
     {
-      "id": "0b8c877b2267",
+      "id": "3a487fdcba33",
       "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "title": "Skill Chunk Text for Embeddings (LLM 3 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1995,
+      "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1776145941386,
+      "createdAt": 1776196669640,
       "depth": 3
     },
     {
-      "id": "cd4d86f355bd",
+      "id": "1c623ca5233e",
       "domain": "physics",
-      "title": "Wrote paper: \"\"Designing Arrays of Casimir Micro-Cavities for Macroscopic Negative Energy Densities:",
+      "title": "Wrote paper: \"On warp_drives: How do the quantum gravity corrections to the null energy co\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776145037836,
+      "createdAt": 1776194484696,
       "depth": 0
     },
     {
-      "id": "f9d39b79f75e",
+      "id": "77d27154b520",
       "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "title": "Skill Chunk Text for Embeddings (LLM 3 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1995,
+      "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1776144885652,
+      "createdAt": 1776192872383,
       "depth": 3
     },
     {
-      "id": "d3119c2a4084",
-      "domain": "physics",
-      "title": "Wrote paper: \"[descriptive title]\" (self-verification score: 4.0)",
-      "metricName": "verification_score",
+      "id": "631706535d15",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 133",
+      "metricName": "score",
+      "metricValue": 0.9635144681059783,
       "isCurrentBest": false,
-      "createdAt": 1776143736215,
-      "depth": 0
-    },
-    {
-      "id": "7e2f584a9b4f",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.1948",
-      "metricName": "Sharpe",
-      "metricValue": 1.1948,
-      "isCurrentBest": false,
-      "createdAt": 1776143577065,
+      "createdAt": 1776191676583,
       "depth": 4
     },
     {
-      "id": "51800d32f433",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1776143491725,
-      "depth": 3
-    },
-    {
-      "id": "a5e6a362cff4",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1866",
-      "metricName": "Sharpe",
-      "metricValue": 1.1866,
-      "isCurrentBest": false,
-      "createdAt": 1776143438159,
-      "depth": 4
-    },
-    {
-      "id": "84eec129a3cf",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How do quantum gravity effects at the Planck scale affect th\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776142289257,
-      "depth": 0
-    },
-    {
-      "id": "1090220e4f73",
+      "id": "78d5486f5eed",
       "domain": "general",
-      "title": "AutoWeb round 2: 42/100",
+      "title": "AutoWeb round 3: 65/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 42,
+      "metricValue": 65,
       "isCurrentBest": false,
-      "createdAt": 1776141081862,
+      "createdAt": 1776190500575,
       "depth": 0
     },
     {
-      "id": "558679c9c3b5",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1782",
-      "metricName": "Sharpe",
-      "metricValue": 1.1782,
+      "id": "5a9356e6987c",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1776141065686,
+      "createdAt": 1776190492268,
+      "depth": 3
+    },
+    {
+      "id": "d293c7bd45f7",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 121",
+      "metricName": "score",
+      "metricValue": 141.07722671243178,
+      "isCurrentBest": false,
+      "createdAt": 1776190446570,
       "depth": 4
     },
     {
-      "id": "a8e3cc73a60f",
+      "id": "d5c223d38dab",
       "domain": "physics",
-      "title": "Wrote paper: \"The Effects of Exotic Matter on Warp Drive Stability and Gravitational Wave Propagatio",
+      "title": "Wrote paper: \"On warp_drives: Can the Fuchs et al. (2024) constant-velocity subluminal war\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776139859113,
+      "createdAt": 1776189378136,
       "depth": 0
     },
     {
-      "id": "afbc7e61b5cf",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.0852",
-      "metricName": "Sharpe",
-      "metricValue": 1.0852,
+      "id": "91e802464658",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1776135935750,
+      "createdAt": 1776189369524,
+      "depth": 3
+    },
+    {
+      "id": "1fd419d5b006",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1776189248030,
+      "depth": 3
+    },
+    {
+      "id": "7ba61a7392a0",
+      "domain": "general",
+      "title": "AutoWeb round 1: 50/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 50,
+      "isCurrentBest": false,
+      "createdAt": 1776186879256,
+      "depth": 0
+    },
+    {
+      "id": "0e156bbda0e0",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1776186877493,
+      "depth": 3
+    },
+    {
+      "id": "f7269d3bf703",
+      "domain": "physics",
+      "title": "Wrote paper: \"\"Modifications to the Einstein-Hilbert Action and the Stability and Efficiency of Warp",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1776185801125,
+      "depth": 0
+    },
+    {
+      "id": "ce655b6ffd6b",
+      "domain": "physics",
+      "title": "Wrote paper: \"Designing Hyperspace Travel Devices with Casimir Micro-Cavities\" (self-verification sc",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1776184550597,
+      "depth": 0
+    },
+    {
+      "id": "115f3e3205ff",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 14",
+      "metricName": "score",
+      "metricValue": 0.9724430387409967,
+      "isCurrentBest": false,
+      "createdAt": 1776184446458,
       "depth": 4
     },
     {
-      "id": "a6d77c959018",
+      "id": "084fb11e7d28",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 14",
+      "title": "Cause literature-analysis round 3",
       "metricName": "score",
-      "metricValue": 141.1311383899554,
+      "metricValue": 0.9630774683454979,
       "isCurrentBest": false,
-      "createdAt": 1776135887284,
+      "createdAt": 1776184446457,
       "depth": 4
     },
     {
-      "id": "08d7645f2655",
+      "id": "c18e492414c6",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 9",
+      "title": "Cause infra-optimization round 3",
       "metricName": "score",
-      "metricValue": 0.9625325302817983,
+      "metricValue": 140.882312534321,
       "isCurrentBest": false,
-      "createdAt": 1776135887283,
-      "depth": 4
-    },
-    {
-      "id": "fea6e503f147",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 8",
-      "metricName": "score",
-      "metricValue": 141.20743445857752,
-      "isCurrentBest": false,
-      "createdAt": 1776135887282,
-      "depth": 4
-    },
-    {
-      "id": "3515971dcdc5",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 8",
-      "metricName": "score",
-      "metricValue": 0.9619678149730956,
-      "isCurrentBest": false,
-      "createdAt": 1776135887282,
-      "depth": 4
-    },
-    {
-      "id": "257eae5d95f5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 7",
-      "metricName": "score",
-      "metricValue": 143.05860309804007,
-      "isCurrentBest": false,
-      "createdAt": 1776135887281,
-      "depth": 4
-    },
-    {
-      "id": "ddd72b6f81cf",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5",
-      "metricName": "score",
-      "metricValue": 143.08176795036226,
-      "isCurrentBest": false,
-      "createdAt": 1776135887280,
+      "createdAt": 1776184446456,
       "depth": 4
     }
   ],
@@ -287,6 +287,12 @@
       }
     ],
     "finance": [
+      {
+        "id": "231c6dcb1108",
+        "title": "Finance round 12: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 4
+      },
       {
         "id": "8da19e2f9eea",
         "title": "Finance round 11: Sharpe=1.3137",
