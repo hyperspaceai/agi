@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-14T13:39:49.342Z",
+  "timestamp": "2026-04-14T14:39:51.177Z",
   "peerId": "12D3KooWGDNiz1siXZ55LcUCVDVjzUu6rBu46pKhajCc8g36YDed",
   "stats": {
-    "totalNodes": 3266,
+    "totalNodes": 3267,
     "observations": 0,
-    "experiments": 3266,
+    "experiments": 3267,
     "syntheses": 0,
-    "totalEdges": 3262,
+    "totalEdges": 3263,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1615,
+    "infrastructure": 1616,
     "skills": 897,
     "finance": 610,
     "search-ranking": 144
   },
   "recentExperiments": [
+    {
+      "id": "bb5eabc17ea5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 556",
+      "metricName": "score",
+      "metricValue": 0.9422810198050094,
+      "isCurrentBest": false,
+      "createdAt": 1776176661013,
+      "depth": 10
+    },
     {
       "id": "dca031806fa4",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776136664701,
       "depth": 9
-    },
-    {
-      "id": "91a09be4a5b3",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1776136574719,
-      "depth": 2
     }
   ],
   "frontier": [],
