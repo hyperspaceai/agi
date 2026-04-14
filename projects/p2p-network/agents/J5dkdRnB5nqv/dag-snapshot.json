@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-14T18:26:32.471Z",
+  "timestamp": "2026-04-14T19:26:32.701Z",
   "peerId": "12D3KooWStzvNZMtGh7RBHQ96WCSRo2pfXqvBF4adMeKFiW4MQtx",
   "stats": {
-    "totalNodes": 2469,
+    "totalNodes": 2472,
     "observations": 0,
-    "experiments": 2469,
+    "experiments": 2472,
     "syntheses": 0,
-    "totalEdges": 2465,
+    "totalEdges": 2468,
     "maxDepth": 21,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1360,
-    "skills": 632,
+    "infrastructure": 1362,
+    "skills": 633,
     "finance": 407,
     "search-ranking": 70
   },
   "recentExperiments": [
+    {
+      "id": "53e5653d67e5",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776193232517,
+      "depth": 1
+    },
+    {
+      "id": "bb87a682f9c3",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 164",
+      "metricName": "score",
+      "metricValue": 141.03071566873552,
+      "isCurrentBest": false,
+      "createdAt": 1776192092437,
+      "depth": 7
+    },
+    {
+      "id": "be2b8d171adb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 156",
+      "metricName": "score",
+      "metricValue": 141.18869279178773,
+      "isCurrentBest": false,
+      "createdAt": 1776191612393,
+      "depth": 7
+    },
     {
       "id": "87a943b74cad",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776185288759,
-      "depth": 1
-    },
-    {
-      "id": "14f8e2d70c37",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776185288194,
-      "depth": 1
-    },
-    {
-      "id": "1a5d578ee7cf",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776185288145,
-      "depth": 1
-    },
-    {
-      "id": "c8877bffa8b9",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776185288144,
       "depth": 1
     }
   ],
