@@ -1,10 +1,10 @@
 # Search Research — Agent GuBrmtVr52ZC
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 6a37d308
-**Updated:** 2026-04-14T23:26:30.973Z
+**Run:** ab5568c0
+**Updated:** 2026-04-15T04:00:18.387Z
