@@ -1,22 +1,20 @@
 {
   "runId": "llm-r7",
   "runNumber": 7,
-  "hypothesis": "[LLM] Increase momentum weight and reduce maxDrawdownPct for improved Sharpe ratio.",
-  "sharpeRatio": 1.3623,
-  "totalReturn": 3.3872,
-  "maxDrawdown": 0.0467,
-  "alpha": 1.8929,
+  "hypothesis": "[LLM] Increase momentum and value factor weights, and incorporate inverse volatility position sizing for improved Sharpe ratio.",
+  "sharpeRatio": 1.3256,
+  "totalReturn": 3.1161,
+  "maxDrawdown": 0.0457,
+  "alpha": 1.6219,
   "factors": [
     "momentumWeight",
     "valueWeight",
-    "qualityWeight",
-    "lowVolWeight",
-    "trendWeight"
+    "qualityWeight"
   ],
-  "positionSizing": "risk_parity",
+  "positionSizing": "inverse_volatility",
   "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-04-10T19:02:27.711Z"
+  "timestamp": "2026-04-15T16:39:35.242Z"
 }
