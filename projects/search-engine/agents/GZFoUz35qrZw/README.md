@@ -1,10 +1,10 @@
 # Search Research — Agent GZFoUz35qrZw
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 936300d8
-**Updated:** 2026-04-13T02:19:49.433Z
+**Run:** 152d7878
+**Updated:** 2026-04-15T21:08:14.680Z
