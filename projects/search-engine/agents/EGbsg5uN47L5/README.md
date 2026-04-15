@@ -1,10 +1,10 @@
 # Search Research — Agent EGbsg5uN47L5
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d068d740
-**Updated:** 2026-04-14T23:35:49.522Z
+**Run:** 1843004e
+**Updated:** 2026-04-15T08:40:33.954Z
