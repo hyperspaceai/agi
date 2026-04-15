@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T21:51:44.655Z",
+  "timestamp": "2026-04-15T22:51:44.692Z",
   "peerId": "12D3KooWFKwCq2bNR7HKhj1sV3jXX4LVftRooigv2nk9GithMUVr",
   "stats": {
-    "totalNodes": 4100,
+    "totalNodes": 4101,
     "observations": 0,
-    "experiments": 4100,
+    "experiments": 4101,
     "syntheses": 0,
-    "totalEdges": 4096,
+    "totalEdges": 4097,
     "maxDepth": 20,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 2123,
-    "skills": 1061,
+    "skills": 1062,
     "finance": 706,
     "search-ranking": 210
   },
   "recentExperiments": [
+    {
+      "id": "f1be2cbf7f2c",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776291584417,
+      "depth": 3
+    },
     {
       "id": "584381a1ab78",
       "domain": "skills",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776283708036,
-      "depth": 1
-    },
-    {
-      "id": "79c7e664907f",
-      "domain": "search-ranking",
-      "title": "Search round 31: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776283707451,
       "depth": 1
     }
   ],
