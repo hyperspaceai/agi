@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T17:04:07.033Z",
+  "timestamp": "2026-04-15T18:03:32.733Z",
   "peerId": "12D3KooWNuhQHz3A2Ky5RWspHuWxaqUDdaDyVZj8Ve5zC14FZU6n",
   "stats": {
-    "totalNodes": 4271,
-    "observations": 3420,
-    "experiments": 851,
+    "totalNodes": 4332,
+    "observations": 3454,
+    "experiments": 878,
     "syntheses": 0,
-    "totalEdges": 847,
+    "totalEdges": 874,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 17
+    "recentActivity": 61
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,21 +47,121 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 277,
-    "skills": 359,
-    "finance": 145,
-    "knowledge": 3420,
+    "infrastructure": 287,
+    "skills": 369,
+    "finance": 152,
+    "knowledge": 3454,
     "search-ranking": 70
   },
   "recentExperiments": [
     {
-      "id": "eb6f8613fe79",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 663",
-      "metricName": "score",
-      "metricValue": 0.9317644959792316,
+      "id": "8905b50d1e8b",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
       "isCurrentBest": false,
-      "createdAt": 1776268426492,
+      "createdAt": 1776276211515,
+      "depth": 4
+    },
+    {
+      "id": "64065a5dffd7",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1776276089232,
+      "depth": 4
+    },
+    {
+      "id": "54c3245a07c8",
+      "domain": "finance",
+      "title": "Finance round 10: Sharpe=1.2366",
+      "metricName": "Sharpe",
+      "metricValue": 1.2366,
+      "isCurrentBest": false,
+      "createdAt": 1776275804840,
+      "depth": 7
+    },
+    {
+      "id": "95158b21d0ee",
+      "domain": "finance",
+      "title": "Finance round 9: Sharpe=1.2267",
+      "metricName": "Sharpe",
+      "metricValue": 1.2267,
+      "isCurrentBest": false,
+      "createdAt": 1776275650073,
+      "depth": 7
+    },
+    {
+      "id": "b88ce3e52043",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 20",
+      "metricName": "score",
+      "metricValue": 141.13565426562357,
+      "isCurrentBest": false,
+      "createdAt": 1776275432855,
+      "depth": 8
+    },
+    {
+      "id": "f18a4565822b",
+      "domain": "finance",
+      "title": "Finance round 7: Sharpe=1.2194",
+      "metricName": "Sharpe",
+      "metricValue": 1.2194,
+      "isCurrentBest": false,
+      "createdAt": 1776275252594,
+      "depth": 7
+    },
+    {
+      "id": "7bee9ba4425e",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1776275162560,
+      "depth": 4
+    },
+    {
+      "id": "305ec8e938f4",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.2113",
+      "metricName": "Sharpe",
+      "metricValue": 1.2113,
+      "isCurrentBest": false,
+      "createdAt": 1776275102544,
+      "depth": 7
+    },
+    {
+      "id": "e4c097511b1d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 14",
+      "metricName": "score",
+      "metricValue": 141.3959868129656,
+      "isCurrentBest": false,
+      "createdAt": 1776275072534,
+      "depth": 8
+    },
+    {
+      "id": "8b5f94ccac8e",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1776275042668,
+      "depth": 4
+    },
+    {
+      "id": "28292a6e729f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 12",
+      "metricName": "score",
+      "metricValue": 0.9692157144906465,
+      "isCurrentBest": false,
+      "createdAt": 1776274952472,
       "depth": 8
     }
   ],
