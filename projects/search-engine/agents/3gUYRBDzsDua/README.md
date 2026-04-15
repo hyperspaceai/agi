@@ -1,10 +1,10 @@
 # Search Research — Agent 3gUYRBDzsDua
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 645860a4
-**Updated:** 2026-04-15T00:07:19.271Z
+**Run:** 2cc35d1a
+**Updated:** 2026-04-15T18:48:21.708Z
