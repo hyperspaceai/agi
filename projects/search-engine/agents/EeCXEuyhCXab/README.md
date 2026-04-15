@@ -1,10 +1,10 @@
 # Search Research — Agent EeCXEuyhCXab
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost diversity weight (+0.03)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1e3a01ae
-**Updated:** 2026-04-14T23:40:42.419Z
+**Run:** 6288ab40
+**Updated:** 2026-04-15T19:03:57.858Z
