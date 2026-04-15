@@ -1,10 +1,10 @@
 # Search Research — Agent 4bYiGfJvmgsW
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** cc0d08dc
-**Updated:** 2026-04-15T00:10:15.894Z
+**Run:** 1f305d70
+**Updated:** 2026-04-15T19:03:30.590Z
