@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CHg386frhifm
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1998
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1999
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 67
+**Description:** Extract Entities from Text: 0% correct, round 144
 
-_Updated: 2026-04-15T02:41:44.511Z_
+_Updated: 2026-04-15T06:32:10.959Z_
