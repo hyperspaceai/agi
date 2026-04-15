@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T09:51:02.519Z",
+  "timestamp": "2026-04-15T10:51:02.843Z",
   "peerId": "12D3KooWRiMEWwPaGovy9Lpkxcy8fcH39FgBvzbUV1RVxNqRWy19",
   "stats": {
-    "totalNodes": 2999,
+    "totalNodes": 3001,
     "observations": 2179,
-    "experiments": 820,
+    "experiments": 822,
     "syntheses": 0,
-    "totalEdges": 816,
+    "totalEdges": 818,
     "maxDepth": 15,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,13 +47,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 511,
+    "infrastructure": 513,
     "skills": 175,
     "finance": 92,
     "search-ranking": 42,
     "knowledge": 2179
   },
   "recentExperiments": [
+    {
+      "id": "8fcc1d33f275",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 486",
+      "metricName": "score",
+      "metricValue": 141.12719668602938,
+      "isCurrentBest": false,
+      "createdAt": 1776248882349,
+      "depth": 15
+    },
+    {
+      "id": "000b7a7d73fe",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 459",
+      "metricName": "score",
+      "metricValue": 141.1713911479069,
+      "isCurrentBest": false,
+      "createdAt": 1776247262321,
+      "depth": 15
+    },
     {
       "id": "f5d05e472d66",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "metricValue": 1.1991,
       "isCurrentBest": false,
       "createdAt": 1776220261472,
-      "depth": 7
-    },
-    {
-      "id": "a4b2ff2f33a4",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776220141455,
-      "depth": 4
-    },
-    {
-      "id": "ade403ee7d5c",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.0910",
-      "metricName": "Sharpe",
-      "metricValue": 1.091,
-      "isCurrentBest": false,
-      "createdAt": 1776220111572,
       "depth": 7
     }
   ],
