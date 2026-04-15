@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HZiaTjNm4nKq
 
-**Latest Skill:** Extract Entities from Text (LLM 2 iter) v1
-**Score:** 0.1996
+**Latest Skill:** Compute Text Statistics (LLM 2 iter) v1
+**Score:** 0.1993
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct [0.20]
+**Description:** Compute Text Statistics: 0% correct [0.20]
 
-_Updated: 2026-04-15T00:34:47.870Z_
+_Updated: 2026-04-15T03:51:59.861Z_
