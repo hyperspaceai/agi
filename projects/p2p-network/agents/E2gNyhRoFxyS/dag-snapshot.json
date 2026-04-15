@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T16:50:25.778Z",
+  "timestamp": "2026-04-15T17:52:21.513Z",
   "peerId": "12D3KooWNr3Yiq1WSsEvq4kEHYtRMv5ABFRn5P6niVSDoQW3bng5",
   "stats": {
-    "totalNodes": 1647,
+    "totalNodes": 1657,
     "observations": 0,
-    "experiments": 1647,
+    "experiments": 1657,
     "syntheses": 0,
-    "totalEdges": 1644,
+    "totalEdges": 1654,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 10
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,111 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 832,
-    "finance": 605,
+    "infrastructure": 837,
+    "finance": 610,
     "search-ranking": 210
   },
   "recentExperiments": [
+    {
+      "id": "d4a1a53158af",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 25",
+      "metricName": "score",
+      "metricValue": 141.06464953923685,
+      "isCurrentBest": false,
+      "createdAt": 1776275301376,
+      "depth": 3
+    },
+    {
+      "id": "fe194916517d",
+      "domain": "finance",
+      "title": "Finance round 9: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "isCurrentBest": false,
+      "createdAt": 1776275091381,
+      "depth": 10
+    },
+    {
+      "id": "ff999dfb6a25",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.2960",
+      "metricName": "Sharpe",
+      "metricValue": 1.296,
+      "isCurrentBest": false,
+      "createdAt": 1776274641377,
+      "depth": 10
+    },
+    {
+      "id": "5552ce3921a5",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.1305",
+      "metricName": "Sharpe",
+      "metricValue": 1.1305,
+      "isCurrentBest": false,
+      "createdAt": 1776274491372,
+      "depth": 10
+    },
+    {
+      "id": "7eb38d4845cc",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 10",
+      "metricName": "score",
+      "metricValue": 141.51326440583068,
+      "isCurrentBest": false,
+      "createdAt": 1776274401364,
+      "depth": 3
+    },
+    {
+      "id": "5ad8de323f21",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.1088",
+      "metricName": "Sharpe",
+      "metricValue": 1.1088,
+      "isCurrentBest": false,
+      "createdAt": 1776274341244,
+      "depth": 10
+    },
+    {
+      "id": "588c5c6e35c7",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2",
+      "metricName": "score",
+      "metricValue": 141.56741421210685,
+      "isCurrentBest": false,
+      "createdAt": 1776273921221,
+      "depth": 3
+    },
+    {
+      "id": "9b18c1d1629c",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.0882",
+      "metricName": "Sharpe",
+      "metricValue": 1.0882,
+      "isCurrentBest": false,
+      "createdAt": 1776273891231,
+      "depth": 10
+    },
+    {
+      "id": "d64ce21695a4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 143.35553311533087,
+      "isCurrentBest": false,
+      "createdAt": 1776273861222,
+      "depth": 3
+    },
+    {
+      "id": "0bcac3254169",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 885",
+      "metricName": "score",
+      "metricValue": 145.15149394317723,
+      "isCurrentBest": false,
+      "createdAt": 1776272785648,
+      "depth": 3
+    },
     {
       "id": "b72080f67b6d",
       "domain": "infrastructure",
@@ -143,106 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1776225384612,
       "depth": 3
-    },
-    {
-      "id": "80b666e7a41a",
-      "domain": "finance",
-      "title": "Finance round 30: Sharpe=1.2946",
-      "metricName": "Sharpe",
-      "metricValue": 1.2946,
-      "isCurrentBest": false,
-      "createdAt": 1776224124391,
-      "depth": 10
-    },
-    {
-      "id": "1b925c90fa41",
-      "domain": "search-ranking",
-      "title": "Search round 46: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776223806053,
-      "depth": 1
-    },
-    {
-      "id": "ce5305dbc7b1",
-      "domain": "search-ranking",
-      "title": "Search round 46: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776223805897,
-      "depth": 1
-    },
-    {
-      "id": "a2070234c130",
-      "domain": "search-ranking",
-      "title": "Search round 46: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776223805562,
-      "depth": 1
-    },
-    {
-      "id": "d7813afea0c7",
-      "domain": "search-ranking",
-      "title": "Search round 46: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776223805205,
-      "depth": 1
-    },
-    {
-      "id": "590e66e1cfbc",
-      "domain": "search-ranking",
-      "title": "Search round 46: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776223805032,
-      "depth": 1
-    },
-    {
-      "id": "dd62bfdf67f5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 65",
-      "metricName": "score",
-      "metricValue": 141.20660910857154,
-      "isCurrentBest": false,
-      "createdAt": 1776223584357,
-      "depth": 3
-    },
-    {
-      "id": "35b1539e83a0",
-      "domain": "finance",
-      "title": "Finance round 26: Sharpe=1.2890",
-      "metricName": "Sharpe",
-      "metricValue": 1.289,
-      "isCurrentBest": false,
-      "createdAt": 1776223524359,
-      "depth": 10
-    },
-    {
-      "id": "42463007edd8",
-      "domain": "search-ranking",
-      "title": "Search round 42: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776223446694,
-      "depth": 1
-    },
-    {
-      "id": "95adafe2a778",
-      "domain": "search-ranking",
-      "title": "Search round 42: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776223446119,
-      "depth": 1
     }
   ],
   "frontier": [],
