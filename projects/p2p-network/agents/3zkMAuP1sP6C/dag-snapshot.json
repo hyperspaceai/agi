@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T21:49:07.094Z",
+  "timestamp": "2026-04-15T22:49:07.178Z",
   "peerId": "12D3KooWCp7Wv2xj4HMgUyMNvYbbyFiRSJPxA9vsZKZkwupdo26e",
   "stats": {
-    "totalNodes": 3691,
+    "totalNodes": 3693,
     "observations": 0,
-    "experiments": 3691,
+    "experiments": 3693,
     "syntheses": 0,
-    "totalEdges": 3687,
+    "totalEdges": 3689,
     "maxDepth": 15,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1985,
-    "skills": 916,
+    "infrastructure": 1986,
+    "skills": 917,
     "finance": 678,
     "search-ranking": 112
   },
   "recentExperiments": [
+    {
+      "id": "c3c62cc54572",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 194",
+      "metricName": "score",
+      "metricValue": 141.1154594809914,
+      "isCurrentBest": false,
+      "createdAt": 1776292446979,
+      "depth": 6
+    },
+    {
+      "id": "788abd7a791e",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776291426977,
+      "depth": 2
+    },
     {
       "id": "25cdb70958d0",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776281706701,
       "depth": 6
-    },
-    {
-      "id": "77b53fd51381",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 15",
-      "metricName": "score",
-      "metricValue": 141.33486204168483,
-      "isCurrentBest": false,
-      "createdAt": 1776281706698,
-      "depth": 6
-    },
-    {
-      "id": "416506a9873f",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2267",
-      "metricName": "Sharpe",
-      "metricValue": 1.2267,
-      "isCurrentBest": false,
-      "createdAt": 1776281646704,
-      "depth": 15
     }
   ],
   "frontier": [],
