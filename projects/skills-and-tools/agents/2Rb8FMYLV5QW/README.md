@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2Rb8FMYLV5QW
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Latest Skill:** Normalize Text (seed/mutation) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 38
+**Description:** Normalize Text: 0% correct, round 21
 
-_Updated: 2026-04-14T23:18:09.557Z_
+_Updated: 2026-04-15T00:10:04.765Z_
