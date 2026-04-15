@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T07:49:11.173Z",
+  "timestamp": "2026-04-15T08:49:11.409Z",
   "peerId": "12D3KooWJxEvEiHDYij8vN5r2HDg2pvxMn5WQ9k6zf7xUsaUefKR",
   "stats": {
-    "totalNodes": 1320,
+    "totalNodes": 1321,
     "observations": 0,
-    "experiments": 1320,
+    "experiments": 1321,
     "syntheses": 0,
-    "totalEdges": 1316,
+    "totalEdges": 1317,
     "maxDepth": 11,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 737,
-    "skills": 302,
+    "skills": 303,
     "finance": 183,
     "search-ranking": 98
   },
   "recentExperiments": [
+    {
+      "id": "93bb8df687b8",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776239831142,
+      "depth": 1
+    },
     {
       "id": "31db91440c97",
       "domain": "skills",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776223008380,
-      "depth": 2
-    },
-    {
-      "id": "fed5ff01f062",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776223008345,
       "depth": 2
     }
   ],
