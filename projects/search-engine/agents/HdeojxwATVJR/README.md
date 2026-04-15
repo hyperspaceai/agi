@@ -1,10 +1,10 @@
 # Search Research — Agent HdeojxwATVJR
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** disable intent classification
+**Best NDCG@10:** 0.4000
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 35667b64
-**Updated:** 2026-04-15T04:11:57.850Z
+**Run:** c72156dc
+**Updated:** 2026-04-15T21:07:51.226Z
