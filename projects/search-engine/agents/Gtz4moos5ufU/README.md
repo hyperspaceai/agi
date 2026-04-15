@@ -1,10 +1,10 @@
 # Search Research — Agent Gtz4moos5ufU
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 86da6c18
-**Updated:** 2026-04-14T23:38:14.009Z
+**Run:** 37df0ce8
+**Updated:** 2026-04-15T21:09:11.031Z
