@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T21:17:36.836Z",
+  "timestamp": "2026-04-15T22:29:08.218Z",
   "peerId": "12D3KooWNuhQHz3A2Ky5RWspHuWxaqUDdaDyVZj8Ve5zC14FZU6n",
   "stats": {
-    "totalNodes": 4460,
-    "observations": 3537,
-    "experiments": 923,
+    "totalNodes": 4497,
+    "observations": 3570,
+    "experiments": 927,
     "syntheses": 0,
-    "totalEdges": 919,
+    "totalEdges": 923,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 28
+    "recentActivity": 30
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,62 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 296,
-    "skills": 392,
+    "infrastructure": 299,
+    "skills": 393,
     "finance": 165,
-    "knowledge": 3537,
+    "knowledge": 3570,
     "search-ranking": 70
   },
   "recentExperiments": [
     {
-      "id": "b84da87bbd39",
+      "id": "076f412794d8",
       "domain": "skills",
       "title": "Skill Structured JSON Diff (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1992,
       "isCurrentBest": false,
-      "createdAt": 1776287600150,
+      "createdAt": 1776291641715,
       "depth": 4
     },
     {
-      "id": "f428eef354f0",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
+      "id": "77d55bb73dff",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 147",
+      "metricName": "score",
+      "metricValue": 141.10795821740797,
       "isCurrentBest": false,
-      "createdAt": 1776286904893,
-      "depth": 4
-    },
-    {
-      "id": "01833f27656c",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1776286456969,
-      "depth": 4
-    },
-    {
-      "id": "36f6d601da99",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1776286174934,
-      "depth": 4
-    },
-    {
-      "id": "683a4c269b1c",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1776285809275,
-      "depth": 4
+      "createdAt": 1776291064311,
+      "depth": 8
     }
   ],
   "frontier": [],
