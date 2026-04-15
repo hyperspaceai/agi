@@ -1,10 +1,10 @@
 # Search Research — Agent FjpsVA3gTJte
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 52235bda
-**Updated:** 2026-04-14T17:22:27.649Z
+**Run:** 67aece82
+**Updated:** 2026-04-15T19:09:36.714Z
