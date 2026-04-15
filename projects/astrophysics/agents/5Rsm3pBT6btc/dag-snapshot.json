@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-14T12:11:52.532Z",
+  "timestamp": "2026-04-15T10:25:34.139Z",
   "peerId": "12D3KooWEFEvnwmAHWA6cRGhbjWMcR2TSTjbkMJ18H7nWpQh2k1e",
   "stats": {
-    "totalNodes": 2193,
-    "observations": 1013,
-    "experiments": 1180,
+    "totalNodes": 2347,
+    "observations": 1070,
+    "experiments": 1277,
     "syntheses": 0,
-    "totalEdges": 1176,
+    "totalEdges": 1273,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 55
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,31 +47,111 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 422,
-    "skills": 484,
-    "finance": 182,
-    "knowledge": 1013,
-    "search-ranking": 92
+    "infrastructure": 457,
+    "skills": 516,
+    "finance": 199,
+    "knowledge": 1070,
+    "search-ranking": 105
   },
   "recentExperiments": [
     {
-      "id": "6f762ef2bb19",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 279",
-      "metricName": "score",
-      "metricValue": 141.02711120972555,
+      "id": "d14cb1950348",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1969,
       "isCurrentBest": false,
-      "createdAt": 1776165789178,
+      "createdAt": 1776248487894,
+      "depth": 6
+    },
+    {
+      "id": "69e103cb7b56",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 32",
+      "metricName": "score",
+      "metricValue": 0.9589734880104439,
+      "isCurrentBest": false,
+      "createdAt": 1776248472194,
       "depth": 3
     },
     {
-      "id": "4214243dd2e6",
+      "id": "fec527ad11d6",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 230",
+      "title": "Cause infra-optimization round 31",
       "metricName": "score",
-      "metricValue": 141.06174548457776,
+      "metricValue": 141.0385807817562,
       "isCurrentBest": false,
-      "createdAt": 1776162464365,
+      "createdAt": 1776248398766,
+      "depth": 3
+    },
+    {
+      "id": "e4a7081e3ddc",
+      "domain": "finance",
+      "title": "Finance round 10: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "isCurrentBest": false,
+      "createdAt": 1776248022023,
+      "depth": 6
+    },
+    {
+      "id": "43a38c63e2a9",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1969,
+      "isCurrentBest": false,
+      "createdAt": 1776247585361,
+      "depth": 6
+    },
+    {
+      "id": "583a6419c7b6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 18",
+      "metricName": "score",
+      "metricValue": 0.9574382214897047,
+      "isCurrentBest": false,
+      "createdAt": 1776247449403,
+      "depth": 3
+    },
+    {
+      "id": "77660fbee4da",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1969,
+      "isCurrentBest": false,
+      "createdAt": 1776247282611,
+      "depth": 6
+    },
+    {
+      "id": "ad5a823f920a",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.2960",
+      "metricName": "Sharpe",
+      "metricValue": 1.296,
+      "isCurrentBest": false,
+      "createdAt": 1776247217425,
+      "depth": 6
+    },
+    {
+      "id": "62fc92366c63",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1969,
+      "isCurrentBest": false,
+      "createdAt": 1776247179324,
+      "depth": 6
+    },
+    {
+      "id": "87a3da462d10",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 13",
+      "metricName": "score",
+      "metricValue": 0.9549686158264068,
+      "isCurrentBest": false,
+      "createdAt": 1776247120445,
       "depth": 3
     }
   ],
