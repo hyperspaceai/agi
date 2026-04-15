@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-14T21:54:25.775Z",
+  "timestamp": "2026-04-15T08:16:05.446Z",
   "peerId": "12D3KooWHTYUtxPxWtRsUCxxBVZQSBntCNm5f2k25GxW7HsAThZc",
   "stats": {
-    "totalNodes": 4802,
-    "observations": 4304,
-    "experiments": 498,
+    "totalNodes": 4915,
+    "observations": 4386,
+    "experiments": 529,
     "syntheses": 0,
-    "totalEdges": 495,
+    "totalEdges": 526,
     "maxDepth": 22,
     "activeExperiments": 0,
-    "recentActivity": 25
+    "recentActivity": 38
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,12 +39,43 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 306,
-    "skills": 114,
-    "finance": 78,
-    "knowledge": 4304
+    "infrastructure": 315,
+    "skills": 131,
+    "finance": 83,
+    "knowledge": 4386
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "407654c0581b",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776240632882,
+      "depth": 3
+    },
+    {
+      "id": "89daaca1285b",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776240190397,
+      "depth": 3
+    },
+    {
+      "id": "0a410919bc54",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1776239415388,
+      "depth": 3
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
