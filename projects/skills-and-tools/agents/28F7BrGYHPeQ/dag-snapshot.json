@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T07:33:20.769Z",
+  "timestamp": "2026-04-15T09:33:21.434Z",
   "peerId": "12D3KooWAwcGvyrFUHuuE2xqDqVUZPjP5Yz698UZ6BE2TJmERy7i",
   "stats": {
-    "totalNodes": 412,
+    "totalNodes": 418,
     "observations": 0,
-    "experiments": 412,
+    "experiments": 418,
     "syntheses": 0,
-    "totalEdges": 408,
+    "totalEdges": 414,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 24
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,72 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 111,
-    "skills": 155,
+    "infrastructure": 114,
+    "skills": 158,
     "finance": 90,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "04e6b5f20e4a",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776243921364,
+      "depth": 3
+    },
+    {
+      "id": "2377a156118d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 179",
+      "metricName": "score",
+      "metricValue": 0.9649666785424484,
+      "isCurrentBest": false,
+      "createdAt": 1776243801174,
+      "depth": 1
+    },
+    {
+      "id": "3538430939a9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 151",
+      "metricName": "score",
+      "metricValue": 141.23818365710503,
+      "isCurrentBest": false,
+      "createdAt": 1776242121095,
+      "depth": 1
+    },
+    {
+      "id": "05bc81843351",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 149",
+      "metricName": "score",
+      "metricValue": 0.9626351088188596,
+      "isCurrentBest": false,
+      "createdAt": 1776242001049,
+      "depth": 1
+    },
+    {
+      "id": "972ad469bf17",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776239000701,
+      "depth": 3
+    },
+    {
+      "id": "eb18917913de",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776238760695,
+      "depth": 3
+    },
     {
       "id": "f2745f2b6b46",
       "domain": "search-ranking",
@@ -192,66 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776236461617,
       "depth": 1
-    },
-    {
-      "id": "8f0a04254019",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776236461156,
-      "depth": 1
-    },
-    {
-      "id": "9e8b78a31dcd",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776236360466,
-      "depth": 3
-    },
-    {
-      "id": "12a17698d890",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776236240464,
-      "depth": 3
-    },
-    {
-      "id": "64ccf2ff7958",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776236000457,
-      "depth": 3
-    },
-    {
-      "id": "8831d609f4d6",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776235880426,
-      "depth": 3
-    },
-    {
-      "id": "e5081d75b52f",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776235760391,
-      "depth": 3
     }
   ],
   "frontier": [],
