@@ -1,10 +1,10 @@
 # Search Research — Agent 3zkMAuP1sP6C
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** relaxed peer timeout (5s)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 39f36a88
-**Updated:** 2026-04-13T20:57:39.762Z
+**Run:** 58cabee8
+**Updated:** 2026-04-15T03:59:30.591Z
