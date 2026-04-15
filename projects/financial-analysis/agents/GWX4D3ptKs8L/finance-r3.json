@@ -2,20 +2,22 @@
   "runId": "finance-r3",
   "runNumber": 3,
   "hypothesis": "Round 3 best mutation",
-  "sharpeRatio": 1.2113,
-  "totalReturn": 2.8436,
-  "maxDrawdown": 0.0763,
-  "alpha": 1.3493,
+  "sharpeRatio": 1.2017,
+  "totalReturn": 2.8072,
+  "maxDrawdown": 0.0606,
+  "alpha": 1.313,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0,
+  "durationSec": 0.001,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-04-11T23:27:34.198Z"
+  "timestamp": "2026-04-15T19:01:16.537Z"
 }
