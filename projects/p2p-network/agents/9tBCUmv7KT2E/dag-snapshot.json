@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T15:55:44.515Z",
+  "timestamp": "2026-04-15T16:55:44.647Z",
   "peerId": "12D3KooWJhYNDuVpWMHjEUjnXcquvR5Lef8Hs8USqNPg367THfPe",
   "stats": {
-    "totalNodes": 3942,
+    "totalNodes": 3945,
     "observations": 0,
-    "experiments": 3942,
+    "experiments": 3945,
     "syntheses": 0,
-    "totalEdges": 3938,
+    "totalEdges": 3941,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2049,
+    "infrastructure": 2052,
     "skills": 943,
     "finance": 755,
     "search-ranking": 195
   },
   "recentExperiments": [
+    {
+      "id": "6d59ccf369d2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 863",
+      "metricName": "score",
+      "metricValue": 145.0566411459938,
+      "isCurrentBest": false,
+      "createdAt": 1776271784429,
+      "depth": 2
+    },
+    {
+      "id": "476d103b8d91",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 854",
+      "metricName": "score",
+      "metricValue": 145.12346960744776,
+      "isCurrentBest": false,
+      "createdAt": 1776271244422,
+      "depth": 2
+    },
+    {
+      "id": "9d0297949432",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 833",
+      "metricName": "score",
+      "metricValue": 0.9265217026132263,
+      "isCurrentBest": false,
+      "createdAt": 1776269984286,
+      "depth": 2
+    },
     {
       "id": "0335d0ac08ed",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776224486823,
-      "depth": 2
-    },
-    {
-      "id": "f95b45fca33d",
-      "domain": "search-ranking",
-      "title": "Search round 50: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776224486557,
-      "depth": 2
-    },
-    {
-      "id": "d2e34cf56b10",
-      "domain": "finance",
-      "title": "Finance round 28: Sharpe=1.2946",
-      "metricName": "Sharpe",
-      "metricValue": 1.2946,
-      "isCurrentBest": false,
-      "createdAt": 1776224143383,
-      "depth": 5
-    },
-    {
-      "id": "d35c82b6e3e5",
-      "domain": "search-ranking",
-      "title": "Search round 46: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776224127103,
       "depth": 2
     }
   ],
