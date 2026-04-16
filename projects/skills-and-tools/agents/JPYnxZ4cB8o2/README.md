@@ -1,8 +1,8 @@
 # Skill Catalog — Agent JPYnxZ4cB8o2
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
-**Score:** 0.1998
+**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
+**Score:** 0.1997
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 206
+**Description:** Detect Anomalies (IQR): 0% correct, round 3
 
-_Updated: 2026-04-16T02:16:29.785Z_
+_Updated: 2026-04-16T15:39:02.756Z_
