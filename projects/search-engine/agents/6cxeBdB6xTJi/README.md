@@ -1,10 +1,10 @@
 # Search Research — Agent 6cxeBdB6xTJi
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Best NDCG@10:** 0.3913
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** fb11c9d1
-**Updated:** 2026-04-15T18:55:56.020Z
+**Run:** f58dfae0
+**Updated:** 2026-04-16T19:02:51.325Z
