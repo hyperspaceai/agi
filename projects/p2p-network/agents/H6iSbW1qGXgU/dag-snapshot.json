@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-16T05:48:58.263Z",
+  "timestamp": "2026-04-16T07:45:53.255Z",
   "peerId": "12D3KooWRv5cLdbYTRwxbcKV6GTrgdFAHbXa8gpuYvRHmPegDcdM",
   "stats": {
-    "totalNodes": 2370,
+    "totalNodes": 2376,
     "observations": 0,
-    "experiments": 2370,
+    "experiments": 2376,
     "syntheses": 0,
-    "totalEdges": 2366,
+    "totalEdges": 2372,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,72 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1248,
-    "skills": 608,
+    "infrastructure": 1251,
+    "skills": 611,
     "finance": 336,
     "search-ranking": 178
   },
   "recentExperiments": [
+    {
+      "id": "d1175cc4d2e9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 803",
+      "metricName": "score",
+      "metricValue": 145.06782068915024,
+      "isCurrentBest": false,
+      "createdAt": 1776325194135,
+      "depth": 6
+    },
+    {
+      "id": "1646ad53fd45",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1776323877222,
+      "depth": 2
+    },
+    {
+      "id": "c96c5b36227e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 771",
+      "metricName": "score",
+      "metricValue": 145.1177543708855,
+      "isCurrentBest": false,
+      "createdAt": 1776323278213,
+      "depth": 6
+    },
+    {
+      "id": "314ce8691226",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 759",
+      "metricName": "score",
+      "metricValue": 0.9160768646033172,
+      "isCurrentBest": false,
+      "createdAt": 1776322559060,
+      "depth": 6
+    },
+    {
+      "id": "46bffdd55e18",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1776322199481,
+      "depth": 2
+    },
+    {
+      "id": "8dd50b99cf11",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1776321839853,
+      "depth": 2
+    },
     {
       "id": "8cdd5feffd80",
       "domain": "infrastructure",
@@ -192,66 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776287334437,
       "depth": 2
-    },
-    {
-      "id": "2115806a2c81",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 103",
-      "metricName": "score",
-      "metricValue": 141.05611936991835,
-      "isCurrentBest": false,
-      "createdAt": 1776286570696,
-      "depth": 6
-    },
-    {
-      "id": "90ee12ab50f6",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 89",
-      "metricName": "score",
-      "metricValue": 141.09863680519993,
-      "isCurrentBest": false,
-      "createdAt": 1776285806989,
-      "depth": 6
-    },
-    {
-      "id": "7ba6cfb83395",
-      "domain": "finance",
-      "title": "Finance round 34: Sharpe=1.2946",
-      "metricName": "Sharpe",
-      "metricValue": 1.2946,
-      "isCurrentBest": false,
-      "createdAt": 1776285534271,
-      "depth": 8
-    },
-    {
-      "id": "90b723f33353",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 69",
-      "metricName": "score",
-      "metricValue": 141.14836139625697,
-      "isCurrentBest": false,
-      "createdAt": 1776284716038,
-      "depth": 6
-    },
-    {
-      "id": "989a6d83e357",
-      "domain": "search-ranking",
-      "title": "Search round 44: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776284540470,
-      "depth": 1
-    },
-    {
-      "id": "54a26b842d35",
-      "domain": "search-ranking",
-      "title": "Search round 44: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776284539311,
-      "depth": 1
     }
   ],
   "frontier": [],
