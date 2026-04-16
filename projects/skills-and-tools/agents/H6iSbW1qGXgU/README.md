@@ -1,8 +1,8 @@
 # Skill Catalog — Agent H6iSbW1qGXgU
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
-**Score:** 0.1992
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.1993
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 102
+**Description:** Parse Key-Value Log: 0% correct, round 374
 
-_Updated: 2026-04-15T22:27:35.140Z_
+_Updated: 2026-04-16T06:44:31.873Z_
