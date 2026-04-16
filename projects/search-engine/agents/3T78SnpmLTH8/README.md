@@ -1,10 +1,10 @@
 # Search Research — Agent 3T78SnpmLTH8
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.3963
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 975b0bb0
-**Updated:** 2026-04-15T19:10:55.373Z
+**Run:** 6fe06a1c
+**Updated:** 2026-04-16T21:08:28.628Z
