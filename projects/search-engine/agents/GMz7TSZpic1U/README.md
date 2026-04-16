@@ -1,10 +1,10 @@
 # Search Research — Agent GMz7TSZpic1U
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8eddc9c8
-**Updated:** 2026-04-15T21:09:28.629Z
+**Run:** 1e243d9d
+**Updated:** 2026-04-16T21:04:32.018Z
