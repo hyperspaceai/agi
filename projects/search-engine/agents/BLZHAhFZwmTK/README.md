@@ -1,10 +1,10 @@
 # Search Research — Agent BLZHAhFZwmTK
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.3963
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ddcc0220
-**Updated:** 2026-04-13T01:33:24.287Z
+**Run:** a74971f4
+**Updated:** 2026-04-16T18:08:10.212Z
