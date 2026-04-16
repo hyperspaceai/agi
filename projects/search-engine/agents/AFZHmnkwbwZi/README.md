@@ -1,10 +1,10 @@
 # Search Research — Agent AFZHmnkwbwZi
 
-**Best NDCG@10:** 0.3913
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** cfcb49c8
-**Updated:** 2026-04-15T21:16:33.436Z
+**Run:** 3c70965a
+**Updated:** 2026-04-16T17:01:03.812Z
