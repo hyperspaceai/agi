@@ -1,10 +1,10 @@
 # Search Research — Agent F3SJ1snWuTwd
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** increase diversity penalty (0.2)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d348fd1e
-**Updated:** 2026-04-15T20:50:58.945Z
+**Run:** 99ca8724
+**Updated:** 2026-04-16T20:58:44.723Z
