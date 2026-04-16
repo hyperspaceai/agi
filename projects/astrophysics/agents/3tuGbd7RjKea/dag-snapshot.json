@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-16T14:22:54.051Z",
+  "timestamp": "2026-04-16T18:44:51.367Z",
   "peerId": "12D3KooWCiGSLkh8vDv4num8YLNpSPaSjFcbvUbrmTQZFJSHVPr2",
   "stats": {
-    "totalNodes": 673,
-    "observations": 582,
-    "experiments": 91,
+    "totalNodes": 782,
+    "observations": 655,
+    "experiments": 127,
     "syntheses": 0,
-    "totalEdges": 87,
-    "maxDepth": 17,
+    "totalEdges": 123,
+    "maxDepth": 19,
     "activeExperiments": 0,
-    "recentActivity": 34
+    "recentActivity": 42
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -30,30 +30,111 @@
       "depth": 2
     },
     "finance": {
-      "nodeId": "26c6767dc60f26ea1e20927b86628451e83b88317bf2682c2bc643d180f492ea",
-      "title": "Finance round 36: Sharpe=1.2946",
+      "nodeId": "dacf74eb91ad6910a83bf2ef3dc9822c69eca1dd6b231b74e287788a65e3e473",
+      "title": "Finance round 7: Sharpe=1.3161",
       "metricName": "Sharpe",
-      "metricValue": 1.2946,
+      "metricValue": 1.3161,
       "metricDirection": "maximize",
-      "depth": 17
+      "depth": 19
     },
     "search-ranking": {
-      "nodeId": "47ef23836cd85e3cf185b32bdab0460264fdc2b5b5dee0ec5db84dd4f631115a",
-      "title": "Search round 38: require 5 unique domains",
+      "nodeId": "ad346cac8a2d77a9aaba1bfcac3d9b5c54da2d88c6da2c5748143f46b9dceea1",
+      "title": "Search round 38: reduce anchor weight (-0.03)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3885620718710802,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "knowledge": 582,
-    "infrastructure": 30,
-    "skills": 29,
-    "finance": 18,
-    "search-ranking": 14
+    "knowledge": 655,
+    "infrastructure": 36,
+    "skills": 38,
+    "finance": 25,
+    "search-ranking": 28
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "939670a2cf62",
+      "domain": "search-ranking",
+      "title": "Search round 47: reduce anchor weight (-0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776363931883,
+      "depth": 2
+    },
+    {
+      "id": "dd0ed2b509d8",
+      "domain": "search-ranking",
+      "title": "Search round 47: reduce anchor weight (-0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776363931482,
+      "depth": 2
+    },
+    {
+      "id": "b56d110adc93",
+      "domain": "search-ranking",
+      "title": "Search round 42: reduce anchor weight (-0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776363512217,
+      "depth": 2
+    },
+    {
+      "id": "66bd6b6eb009",
+      "domain": "search-ranking",
+      "title": "Search round 42: reduce anchor weight (-0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776363512078,
+      "depth": 2
+    },
+    {
+      "id": "b66e71059138",
+      "domain": "search-ranking",
+      "title": "Search round 42: reduce anchor weight (-0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776363511705,
+      "depth": 2
+    },
+    {
+      "id": "68c623717802",
+      "domain": "search-ranking",
+      "title": "Search round 42: reduce anchor weight (-0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776363511546,
+      "depth": 2
+    },
+    {
+      "id": "8eacc74006ee",
+      "domain": "search-ranking",
+      "title": "Search round 42: reduce anchor weight (-0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776363511143,
+      "depth": 2
+    },
+    {
+      "id": "4a84b04763cf",
+      "domain": "search-ranking",
+      "title": "Search round 42: reduce anchor weight (-0.03)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1776363511003,
+      "depth": 2
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
@@ -85,6 +166,18 @@
       }
     ],
     "finance": [
+      {
+        "id": "dacf74eb91ad",
+        "title": "Finance round 7: Sharpe=1.3161",
+        "metricValue": 1.3161,
+        "depth": 19
+      },
+      {
+        "id": "e2c321c14dc2",
+        "title": "Finance round 6: Sharpe=1.3064",
+        "metricValue": 1.3064,
+        "depth": 18
+      },
       {
         "id": "26c6767dc60f",
         "title": "Finance round 36: Sharpe=1.2946",
@@ -132,21 +225,15 @@
         "title": "Finance round 20: Sharpe=1.2570",
         "metricValue": 1.257,
         "depth": 10
-      },
-      {
-        "id": "6ded1aee3fbf",
-        "title": "Finance round 16: Sharpe=1.2487",
-        "metricValue": 1.2487,
-        "depth": 9
-      },
-      {
-        "id": "c6e070e25e32",
-        "title": "Finance round 14: Sharpe=1.2430",
-        "metricValue": 1.243,
-        "depth": 8
       }
     ],
     "search-ranking": [
+      {
+        "id": "ad346cac8a2d",
+        "title": "Search round 38: reduce anchor weight (-0.03)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
       {
         "id": "47ef23836cd8",
         "title": "Search round 38: require 5 unique domains",
