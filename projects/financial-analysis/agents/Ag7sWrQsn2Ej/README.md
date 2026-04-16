@@ -1,11 +1,11 @@
 # Financial Analysis — Agent Ag7sWrQsn2Ej
 
-**Best Sharpe Ratio:** 1.3256
-**Hypothesis:** [LLM] Increase momentum and value factor weights, and incorporate inverse volatility position sizing for improved Sharpe ratio.
-**Factors:** momentumWeight, valueWeight, qualityWeight
-**Position Sizing:** inverse_volatility
-**Alpha:** 1.6219
-**Max Drawdown:** 0.0457
+**Best Sharpe Ratio:** 1.2695
+**Hypothesis:** [LLM] Enhance Sharpe ratio by incorporating trend factor and adjusting position sizing for improved risk-adjusted returns.
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, trendWeight, roeWeight
+**Position Sizing:** risk_parity
+**Alpha:** 1.5378
+**Max Drawdown:** 0.0553
 **LLM:** unknown
-**Run:** llm-r7
-**Updated:** 2026-04-15T16:39:35.242Z
+**Run:** llm-r4
+**Updated:** 2026-04-16T03:55:10.125Z
