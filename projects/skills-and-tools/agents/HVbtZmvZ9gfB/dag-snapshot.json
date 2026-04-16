@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-16T16:58:17.978Z",
+  "timestamp": "2026-04-16T18:02:53.079Z",
   "peerId": "12D3KooWSJy4JuWGLavfo22Hb7jZgNYWyeCd25JewezhQTDh3cct",
   "stats": {
-    "totalNodes": 1305,
+    "totalNodes": 1307,
     "observations": 0,
-    "experiments": 1305,
+    "experiments": 1307,
     "syntheses": 0,
-    "totalEdges": 1301,
+    "totalEdges": 1303,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 20
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 421,
-    "skills": 497,
+    "skills": 499,
     "finance": 284,
     "search-ranking": 103
   },
   "recentExperiments": [
+    {
+      "id": "856c18e02e54",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776359987640,
+      "depth": 2
+    },
+    {
+      "id": "dd0b35c5f1df",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776359859834,
+      "depth": 2
+    },
     {
       "id": "ef789f45cb87",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776356619680,
       "depth": 2
-    },
-    {
-      "id": "dd81b4af6764",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776355496405,
-      "depth": 2
-    },
-    {
-      "id": "e5c603c0bd76",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 38",
-      "metricName": "score",
-      "metricValue": 141.1962973188798,
-      "isCurrentBest": false,
-      "createdAt": 1776355402610,
-      "depth": 6
     }
   ],
   "frontier": [],
