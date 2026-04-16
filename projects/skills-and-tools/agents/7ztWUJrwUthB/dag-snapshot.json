@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-16T21:41:08.026Z",
+  "timestamp": "2026-04-16T22:44:42.696Z",
   "peerId": "12D3KooWGpFgDSSefnxgPmeDB6rE2WCngFmVemgLzFoiqPxrnhfE",
   "stats": {
-    "totalNodes": 911,
+    "totalNodes": 913,
     "observations": 0,
-    "experiments": 911,
+    "experiments": 913,
     "syntheses": 0,
-    "totalEdges": 907,
+    "totalEdges": 909,
     "maxDepth": 22,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 260,
-    "skills": 316,
+    "skills": 318,
     "finance": 203,
     "search-ranking": 132
   },
   "recentExperiments": [
+    {
+      "id": "524d7a5bf6c4",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776379242301,
+      "depth": 1
+    },
+    {
+      "id": "ab99c269e449",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776378878651,
+      "depth": 1
+    },
     {
       "id": "3accb2384c2a",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776370366707,
       "depth": 1
-    },
-    {
-      "id": "aa50d72e9041",
-      "domain": "finance",
-      "title": "Finance round 25: Sharpe=1.2880",
-      "metricName": "Sharpe",
-      "metricValue": 1.288,
-      "isCurrentBest": false,
-      "createdAt": 1776370276553,
-      "depth": 22
-    },
-    {
-      "id": "4064985761b9",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1776370035382,
-      "depth": 2
     }
   ],
   "frontier": [],
