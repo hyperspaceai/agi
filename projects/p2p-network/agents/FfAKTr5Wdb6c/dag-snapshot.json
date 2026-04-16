@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-16T15:46:46.785Z",
+  "timestamp": "2026-04-16T16:46:52.447Z",
   "peerId": "12D3KooWQUXVCyfDpVN78XuRX8KWK1nhQPd8SuQ2mhPaCFciqcph",
   "stats": {
-    "totalNodes": 191,
+    "totalNodes": 193,
     "observations": 0,
-    "experiments": 191,
+    "experiments": 193,
     "syntheses": 0,
-    "totalEdges": 187,
+    "totalEdges": 189,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 23
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 93,
-    "skills": 56,
-    "finance": 28,
+    "skills": 57,
+    "finance": 29,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "1d8287ae2762",
+      "domain": "finance",
+      "title": "Finance round 13: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "isCurrentBest": false,
+      "createdAt": 1776354557919,
+      "depth": 6
+    },
+    {
+      "id": "969c40c0614f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776354527921,
+      "depth": 2
+    },
     {
       "id": "df61ccca82bf",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776352786531,
       "depth": 4
-    },
-    {
-      "id": "f86bcb3f7585",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.1025",
-      "metricName": "Sharpe",
-      "metricValue": 1.1025,
-      "isCurrentBest": false,
-      "createdAt": 1776352756531,
-      "depth": 6
-    },
-    {
-      "id": "cb63d9f6cd4d",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776352726539,
-      "depth": 2
     }
   ],
   "frontier": [],
