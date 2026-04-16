@@ -1,10 +1,10 @@
 # Search Research — Agent GXSAeF9s5MTe
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f3e4d378
-**Updated:** 2026-04-15T04:19:15.353Z
+**Run:** 75f60df0
+**Updated:** 2026-04-16T21:00:15.380Z
