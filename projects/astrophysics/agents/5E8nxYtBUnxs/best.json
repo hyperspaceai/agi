@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWE3VxhgTtfhEMjZj85RVhrSUgWCK1E1UTscd9FZ8iszML",
-  "runNumber": 1,
-  "timestamp": 1776337917363,
-  "hypothesis": "Explore: lower LR (3e-4)",
+  "runNumber": 3,
+  "timestamp": 1776340722951,
+  "hypothesis": "Improve on 5973b69c (loss=4.4355): Kaiming initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -30,25 +30,25 @@
     "gradientClipNorm": 1,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "normal",
+    "initType": "kaiming",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.435454207783208,
-    "trainLoss": 4.458544116737177,
+    "valLoss": 4.186413853727462,
+    "trainLoss": 4.248269493898152,
     "lossCurve": [
       [
-        38,
-        4.435454207783208
+        41,
+        4.186413853727462
       ]
     ],
-    "durationSec": 142.771,
-    "tokensPerSec": 545.0966933060636,
-    "totalTokens": 77824
+    "durationSec": 140.878,
+    "tokensPerSec": 596.0334473800026,
+    "totalTokens": 83968
   },
-  "improvement": 0,
+  "improvement": -5.614765532213984,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
