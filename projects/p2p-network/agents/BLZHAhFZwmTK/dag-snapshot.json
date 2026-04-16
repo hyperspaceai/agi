@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T23:50:03.670Z",
+  "timestamp": "2026-04-16T00:50:03.903Z",
   "peerId": "12D3KooWL9vSupqH8fioiJrfGXmi3BQccg2UDoE5DrWvzjr2oCeS",
   "stats": {
-    "totalNodes": 2186,
+    "totalNodes": 2188,
     "observations": 0,
-    "experiments": 2186,
+    "experiments": 2188,
     "syntheses": 0,
-    "totalEdges": 2182,
+    "totalEdges": 2184,
     "maxDepth": 10,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 969,
-    "skills": 725,
+    "infrastructure": 970,
+    "skills": 726,
     "finance": 388,
     "search-ranking": 104
   },
   "recentExperiments": [
+    {
+      "id": "4902851cbc37",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 302",
+      "metricName": "score",
+      "metricValue": 145.17868677018782,
+      "isCurrentBest": false,
+      "createdAt": 1776298983657,
+      "depth": 4
+    },
+    {
+      "id": "0487015e1a22",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776297963589,
+      "depth": 1
+    },
     {
       "id": "e5bf620c4e82",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776281641286,
       "depth": 1
-    },
-    {
-      "id": "87094e28e597",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 13",
-      "metricName": "score",
-      "metricValue": 0.9656371612249492,
-      "isCurrentBest": false,
-      "createdAt": 1776281641247,
-      "depth": 4
-    },
-    {
-      "id": "32e5e8b7724c",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.2118",
-      "metricName": "Sharpe",
-      "metricValue": 1.2118,
-      "isCurrentBest": false,
-      "createdAt": 1776281551247,
-      "depth": 10
     }
   ],
   "frontier": [],
