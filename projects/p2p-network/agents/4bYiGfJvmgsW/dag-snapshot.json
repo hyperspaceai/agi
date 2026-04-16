@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-16T02:55:50.712Z",
+  "timestamp": "2026-04-16T03:55:51.672Z",
   "peerId": "12D3KooWDQut1ntdxb8zgqBjGDLKGC1gQLWrdQAKS1PRZ9cyyDFG",
   "stats": {
-    "totalNodes": 3392,
+    "totalNodes": 3399,
     "observations": 65,
-    "experiments": 3327,
+    "experiments": 3334,
     "syntheses": 0,
-    "totalEdges": 3323,
+    "totalEdges": 3330,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 7
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,13 +47,83 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1535,
-    "skills": 1072,
+    "infrastructure": 1538,
+    "skills": 1076,
     "finance": 563,
     "knowledge": 65,
     "search-ranking": 157
   },
   "recentExperiments": [
+    {
+      "id": "740ffdd4da7c",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776311271225,
+      "depth": 3
+    },
+    {
+      "id": "d09ad46977d2",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776311031076,
+      "depth": 3
+    },
+    {
+      "id": "19c257e92b09",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 481",
+      "metricName": "score",
+      "metricValue": 0.9375940335933179,
+      "isCurrentBest": false,
+      "createdAt": 1776310040997,
+      "depth": 3
+    },
+    {
+      "id": "f3940accecbe",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776309711009,
+      "depth": 3
+    },
+    {
+      "id": "0b2662d54afa",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 471",
+      "metricName": "score",
+      "metricValue": 141.0347335582679,
+      "isCurrentBest": false,
+      "createdAt": 1776309440982,
+      "depth": 3
+    },
+    {
+      "id": "74328032ddc7",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 468",
+      "metricName": "score",
+      "metricValue": 141.14541439863063,
+      "isCurrentBest": false,
+      "createdAt": 1776309260719,
+      "depth": 3
+    },
+    {
+      "id": "21b75187b765",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776308390401,
+      "depth": 3
+    },
     {
       "id": "2c50138bfecb",
       "domain": "infrastructure",
@@ -182,76 +252,6 @@
       "metricValue": 0.1995,
       "isCurrentBest": false,
       "createdAt": 1776291083143,
-      "depth": 3
-    },
-    {
-      "id": "53ed5607b4e8",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776288313304,
-      "depth": 3
-    },
-    {
-      "id": "328e7a17b78b",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776287592972,
-      "depth": 3
-    },
-    {
-      "id": "8f310a0fadb0",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776287472244,
-      "depth": 3
-    },
-    {
-      "id": "a80629074bda",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776286143804,
-      "depth": 3
-    },
-    {
-      "id": "094d9816346b",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776285903658,
-      "depth": 3
-    },
-    {
-      "id": "1f67ffa5b65f",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776285783566,
-      "depth": 3
-    },
-    {
-      "id": "eb90b4abb4be",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 68",
-      "metricName": "score",
-      "metricValue": 141.0843194565366,
-      "isCurrentBest": false,
-      "createdAt": 1776285212719,
       "depth": 3
     }
   ],
