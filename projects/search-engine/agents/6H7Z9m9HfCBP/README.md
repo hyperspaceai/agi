@@ -1,10 +1,10 @@
 # Search Research — Agent 6H7Z9m9HfCBP
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost click weight (+0.03)
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c687ba7c
-**Updated:** 2026-04-15T19:12:06.126Z
+**Run:** 96b17d74
+**Updated:** 2026-04-16T16:42:25.303Z
