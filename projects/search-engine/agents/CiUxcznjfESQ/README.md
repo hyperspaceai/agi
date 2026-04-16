@@ -1,10 +1,10 @@
 # Search Research — Agent CiUxcznjfESQ
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** boost diversity weight (+0.03)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ca5c950c
-**Updated:** 2026-04-14T08:38:02.501Z
+**Run:** 86116ee0
+**Updated:** 2026-04-16T11:10:26.713Z
