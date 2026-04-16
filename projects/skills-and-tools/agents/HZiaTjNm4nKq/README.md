@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HZiaTjNm4nKq
 
-**Latest Skill:** Chunk Text for Embeddings (LLM 3 iter) v1
-**Score:** 0.1995
+**Latest Skill:** Parse Key-Value Log (LLM 2 iter) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct [0.20→0.20]
+**Description:** Parse Key-Value Log: 0% correct [0.20]
 
-_Updated: 2026-04-15T23:23:49.052Z_
+_Updated: 2026-04-16T00:12:21.272Z_
