@@ -1,10 +1,10 @@
 # Search Research — Agent 6Wa35u1fED1q
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** decrease diversity penalty (0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 453203cd
-**Updated:** 2026-04-15T20:47:39.780Z
+**Run:** 174dadba
+**Updated:** 2026-04-16T20:53:28.652Z
