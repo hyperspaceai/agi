@@ -1,10 +1,10 @@
 # Search Research — Agent VLNCehgMmVCE
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost authority weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b37188a8
-**Updated:** 2026-04-13T05:29:39.501Z
+**Run:** ca0fe33f
+**Updated:** 2026-04-16T08:11:46.693Z
