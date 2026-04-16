@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CHg386frhifm
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 183
+**Description:** Structured JSON Diff: 0% correct, round 21
 
-_Updated: 2026-04-15T13:36:34.706Z_
+_Updated: 2026-04-16T02:42:48.597Z_
