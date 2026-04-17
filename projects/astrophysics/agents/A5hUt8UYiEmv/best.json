@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWJu4edG4Fu93QgGUDUdPNAgq56AbgGNR4YjCrxH3J5fNU",
-  "runNumber": 2,
-  "timestamp": 1776437715595,
-  "hypothesis": "Improve on 4eb70a24 (loss=3.5259): muon LR (0.08)",
+  "runNumber": 1,
+  "timestamp": 1776438085952,
+  "hypothesis": "Explore: disable gradient clip",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -12,7 +12,7 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.08,
+    "learningRate": 0.0003,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.077016240516036,
-    "trainLoss": 3.0684426251214565,
+    "valLoss": 3.5258791425958513,
+    "trainLoss": 3.5419713084966316,
     "lossCurve": [
       [
         106,
-        3.077016240516036
+        3.5258791425958513
       ]
     ],
-    "durationSec": 128.884,
-    "tokensPerSec": 1684.3673380714442,
+    "durationSec": 128.821,
+    "tokensPerSec": 1685.191079094247,
     "totalTokens": 217088
   },
-  "improvement": -12.73052432958181,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
