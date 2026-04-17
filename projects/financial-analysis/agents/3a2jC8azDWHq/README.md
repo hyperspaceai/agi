@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 3a2jC8azDWHq
 
-**Best Sharpe Ratio:** 1.1901
-**Hypothesis:** Round 2 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Best Sharpe Ratio:** 1.2032
+**Hypothesis:** [LLM] Increase weight of low volatility factor to reduce risk.
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** equal_weight
-**Alpha:** 1.1177
-**Max Drawdown:** 0.0727
+**Alpha:** 1.0657
+**Max Drawdown:** 0.0551
 **LLM:** unknown
-**Run:** finance-r2
-**Updated:** 2026-04-17T11:36:27.122Z
+**Run:** llm-r1
+**Updated:** 2026-04-17T21:11:53.481Z
