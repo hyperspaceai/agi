@@ -1,11 +1,11 @@
 {
   "runId": "llm-r1",
   "runNumber": 1,
-  "hypothesis": "[LLM] Enhance momentum factor and incorporate a slight reduction in maxDrawdownPct to improve Sharpe ratio.",
-  "sharpeRatio": 1.0772,
-  "totalReturn": 2.4571,
-  "maxDrawdown": 0.0643,
-  "alpha": 0.9628,
+  "hypothesis": "[LLM] Enhance Sharpe ratio by incorporating a trend factor and adjusting position sizing for improved risk-adjusted returns.",
+  "sharpeRatio": 1.2473,
+  "totalReturn": 2.9985,
+  "maxDrawdown": 0.0567,
+  "alpha": 1.5043,
   "factors": [
     "momentumWeight",
     "valueWeight",
@@ -13,10 +13,10 @@
     "lowVolWeight",
     "trendWeight"
   ],
-  "positionSizing": "inverse_vol",
+  "positionSizing": "risk_parity",
   "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-04-13T06:45:41.012Z"
+  "timestamp": "2026-04-17T11:39:16.052Z"
 }
