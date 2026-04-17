@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWNkvrW55CAixiFCekf6DTPmt1LhYHyYeQBksdpHfMxisJ",
+  "runNumber": 13,
+  "timestamp": 1776428065936,
+  "hypothesis": "Improve on 57c6ca50 (loss=2.1313): extended training (600s)",
+  "config": {
+    "nLayers": 8,
+    "nHeads": 8,
+    "dModel": 512,
+    "dFF": 2048,
+    "contextLength": 2048,
+    "vocabSize": 32768,
+    "learningRate": 0.006,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 600,
+    "warmupSteps": 500,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "rmsnorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 1.474608,
+    "trainLoss": 4.160541,
+    "lossCurve": [
+      [
+        0,
+        9.011729
+      ],
+      [
+        1,
+        9.011672
+      ],
+      [
+        2,
+        9.01156
+      ],
+      [
+        3,
+        9.011478
+      ],
+      [
+        4,
+        9.011462
+      ],
+      [
+        5,
+        9.011427
+      ],
+      [
+        6,
+        9.011432
+      ],
+      [
+        7,
+        9.011423
+      ],
+      [
+        8,
+        9.011418
+      ],
+      [
+        9,
+        9.011402
+      ],
+      [
+        10,
+        9.011382
+      ],
+      [
+        50,
+        6.464468
+      ],
+      [
+        100,
+        5.301948
+      ],
+      [
+        150,
+        4.594691
+      ],
+      [
+        200,
+        4.191637
+      ]
+    ],
+    "durationSec": 600.8,
+    "tokensPerSec": 191078.5619174434,
+    "totalTokens": 114800000
+  },
+  "improvement": -15.448825200310552,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "inspiredBy": null
+}
