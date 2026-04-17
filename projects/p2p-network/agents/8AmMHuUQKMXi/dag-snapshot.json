@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-17T11:24:50.342Z",
+  "timestamp": "2026-04-17T12:21:04.313Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 1693,
+    "totalNodes": 1695,
     "observations": 12,
-    "experiments": 1681,
+    "experiments": 1683,
     "syntheses": 0,
-    "totalEdges": 1677,
+    "totalEdges": 1679,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -48,12 +48,32 @@
   },
   "domainCounts": {
     "knowledge": 12,
-    "infrastructure": 770,
-    "skills": 565,
+    "infrastructure": 771,
+    "skills": 566,
     "finance": 238,
     "search-ranking": 108
   },
   "recentExperiments": [
+    {
+      "id": "170b115e0bc6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 257",
+      "metricName": "score",
+      "metricValue": 0.9302052709199331,
+      "isCurrentBest": false,
+      "createdAt": 1776427762356,
+      "depth": 9
+    },
+    {
+      "id": "ada72beeca1f",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1776426328500,
+      "depth": 3
+    },
     {
       "id": "32120f3d6e05",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "metricValue": 1.296,
       "isCurrentBest": false,
       "createdAt": 1776414355987,
-      "depth": 6
-    },
-    {
-      "id": "1f4212b9e11e",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1776414129512,
-      "depth": 3
-    },
-    {
-      "id": "c7758c67a38b",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2117",
-      "metricName": "Sharpe",
-      "metricValue": 1.2117,
-      "isCurrentBest": false,
-      "createdAt": 1776414072858,
       "depth": 6
     }
   ],
