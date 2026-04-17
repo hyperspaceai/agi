@@ -1,10 +1,10 @@
 # Search Research — Agent GMz7TSZpic1U
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost click weight (+0.03)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1e243d9d
-**Updated:** 2026-04-16T21:04:32.018Z
+**Run:** 4cd64268
+**Updated:** 2026-04-17T21:34:49.254Z
