@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWJLbdfMmsnW4PCNxGVjzTgikFdCyPt9MVJkTpRNybfn6P",
+  "runNumber": 57,
+  "timestamp": 1776442255927,
+  "hypothesis": "Adjusting the number of layers and trying different optimizers for improved performance on astrophysics task, considering architectural changes.",
+  "config": {
+    "nLayers": 8,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.24564,
+    "trainLoss": 8.927755,
+    "lossCurve": [
+      [
+        0,
+        9.010677
+      ],
+      [
+        1,
+        9.010988
+      ],
+      [
+        2,
+        9.011049
+      ],
+      [
+        3,
+        9.010989
+      ],
+      [
+        4,
+        9.011046
+      ],
+      [
+        5,
+        9.011021
+      ],
+      [
+        6,
+        9.011105
+      ],
+      [
+        7,
+        9.011034
+      ],
+      [
+        8,
+        9.010991
+      ],
+      [
+        9,
+        9.011013
+      ],
+      [
+        10,
+        9.011044
+      ],
+      [
+        50,
+        8.934829
+      ]
+    ],
+    "durationSec": 121.2,
+    "tokensPerSec": 233498.3498349835,
+    "totalTokens": 28300000
+  },
+  "improvement": 0,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "inspiredBy": "12D3KooWJu4edG4Fu93QgGUDUdPNAgq56AbgGNR4YjCrxH3J5fNU"
+}
