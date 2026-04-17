@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-17T10:41:12.324Z",
+  "timestamp": "2026-04-17T12:41:12.684Z",
   "peerId": "12D3KooWF16QET5x2rubkCDxZ3JaoiFkeiGmt6uzVjFQiUiGHUo1",
   "stats": {
-    "totalNodes": 4396,
+    "totalNodes": 4401,
     "observations": 0,
-    "experiments": 4396,
+    "experiments": 4401,
     "syntheses": 0,
-    "totalEdges": 4392,
+    "totalEdges": 4397,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2221,
-    "skills": 1188,
+    "infrastructure": 2225,
+    "skills": 1189,
     "finance": 810,
     "search-ranking": 177
   },
   "recentExperiments": [
+    {
+      "id": "bc8e1a0ce177",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776427872417,
+      "depth": 3
+    },
+    {
+      "id": "fbe6fa82cebb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 224",
+      "metricName": "score",
+      "metricValue": 0.9329546579908092,
+      "isCurrentBest": false,
+      "createdAt": 1776426972316,
+      "depth": 17
+    },
+    {
+      "id": "82979db29c6f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 222",
+      "metricName": "score",
+      "metricValue": 0.9326488506743011,
+      "isCurrentBest": false,
+      "createdAt": 1776426852288,
+      "depth": 17
+    },
+    {
+      "id": "ac3149e21226",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 212",
+      "metricName": "score",
+      "metricValue": 0.9319267503351993,
+      "isCurrentBest": false,
+      "createdAt": 1776426252269,
+      "depth": 17
+    },
+    {
+      "id": "72119cefacc7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 209",
+      "metricName": "score",
+      "metricValue": 0.9317461613060394,
+      "isCurrentBest": false,
+      "createdAt": 1776426072254,
+      "depth": 17
+    },
     {
       "id": "707193ce435d",
       "domain": "skills",
@@ -202,56 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776415870703,
       "depth": 3
-    },
-    {
-      "id": "9cbfa1d4a19a",
-      "domain": "finance",
-      "title": "Finance round 16: Sharpe=1.2668",
-      "metricName": "Sharpe",
-      "metricValue": 1.2668,
-      "isCurrentBest": false,
-      "createdAt": 1776415870692,
-      "depth": 6
-    },
-    {
-      "id": "7ce56bd54f89",
-      "domain": "finance",
-      "title": "Finance round 14: Sharpe=1.2593",
-      "metricName": "Sharpe",
-      "metricValue": 1.2593,
-      "isCurrentBest": false,
-      "createdAt": 1776415570652,
-      "depth": 6
-    },
-    {
-      "id": "779c5554c84a",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776415270683,
-      "depth": 3
-    },
-    {
-      "id": "a260aff19fe0",
-      "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.2487",
-      "metricName": "Sharpe",
-      "metricValue": 1.2487,
-      "isCurrentBest": false,
-      "createdAt": 1776414820389,
-      "depth": 6
-    },
-    {
-      "id": "f94454f8ba98",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.2337",
-      "metricName": "Sharpe",
-      "metricValue": 1.2337,
-      "isCurrentBest": false,
-      "createdAt": 1776414520380,
-      "depth": 6
     }
   ],
   "frontier": [],
