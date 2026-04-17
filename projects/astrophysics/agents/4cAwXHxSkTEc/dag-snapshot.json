@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-16T23:46:28.257Z",
+  "timestamp": "2026-04-17T00:49:19.504Z",
   "peerId": "12D3KooWDRY7GRY9wMW6wTsNNLu8RCxqkQ9kdZWNKyUpLtMmRtnT",
   "stats": {
-    "totalNodes": 4799,
+    "totalNodes": 4802,
     "observations": 3774,
-    "experiments": 1025,
+    "experiments": 1028,
     "syntheses": 0,
-    "totalEdges": 1021,
+    "totalEdges": 1024,
     "maxDepth": 18,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,13 +47,43 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 479,
-    "skills": 274,
+    "infrastructure": 481,
+    "skills": 275,
     "finance": 182,
     "search-ranking": 90,
     "knowledge": 3774
   },
   "recentExperiments": [
+    {
+      "id": "29f32dfa2ed6",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1776385700087,
+      "depth": 3
+    },
+    {
+      "id": "9dbb51ebcd84",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 303",
+      "metricName": "score",
+      "metricValue": 141.38103743107862,
+      "isCurrentBest": false,
+      "createdAt": 1776385322706,
+      "depth": 18
+    },
+    {
+      "id": "f2abf8bbb45c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 294",
+      "metricName": "score",
+      "metricValue": 0.9620468801800359,
+      "isCurrentBest": false,
+      "createdAt": 1776384756975,
+      "depth": 18
+    },
     {
       "id": "8e43fc87cc7b",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "metricValue": 0.3935620718710803,
       "isCurrentBest": false,
       "createdAt": 1776370087626,
-      "depth": 2
-    },
-    {
-      "id": "0033fcaa5789",
-      "domain": "search-ranking",
-      "title": "Search round 38: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776370085764,
-      "depth": 2
-    },
-    {
-      "id": "d2beac9f889d",
-      "domain": "search-ranking",
-      "title": "Search round 38: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776370085400,
-      "depth": 2
-    },
-    {
-      "id": "d3f89fbe1c9e",
-      "domain": "search-ranking",
-      "title": "Search round 38: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776370084871,
       "depth": 2
     }
   ],
