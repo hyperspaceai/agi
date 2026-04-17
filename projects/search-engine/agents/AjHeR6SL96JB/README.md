@@ -1,10 +1,10 @@
 # Search Research — Agent AjHeR6SL96JB
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9b87698c
-**Updated:** 2026-04-16T11:31:51.666Z
+**Run:** 9f3fa3ff
+**Updated:** 2026-04-17T11:31:01.283Z
