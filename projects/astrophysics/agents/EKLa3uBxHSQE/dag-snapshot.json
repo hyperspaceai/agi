@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-16T22:02:54.404Z",
+  "timestamp": "2026-04-17T07:26:06.582Z",
   "peerId": "12D3KooWP8hjo2mfULfjM7jkbQqU6qoKZGxv6Lx7LphPp87Frjbe",
   "stats": {
-    "totalNodes": 4826,
-    "observations": 4323,
-    "experiments": 503,
+    "totalNodes": 4923,
+    "observations": 4391,
+    "experiments": 532,
     "syntheses": 0,
-    "totalEdges": 501,
+    "totalEdges": 530,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 9
+    "recentActivity": 12
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -31,19 +31,49 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 412,
-    "finance": 91,
-    "knowledge": 4323
+    "infrastructure": 434,
+    "finance": 98,
+    "knowledge": 4391
   },
   "recentExperiments": [
     {
-      "id": "789ff2076205",
+      "id": "7a09ed7c2169",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 127",
+      "title": "Cause infra-optimization round 58",
       "metricName": "score",
-      "metricValue": 0.9635142403610725,
+      "metricValue": 141.29600639519123,
       "isCurrentBest": false,
-      "createdAt": 1776375653231,
+      "createdAt": 1776408876041,
+      "depth": 6
+    },
+    {
+      "id": "b37c8ca58b68",
+      "domain": "finance",
+      "title": "Finance round 7: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "isCurrentBest": false,
+      "createdAt": 1776406415744,
+      "depth": 6
+    },
+    {
+      "id": "5e62b064cf3a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 15",
+      "metricName": "score",
+      "metricValue": 141.42867334850723,
+      "isCurrentBest": false,
+      "createdAt": 1776406295726,
+      "depth": 6
+    },
+    {
+      "id": "6dab57011f41",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.3105",
+      "metricName": "Sharpe",
+      "metricValue": 1.3105,
+      "isCurrentBest": false,
+      "createdAt": 1776406265733,
       "depth": 6
     }
   ],
