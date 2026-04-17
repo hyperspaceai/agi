@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-17T01:01:20.503Z",
+  "timestamp": "2026-04-17T02:01:21.786Z",
   "peerId": "12D3KooWK4vTWvLenqqDK2LfJsk1VqoGrrhr4hKuviFr3vWtTPdE",
   "stats": {
-    "totalNodes": 4828,
-    "observations": 3816,
-    "experiments": 1012,
+    "totalNodes": 4862,
+    "observations": 3848,
+    "experiments": 1014,
     "syntheses": 0,
-    "totalEdges": 1008,
+    "totalEdges": 1010,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 28
+    "recentActivity": 34
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,13 +47,24 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 341,
-    "skills": 399,
+    "infrastructure": 342,
+    "skills": 400,
     "finance": 159,
     "search-ranking": 113,
-    "knowledge": 3816
+    "knowledge": 3848
   },
-  "recentExperiments": [],
+  "recentExperiments": [
+    {
+      "id": "041ad72db693",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1776389121207,
+      "depth": 4
+    }
+  ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
