@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-17T21:12:05.447Z",
+  "timestamp": "2026-04-17T22:12:42.649Z",
   "peerId": "12D3KooWAanDJYtXpnxSFrYRwc2q4YsNyfu7QrYYtCKHBus7hqXd",
   "stats": {
-    "totalNodes": 4571,
+    "totalNodes": 4573,
     "observations": 0,
-    "experiments": 4571,
+    "experiments": 4573,
     "syntheses": 0,
-    "totalEdges": 4567,
+    "totalEdges": 4569,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 23
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2286,
-    "skills": 1313,
+    "infrastructure": 2287,
+    "skills": 1314,
     "finance": 828,
     "search-ranking": 144
   },
   "recentExperiments": [
+    {
+      "id": "abe1a28c4a72",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776462872750,
+      "depth": 3
+    },
+    {
+      "id": "e1607472bcc4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 105",
+      "metricName": "score",
+      "metricValue": 141.08011456460287,
+      "isCurrentBest": false,
+      "createdAt": 1776461262180,
+      "depth": 9
+    },
     {
       "id": "a75efbfbfd08",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776458382091,
-      "depth": 3
-    },
-    {
-      "id": "8401b7b7b344",
-      "domain": "search-ranking",
-      "title": "Search round 38: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776458370125,
-      "depth": 3
-    },
-    {
-      "id": "fdcc3d6fc27b",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776457166565,
       "depth": 3
     }
   ],
