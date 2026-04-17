@@ -1,11 +1,11 @@
 # Financial Analysis — Agent D397yZBjxGu2
 
-**Best Sharpe Ratio:** 0.9699
-**Hypothesis:** [LLM] Incorporate trend factor and adjust position sizing for improved risk-adjusted returns.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.0916
-**Max Drawdown:** 0.0992
+**Best Sharpe Ratio:** 1.0697
+**Hypothesis:** Round 1 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Position Sizing:** equal_weight
+**Alpha:** 0.9047
+**Max Drawdown:** 0.0793
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-04-17T14:40:18.820Z
+**Run:** finance-r1
+**Updated:** 2026-04-17T21:08:51.296Z
