@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWNkvrW55CAixiFCekf6DTPmt1LhYHyYeQBksdpHfMxisJ",
-  "runNumber": 12,
-  "timestamp": 1776426502089,
-  "hypothesis": "Improve on 57c6ca50 (loss=2.1313): muon LR (0.08)",
+  "runNumber": 13,
+  "timestamp": 1776428065936,
+  "hypothesis": "Improve on 57c6ca50 (loss=2.1313): extended training (600s)",
   "config": {
     "nLayers": 8,
     "nHeads": 8,
@@ -12,10 +12,10 @@
     "dFF": 2048,
     "contextLength": 2048,
     "vocabSize": 32768,
-    "learningRate": 0.08,
+    "learningRate": 0.006,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 120,
+    "maxDurationSec": 600,
     "warmupSteps": 500,
     "weightDecay": 0.01,
     "evalInterval": 200,
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 1.744042,
-    "trainLoss": 5.114823,
+    "valLoss": 1.474608,
+    "trainLoss": 4.160541,
     "lossCurve": [
       [
         0,
@@ -85,14 +85,26 @@
       ],
       [
         50,
-        5.313163
+        6.464468
+      ],
+      [
+        100,
+        5.301948
+      ],
+      [
+        150,
+        4.594691
+      ],
+      [
+        200,
+        4.191637
       ]
     ],
-    "durationSec": 123.6,
-    "tokensPerSec": 250000,
-    "totalTokens": 30900000
+    "durationSec": 600.8,
+    "tokensPerSec": 191078.5619174434,
+    "totalTokens": 114800000
   },
-  "improvement": -18.17053619060175,
+  "improvement": -15.448825200310552,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3080 Ti",
   "inspiredBy": null
