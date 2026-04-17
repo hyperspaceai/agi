@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-17T00:46:34.916Z",
+  "timestamp": "2026-04-17T01:46:35.329Z",
   "peerId": "12D3KooWPHy92a1o22TtLs1zHZcaRM3bVeiAoPHKzeCGLoSma35v",
   "stats": {
-    "totalNodes": 2653,
+    "totalNodes": 2655,
     "observations": 18,
-    "experiments": 2635,
+    "experiments": 2637,
     "syntheses": 0,
-    "totalEdges": 2631,
+    "totalEdges": 2633,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,13 +47,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1461,
+    "infrastructure": 1463,
     "skills": 669,
     "finance": 371,
     "knowledge": 18,
     "search-ranking": 134
   },
   "recentExperiments": [
+    {
+      "id": "7efe7590bb86",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 357",
+      "metricName": "score",
+      "metricValue": 144.9851340497348,
+      "isCurrentBest": false,
+      "createdAt": 1776388474538,
+      "depth": 3
+    },
+    {
+      "id": "53041f0cf2a4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 353",
+      "metricName": "score",
+      "metricValue": 145.26257034378852,
+      "isCurrentBest": false,
+      "createdAt": 1776388234537,
+      "depth": 3
+    },
     {
       "id": "6ac51c72f1f8",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776370826342,
-      "depth": 1
-    },
-    {
-      "id": "e14a00c37d12",
-      "domain": "search-ranking",
-      "title": "Search round 38: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776370470959,
-      "depth": 1
-    },
-    {
-      "id": "2b7d76232c5d",
-      "domain": "search-ranking",
-      "title": "Search round 38: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776370469554,
       "depth": 1
     }
   ],
