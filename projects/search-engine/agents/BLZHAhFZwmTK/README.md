@@ -1,10 +1,10 @@
 # Search Research — Agent BLZHAhFZwmTK
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5a6e5557
-**Updated:** 2026-04-17T09:57:25.318Z
+**Run:** 45b0937c
+**Updated:** 2026-04-18T00:26:24.192Z
