@@ -1,10 +1,10 @@
 # Search Research — Agent HR1KTWpsjKdP
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** increase freshness bias (0.15)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** fe734468
-**Updated:** 2026-04-16T20:44:52.729Z
+**Run:** 8bf4f82c
+**Updated:** 2026-04-17T21:12:53.790Z
