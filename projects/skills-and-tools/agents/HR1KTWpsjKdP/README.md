@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HR1KTWpsjKdP
 
-**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
-**Score:** 0.1984
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1989
 **Permissions:** none
-**Description:** Parse Key-Value Log: 0% correct, round 187
+**Description:** Normalize Text: 0% correct, round 30
 
-_Updated: 2026-04-17T13:52:46.978Z_
+_Updated: 2026-04-17T17:41:10.361Z_
