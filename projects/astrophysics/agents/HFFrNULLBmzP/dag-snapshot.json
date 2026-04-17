@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-17T13:29:43.367Z",
+  "timestamp": "2026-04-17T17:14:36.576Z",
   "peerId": "12D3KooWS4d27bv3NgFtGaHa86TVuX39e9mfb9VoeiJG7zivvG77",
   "stats": {
-    "totalNodes": 4913,
-    "observations": 4454,
-    "experiments": 459,
+    "totalNodes": 4975,
+    "observations": 4499,
+    "experiments": 476,
     "syntheses": 0,
-    "totalEdges": 443,
+    "totalEdges": 457,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 22
+    "recentActivity": 21
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,51 +47,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 394,
-    "finance": 50,
+    "infrastructure": 405,
+    "finance": 53,
     "search-ranking": 2,
-    "general": 13,
-    "knowledge": 4454
+    "general": 16,
+    "knowledge": 4499
   },
   "recentExperiments": [
     {
-      "id": "0f68b8dca25a",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 244",
-      "metricName": "score",
-      "metricValue": 0.9470862024830468,
+      "id": "6514f88b7a08",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1991",
+      "metricName": "Sharpe",
+      "metricValue": 1.1991,
       "isCurrentBest": false,
-      "createdAt": 1776432180569,
-      "depth": 5
+      "createdAt": 1776445115867,
+      "depth": 7
     },
     {
-      "id": "1e69b0322497",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 225",
-      "metricName": "score",
-      "metricValue": 141.1959638883387,
-      "isCurrentBest": false,
-      "createdAt": 1776431697752,
-      "depth": 5
-    },
-    {
-      "id": "de6faff47f79",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 221",
-      "metricName": "score",
-      "metricValue": 0.9465494407859352,
-      "isCurrentBest": false,
-      "createdAt": 1776431697750,
-      "depth": 5
-    },
-    {
-      "id": "19b7232fa79a",
+      "id": "c577f5c507a4",
       "domain": "general",
-      "title": "AutoWeb round 4: 44/100",
+      "title": "AutoWeb round 3: 90/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 44,
+      "metricValue": 90,
       "isCurrentBest": false,
-      "createdAt": 1776430635064,
+      "createdAt": 1776444402253,
+      "depth": 0
+    },
+    {
+      "id": "b0a131016401",
+      "domain": "general",
+      "title": "AutoWeb round 2: 26/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 26,
+      "isCurrentBest": false,
+      "createdAt": 1776443845740,
       "depth": 0
     }
   ],
