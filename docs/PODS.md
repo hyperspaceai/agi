@@ -289,13 +289,7 @@ Every pod gets a shared filesystem with automatic text extraction and vector emb
 - **Embeddings** — chunk-level vectors via GTE-384, Ollama-768, or OpenAI-1536
 - **Search** — cosine similarity across all indexed documents
 
-Quotas by plan:
-
-| Plan | Storage | Max files |
-|---|---|---|
-| Free | 10 GB | 500 |
-| Pro | 100 GB | 5,000 |
-| Ultra | 1 TB | 50,000 |
+Storage scales with your plan tier.
 
 ---
 
@@ -478,19 +472,6 @@ docker compose up  # self-host the full pod
 ```
 
 The capsule contains vault, provider credentials, Drive files, job configs, settings, and member list. Passphrase-encrypted, portable across providers.
-
----
-
-## Plans
-
-| Plan | Members | Drive | Included credit |
-|---|---|---|---|
-| Starter (free) | Up to 3 | 10 GB / 500 files | — |
-| Team | Expanded | 100 GB / 5,000 files | $10/mo |
-| Business | Higher | 100 GB / 5,000 files | Higher monthly |
-| Enterprise | Custom | 1 TB / 50,000 files | Custom |
-
-BYOK mode (bring your own keys) always bypasses plan tier spending limits — you're using your own provider credentials.
 
 ---
 
