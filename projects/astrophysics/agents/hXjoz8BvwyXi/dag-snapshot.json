@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-18T18:26:15.129Z",
+  "timestamp": "2026-04-18T19:28:16.296Z",
   "peerId": "12D3KooWAWtuZ7hu7rF28rHqbN4vWXSfgqipuSrA2NrnjEeeREMa",
   "stats": {
-    "totalNodes": 4856,
+    "totalNodes": 4858,
     "observations": 3188,
-    "experiments": 1668,
+    "experiments": 1670,
     "syntheses": 0,
-    "totalEdges": 1664,
+    "totalEdges": 1666,
     "maxDepth": 21,
     "activeExperiments": 0,
-    "recentActivity": 29
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,12 +48,32 @@
   },
   "domainCounts": {
     "infrastructure": 675,
-    "skills": 540,
+    "skills": 542,
     "finance": 319,
     "search-ranking": 134,
     "knowledge": 3188
   },
   "recentExperiments": [
+    {
+      "id": "69bb25b81812",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1776537397050,
+      "depth": 4
+    },
+    {
+      "id": "6085458dc81a",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1776537147887,
+      "depth": 4
+    },
     {
       "id": "73d488cd57c2",
       "domain": "finance",
@@ -233,26 +253,6 @@
       "isCurrentBest": false,
       "createdAt": 1776535036978,
       "depth": 21
-    },
-    {
-      "id": "d240a9a6c900",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776534469298,
-      "depth": 4
-    },
-    {
-      "id": "6a6685e94e74",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776534345610,
-      "depth": 4
     }
   ],
   "frontier": [],
