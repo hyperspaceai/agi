@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-18T05:44:47.692Z",
+  "timestamp": "2026-04-18T06:44:47.764Z",
   "peerId": "12D3KooWA7kiY68mo5QHSgj3rzpXDV4AX4DRnjQGWiwRiYonLXMw",
   "stats": {
-    "totalNodes": 987,
+    "totalNodes": 989,
     "observations": 0,
-    "experiments": 987,
+    "experiments": 989,
     "syntheses": 0,
-    "totalEdges": 983,
+    "totalEdges": 985,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 30
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 285,
-    "skills": 392,
+    "skills": 394,
     "finance": 196,
     "search-ranking": 114
   },
   "recentExperiments": [
+    {
+      "id": "9d260ab3e78a",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776494327637,
+      "depth": 3
+    },
+    {
+      "id": "bb140741f75b",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776492527618,
+      "depth": 3
+    },
     {
       "id": "315aed49920e",
       "domain": "finance",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776489148286,
-      "depth": 1
-    },
-    {
-      "id": "f2e9925cec98",
-      "domain": "search-ranking",
-      "title": "Search round 38: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776489147443,
-      "depth": 1
-    },
-    {
-      "id": "9710ee543ac3",
-      "domain": "search-ranking",
-      "title": "Search round 38: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776489146746,
       "depth": 1
     }
   ],
