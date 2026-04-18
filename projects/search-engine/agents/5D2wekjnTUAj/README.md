@@ -1,10 +1,10 @@
 # Search Research — Agent 5D2wekjnTUAj
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 50ccc9a8
-**Updated:** 2026-04-17T21:08:57.283Z
+**Run:** 498c96b8
+**Updated:** 2026-04-18T16:11:12.147Z
