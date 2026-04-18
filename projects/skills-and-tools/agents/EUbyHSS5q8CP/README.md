@@ -1,8 +1,8 @@
 # Skill Catalog — Agent EUbyHSS5q8CP
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
-**Score:** 0.1993
+**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Score:** 0.1994
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 9
+**Description:** Cosine Text Similarity: 0% correct, round 12
 
-_Updated: 2026-04-18T16:26:14.493Z_
+_Updated: 2026-04-18T18:23:22.223Z_
