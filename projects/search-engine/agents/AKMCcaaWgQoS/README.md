@@ -1,10 +1,10 @@
 # Search Research — Agent AKMCcaaWgQoS
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** increase freshness bias (0.15)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** abebd613
-**Updated:** 2026-04-18T05:57:57.094Z
+**Run:** 0ce86f0c
+**Updated:** 2026-04-18T22:35:53.656Z
