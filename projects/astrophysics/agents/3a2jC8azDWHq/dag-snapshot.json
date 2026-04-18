@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-18T09:25:46.102Z",
+  "timestamp": "2026-04-18T10:25:46.439Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 619,
+    "totalNodes": 620,
     "observations": 323,
-    "experiments": 296,
+    "experiments": 297,
     "syntheses": 0,
-    "totalEdges": 289,
+    "totalEdges": 290,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 156,
+    "infrastructure": 157,
     "knowledge": 323,
     "search-ranking": 3,
     "general": 3,
@@ -63,6 +63,16 @@
     "finance": 50
   },
   "recentExperiments": [
+    {
+      "id": "69b50dc87955",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 178",
+      "metricName": "score",
+      "metricValue": 141.29624468038588,
+      "isCurrentBest": false,
+      "createdAt": 1776506086155,
+      "depth": 6
+    },
     {
       "id": "edfb967eb99d",
       "domain": "skills",
@@ -251,16 +261,6 @@
       "metricValue": 0.1999,
       "isCurrentBest": false,
       "createdAt": 1776495704984,
-      "depth": 4
-    },
-    {
-      "id": "f9ba7adc8947",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1776495584977,
       "depth": 4
     }
   ],
