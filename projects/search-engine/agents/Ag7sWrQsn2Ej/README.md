@@ -1,10 +1,10 @@
 # Search Research — Agent Ag7sWrQsn2Ej
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** Increase authority weight and combine with freshness weight, normalizing with z-score, building on previous successful combinations.
+**Hypothesis:** Combining authority and freshness weights, and increasing title weight slightly, building on previous successes and z-score normalization.
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** cb08be04
-**Updated:** 2026-04-13T07:22:47.555Z
+**Run:** f36d8a10
+**Updated:** 2026-04-18T20:45:29.104Z
