@@ -1,10 +1,10 @@
 # Search Research — Agent 9xrmBjfPn96B
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost diversity weight (+0.03)
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 042590a4
-**Updated:** 2026-04-17T21:34:23.954Z
+**Run:** 8f015668
+**Updated:** 2026-04-18T05:53:24.055Z
