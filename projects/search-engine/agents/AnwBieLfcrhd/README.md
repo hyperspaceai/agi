@@ -1,10 +1,10 @@
 # Search Research — Agent AnwBieLfcrhd
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase freshness bias (0.15)
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1d76aab0
-**Updated:** 2026-04-17T18:31:27.905Z
+**Run:** bc79f7c8
+**Updated:** 2026-04-18T16:22:38.999Z
