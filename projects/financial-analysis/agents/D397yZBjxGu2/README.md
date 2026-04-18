@@ -1,11 +1,11 @@
 # Financial Analysis — Agent D397yZBjxGu2
 
-**Best Sharpe Ratio:** 1.0736
-**Hypothesis:** [LLM] Implement regime-aware adjustments to factor weights for improved Sharpe ratio.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
-**Position Sizing:** inverse_vol
-**Alpha:** 0.9295
-**Max Drawdown:** 0.0638
+**Best Sharpe Ratio:** 1.1782
+**Hypothesis:** Round 2 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Position Sizing:** equal_weight
+**Alpha:** 1.1189
+**Max Drawdown:** 0.0739
 **LLM:** unknown
-**Run:** llm-r1
-**Updated:** 2026-04-17T21:30:21.704Z
+**Run:** finance-r2
+**Updated:** 2026-04-18T06:43:12.951Z
