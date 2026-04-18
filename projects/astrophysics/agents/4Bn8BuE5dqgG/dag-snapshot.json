@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-18T14:21:28.095Z",
+  "timestamp": "2026-04-18T15:06:09.031Z",
   "peerId": "12D3KooWD19Hw2onpjwkX8t89pKCLeqhzfmkAL74Cex2KcdeyPAb",
   "stats": {
-    "totalNodes": 4667,
-    "observations": 3891,
-    "experiments": 776,
+    "totalNodes": 4706,
+    "observations": 3917,
+    "experiments": 789,
     "syntheses": 0,
-    "totalEdges": 773,
+    "totalEdges": 786,
     "maxDepth": 14,
     "activeExperiments": 0,
-    "recentActivity": 32
+    "recentActivity": 49
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,21 +39,51 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 420,
-    "finance": 284,
+    "infrastructure": 427,
+    "finance": 290,
     "search-ranking": 72,
-    "knowledge": 3891
+    "knowledge": 3917
   },
   "recentExperiments": [
     {
-      "id": "57f16d62934e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 542",
-      "metricName": "score",
-      "metricValue": 0.9302469835201377,
+      "id": "b1e8d71e92ef",
+      "domain": "finance",
+      "title": "Finance round 11: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
       "isCurrentBest": false,
-      "createdAt": 1776520467862,
-      "depth": 14
+      "createdAt": 1776524618954,
+      "depth": 9
+    },
+    {
+      "id": "ba584d574954",
+      "domain": "finance",
+      "title": "Finance round 8: Sharpe=1.3137",
+      "metricName": "Sharpe",
+      "metricValue": 1.3137,
+      "isCurrentBest": false,
+      "createdAt": 1776524168899,
+      "depth": 9
+    },
+    {
+      "id": "d588c1b970c2",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.3040",
+      "metricName": "Sharpe",
+      "metricValue": 1.304,
+      "isCurrentBest": false,
+      "createdAt": 1776523868845,
+      "depth": 9
+    },
+    {
+      "id": "d574456ee5a7",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2188",
+      "metricName": "Sharpe",
+      "metricValue": 1.2188,
+      "isCurrentBest": false,
+      "createdAt": 1776523568834,
+      "depth": 9
     }
   ],
   "frontier": [],
