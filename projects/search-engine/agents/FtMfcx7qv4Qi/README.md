@@ -1,10 +1,10 @@
 # Search Research — Agent FtMfcx7qv4Qi
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 213c099b
-**Updated:** 2026-04-18T03:49:58.146Z
+**Run:** ddf10cb0
+**Updated:** 2026-04-18T16:17:30.149Z
