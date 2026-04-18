@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-18T12:44:38.389Z",
+  "timestamp": "2026-04-18T13:44:46.635Z",
   "peerId": "12D3KooWF1WzArLbvmQ2iiexaT3Q7HaKwFUybpQV1oH7AuX8DxPc",
   "stats": {
-    "totalNodes": 4905,
+    "totalNodes": 4906,
     "observations": 0,
-    "experiments": 4905,
+    "experiments": 4906,
     "syntheses": 0,
-    "totalEdges": 4901,
+    "totalEdges": 4902,
     "maxDepth": 16,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 2419,
-    "skills": 1445,
+    "skills": 1446,
     "finance": 907,
     "search-ranking": 134
   },
   "recentExperiments": [
+    {
+      "id": "3a14eb659227",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776518922065,
+      "depth": 2
+    },
     {
       "id": "a9cf1b14c832",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776488029754,
       "depth": 7
-    },
-    {
-      "id": "1c4d8b9da2fe",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776487429707,
-      "depth": 2
     }
   ],
   "frontier": [],
