@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-18T05:47:22.683Z",
+  "timestamp": "2026-04-18T06:47:22.946Z",
   "peerId": "12D3KooWMKSwSVRZwVdc5bpA7pWQZjvb2SkScS2xEG7R1hZh9Foi",
   "stats": {
-    "totalNodes": 717,
+    "totalNodes": 719,
     "observations": 0,
-    "experiments": 717,
+    "experiments": 719,
     "syntheses": 0,
-    "totalEdges": 713,
+    "totalEdges": 715,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 18
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 282,
-    "skills": 231,
+    "infrastructure": 283,
+    "skills": 232,
     "finance": 179,
     "search-ranking": 25
   },
   "recentExperiments": [
+    {
+      "id": "629b41908736",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 142",
+      "metricName": "score",
+      "metricValue": 0.9635944036061697,
+      "isCurrentBest": false,
+      "createdAt": 1776494392764,
+      "depth": 2
+    },
+    {
+      "id": "2742fc1eb002",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1776492562685,
+      "depth": 3
+    },
     {
       "id": "911730e1b6f9",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 1.3096,
       "isCurrentBest": false,
       "createdAt": 1776488242009,
-      "depth": 9
-    },
-    {
-      "id": "81921615de92",
-      "domain": "finance",
-      "title": "Finance round 12: Sharpe=1.3031",
-      "metricName": "Sharpe",
-      "metricValue": 1.3031,
-      "isCurrentBest": false,
-      "createdAt": 1776487641987,
-      "depth": 9
-    },
-    {
-      "id": "a700a8bc7675",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
-      "isCurrentBest": false,
-      "createdAt": 1776487491971,
       "depth": 9
     }
   ],
