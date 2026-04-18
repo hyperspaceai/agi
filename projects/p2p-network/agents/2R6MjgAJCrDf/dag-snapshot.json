@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-15T09:38:42.973Z",
+  "timestamp": "2026-04-18T11:27:44.537Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 409,
+    "totalNodes": 793,
     "observations": 4,
-    "experiments": 405,
+    "experiments": 789,
     "syntheses": 0,
-    "totalEdges": 310,
-    "maxDepth": 9,
-    "activeExperiments": 72,
-    "recentActivity": 0
+    "totalEdges": 623,
+    "maxDepth": 10,
+    "activeExperiments": 128,
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "25f7694101e2502792b4b74b64fe005982ef0604228f419e8e51b0747a9bb71c",
+      "nodeId": "dbd9414f81a7cea45d4820d6f7ea06b5984f500956dcd86e1568173dc4bbde62",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 147.6105599355172,
+      "metricValue": 148.349570794241,
       "metricDirection": "maximize",
-      "depth": 8
+      "depth": 9
     },
     "skills": {
       "nodeId": "dfa75a0d64662f1bf4596e43aca48b0deb8e6220fa08cc3c587c64635a39de79",
@@ -47,212 +47,220 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 192,
-    "skills": 117,
-    "physics": 72,
-    "general": 20,
+    "infrastructure": 418,
+    "skills": 204,
+    "physics": 128,
+    "general": 35,
     "knowledge": 4,
     "finance": 4
   },
   "recentExperiments": [
     {
-      "id": "d420fcb5a6e0",
+      "id": "754b7d797821",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 352",
+      "title": "Cause literature-analysis round 381",
       "metricName": "score",
-      "metricValue": 141.09768281208417,
+      "metricValue": 0.9270506044293578,
       "isCurrentBest": false,
-      "createdAt": 1776242066245,
-      "depth": 9
+      "createdAt": 1776509098511,
+      "depth": 10
     },
     {
-      "id": "2a605fa59e46",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Given the limitations on negative energy density achievable \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776240903619,
-      "depth": 0
-    },
-    {
-      "id": "4f3217bbb4b2",
+      "id": "8372262db68e",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 326",
+      "title": "Cause infra-optimization round 377",
       "metricName": "score",
-      "metricValue": 141.18889067730848,
+      "metricValue": 145.02285916545904,
       "isCurrentBest": false,
-      "createdAt": 1776240776223,
-      "depth": 9
+      "createdAt": 1776509098510,
+      "depth": 10
     },
     {
-      "id": "8c5cf93519a6",
-      "domain": "physics",
-      "title": "Wrote paper: \"Stability Analysis of Barzegar & Buchert Warp Drive Solutions Against Quantum Fluctuat",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776238293538,
-      "depth": 0
-    },
-    {
-      "id": "5d833d291dde",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776238244771,
-      "depth": 2
-    },
-    {
-      "id": "d18808624ade",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776236942962,
-      "depth": 2
-    },
-    {
-      "id": "117098a178da",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776235622624,
-      "depth": 2
-    },
-    {
-      "id": "a4a466bb346c",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How do the quantum gravity corrections to the null energy co\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776234453068,
-      "depth": 0
-    },
-    {
-      "id": "b0ee7f6d2245",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776233105212,
-      "depth": 2
-    },
-    {
-      "id": "face9f1bfc28",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776231755983,
-      "depth": 2
-    },
-    {
-      "id": "51ba0e197325",
+      "id": "d99941a1757d",
       "domain": "skills",
       "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1997,
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1776230467921,
+      "createdAt": 1776507826123,
       "depth": 2
     },
     {
-      "id": "46acefc9304b",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 153",
-      "metricName": "score",
-      "metricValue": 141.04729989987294,
-      "isCurrentBest": false,
-      "createdAt": 1776230456042,
-      "depth": 9
-    },
-    {
-      "id": "ff7e9b8c834e",
+      "id": "d1684e86225d",
       "domain": "physics",
       "title": "Wrote paper: \"On warp_drives: Considering the scaling limitations of Casimir micro-cavity \" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776229242828,
+      "createdAt": 1776506637617,
       "depth": 0
     },
     {
-      "id": "55b0cf42b80a",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1776227925502,
-      "depth": 2
-    },
-    {
-      "id": "f039048f78d9",
+      "id": "33e27239f7be",
       "domain": "general",
-      "title": "AutoWeb round 1: 87/100",
+      "title": "AutoWeb round 5: 83/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 87,
+      "metricValue": 83,
       "isCurrentBest": false,
-      "createdAt": 1776226667219,
+      "createdAt": 1776506603611,
       "depth": 0
     },
     {
-      "id": "82825d1b7c17",
+      "id": "937cc5c75cfd",
       "domain": "skills",
       "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1997,
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1776226607708,
+      "createdAt": 1776506511395,
       "depth": 2
     },
     {
-      "id": "36cb558943e5",
+      "id": "59e665abe2b8",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How does the introduction of a dynamically evolving, spatial\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1776504013960,
+      "depth": 0
+    },
+    {
+      "id": "fa92f2b7d43e",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 103",
+      "title": "Cause literature-analysis round 281",
       "metricName": "score",
-      "metricValue": 141.10936411415526,
+      "metricValue": 0.9326855193896666,
       "isCurrentBest": false,
-      "createdAt": 1776226585939,
-      "depth": 9
+      "createdAt": 1776503938421,
+      "depth": 10
     },
     {
-      "id": "93b29ccfc133",
-      "domain": "physics",
-      "title": "Wrote paper: \"Vorticity-Regulated Negative Energy Demand in Barzegar & Buchert Warp Drive Solutions*",
-      "metricName": "verification_score",
+      "id": "7344e921678a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 282",
+      "metricName": "score",
+      "metricValue": 144.98727310409825,
       "isCurrentBest": false,
-      "createdAt": 1776225415865,
-      "depth": 0
+      "createdAt": 1776503938421,
+      "depth": 10
     },
     {
-      "id": "0a588c9c43ac",
+      "id": "058e9038e9fd",
       "domain": "skills",
       "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1997,
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1776225283720,
+      "createdAt": 1776502672245,
       "depth": 2
     },
     {
-      "id": "7f07443bab28",
+      "id": "106e25acdcbb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 240",
+      "metricName": "score",
+      "metricValue": 145.0327065033315,
+      "isCurrentBest": false,
+      "createdAt": 1776501358356,
+      "depth": 10
+    },
+    {
+      "id": "5d677bfdc2db",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776501345429,
+      "depth": 2
+    },
+    {
+      "id": "16763e64eeb5",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Given the observed exponential RSET growth within superlumin\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: If Fuchs et al.'s (2024) constant-velocity subluminal warp d\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776222827447,
+      "createdAt": 1776500178937,
       "depth": 0
+    },
+    {
+      "id": "de693a7c3010",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776498816826,
+      "depth": 2
+    },
+    {
+      "id": "7818dae94417",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776497500938,
+      "depth": 2
+    },
+    {
+      "id": "2f30e48443f2",
+      "domain": "general",
+      "title": "AutoWeb round 2: 77/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 77,
+      "isCurrentBest": false,
+      "createdAt": 1776496247522,
+      "depth": 0
+    },
+    {
+      "id": "12e1da7f6704",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 156",
+      "metricName": "score",
+      "metricValue": 144.98822996034232,
+      "isCurrentBest": false,
+      "createdAt": 1776496198321,
+      "depth": 10
+    },
+    {
+      "id": "3fa01dc01727",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776496192199,
+      "depth": 2
+    },
+    {
+      "id": "6d1c580afa55",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the Fuchs et al. (2024) constant-velocity subluminal war\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1776494979519,
+      "depth": 0
+    },
+    {
+      "id": "62fd429c6ffb",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1776493665553,
+      "depth": 2
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "dbd9414f81a7",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.349570794241,
+        "depth": 9
+      },
       {
         "id": "25f7694101e2",
         "title": "Cause infra-optimization round 1",
