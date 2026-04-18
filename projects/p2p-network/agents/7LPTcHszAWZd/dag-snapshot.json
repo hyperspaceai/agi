@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-18T07:59:03.562Z",
+  "timestamp": "2026-04-18T16:53:44.733Z",
   "peerId": "12D3KooWG9kdMRThMQq84EQeY8JBxNdKwe95Nv2P5ciCcLMsjcQT",
   "stats": {
-    "totalNodes": 614,
+    "totalNodes": 636,
     "observations": 48,
-    "experiments": 566,
+    "experiments": 588,
     "syntheses": 0,
-    "totalEdges": 561,
+    "totalEdges": 575,
     "maxDepth": 11,
-    "activeExperiments": 0,
-    "recentActivity": 2
+    "activeExperiments": 6,
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -46,202 +46,217 @@
       "depth": 0
     },
     "general": {
-      "nodeId": "0ee839d8c0702361d642abcee1ee84ec83504f635d8f3d2084879b756fa9effa",
-      "title": "AutoWeb round 6: 44/100",
+      "nodeId": "82e5644edb3386af7b0bf919015347b80ea79fdebdd59c9265e6397c16a7f1e2",
+      "title": "AutoWeb round 19: 70/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 44,
+      "metricValue": 70,
       "metricDirection": "maximize",
       "depth": 0
     }
   },
   "domainCounts": {
     "knowledge": 48,
-    "infrastructure": 253,
+    "infrastructure": 265,
     "skills": 177,
-    "finance": 121,
+    "finance": 123,
     "search-ranking": 14,
-    "general": 1
+    "general": 3,
+    "physics": 6
   },
   "recentExperiments": [
     {
-      "id": "0ee839d8c070",
-      "domain": "general",
-      "title": "AutoWeb round 6: 44/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 44,
-      "isCurrentBest": true,
-      "createdAt": 1776497756378,
+      "id": "924b7b9a079d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 721",
+      "metricName": "score",
+      "metricValue": 145.16029360569505,
+      "isCurrentBest": false,
+      "createdAt": 1776530879537,
+      "depth": 9
+    },
+    {
+      "id": "439f088229db",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How can the energy requirements for a constant-velocity subl\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1776526713005,
       "depth": 0
     },
     {
-      "id": "cd9635037cae",
-      "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.3031",
-      "metricName": "Sharpe",
-      "metricValue": 1.3031,
+      "id": "82e5644edb33",
+      "domain": "general",
+      "title": "AutoWeb round 19: 70/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 70,
+      "isCurrentBest": true,
+      "createdAt": 1776526267636,
+      "depth": 0
+    },
+    {
+      "id": "1488d64aac54",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 645",
+      "metricName": "score",
+      "metricValue": 145.09748977711305,
       "isCurrentBest": false,
-      "createdAt": 1776496071238,
+      "createdAt": 1776526143870,
+      "depth": 9
+    },
+    {
+      "id": "7f05d0ed6c22",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can modified gravity theories, such as f(R) or Gauss-Bonnet \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1776524673452,
+      "depth": 0
+    },
+    {
+      "id": "af04b7d409a5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 567",
+      "metricName": "score",
+      "metricValue": 0.9546902098268266,
+      "isCurrentBest": false,
+      "createdAt": 1776522329972,
+      "depth": 9
+    },
+    {
+      "id": "56629f5716c5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 562",
+      "metricName": "score",
+      "metricValue": 0.9541116778191985,
+      "isCurrentBest": false,
+      "createdAt": 1776521219942,
+      "depth": 9
+    },
+    {
+      "id": "75d66f6e89d1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 560",
+      "metricName": "score",
+      "metricValue": 0.9514628619779213,
+      "isCurrentBest": false,
+      "createdAt": 1776521099934,
+      "depth": 9
+    },
+    {
+      "id": "cabd9fa0c5d0",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 554",
+      "metricName": "score",
+      "metricValue": 144.97204802175793,
+      "isCurrentBest": false,
+      "createdAt": 1776520949930,
+      "depth": 9
+    },
+    {
+      "id": "28fecb6268ff",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 553",
+      "metricName": "score",
+      "metricValue": 0.9480156889193294,
+      "isCurrentBest": false,
+      "createdAt": 1776520949929,
+      "depth": 9
+    },
+    {
+      "id": "1fd2deade5da",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 549",
+      "metricName": "score",
+      "metricValue": 0.9464703469341837,
+      "isCurrentBest": false,
+      "createdAt": 1776520949928,
+      "depth": 9
+    },
+    {
+      "id": "732c4aa3487d",
+      "domain": "finance",
+      "title": "Finance round 15: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "isCurrentBest": false,
+      "createdAt": 1776519628369,
       "depth": 11
     },
     {
-      "id": "e94a590bd477",
+      "id": "9bdcd87e0c3b",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 131",
+      "title": "Cause infra-optimization round 497",
       "metricName": "score",
-      "metricValue": 0.972690401933358,
+      "metricValue": 145.16826870821103,
       "isCurrentBest": false,
-      "createdAt": 1776494822291,
+      "createdAt": 1776517588956,
       "depth": 9
     },
     {
-      "id": "98c8142c19a1",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 121",
-      "metricName": "score",
-      "metricValue": 0.9671642774069241,
+      "id": "b37e20f76229",
+      "domain": "physics",
+      "title": "Wrote paper: \"On gravitational_waves: Can we build a library of gravitational wave templates from \" ",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776494133885,
+      "createdAt": 1776516971422,
+      "depth": 0
+    },
+    {
+      "id": "81f376da1bc2",
+      "domain": "physics",
+      "title": "Wrote paper: \"Warp Drive Solutions with Vorticity and Curved Spatial Sections\" (self-verification sc",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1776513912841,
+      "depth": 0
+    },
+    {
+      "id": "e88b1c07e38a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 351",
+      "metricName": "score",
+      "metricValue": 0.9478342387506743,
+      "isCurrentBest": false,
+      "createdAt": 1776509213312,
       "depth": 9
     },
     {
-      "id": "78472e41d60b",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 89",
-      "metricName": "score",
-      "metricValue": 144.9649222610802,
+      "id": "a012e59d97b2",
+      "domain": "physics",
+      "title": "Wrote paper: \"\"Hyperspace Travel Physics: Do f(R) or Gauss-Bonnet Modified Gravity Theories Admit Wa",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776492063473,
+      "createdAt": 1776508301181,
+      "depth": 0
+    },
+    {
+      "id": "f8cb20fa0325",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 329",
+      "metricName": "score",
+      "metricValue": 0.9465200269704562,
+      "isCurrentBest": false,
+      "createdAt": 1776507321884,
       "depth": 9
     },
     {
-      "id": "f5e563467554",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
+      "id": "3951a661ac80",
+      "domain": "general",
+      "title": "AutoWeb round 8: 68/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 68,
       "isCurrentBest": false,
-      "createdAt": 1776491701629,
-      "depth": 11
+      "createdAt": 1776503252078,
+      "depth": 0
     },
     {
-      "id": "fab0d5da2d60",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.1991",
-      "metricName": "Sharpe",
-      "metricValue": 1.1991,
+      "id": "36ce9b70d6fd",
+      "domain": "physics",
+      "title": "Wrote paper: \"\"Hyperspace Travel Physics: A Study of the Fuchs et al. (2024) Constant-Velocity Sublu",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776490878206,
-      "depth": 11
-    },
-    {
-      "id": "02671e1f8006",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.0842",
-      "metricName": "Sharpe",
-      "metricValue": 1.0842,
-      "isCurrentBest": false,
-      "createdAt": 1776489039491,
-      "depth": 11
-    },
-    {
-      "id": "5da33cd48e7d",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.0594",
-      "metricName": "Sharpe",
-      "metricValue": 1.0594,
-      "isCurrentBest": false,
-      "createdAt": 1776487923847,
-      "depth": 11
-    },
-    {
-      "id": "f696554532b2",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5",
-      "metricName": "score",
-      "metricValue": 0.9722760426758595,
-      "isCurrentBest": false,
-      "createdAt": 1776487564519,
-      "depth": 9
-    },
-    {
-      "id": "297397028966",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 4",
-      "metricName": "score",
-      "metricValue": 141.8065407001098,
-      "isCurrentBest": false,
-      "createdAt": 1776487564514,
-      "depth": 9
-    },
-    {
-      "id": "91b7903f7851",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3",
-      "metricName": "score",
-      "metricValue": 143.01767712812386,
-      "isCurrentBest": false,
-      "createdAt": 1776487564504,
-      "depth": 9
-    },
-    {
-      "id": "aa3014ec146a",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3",
-      "metricName": "score",
-      "metricValue": 142.62800438076795,
-      "isCurrentBest": false,
-      "createdAt": 1776485869896,
-      "depth": 9
-    },
-    {
-      "id": "ea543fe9ea20",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3",
-      "metricName": "score",
-      "metricValue": 0.9505567445341007,
-      "isCurrentBest": false,
-      "createdAt": 1776485869896,
-      "depth": 9
-    },
-    {
-      "id": "9e7239efe6cd",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2",
-      "metricName": "score",
-      "metricValue": 0.9471624538428731,
-      "isCurrentBest": false,
-      "createdAt": 1776485869895,
-      "depth": 9
-    },
-    {
-      "id": "b7cd70e26c82",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1",
-      "metricName": "score",
-      "metricValue": 0.92585835258185,
-      "isCurrentBest": false,
-      "createdAt": 1776485869894,
-      "depth": 9
-    },
-    {
-      "id": "ca895fca95c0",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1",
-      "metricName": "score",
-      "metricValue": 143.79958305739603,
-      "isCurrentBest": false,
-      "createdAt": 1776485869893,
-      "depth": 9
-    },
-    {
-      "id": "43de109cf18d",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776484271343,
-      "depth": 2
+      "createdAt": 1776502485829,
+      "depth": 0
     }
   ],
   "frontier": [],
@@ -388,9 +403,9 @@
     ],
     "general": [
       {
-        "id": "0ee839d8c070",
-        "title": "AutoWeb round 6: 44/100",
-        "metricValue": 44,
+        "id": "82e5644edb33",
+        "title": "AutoWeb round 19: 70/100",
+        "metricValue": 70,
         "depth": 0
       }
     ]
