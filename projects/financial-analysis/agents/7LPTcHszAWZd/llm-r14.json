@@ -1,0 +1,21 @@
+{
+  "runId": "llm-r14",
+  "runNumber": 14,
+  "hypothesis": "[LLM] Increase momentum factor weight, reduce low-volatility factor weight, and enable drawdown protection to improve Sharpe ratio.",
+  "sharpeRatio": 1.3456,
+  "totalReturn": 3.2165,
+  "maxDrawdown": 0.0524,
+  "alpha": 1.7222,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-04-18T11:08:54.707Z"
+}
