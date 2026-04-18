@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-18T07:47:44.328Z",
+  "timestamp": "2026-04-18T08:47:44.959Z",
   "peerId": "12D3KooWJnDvvsF6y3MfbqAgeLxXmky6WC9zL7soXJFCgVSUTwVe",
   "stats": {
-    "totalNodes": 2377,
+    "totalNodes": 2379,
     "observations": 0,
-    "experiments": 2377,
+    "experiments": 2379,
     "syntheses": 0,
-    "totalEdges": 2373,
+    "totalEdges": 2375,
     "maxDepth": 10,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1289,
+    "infrastructure": 1291,
     "skills": 597,
     "finance": 357,
     "search-ranking": 134
   },
   "recentExperiments": [
+    {
+      "id": "908f6993009f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 233",
+      "metricName": "score",
+      "metricValue": 144.98909579975097,
+      "isCurrentBest": false,
+      "createdAt": 1776499904631,
+      "depth": 4
+    },
+    {
+      "id": "0a75373c66d8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 230",
+      "metricName": "score",
+      "metricValue": 0.9289897756712067,
+      "isCurrentBest": false,
+      "createdAt": 1776499724497,
+      "depth": 4
+    },
     {
       "id": "bd06ec751c02",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776488959908,
-      "depth": 1
-    },
-    {
-      "id": "a373b6a290bc",
-      "domain": "search-ranking",
-      "title": "Search round 34: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776488959115,
-      "depth": 1
-    },
-    {
-      "id": "c65c13cb6c48",
-      "domain": "search-ranking",
-      "title": "Search round 34: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776488959075,
       "depth": 1
     }
   ],
