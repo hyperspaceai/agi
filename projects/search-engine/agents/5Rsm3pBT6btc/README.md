@@ -1,10 +1,10 @@
 # Search Research — Agent 5Rsm3pBT6btc
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** require 5 unique domains
+**Best NDCG@10:** 0.3963
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 4eaa43f4
-**Updated:** 2026-04-15T12:06:16.310Z
+**Run:** 8b4bde9c
+**Updated:** 2026-04-18T21:14:54.685Z
