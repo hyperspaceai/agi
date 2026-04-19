@@ -1,10 +1,10 @@
 # Search Research — Agent 8AmMHuUQKMXi
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.4000
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9b6f6190
-**Updated:** 2026-04-19T05:59:41.863Z
+**Run:** 80894124
+**Updated:** 2026-04-19T15:04:24.599Z
