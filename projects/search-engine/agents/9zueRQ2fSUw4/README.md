@@ -1,10 +1,10 @@
 # Search Research — Agent 9zueRQ2fSUw4
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** local + peer only
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 77678a6c
-**Updated:** 2026-04-18T19:43:19.929Z
+**Run:** f5837374
+**Updated:** 2026-04-19T02:09:57.437Z
