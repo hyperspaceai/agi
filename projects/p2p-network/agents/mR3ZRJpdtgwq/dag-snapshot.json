@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-19T11:47:08.284Z",
+  "timestamp": "2026-04-19T12:47:38.254Z",
   "peerId": "12D3KooWAanDJYtXpnxSFrYRwc2q4YsNyfu7QrYYtCKHBus7hqXd",
   "stats": {
-    "totalNodes": 4810,
+    "totalNodes": 4811,
     "observations": 0,
-    "experiments": 4810,
+    "experiments": 4811,
     "syntheses": 0,
-    "totalEdges": 4806,
+    "totalEdges": 4807,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 2313,
-    "skills": 1450,
+    "skills": 1451,
     "finance": 925,
     "search-ranking": 122
   },
   "recentExperiments": [
+    {
+      "id": "537e7d905e5d",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776600439064,
+      "depth": 3
+    },
     {
       "id": "729ba2ca6c39",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1776575341664,
-      "depth": 3
-    },
-    {
-      "id": "360b3c595897",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776575341144,
       "depth": 3
     }
   ],
