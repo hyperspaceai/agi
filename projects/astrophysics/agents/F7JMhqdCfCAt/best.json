@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWPvfXSyCur6SNSMgsQgcraj3JqprpufqvCjT2YqUMo7H4",
-  "runNumber": 1,
-  "timestamp": 1776600225028,
-  "hypothesis": "Explore: extended training (600s)",
+  "runNumber": 4,
+  "timestamp": 1776603060195,
+  "hypothesis": "Improve on fed87d10 (loss=4.0115): switch to ReLU activation",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -21,7 +21,7 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "gelu",
+    "activation": "relu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
@@ -36,31 +36,31 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.011499014326694,
-    "trainLoss": 4.012851320865463,
+    "valLoss": 3.7704439969341217,
+    "trainLoss": 3.7951824269738874,
     "lossCurve": [
       [
         200,
-        4.031242568941847
+        3.9172246328942144
       ],
       [
         400,
-        4.017087072506595
+        3.8390558791794227
       ],
       [
         600,
-        4.015103684515363
+        3.789517798543075
       ],
       [
-        772,
-        4.011499014326694
+        784,
+        3.7704439969341217
       ]
     ],
-    "durationSec": 606.908,
-    "tokensPerSec": 2605.0999492509573,
-    "totalTokens": 1581056
+    "durationSec": 606.192,
+    "tokensPerSec": 2648.7185578166655,
+    "totalTokens": 1605632
   },
-  "improvement": 0,
+  "improvement": -6.0091007509080026,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
