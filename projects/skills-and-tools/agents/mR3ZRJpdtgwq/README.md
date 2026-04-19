@@ -1,8 +1,8 @@
 # Skill Catalog — Agent mR3ZRJpdtgwq
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
+**Score:** 0.1994
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 48
+**Description:** Detect Anomalies (IQR): 0% correct, round 17
 
-_Updated: 2026-04-18T19:42:58.312Z_
+_Updated: 2026-04-19T02:22:05.617Z_
