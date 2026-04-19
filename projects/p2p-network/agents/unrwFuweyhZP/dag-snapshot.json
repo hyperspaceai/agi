@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-19T07:38:55.676Z",
+  "timestamp": "2026-04-19T08:35:17.284Z",
   "peerId": "12D3KooWAjA2gPVeqsy3ob2UPpsYBKTuE1uWiWtNTUj4ca9TWXTj",
   "stats": {
-    "totalNodes": 3856,
+    "totalNodes": 3858,
     "observations": 0,
-    "experiments": 3856,
+    "experiments": 3858,
     "syntheses": 0,
-    "totalEdges": 3852,
+    "totalEdges": 3854,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1433,
+    "infrastructure": 1435,
     "skills": 1360,
     "finance": 899,
     "search-ranking": 164
   },
   "recentExperiments": [
+    {
+      "id": "8ecd6645645a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 258",
+      "metricName": "score",
+      "metricValue": 0.9588527252367102,
+      "isCurrentBest": false,
+      "createdAt": 1776587098247,
+      "depth": 8
+    },
+    {
+      "id": "c141b3bf9a90",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 242",
+      "metricName": "score",
+      "metricValue": 0.952339684854327,
+      "isCurrentBest": false,
+      "createdAt": 1776586197222,
+      "depth": 8
+    },
     {
       "id": "30ba7a911e53",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.1994,
       "isCurrentBest": false,
       "createdAt": 1776573091373,
-      "depth": 3
-    },
-    {
-      "id": "495e16800df5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 10",
-      "metricName": "score",
-      "metricValue": 141.4332893990642,
-      "isCurrentBest": false,
-      "createdAt": 1776573034142,
-      "depth": 8
-    },
-    {
-      "id": "df19667b47fe",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776572976987,
       "depth": 3
     }
   ],
