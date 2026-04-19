@@ -1,8 +1,8 @@
 # Skill Catalog — Agent mR3ZRJpdtgwq
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 37
+**Description:** Extract Entities from Text: 0% correct, round 66
 
-_Updated: 2026-04-19T03:01:22.946Z_
+_Updated: 2026-04-19T06:28:18.233Z_
