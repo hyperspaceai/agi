@@ -1,10 +1,10 @@
 # Search Research — Agent 4bYiGfJvmgsW
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** reduce body weight (-0.05)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** dafbeee8
-**Updated:** 2026-04-18T16:06:53.685Z
+**Run:** 14e3beca
+**Updated:** 2026-04-19T06:14:29.846Z
