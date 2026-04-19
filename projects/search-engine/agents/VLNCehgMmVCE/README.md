@@ -1,10 +1,10 @@
 # Search Research — Agent VLNCehgMmVCE
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** relaxed peer timeout (5s)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a938eaf4
-**Updated:** 2026-04-18T15:58:12.347Z
+**Run:** aee0723a
+**Updated:** 2026-04-19T07:47:09.507Z
