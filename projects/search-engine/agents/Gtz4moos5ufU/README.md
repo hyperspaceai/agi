@@ -1,10 +1,10 @@
 # Search Research — Agent Gtz4moos5ufU
 
-**Best NDCG@10:** 0.3963
+**Best NDCG@10:** 0.4000
 **Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** da0b9552
-**Updated:** 2026-04-19T15:14:34.774Z
+**Run:** d77ff070
+**Updated:** 2026-04-19T21:15:22.832Z
