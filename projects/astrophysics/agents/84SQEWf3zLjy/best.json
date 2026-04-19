@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWGsoZyeEmBF1UHcrmrxACfqg9GotaCe12xpF7vuzFW1Wq",
-  "runNumber": 27,
-  "timestamp": 1776566991981,
-  "hypothesis": "Improve on 25fb0e58 (loss=3.0450): switch to RMSNorm",
+  "runNumber": 22,
+  "timestamp": 1776567318166,
+  "hypothesis": "Improve on a7e9e1d8 (loss=3.4447): disable gradient clip",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -21,34 +21,34 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "silu",
-    "normalization": "rmsnorm",
+    "activation": "relu",
+    "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 5,
+    "gradientClipNorm": 0,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "xavier",
+    "initType": "normal",
     "initScale": 0.01,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.9427145592196053,
-    "trainLoss": 3.0217245929558323,
+    "valLoss": 3.2005743828849327,
+    "trainLoss": 3.2181988680984133,
     "lossCurve": [
       [
-        44,
-        2.9427145592196053
+        45,
+        3.2005743828849327
       ]
     ],
-    "durationSec": 140.74,
-    "tokensPerSec": 640.2728435412818,
-    "totalTokens": 90112
+    "durationSec": 140.493,
+    "tokensPerSec": 655.9757425636865,
+    "totalTokens": 92160
   },
-  "improvement": -3.360290336995058,
+  "improvement": -7.085899323641021,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
