@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-19T10:29:01.917Z",
+  "timestamp": "2026-04-19T11:25:21.192Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 2548,
+    "totalNodes": 2550,
     "observations": 12,
-    "experiments": 2536,
+    "experiments": 2538,
     "syntheses": 0,
-    "totalEdges": 2532,
+    "totalEdges": 2534,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -48,12 +48,32 @@
   },
   "domainCounts": {
     "knowledge": 12,
-    "infrastructure": 1018,
+    "infrastructure": 1020,
     "skills": 918,
     "finance": 450,
     "search-ranking": 150
   },
   "recentExperiments": [
+    {
+      "id": "95e1e45f8872",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 443",
+      "metricName": "score",
+      "metricValue": 144.99546712649035,
+      "isCurrentBest": false,
+      "createdAt": 1776597555462,
+      "depth": 9
+    },
+    {
+      "id": "051681f09702",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 430",
+      "metricName": "score",
+      "metricValue": 0.9471894182494113,
+      "isCurrentBest": false,
+      "createdAt": 1776596823645,
+      "depth": 9
+    },
     {
       "id": "b4d156dc7f0e",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1776576143665,
-      "depth": 2
-    },
-    {
-      "id": "496185be01a5",
-      "domain": "search-ranking",
-      "title": "Search round 43: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776576141078,
-      "depth": 2
-    },
-    {
-      "id": "7ce2189447d0",
-      "domain": "search-ranking",
-      "title": "Search round 43: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776576140858,
       "depth": 2
     }
   ],
