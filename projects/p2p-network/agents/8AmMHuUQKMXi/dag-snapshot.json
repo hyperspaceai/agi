@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-19T11:25:21.192Z",
+  "timestamp": "2026-04-19T12:21:17.551Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 2550,
+    "totalNodes": 2552,
     "observations": 12,
-    "experiments": 2538,
+    "experiments": 2540,
     "syntheses": 0,
-    "totalEdges": 2534,
+    "totalEdges": 2536,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -49,11 +49,31 @@
   "domainCounts": {
     "knowledge": 12,
     "infrastructure": 1020,
-    "skills": 918,
+    "skills": 920,
     "finance": 450,
     "search-ranking": 150
   },
   "recentExperiments": [
+    {
+      "id": "0cfa0cc7c922",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1776599150548,
+      "depth": 3
+    },
+    {
+      "id": "242de3abb41b",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1776598145873,
+      "depth": 3
+    },
     {
       "id": "95e1e45f8872",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1776576149460,
-      "depth": 2
-    },
-    {
-      "id": "da69a9019680",
-      "domain": "search-ranking",
-      "title": "Search round 43: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776576144270,
-      "depth": 2
-    },
-    {
-      "id": "ffce4597249e",
-      "domain": "search-ranking",
-      "title": "Search round 43: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776576143665,
       "depth": 2
     }
   ],
