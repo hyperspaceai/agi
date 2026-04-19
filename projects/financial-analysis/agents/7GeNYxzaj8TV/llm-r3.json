@@ -1,0 +1,23 @@
+{
+  "runId": "llm-r3",
+  "runNumber": 3,
+  "hypothesis": "[LLM] Increased momentum weight, added dividend yield factor, and switched to risk parity position sizing to improve Sharpe ratio. Added drawdown protection and regime detection to manage risk.",
+  "sharpeRatio": 1.0848,
+  "totalReturn": 2.6193,
+  "maxDrawdown": 0.0843,
+  "alpha": 1.1251,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0.002,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-04-19T12:07:45.154Z"
+}
