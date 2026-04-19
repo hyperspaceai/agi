@@ -1,10 +1,10 @@
 # Search Research — Agent 2NopC9JTifd3
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Best NDCG@10:** 0.3950
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ad8489c8
-**Updated:** 2026-04-18T19:37:17.813Z
+**Run:** b5bc6515
+**Updated:** 2026-04-19T05:57:36.272Z
