@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-19T06:45:52.868Z",
+  "timestamp": "2026-04-19T07:45:58.792Z",
   "peerId": "12D3KooWAanDJYtXpnxSFrYRwc2q4YsNyfu7QrYYtCKHBus7hqXd",
   "stats": {
-    "totalNodes": 4801,
+    "totalNodes": 4804,
     "observations": 0,
-    "experiments": 4801,
+    "experiments": 4804,
     "syntheses": 0,
-    "totalEdges": 4797,
+    "totalEdges": 4800,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 3
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2307,
-    "skills": 1447,
+    "infrastructure": 2309,
+    "skills": 1448,
     "finance": 925,
     "search-ranking": 122
   },
   "recentExperiments": [
+    {
+      "id": "d42ec50c1b0a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 165",
+      "metricName": "score",
+      "metricValue": 0.9644341149714203,
+      "isCurrentBest": false,
+      "createdAt": 1776582084079,
+      "depth": 9
+    },
+    {
+      "id": "20066cc97795",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776581874091,
+      "depth": 3
+    },
+    {
+      "id": "4d7720f05b5f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 161",
+      "metricName": "score",
+      "metricValue": 0.9623721029191912,
+      "isCurrentBest": false,
+      "createdAt": 1776581844077,
+      "depth": 9
+    },
     {
       "id": "656986606712",
       "domain": "skills",
@@ -221,36 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1776574977797,
-      "depth": 3
-    },
-    {
-      "id": "a09b65c1e771",
-      "domain": "search-ranking",
-      "title": "Search round 31: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776574977295,
-      "depth": 3
-    },
-    {
-      "id": "351c547043f1",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776574769679,
-      "depth": 3
-    },
-    {
-      "id": "670f9185b9ab",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776574404570,
       "depth": 3
     }
   ],
