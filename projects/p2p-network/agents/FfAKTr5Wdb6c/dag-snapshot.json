@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-19T05:46:07.745Z",
+  "timestamp": "2026-04-19T06:46:40.863Z",
   "peerId": "12D3KooWQUXVCyfDpVN78XuRX8KWK1nhQPd8SuQ2mhPaCFciqcph",
   "stats": {
-    "totalNodes": 1349,
+    "totalNodes": 1351,
     "observations": 0,
-    "experiments": 1349,
+    "experiments": 1351,
     "syntheses": 0,
-    "totalEdges": 1345,
+    "totalEdges": 1347,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 13
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 514,
-    "skills": 487,
+    "infrastructure": 515,
+    "skills": 488,
     "finance": 320,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "45091f7667bb",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1776579759006,
+      "depth": 2
+    },
+    {
+      "id": "3e7611909cef",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 97",
+      "metricName": "score",
+      "metricValue": 141.03732932203587,
+      "isCurrentBest": false,
+      "createdAt": 1776578016931,
+      "depth": 6
+    },
     {
       "id": "59bcea8e81a0",
       "domain": "finance",
@@ -231,26 +251,6 @@
       "metricValue": 0.1999,
       "isCurrentBest": false,
       "createdAt": 1776573004002,
-      "depth": 2
-    },
-    {
-      "id": "7a704de747c5",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.2160",
-      "metricName": "Sharpe",
-      "metricValue": 1.216,
-      "isCurrentBest": false,
-      "createdAt": 1776572913995,
-      "depth": 6
-    },
-    {
-      "id": "57f40a3bfacd",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1776572884000,
       "depth": 2
     }
   ],
