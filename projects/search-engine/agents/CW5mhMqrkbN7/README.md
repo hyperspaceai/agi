@@ -1,10 +1,10 @@
 # Search Research — Agent CW5mhMqrkbN7
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 030627a8
-**Updated:** 2026-04-19T05:52:12.648Z
+**Run:** 3d4686fb
+**Updated:** 2026-04-19T21:16:22.465Z
