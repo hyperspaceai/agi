@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-19T08:45:03.923Z",
+  "timestamp": "2026-04-19T09:45:04.044Z",
   "peerId": "12D3KooWF16QET5x2rubkCDxZ3JaoiFkeiGmt6uzVjFQiUiGHUo1",
   "stats": {
-    "totalNodes": 4918,
+    "totalNodes": 4919,
     "observations": 0,
-    "experiments": 4918,
+    "experiments": 4919,
     "syntheses": 0,
-    "totalEdges": 4914,
+    "totalEdges": 4915,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 2353,
-    "skills": 1428,
+    "skills": 1429,
     "finance": 958,
     "search-ranking": 179
   },
   "recentExperiments": [
+    {
+      "id": "bb5f8a9137b3",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776589383757,
+      "depth": 3
+    },
     {
       "id": "37d222280c3c",
       "domain": "skills",
@@ -241,16 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1776575660914,
-      "depth": 1
-    },
-    {
-      "id": "44533ac0e0cc",
-      "domain": "search-ranking",
-      "title": "Search round 39: increase diversity penalty (0.2)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776575660516,
       "depth": 1
     }
   ],
