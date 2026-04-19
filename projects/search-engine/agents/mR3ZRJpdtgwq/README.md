@@ -1,10 +1,10 @@
 # Search Research — Agent mR3ZRJpdtgwq
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 0a8aa520
-**Updated:** 2026-04-17T21:36:08.207Z
+**Run:** 9d798810
+**Updated:** 2026-04-19T05:43:04.476Z
