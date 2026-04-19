@@ -1,27 +1,22 @@
 {
   "runId": "llm-r8",
   "runNumber": 8,
-  "hypothesis": "[LLM] Increasing momentum factor weight to 0.35 and reducing drawdown protection threshold to 0.05",
-  "sharpeRatio": 1.8114,
-  "totalReturn": 4.1108,
-  "maxDrawdown": 0.0249,
-  "alpha": 2.6166,
+  "hypothesis": "[LLM] Increasing momentum factor weight to 0.35 to enhance the strategy's momentum influence.",
+  "sharpeRatio": 1.3988,
+  "totalReturn": 3.2906,
+  "maxDrawdown": 0.0425,
+  "alpha": 1.7963,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
     "lowVolWeight",
-    "momentum",
-    "value",
-    "quality",
-    "lowVol",
-    "trend",
-    "volatilityTarget"
+    "trendWeight"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0.001,
+  "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-04-01T10:50:05.019Z"
+  "timestamp": "2026-04-19T15:59:43.978Z"
 }
