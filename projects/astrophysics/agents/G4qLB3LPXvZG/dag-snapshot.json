@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-19T09:03:03.870Z",
+  "timestamp": "2026-04-20T18:19:45.514Z",
   "peerId": "12D3KooWQtCVvAv6ippkXWFQVWUYNDgRBbKApaMkBhiM1hkWrfB7",
   "stats": {
-    "totalNodes": 1253,
-    "observations": 777,
-    "experiments": 476,
+    "totalNodes": 1534,
+    "observations": 929,
+    "experiments": 605,
     "syntheses": 0,
-    "totalEdges": 472,
+    "totalEdges": 601,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 24
+    "recentActivity": 31
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,21 +47,61 @@
     }
   },
   "domainCounts": {
-    "knowledge": 777,
-    "infrastructure": 140,
-    "skills": 222,
-    "finance": 100,
+    "knowledge": 929,
+    "infrastructure": 177,
+    "skills": 291,
+    "finance": 123,
     "search-ranking": 14
   },
   "recentExperiments": [
     {
-      "id": "ac8253d413f8",
+      "id": "60ae5bb7c9c7",
       "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1977,
+      "metricValue": 0.1976,
       "isCurrentBest": false,
-      "createdAt": 1776587794011,
+      "createdAt": 1776709042191,
+      "depth": 3
+    },
+    {
+      "id": "0c56dd58bf3e",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1976,
+      "isCurrentBest": false,
+      "createdAt": 1776707815841,
+      "depth": 3
+    },
+    {
+      "id": "cfa42d33bc33",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1976,
+      "isCurrentBest": false,
+      "createdAt": 1776707609453,
+      "depth": 3
+    },
+    {
+      "id": "719fa6f97525",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 68",
+      "metricName": "score",
+      "metricValue": 141.26109163166305,
+      "isCurrentBest": false,
+      "createdAt": 1776707282152,
+      "depth": 3
+    },
+    {
+      "id": "6109dfc3ae6e",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1976,
+      "isCurrentBest": false,
+      "createdAt": 1776706553702,
       "depth": 3
     }
   ],
