@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-20T14:32:29.076Z",
+  "timestamp": "2026-04-20T15:32:29.326Z",
   "peerId": "12D3KooWJhYNDuVpWMHjEUjnXcquvR5Lef8Hs8USqNPg367THfPe",
   "stats": {
-    "totalNodes": 4507,
+    "totalNodes": 4510,
     "observations": 0,
-    "experiments": 4507,
+    "experiments": 4510,
     "syntheses": 0,
-    "totalEdges": 4503,
+    "totalEdges": 4506,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2233,
-    "skills": 1221,
+    "infrastructure": 2235,
+    "skills": 1222,
     "finance": 904,
     "search-ranking": 149
   },
   "recentExperiments": [
+    {
+      "id": "ae529f2a3f54",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 317",
+      "metricName": "score",
+      "metricValue": 0.9616663675871188,
+      "isCurrentBest": false,
+      "createdAt": 1776698428864,
+      "depth": 2
+    },
+    {
+      "id": "f9ad00d63499",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 314",
+      "metricName": "score",
+      "metricValue": 0.9607433017912449,
+      "isCurrentBest": false,
+      "createdAt": 1776698248858,
+      "depth": 2
+    },
+    {
+      "id": "2fd774cafd79",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1776695788830,
+      "depth": 3
+    },
     {
       "id": "aa778e9e7489",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776683183891,
-      "depth": 2
-    },
-    {
-      "id": "be60d3a0e59b",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776682826582,
-      "depth": 2
-    },
-    {
-      "id": "4adecdcbf303",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776682825383,
-      "depth": 2
-    },
-    {
-      "id": "5a158069be77",
-      "domain": "search-ranking",
-      "title": "Search round 38: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776682824664,
       "depth": 2
     }
   ],
