@@ -1,8 +1,8 @@
 # Skill Catalog — Agent Bowy1w8nq9UJ
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1992
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1991
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 83
+**Description:** Extract Entities from Text: 0% correct, round 10
 
-_Updated: 2026-04-18T10:16:01.122Z_
+_Updated: 2026-04-20T12:58:12.391Z_
