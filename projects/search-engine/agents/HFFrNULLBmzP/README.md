@@ -1,10 +1,10 @@
 # Search Research — Agent HFFrNULLBmzP
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost click weight (+0.03)
+**Hypothesis:** Modifying scoring script to improve NDCG@1O by boosting titleWeight and adjusting authority weight representation.
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c5735640
-**Updated:** 2026-04-19T07:12:19.353Z
+**Run:** 02c80cbc
+**Updated:** 2026-04-20T18:27:11.184Z
