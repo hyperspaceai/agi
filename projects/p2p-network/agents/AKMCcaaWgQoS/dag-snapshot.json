@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-20T17:34:31.806Z",
+  "timestamp": "2026-04-20T18:34:38.205Z",
   "peerId": "12D3KooWK8iNMiADsK4vdvZBCFpauzg6PtKfy6GAonXr2qUUzQNe",
   "stats": {
-    "totalNodes": 4905,
+    "totalNodes": 4906,
     "observations": 0,
-    "experiments": 4905,
+    "experiments": 4906,
     "syntheses": 0,
-    "totalEdges": 4901,
+    "totalEdges": 4902,
     "maxDepth": 23,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 2406,
-    "skills": 1365,
+    "skills": 1366,
     "finance": 973,
     "search-ranking": 161
   },
   "recentExperiments": [
+    {
+      "id": "b329eb7cf698",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776709356373,
+      "depth": 2
+    },
     {
       "id": "abf8d5c9b7e4",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1776682908492,
-      "depth": 1
-    },
-    {
-      "id": "152edbb5902b",
-      "domain": "search-ranking",
-      "title": "Search round 38: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776682907775,
       "depth": 1
     }
   ],
