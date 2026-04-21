@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-21T21:40:33.808Z",
+  "timestamp": "2026-04-21T23:40:34.206Z",
   "peerId": "12D3KooWBExHzV83fyg1QoeNQ3qp7LorZpZ1GmU3tBx2mX6ujgBR",
   "stats": {
-    "totalNodes": 2771,
+    "totalNodes": 2778,
     "observations": 0,
-    "experiments": 2771,
+    "experiments": 2778,
     "syntheses": 0,
-    "totalEdges": 2767,
+    "totalEdges": 2774,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,82 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 967,
-    "skills": 1061,
+    "infrastructure": 971,
+    "skills": 1064,
     "finance": 543,
     "search-ranking": 200
   },
   "recentExperiments": [
+    {
+      "id": "6ca213575a33",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776810993751,
+      "depth": 5
+    },
+    {
+      "id": "0a863988e2b9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 204",
+      "metricName": "score",
+      "metricValue": 0.9528416041715981,
+      "isCurrentBest": false,
+      "createdAt": 1776810933651,
+      "depth": 2
+    },
+    {
+      "id": "e255c12c2a8b",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776810633673,
+      "depth": 5
+    },
+    {
+      "id": "01ce0f8606d7",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776810273664,
+      "depth": 5
+    },
+    {
+      "id": "a62bc0cb9c2a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 189",
+      "metricName": "score",
+      "metricValue": 0.9526849684286045,
+      "isCurrentBest": false,
+      "createdAt": 1776810033635,
+      "depth": 2
+    },
+    {
+      "id": "f902a59b088a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 187",
+      "metricName": "score",
+      "metricValue": 144.9855324575066,
+      "isCurrentBest": false,
+      "createdAt": 1776809913635,
+      "depth": 2
+    },
+    {
+      "id": "eb66f6f5ede1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 186",
+      "metricName": "score",
+      "metricValue": 0.951884062953357,
+      "isCurrentBest": false,
+      "createdAt": 1776809853635,
+      "depth": 2
+    },
     {
       "id": "f5ef09a7b0e5",
       "domain": "infrastructure",
@@ -182,76 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776802461313,
       "depth": 1
-    },
-    {
-      "id": "550a6d29b380",
-      "domain": "search-ranking",
-      "title": "Search round 42: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776802461221,
-      "depth": 1
-    },
-    {
-      "id": "6dac4cf3013b",
-      "domain": "search-ranking",
-      "title": "Search round 42: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776802459240,
-      "depth": 1
-    },
-    {
-      "id": "c7cd17785dee",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776802113337,
-      "depth": 1
-    },
-    {
-      "id": "3b5fa1538cf4",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776802100418,
-      "depth": 1
-    },
-    {
-      "id": "9f17ddec36d7",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776802100328,
-      "depth": 1
-    },
-    {
-      "id": "705edd8f8038",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1776802099396,
-      "depth": 1
-    },
-    {
-      "id": "7625c7fdd132",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776801033480,
-      "depth": 5
     }
   ],
   "frontier": [],
