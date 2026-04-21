@@ -1,10 +1,10 @@
 # Search Research — Agent 7NGoGvwngWaN
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** Increase titleWeight and explore combining it with authorityWeight, as boosting title relevance has shown positive impact on NDCG.
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c3282efc
-**Updated:** 2026-03-24T18:53:58.875Z
+**Run:** 6d968310
+**Updated:** 2026-04-21T04:27:11.478Z
