@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-21T04:53:08.490Z",
+  "timestamp": "2026-04-21T06:53:08.965Z",
   "peerId": "12D3KooWF1WzArLbvmQ2iiexaT3Q7HaKwFUybpQV1oH7AuX8DxPc",
   "stats": {
-    "totalNodes": 4860,
+    "totalNodes": 4865,
     "observations": 0,
-    "experiments": 4860,
+    "experiments": 4865,
     "syntheses": 0,
-    "totalEdges": 4856,
+    "totalEdges": 4861,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2329,
-    "skills": 1471,
+    "infrastructure": 2331,
+    "skills": 1474,
     "finance": 942,
     "search-ranking": 118
   },
   "recentExperiments": [
+    {
+      "id": "6d49e375f419",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776752828284,
+      "depth": 2
+    },
+    {
+      "id": "14dc24870df6",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776752708288,
+      "depth": 2
+    },
+    {
+      "id": "26a1d09f9bec",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776752348282,
+      "depth": 2
+    },
+    {
+      "id": "dc5bc0e53bf7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 204",
+      "metricName": "score",
+      "metricValue": 0.9553013766365798,
+      "isCurrentBest": false,
+      "createdAt": 1776750488116,
+      "depth": 17
+    },
+    {
+      "id": "3cc1b5c0cd9b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 187",
+      "metricName": "score",
+      "metricValue": 141.07859053837672,
+      "isCurrentBest": false,
+      "createdAt": 1776749468067,
+      "depth": 17
+    },
     {
       "id": "e6658331dc63",
       "domain": "infrastructure",
@@ -201,56 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1776741360427,
-      "depth": 2
-    },
-    {
-      "id": "361e2eab6997",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776741186570,
-      "depth": 2
-    },
-    {
-      "id": "be665cacc5d7",
-      "domain": "search-ranking",
-      "title": "Search round 31: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776741006444,
-      "depth": 2
-    },
-    {
-      "id": "bac467f8b3e4",
-      "domain": "search-ranking",
-      "title": "Search round 31: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776741005346,
-      "depth": 2
-    },
-    {
-      "id": "365c69ac4d6d",
-      "domain": "search-ranking",
-      "title": "Search round 31: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776741004743,
-      "depth": 2
-    },
-    {
-      "id": "7edfb12ad78f",
-      "domain": "search-ranking",
-      "title": "Search round 31: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776741004232,
       "depth": 2
     }
   ],
