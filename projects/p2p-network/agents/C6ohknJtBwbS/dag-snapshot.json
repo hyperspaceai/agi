@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-21T10:03:33.643Z",
+  "timestamp": "2026-04-21T11:03:33.774Z",
   "peerId": "12D3KooWLvAsVutbNqrvzq2LAMePpzCVgKub4ymbAcoiJDSHnAkU",
   "stats": {
-    "totalNodes": 4166,
+    "totalNodes": 4169,
     "observations": 0,
-    "experiments": 4166,
+    "experiments": 4169,
     "syntheses": 0,
-    "totalEdges": 4162,
+    "totalEdges": 4165,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1810,
+    "infrastructure": 1813,
     "skills": 1277,
     "finance": 854,
     "search-ranking": 225
   },
   "recentExperiments": [
+    {
+      "id": "76f9e8aa7a74",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 293",
+      "metricName": "score",
+      "metricValue": 144.99690020524247,
+      "isCurrentBest": false,
+      "createdAt": 1776767253535,
+      "depth": 8
+    },
+    {
+      "id": "ad42f0b1d442",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 286",
+      "metricName": "score",
+      "metricValue": 144.99712762597474,
+      "isCurrentBest": false,
+      "createdAt": 1776766833521,
+      "depth": 8
+    },
+    {
+      "id": "080bf33851d5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 272",
+      "metricName": "score",
+      "metricValue": 0.9437585935690418,
+      "isCurrentBest": false,
+      "createdAt": 1776765993498,
+      "depth": 8
+    },
     {
       "id": "1b4d6ede89da",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1776753073417,
-      "depth": 3
-    },
-    {
-      "id": "dded369c402d",
-      "domain": "search-ranking",
-      "title": "Search round 38: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776753071827,
-      "depth": 3
-    },
-    {
-      "id": "7a9b557e5104",
-      "domain": "search-ranking",
-      "title": "Search round 38: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776753071757,
-      "depth": 3
-    },
-    {
-      "id": "b76ea613cbea",
-      "domain": "search-ranking",
-      "title": "Search round 38: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776753071417,
       "depth": 3
     }
   ],
