@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-21T10:51:44.303Z",
+  "timestamp": "2026-04-21T12:51:44.633Z",
   "peerId": "12D3KooWRMTktXJJvF8cSrkJayoA6t6cCpKBWckvWZU8SGmXLuQE",
   "stats": {
-    "totalNodes": 4885,
-    "observations": 3844,
-    "experiments": 1041,
+    "totalNodes": 4962,
+    "observations": 3908,
+    "experiments": 1054,
     "syntheses": 0,
-    "totalEdges": 1038,
+    "totalEdges": 1051,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 35
+    "recentActivity": 33
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,21 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 519,
-    "skills": 365,
+    "infrastructure": 523,
+    "skills": 374,
     "finance": 157,
-    "knowledge": 3844
+    "knowledge": 3908
   },
   "recentExperiments": [
     {
-      "id": "497c9ecd8976",
+      "id": "b4b8a4544c27",
       "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1994,
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1776766784040,
+      "createdAt": 1776775424461,
       "depth": 1
+    },
+    {
+      "id": "76161cb517ea",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 306",
+      "metricName": "score",
+      "metricValue": 0.9568498200442528,
+      "isCurrentBest": false,
+      "createdAt": 1776774524405,
+      "depth": 2
     }
   ],
   "frontier": [],
