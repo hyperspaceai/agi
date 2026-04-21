@@ -1,10 +1,10 @@
 # Search Research — Agent 6H7Z9m9HfCBP
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** disable intent classification
+**Best NDCG@10:** 0.4000
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 954108dc
-**Updated:** 2026-04-20T23:43:26.009Z
+**Run:** 2454a9a8
+**Updated:** 2026-04-21T03:57:31.366Z
