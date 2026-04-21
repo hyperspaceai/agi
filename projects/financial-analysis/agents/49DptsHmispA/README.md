@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 49DptsHmispA
 
-**Best Sharpe Ratio:** 1.3105
-**Hypothesis:** Round 6 best mutation
+**Best Sharpe Ratio:** 1.2820
+**Hypothesis:** Round 3 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.5126
-**Max Drawdown:** 0.0550
+**Alpha:** 1.5198
+**Max Drawdown:** 0.0575
 **LLM:** unknown
-**Run:** finance-r6
-**Updated:** 2026-04-20T10:37:46.511Z
+**Run:** finance-r3
+**Updated:** 2026-04-21T16:15:32.716Z
