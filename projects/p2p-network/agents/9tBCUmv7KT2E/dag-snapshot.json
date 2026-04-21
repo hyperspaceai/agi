@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-21T02:50:24.070Z",
+  "timestamp": "2026-04-21T03:50:24.094Z",
   "peerId": "12D3KooWJhYNDuVpWMHjEUjnXcquvR5Lef8Hs8USqNPg367THfPe",
   "stats": {
-    "totalNodes": 4653,
+    "totalNodes": 4658,
     "observations": 0,
-    "experiments": 4653,
+    "experiments": 4658,
     "syntheses": 0,
-    "totalEdges": 4649,
+    "totalEdges": 4654,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 61
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2280,
-    "skills": 1276,
-    "finance": 948,
+    "infrastructure": 2283,
+    "skills": 1277,
+    "finance": 949,
     "search-ranking": 149
   },
   "recentExperiments": [
+    {
+      "id": "fb8b741b72be",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776742583835,
+      "depth": 3
+    },
+    {
+      "id": "8ee6e93f3648",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 63",
+      "metricName": "score",
+      "metricValue": 141.04962566465193,
+      "isCurrentBest": false,
+      "createdAt": 1776741863812,
+      "depth": 2
+    },
+    {
+      "id": "4b4436bd20c8",
+      "domain": "finance",
+      "title": "Finance round 18: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "isCurrentBest": false,
+      "createdAt": 1776740723802,
+      "depth": 5
+    },
+    {
+      "id": "83ef13c8a867",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 41",
+      "metricName": "score",
+      "metricValue": 141.0723195556384,
+      "isCurrentBest": false,
+      "createdAt": 1776740543798,
+      "depth": 2
+    },
+    {
+      "id": "1f53504e5c1b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 31",
+      "metricName": "score",
+      "metricValue": 141.15091775946937,
+      "isCurrentBest": false,
+      "createdAt": 1776739943795,
+      "depth": 2
+    },
     {
       "id": "13834d819cc7",
       "domain": "skills",
@@ -202,56 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776738623783,
       "depth": 2
-    },
-    {
-      "id": "c5ca866ed3d3",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776738503793,
-      "depth": 3
-    },
-    {
-      "id": "d5c78f100216",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.0903",
-      "metricName": "Sharpe",
-      "metricValue": 1.0903,
-      "isCurrentBest": false,
-      "createdAt": 1776738474075,
-      "depth": 5
-    },
-    {
-      "id": "1ab53d36c873",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776738383794,
-      "depth": 3
-    },
-    {
-      "id": "1777cdf61636",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.0753",
-      "metricName": "Sharpe",
-      "metricValue": 1.0753,
-      "isCurrentBest": false,
-      "createdAt": 1776738323788,
-      "depth": 5
-    },
-    {
-      "id": "0c6ab73f5f34",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776738263797,
-      "depth": 3
     }
   ],
   "frontier": [],
