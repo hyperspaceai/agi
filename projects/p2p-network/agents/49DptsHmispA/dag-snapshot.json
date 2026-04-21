@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-21T11:38:42.591Z",
+  "timestamp": "2026-04-21T12:38:42.696Z",
   "peerId": "12D3KooWCxazdzsUun5eVZHVuETw2yFqQiKSfNZjbxEnfkBrJArk",
   "stats": {
-    "totalNodes": 1378,
+    "totalNodes": 1379,
     "observations": 0,
-    "experiments": 1378,
+    "experiments": 1379,
     "syntheses": 0,
-    "totalEdges": 1374,
+    "totalEdges": 1375,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 636,
+    "infrastructure": 637,
     "skills": 439,
     "finance": 232,
     "search-ranking": 71
   },
   "recentExperiments": [
+    {
+      "id": "cc8f3c6c8de6",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 445",
+      "metricName": "score",
+      "metricValue": 145.2002349698485,
+      "isCurrentBest": false,
+      "createdAt": 1776774702629,
+      "depth": 8
+    },
     {
       "id": "dc1808ed2143",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.1999,
       "isCurrentBest": false,
       "createdAt": 1776747857035,
-      "depth": 2
-    },
-    {
-      "id": "3cd57a575ff0",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1776747736902,
       "depth": 2
     }
   ],
