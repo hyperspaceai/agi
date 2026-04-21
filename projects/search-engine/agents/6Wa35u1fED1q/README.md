@@ -1,10 +1,10 @@
 # Search Research — Agent 6Wa35u1fED1q
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8f866220
-**Updated:** 2026-04-20T11:35:37.074Z
+**Run:** e6e511b0
+**Updated:** 2026-04-21T01:46:21.954Z
