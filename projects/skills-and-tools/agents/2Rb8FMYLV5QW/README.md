@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2Rb8FMYLV5QW
 
-**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
-**Score:** 0.1996
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Score:** 0.1995
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct, round 85
+**Description:** Compute Text Statistics: 0% correct, round 35
 
-_Updated: 2026-04-21T19:00:05.252Z_
+_Updated: 2026-04-21T20:21:07.378Z_
