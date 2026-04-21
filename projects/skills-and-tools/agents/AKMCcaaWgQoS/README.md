@@ -1,8 +1,8 @@
 # Skill Catalog — Agent AKMCcaaWgQoS
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 59
+**Description:** Structured JSON Diff: 0% correct, round 45
 
-_Updated: 2026-04-21T17:57:24.457Z_
+_Updated: 2026-04-21T20:10:46.379Z_
