@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-21T14:55:44.550Z",
+  "timestamp": "2026-04-21T15:55:44.909Z",
   "peerId": "12D3KooWD19Hw2onpjwkX8t89pKCLeqhzfmkAL74Cex2KcdeyPAb",
   "stats": {
-    "totalNodes": 4559,
+    "totalNodes": 4560,
     "observations": 3442,
-    "experiments": 1117,
+    "experiments": 1118,
     "syntheses": 0,
-    "totalEdges": 1113,
+    "totalEdges": 1114,
     "maxDepth": 14,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,13 +47,23 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 584,
+    "infrastructure": 585,
     "finance": 388,
     "search-ranking": 62,
     "knowledge": 3442,
     "skills": 83
   },
   "recentExperiments": [
+    {
+      "id": "cbbd63ab3ae0",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 768",
+      "metricName": "score",
+      "metricValue": 0.9302781499791573,
+      "isCurrentBest": false,
+      "createdAt": 1776784454537,
+      "depth": 14
+    },
     {
       "id": "821613575688",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1776742908413,
-      "depth": 2
-    },
-    {
-      "id": "62848503b2bf",
-      "domain": "search-ranking",
-      "title": "Search round 46: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1776742548595,
       "depth": 2
     }
   ],
