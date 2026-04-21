@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-21T13:01:12.989Z",
+  "timestamp": "2026-04-21T14:01:13.213Z",
   "peerId": "12D3KooWL4YSpAJz4EkBQzuEhxuX5yi8YnwS2v5bE26fjtRLk5hk",
   "stats": {
-    "totalNodes": 3275,
+    "totalNodes": 3277,
     "observations": 0,
-    "experiments": 3275,
+    "experiments": 3277,
     "syntheses": 0,
-    "totalEdges": 3272,
+    "totalEdges": 3274,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2185,
+    "infrastructure": 2187,
     "finance": 872,
     "search-ranking": 218
   },
   "recentExperiments": [
+    {
+      "id": "048f44ef7013",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 646",
+      "metricName": "score",
+      "metricValue": 145.06278069458023,
+      "isCurrentBest": false,
+      "createdAt": 1776777492897,
+      "depth": 7
+    },
+    {
+      "id": "51ed8c68cf1c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 637",
+      "metricName": "score",
+      "metricValue": 145.0713497526633,
+      "isCurrentBest": false,
+      "createdAt": 1776776952861,
+      "depth": 7
+    },
     {
       "id": "baec4851bb3f",
       "domain": "infrastructure",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1776742029053,
       "depth": 7
-    },
-    {
-      "id": "08dddf786380",
-      "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.3129",
-      "metricName": "Sharpe",
-      "metricValue": 1.3129,
-      "isCurrentBest": false,
-      "createdAt": 1776740019062,
-      "depth": 8
-    },
-    {
-      "id": "09ec3f1f99da",
-      "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.3031",
-      "metricName": "Sharpe",
-      "metricValue": 1.3031,
-      "isCurrentBest": false,
-      "createdAt": 1776739869065,
-      "depth": 8
     }
   ],
   "frontier": [],
