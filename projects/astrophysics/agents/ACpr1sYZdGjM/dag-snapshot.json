@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-21T01:32:08.527Z",
+  "timestamp": "2026-04-21T07:28:37.093Z",
   "peerId": "12D3KooWK2C1m18GpAzqw8GhunSFM8FgPZLmPSKgGpXEJiPuaqgZ",
   "stats": {
-    "totalNodes": 4973,
-    "observations": 4312,
-    "experiments": 661,
+    "totalNodes": 4527,
+    "observations": 3865,
+    "experiments": 662,
     "syntheses": 0,
-    "totalEdges": 659,
+    "totalEdges": 660,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 16
+    "recentActivity": 35
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -31,60 +31,90 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 534,
-    "finance": 127,
-    "knowledge": 4312
+    "infrastructure": 521,
+    "finance": 141,
+    "knowledge": 3865
   },
   "recentExperiments": [
     {
-      "id": "f3b6f6f09a0d",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 553",
-      "metricName": "score",
-      "metricValue": 141.14540756966568,
+      "id": "08a48db8e5fd",
+      "domain": "finance",
+      "title": "Finance round 11: Sharpe=1.3105",
+      "metricName": "Sharpe",
+      "metricValue": 1.3105,
       "isCurrentBest": false,
-      "createdAt": 1776734138442,
+      "createdAt": 1776756367032,
+      "depth": 8
+    },
+    {
+      "id": "74b9b04a1585",
+      "domain": "finance",
+      "title": "Finance round 9: Sharpe=1.3031",
+      "metricName": "Sharpe",
+      "metricValue": 1.3031,
+      "isCurrentBest": false,
+      "createdAt": 1776756067027,
+      "depth": 8
+    },
+    {
+      "id": "409ff0b396d9",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.2960",
+      "metricName": "Sharpe",
+      "metricValue": 1.296,
+      "isCurrentBest": false,
+      "createdAt": 1776755617018,
+      "depth": 8
+    },
+    {
+      "id": "7584596abd6b",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.2216",
+      "metricName": "Sharpe",
+      "metricValue": 1.2216,
+      "isCurrentBest": false,
+      "createdAt": 1776755466998,
+      "depth": 8
+    },
+    {
+      "id": "9a8c69d813d9",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2123",
+      "metricName": "Sharpe",
+      "metricValue": 1.2123,
+      "isCurrentBest": false,
+      "createdAt": 1776755317041,
+      "depth": 8
+    },
+    {
+      "id": "76e5d1cbabde",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 8",
+      "metricName": "score",
+      "metricValue": 141.22376065436674,
+      "isCurrentBest": false,
+      "createdAt": 1776755256983,
       "depth": 3
     },
     {
-      "id": "da03e06015e7",
+      "id": "570f75d1b3f4",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 544",
+      "title": "Cause literature-analysis round 7",
       "metricName": "score",
-      "metricValue": 141.31141876025558,
+      "metricValue": 0.9652454491355056,
       "isCurrentBest": false,
-      "createdAt": 1776733598433,
+      "createdAt": 1776755196982,
       "depth": 3
     },
     {
-      "id": "8c8d34461b9e",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 531",
-      "metricName": "score",
-      "metricValue": 141.38421589019296,
+      "id": "e08816b8b510",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1751",
+      "metricName": "Sharpe",
+      "metricValue": 1.1751,
       "isCurrentBest": false,
-      "createdAt": 1776732818428,
-      "depth": 3
-    },
-    {
-      "id": "fdd79e6c0f30",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 520",
-      "metricName": "score",
-      "metricValue": 0.9500927255220807,
-      "isCurrentBest": false,
-      "createdAt": 1776732158421,
-      "depth": 3
-    },
-    {
-      "id": "124de4f5f56d",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 508",
-      "metricName": "score",
-      "metricValue": 141.39800788821904,
-      "isCurrentBest": false,
-      "createdAt": 1776731438412,
-      "depth": 3
+      "createdAt": 1776755166994,
+      "depth": 8
     }
   ],
   "frontier": [],
