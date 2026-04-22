@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-22T15:41:16.500Z",
+  "timestamp": "2026-04-22T16:41:17.737Z",
   "peerId": "12D3KooWEoyi3Xn5Y4nrebBwPZTDVyjwuLSUMCLSJo9mBSpGrx38",
   "stats": {
-    "totalNodes": 4916,
+    "totalNodes": 4919,
     "observations": 0,
-    "experiments": 4916,
+    "experiments": 4919,
     "syntheses": 0,
-    "totalEdges": 4912,
+    "totalEdges": 4915,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2330,
+    "infrastructure": 2333,
     "skills": 1484,
     "finance": 933,
     "search-ranking": 169
   },
   "recentExperiments": [
+    {
+      "id": "58de3896c41f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 735",
+      "metricName": "score",
+      "metricValue": 0.9214464968143338,
+      "isCurrentBest": false,
+      "createdAt": 1776875237279,
+      "depth": 7
+    },
+    {
+      "id": "d7635f2f2dd1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 726",
+      "metricName": "score",
+      "metricValue": 0.9211672282346735,
+      "isCurrentBest": false,
+      "createdAt": 1776874696636,
+      "depth": 7
+    },
+    {
+      "id": "13656262eedf",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 724",
+      "metricName": "score",
+      "metricValue": 0.9205334042269508,
+      "isCurrentBest": false,
+      "createdAt": 1776874576626,
+      "depth": 7
+    },
     {
       "id": "9be4cd2e93fc",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776835864775,
       "depth": 2
-    },
-    {
-      "id": "bc79dd332095",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 73",
-      "metricName": "score",
-      "metricValue": 141.15036112819988,
-      "isCurrentBest": false,
-      "createdAt": 1776835504676,
-      "depth": 7
-    },
-    {
-      "id": "7d1fdacfe7d2",
-      "domain": "search-ranking",
-      "title": "Search round 39: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776834600999,
-      "depth": 1
-    },
-    {
-      "id": "37d888686f21",
-      "domain": "search-ranking",
-      "title": "Search round 39: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776834600501,
-      "depth": 1
     }
   ],
   "frontier": [],
