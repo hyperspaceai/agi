@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 3a2jC8azDWHq
 
-**Best Sharpe Ratio:** 1.2946
-**Hypothesis:** Round 36 best mutation
+**Best Sharpe Ratio:** 1.1977
+**Hypothesis:** [LLM] Increase Sharpe ratio by implementing volatility targeting and adding low volatility factor.
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.3532
-**Max Drawdown:** 0.0682
+**Position Sizing:** equal_weight
+**Alpha:** 1.1130
+**Max Drawdown:** 0.0717
 **LLM:** unknown
-**Run:** finance-r36
-**Updated:** 2026-04-19T06:07:51.920Z
+**Run:** llm-r5
+**Updated:** 2026-04-22T09:05:39.013Z
