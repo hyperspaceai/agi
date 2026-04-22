@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-22T09:33:58.748Z",
+  "timestamp": "2026-04-22T10:33:59.295Z",
   "peerId": "12D3KooWFuensBNkGvy6iiNJVUt6xd1mtjGUyT8Koh54dQWGPqF5",
   "stats": {
-    "totalNodes": 171,
+    "totalNodes": 173,
     "observations": 0,
-    "experiments": 171,
+    "experiments": 173,
     "syntheses": 0,
-    "totalEdges": 167,
+    "totalEdges": 169,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 29
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 41,
-    "skills": 66,
+    "skills": 68,
     "finance": 37,
     "search-ranking": 27
   },
   "recentExperiments": [
+    {
+      "id": "90eb080da27e",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1776853199090,
+      "depth": 2
+    },
+    {
+      "id": "5afc9dcc74dc",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1776851518783,
+      "depth": 2
+    },
     {
       "id": "75c9e83cac06",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776848648272,
-      "depth": 1
-    },
-    {
-      "id": "d467a81096fb",
-      "domain": "search-ranking",
-      "title": "Search round 40: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776848648210,
-      "depth": 1
-    },
-    {
-      "id": "fa309fbde762",
-      "domain": "search-ranking",
-      "title": "Search round 40: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776848647797,
       "depth": 1
     }
   ],
