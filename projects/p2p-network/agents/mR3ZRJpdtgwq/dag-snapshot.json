@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-22T09:41:17.087Z",
+  "timestamp": "2026-04-22T11:41:31.397Z",
   "peerId": "12D3KooWAanDJYtXpnxSFrYRwc2q4YsNyfu7QrYYtCKHBus7hqXd",
   "stats": {
-    "totalNodes": 4900,
+    "totalNodes": 4903,
     "observations": 0,
-    "experiments": 4900,
+    "experiments": 4903,
     "syntheses": 0,
-    "totalEdges": 4896,
+    "totalEdges": 4899,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 0
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2353,
+    "infrastructure": 2356,
     "skills": 1489,
     "finance": 927,
     "search-ranking": 131
   },
   "recentExperiments": [
+    {
+      "id": "575fbee2dab8",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 385",
+      "metricName": "score",
+      "metricValue": 141.07050293272704,
+      "isCurrentBest": false,
+      "createdAt": 1776854238870,
+      "depth": 9
+    },
+    {
+      "id": "473bdfce6b2f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 347",
+      "metricName": "score",
+      "metricValue": 141.17370353243248,
+      "isCurrentBest": false,
+      "createdAt": 1776851957089,
+      "depth": 9
+    },
+    {
+      "id": "03682c3c18d9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 334",
+      "metricName": "score",
+      "metricValue": 141.19840365747916,
+      "isCurrentBest": false,
+      "createdAt": 1776851176640,
+      "depth": 9
+    },
     {
       "id": "12f4c3947210",
       "domain": "skills",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776834962945,
-      "depth": 3
-    },
-    {
-      "id": "3e0fce6e4c18",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776834785630,
-      "depth": 3
-    },
-    {
-      "id": "8c02e89bcca3",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1776834665675,
-      "depth": 3
-    },
-    {
-      "id": "149be5cc15cc",
-      "domain": "search-ranking",
-      "title": "Search round 38: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776834574500,
       "depth": 3
     }
   ],
