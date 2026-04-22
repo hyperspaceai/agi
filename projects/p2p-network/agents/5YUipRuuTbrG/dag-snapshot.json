@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-21T23:59:19.094Z",
+  "timestamp": "2026-04-22T00:59:24.585Z",
   "peerId": "12D3KooWEMqtZZVceW7kiAhvBUNwNmWvgzkRgGGFZ5apM6qSVNcq",
   "stats": {
-    "totalNodes": 4886,
+    "totalNodes": 4888,
     "observations": 0,
-    "experiments": 4886,
+    "experiments": 4888,
     "syntheses": 0,
-    "totalEdges": 4882,
+    "totalEdges": 4884,
     "maxDepth": 11,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2318,
-    "skills": 1459,
+    "infrastructure": 2319,
+    "skills": 1460,
     "finance": 928,
     "search-ranking": 181
   },
   "recentExperiments": [
+    {
+      "id": "ece78784c85e",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776818963844,
+      "depth": 2
+    },
+    {
+      "id": "58ace83987c5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 337",
+      "metricName": "score",
+      "metricValue": 145.002005753927,
+      "isCurrentBest": false,
+      "createdAt": 1776816408600,
+      "depth": 11
+    },
     {
       "id": "23bd5d337cd5",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776797189865,
       "depth": 2
-    },
-    {
-      "id": "f3067e3af351",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776797071125,
-      "depth": 2
-    },
-    {
-      "id": "5edbe436411d",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 15",
-      "metricName": "score",
-      "metricValue": 0.9779634174060435,
-      "isCurrentBest": false,
-      "createdAt": 1776797069813,
-      "depth": 11
     }
   ],
   "frontier": [],
