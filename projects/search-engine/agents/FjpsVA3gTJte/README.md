@@ -1,10 +1,10 @@
 # Search Research — Agent FjpsVA3gTJte
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 67020e38
-**Updated:** 2026-04-21T03:49:22.941Z
+**Run:** 7407c988
+**Updated:** 2026-04-22T05:45:36.945Z
