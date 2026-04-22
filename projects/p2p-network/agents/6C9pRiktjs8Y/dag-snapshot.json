@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-22T05:41:15.378Z",
+  "timestamp": "2026-04-22T06:41:20.968Z",
   "peerId": "12D3KooWF1WzArLbvmQ2iiexaT3Q7HaKwFUybpQV1oH7AuX8DxPc",
   "stats": {
-    "totalNodes": 4548,
+    "totalNodes": 4551,
     "observations": 0,
-    "experiments": 4548,
+    "experiments": 4551,
     "syntheses": 0,
-    "totalEdges": 4544,
+    "totalEdges": 4547,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 24
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,41 @@
   },
   "domainCounts": {
     "infrastructure": 2143,
-    "skills": 1397,
+    "skills": 1400,
     "finance": 862,
     "search-ranking": 146
   },
   "recentExperiments": [
+    {
+      "id": "3a3b7998dd7c",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776840080617,
+      "depth": 2
+    },
+    {
+      "id": "f63dfcf6c4f2",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776838639712,
+      "depth": 2
+    },
+    {
+      "id": "daa08e3b4574",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776837197285,
+      "depth": 2
+    },
     {
       "id": "b8b03018c0b3",
       "domain": "skills",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776834550746,
-      "depth": 2
-    },
-    {
-      "id": "c9e867d0bebe",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776834433959,
-      "depth": 2
-    },
-    {
-      "id": "37f46c103a63",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776834070053,
-      "depth": 2
-    },
-    {
-      "id": "bbfa438e6540",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776833949916,
       "depth": 2
     }
   ],
