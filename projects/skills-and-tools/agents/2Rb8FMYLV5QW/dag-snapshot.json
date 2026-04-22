@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-22T10:47:51.023Z",
+  "timestamp": "2026-04-22T11:47:51.126Z",
   "peerId": "12D3KooWBExHzV83fyg1QoeNQ3qp7LorZpZ1GmU3tBx2mX6ujgBR",
   "stats": {
-    "totalNodes": 2946,
+    "totalNodes": 2947,
     "observations": 0,
-    "experiments": 2946,
+    "experiments": 2947,
     "syntheses": 0,
-    "totalEdges": 2942,
+    "totalEdges": 2943,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 1017,
-    "skills": 1135,
+    "skills": 1136,
     "finance": 572,
     "search-ranking": 222
   },
   "recentExperiments": [
+    {
+      "id": "d2d9af3dabf7",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776857510918,
+      "depth": 5
+    },
     {
       "id": "bc0232f3353a",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1776848150748,
       "depth": 2
-    },
-    {
-      "id": "465986160d57",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776847790767,
-      "depth": 5
     }
   ],
   "frontier": [],
