@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-22T13:41:43.753Z",
+  "timestamp": "2026-04-22T14:41:44.301Z",
   "peerId": "12D3KooWCp7Wv2xj4HMgUyMNvYbbyFiRSJPxA9vsZKZkwupdo26e",
   "stats": {
-    "totalNodes": 4591,
+    "totalNodes": 4592,
     "observations": 0,
-    "experiments": 4591,
+    "experiments": 4592,
     "syntheses": 0,
-    "totalEdges": 4587,
+    "totalEdges": 4588,
     "maxDepth": 15,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2228,
+    "infrastructure": 2229,
     "skills": 1291,
     "finance": 927,
     "search-ranking": 145
   },
   "recentExperiments": [
+    {
+      "id": "a80e9c517b6c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 595",
+      "metricName": "score",
+      "metricValue": 0.928618821996916,
+      "isCurrentBest": false,
+      "createdAt": 1776866863848,
+      "depth": 6
+    },
     {
       "id": "faa3f714796c",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776834632039,
-      "depth": 1
-    },
-    {
-      "id": "d8af01b8d474",
-      "domain": "search-ranking",
-      "title": "Search round 39: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776834630777,
       "depth": 1
     }
   ],
