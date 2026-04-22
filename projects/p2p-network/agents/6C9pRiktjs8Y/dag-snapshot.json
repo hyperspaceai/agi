@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-22T13:42:00.459Z",
+  "timestamp": "2026-04-22T15:42:09.796Z",
   "peerId": "12D3KooWF1WzArLbvmQ2iiexaT3Q7HaKwFUybpQV1oH7AuX8DxPc",
   "stats": {
-    "totalNodes": 4560,
+    "totalNodes": 4563,
     "observations": 0,
-    "experiments": 4560,
+    "experiments": 4563,
     "syntheses": 0,
-    "totalEdges": 4556,
+    "totalEdges": 4559,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2152,
+    "infrastructure": 2155,
     "skills": 1400,
     "finance": 862,
     "search-ranking": 146
   },
   "recentExperiments": [
+    {
+      "id": "dd57ef9a7291",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 626",
+      "metricName": "score",
+      "metricValue": 145.06075986344717,
+      "isCurrentBest": false,
+      "createdAt": 1776868713701,
+      "depth": 17
+    },
+    {
+      "id": "2602e43ec632",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 602",
+      "metricName": "score",
+      "metricValue": 145.2113317867769,
+      "isCurrentBest": false,
+      "createdAt": 1776867271132,
+      "depth": 17
+    },
+    {
+      "id": "a7ec52d716a2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 592",
+      "metricName": "score",
+      "metricValue": 145.29977592705683,
+      "isCurrentBest": false,
+      "createdAt": 1776866670758,
+      "depth": 17
+    },
     {
       "id": "adf3de3b55df",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1776835269548,
-      "depth": 2
-    },
-    {
-      "id": "9afe4137d968",
-      "domain": "search-ranking",
-      "title": "Search round 46: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776835269029,
-      "depth": 2
-    },
-    {
-      "id": "6e35c234a5cc",
-      "domain": "search-ranking",
-      "title": "Search round 46: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1776835267941,
-      "depth": 2
-    },
-    {
-      "id": "56b62af94855",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1776835154856,
       "depth": 2
     }
   ],
