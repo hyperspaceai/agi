@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-04-22T09:03:00.086Z",
+  "timestamp": "2026-04-23T06:50:22.499Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 1171,
+    "totalNodes": 1286,
     "observations": 323,
-    "experiments": 848,
+    "experiments": 963,
     "syntheses": 0,
-    "totalEdges": 825,
+    "totalEdges": 911,
     "maxDepth": 15,
-    "activeExperiments": 14,
+    "activeExperiments": 35,
     "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "bd0e07494852c8a8e1330b50cd742d91f21bc04211f3e82222e50e0187106361",
+      "nodeId": "4e70b1400bb4026666d6abecfb5b2868e15aa42aec63ec713364d6f022dfe91a",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 150.22909808578447,
+      "metricValue": 150.95989493533764,
       "metricDirection": "maximize",
-      "depth": 5
+      "depth": 6
     },
     "search-ranking": {
       "nodeId": "091950d3b81134fded8d13108f1e80b7111c2fcd2d6f5cc7b8f53ac2a08b2a0d",
@@ -30,10 +30,10 @@
       "depth": 1
     },
     "general": {
-      "nodeId": "3e4c4f41e33fbb7e5c00dfb921461ff04cbad8fc471ef02e0646938d07e74fc2",
-      "title": "AutoWeb round 1: 60/100",
+      "nodeId": "64f410cbfbb03b3bd67f02bc07c02a0c8b3fc4ef172ae6a3049a3189d4e74a72",
+      "title": "AutoWeb round 10: 80/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 60,
+      "metricValue": 80,
       "metricDirection": "maximize",
       "depth": 0
     },
@@ -55,214 +55,220 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 388,
+    "infrastructure": 457,
     "knowledge": 323,
-    "search-ranking": 19,
-    "general": 5,
-    "skills": 259,
-    "finance": 163,
-    "physics": 14
+    "search-ranking": 20,
+    "general": 13,
+    "skills": 268,
+    "finance": 170,
+    "physics": 35
   },
   "recentExperiments": [
     {
-      "id": "e66dd6772187",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How do the quantum gravity corrections to the null energy co\" (self-ve",
-      "metricName": "verification_score",
+      "id": "af2df793120a",
+      "domain": "general",
+      "title": "AutoWeb round 6: 55/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 55,
       "isCurrentBest": false,
-      "createdAt": 1776846823095,
+      "createdAt": 1776924834173,
       "depth": 0
     },
     {
-      "id": "fc6cc21f1b24",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 216",
-      "metricName": "score",
-      "metricValue": 141.11802996648865,
+      "id": "95d2cb256709",
+      "domain": "physics",
+      "title": "Wrote paper: \"Quantum Gravity Corrections to the Null Energy Condition near Warp Drive Walls: A Stud",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776844607648,
-      "depth": 6
+      "createdAt": 1776922287454,
+      "depth": 0
     },
     {
-      "id": "2849f4683e15",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
+      "id": "28aabef8b10b",
+      "domain": "general",
+      "title": "AutoWeb round 5: 46/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 46,
       "isCurrentBest": false,
-      "createdAt": 1776843476352,
+      "createdAt": 1776921898173,
+      "depth": 0
+    },
+    {
+      "id": "42e9d69ce45c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 183",
+      "metricName": "score",
+      "metricValue": 145.0920820763478,
+      "isCurrentBest": false,
+      "createdAt": 1776921615616,
+      "depth": 7
+    },
+    {
+      "id": "e4d160034949",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 177",
+      "metricName": "score",
+      "metricValue": 145.1517389367954,
+      "isCurrentBest": false,
+      "createdAt": 1776921615609,
+      "depth": 7
+    },
+    {
+      "id": "d66e54e501b2",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1776920121778,
       "depth": 4
     },
     {
-      "id": "80f2ae8f1885",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 190",
-      "metricName": "score",
-      "metricValue": 141.22907933382146,
-      "isCurrentBest": false,
-      "createdAt": 1776843377511,
-      "depth": 6
-    },
-    {
-      "id": "58b38e6aaac4",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 185",
-      "metricName": "score",
-      "metricValue": 141.31447315570864,
-      "isCurrentBest": false,
-      "createdAt": 1776843377510,
-      "depth": 6
-    },
-    {
-      "id": "1766c606a3a6",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 184",
-      "metricName": "score",
-      "metricValue": 142.07782719907541,
-      "isCurrentBest": false,
-      "createdAt": 1776843377508,
-      "depth": 6
-    },
-    {
-      "id": "1ef90d2a617e",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 169",
-      "metricName": "score",
-      "metricValue": 142.14866821236885,
-      "isCurrentBest": false,
-      "createdAt": 1776842147452,
-      "depth": 6
-    },
-    {
-      "id": "4480cbb9239a",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 167",
-      "metricName": "score",
-      "metricValue": 142.28486321536627,
-      "isCurrentBest": false,
-      "createdAt": 1776842147448,
-      "depth": 6
-    },
-    {
-      "id": "93f983fa955d",
-      "domain": "physics",
-      "title": "Wrote paper: \"Quantum Gravity Corrections to the Null Energy Condition Near Warp Drive Walls\" (self-",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776841383137,
-      "depth": 0
-    },
-    {
-      "id": "aa0f9553e114",
+      "id": "ae9ef51fb05d",
       "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.1866",
-      "metricName": "Sharpe",
-      "metricValue": 1.1866,
-      "isCurrentBest": false,
-      "createdAt": 1776840926127,
-      "depth": 15
-    },
-    {
-      "id": "9b29ef6480eb",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1782",
+      "title": "Finance round 1: Sharpe=1.1782",
       "metricName": "Sharpe",
       "metricValue": 1.1782,
       "isCurrentBest": false,
-      "createdAt": 1776838688398,
+      "createdAt": 1776920001797,
       "depth": 15
     },
     {
-      "id": "e2d160ab5d54",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 113",
-      "metricName": "score",
-      "metricValue": 0.9727497322215487,
-      "isCurrentBest": false,
-      "createdAt": 1776838545315,
-      "depth": 6
-    },
-    {
-      "id": "878b03ce4779",
+      "id": "4a756c526efa",
       "domain": "physics",
-      "title": "Wrote paper: \"[descriptive title]\" (self-verification score: 8.0)",
+      "title": "Wrote paper: \"On warp_drives: Can arrays of Casimir micro-cavities be used to generate sta\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776837851752,
+      "createdAt": 1776918965998,
       "depth": 0
     },
     {
-      "id": "ef9c397b234a",
+      "id": "179416c201f0",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What are the implications of exotic matter for the stability\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1776916949528,
+      "depth": 0
+    },
+    {
+      "id": "3d7b18f93411",
+      "domain": "physics",
+      "title": "Wrote paper: \"Quantum Gravity Effects on Superluminal Warp Bubble Stability in the Vicinity of Singu",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1776915222279,
+      "depth": 0
+    },
+    {
+      "id": "9f3ab6370f71",
       "domain": "general",
-      "title": "AutoWeb round 2: 45/100",
+      "title": "AutoWeb round 1: 38/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 45,
+      "metricValue": 38,
       "isCurrentBest": false,
-      "createdAt": 1776837376443,
+      "createdAt": 1776914910631,
       "depth": 0
     },
     {
-      "id": "fb8a18893e78",
+      "id": "ade597431bd9",
       "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (LLM 2 iter): 0%",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1996,
+      "metricValue": 0.1981,
       "isCurrentBest": false,
-      "createdAt": 1776836957273,
+      "createdAt": 1776913363428,
       "depth": 4
     },
     {
-      "id": "12f34d4ca0c4",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.0827",
-      "metricName": "Sharpe",
-      "metricValue": 1.0827,
+      "id": "a0a80cd99062",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 15",
+      "metricName": "score",
+      "metricValue": 141.4407938404535,
       "isCurrentBest": false,
-      "createdAt": 1776836703421,
-      "depth": 15
+      "createdAt": 1776911922047,
+      "depth": 7
     },
     {
-      "id": "fa4608a3da7c",
-      "domain": "search-ranking",
-      "title": "Search round 1: Increase diversity weight to improve NDCG@10.",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "id": "70a8f9c9a926",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 18",
+      "metricName": "score",
+      "metricValue": 141.25609073830742,
       "isCurrentBest": false,
-      "createdAt": 1776836651253,
-      "depth": 2
+      "createdAt": 1776911922047,
+      "depth": 7
     },
     {
-      "id": "565a79437cc7",
+      "id": "bf519418ce4b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 6",
+      "metricName": "score",
+      "metricValue": 141.483051662226,
+      "isCurrentBest": false,
+      "createdAt": 1776911922046,
+      "depth": 7
+    },
+    {
+      "id": "37c88f7c9d49",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 7",
+      "metricName": "score",
+      "metricValue": 0.9717581196362147,
+      "isCurrentBest": false,
+      "createdAt": 1776911922046,
+      "depth": 7
+    },
+    {
+      "id": "c99667202c43",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 5",
+      "metricName": "score",
+      "metricValue": 0.9711782213797457,
+      "isCurrentBest": false,
+      "createdAt": 1776911922045,
+      "depth": 7
+    },
+    {
+      "id": "bc5c8e16045a",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Does the Fuchs et al. (2024) constant-velocity subluminal wa\" (self-ve",
+      "title": "Wrote paper: \"Quantum Gravity Corrections to the Null Energy Condition near Warp Drive Walls\" (self-",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776835878235,
+      "createdAt": 1776909197132,
       "depth": 0
     },
     {
-      "id": "814968af62ea",
-      "domain": "physics",
-      "title": "Wrote paper: \"Casimir Micro-Cavities as Superluminal Warp Drives\" (self-verification score: 10.0)",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776833285023,
-      "depth": 0
-    },
-    {
-      "id": "7d8bbc20689f",
+      "id": "720753dd06a4",
       "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (LLM 2 iter): 0%",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
       "metricName": "correctness",
       "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1776833060464,
+      "createdAt": 1776908735701,
       "depth": 4
+    },
+    {
+      "id": "a5536a7b9298",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 118",
+      "metricName": "score",
+      "metricValue": 141.1015555646037,
+      "isCurrentBest": false,
+      "createdAt": 1776908468071,
+      "depth": 7
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "4e70b1400bb4",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 150.95989493533764,
+        "depth": 6
+      },
       {
         "id": "bd0e07494852",
         "title": "Cause infra-optimization round 1",
@@ -316,9 +322,9 @@
     ],
     "general": [
       {
-        "id": "3e4c4f41e33f",
-        "title": "AutoWeb round 1: 60/100",
-        "metricValue": 60,
+        "id": "64f410cbfbb0",
+        "title": "AutoWeb round 10: 80/100",
+        "metricValue": 80,
         "depth": 0
       }
     ],
