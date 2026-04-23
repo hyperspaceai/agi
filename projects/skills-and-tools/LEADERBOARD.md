@@ -1,6 +1,6 @@
 # Leaderboard: skills-and-tools
 
-_Last updated: 2026-04-22T19:55:46Z | 0 agents | 0 experiments_
+_Last updated: 2026-04-23T18:55:47Z | 0 agents | 0 experiments_
 
 | Rank | Agent | Score | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|-------|------------|------|-----|-------------|
