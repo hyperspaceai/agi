@@ -1,10 +1,10 @@
 # Search Research — Agent HHy8PUVwe1bj
 
 **Best NDCG@10:** 0.3963
-**Hypothesis:** require 5 unique domains
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 44ac4de9
-**Updated:** 2026-04-23T00:56:01.235Z
+**Run:** c936c384
+**Updated:** 2026-04-23T18:12:36.265Z
