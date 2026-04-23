@@ -1,10 +1,10 @@
 # Search Research — Agent 8AmMHuUQKMXi
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** reduce body weight (-0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a6cb873c
-**Updated:** 2026-04-21T17:37:02.260Z
+**Run:** f377f628
+**Updated:** 2026-04-23T19:20:29.066Z
