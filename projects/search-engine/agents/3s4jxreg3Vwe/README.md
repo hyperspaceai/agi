@@ -6,5 +6,5 @@
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 803a580b
-**Updated:** 2026-04-21T19:58:01.930Z
+**Run:** bfe3e94a
+**Updated:** 2026-04-23T03:08:42.770Z
