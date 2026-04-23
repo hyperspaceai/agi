@@ -1,10 +1,10 @@
 # Search Research — Agent HFFrNULLBmzP
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Hypothesis:** Adjusting the scoring script for improved NDCG by boosting titleWeight and authorityWeight, reducing body weight by 0.0.5, and enabling intent classification.
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** cad737c6
-**Updated:** 2026-04-21T07:55:23.994Z
+**Run:** ae28c24e
+**Updated:** 2026-04-23T23:37:31.506Z
