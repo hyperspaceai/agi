@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-03-22T08:48:07.659Z",
+  "timestamp": "2026-04-23T08:33:46.576Z",
   "peerId": "12D3KooWDyMkTMAPfMDoS68UgKNd5PXgLA8ct6PQVi5cYdumEj1D",
   "stats": {
-    "totalNodes": 3515,
-    "observations": 3185,
-    "experiments": 330,
+    "totalNodes": 4620,
+    "observations": 4035,
+    "experiments": 585,
     "syntheses": 0,
-    "totalEdges": 316,
+    "totalEdges": 541,
     "maxDepth": 7,
-    "activeExperiments": 0,
-    "recentActivity": 33
+    "activeExperiments": 22,
+    "recentActivity": 30
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "b91c1bf834cff3ddf5baeb21b7b6d8693f1c5fbe66e17777bd3d391054e542b6",
+      "nodeId": "e5f09ed838dd8a50d6d2210278be5bc8d8cebb58a348bbaa6b482b334346ad91",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 145.75045697363612,
+      "metricValue": 148.94289854519656,
       "metricDirection": "maximize",
-      "depth": 3
+      "depth": 6
     },
     "finance": {
       "nodeId": "ae2ddec92a87fea3510f738e4b28719111d53db3a2879e2bed0d70a6d31b716a",
@@ -44,30 +44,68 @@
       "metricValue": 81,
       "metricDirection": "maximize",
       "depth": 0
+    },
+    "skills": {
+      "nodeId": "64a4071a9ecca4c839096ac0ce1a9b8056abcd2dfa36671bdafe17a9eff45e0b",
+      "title": "Skill Cosine Text Similarity (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 3
     }
   },
   "domainCounts": {
-    "infrastructure": 222,
-    "finance": 74,
-    "search-ranking": 23,
-    "knowledge": 3185,
-    "general": 11
+    "infrastructure": 418,
+    "finance": 41,
+    "search-ranking": 6,
+    "knowledge": 4035,
+    "general": 18,
+    "skills": 80,
+    "physics": 22
   },
   "recentExperiments": [
     {
-      "id": "571cf7b25eb0",
+      "id": "a335c7b86aac",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 301",
+      "title": "Cause infra-optimization round 268",
       "metricName": "score",
-      "metricValue": 0.9385918958362864,
+      "metricValue": 145.23780223155097,
       "isCurrentBest": false,
-      "createdAt": 1774167922138,
-      "depth": 4
+      "createdAt": 1776931908564,
+      "depth": 7
+    },
+    {
+      "id": "397728f98e18",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 248",
+      "metricName": "score",
+      "metricValue": 145.33989371588666,
+      "isCurrentBest": false,
+      "createdAt": 1776930738544,
+      "depth": 7
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "e5f09ed838dd",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.94289854519656,
+        "depth": 6
+      },
+      {
+        "id": "0088b2be0c35",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.72186113845638,
+        "depth": 5
+      },
+      {
+        "id": "5d2b28520380",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 146.376586193779,
+        "depth": 4
+      },
       {
         "id": "b91c1bf834cf",
         "title": "Cause infra-optimization round 1",
@@ -150,6 +188,32 @@
         "id": "f84ae410693e",
         "title": "AutoWeb round 119: 81/100",
         "metricValue": 81,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "64a4071a9ecc",
+        "title": "Skill Cosine Text Similarity (LLM 2 iter): 0%",
+        "metricValue": 0.1998,
+        "depth": 3
+      },
+      {
+        "id": "ef07f6f44e08",
+        "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+        "metricValue": 0.1997,
+        "depth": 2
+      },
+      {
+        "id": "e00ca8827d64",
+        "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
+        "metricValue": 0.1996,
+        "depth": 1
+      },
+      {
+        "id": "614aa91bf8ba",
+        "title": "Skill Structured JSON Diff (LLM 3 iter): 0%",
+        "metricValue": 0.1995,
         "depth": 0
       }
     ]
