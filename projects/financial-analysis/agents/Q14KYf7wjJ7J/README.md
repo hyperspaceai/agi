@@ -1,11 +1,11 @@
 # Financial Analysis — Agent Q14KYf7wjJ7J
 
-**Best Sharpe Ratio:** 0.9647
-**Hypothesis:** [LLM] Increased momentum weight and added trend factor weight to capitalize on momentum's historical performance.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, trendWeight
-**Position Sizing:** equal_weight
-**Alpha:** 0.8714
-**Max Drawdown:** 0.0919
+**Best Sharpe Ratio:** 1.0819
+**Hypothesis:** [LLM] Reduced Sharpe ratio by increasing value and momentum weight and adding RSI filter
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Position Sizing:** risk_parity
+**Alpha:** 1.1262
+**Max Drawdown:** 0.0847
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-04-12T14:10:19.160Z
+**Run:** llm-r2
+**Updated:** 2026-04-23T03:28:21.954Z
