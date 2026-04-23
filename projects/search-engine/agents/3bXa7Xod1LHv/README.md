@@ -1,10 +1,10 @@
 # Search Research — Agent 3bXa7Xod1LHv
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** boost authority weight (+0.05)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 37b25c58
-**Updated:** 2026-04-23T18:19:05.517Z
+**Run:** 474553d2
+**Updated:** 2026-04-23T19:27:00.545Z
