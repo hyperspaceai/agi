@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-23T18:20:18.275Z",
+  "timestamp": "2026-04-23T19:20:18.481Z",
   "peerId": "12D3KooWST1yV6WsePZvB7LTkJk7JUNMDuy2mKyGm4m4UX7EpecT",
   "stats": {
-    "totalNodes": 4941,
+    "totalNodes": 4943,
     "observations": 0,
-    "experiments": 4941,
+    "experiments": 4943,
     "syntheses": 0,
-    "totalEdges": 4937,
+    "totalEdges": 4939,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 29
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2343,
-    "skills": 1444,
+    "infrastructure": 2344,
+    "skills": 1445,
     "finance": 953,
     "search-ranking": 201
   },
   "recentExperiments": [
+    {
+      "id": "e114ce8d32a1",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1776970338041,
+      "depth": 2
+    },
+    {
+      "id": "c1433a85c1a2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 42",
+      "metricName": "score",
+      "metricValue": 141.06824673411285,
+      "isCurrentBest": false,
+      "createdAt": 1776969198000,
+      "depth": 5
+    },
     {
       "id": "c89b60ad4f71",
       "domain": "finance",
@@ -231,26 +251,6 @@
       "metricValue": 0.970692741692987,
       "isCurrentBest": false,
       "createdAt": 1776966857866,
-      "depth": 5
-    },
-    {
-      "id": "06f2775751be",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3",
-      "metricName": "score",
-      "metricValue": 144.9221277756147,
-      "isCurrentBest": false,
-      "createdAt": 1776966857864,
-      "depth": 5
-    },
-    {
-      "id": "177d012f0f11",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2",
-      "metricName": "score",
-      "metricValue": 0.9642988407156254,
-      "isCurrentBest": false,
-      "createdAt": 1776966797864,
       "depth": 5
     }
   ],
