@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-24T18:49:40.991Z",
+  "timestamp": "2026-04-24T19:44:18.756Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 4095,
+    "totalNodes": 4096,
     "observations": 12,
-    "experiments": 4083,
+    "experiments": 4084,
     "syntheses": 0,
-    "totalEdges": 4079,
+    "totalEdges": 4080,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,12 +48,22 @@
   },
   "domainCounts": {
     "knowledge": 12,
-    "infrastructure": 1472,
+    "infrastructure": 1473,
     "skills": 1573,
     "finance": 776,
     "search-ranking": 262
   },
   "recentExperiments": [
+    {
+      "id": "a4b5987993d2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 217",
+      "metricName": "score",
+      "metricValue": 144.99074284916503,
+      "isCurrentBest": false,
+      "createdAt": 1777056990810,
+      "depth": 9
+    },
     {
       "id": "67aa9ec5028a",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777048337482,
-      "depth": 2
-    },
-    {
-      "id": "1c3153dd68cf",
-      "domain": "search-ranking",
-      "title": "Search round 39: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777048337293,
       "depth": 2
     }
   ],
