@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-24T18:18:44.910Z",
+  "timestamp": "2026-04-24T19:20:14.627Z",
   "peerId": "12D3KooWFZXbPJQqDzEp3BQ5tewZaD9yH6abm14ES5JMddHRZ6jS",
   "stats": {
-    "totalNodes": 504,
+    "totalNodes": 511,
     "observations": 0,
-    "experiments": 504,
+    "experiments": 511,
     "syntheses": 0,
-    "totalEdges": 500,
+    "totalEdges": 507,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 7
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,82 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 157,
-    "skills": 202,
+    "infrastructure": 160,
+    "skills": 206,
     "finance": 103,
     "search-ranking": 42
   },
   "recentExperiments": [
+    {
+      "id": "19274085277a",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777057934539,
+      "depth": 1
+    },
+    {
+      "id": "8741c04b706a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 195",
+      "metricName": "score",
+      "metricValue": 0.9663451527130065,
+      "isCurrentBest": false,
+      "createdAt": 1777057514378,
+      "depth": 3
+    },
+    {
+      "id": "d0049e879854",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777057214319,
+      "depth": 1
+    },
+    {
+      "id": "c4c97a098122",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 179",
+      "metricName": "score",
+      "metricValue": 0.9649448516420263,
+      "isCurrentBest": false,
+      "createdAt": 1777056520567,
+      "depth": 3
+    },
+    {
+      "id": "bdcce4252efe",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777056099789,
+      "depth": 1
+    },
+    {
+      "id": "27ad1d7bb349",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 172",
+      "metricName": "score",
+      "metricValue": 141.22625201333622,
+      "isCurrentBest": false,
+      "createdAt": 1777056099778,
+      "depth": 3
+    },
+    {
+      "id": "f48c6122e416",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777055566739,
+      "depth": 1
+    },
     {
       "id": "bab95bd08894",
       "domain": "skills",
@@ -182,76 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777049905033,
       "depth": 2
-    },
-    {
-      "id": "411d94780dba",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777049544890,
-      "depth": 2
-    },
-    {
-      "id": "2dcfa6609b5d",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777049544829,
-      "depth": 2
-    },
-    {
-      "id": "350393b1b61e",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777049544756,
-      "depth": 2
-    },
-    {
-      "id": "845d178e62ae",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777049544218,
-      "depth": 2
-    },
-    {
-      "id": "18fc00ec14be",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777049544154,
-      "depth": 2
-    },
-    {
-      "id": "b28af10dd7d8",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1777049443229,
-      "depth": 1
-    },
-    {
-      "id": "a8caacae50a0",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1777049323222,
-      "depth": 1
     }
   ],
   "frontier": [],
