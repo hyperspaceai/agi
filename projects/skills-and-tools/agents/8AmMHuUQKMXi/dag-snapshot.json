@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-24T17:00:20.946Z",
+  "timestamp": "2026-04-24T17:55:00.980Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 4090,
+    "totalNodes": 4093,
     "observations": 12,
-    "experiments": 4078,
+    "experiments": 4081,
     "syntheses": 0,
-    "totalEdges": 4074,
+    "totalEdges": 4077,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 35
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -49,11 +49,41 @@
   "domainCounts": {
     "knowledge": 12,
     "infrastructure": 1471,
-    "skills": 1569,
+    "skills": 1572,
     "finance": 776,
     "search-ranking": 262
   },
   "recentExperiments": [
+    {
+      "id": "c9970bedb4c0",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777053300805,
+      "depth": 3
+    },
+    {
+      "id": "55c0687c3bdf",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777050239170,
+      "depth": 3
+    },
+    {
+      "id": "bd459f37cffe",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777050129901,
+      "depth": 3
+    },
     {
       "id": "061c866ba770",
       "domain": "skills",
@@ -222,36 +252,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777047998041,
-      "depth": 2
-    },
-    {
-      "id": "643f617d45e1",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777047995939,
-      "depth": 2
-    },
-    {
-      "id": "c528c35f1d3d",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777047995547,
-      "depth": 2
-    },
-    {
-      "id": "a4ed08594e41",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777047995021,
       "depth": 2
     }
   ],
