@@ -1,10 +1,10 @@
 # Search Research — Agent 3NmSWwoCq92A
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** increase diversity penalty (0.2)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b84e8d60
-**Updated:** 2026-04-23T22:19:15.961Z
+**Run:** 00d2fc1c
+**Updated:** 2026-04-24T04:40:33.758Z
