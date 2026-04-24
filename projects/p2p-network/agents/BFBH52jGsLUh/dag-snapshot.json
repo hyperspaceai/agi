@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-24T22:46:13.568Z",
+  "timestamp": "2026-04-24T23:46:14.100Z",
   "peerId": "12D3KooWL4YSpAJz4EkBQzuEhxuX5yi8YnwS2v5bE26fjtRLk5hk",
   "stats": {
-    "totalNodes": 3860,
+    "totalNodes": 3862,
     "observations": 0,
-    "experiments": 3860,
+    "experiments": 3862,
     "syntheses": 0,
-    "totalEdges": 3857,
+    "totalEdges": 3859,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2461,
+    "infrastructure": 2463,
     "finance": 1106,
     "search-ranking": 293
   },
   "recentExperiments": [
+    {
+      "id": "bc0cef8555f9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 192",
+      "metricName": "score",
+      "metricValue": 145.21823521807093,
+      "isCurrentBest": false,
+      "createdAt": 1777073353904,
+      "depth": 8
+    },
+    {
+      "id": "f9f66cc44598",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 168",
+      "metricName": "score",
+      "metricValue": 0.9632881368569107,
+      "isCurrentBest": false,
+      "createdAt": 1777071913433,
+      "depth": 8
+    },
     {
       "id": "ff8fb062070e",
       "domain": "infrastructure",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1777065372876,
       "depth": 8
-    },
-    {
-      "id": "6ca01d1aca79",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1777065232980,
-      "depth": 2
-    },
-    {
-      "id": "9774ce7f3562",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1777065232774,
-      "depth": 2
     }
   ],
   "frontier": [],
