@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-24T02:08:15.260Z",
+  "timestamp": "2026-04-24T11:31:38.824Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 1321,
+    "totalNodes": 1372,
     "observations": 4,
-    "experiments": 1317,
+    "experiments": 1368,
     "syntheses": 0,
-    "totalEdges": 1075,
+    "totalEdges": 1119,
     "maxDepth": 11,
-    "activeExperiments": 184,
-    "recentActivity": 8
+    "activeExperiments": 190,
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -22,12 +22,12 @@
       "depth": 10
     },
     "skills": {
-      "nodeId": "dfa75a0d64662f1bf4596e43aca48b0deb8e6220fa08cc3c587c64635a39de79",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "nodeId": "f4af427ea459123d62cf2a4d659e2ecbe22f074dab6e4456f5e7858783986c06",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1998,
+      "metricValue": 0.1999,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "general": {
       "nodeId": "7faa8fcd1c8eaede737c188345c816fb6204e25dd3dbcaba8825742f945458cf",
@@ -38,222 +38,216 @@
       "depth": 0
     },
     "finance": {
-      "nodeId": "41c3382bc906a4f5e45d9508f38aa25e66e2a1216dec3c093e4089dc0a06e958",
-      "title": "Finance round 18: Sharpe=1.3168",
+      "nodeId": "aa8deb698a550413b4b63c3e93aefd8f4f12bad4df223a1ff128c23b4c98e96e",
+      "title": "Finance round 15: Sharpe=1.3205",
       "metricName": "Sharpe",
-      "metricValue": 1.3168,
+      "metricValue": 1.3205,
       "metricDirection": "maximize",
-      "depth": 10
+      "depth": 11
     }
   },
   "domainCounts": {
-    "infrastructure": 722,
-    "skills": 325,
-    "physics": 184,
-    "general": 55,
+    "infrastructure": 738,
+    "skills": 344,
+    "physics": 190,
+    "general": 56,
     "knowledge": 4,
-    "finance": 31
+    "finance": 40
   },
   "recentExperiments": [
     {
-      "id": "54743a1d2306",
-      "domain": "finance",
-      "title": "Finance round 29: Sharpe=1.2946",
-      "metricName": "Sharpe",
-      "metricValue": 1.2946,
+      "id": "bbbd3b4994e6",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the Barzegar & Buchert (2025) warp drive solutions with \" (self-ve",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776995445187,
-      "depth": 11
+      "createdAt": 1777027909885,
+      "depth": 0
     },
     {
-      "id": "be8291946aed",
-      "domain": "finance",
-      "title": "Finance round 26: Sharpe=1.2880",
-      "metricName": "Sharpe",
-      "metricValue": 1.288,
+      "id": "9f269a8219f4",
+      "domain": "general",
+      "title": "AutoWeb round 6: 77/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 77,
       "isCurrentBest": false,
-      "createdAt": 1776994995180,
-      "depth": 11
+      "createdAt": 1777027895134,
+      "depth": 0
     },
     {
-      "id": "b9c3d1b0a03c",
-      "domain": "finance",
-      "title": "Finance round 23: Sharpe=1.2818",
-      "metricName": "Sharpe",
-      "metricValue": 1.2818,
+      "id": "4568cf15efcc",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Given the limitations on achievable negative energy densitie\" (self-ve",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1776994545178,
-      "depth": 11
+      "createdAt": 1777025257666,
+      "depth": 0
     },
     {
-      "id": "179a950a3206",
-      "domain": "finance",
-      "title": "Finance round 21: Sharpe=1.2780",
-      "metricName": "Sharpe",
-      "metricValue": 1.278,
-      "isCurrentBest": false,
-      "createdAt": 1776994245172,
-      "depth": 11
-    },
-    {
-      "id": "b067b383b64f",
-      "domain": "finance",
-      "title": "Finance round 19: Sharpe=1.2738",
-      "metricName": "Sharpe",
-      "metricValue": 1.2738,
-      "isCurrentBest": false,
-      "createdAt": 1776993945169,
-      "depth": 11
-    },
-    {
-      "id": "b9897c0cde1d",
-      "domain": "finance",
-      "title": "Finance round 18: Sharpe=1.2668",
-      "metricName": "Sharpe",
-      "metricValue": 1.2668,
-      "isCurrentBest": false,
-      "createdAt": 1776993795167,
-      "depth": 11
-    },
-    {
-      "id": "3804a9574461",
-      "domain": "finance",
-      "title": "Finance round 15: Sharpe=1.2593",
-      "metricName": "Sharpe",
-      "metricValue": 1.2593,
-      "isCurrentBest": false,
-      "createdAt": 1776993345243,
-      "depth": 11
-    },
-    {
-      "id": "663af843ec86",
-      "domain": "finance",
-      "title": "Finance round 13: Sharpe=1.2543",
-      "metricName": "Sharpe",
-      "metricValue": 1.2543,
-      "isCurrentBest": false,
-      "createdAt": 1776993045160,
-      "depth": 11
-    },
-    {
-      "id": "ff8a157c085c",
-      "domain": "finance",
-      "title": "Finance round 12: Sharpe=1.2487",
-      "metricName": "Sharpe",
-      "metricValue": 1.2487,
-      "isCurrentBest": false,
-      "createdAt": 1776992895161,
-      "depth": 11
-    },
-    {
-      "id": "eb79a8db027a",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.2430",
-      "metricName": "Sharpe",
-      "metricValue": 1.243,
-      "isCurrentBest": false,
-      "createdAt": 1776992745156,
-      "depth": 11
-    },
-    {
-      "id": "a5846a674f93",
-      "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.2337",
-      "metricName": "Sharpe",
-      "metricValue": 1.2337,
-      "isCurrentBest": false,
-      "createdAt": 1776992445152,
-      "depth": 11
-    },
-    {
-      "id": "3a3f799076fb",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776992055152,
-      "depth": 2
-    },
-    {
-      "id": "9a705f72e58d",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1776991935154,
-      "depth": 2
-    },
-    {
-      "id": "5e856b36f225",
+      "id": "ae528bf1c2ca",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 13",
+      "title": "Cause infra-optimization round 311",
       "metricName": "score",
-      "metricValue": 0.969203840947757,
+      "metricValue": 145.03150890228483,
       "isCurrentBest": false,
-      "createdAt": 1776991935137,
+      "createdAt": 1777023862466,
       "depth": 11
     },
     {
-      "id": "363fa290a4be",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.2267",
-      "metricName": "Sharpe",
-      "metricValue": 1.2267,
-      "isCurrentBest": false,
-      "createdAt": 1776991845147,
-      "depth": 11
-    },
-    {
-      "id": "4f88feedb06b",
+      "id": "07de8e584cfd",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
       "metricName": "correctness",
       "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1776991815153,
-      "depth": 2
+      "createdAt": 1777022616051,
+      "depth": 3
     },
     {
-      "id": "36f477da8936",
+      "id": "e44550642031",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 11",
+      "title": "Cause literature-analysis round 301",
       "metricName": "score",
-      "metricValue": 141.05011590706303,
+      "metricValue": 0.9495638417678683,
       "isCurrentBest": false,
-      "createdAt": 1776991815135,
+      "createdAt": 1777022602457,
       "depth": 11
     },
     {
-      "id": "667b2c6b72b2",
+      "id": "d39e776e8cdb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 298",
+      "metricName": "score",
+      "metricValue": 0.9489388395519895,
+      "isCurrentBest": false,
+      "createdAt": 1777022572458,
+      "depth": 11
+    },
+    {
+      "id": "7f9122ef8660",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
       "metricName": "correctness",
       "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1776991695160,
-      "depth": 2
+      "createdAt": 1777021306848,
+      "depth": 3
     },
     {
-      "id": "b1cec372a3d5",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.2194",
-      "metricName": "Sharpe",
-      "metricValue": 1.2194,
-      "isCurrentBest": false,
-      "createdAt": 1776991695153,
-      "depth": 11
-    },
-    {
-      "id": "ddf38a623a08",
+      "id": "879979c3d39e",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 9",
+      "title": "Cause infra-optimization round 279",
       "metricName": "score",
-      "metricValue": 0.9673141676919387,
+      "metricValue": 145.30462966473144,
       "isCurrentBest": false,
-      "createdAt": 1776991695133,
+      "createdAt": 1777021282450,
       "depth": 11
+    },
+    {
+      "id": "a1b86b5c6e44",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Given the Fuchs et al. (2024) constant-velocity subluminal w\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777018815030,
+      "depth": 0
+    },
+    {
+      "id": "f2955fe11ecf",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777017455905,
+      "depth": 3
+    },
+    {
+      "id": "0fc087245dea",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Dynamically Tunable Metamaterials and Enhanced Negative Energy Densities in Casimir",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777016209210,
+      "depth": 0
+    },
+    {
+      "id": "dadcaafb724a",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777016134499,
+      "depth": 3
+    },
+    {
+      "id": "a805c8ec2a9b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 188",
+      "metricName": "score",
+      "metricValue": 145.0860585067766,
+      "isCurrentBest": false,
+      "createdAt": 1777016122404,
+      "depth": 11
+    },
+    {
+      "id": "4537867c0ce3",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777014831435,
+      "depth": 3
+    },
+    {
+      "id": "618aa3e70b77",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How do the quantum fluctuations of the warp bubble geometry,\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777013596292,
+      "depth": 0
+    },
+    {
+      "id": "e52b3da681e9",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777012301871,
+      "depth": 3
+    },
+    {
+      "id": "7897b91c3b51",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777010973154,
+      "depth": 3
+    },
+    {
+      "id": "01288b8ff0b7",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777009662771,
+      "depth": 3
+    },
+    {
+      "id": "afc1831d9ea4",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Considering the Fuchs et al. (2024) constant-velocity sublum\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777007200438,
+      "depth": 0
     }
   ],
   "frontier": [],
@@ -322,6 +316,12 @@
     ],
     "skills": [
       {
+        "id": "f4af427ea459",
+        "title": "Skill Normalize Text (seed/mutation): 0%",
+        "metricValue": 0.1999,
+        "depth": 2
+      },
+      {
         "id": "dfa75a0d6466",
         "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
         "metricValue": 0.1998,
@@ -343,6 +343,12 @@
       }
     ],
     "finance": [
+      {
+        "id": "aa8deb698a55",
+        "title": "Finance round 15: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 11
+      },
       {
         "id": "41c3382bc906",
         "title": "Finance round 18: Sharpe=1.3168",
@@ -396,12 +402,6 @@
         "title": "Finance round 3: Sharpe=1.1728",
         "metricValue": 1.1728,
         "depth": 2
-      },
-      {
-        "id": "38d82e5d1224",
-        "title": "Finance round 2: Sharpe=1.1629",
-        "metricValue": 1.1629,
-        "depth": 1
       }
     ]
   }
