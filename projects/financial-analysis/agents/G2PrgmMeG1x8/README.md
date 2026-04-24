@@ -1,11 +1,11 @@
 # Financial Analysis — Agent G2PrgmMeG1x8
 
 **Best Sharpe Ratio:** 1.3205
-**Hypothesis:** Round 14 best mutation
+**Hypothesis:** Round 18 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
 **Alpha:** 1.5203
 **Max Drawdown:** 0.0546
 **LLM:** unknown
-**Run:** finance-r14
-**Updated:** 2026-04-23T01:02:42.698Z
+**Run:** finance-r18
+**Updated:** 2026-04-24T05:14:33.187Z
