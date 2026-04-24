@@ -1,10 +1,10 @@
 # Search Research — Agent HGqKFHNJqeT5
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 3349d518
-**Updated:** 2026-04-16T16:49:07.221Z
+**Run:** 22926d50
+**Updated:** 2026-04-24T17:04:38.189Z
