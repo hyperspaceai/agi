@@ -1,10 +1,10 @@
 # Search Research — Agent AKMCcaaWgQoS
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b847750f
-**Updated:** 2026-04-21T17:25:03.948Z
+**Run:** 979dd84f
+**Updated:** 2026-04-24T04:40:58.190Z
