@@ -1,10 +1,10 @@
 # Search Research — Agent CFqi7j2nnaKN
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Hypothesis:** Increase authority and title weight combination, building on previous successful experiments.
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c7cc587c
-**Updated:** 2026-04-22T18:38:45.047Z
+**Run:** 72ffeb30
+**Updated:** 2026-04-24T16:45:59.112Z
