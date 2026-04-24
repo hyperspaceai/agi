@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2R6MjgAJCrDf
 
-**Latest Skill:** Structured JSON Diff (LLM 3 iter) v1
-**Score:** 0.1997
+**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct [0.20→0.20→0.20]
+**Description:** Cosine Text Similarity: 0% correct, round 2
 
-_Updated: 2026-04-23T23:08:42.823Z_
+_Updated: 2026-04-24T00:42:47.070Z_
