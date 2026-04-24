@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "timestamp": "2026-04-24T11:40:20.824Z",
+  "peerId": "12D3KooWFgXdEE9AsL8uCTVtcr3Dj9RXUbnNobgjod69bdb5saom",
+  "stats": {
+    "totalNodes": 71,
+    "observations": 2,
+    "experiments": 69,
+    "syntheses": 0,
+    "totalEdges": 51,
+    "maxDepth": 4,
+    "activeExperiments": 13,
+    "recentActivity": 1
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "6fef81becbb05d70ca20db06a1504cdb31f5eee96b1273924d4f3972c04a13b7",
+      "title": "Cause infra-optimization round 226",
+      "metricName": "score",
+      "metricValue": 144.99324429181257,
+      "metricDirection": "maximize",
+      "depth": 4
+    },
+    "skills": {
+      "nodeId": "38dc83eedf25682b4877ee56051ef2490d07b0d2211161a2ba8b980a1b08553c",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "general": {
+      "nodeId": "5d93fe5ae7d659518f3f2bb7ce84d199e36cb5f5834fe110e9453a357a93e3a4",
+      "title": "AutoWeb round 1: 69/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 69,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "search-ranking": {
+      "nodeId": "728c4f0d7632d33c7cc18660a6e67784aaf292690b5e9fc82271e6f48e166e58",
+      "title": "Search round 1: Further increased authorityWeight and slightly decreased bod",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 26,
+    "skills": 27,
+    "knowledge": 2,
+    "physics": 13,
+    "general": 2,
+    "search-ranking": 1
+  },
+  "recentExperiments": [
+    {
+      "id": "d004497902aa",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Quantum Gravity Effects on Gravitational Wave Propagation within Warp Bubbles: A Pe",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777028377746,
+      "depth": 0
+    },
+    {
+      "id": "01ed5cc8609b",
+      "domain": "physics",
+      "title": "Wrote paper: \"Spatially Structured Negative Energy Density Generation via Casimir Micro-Cavity Array",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777025753916,
+      "depth": 0
+    },
+    {
+      "id": "61820416a872",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Given the Fuchs et al. (2024) warp drive solution's asymptot\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777023172289,
+      "depth": 0
+    },
+    {
+      "id": "63f0113d20e1",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777021819637,
+      "depth": 2
+    },
+    {
+      "id": "cdbeab31b200",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777020506008,
+      "depth": 2
+    },
+    {
+      "id": "6fef81becbb0",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 226",
+      "metricName": "score",
+      "metricValue": 144.99324429181257,
+      "isCurrentBest": true,
+      "createdAt": 1777019222153,
+      "depth": 4
+    },
+    {
+      "id": "e6ae9848bae4",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777017982228,
+      "depth": 2
+    },
+    {
+      "id": "53fb5e2194e4",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: If f(R) modified gravity theories can, in principle, replace\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777016763095,
+      "depth": 0
+    },
+    {
+      "id": "731be0418202",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777016664451,
+      "depth": 2
+    },
+    {
+      "id": "6e339935e712",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 188",
+      "metricName": "score",
+      "metricValue": 0.9786707751696928,
+      "isCurrentBest": false,
+      "createdAt": 1777016641988,
+      "depth": 4
+    },
+    {
+      "id": "9d7f2c5fe07f",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777015354323,
+      "depth": 2
+    },
+    {
+      "id": "b8c503d1bef3",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the observed scaling limitations of Casimir-engineered n\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777014156269,
+      "depth": 0
+    },
+    {
+      "id": "44814d4fa209",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777012818609,
+      "depth": 2
+    },
+    {
+      "id": "7ab11e5380d9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 116",
+      "metricName": "score",
+      "metricValue": 0.9786569344788588,
+      "isCurrentBest": false,
+      "createdAt": 1777012771898,
+      "depth": 4
+    },
+    {
+      "id": "e327ef81c5c0",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777011497761,
+      "depth": 2
+    },
+    {
+      "id": "4cb0f4f797a2",
+      "domain": "physics",
+      "title": "Wrote paper: \"The Influence of a Slowly Varying Cosmological Constant on the Energy Scaling of a Con",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777010322321,
+      "depth": 0
+    },
+    {
+      "id": "18102758fa5d",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777010184280,
+      "depth": 2
+    },
+    {
+      "id": "c312c5c1721a",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1777007675372,
+      "depth": 2
+    },
+    {
+      "id": "a62089a2ca88",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 38",
+      "metricName": "score",
+      "metricValue": 141.32804282379104,
+      "isCurrentBest": false,
+      "createdAt": 1777007611867,
+      "depth": 4
+    },
+    {
+      "id": "449362a4dead",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1777006329271,
+      "depth": 2
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "6fef81becbb0",
+        "title": "Cause infra-optimization round 226",
+        "metricValue": 144.99324429181257,
+        "depth": 4
+      },
+      {
+        "id": "d8eec4be3c81",
+        "title": "Cause infra-optimization round 9",
+        "metricValue": 142.4760446369589,
+        "depth": 3
+      },
+      {
+        "id": "b338c4702d22",
+        "title": "Cause infra-optimization round 7",
+        "metricValue": 141.29595950026808,
+        "depth": 2
+      },
+      {
+        "id": "c5d4bc16c504",
+        "title": "Cause infra-optimization round 18",
+        "metricValue": 141.2749701947964,
+        "depth": 1
+      },
+      {
+        "id": "03e43f7e00b3",
+        "title": "Cause infra-optimization round 18",
+        "metricValue": 141.01769718007807,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "38dc83eedf25",
+        "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+        "metricValue": 0.1998,
+        "depth": 1
+      },
+      {
+        "id": "82b7a031fab3",
+        "title": "Skill Compute Text Statistics (LLM 3 iter): 0%",
+        "metricValue": 0.1997,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "5d93fe5ae7d6",
+        "title": "AutoWeb round 1: 69/100",
+        "metricValue": 69,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "728c4f0d7632",
+        "title": "Search round 1: Further increased authorityWeight and slightly decreased bod",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
