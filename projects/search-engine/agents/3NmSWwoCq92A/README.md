@@ -1,10 +1,10 @@
 # Search Research — Agent 3NmSWwoCq92A
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ed0f9e20
-**Updated:** 2026-04-24T15:05:44.732Z
+**Run:** a5c252f4
+**Updated:** 2026-04-24T21:43:55.244Z
