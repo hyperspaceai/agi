@@ -1,10 +1,10 @@
 # Search Research — Agent BFBH52jGsLUh
 
 **Best NDCG@10:** 0.3963
-**Hypothesis:** require 5 unique domains
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a56aed9c
-**Updated:** 2026-04-23T19:30:30.335Z
+**Run:** 74e13130
+**Updated:** 2026-04-24T06:25:24.537Z
