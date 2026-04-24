@@ -1,10 +1,10 @@
 # Search Research — Agent 5BktaJ8zcTG5
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** reduce body weight (-0.05)
+**Hypothesis:** increase diversity penalty (0.2)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 23bca12c
-**Updated:** 2026-04-21T17:40:37.132Z
+**Run:** c00d13f6
+**Updated:** 2026-04-24T05:50:53.218Z
