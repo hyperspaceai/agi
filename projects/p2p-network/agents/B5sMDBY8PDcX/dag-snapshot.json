@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-25T12:20:16.328Z",
+  "timestamp": "2026-04-25T13:20:18.716Z",
   "peerId": "12D3KooWKuEWxK7qa7t1m9sfXdPDNfezRSKebmYBo3apc1LNGKZM",
   "stats": {
-    "totalNodes": 3213,
+    "totalNodes": 3214,
     "observations": 0,
-    "experiments": 3213,
+    "experiments": 3214,
     "syntheses": 0,
-    "totalEdges": 3209,
+    "totalEdges": 3210,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1990,
+    "infrastructure": 1991,
     "skills": 688,
     "finance": 421,
     "search-ranking": 114
   },
   "recentExperiments": [
+    {
+      "id": "0e58df8ed47f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 159",
+      "metricName": "score",
+      "metricValue": 144.9724360536617,
+      "isCurrentBest": false,
+      "createdAt": 1777120156282,
+      "depth": 6
+    },
     {
       "id": "dedf8f0da4ea",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777111094757,
       "depth": 6
-    },
-    {
-      "id": "7cd069b1382a",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1777111005004,
-      "depth": 3
     }
   ],
   "frontier": [],
