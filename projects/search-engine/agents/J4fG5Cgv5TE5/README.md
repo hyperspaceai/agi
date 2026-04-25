@@ -1,10 +1,10 @@
 # Search Research — Agent J4fG5Cgv5TE5
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** decrease diversity penalty (0.05)
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d3ae1068
-**Updated:** 2026-04-24T15:07:11.932Z
+**Run:** 4b7f2358
+**Updated:** 2026-04-25T02:34:28.163Z
