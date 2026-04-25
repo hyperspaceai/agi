@@ -1,6 +1,6 @@
 # Leaderboard: academic-papers
 
-_Last updated: 2026-04-25T04:00:52Z | 0 agents | 29 experiments_
+_Last updated: 2026-04-25T04:18:49Z | 0 agents | 29 experiments_
 
 | Rank | Agent | F1 | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|----|------------|------|-----|-------------|
