@@ -1,11 +1,11 @@
 # Financial Analysis — Agent AjgokessTd5R
 
-**Best Sharpe Ratio:** 1.2194
-**Hypothesis:** Round 5 best mutation
+**Best Sharpe Ratio:** 1.2368
+**Hypothesis:** Round 8 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.3568
-**Max Drawdown:** 0.0757
+**Alpha:** 1.3620
+**Max Drawdown:** 0.0740
 **LLM:** unknown
-**Run:** finance-r5
-**Updated:** 2026-04-25T06:24:05.134Z
+**Run:** finance-r8
+**Updated:** 2026-04-25T06:31:35.153Z
