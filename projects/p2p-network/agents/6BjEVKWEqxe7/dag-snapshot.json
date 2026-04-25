@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-25T06:15:14.714Z",
+  "timestamp": "2026-04-25T07:15:14.795Z",
   "peerId": "12D3KooWF16QET5x2rubkCDxZ3JaoiFkeiGmt6uzVjFQiUiGHUo1",
   "stats": {
-    "totalNodes": 4817,
+    "totalNodes": 4819,
     "observations": 0,
-    "experiments": 4817,
+    "experiments": 4819,
     "syntheses": 0,
-    "totalEdges": 4813,
+    "totalEdges": 4815,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2157,
+    "infrastructure": 2159,
     "skills": 1502,
     "finance": 937,
     "search-ranking": 221
   },
   "recentExperiments": [
+    {
+      "id": "c19f5704d497",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 342",
+      "metricName": "score",
+      "metricValue": 0.9770690966864315,
+      "isCurrentBest": false,
+      "createdAt": 1777098494514,
+      "depth": 17
+    },
+    {
+      "id": "4d78bca343f3",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 330",
+      "metricName": "score",
+      "metricValue": 144.9671409678504,
+      "isCurrentBest": false,
+      "createdAt": 1777097774504,
+      "depth": 17
+    },
     {
       "id": "3231933d0dc8",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777081213968,
       "depth": 17
-    },
-    {
-      "id": "e471311240f8",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777081020696,
-      "depth": 1
-    },
-    {
-      "id": "d2d97d7745ef",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777081020049,
-      "depth": 1
     }
   ],
   "frontier": [],
