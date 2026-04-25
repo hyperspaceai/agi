@@ -1,10 +1,10 @@
 # Search Research — Agent 31PE8NwnDLPD
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 2aeb5da4
-**Updated:** 2026-04-24T15:36:26.667Z
+**Run:** 14738ab0
+**Updated:** 2026-04-25T20:16:10.233Z
