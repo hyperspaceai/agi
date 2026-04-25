@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-24T23:34:17.471Z",
+  "timestamp": "2026-04-25T06:31:39.479Z",
   "peerId": "12D3KooWJUD8dcadGkLsBi1VkRJyPvftp61CTX3J5Av65ThyEtqN",
   "stats": {
-    "totalNodes": 2116,
+    "totalNodes": 2125,
     "observations": 935,
-    "experiments": 1181,
+    "experiments": 1190,
     "syntheses": 0,
-    "totalEdges": 1177,
+    "totalEdges": 1186,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,13 +47,103 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 413,
-    "skills": 480,
+    "infrastructure": 419,
+    "skills": 483,
     "finance": 215,
     "knowledge": 935,
     "search-ranking": 73
   },
   "recentExperiments": [
+    {
+      "id": "16769a90bf2e",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1987,
+      "isCurrentBest": false,
+      "createdAt": 1777094773068,
+      "depth": 6
+    },
+    {
+      "id": "564c75ddd92a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 280",
+      "metricName": "score",
+      "metricValue": 0.9671098994549179,
+      "isCurrentBest": false,
+      "createdAt": 1777079694912,
+      "depth": 7
+    },
+    {
+      "id": "778eaa4a494c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 275",
+      "metricName": "score",
+      "metricValue": 0.9651856939180512,
+      "isCurrentBest": false,
+      "createdAt": 1777079292594,
+      "depth": 7
+    },
+    {
+      "id": "982b5c4c77ed",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1987,
+      "isCurrentBest": false,
+      "createdAt": 1777077307778,
+      "depth": 6
+    },
+    {
+      "id": "141437cb45a4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 246",
+      "metricName": "score",
+      "metricValue": 141.09026437029834,
+      "isCurrentBest": false,
+      "createdAt": 1777077165167,
+      "depth": 7
+    },
+    {
+      "id": "b083449b7103",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 227",
+      "metricName": "score",
+      "metricValue": 141.26147760320364,
+      "isCurrentBest": false,
+      "createdAt": 1777075598331,
+      "depth": 7
+    },
+    {
+      "id": "887ad4f201c3",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1986,
+      "isCurrentBest": false,
+      "createdAt": 1777075478903,
+      "depth": 6
+    },
+    {
+      "id": "90334dbddcde",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 221",
+      "metricName": "score",
+      "metricValue": 141.2641296609251,
+      "isCurrentBest": false,
+      "createdAt": 1777075234837,
+      "depth": 7
+    },
+    {
+      "id": "6af4f75aaacf",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 217",
+      "metricName": "score",
+      "metricValue": 141.27323036414168,
+      "isCurrentBest": false,
+      "createdAt": 1777074988041,
+      "depth": 7
+    },
     {
       "id": "deae6958acc4",
       "domain": "skills",
@@ -162,96 +252,6 @@
       "metricValue": 1.3205,
       "isCurrentBest": false,
       "createdAt": 1777057418353,
-      "depth": 7
-    },
-    {
-      "id": "38b4f4388e81",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1985,
-      "isCurrentBest": false,
-      "createdAt": 1777057320655,
-      "depth": 6
-    },
-    {
-      "id": "d11f2ff80ec1",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1985,
-      "isCurrentBest": false,
-      "createdAt": 1777056777440,
-      "depth": 6
-    },
-    {
-      "id": "ea48dd7cb12a",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1985,
-      "isCurrentBest": false,
-      "createdAt": 1777055912482,
-      "depth": 6
-    },
-    {
-      "id": "7bac16855d0b",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1985,
-      "isCurrentBest": false,
-      "createdAt": 1777055376353,
-      "depth": 6
-    },
-    {
-      "id": "1ae86d2b31d3",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1985,
-      "isCurrentBest": false,
-      "createdAt": 1777054941527,
-      "depth": 6
-    },
-    {
-      "id": "3eda6ce05700",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 29",
-      "metricName": "score",
-      "metricValue": 141.11051988469575,
-      "isCurrentBest": false,
-      "createdAt": 1777054416763,
-      "depth": 7
-    },
-    {
-      "id": "2ec008ade383",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1985,
-      "isCurrentBest": false,
-      "createdAt": 1777053953914,
-      "depth": 6
-    },
-    {
-      "id": "f634f39ce66b",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1985,
-      "isCurrentBest": false,
-      "createdAt": 1777053709392,
-      "depth": 6
-    },
-    {
-      "id": "0f27dcec1aed",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.3137",
-      "metricName": "Sharpe",
-      "metricValue": 1.3137,
-      "isCurrentBest": false,
-      "createdAt": 1777053670244,
       "depth": 7
     }
   ],
