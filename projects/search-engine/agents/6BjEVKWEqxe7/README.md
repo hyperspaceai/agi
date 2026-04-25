@@ -1,10 +1,10 @@
 # Search Research — Agent 6BjEVKWEqxe7
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d2f64230
-**Updated:** 2026-04-24T21:53:25.473Z
+**Run:** 18c2821c
+**Updated:** 2026-04-25T02:22:44.677Z
