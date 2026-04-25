@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-25T03:10:56.248Z",
+  "timestamp": "2026-04-25T06:10:42.269Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 4185,
+    "totalNodes": 4195,
     "observations": 12,
-    "experiments": 4173,
+    "experiments": 4183,
     "syntheses": 0,
-    "totalEdges": 4169,
+    "totalEdges": 4179,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,12 +48,112 @@
   },
   "domainCounts": {
     "knowledge": 12,
-    "infrastructure": 1492,
-    "skills": 1609,
+    "infrastructure": 1496,
+    "skills": 1615,
     "finance": 796,
     "search-ranking": 276
   },
   "recentExperiments": [
+    {
+      "id": "e5d500ded5c7",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1777093728136,
+      "depth": 3
+    },
+    {
+      "id": "cab5aa550063",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1777093488558,
+      "depth": 3
+    },
+    {
+      "id": "fb56213a94a9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 258",
+      "metricName": "score",
+      "metricValue": 144.98945577235736,
+      "isCurrentBest": false,
+      "createdAt": 1777093069327,
+      "depth": 9
+    },
+    {
+      "id": "57a46fdccd83",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 249",
+      "metricName": "score",
+      "metricValue": 0.9525612224108938,
+      "isCurrentBest": false,
+      "createdAt": 1777092530535,
+      "depth": 9
+    },
+    {
+      "id": "d953b77ff2af",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1777090972601,
+      "depth": 3
+    },
+    {
+      "id": "705b1096e497",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 211",
+      "metricName": "score",
+      "metricValue": 0.9521393295885304,
+      "isCurrentBest": false,
+      "createdAt": 1777090253398,
+      "depth": 9
+    },
+    {
+      "id": "a901408725e6",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1777089174409,
+      "depth": 3
+    },
+    {
+      "id": "5f02fc862dad",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 177",
+      "metricName": "score",
+      "metricValue": 145.11200064779962,
+      "isCurrentBest": false,
+      "createdAt": 1777088215248,
+      "depth": 9
+    },
+    {
+      "id": "5f224ba039d6",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1777087615699,
+      "depth": 3
+    },
+    {
+      "id": "397fae54f0b9",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1777086896866,
+      "depth": 3
+    },
     {
       "id": "cc51beefc789",
       "domain": "skills",
@@ -152,106 +252,6 @@
       "metricValue": 0.395,
       "isCurrentBest": false,
       "createdAt": 1777081702641,
-      "depth": 2
-    },
-    {
-      "id": "bcf3f85fa529",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1777081700571,
-      "depth": 2
-    },
-    {
-      "id": "a7fd04ffa858",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1777081699874,
-      "depth": 2
-    },
-    {
-      "id": "9e0b1a5108ce",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1777081698341,
-      "depth": 2
-    },
-    {
-      "id": "fe38e670392a",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1777081695474,
-      "depth": 2
-    },
-    {
-      "id": "dd4f4b42dbf2",
-      "domain": "search-ranking",
-      "title": "Search round 37: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1777081243788,
-      "depth": 2
-    },
-    {
-      "id": "23ed964f6195",
-      "domain": "search-ranking",
-      "title": "Search round 37: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1777081242219,
-      "depth": 2
-    },
-    {
-      "id": "fd088358faef",
-      "domain": "search-ranking",
-      "title": "Search round 37: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1777081241961,
-      "depth": 2
-    },
-    {
-      "id": "6d3030e0d4d7",
-      "domain": "search-ranking",
-      "title": "Search round 37: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1777081241621,
-      "depth": 2
-    },
-    {
-      "id": "7abe8d4e854c",
-      "domain": "search-ranking",
-      "title": "Search round 37: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1777081241359,
-      "depth": 2
-    },
-    {
-      "id": "bf0a72d89e00",
-      "domain": "search-ranking",
-      "title": "Search round 37: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1777081240626,
       "depth": 2
     }
   ],
