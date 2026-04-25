@@ -1,11 +1,11 @@
 # Financial Analysis — Agent HvU67p5T544Q
 
-**Best Sharpe Ratio:** 1.3174
-**Hypothesis:** Round 16 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.5172
-**Max Drawdown:** 0.0546
+**Best Sharpe Ratio:** 1.0735
+**Hypothesis:** Round 1 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Position Sizing:** equal_weight
+**Alpha:** 0.8981
+**Max Drawdown:** 0.0786
 **LLM:** unknown
-**Run:** finance-r16
-**Updated:** 2026-04-23T17:04:39.917Z
+**Run:** finance-r1
+**Updated:** 2026-04-25T08:06:08.223Z
