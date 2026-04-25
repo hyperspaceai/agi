@@ -1,10 +1,10 @@
 # Search Research — Agent 4EVqR5G9uYHN
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** decrease diversity penalty (0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 75266b14
-**Updated:** 2026-04-25T04:45:11.815Z
+**Run:** 97a7b201
+**Updated:** 2026-04-25T09:52:19.081Z
