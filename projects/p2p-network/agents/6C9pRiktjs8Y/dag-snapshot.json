@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-25T11:18:53.205Z",
+  "timestamp": "2026-04-25T12:18:53.318Z",
   "peerId": "12D3KooWF1WzArLbvmQ2iiexaT3Q7HaKwFUybpQV1oH7AuX8DxPc",
   "stats": {
-    "totalNodes": 4956,
+    "totalNodes": 4961,
     "observations": 0,
-    "experiments": 4956,
+    "experiments": 4961,
     "syntheses": 0,
-    "totalEdges": 4952,
+    "totalEdges": 4957,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 27
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2174,
-    "skills": 1610,
+    "infrastructure": 2176,
+    "skills": 1613,
     "finance": 944,
     "search-ranking": 228
   },
   "recentExperiments": [
+    {
+      "id": "77e41b6711ea",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 140",
+      "metricName": "score",
+      "metricValue": 141.07173824484266,
+      "isCurrentBest": false,
+      "createdAt": 1777118993071,
+      "depth": 17
+    },
+    {
+      "id": "f48187c07001",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1777117853054,
+      "depth": 2
+    },
+    {
+      "id": "f1576bc9d8a7",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1777117613028,
+      "depth": 2
+    },
+    {
+      "id": "97f8d53c1ac1",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 105",
+      "metricName": "score",
+      "metricValue": 141.21191713284577,
+      "isCurrentBest": false,
+      "createdAt": 1777116892990,
+      "depth": 17
+    },
+    {
+      "id": "362b3e48838f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1777116772999,
+      "depth": 2
+    },
     {
       "id": "7721399e27ba",
       "domain": "skills",
@@ -201,56 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777114003839,
-      "depth": 2
-    },
-    {
-      "id": "38e160b52072",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777114003474,
-      "depth": 2
-    },
-    {
-      "id": "48b24b4957d1",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777114002517,
-      "depth": 2
-    },
-    {
-      "id": "c27db31ec84d",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777114002090,
-      "depth": 2
-    },
-    {
-      "id": "3b7bc7ec3de8",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1777113772886,
-      "depth": 2
-    },
-    {
-      "id": "aa42b2f53d7a",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1777113652886,
       "depth": 2
     }
   ],
