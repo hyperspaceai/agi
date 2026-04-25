@@ -1,10 +1,10 @@
 # Search Research — Agent 4BbGRzoXTEWR
 
 **Best NDCG@10:** 0.3963
-**Hypothesis:** aggressive peer timeout (500ms)
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c26ff178
-**Updated:** 2026-04-24T21:41:53.184Z
+**Run:** d8870de8
+**Updated:** 2026-04-25T02:31:40.528Z
