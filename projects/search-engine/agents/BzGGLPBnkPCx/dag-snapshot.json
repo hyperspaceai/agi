@@ -1,0 +1,322 @@
+{
+  "version": 1,
+  "timestamp": "2026-04-25T11:54:42.970Z",
+  "peerId": "12D3KooWLodS5WmVwHUSyfjnotnMMeCgtfswDxDGywLAxJg7x8W8",
+  "stats": {
+    "totalNodes": 42,
+    "observations": 0,
+    "experiments": 42,
+    "syntheses": 0,
+    "totalEdges": 38,
+    "maxDepth": 4,
+    "activeExperiments": 0,
+    "recentActivity": 3
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "c375ebf9c994dc9ac903a774d3151a57dfd83acd55be4f33774a7dfb0e248189",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 142.82570244013013,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "skills": {
+      "nodeId": "4f1f3da8d81567ce9f03fb4d71859ee717f74c12b37df63a7bb0a75fb0d073e7",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "finance": {
+      "nodeId": "a7ef8ed9265c949dc1d9b260b70c14446084c56847fa110b99713d5725ff7699",
+      "title": "Finance round 7: Sharpe=1.3161",
+      "metricName": "Sharpe",
+      "metricValue": 1.3161,
+      "metricDirection": "maximize",
+      "depth": 4
+    },
+    "search-ranking": {
+      "nodeId": "3cc29aede19328b6bbbb88e4f29b74f38934b95fbd19394108846ac40b586d7b",
+      "title": "Search round 32: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 10,
+    "skills": 13,
+    "finance": 5,
+    "search-ranking": 14
+  },
+  "recentExperiments": [
+    {
+      "id": "224ca59cdd35",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777115802787,
+      "depth": 2
+    },
+    {
+      "id": "ae256bde27fc",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777114722760,
+      "depth": 2
+    },
+    {
+      "id": "aafc5724fcd1",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777114602759,
+      "depth": 2
+    },
+    {
+      "id": "b3d1dbdc6a12",
+      "domain": "search-ranking",
+      "title": "Search round 43: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777112987866,
+      "depth": 1
+    },
+    {
+      "id": "8198c2523e9a",
+      "domain": "search-ranking",
+      "title": "Search round 43: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777112987500,
+      "depth": 1
+    },
+    {
+      "id": "55e2e528b2d5",
+      "domain": "search-ranking",
+      "title": "Search round 43: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777112987384,
+      "depth": 1
+    },
+    {
+      "id": "be490386e8bf",
+      "domain": "search-ranking",
+      "title": "Search round 43: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777112987285,
+      "depth": 1
+    },
+    {
+      "id": "7854320a7519",
+      "domain": "search-ranking",
+      "title": "Search round 36: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777112327354,
+      "depth": 1
+    },
+    {
+      "id": "fe9602db4f71",
+      "domain": "search-ranking",
+      "title": "Search round 36: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777112327049,
+      "depth": 1
+    },
+    {
+      "id": "4394bb834906",
+      "domain": "search-ranking",
+      "title": "Search round 36: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777112326956,
+      "depth": 1
+    },
+    {
+      "id": "37036e380e13",
+      "domain": "search-ranking",
+      "title": "Search round 36: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777112326875,
+      "depth": 1
+    },
+    {
+      "id": "4b38c42bf850",
+      "domain": "search-ranking",
+      "title": "Search round 32: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777111969094,
+      "depth": 1
+    },
+    {
+      "id": "b58a2c6132f3",
+      "domain": "search-ranking",
+      "title": "Search round 32: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777111967395,
+      "depth": 1
+    },
+    {
+      "id": "b5473c66e69a",
+      "domain": "search-ranking",
+      "title": "Search round 32: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777111967216,
+      "depth": 1
+    },
+    {
+      "id": "97c3760780a0",
+      "domain": "search-ranking",
+      "title": "Search round 32: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777111967105,
+      "depth": 1
+    },
+    {
+      "id": "298639e713fc",
+      "domain": "search-ranking",
+      "title": "Search round 32: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777111966977,
+      "depth": 1
+    },
+    {
+      "id": "3cc29aede193",
+      "domain": "search-ranking",
+      "title": "Search round 32: boost BM25 weight (+0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": true,
+      "createdAt": 1777111966868,
+      "depth": 0
+    },
+    {
+      "id": "91680aca0761",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777111482689,
+      "depth": 2
+    },
+    {
+      "id": "5238fab5e2c2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 36",
+      "metricName": "score",
+      "metricValue": 141.32614123672965,
+      "isCurrentBest": false,
+      "createdAt": 1777111302670,
+      "depth": 1
+    },
+    {
+      "id": "95236369d371",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777110642575,
+      "depth": 2
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "c375ebf9c994",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 142.82570244013013,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "4f1f3da8d815",
+        "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 1
+      },
+      {
+        "id": "202733cbc0b3",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1997,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "a7ef8ed9265c",
+        "title": "Finance round 7: Sharpe=1.3161",
+        "metricValue": 1.3161,
+        "depth": 4
+      },
+      {
+        "id": "6895521b1913",
+        "title": "Finance round 4: Sharpe=1.3064",
+        "metricValue": 1.3064,
+        "depth": 3
+      },
+      {
+        "id": "b599bf78f8cb",
+        "title": "Finance round 3: Sharpe=1.1991",
+        "metricValue": 1.1991,
+        "depth": 2
+      },
+      {
+        "id": "4b9f7c209f94",
+        "title": "Finance round 2: Sharpe=1.0941",
+        "metricValue": 1.0941,
+        "depth": 1
+      },
+      {
+        "id": "8c22a4519843",
+        "title": "Finance round 1: Sharpe=1.0827",
+        "metricValue": 1.0827,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "3cc29aede193",
+        "title": "Search round 32: boost BM25 weight (+0.05)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
