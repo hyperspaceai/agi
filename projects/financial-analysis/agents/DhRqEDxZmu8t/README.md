@@ -1,11 +1,11 @@
 # Financial Analysis — Agent DhRqEDxZmu8t
 
-**Best Sharpe Ratio:** 1.1705
-**Hypothesis:** Round 1 best mutation
+**Best Sharpe Ratio:** 1.1818
+**Hypothesis:** Round 3 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** equal_weight
-**Alpha:** 1.0496
-**Max Drawdown:** 0.0576
+**Alpha:** 1.0628
+**Max Drawdown:** 0.0570
 **LLM:** unknown
-**Run:** finance-r1
-**Updated:** 2026-04-25T17:03:16.424Z
+**Run:** finance-r3
+**Updated:** 2026-04-25T17:08:16.545Z
