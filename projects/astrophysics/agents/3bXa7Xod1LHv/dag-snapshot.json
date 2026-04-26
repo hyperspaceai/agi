@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-26T12:54:38.284Z",
+  "timestamp": "2026-04-26T13:54:38.475Z",
   "peerId": "12D3KooWCQtjrfPLCEZQgTEdKYY7odojk3Z9fL6rZvrt1tNQsLW5",
   "stats": {
-    "totalNodes": 2532,
+    "totalNodes": 2535,
     "observations": 1464,
-    "experiments": 1068,
+    "experiments": 1071,
     "syntheses": 0,
-    "totalEdges": 1064,
+    "totalEdges": 1067,
     "maxDepth": 18,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,12 +48,42 @@
   },
   "domainCounts": {
     "knowledge": 1464,
-    "infrastructure": 366,
+    "infrastructure": 369,
     "skills": 304,
     "finance": 249,
     "search-ranking": 149
   },
   "recentExperiments": [
+    {
+      "id": "070d97ba237d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 601",
+      "metricName": "score",
+      "metricValue": 145.16829263213728,
+      "isCurrentBest": false,
+      "createdAt": 1777209998240,
+      "depth": 7
+    },
+    {
+      "id": "ad8ae9529faa",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 599",
+      "metricName": "score",
+      "metricValue": 0.9201053749114968,
+      "isCurrentBest": false,
+      "createdAt": 1777209878235,
+      "depth": 7
+    },
+    {
+      "id": "ace51e48d731",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 576",
+      "metricName": "score",
+      "metricValue": 145.17962066897522,
+      "isCurrentBest": false,
+      "createdAt": 1777208498155,
+      "depth": 7
+    },
     {
       "id": "9e5ffe73c214",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777177694262,
-      "depth": 1
-    },
-    {
-      "id": "17454e2469ac",
-      "domain": "search-ranking",
-      "title": "Search round 42: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777177693659,
-      "depth": 1
-    },
-    {
-      "id": "fb93bc1c3493",
-      "domain": "search-ranking",
-      "title": "Search round 42: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777177693568,
-      "depth": 1
-    },
-    {
-      "id": "90beed1f5603",
-      "domain": "search-ranking",
-      "title": "Search round 42: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777177693512,
       "depth": 1
     }
   ],
