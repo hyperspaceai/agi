@@ -1,10 +1,10 @@
 # Search Research — Agent 5UKYUafhsYie
 
-**Best NDCG@10:** 0.3913
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b7bcf7a2
-**Updated:** 2026-04-26T20:13:29.635Z
+**Run:** d1386ff7
+**Updated:** 2026-04-26T23:13:41.010Z
