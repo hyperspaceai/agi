@@ -1,10 +1,10 @@
 # Search Research — Agent 4BbGRzoXTEWR
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** disable intent classification
+**Best NDCG@10:** 0.3936
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d8870de8
-**Updated:** 2026-04-25T02:31:40.528Z
+**Run:** 317dd7de
+**Updated:** 2026-04-26T02:28:44.429Z
