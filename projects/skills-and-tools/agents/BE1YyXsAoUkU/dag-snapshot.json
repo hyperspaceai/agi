@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "timestamp": "2026-04-26T10:15:04.963Z",
+  "peerId": "12D3KooWL3NiifSszP1y2cwdz6ECA4eK2rYP9fbSfGUMZvMN4GaS",
+  "stats": {
+    "totalNodes": 24,
+    "observations": 0,
+    "experiments": 24,
+    "syntheses": 0,
+    "totalEdges": 13,
+    "maxDepth": 3,
+    "activeExperiments": 7,
+    "recentActivity": 1
+  },
+  "bestPerDomain": {
+    "skills": {
+      "nodeId": "969182e61e2cf01a035be519465a215a7581fd78f5b112d7b36267d4f3c9d0f7",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "general": {
+      "nodeId": "3ec1b0e008fdc5e8bad8dee001d6b0a12822470272a10ae449cc799ce4748b52",
+      "title": "AutoWeb round 1: 59/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 59,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "search-ranking": {
+      "nodeId": "1042d6f3189e0369a6345cec5162fa333b3201b84d4b21635ee6a21911631368",
+      "title": "Search round 1: Increase titleWeight and explore combining it with authority",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "infrastructure": {
+      "nodeId": "fd8412632671e8efaabb539a67ef12d60b2d473413c04b391933b4a02b617a44",
+      "title": "Cause literature-analysis round 289",
+      "metricName": "score",
+      "metricValue": 0.9747192433169003,
+      "metricDirection": "maximize",
+      "depth": 2
+    }
+  },
+  "domainCounts": {
+    "skills": 12,
+    "physics": 7,
+    "general": 1,
+    "search-ranking": 1,
+    "infrastructure": 3
+  },
+  "recentExperiments": [
+    {
+      "id": "a9c1349763c6",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777195947202,
+      "depth": 3
+    },
+    {
+      "id": "56cd2d2bbd89",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777194512032,
+      "depth": 3
+    },
+    {
+      "id": "fd8412632671",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 289",
+      "metricName": "score",
+      "metricValue": 0.9747192433169003,
+      "isCurrentBest": true,
+      "createdAt": 1777194425257,
+      "depth": 2
+    },
+    {
+      "id": "211fe2b90c12",
+      "domain": "physics",
+      "title": "Wrote paper: \"Gravitational Wave Signatures of Warp Drive Dynamics: A Template Library Approach**\" (",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777193349287,
+      "depth": 0
+    },
+    {
+      "id": "985594469bee",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777193044745,
+      "depth": 3
+    },
+    {
+      "id": "67a802d4a698",
+      "domain": "physics",
+      "title": "Wrote paper: \"**  Vorticity-Induced Warp Drives: A Rigorous Examination of Energy Condition Properti",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777191756468,
+      "depth": 0
+    },
+    {
+      "id": "b4b35e6cb0b7",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777191590468,
+      "depth": 3
+    },
+    {
+      "id": "5610a96e21b3",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 219",
+      "metricName": "score",
+      "metricValue": 0.9727674815692264,
+      "isCurrentBest": false,
+      "createdAt": 1777190147889,
+      "depth": 1
+    },
+    {
+      "id": "87cee0b37e0d",
+      "domain": "physics",
+      "title": "Wrote paper: \"**  F(R) and Gauss-Bonnet Modified Gravity: Towards Warp Drive Solutions via Higher-Cu",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777189300639,
+      "depth": 0
+    },
+    {
+      "id": "56e27ab9de79",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777188911415,
+      "depth": 3
+    },
+    {
+      "id": "8efe9b530c20",
+      "domain": "physics",
+      "title": "Wrote paper: \"Scaling Casimir Micro-Cavities for Macroscopic Negative Energy Density: A Theoretical ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777187776494,
+      "depth": 0
+    },
+    {
+      "id": "ba1a6aa31401",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777187561192,
+      "depth": 3
+    },
+    {
+      "id": "9e36c80ec54a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 176",
+      "metricName": "score",
+      "metricValue": 0.955085195221324,
+      "isCurrentBest": false,
+      "createdAt": 1777187502475,
+      "depth": 0
+    },
+    {
+      "id": "7159164cec32",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777186152756,
+      "depth": 3
+    },
+    {
+      "id": "280bc9061316",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Scaling of Energy Requirements for a Constant-Velocity Warp Drive: An Analysis of t",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777185053310,
+      "depth": 0
+    },
+    {
+      "id": "969182e61e2c",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": true,
+      "createdAt": 1777183541194,
+      "depth": 2
+    },
+    {
+      "id": "1042d6f3189e",
+      "domain": "search-ranking",
+      "title": "Search round 1: Increase titleWeight and explore combining it with authority",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": true,
+      "createdAt": 1777183362250,
+      "depth": 0
+    },
+    {
+      "id": "3ec1b0e008fd",
+      "domain": "general",
+      "title": "AutoWeb round 1: 59/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 59,
+      "isCurrentBest": true,
+      "createdAt": 1777182294180,
+      "depth": 0
+    },
+    {
+      "id": "7a169220cb07",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "isCurrentBest": false,
+      "createdAt": 1777182281775,
+      "depth": 2
+    },
+    {
+      "id": "6b5343834a73",
+      "domain": "physics",
+      "title": "Wrote paper: \"Quantum Gravity Corrections to the Null Energy Condition Near Warp Drive Walls: A Fram",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777181349349,
+      "depth": 0
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "skills": [
+      {
+        "id": "969182e61e2c",
+        "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+        "metricValue": 0.1991,
+        "depth": 2
+      },
+      {
+        "id": "185ec3d9a4d6",
+        "title": "Skill Normalize Text (LLM 3 iter): 0%",
+        "metricValue": 0.199,
+        "depth": 1
+      },
+      {
+        "id": "6df47eaf407e",
+        "title": "Skill Structured JSON Diff (LLM 3 iter): 0%",
+        "metricValue": 0.1989,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "3ec1b0e008fd",
+        "title": "AutoWeb round 1: 59/100",
+        "metricValue": 59,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "1042d6f3189e",
+        "title": "Search round 1: Increase titleWeight and explore combining it with authority",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ],
+    "infrastructure": [
+      {
+        "id": "fd8412632671",
+        "title": "Cause literature-analysis round 289",
+        "metricValue": 0.9747192433169003,
+        "depth": 2
+      },
+      {
+        "id": "5610a96e21b3",
+        "title": "Cause literature-analysis round 219",
+        "metricValue": 0.9727674815692264,
+        "depth": 1
+      },
+      {
+        "id": "9e36c80ec54a",
+        "title": "Cause literature-analysis round 176",
+        "metricValue": 0.955085195221324,
+        "depth": 0
+      }
+    ]
+  }
+}
