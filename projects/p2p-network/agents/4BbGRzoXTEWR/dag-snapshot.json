@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-26T16:17:46.999Z",
+  "timestamp": "2026-04-26T17:17:47.463Z",
   "peerId": "12D3KooWCzxSB8PEe8mvQCHMYwddX9SzAHdoCE2ULBUwxbV2QJba",
   "stats": {
-    "totalNodes": 912,
+    "totalNodes": 913,
     "observations": 0,
-    "experiments": 912,
+    "experiments": 913,
     "syntheses": 0,
-    "totalEdges": 908,
+    "totalEdges": 909,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 307,
+    "infrastructure": 308,
     "skills": 289,
     "finance": 204,
     "search-ranking": 112
   },
   "recentExperiments": [
+    {
+      "id": "d2babd8d6fd2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 785",
+      "metricName": "score",
+      "metricValue": 0.9213069106798201,
+      "isCurrentBest": false,
+      "createdAt": 1777222397158,
+      "depth": 4
+    },
     {
       "id": "85b41995d32c",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777179440863,
-      "depth": 2
-    },
-    {
-      "id": "ce09af492f23",
-      "domain": "search-ranking",
-      "title": "Search round 46: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777179439062,
       "depth": 2
     }
   ],
