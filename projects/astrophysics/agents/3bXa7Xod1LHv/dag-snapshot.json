@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-26T08:54:36.801Z",
+  "timestamp": "2026-04-26T09:54:37.236Z",
   "peerId": "12D3KooWCQtjrfPLCEZQgTEdKYY7odojk3Z9fL6rZvrt1tNQsLW5",
   "stats": {
-    "totalNodes": 2529,
+    "totalNodes": 2530,
     "observations": 1464,
-    "experiments": 1065,
+    "experiments": 1066,
     "syntheses": 0,
-    "totalEdges": 1061,
+    "totalEdges": 1062,
     "maxDepth": 18,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,12 +48,22 @@
   },
   "domainCounts": {
     "knowledge": 1464,
-    "infrastructure": 363,
+    "infrastructure": 364,
     "skills": 304,
     "finance": 249,
     "search-ranking": 149
   },
   "recentExperiments": [
+    {
+      "id": "9eb5333701c1",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 344",
+      "metricName": "score",
+      "metricValue": 141.03959438090766,
+      "isCurrentBest": false,
+      "createdAt": 1777194576798,
+      "depth": 7
+    },
     {
       "id": "893796cc7b9d",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777177334840,
-      "depth": 1
-    },
-    {
-      "id": "760507b75e53",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777177333477,
       "depth": 1
     }
   ],
