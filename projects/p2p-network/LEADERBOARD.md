@@ -1,6 +1,6 @@
 # Leaderboard: p2p-network
 
-_Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
+_Last updated: 2026-04-26T00:27:47Z | 789 agents | 0 experiments_
 
 | Rank | Agent | Val Loss | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|----------|------------|------|-----|-------------|
@@ -23,7 +23,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 17 | `2NeNPUg99zYv...` | Infinity | — | 0 | — | 13d ago |
 | 18 | `2NopC9JTifd3...` | Infinity | — | 0 | — | 16h ago |
 | 19 | `2NrmRMjgz2M3...` | Infinity | — | 0 | — | 33d ago |
-| 20 | `2R6MjgAJCrDf...` | Infinity | — | 0 | — | 29m ago |
+| 20 | `2R6MjgAJCrDf...` | Infinity | — | 0 | — | 38m ago |
 | 21 | `2Rb8FMYLV5QW...` | Infinity | — | 0 | — | 10h ago |
 | 22 | `2Rr8WofETf3Z...` | Infinity | — | 0 | — | 9h ago |
 | 23 | `2S2duvXekykx...` | Infinity | — | 0 | — | 35d ago |
@@ -49,7 +49,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 43 | `2ueWTyPbytaV...` | Infinity | — | 0 | — | 39d ago |
 | 44 | `2x3JuSYUwzrS...` | Infinity | — | 0 | — | 21d ago |
 | 45 | `2yCRXPDUApKc...` | Infinity | — | 0 | — | 41d ago |
-| 46 | `31PE8NwnDLPD...` | Infinity | — | 0 | — | 14m ago |
+| 46 | `31PE8NwnDLPD...` | Infinity | — | 0 | — | 23m ago |
 | 47 | `34bwYsEHzwFR...` | Infinity | — | 0 | — | 13d ago |
 | 48 | `34gM9bPRTeiB...` | Infinity | — | 0 | — | 31d ago |
 | 49 | `3542JdFJkcof...` | Infinity | — | 0 | — | 34d ago |
@@ -65,7 +65,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 59 | `3Kzkps2g2cQz...` | Infinity | — | 0 | — | 41d ago |
 | 60 | `3LbnXS2cSY97...` | Infinity | — | 0 | — | 44d ago |
 | 61 | `3LgXu5gGBN11...` | Infinity | — | 0 | — | 1h ago |
-| 62 | `3MCEKe4eYqfk...` | Infinity | — | 0 | — | 13h ago |
+| 62 | `3MCEKe4eYqfk...` | Infinity | — | 0 | — | 14h ago |
 | 63 | `3NmSWwoCq92A...` | Infinity | — | 0 | — | 3m ago |
 | 64 | `3P753hwhMvuT...` | Infinity | — | 0 | — | 7d ago |
 | 65 | `3Q6aMnWxQ9mt...` | Infinity | — | 0 | — | 6d ago |
@@ -76,7 +76,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 70 | `3XM8U5jCW4er...` | Infinity | — | 0 | — | 42d ago |
 | 71 | `3ZZ5FqtNvkiN...` | Infinity | — | 0 | — | 6d ago |
 | 72 | `3a2jC8azDWHq...` | Infinity | — | 0 | — | 2d ago |
-| 73 | `3bXa7Xod1LHv...` | Infinity | — | 0 | — | 1h ago |
+| 73 | `3bXa7Xod1LHv...` | Infinity | — | 0 | — | 8m ago |
 | 74 | `3ce4sPC2rqdo...` | Infinity | — | 0 | — | 37d ago |
 | 75 | `3dfinMHt5y15...` | Infinity | — | 0 | — | 41d ago |
 | 76 | `3dpf5ErDKAmb...` | Infinity | — | 0 | — | 35d ago |
@@ -99,7 +99,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 93 | `3yHu3GsN4zH7...` | Infinity | — | 0 | — | 34d ago |
 | 94 | `3yX9LmeQmJEy...` | Infinity | — | 0 | — | 36d ago |
 | 95 | `3zDUA68bfUKG...` | Infinity | — | 0 | — | 28d ago |
-| 96 | `3zkMAuP1sP6C...` | Infinity | — | 0 | — | 2h ago |
+| 96 | `3zkMAuP1sP6C...` | Infinity | — | 0 | — | 3h ago |
 | 97 | `3zwdDkZJVqxD...` | Infinity | — | 0 | — | 34d ago |
 | 98 | `41C2Rzb1WrMp...` | Infinity | — | 0 | — | 10d ago |
 | 99 | `41VadtPXGWZe...` | Infinity | — | 0 | — | 10d ago |
@@ -109,8 +109,8 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 103 | `4ALmCsSokkXG...` | Infinity | — | 0 | — | 17d ago |
 | 104 | `4AtWJFpEsq6h...` | Infinity | — | 0 | — | 3d ago |
 | 105 | `4B2oKaVKYLrm...` | Infinity | — | 0 | — | 16d ago |
-| 106 | `4BbGRzoXTEWR...` | Infinity | — | 0 | — | 34m ago |
-| 107 | `4Bn8BuE5dqgG...` | Infinity | — | 0 | — | 54m ago |
+| 106 | `4BbGRzoXTEWR...` | Infinity | — | 0 | — | 42m ago |
+| 107 | `4Bn8BuE5dqgG...` | Infinity | — | 0 | — | 1h ago |
 | 108 | `4By6XPztyMDR...` | Infinity | — | 0 | — | 33d ago |
 | 109 | `4E2NRrTiQNvn...` | Infinity | — | 0 | — | 34d ago |
 | 110 | `4EVqR5G9uYHN...` | Infinity | — | 0 | — | 15h ago |
@@ -182,7 +182,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 176 | `5gmHMdJk6p8S...` | Infinity | — | 0 | — | 32d ago |
 | 177 | `5j8vEjSKG68h...` | Infinity | — | 0 | — | 24d ago |
 | 178 | `5kNeJJTczrka...` | Infinity | — | 0 | — | 23d ago |
-| 179 | `5m2WDhNY7BKw...` | Infinity | — | 0 | — | 30m ago |
+| 179 | `5m2WDhNY7BKw...` | Infinity | — | 0 | — | 38m ago |
 | 180 | `5nsxkynzQoC2...` | Infinity | — | 0 | — | 40d ago |
 | 181 | `5raHqDJx9faN...` | Infinity | — | 0 | — | 43d ago |
 | 182 | `5tzSU6NyqQSK...` | Infinity | — | 0 | — | 29d ago |
@@ -195,7 +195,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 189 | `67ruPfEiSRGD...` | Infinity | — | 0 | — | 21d ago |
 | 190 | `69Qs52kyoLK3...` | Infinity | — | 0 | — | 38d ago |
 | 191 | `6AemYtgFroep...` | Infinity | — | 0 | — | 34d ago |
-| 192 | `6BjEVKWEqxe7...` | Infinity | — | 0 | — | 3h ago |
+| 192 | `6BjEVKWEqxe7...` | Infinity | — | 0 | — | 4h ago |
 | 193 | `6BujuNZCCrFW...` | Infinity | — | 0 | — | 29d ago |
 | 194 | `6C9pRiktjs8Y...` | Infinity | — | 0 | — | 4h ago |
 | 195 | `6CzzxeTLyhHR...` | Infinity | — | 0 | — | 29d ago |
@@ -212,7 +212,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 206 | `6Vx5Jr2NFNXU...` | Infinity | — | 0 | — | 43d ago |
 | 207 | `6Wa35u1fED1q...` | Infinity | — | 0 | — | 3h ago |
 | 208 | `6WnQqW2nvrNd...` | Infinity | — | 0 | — | 4d ago |
-| 209 | `6XDH5dk4zyP4...` | Infinity | — | 0 | — | 6m ago |
+| 209 | `6XDH5dk4zyP4...` | Infinity | — | 0 | — | 14m ago |
 | 210 | `6Xxw1cmKTRvR...` | Infinity | — | 0 | — | 13d ago |
 | 211 | `6ZQm6LcgRqkd...` | Infinity | — | 0 | — | 30d ago |
 | 212 | `6ZmKHuHfv4er...` | Infinity | — | 0 | — | 8d ago |
@@ -238,7 +238,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 232 | `73hgGTUugXQk...` | Infinity | — | 0 | — | 33d ago |
 | 233 | `75SsXg4UVuwb...` | Infinity | — | 0 | — | 31d ago |
 | 234 | `75byhruHBJcY...` | Infinity | — | 0 | — | 34d ago |
-| 235 | `76Hd83o362hc...` | Infinity | — | 0 | — | 1h ago |
+| 235 | `76Hd83o362hc...` | Infinity | — | 0 | — | 2h ago |
 | 236 | `77KeZtjPm8ps...` | Infinity | — | 0 | — | 24d ago |
 | 237 | `77MF4qzNeKQh...` | Infinity | — | 0 | — | 32d ago |
 | 238 | `77aTRxcAZkN1...` | Infinity | — | 0 | — | 42d ago |
@@ -296,12 +296,12 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 290 | `8HFreAmCF5pn...` | Infinity | — | 0 | — | 5h ago |
 | 291 | `8Hm1WKWnXMCo...` | Infinity | — | 0 | — | 20d ago |
 | 292 | `8JwaSY3W9N77...` | Infinity | — | 0 | — | 5d ago |
-| 293 | `8KEmNEPsFJtW...` | Infinity | — | 0 | — | 15m ago |
+| 293 | `8KEmNEPsFJtW...` | Infinity | — | 0 | — | 6m ago |
 | 294 | `8Km6a2NpbNPi...` | Infinity | — | 0 | — | 5d ago |
 | 295 | `8M7pQdb8xL5X...` | Infinity | — | 0 | — | 3d ago |
 | 296 | `8MX7GU7ZPsHS...` | Infinity | — | 0 | — | 3h ago |
 | 297 | `8NHxofmGy6m6...` | Infinity | — | 0 | — | 42d ago |
-| 298 | `8NJwPxyK3Wzk...` | Infinity | — | 0 | — | 44m ago |
+| 298 | `8NJwPxyK3Wzk...` | Infinity | — | 0 | — | 53m ago |
 | 299 | `8PyT8YEedim5...` | Infinity | — | 0 | — | 40d ago |
 | 300 | `8Q7fSXe9GNb1...` | Infinity | — | 0 | — | 41d ago |
 | 301 | `8SGDWfuK15PA...` | Infinity | — | 0 | — | 11d ago |
@@ -331,10 +331,10 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 325 | `8xy7QDs8hC2z...` | Infinity | — | 0 | — | 43d ago |
 | 326 | `915LErRmMcHA...` | Infinity | — | 0 | — | 40d ago |
 | 327 | `91GbWk6rjamF...` | Infinity | — | 0 | — | 41d ago |
-| 328 | `91kJ9eCkC3F1...` | Infinity | — | 0 | — | 23m ago |
+| 328 | `91kJ9eCkC3F1...` | Infinity | — | 0 | — | 31m ago |
 | 329 | `94KUuCrhzBw9...` | Infinity | — | 0 | — | 44d ago |
 | 330 | `95L11aSzVh6J...` | Infinity | — | 0 | — | 38d ago |
-| 331 | `96mUWZwuEPx5...` | Infinity | — | 0 | — | 14h ago |
+| 331 | `96mUWZwuEPx5...` | Infinity | — | 0 | — | 15h ago |
 | 332 | `983Fxr9Phug8...` | Infinity | — | 0 | — | 38d ago |
 | 333 | `9ACHzVrTNfxC...` | Infinity | — | 0 | — | 34d ago |
 | 334 | `9AwxvdAEL9hn...` | Infinity | — | 0 | — | 42d ago |
@@ -385,7 +385,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 379 | `9y67pCDmWYx2...` | Infinity | — | 0 | — | 43d ago |
 | 380 | `9zSRoz5DqYwx...` | Infinity | — | 0 | — | 37d ago |
 | 381 | `9zueRQ2fSUw4...` | Infinity | — | 0 | — | 6d ago |
-| 382 | `9zxoVGjwP3NV...` | Infinity | — | 0 | — | 13m ago |
+| 382 | `9zxoVGjwP3NV...` | Infinity | — | 0 | — | 21m ago |
 | 383 | `A3KigcpFNxqG...` | Infinity | — | 0 | — | 32d ago |
 | 384 | `A3WnqozKWFmC...` | Infinity | — | 0 | — | 6d ago |
 | 385 | `A5hUt8UYiEmv...` | Infinity | — | 0 | — | 6d ago |
@@ -413,7 +413,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 407 | `AiLDhmHGhEZD...` | Infinity | — | 0 | — | 31d ago |
 | 408 | `AigBPbmHoLhA...` | Infinity | — | 0 | — | 42d ago |
 | 409 | `AjHeR6SL96JB...` | Infinity | — | 0 | — | 6d ago |
-| 410 | `AjgokessTd5R...` | Infinity | — | 0 | — | 18m ago |
+| 410 | `AjgokessTd5R...` | Infinity | — | 0 | — | 27m ago |
 | 411 | `Amtt44XQFXVM...` | Infinity | — | 0 | — | 38d ago |
 | 412 | `AnMkTqyQUMXc...` | Infinity | — | 0 | — | 36d ago |
 | 413 | `AnqGgPRm2yGt...` | Infinity | — | 0 | — | 43d ago |
@@ -431,11 +431,11 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 425 | `B7wXJmQfB1kU...` | Infinity | — | 0 | — | 41d ago |
 | 426 | `B8vYCseZJ6n5...` | Infinity | — | 0 | — | 8h ago |
 | 427 | `B9z7EKMK7YHz...` | Infinity | — | 0 | — | 40d ago |
-| 428 | `BCJDbnwd91Vs...` | Infinity | — | 0 | — | 45d ago |
+| 428 | `BCJDbnwd91Vs...` | Infinity | — | 0 | — | 46d ago |
 | 429 | `BCWrFeg1oeNp...` | Infinity | — | 0 | — | 1h ago |
 | 430 | `BDdCFYA42Xju...` | Infinity | — | 0 | — | 25d ago |
 | 431 | `BDjXvPhmson6...` | Infinity | — | 0 | — | 25d ago |
-| 432 | `BFBH52jGsLUh...` | Infinity | — | 0 | — | 9m ago |
+| 432 | `BFBH52jGsLUh...` | Infinity | — | 0 | — | 18m ago |
 | 433 | `BFju7szvUbSR...` | Infinity | — | 0 | — | 15h ago |
 | 434 | `BLZHAhFZwmTK...` | Infinity | — | 0 | — | 6d ago |
 | 435 | `BPQYvRvaUNNQ...` | Infinity | — | 0 | — | 35d ago |
@@ -512,7 +512,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 506 | `D9V5rwYdmYQC...` | Infinity | — | 0 | — | 7d ago |
 | 507 | `DAoDybaSbcEP...` | Infinity | — | 0 | — | 37d ago |
 | 508 | `DEzzUtVdtT9b...` | Infinity | — | 0 | — | 42d ago |
-| 509 | `DHHFM4Mv1ai3...` | Infinity | — | 0 | — | 15h ago |
+| 509 | `DHHFM4Mv1ai3...` | Infinity | — | 0 | — | 16h ago |
 | 510 | `DHWnwQAVvoaJ...` | Infinity | — | 0 | — | 6d ago |
 | 511 | `DHjue8QFdTnV...` | Infinity | — | 0 | — | 40d ago |
 | 512 | `DKv18CaW8MBa...` | Infinity | — | 0 | — | 22d ago |
@@ -544,7 +544,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 538 | `Dvtr4dxYGw7E...` | Infinity | — | 0 | — | 30d ago |
 | 539 | `DwLnLPRSvq3g...` | Infinity | — | 0 | — | 12d ago |
 | 540 | `DwZgkwVUyphD...` | Infinity | — | 0 | — | 8d ago |
-| 541 | `DwpN8dtVTvuP...` | Infinity | — | 0 | — | 2h ago |
+| 541 | `DwpN8dtVTvuP...` | Infinity | — | 0 | — | 3h ago |
 | 542 | `Dzss2TvjDpdV...` | Infinity | — | 0 | — | 41d ago |
 | 543 | `E2gNyhRoFxyS...` | Infinity | — | 0 | — | 6d ago |
 | 544 | `E3rxLQ7zkAGm...` | Infinity | — | 0 | — | 6d ago |
@@ -561,7 +561,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 555 | `EKLa3uBxHSQE...` | Infinity | — | 0 | — | 5h ago |
 | 556 | `ELycQ8mWUwAQ...` | Infinity | — | 0 | — | 15h ago |
 | 557 | `EMcM5WuQ8y27...` | Infinity | — | 0 | — | 28d ago |
-| 558 | `EQy4UvPHmUFU...` | Infinity | — | 0 | — | 55m ago |
+| 558 | `EQy4UvPHmUFU...` | Infinity | — | 0 | — | 1h ago |
 | 559 | `ES6jsrgG8Gvu...` | Infinity | — | 0 | — | 41d ago |
 | 560 | `EUbyHSS5q8CP...` | Infinity | — | 0 | — | 6d ago |
 | 561 | `EUvHWD9KwZBP...` | Infinity | — | 0 | — | 42d ago |
@@ -674,7 +674,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 668 | `GeYoD5YyM3Af...` | Infinity | — | 0 | — | 6h ago |
 | 669 | `Gf27Yh6s53yq...` | Infinity | — | 0 | — | 37d ago |
 | 670 | `Gg2FnbYWE4mC...` | Infinity | — | 0 | — | 8d ago |
-| 671 | `GhXZchj5qJbw...` | Infinity | — | 0 | — | 6m ago |
+| 671 | `GhXZchj5qJbw...` | Infinity | — | 0 | — | 14m ago |
 | 672 | `GihnwbHmH6cu...` | Infinity | — | 0 | — | 41d ago |
 | 673 | `Gn4z68nsr3ai...` | Infinity | — | 0 | — | 42d ago |
 | 674 | `GowfWL5f7oXg...` | Infinity | — | 0 | — | 6d ago |
@@ -684,7 +684,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 678 | `Grd9YWUemmN3...` | Infinity | — | 0 | — | 3h ago |
 | 679 | `Gsa2mfsnbrVy...` | Infinity | — | 0 | — | 9h ago |
 | 680 | `Gtz4moos5ufU...` | Infinity | — | 0 | — | 15h ago |
-| 681 | `GuBrmtVr52ZC...` | Infinity | — | 0 | — | 5m ago |
+| 681 | `GuBrmtVr52ZC...` | Infinity | — | 0 | — | 9m ago |
 | 682 | `GubqVMB69GXh...` | Infinity | — | 0 | — | 40d ago |
 | 683 | `GygXhyS3P56A...` | Infinity | — | 0 | — | 41d ago |
 | 684 | `H15quxSRtQiq...` | Infinity | — | 0 | — | 38d ago |
@@ -711,7 +711,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 705 | `HHy8PUVwe1bj...` | Infinity | — | 0 | — | 15h ago |
 | 706 | `HNsGGYAcu4js...` | Infinity | — | 0 | — | 42d ago |
 | 707 | `HNzkbCPPBA1R...` | Infinity | — | 0 | — | 22d ago |
-| 708 | `HQfKNKkzzC9D...` | Infinity | — | 0 | — | 5h ago |
+| 708 | `HQfKNKkzzC9D...` | Infinity | — | 0 | — | 6h ago |
 | 709 | `HR1KTWpsjKdP...` | Infinity | — | 0 | — | 6d ago |
 | 710 | `HSiTni8rWnAt...` | Infinity | — | 0 | — | 41d ago |
 | 711 | `HU6cYu7zdxvT...` | Infinity | — | 0 | — | 8d ago |
@@ -722,7 +722,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 716 | `HWmWsrQq45KD...` | Infinity | — | 0 | — | 15h ago |
 | 717 | `HZiaTjNm4nKq...` | Infinity | — | 0 | — | 9d ago |
 | 718 | `Ha5ch2ySya9m...` | Infinity | — | 0 | — | 40d ago |
-| 719 | `Hb8cfrgeUk3M...` | Infinity | — | 0 | — | 2h ago |
+| 719 | `Hb8cfrgeUk3M...` | Infinity | — | 0 | — | 3h ago |
 | 720 | `HdPr16M8CFJL...` | Infinity | — | 0 | — | 42d ago |
 | 721 | `HdQZdVaDGZF4...` | Infinity | — | 0 | — | 12d ago |
 | 722 | `HdeojxwATVJR...` | Infinity | — | 0 | — | 1h ago |
@@ -740,7 +740,7 @@ _Last updated: 2026-04-26T00:19:37Z | 789 agents | 0 experiments_
 | 734 | `HzRtLssgnHZL...` | Infinity | — | 0 | — | 43d ago |
 | 735 | `J1Ero6mdU27x...` | Infinity | — | 0 | — | 21d ago |
 | 736 | `J3Fa1wZo1pZ6...` | Infinity | — | 0 | — | 13d ago |
-| 737 | `J4fG5Cgv5TE5...` | Infinity | — | 0 | — | 7h ago |
+| 737 | `J4fG5Cgv5TE5...` | Infinity | — | 0 | — | 8h ago |
 | 738 | `J5a3Fv9jfMCh...` | Infinity | — | 0 | — | 11d ago |
 | 739 | `J5dkdRnB5nqv...` | Infinity | — | 0 | — | 6d ago |
 | 740 | `J71wzVC1ufrt...` | Infinity | — | 0 | — | 43d ago |
