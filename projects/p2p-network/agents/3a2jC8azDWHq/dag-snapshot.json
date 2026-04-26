@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-23T06:50:22.499Z",
+  "timestamp": "2026-04-26T12:50:27.906Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 1286,
+    "totalNodes": 1394,
     "observations": 323,
-    "experiments": 963,
+    "experiments": 1071,
     "syntheses": 0,
-    "totalEdges": 911,
+    "totalEdges": 999,
     "maxDepth": 15,
-    "activeExperiments": 35,
-    "recentActivity": 1
+    "activeExperiments": 52,
+    "recentActivity": 29
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,209 +55,214 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 457,
+    "infrastructure": 518,
     "knowledge": 323,
     "search-ranking": 20,
-    "general": 13,
-    "skills": 268,
-    "finance": 170,
-    "physics": 35
+    "general": 16,
+    "skills": 283,
+    "finance": 182,
+    "physics": 52
   },
   "recentExperiments": [
     {
-      "id": "af2df793120a",
-      "domain": "general",
-      "title": "AutoWeb round 6: 55/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 55,
-      "isCurrentBest": false,
-      "createdAt": 1776924834173,
-      "depth": 0
-    },
-    {
-      "id": "95d2cb256709",
-      "domain": "physics",
-      "title": "Wrote paper: \"Quantum Gravity Corrections to the Null Energy Condition near Warp Drive Walls: A Stud",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776922287454,
-      "depth": 0
-    },
-    {
-      "id": "28aabef8b10b",
-      "domain": "general",
-      "title": "AutoWeb round 5: 46/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 46,
-      "isCurrentBest": false,
-      "createdAt": 1776921898173,
-      "depth": 0
-    },
-    {
-      "id": "42e9d69ce45c",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 183",
-      "metricName": "score",
-      "metricValue": 145.0920820763478,
-      "isCurrentBest": false,
-      "createdAt": 1776921615616,
-      "depth": 7
-    },
-    {
-      "id": "e4d160034949",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 177",
-      "metricName": "score",
-      "metricValue": 145.1517389367954,
-      "isCurrentBest": false,
-      "createdAt": 1776921615609,
-      "depth": 7
-    },
-    {
-      "id": "d66e54e501b2",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1776920121778,
-      "depth": 4
-    },
-    {
-      "id": "ae9ef51fb05d",
+      "id": "7f0a06c7657d",
       "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.1782",
+      "title": "Finance round 12: Sharpe=1.3205",
       "metricName": "Sharpe",
-      "metricValue": 1.1782,
+      "metricValue": 1.3205,
       "isCurrentBest": false,
-      "createdAt": 1776920001797,
+      "createdAt": 1777207827841,
       "depth": 15
     },
     {
-      "id": "4a756c526efa",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can arrays of Casimir micro-cavities be used to generate sta\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776918965998,
-      "depth": 0
-    },
-    {
-      "id": "179416c201f0",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What are the implications of exotic matter for the stability\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776916949528,
-      "depth": 0
-    },
-    {
-      "id": "3d7b18f93411",
-      "domain": "physics",
-      "title": "Wrote paper: \"Quantum Gravity Effects on Superluminal Warp Bubble Stability in the Vicinity of Singu",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776915222279,
-      "depth": 0
-    },
-    {
-      "id": "9f3ab6370f71",
-      "domain": "general",
-      "title": "AutoWeb round 1: 38/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 38,
-      "isCurrentBest": false,
-      "createdAt": 1776914910631,
-      "depth": 0
-    },
-    {
-      "id": "ade597431bd9",
+      "id": "64d34c40d60e",
       "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1981,
+      "metricValue": 0.1999,
       "isCurrentBest": false,
-      "createdAt": 1776913363428,
+      "createdAt": 1777206987678,
       "depth": 4
     },
     {
-      "id": "a0a80cd99062",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 15",
-      "metricName": "score",
-      "metricValue": 141.4407938404535,
+      "id": "dd00403ced66",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.3137",
+      "metricName": "Sharpe",
+      "metricValue": 1.3137,
       "isCurrentBest": false,
-      "createdAt": 1776911922047,
-      "depth": 7
+      "createdAt": 1777206927673,
+      "depth": 15
     },
     {
-      "id": "70a8f9c9a926",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 18",
-      "metricName": "score",
-      "metricValue": 141.25609073830742,
-      "isCurrentBest": false,
-      "createdAt": 1776911922047,
-      "depth": 7
-    },
-    {
-      "id": "bf519418ce4b",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 6",
-      "metricName": "score",
-      "metricValue": 141.483051662226,
-      "isCurrentBest": false,
-      "createdAt": 1776911922046,
-      "depth": 7
-    },
-    {
-      "id": "37c88f7c9d49",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 7",
-      "metricName": "score",
-      "metricValue": 0.9717581196362147,
-      "isCurrentBest": false,
-      "createdAt": 1776911922046,
-      "depth": 7
-    },
-    {
-      "id": "c99667202c43",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5",
-      "metricName": "score",
-      "metricValue": 0.9711782213797457,
-      "isCurrentBest": false,
-      "createdAt": 1776911922045,
-      "depth": 7
-    },
-    {
-      "id": "bc5c8e16045a",
-      "domain": "physics",
-      "title": "Wrote paper: \"Quantum Gravity Corrections to the Null Energy Condition near Warp Drive Walls\" (self-",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1776909197132,
-      "depth": 0
-    },
-    {
-      "id": "720753dd06a4",
+      "id": "07fe5febcbd6",
       "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1996,
+      "metricValue": 0.1999,
       "isCurrentBest": false,
-      "createdAt": 1776908735701,
+      "createdAt": 1777206867667,
       "depth": 4
     },
     {
-      "id": "a5536a7b9298",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 118",
-      "metricName": "score",
-      "metricValue": 141.1015555646037,
+      "id": "3a702ade5ac0",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
       "isCurrentBest": false,
-      "createdAt": 1776908468071,
+      "createdAt": 1777206747662,
+      "depth": 4
+    },
+    {
+      "id": "47c013a55967",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1777206627644,
+      "depth": 4
+    },
+    {
+      "id": "b6238331d58c",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2194",
+      "metricName": "Sharpe",
+      "metricValue": 1.2194,
+      "isCurrentBest": false,
+      "createdAt": 1777206627642,
+      "depth": 15
+    },
+    {
+      "id": "0defbe5e6ac2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 9",
+      "metricName": "score",
+      "metricValue": 141.16241480577511,
+      "isCurrentBest": false,
+      "createdAt": 1777206627632,
       "depth": 7
+    },
+    {
+      "id": "c00502dcd3c2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 8",
+      "metricName": "score",
+      "metricValue": 0.9770898335347745,
+      "isCurrentBest": false,
+      "createdAt": 1777206567624,
+      "depth": 7
+    },
+    {
+      "id": "f3590f4663d0",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1777206507608,
+      "depth": 4
+    },
+    {
+      "id": "da8135104ffc",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1991",
+      "metricName": "Sharpe",
+      "metricValue": 1.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777206477638,
+      "depth": 15
+    },
+    {
+      "id": "708bc8e8d32e",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1777206387598,
+      "depth": 4
+    },
+    {
+      "id": "d0a75d3446a1",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1057",
+      "metricName": "Sharpe",
+      "metricValue": 1.1057,
+      "isCurrentBest": false,
+      "createdAt": 1777206327591,
+      "depth": 15
+    },
+    {
+      "id": "29720502cdcb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 4",
+      "metricName": "score",
+      "metricValue": 0.9729389029146396,
+      "isCurrentBest": false,
+      "createdAt": 1777206327584,
+      "depth": 7
+    },
+    {
+      "id": "5db9667ae3bb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 4",
+      "metricName": "score",
+      "metricValue": 141.48011936556756,
+      "isCurrentBest": false,
+      "createdAt": 1777206327582,
+      "depth": 7
+    },
+    {
+      "id": "4402d7536d8f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1777206267583,
+      "depth": 4
+    },
+    {
+      "id": "50022fde1c4e",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3",
+      "metricName": "score",
+      "metricValue": 0.9499659101154068,
+      "isCurrentBest": false,
+      "createdAt": 1777206267579,
+      "depth": 7
+    },
+    {
+      "id": "ace04c4a66ca",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 3",
+      "metricName": "score",
+      "metricValue": 141.61384473714693,
+      "isCurrentBest": false,
+      "createdAt": 1777206267578,
+      "depth": 7
+    },
+    {
+      "id": "2709140af47e",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.0899",
+      "metricName": "Sharpe",
+      "metricValue": 1.0899,
+      "isCurrentBest": false,
+      "createdAt": 1777206177581,
+      "depth": 15
+    },
+    {
+      "id": "d58835451eb5",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1777206147582,
+      "depth": 4
     }
   ],
   "frontier": [],
