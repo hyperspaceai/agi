@@ -1,10 +1,10 @@
 # Search Research — Agent 84CjXG715bYR
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** use softmax normalization
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** bed73a7c
-**Updated:** 2026-04-26T02:34:59.617Z
+**Run:** 5c286eac
+**Updated:** 2026-04-26T23:26:41.221Z
