@@ -1,10 +1,10 @@
 # Search Research — Agent 8KEmNEPsFJtW
 
 **Best NDCG@10:** 0.3950
-**Hypothesis:** use z-score normalization
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b71c42c8
-**Updated:** 2026-04-25T20:23:39.108Z
+**Run:** 7bac4c38
+**Updated:** 2026-04-26T05:00:25.281Z
