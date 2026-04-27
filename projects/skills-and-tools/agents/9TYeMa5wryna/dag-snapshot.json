@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-27T09:44:43.740Z",
+  "timestamp": "2026-04-27T17:00:43.597Z",
   "peerId": "12D3KooWJGup6hff3t44kFLMKqAuchtMtUuzicUQfU15YKM95yo6",
   "stats": {
-    "totalNodes": 746,
+    "totalNodes": 755,
     "observations": 0,
-    "experiments": 746,
+    "experiments": 755,
     "syntheses": 0,
-    "totalEdges": 742,
+    "totalEdges": 751,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,102 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 257,
-    "skills": 274,
+    "infrastructure": 261,
+    "skills": 279,
     "finance": 147,
     "search-ranking": 68
   },
   "recentExperiments": [
+    {
+      "id": "e0ed31d57b67",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777293356983,
+      "depth": 3
+    },
+    {
+      "id": "65435574f20d",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777292996925,
+      "depth": 3
+    },
+    {
+      "id": "cbfe3c4f510d",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777292876298,
+      "depth": 3
+    },
+    {
+      "id": "c3fc7a7cbca1",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777292756152,
+      "depth": 3
+    },
+    {
+      "id": "ce30439c619b",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777292638220,
+      "depth": 3
+    },
+    {
+      "id": "a84e0be212bf",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 480",
+      "metricName": "score",
+      "metricValue": 0.9513821068654034,
+      "isCurrentBest": false,
+      "createdAt": 1777289551674,
+      "depth": 3
+    },
+    {
+      "id": "54b3bf4c902e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 468",
+      "metricName": "score",
+      "metricValue": 145.00461809770545,
+      "isCurrentBest": false,
+      "createdAt": 1777288831617,
+      "depth": 3
+    },
+    {
+      "id": "c10ee37a5886",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 451",
+      "metricName": "score",
+      "metricValue": 145.19064268605163,
+      "isCurrentBest": false,
+      "createdAt": 1777287811530,
+      "depth": 3
+    },
+    {
+      "id": "177ce181872b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 401",
+      "metricName": "score",
+      "metricValue": 0.9489759062165353,
+      "isCurrentBest": false,
+      "createdAt": 1777283743689,
+      "depth": 3
+    },
     {
       "id": "e6d38e0bdbf3",
       "domain": "infrastructure",
@@ -161,96 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777262933148,
-      "depth": 1
-    },
-    {
-      "id": "d570fcc6332c",
-      "domain": "search-ranking",
-      "title": "Search round 40: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777262933098,
-      "depth": 1
-    },
-    {
-      "id": "d858d338ae23",
-      "domain": "search-ranking",
-      "title": "Search round 40: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777262933047,
-      "depth": 1
-    },
-    {
-      "id": "a4d285e2299e",
-      "domain": "search-ranking",
-      "title": "Search round 40: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777262932996,
-      "depth": 1
-    },
-    {
-      "id": "57bd92d3a44f",
-      "domain": "search-ranking",
-      "title": "Search round 40: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777262932947,
-      "depth": 1
-    },
-    {
-      "id": "a7e606eb9f3d",
-      "domain": "search-ranking",
-      "title": "Search round 40: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777262932898,
-      "depth": 1
-    },
-    {
-      "id": "0daf63ab72b5",
-      "domain": "search-ranking",
-      "title": "Search round 40: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777262932868,
-      "depth": 1
-    },
-    {
-      "id": "514c909269df",
-      "domain": "search-ranking",
-      "title": "Search round 36: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777262572607,
-      "depth": 1
-    },
-    {
-      "id": "493574e0c6b2",
-      "domain": "search-ranking",
-      "title": "Search round 36: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777262572517,
-      "depth": 1
-    },
-    {
-      "id": "e2fa355fe1bc",
-      "domain": "search-ranking",
-      "title": "Search round 36: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777262572468,
       "depth": 1
     }
   ],
