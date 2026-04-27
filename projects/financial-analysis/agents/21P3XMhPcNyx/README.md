@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 21P3XMhPcNyx
 
-**Best Sharpe Ratio:** 1.0323
-**Hypothesis:** [LLM] Increase momentum factor weight to improve Sharpe ratio by targeting winning factors
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Best Sharpe Ratio:** 1.0607
+**Hypothesis:** Round 1 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, meanReversionWeight
 **Position Sizing:** equal_weight
-**Alpha:** 0.9214
-**Max Drawdown:** 0.0845
+**Alpha:** 0.8764
+**Max Drawdown:** 0.0794
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-04-27T20:33:34.352Z
+**Run:** finance-r1
+**Updated:** 2026-04-27T20:54:29.718Z
