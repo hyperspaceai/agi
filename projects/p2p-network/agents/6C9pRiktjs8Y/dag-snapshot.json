@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-27T19:42:01.087Z",
+  "timestamp": "2026-04-27T21:08:45.879Z",
   "peerId": "12D3KooWF1WzArLbvmQ2iiexaT3Q7HaKwFUybpQV1oH7AuX8DxPc",
   "stats": {
-    "totalNodes": 4649,
+    "totalNodes": 4652,
     "observations": 0,
-    "experiments": 4649,
+    "experiments": 4652,
     "syntheses": 0,
-    "totalEdges": 4645,
+    "totalEdges": 4648,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,41 @@
   },
   "domainCounts": {
     "infrastructure": 2004,
-    "skills": 1542,
+    "skills": 1545,
     "finance": 963,
     "search-ranking": 140
   },
   "recentExperiments": [
+    {
+      "id": "5aed1416a01a",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1777322948099,
+      "depth": 2
+    },
+    {
+      "id": "307a33041cf2",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1777321544051,
+      "depth": 2
+    },
+    {
+      "id": "0c0387c835e2",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1777320925717,
+      "depth": 2
+    },
     {
       "id": "00facbd54647",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777313010462,
-      "depth": 2
-    },
-    {
-      "id": "f173735a851a",
-      "domain": "search-ranking",
-      "title": "Search round 38: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777313009657,
-      "depth": 2
-    },
-    {
-      "id": "6715002c9144",
-      "domain": "search-ranking",
-      "title": "Search round 38: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777313008917,
-      "depth": 2
-    },
-    {
-      "id": "77f5da0798d8",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1777312649004,
       "depth": 2
     }
   ],
