@@ -1,10 +1,10 @@
 # Search Research — Agent C6ohknJtBwbS
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** reduce body weight (-0.05)
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** da355cb0
-**Updated:** 2026-04-25T23:17:42.514Z
+**Run:** ab1abe02
+**Updated:** 2026-04-27T14:36:40.296Z
