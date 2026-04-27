@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 8ZBUgmbFX4u4
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1998
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1999
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 46
+**Description:** Extract Entities from Text: 0% correct, round 59
 
-_Updated: 2026-04-27T19:11:48.530Z_
+_Updated: 2026-04-27T19:17:48.493Z_
