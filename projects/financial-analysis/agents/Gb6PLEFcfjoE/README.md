@@ -1,11 +1,11 @@
 # Financial Analysis — Agent Gb6PLEFcfjoE
 
-**Best Sharpe Ratio:** 1.0034
-**Hypothesis:** [LLM] Increased momentum weight to improve Sharpe ratio.
+**Best Sharpe Ratio:** 1.1025
+**Hypothesis:** Round 1 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
-**Position Sizing:** equal_weight
-**Alpha:** 0.9350
-**Max Drawdown:** 0.0889
+**Position Sizing:** risk_parity
+**Alpha:** 1.1173
+**Max Drawdown:** 0.0819
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-04-25T11:08:10.948Z
+**Run:** finance-r1
+**Updated:** 2026-04-25T13:14:13.440Z
