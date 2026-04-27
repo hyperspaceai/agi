@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-04-27T21:14:11.105Z",
+  "timestamp": "2026-04-27T23:14:11.728Z",
   "peerId": "12D3KooWHDDT2rq3CpzFEasz7tj22hTDca6uyn7Qug5QKDFZstnL",
   "stats": {
-    "totalNodes": 217,
+    "totalNodes": 220,
     "observations": 0,
-    "experiments": 217,
+    "experiments": 220,
     "syntheses": 0,
-    "totalEdges": 214,
+    "totalEdges": 217,
     "maxDepth": 6,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -39,11 +39,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 68,
+    "infrastructure": 71,
     "skills": 85,
     "finance": 64
   },
   "recentExperiments": [
+    {
+      "id": "8d7f0b7e11b9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 172",
+      "metricName": "score",
+      "metricValue": 141.04985311473112,
+      "isCurrentBest": false,
+      "createdAt": 1777329431423,
+      "depth": 2
+    },
+    {
+      "id": "4eb91b73cbcf",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 147",
+      "metricName": "score",
+      "metricValue": 141.12029933018695,
+      "isCurrentBest": false,
+      "createdAt": 1777327931319,
+      "depth": 2
+    },
+    {
+      "id": "85f66eec8a32",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 107",
+      "metricName": "score",
+      "metricValue": 0.9678051941512393,
+      "isCurrentBest": false,
+      "createdAt": 1777325531071,
+      "depth": 2
+    },
     {
       "id": "8afddfac51be",
       "domain": "finance",
@@ -213,36 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1777319410438,
       "depth": 1
-    },
-    {
-      "id": "4e5fe6eea5ca",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1584",
-      "metricName": "Sharpe",
-      "metricValue": 1.1584,
-      "isCurrentBest": false,
-      "createdAt": 1777319350428,
-      "depth": 6
-    },
-    {
-      "id": "4c969d2001a1",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1777319290432,
-      "depth": 1
-    },
-    {
-      "id": "3d1c4ac5688b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3",
-      "metricName": "score",
-      "metricValue": 0.9783426528668233,
-      "isCurrentBest": false,
-      "createdAt": 1777319290422,
-      "depth": 2
     }
   ],
   "frontier": [],
