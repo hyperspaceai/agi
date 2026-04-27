@@ -1,10 +1,10 @@
 # Search Research — Agent Gsa2mfsnbrVy
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Hypothesis:** increase diversity penalty (0.2)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 82886b20
-**Updated:** 2026-04-23T18:39:44.696Z
+**Run:** d6ea5b14
+**Updated:** 2026-04-27T14:35:27.361Z
