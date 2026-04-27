@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-27T10:33:00.384Z",
+  "timestamp": "2026-04-27T11:33:00.576Z",
   "peerId": "12D3KooWAUQvonjh52tqVXU2rXC73WotQLy13aP4QBftsMGXGXRh",
   "stats": {
-    "totalNodes": 283,
+    "totalNodes": 285,
     "observations": 0,
-    "experiments": 283,
+    "experiments": 285,
     "syntheses": 0,
-    "totalEdges": 279,
+    "totalEdges": 281,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 77,
-    "skills": 102,
+    "skills": 104,
     "finance": 62,
     "search-ranking": 42
   },
   "recentExperiments": [
+    {
+      "id": "21eee041920b",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777286220318,
+      "depth": 1
+    },
+    {
+      "id": "19f2f245857d",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777286100316,
+      "depth": 1
+    },
     {
       "id": "cb54861767d0",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777280439412,
       "depth": 3
-    },
-    {
-      "id": "3ef88e64ba80",
-      "domain": "search-ranking",
-      "title": "Search round 38: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": true,
-      "createdAt": 1777280439289,
-      "depth": 2
-    },
-    {
-      "id": "49249391c1d1",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1777280337457,
-      "depth": 1
     }
   ],
   "frontier": [],
