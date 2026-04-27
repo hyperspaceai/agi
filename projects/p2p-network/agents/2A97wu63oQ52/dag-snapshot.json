@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-27T17:54:32.124Z",
+  "timestamp": "2026-04-27T18:54:32.488Z",
   "peerId": "12D3KooWAyWHh2fkzJLWn5uW9oFiZ4EDAU3TVxNX8q9LVgk9WP8f",
   "stats": {
-    "totalNodes": 2746,
+    "totalNodes": 2748,
     "observations": 0,
-    "experiments": 2746,
+    "experiments": 2748,
     "syntheses": 0,
-    "totalEdges": 2742,
+    "totalEdges": 2744,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 43
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 1104,
-    "skills": 917,
+    "skills": 919,
     "finance": 593,
     "search-ranking": 132
   },
   "recentExperiments": [
+    {
+      "id": "3d1c868358e0",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777314872276,
+      "depth": 4
+    },
+    {
+      "id": "7ec67e045a89",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777312592098,
+      "depth": 4
+    },
     {
       "id": "d4aab358f146",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777310791954,
       "depth": 4
-    },
-    {
-      "id": "9932bf0491a3",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1",
-      "metricName": "score",
-      "metricValue": 0.9603744219078996,
-      "isCurrentBest": false,
-      "createdAt": 1777310791942,
-      "depth": 8
-    },
-    {
-      "id": "9415864798ca",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1",
-      "metricName": "score",
-      "metricValue": 147.5499288992982,
-      "isCurrentBest": false,
-      "createdAt": 1777310791941,
-      "depth": 8
     }
   ],
   "frontier": [],
