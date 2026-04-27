@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWMK1gEjmmHMWw9JSswQ9PQPrpRWNT7Eh3bMjQ67jbuqV1",
-  "runNumber": 1,
-  "timestamp": 1777271501078,
-  "hypothesis": "Explore: heavy weight decay (0.1)",
+  "runNumber": 3,
+  "timestamp": 1777272624517,
+  "hypothesis": "Improve on 3508c020 (loss=4.1603): disable gradient clip",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -27,7 +27,7 @@
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 1,
+    "gradientClipNorm": 0,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
     "initType": "normal",
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.160294637306696,
-    "trainLoss": 4.163243865412867,
+    "valLoss": 3.4120031469263252,
+    "trainLoss": 3.37787969935977,
     "lossCurve": [
       [
-        121,
-        4.160294637306696
+        129,
+        3.4120031469263252
       ]
     ],
-    "durationSec": 127.555,
-    "tokensPerSec": 1942.7541060718904,
-    "totalTokens": 247808
+    "durationSec": 127.519,
+    "tokensPerSec": 2071.7853810020465,
+    "totalTokens": 264192
   },
-  "improvement": 0,
+  "improvement": -17.986502294097175,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
