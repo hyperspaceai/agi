@@ -1,10 +1,10 @@
 # Search Research — Agent Hb8cfrgeUk3M
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.3899
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f6b6ca40
-**Updated:** 2026-04-24T21:56:13.638Z
+**Run:** ba43bd8a
+**Updated:** 2026-04-27T19:17:00.155Z
