@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWMK1gEjmmHMWw9JSswQ9PQPrpRWNT7Eh3bMjQ67jbuqV1",
+  "runNumber": 3,
+  "timestamp": 1777272624517,
+  "hypothesis": "Improve on 3508c020 (loss=4.1603): disable gradient clip",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 100,
+    "weightDecay": 0.1,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 0,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.4120031469263252,
+    "trainLoss": 3.37787969935977,
+    "lossCurve": [
+      [
+        129,
+        3.4120031469263252
+      ]
+    ],
+    "durationSec": 127.519,
+    "tokensPerSec": 2071.7853810020465,
+    "totalTokens": 264192
+  },
+  "improvement": -17.986502294097175,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
