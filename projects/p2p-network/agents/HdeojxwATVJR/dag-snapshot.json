@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-27T19:01:47.893Z",
+  "timestamp": "2026-04-27T20:11:54.548Z",
   "peerId": "12D3KooWST1yV6WsePZvB7LTkJk7JUNMDuy2mKyGm4m4UX7EpecT",
   "stats": {
-    "totalNodes": 3799,
+    "totalNodes": 3800,
     "observations": 0,
-    "experiments": 3799,
+    "experiments": 3800,
     "syntheses": 0,
-    "totalEdges": 3795,
+    "totalEdges": 3796,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 13
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 1775,
-    "skills": 1195,
+    "skills": 1196,
     "finance": 773,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "29c29f12cf75",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1777319735627,
+      "depth": 3
+    },
     {
       "id": "19dae2b38e6a",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777312398405,
       "depth": 7
-    },
-    {
-      "id": "669ca8036f6e",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1777312278504,
-      "depth": 3
     }
   ],
   "frontier": [],
