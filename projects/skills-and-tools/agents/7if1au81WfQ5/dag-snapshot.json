@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "timestamp": "2026-04-28T04:12:47.188Z",
+  "peerId": "12D3KooWGY2BL2hihZfZWnEi9JibCfqgCHpHtcF3Fftt3X1vzati",
+  "stats": {
+    "totalNodes": 30,
+    "observations": 0,
+    "experiments": 30,
+    "syntheses": 0,
+    "totalEdges": 17,
+    "maxDepth": 2,
+    "activeExperiments": 8,
+    "recentActivity": 3
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "3cbe5e4bbf8eb96cbbe14b8c0190dfc30c1f7809eb91f63953998ee1ddbd81e4",
+      "title": "Cause infra-optimization round 235",
+      "metricName": "score",
+      "metricValue": 145.09958628942482,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "skills": {
+      "nodeId": "792f0a8e4fb8ce5f91a1273b069c3dc234f9eb19fbd9618de5caf7bfa56a6b68",
+      "title": "Skill Detect Anomalies (IQR) (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "general": {
+      "nodeId": "3c8a8d95179176bcf4543bc7e2bd10404975644e40fee39fc66506149e897d4f",
+      "title": "AutoWeb round 2: 63/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 63,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "search-ranking": {
+      "nodeId": "0e381a2b7be9178e4907b9d6aea137f36f9c90ffb45ea75bee088b9b3ab7c78f",
+      "title": "Search round 1: Increase authorityWeight and combine it with titleWeight, an",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 5,
+    "skills": 14,
+    "physics": 8,
+    "general": 2,
+    "search-ranking": 1
+  },
+  "recentExperiments": [
+    {
+      "id": "528c9c4d9095",
+      "domain": "physics",
+      "title": "Wrote paper: \"Stability Analysis of Rotating, Asymmetric Warp Bubbles with White/LSI Casimir Arrays ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777347087000,
+      "depth": 0
+    },
+    {
+      "id": "adef35f7c0af",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1777347045954,
+      "depth": 2
+    },
+    {
+      "id": "0e381a2b7be9",
+      "domain": "search-ranking",
+      "title": "Search round 1: Increase authorityWeight and combine it with titleWeight, an",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": true,
+      "createdAt": 1777346921941,
+      "depth": 0
+    },
+    {
+      "id": "9b183015ba12",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 345",
+      "metricName": "score",
+      "metricValue": 145.00452927465943,
+      "isCurrentBest": false,
+      "createdAt": 1777345754276,
+      "depth": 2
+    },
+    {
+      "id": "f3c927131603",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1777343313991,
+      "depth": 2
+    },
+    {
+      "id": "b055b93e5c42",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Constructing Gravitational Wave Templates for Warp Drive Signatures: A Linearized A",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777343304974,
+      "depth": 0
+    },
+    {
+      "id": "87cbd1fa6ab6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 296",
+      "metricName": "score",
+      "metricValue": 0.9216107636207647,
+      "isCurrentBest": false,
+      "createdAt": 1777343234226,
+      "depth": 2
+    },
+    {
+      "id": "91a8da877498",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777342006097,
+      "depth": 2
+    },
+    {
+      "id": "0906fabf38cb",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777340672652,
+      "depth": 2
+    },
+    {
+      "id": "a146e6f6ce9a",
+      "domain": "physics",
+      "title": "Wrote paper: \"Warp Drive Geometry with Vorticity: An Examination of Energy Condition Properties**\" (",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777339490412,
+      "depth": 0
+    },
+    {
+      "id": "3cbe5e4bbf8e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 235",
+      "metricName": "score",
+      "metricValue": 145.09958628942482,
+      "isCurrentBest": true,
+      "createdAt": 1777339364135,
+      "depth": 1
+    },
+    {
+      "id": "88a35db71511",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777338110189,
+      "depth": 2
+    },
+    {
+      "id": "d4e3e58a4e3c",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Warp Drive Potential in Modified Gravity: A f(R) and Gauss-Bonnet Investigation\" (s",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777336840031,
+      "depth": 0
+    },
+    {
+      "id": "b00656e9bb17",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777336747699,
+      "depth": 2
+    },
+    {
+      "id": "41307b15e9fc",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777335449653,
+      "depth": 2
+    },
+    {
+      "id": "3c8a8d951791",
+      "domain": "general",
+      "title": "AutoWeb round 2: 63/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 63,
+      "isCurrentBest": true,
+      "createdAt": 1777335445553,
+      "depth": 0
+    },
+    {
+      "id": "427256bd8d4b",
+      "domain": "physics",
+      "title": "Wrote paper: \"Scaling Casimir Arrays for Macroscopic Negative Energy Density: A Spacetime Curvature ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777334201121,
+      "depth": 0
+    },
+    {
+      "id": "fef3faa6b5fc",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777332871239,
+      "depth": 2
+    },
+    {
+      "id": "219f9bb5cf79",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "isCurrentBest": false,
+      "createdAt": 1777331579154,
+      "depth": 2
+    },
+    {
+      "id": "e59c3cd823eb",
+      "domain": "general",
+      "title": "AutoWeb round 1: 61/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 61,
+      "isCurrentBest": false,
+      "createdAt": 1777331575450,
+      "depth": 0
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "3cbe5e4bbf8e",
+        "title": "Cause infra-optimization round 235",
+        "metricValue": 145.09958628942482,
+        "depth": 1
+      },
+      {
+        "id": "42fe0eeebf82",
+        "title": "Cause infra-optimization round 16",
+        "metricValue": 141.29538342628456,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "792f0a8e4fb8",
+        "title": "Skill Detect Anomalies (IQR) (LLM 3 iter): 0%",
+        "metricValue": 0.1992,
+        "depth": 1
+      },
+      {
+        "id": "7dca07d5bea6",
+        "title": "Skill Chunk Text for Embeddings (LLM 3 iter): 0%",
+        "metricValue": 0.1989,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "3c8a8d951791",
+        "title": "AutoWeb round 2: 63/100",
+        "metricValue": 63,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "0e381a2b7be9",
+        "title": "Search round 1: Increase authorityWeight and combine it with titleWeight, an",
+        "metricValue": 0.3963092975357146,
+        "depth": 0
+      }
+    ]
+  }
+}
