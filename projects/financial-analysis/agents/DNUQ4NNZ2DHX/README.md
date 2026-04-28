@@ -1,11 +1,11 @@
 # Financial Analysis — Agent DNUQ4NNZ2DHX
 
-**Best Sharpe Ratio:** 1.0908
-**Hypothesis:** Round 3 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, trendWeight
+**Best Sharpe Ratio:** 1.1991
+**Hypothesis:** Round 4 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.1026
-**Max Drawdown:** 0.0828
+**Alpha:** 1.3505
+**Max Drawdown:** 0.0776
 **LLM:** unknown
-**Run:** finance-r3
-**Updated:** 2026-04-28T02:02:49.175Z
+**Run:** finance-r4
+**Updated:** 2026-04-28T02:05:19.118Z
