@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 21P3XMhPcNyx
 
-**Best Sharpe Ratio:** 1.2014
-**Hypothesis:** Round 3 best mutation
+**Best Sharpe Ratio:** 1.2027
+**Hypothesis:** Round 4 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** equal_weight
-**Alpha:** 1.0749
-**Max Drawdown:** 0.0555
+**Alpha:** 1.0658
+**Max Drawdown:** 0.0552
 **LLM:** unknown
-**Run:** finance-r3
-**Updated:** 2026-04-28T07:13:01.346Z
+**Run:** finance-r4
+**Updated:** 2026-04-28T08:27:07.477Z
