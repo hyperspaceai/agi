@@ -1,8 +1,8 @@
 # Skill Catalog — Agent BCWrFeg1oeNp
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 22
+**Description:** Compute Text Statistics: 0% correct, round 37
 
-_Updated: 2026-04-28T17:58:52.663Z_
+_Updated: 2026-04-28T18:06:22.556Z_
