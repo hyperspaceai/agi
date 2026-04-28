@@ -1,10 +1,10 @@
 # Search Research — Agent FW26zZ2GBsnA
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 0c92e574
-**Updated:** 2026-04-27T03:27:20.906Z
+**Run:** 99899fdc
+**Updated:** 2026-04-28T02:12:08.746Z
