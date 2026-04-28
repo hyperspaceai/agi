@@ -1,0 +1,22 @@
+{
+  "runId": "llm-r1",
+  "runNumber": 1,
+  "hypothesis": "[LLM] Enhance Sharpe ratio by incorporating RSI momentum filtering and adjusting position sizing for improved risk-adjusted returns.",
+  "sharpeRatio": 1.2288,
+  "totalReturn": 3.0395,
+  "maxDrawdown": 0.0627,
+  "alpha": 1.5453,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "rsiMomentumWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0.001,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-04-28T06:00:51.453Z"
+}
