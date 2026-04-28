@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWN7x9pQYskd4Pk5VHEgiBz91go6HqvfXU8qXfKbMPVqCV",
-  "runNumber": 1,
-  "timestamp": 1777357022266,
-  "hypothesis": "Explore: switch to SiLU activation",
+  "runNumber": 5,
+  "timestamp": 1777357958695,
+  "hypothesis": "Improve on 3831e72a (loss=4.1649): muon LR (0.08)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -12,7 +12,7 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.08,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.164886026118919,
-    "trainLoss": 4.178879546032299,
+    "valLoss": 3.2126910925205046,
+    "trainLoss": 3.2951574353802537,
     "lossCurve": [
       [
-        74,
-        4.164886026118919
+        128,
+        3.2126910925205046
       ]
     ],
-    "durationSec": 127.089,
-    "tokensPerSec": 1192.487154671136,
-    "totalTokens": 151552
+    "durationSec": 127.859,
+    "tokensPerSec": 2050.2584878655393,
+    "totalTokens": 262144
   },
-  "improvement": 0,
+  "improvement": -22.862448759149466,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
