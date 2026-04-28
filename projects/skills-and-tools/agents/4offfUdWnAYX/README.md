@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 4offfUdWnAYX
 
-**Latest Skill:** Structured JSON Diff (LLM 3 iter) v1
-**Score:** 0.1996
+**Latest Skill:** Chunk Text for Embeddings (LLM 3 iter) v1
+**Score:** 0.1994
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct [0.20→0.20→0.20]
+**Description:** Chunk Text for Embeddings: 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-04-28T19:57:27.279Z_
+_Updated: 2026-04-28T22:33:17.660Z_
