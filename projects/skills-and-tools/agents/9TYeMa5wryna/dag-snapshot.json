@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-28T10:47:00.523Z",
+  "timestamp": "2026-04-28T11:47:00.838Z",
   "peerId": "12D3KooWJGup6hff3t44kFLMKqAuchtMtUuzicUQfU15YKM95yo6",
   "stats": {
-    "totalNodes": 819,
+    "totalNodes": 821,
     "observations": 0,
-    "experiments": 819,
+    "experiments": 821,
     "syntheses": 0,
-    "totalEdges": 815,
+    "totalEdges": 817,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 8
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 285,
-    "skills": 304,
+    "skills": 306,
     "finance": 162,
     "search-ranking": 68
   },
   "recentExperiments": [
+    {
+      "id": "889674903fe8",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1777376100725,
+      "depth": 3
+    },
+    {
+      "id": "136c5e59a17c",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1777375860698,
+      "depth": 3
+    },
     {
       "id": "a670c54c9315",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777368570217,
       "depth": 5
-    },
-    {
-      "id": "d3f6fb8eb7fa",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1777368540225,
-      "depth": 3
-    },
-    {
-      "id": "12aa8d6c8f60",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1777368420229,
-      "depth": 3
     }
   ],
   "frontier": [],
