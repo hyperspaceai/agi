@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-28T01:59:54.944Z",
+  "timestamp": "2026-04-28T04:59:55.998Z",
   "peerId": "12D3KooWRrFeTrBR9GuPwjYXTr54ZL2TJPZoqLWwhfdf9jL2X4PW",
   "stats": {
-    "totalNodes": 65,
+    "totalNodes": 73,
     "observations": 0,
-    "experiments": 65,
+    "experiments": 73,
     "syntheses": 0,
-    "totalEdges": 61,
+    "totalEdges": 69,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,92 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 23,
-    "skills": 16,
+    "infrastructure": 29,
+    "skills": 18,
     "finance": 12,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "69c46626741a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 498",
+      "metricName": "score",
+      "metricValue": 0.9347341807061079,
+      "isCurrentBest": false,
+      "createdAt": 1777351705915,
+      "depth": 2
+    },
+    {
+      "id": "0247d321a9b1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 447",
+      "metricName": "score",
+      "metricValue": 0.932237449267364,
+      "isCurrentBest": false,
+      "createdAt": 1777348645505,
+      "depth": 2
+    },
+    {
+      "id": "33ee6648777a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 440",
+      "metricName": "score",
+      "metricValue": 141.2933965019508,
+      "isCurrentBest": false,
+      "createdAt": 1777348225478,
+      "depth": 2
+    },
+    {
+      "id": "28adbbebb6dc",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 439",
+      "metricName": "score",
+      "metricValue": 0.9297621020369367,
+      "isCurrentBest": false,
+      "createdAt": 1777348165476,
+      "depth": 2
+    },
+    {
+      "id": "2fb0db3010a3",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 437",
+      "metricName": "score",
+      "metricValue": 143.47639323577567,
+      "isCurrentBest": false,
+      "createdAt": 1777348045471,
+      "depth": 2
+    },
+    {
+      "id": "3d3acf9ee0a5",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777344955143,
+      "depth": 1
+    },
+    {
+      "id": "94f378a2b356",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 382",
+      "metricName": "score",
+      "metricValue": 145.00019675302858,
+      "isCurrentBest": false,
+      "createdAt": 1777344745146,
+      "depth": 2
+    },
+    {
+      "id": "455148675011",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777344475138,
+      "depth": 1
+    },
     {
       "id": "2a0a1c76cb1c",
       "domain": "infrastructure",
@@ -171,86 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777326332343,
-      "depth": 1
-    },
-    {
-      "id": "cb154af88ff9",
-      "domain": "search-ranking",
-      "title": "Search round 46: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777325972045,
-      "depth": 1
-    },
-    {
-      "id": "3da8dde1b09d",
-      "domain": "search-ranking",
-      "title": "Search round 46: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777325971979,
-      "depth": 1
-    },
-    {
-      "id": "6e8905eedd84",
-      "domain": "search-ranking",
-      "title": "Search round 46: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777325971320,
-      "depth": 1
-    },
-    {
-      "id": "0ccfbe6413ca",
-      "domain": "search-ranking",
-      "title": "Search round 46: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777325971284,
-      "depth": 1
-    },
-    {
-      "id": "09aebc82eeab",
-      "domain": "search-ranking",
-      "title": "Search round 42: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777325611326,
-      "depth": 1
-    },
-    {
-      "id": "64411e0d89b3",
-      "domain": "search-ranking",
-      "title": "Search round 42: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777325611221,
-      "depth": 1
-    },
-    {
-      "id": "bd426a45a998",
-      "domain": "search-ranking",
-      "title": "Search round 42: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777325611114,
-      "depth": 1
-    },
-    {
-      "id": "34ac1300e8a8",
-      "domain": "search-ranking",
-      "title": "Search round 42: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777325611030,
       "depth": 1
     }
   ],
