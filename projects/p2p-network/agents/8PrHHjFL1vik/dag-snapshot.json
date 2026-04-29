@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-04-28T23:25:00.872Z",
+  "timestamp": "2026-04-29T00:25:01.103Z",
   "peerId": "12D3KooWHDDT2rq3CpzFEasz7tj22hTDca6uyn7Qug5QKDFZstnL",
   "stats": {
-    "totalNodes": 306,
+    "totalNodes": 307,
     "observations": 0,
-    "experiments": 306,
+    "experiments": 307,
     "syntheses": 0,
-    "totalEdges": 303,
+    "totalEdges": 304,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,21 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 122,
+    "infrastructure": 123,
     "skills": 102,
     "finance": 82
   },
   "recentExperiments": [
+    {
+      "id": "e9a20145ea5e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 401",
+      "metricName": "score",
+      "metricValue": 141.35160638012027,
+      "isCurrentBest": false,
+      "createdAt": 1777419420831,
+      "depth": 2
+    },
     {
       "id": "bd5abc5dfb14",
       "domain": "infrastructure",
@@ -233,16 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1777396318426,
       "depth": 2
-    },
-    {
-      "id": "220ce5552190",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1777396258424,
-      "depth": 1
     }
   ],
   "frontier": [],
