@@ -1,10 +1,10 @@
 # Search Research — Agent 9tBCUmv7KT2E
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 16dff1c8
-**Updated:** 2026-04-29T11:10:32.280Z
+**Run:** 58a10bc2
+**Updated:** 2026-04-29T13:00:35.179Z
