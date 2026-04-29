@@ -1,10 +1,10 @@
 # Search Research — Agent 3T78SnpmLTH8
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** require 5 unique domains
+**Best NDCG@10:** 0.3963
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 84173f2d
-**Updated:** 2026-04-27T18:58:02.205Z
+**Run:** 590f5fc9
+**Updated:** 2026-04-29T12:41:52.808Z
