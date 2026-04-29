@@ -1,8 +1,8 @@
 # Skill Catalog — Agent FW26zZ2GBsnA
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 71
+**Description:** Structured JSON Diff: 0% correct, round 92
 
-_Updated: 2026-04-29T07:50:49.561Z_
+_Updated: 2026-04-29T08:36:03.567Z_
