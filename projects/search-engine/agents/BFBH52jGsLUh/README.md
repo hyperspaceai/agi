@@ -1,10 +1,10 @@
 # Search Research — Agent BFBH52jGsLUh
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** disable intent classification
+**Best NDCG@10:** 0.4000
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** fdc650e5
-**Updated:** 2026-04-27T20:22:47.089Z
+**Run:** 5780b320
+**Updated:** 2026-04-29T13:05:16.071Z
