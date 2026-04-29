@@ -1,10 +1,10 @@
 # Search Research — Agent 3NmSWwoCq92A
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 41181a82
-**Updated:** 2026-04-27T19:00:12.704Z
+**Run:** bd6656bc
+**Updated:** 2026-04-29T12:54:37.855Z
