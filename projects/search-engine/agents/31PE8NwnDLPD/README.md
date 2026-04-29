@@ -1,10 +1,10 @@
 # Search Research — Agent 31PE8NwnDLPD
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 3b4ef712
-**Updated:** 2026-04-29T04:25:03.609Z
+**Run:** 14738ab0
+**Updated:** 2026-04-25T20:28:12.817Z
