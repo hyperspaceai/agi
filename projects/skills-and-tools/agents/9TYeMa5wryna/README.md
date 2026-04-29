@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 9TYeMa5wryna
 
-**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
-**Score:** 0.1998
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Score:** 0.1999
 **Permissions:** none
-**Description:** Detect Anomalies (IQR): 0% correct, round 29
+**Description:** Compute Text Statistics: 0% correct, round 40
 
-_Updated: 2026-04-28T18:19:57.235Z_
+_Updated: 2026-04-29T00:41:21.910Z_
