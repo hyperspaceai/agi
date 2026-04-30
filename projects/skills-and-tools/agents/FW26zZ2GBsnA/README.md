@@ -1,8 +1,8 @@
 # Skill Catalog — Agent FW26zZ2GBsnA
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 73
+**Description:** Compute Text Statistics: 0% correct, round 93
 
-_Updated: 2026-04-30T07:24:49.798Z_
+_Updated: 2026-04-30T08:04:50.790Z_
