@@ -1,10 +1,10 @@
 # Search Research — Agent Bg1aDFjX7BbL
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7423a280
-**Updated:** 2026-04-28T18:46:06.478Z
+**Run:** 7da9b188
+**Updated:** 2026-04-30T16:29:54.758Z
