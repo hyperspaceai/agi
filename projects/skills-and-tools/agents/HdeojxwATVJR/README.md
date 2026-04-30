@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HdeojxwATVJR
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 516
+**Description:** Normalize Text: 0% correct, round 759
 
-_Updated: 2026-04-30T04:29:30.903Z_
+_Updated: 2026-04-30T12:35:34.641Z_
