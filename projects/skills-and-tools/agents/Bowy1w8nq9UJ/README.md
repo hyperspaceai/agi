@@ -1,8 +1,8 @@
 # Skill Catalog — Agent Bowy1w8nq9UJ
 
-**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
-**Score:** 0.1992
+**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Score:** 0.1993
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct, round 27
+**Description:** Cosine Text Similarity: 0% correct, round 24
 
-_Updated: 2026-04-24T13:01:26.647Z_
+_Updated: 2026-04-30T06:39:11.510Z_
