@@ -1,8 +1,8 @@
 # Skill Catalog — Agent AKMCcaaWgQoS
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 823
+**Description:** Compute Text Statistics: 0% correct, round 933
 
-_Updated: 2026-04-30T14:37:05.194Z_
+_Updated: 2026-04-30T18:17:05.436Z_
