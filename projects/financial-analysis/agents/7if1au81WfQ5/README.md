@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 7if1au81WfQ5
 
-**Best Sharpe Ratio:** 1.2046
-**Hypothesis:** [LLM] Enhance Sharpe ratio by incorporating regime detection and adjusting position sizing for improved risk-adjusted returns.
+**Best Sharpe Ratio:** 1.1991
+**Hypothesis:** Round 4 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.4001
-**Max Drawdown:** 0.0622
+**Alpha:** 1.3505
+**Max Drawdown:** 0.0776
 **LLM:** unknown
-**Run:** llm-r3
-**Updated:** 2026-05-01T18:36:06.049Z
+**Run:** finance-r4
+**Updated:** 2026-05-01T21:02:20.269Z
