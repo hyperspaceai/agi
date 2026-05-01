@@ -1,0 +1,334 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-01T13:39:08.320Z",
+  "peerId": "12D3KooWGY2BL2hihZfZWnEi9JibCfqgCHpHtcF3Fftt3X1vzati",
+  "stats": {
+    "totalNodes": 112,
+    "observations": 0,
+    "experiments": 112,
+    "syntheses": 0,
+    "totalEdges": 80,
+    "maxDepth": 4,
+    "activeExperiments": 19,
+    "recentActivity": 0
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "3a186c669f0b8e710aef90e45b5afa89ac20c1c36c32d3bd7cf75ce00f425ce7",
+      "title": "Cause infra-optimization round 788",
+      "metricName": "score",
+      "metricValue": 145.21960730432437,
+      "metricDirection": "maximize",
+      "depth": 3
+    },
+    "skills": {
+      "nodeId": "792f0a8e4fb8ce5f91a1273b069c3dc234f9eb19fbd9618de5caf7bfa56a6b68",
+      "title": "Skill Detect Anomalies (IQR) (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "general": {
+      "nodeId": "dea1e8823ab51c661755896d0a1a26dfdcfa7bdbd521ba8e5c1f49aee2fc140d",
+      "title": "AutoWeb round 16: 77/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 77,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "search-ranking": {
+      "nodeId": "0e381a2b7be9178e4907b9d6aea137f36f9c90ffb45ea75bee088b9b3ab7c78f",
+      "title": "Search round 1: Increase authorityWeight and combine it with titleWeight, an",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "finance": {
+      "nodeId": "3b84862a9eaf98a4b37e302f0761eb6c56af3564d4d58c90e9434acfa67c4b5c",
+      "title": "Finance round 1: Sharpe=1.1782",
+      "metricName": "Sharpe",
+      "metricValue": 1.1782,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 39,
+    "skills": 39,
+    "physics": 19,
+    "general": 9,
+    "search-ranking": 2,
+    "finance": 4
+  },
+  "recentExperiments": [
+    {
+      "id": "0eb2adcb6247",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1033",
+      "metricName": "score",
+      "metricValue": 0.9061433388865174,
+      "isCurrentBest": false,
+      "createdAt": 1777639037007,
+      "depth": 4
+    },
+    {
+      "id": "8b5e56c24fb5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1021",
+      "metricName": "score",
+      "metricValue": 145.01864063339428,
+      "isCurrentBest": false,
+      "createdAt": 1777637806926,
+      "depth": 4
+    },
+    {
+      "id": "dbb8974fcf02",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1005",
+      "metricName": "score",
+      "metricValue": 145.1044209019942,
+      "isCurrentBest": false,
+      "createdAt": 1777636636875,
+      "depth": 4
+    },
+    {
+      "id": "21239704ef36",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1077",
+      "metricName": "Sharpe",
+      "metricValue": 1.1077,
+      "isCurrentBest": false,
+      "createdAt": 1777636523511,
+      "depth": 1
+    },
+    {
+      "id": "5c45a1d33090",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 994",
+      "metricName": "score",
+      "metricValue": 145.13858729269,
+      "isCurrentBest": false,
+      "createdAt": 1777636516865,
+      "depth": 4
+    },
+    {
+      "id": "20ade88c8806",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.0972",
+      "metricName": "Sharpe",
+      "metricValue": 1.0972,
+      "isCurrentBest": false,
+      "createdAt": 1777634124248,
+      "depth": 1
+    },
+    {
+      "id": "e5d0fc24dd49",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777631673819,
+      "depth": 2
+    },
+    {
+      "id": "668006454cd3",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.0852",
+      "metricName": "Sharpe",
+      "metricValue": 1.0852,
+      "isCurrentBest": false,
+      "createdAt": 1777631660739,
+      "depth": 1
+    },
+    {
+      "id": "dd959d9593bd",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 894",
+      "metricName": "score",
+      "metricValue": 145.18619720646652,
+      "isCurrentBest": false,
+      "createdAt": 1777630366076,
+      "depth": 4
+    },
+    {
+      "id": "dea1e8823ab5",
+      "domain": "general",
+      "title": "AutoWeb round 16: 77/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 77,
+      "isCurrentBest": true,
+      "createdAt": 1777629225153,
+      "depth": 0
+    },
+    {
+      "id": "25306265deca",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 879",
+      "metricName": "score",
+      "metricValue": 0.9099246553389534,
+      "isCurrentBest": false,
+      "createdAt": 1777629166058,
+      "depth": 4
+    },
+    {
+      "id": "5f97ee0f95f3",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777626718054,
+      "depth": 2
+    },
+    {
+      "id": "c037b2620db9",
+      "domain": "general",
+      "title": "AutoWeb round 14: 67/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 67,
+      "isCurrentBest": false,
+      "createdAt": 1777624099023,
+      "depth": 0
+    },
+    {
+      "id": "aca93330dd7f",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777624065968,
+      "depth": 2
+    },
+    {
+      "id": "92397dad5575",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777619029010,
+      "depth": 2
+    },
+    {
+      "id": "0bbd4a2030f5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 659",
+      "metricName": "score",
+      "metricValue": 141.13891485750918,
+      "isCurrentBest": false,
+      "createdAt": 1777616495095,
+      "depth": 4
+    },
+    {
+      "id": "547db9221c46",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777614050351,
+      "depth": 2
+    },
+    {
+      "id": "a5df1d800374",
+      "domain": "general",
+      "title": "AutoWeb round 9: 61/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 61,
+      "isCurrentBest": false,
+      "createdAt": 1777608816401,
+      "depth": 0
+    },
+    {
+      "id": "f19cbcb1c9f3",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "isCurrentBest": false,
+      "createdAt": 1777608789893,
+      "depth": 2
+    },
+    {
+      "id": "816c3c62c9c0",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 519",
+      "metricName": "score",
+      "metricValue": 141.02482656556901,
+      "isCurrentBest": false,
+      "createdAt": 1777607457402,
+      "depth": 4
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "3a186c669f0b",
+        "title": "Cause infra-optimization round 788",
+        "metricValue": 145.21960730432437,
+        "depth": 3
+      },
+      {
+        "id": "7c9e3c23ad61",
+        "title": "Cause infra-optimization round 692",
+        "metricValue": 145.21924395576286,
+        "depth": 2
+      },
+      {
+        "id": "3cbe5e4bbf8e",
+        "title": "Cause infra-optimization round 235",
+        "metricValue": 145.09958628942482,
+        "depth": 1
+      },
+      {
+        "id": "42fe0eeebf82",
+        "title": "Cause infra-optimization round 16",
+        "metricValue": 141.29538342628456,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "792f0a8e4fb8",
+        "title": "Skill Detect Anomalies (IQR) (LLM 3 iter): 0%",
+        "metricValue": 0.1992,
+        "depth": 1
+      },
+      {
+        "id": "7dca07d5bea6",
+        "title": "Skill Chunk Text for Embeddings (LLM 3 iter): 0%",
+        "metricValue": 0.1989,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "dea1e8823ab5",
+        "title": "AutoWeb round 16: 77/100",
+        "metricValue": 77,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "0e381a2b7be9",
+        "title": "Search round 1: Increase authorityWeight and combine it with titleWeight, an",
+        "metricValue": 0.3963092975357146,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "3b84862a9eaf",
+        "title": "Finance round 1: Sharpe=1.1782",
+        "metricValue": 1.1782,
+        "depth": 0
+      }
+    ]
+  }
+}
