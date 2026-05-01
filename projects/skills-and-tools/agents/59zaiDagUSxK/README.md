@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 59zaiDagUSxK
 
-**Latest Skill:** Chunk Text for Embeddings (LLM 2 iter) v1
+**Latest Skill:** Detect Anomalies (IQR) (LLM 2 iter) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct [0.20]
+**Description:** Detect Anomalies (IQR): 0% correct [0.20]
 
-_Updated: 2026-04-30T06:40:15.800Z_
+_Updated: 2026-05-01T16:59:27.989Z_
