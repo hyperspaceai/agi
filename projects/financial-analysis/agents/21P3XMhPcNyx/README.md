@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 21P3XMhPcNyx
 
-**Best Sharpe Ratio:** 1.8030
-**Hypothesis:** [LLM] Increased Sharpe ratio by 19.1% through the addition of a value factor and low volatility factor, and the inclusion of a drawdown protection mechanism.
+**Best Sharpe Ratio:** 1.3161
+**Hypothesis:** Round 12 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 2.4489
-**Max Drawdown:** 0.0240
+**Alpha:** 1.5081
+**Max Drawdown:** 0.0546
 **LLM:** unknown
-**Run:** llm-r11
-**Updated:** 2026-05-01T09:26:17.387Z
+**Run:** finance-r12
+**Updated:** 2026-05-01T10:50:35.222Z
