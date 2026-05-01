@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-01T03:16:25.757Z",
+  "timestamp": "2026-05-01T04:17:34.230Z",
   "peerId": "12D3KooWQZC3EHdPeDA8kLyxeo2Wqw2kWxrj9pyrpUh1DcmmgiXX",
   "stats": {
-    "totalNodes": 4585,
+    "totalNodes": 4586,
     "observations": 0,
-    "experiments": 4585,
+    "experiments": 4586,
     "syntheses": 0,
-    "totalEdges": 4581,
+    "totalEdges": 4582,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2259,
+    "infrastructure": 2260,
     "skills": 1394,
     "finance": 916,
     "search-ranking": 16
   },
   "recentExperiments": [
+    {
+      "id": "62b78499ab1d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2392",
+      "metricName": "score",
+      "metricValue": 0.9114936067691661,
+      "isCurrentBest": false,
+      "createdAt": 1777605628047,
+      "depth": 17
+    },
     {
       "id": "63d1d5cf60d1",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777561270351,
       "depth": 17
-    },
-    {
-      "id": "e55594ae5305",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1777559071734,
-      "depth": 3
     }
   ],
   "frontier": [],
