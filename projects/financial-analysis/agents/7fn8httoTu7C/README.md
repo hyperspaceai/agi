@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 7fn8httoTu7C
 
-**Best Sharpe Ratio:** 1.3174
-**Hypothesis:** Round 10 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.5172
-**Max Drawdown:** 0.0546
+**Best Sharpe Ratio:** 1.6668
+**Hypothesis:** [LLM] Increased Sharpe ratio by 20% through addition of dividend yield factor, drawdown protection, and multi-factor Z-score composite, and adjustment of risk target and position sizing.
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight
+**Position Sizing:** inverse_vol
+**Alpha:** 1.6018
+**Max Drawdown:** 0.0247
 **LLM:** unknown
-**Run:** finance-r10
-**Updated:** 2026-05-02T07:15:30.526Z
+**Run:** llm-r11
+**Updated:** 2026-05-02T12:29:49.390Z
