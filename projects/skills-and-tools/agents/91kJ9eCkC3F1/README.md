@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 91kJ9eCkC3F1
 
 **Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
-**Score:** 0.1996
+**Score:** 0.1995
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct, round 973
+**Description:** Chunk Text for Embeddings: 0% correct, round 17
 
-_Updated: 2026-04-30T19:54:28.952Z_
+_Updated: 2026-05-02T19:23:04.997Z_
