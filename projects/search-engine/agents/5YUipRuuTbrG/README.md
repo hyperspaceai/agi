@@ -1,10 +1,10 @@
 # Search Research — Agent 5YUipRuuTbrG
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** local + peer only
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a0a4daeb
-**Updated:** 2026-04-27T19:05:18.694Z
+**Run:** bfa4cea6
+**Updated:** 2026-05-02T22:34:36.698Z
