@@ -1,10 +1,10 @@
 # Search Research — Agent GZFoUz35qrZw
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** decrease diversity penalty (0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 4339ba5c
-**Updated:** 2026-04-16T15:41:40.915Z
+**Run:** c1b78b40
+**Updated:** 2026-05-02T09:40:14.332Z
