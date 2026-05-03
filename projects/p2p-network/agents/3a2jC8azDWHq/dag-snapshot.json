@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-03T21:27:50.495Z",
+  "timestamp": "2026-05-03T22:27:50.718Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 2500,
+    "totalNodes": 2502,
     "observations": 323,
-    "experiments": 2177,
+    "experiments": 2179,
     "syntheses": 0,
-    "totalEdges": 2105,
+    "totalEdges": 2107,
     "maxDepth": 15,
     "activeExperiments": 52,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,15 +55,35 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 983,
+    "infrastructure": 984,
     "knowledge": 323,
     "search-ranking": 31,
     "general": 16,
-    "skills": 650,
+    "skills": 651,
     "finance": 445,
     "physics": 52
   },
   "recentExperiments": [
+    {
+      "id": "acb4f27ba4cf",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3252",
+      "metricName": "score",
+      "metricValue": 0.9005573473781511,
+      "isCurrentBest": false,
+      "createdAt": 1777846220566,
+      "depth": 7
+    },
+    {
+      "id": "b6d6c4f9337c",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1777845590513,
+      "depth": 4
+    },
     {
       "id": "9cd5708e76c7",
       "domain": "infrastructure",
@@ -242,26 +262,6 @@
       "metricValue": 145.73850398472575,
       "isCurrentBest": false,
       "createdAt": 1777799656408,
-      "depth": 7
-    },
-    {
-      "id": "8531f1be2395",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2433",
-      "metricName": "score",
-      "metricValue": 0.9012021497085199,
-      "isCurrentBest": false,
-      "createdAt": 1777797076098,
-      "depth": 7
-    },
-    {
-      "id": "c79adc1eb3b0",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2417",
-      "metricName": "score",
-      "metricValue": 0.899884577777465,
-      "isCurrentBest": false,
-      "createdAt": 1777796115963,
       "depth": 7
     }
   ],
