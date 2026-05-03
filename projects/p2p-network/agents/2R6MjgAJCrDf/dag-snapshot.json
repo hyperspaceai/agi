@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-03T15:18:12.683Z",
+  "timestamp": "2026-05-03T17:19:41.733Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 1825,
+    "totalNodes": 1827,
     "observations": 4,
-    "experiments": 1821,
+    "experiments": 1823,
     "syntheses": 0,
-    "totalEdges": 1489,
+    "totalEdges": 1491,
     "maxDepth": 12,
     "activeExperiments": 260,
-    "recentActivity": 4
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,7 +47,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 978,
+    "infrastructure": 980,
     "skills": 425,
     "physics": 260,
     "general": 69,
@@ -55,6 +55,26 @@
     "finance": 89
   },
   "recentExperiments": [
+    {
+      "id": "fecf0115c427",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 219",
+      "metricName": "score",
+      "metricValue": 141.15423592393574,
+      "isCurrentBest": false,
+      "createdAt": 1777824590783,
+      "depth": 12
+    },
+    {
+      "id": "659104d110da",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 213",
+      "metricName": "score",
+      "metricValue": 0.9687167215001102,
+      "isCurrentBest": false,
+      "createdAt": 1777824220776,
+      "depth": 12
+    },
     {
       "id": "2b65d0df4367",
       "domain": "infrastructure",
@@ -234,25 +254,6 @@
       "isCurrentBest": false,
       "createdAt": 1777812526492,
       "depth": 12
-    },
-    {
-      "id": "1837baf0d5bd",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2",
-      "metricName": "score",
-      "metricValue": 0.966456090114516,
-      "isCurrentBest": false,
-      "createdAt": 1777812526491,
-      "depth": 12
-    },
-    {
-      "id": "0a44451af9e0",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the dynamically evolving, spatially inhomogeneous warp f\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1777808752546,
-      "depth": 0
     }
   ],
   "frontier": [],
