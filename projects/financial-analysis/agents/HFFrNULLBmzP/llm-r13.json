@@ -1,18 +1,16 @@
 {
   "runId": "llm-r13",
   "runNumber": 13,
-  "hypothesis": "[LLM] Adjusting factor weights and adding a new factor to improve Sharpe ratio",
-  "sharpeRatio": 1.2686,
-  "totalReturn": 2.8364,
-  "maxDrawdown": 0.0554,
-  "alpha": 1.3422,
+  "hypothesis": "[LLM] Increasing momentum weight to 0.35 and reducing drawdown protection threshold to 0.05",
+  "sharpeRatio": 1.8293,
+  "totalReturn": 4.3146,
+  "maxDrawdown": 0.0261,
+  "alpha": 2.8203,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
     "lowVolWeight",
-    "dividendWeight",
-    "meanReversionWeight",
     "trendWeight"
   ],
   "positionSizing": "risk_parity",
@@ -20,5 +18,5 @@
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-04-01T21:01:35.174Z"
+  "timestamp": "2026-05-03T10:52:14.221Z"
 }
