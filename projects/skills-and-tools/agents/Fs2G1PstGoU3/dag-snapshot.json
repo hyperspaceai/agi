@@ -1,0 +1,334 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-03T18:16:17.161Z",
+  "peerId": "12D3KooWQgPRkXTbThjXe8tw6c7Gf3DbZJ2dhdQd2WitDj4fujGw",
+  "stats": {
+    "totalNodes": 55,
+    "observations": 0,
+    "experiments": 55,
+    "syntheses": 0,
+    "totalEdges": 51,
+    "maxDepth": 5,
+    "activeExperiments": 0,
+    "recentActivity": 16
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "996bc7317c5316df4f1e20d05e41015c0521dac2e12143b989cd336d5abebb89",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 147.44633361594626,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "skills": {
+      "nodeId": "0b52fe165e26b356f561e61e3ab5de040a115cf71efcbd9ad47ca888808b49e3",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "finance": {
+      "nodeId": "e536ac702bc462bcabd1e2b4cf60422c8b30ff378b5e9ba49df1496401a73499",
+      "title": "Finance round 10: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "metricDirection": "maximize",
+      "depth": 5
+    },
+    "search-ranking": {
+      "nodeId": "45751bee05ceca41fb40f1db99e7db64148f244a70a417fb4077acffa2181662",
+      "title": "Search round 38: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 15,
+    "skills": 16,
+    "finance": 10,
+    "search-ranking": 14
+  },
+  "recentExperiments": [
+    {
+      "id": "cd175869cbac",
+      "domain": "search-ranking",
+      "title": "Search round 50: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777831286587,
+      "depth": 1
+    },
+    {
+      "id": "164452bd4e77",
+      "domain": "search-ranking",
+      "title": "Search round 46: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830925911,
+      "depth": 1
+    },
+    {
+      "id": "2bb1f02b858c",
+      "domain": "search-ranking",
+      "title": "Search round 46: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830925777,
+      "depth": 1
+    },
+    {
+      "id": "5f7d74ef0823",
+      "domain": "search-ranking",
+      "title": "Search round 46: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830925646,
+      "depth": 1
+    },
+    {
+      "id": "3b3adff53e85",
+      "domain": "search-ranking",
+      "title": "Search round 46: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830925511,
+      "depth": 1
+    },
+    {
+      "id": "d3726b7393ef",
+      "domain": "search-ranking",
+      "title": "Search round 46: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830925378,
+      "depth": 1
+    },
+    {
+      "id": "71d8efb50e47",
+      "domain": "search-ranking",
+      "title": "Search round 42: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830564870,
+      "depth": 1
+    },
+    {
+      "id": "fa1b31983ca2",
+      "domain": "search-ranking",
+      "title": "Search round 42: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830564679,
+      "depth": 1
+    },
+    {
+      "id": "71cce4f1c045",
+      "domain": "search-ranking",
+      "title": "Search round 42: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830564669,
+      "depth": 1
+    },
+    {
+      "id": "c06efab7a82c",
+      "domain": "search-ranking",
+      "title": "Search round 38: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830188537,
+      "depth": 1
+    },
+    {
+      "id": "1923800a819b",
+      "domain": "search-ranking",
+      "title": "Search round 38: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830178337,
+      "depth": 1
+    },
+    {
+      "id": "bf0afc25ba12",
+      "domain": "search-ranking",
+      "title": "Search round 38: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830178185,
+      "depth": 1
+    },
+    {
+      "id": "8683e3091144",
+      "domain": "search-ranking",
+      "title": "Search round 38: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777830178021,
+      "depth": 1
+    },
+    {
+      "id": "45751bee05ce",
+      "domain": "search-ranking",
+      "title": "Search round 38: increase freshness bias (0.15)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": true,
+      "createdAt": 1777830177861,
+      "depth": 0
+    },
+    {
+      "id": "27df3fb96bea",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 50",
+      "metricName": "score",
+      "metricValue": 141.29387500601408,
+      "isCurrentBest": false,
+      "createdAt": 1777829780031,
+      "depth": 2
+    },
+    {
+      "id": "b7f604d8780f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 43",
+      "metricName": "score",
+      "metricValue": 0.9663449720912414,
+      "isCurrentBest": false,
+      "createdAt": 1777829359712,
+      "depth": 2
+    },
+    {
+      "id": "e536ac702bc4",
+      "domain": "finance",
+      "title": "Finance round 10: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "isCurrentBest": true,
+      "createdAt": 1777828219417,
+      "depth": 5
+    },
+    {
+      "id": "6eb47103e7c4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 16",
+      "metricName": "score",
+      "metricValue": 141.32466448615554,
+      "isCurrentBest": false,
+      "createdAt": 1777827739338,
+      "depth": 2
+    },
+    {
+      "id": "c32ae5e193ba",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777827679346,
+      "depth": 2
+    },
+    {
+      "id": "e2282be70e28",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777827559330,
+      "depth": 2
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "996bc7317c53",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 147.44633361594626,
+        "depth": 1
+      },
+      {
+        "id": "1e440607d1ed",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 143.54772467542847,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "0b52fe165e26",
+        "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 1
+      },
+      {
+        "id": "2dbff2b90727",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1996,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "e536ac702bc4",
+        "title": "Finance round 10: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 5
+      },
+      {
+        "id": "1a21bb22d0a2",
+        "title": "Finance round 5: Sharpe=1.3137",
+        "metricValue": 1.3137,
+        "depth": 4
+      },
+      {
+        "id": "058fcae5c30c",
+        "title": "Finance round 6: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 3
+      },
+      {
+        "id": "b467551d679e",
+        "title": "Finance round 4: Sharpe=1.2160",
+        "metricValue": 1.216,
+        "depth": 2
+      },
+      {
+        "id": "ee5692af31c9",
+        "title": "Finance round 2: Sharpe=1.1057",
+        "metricValue": 1.1057,
+        "depth": 1
+      },
+      {
+        "id": "6f85916c317a",
+        "title": "Finance round 1: Sharpe=1.0697",
+        "metricValue": 1.0697,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "45751bee05ce",
+        "title": "Search round 38: increase freshness bias (0.15)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
