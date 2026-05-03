@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-03T06:27:45.053Z",
+  "timestamp": "2026-05-03T07:27:45.675Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 2478,
+    "totalNodes": 2480,
     "observations": 323,
-    "experiments": 2155,
+    "experiments": 2157,
     "syntheses": 0,
-    "totalEdges": 2083,
+    "totalEdges": 2085,
     "maxDepth": 15,
     "activeExperiments": 52,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,15 +55,35 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 963,
+    "infrastructure": 964,
     "knowledge": 323,
     "search-ranking": 31,
     "general": 16,
-    "skills": 648,
+    "skills": 649,
     "finance": 445,
     "physics": 52
   },
   "recentExperiments": [
+    {
+      "id": "c887402fcb48",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2341",
+      "metricName": "score",
+      "metricValue": 0.9031451108178078,
+      "isCurrentBest": false,
+      "createdAt": 1777791555338,
+      "depth": 7
+    },
+    {
+      "id": "900688e112b9",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1777790385071,
+      "depth": 4
+    },
     {
       "id": "e75ebf117d4c",
       "domain": "infrastructure",
@@ -242,26 +262,6 @@
       "metricValue": 145.10815445473472,
       "isCurrentBest": false,
       "createdAt": 1777740671036,
-      "depth": 7
-    },
-    {
-      "id": "c830a8d7d184",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1432",
-      "metricName": "score",
-      "metricValue": 0.976294359381517,
-      "isCurrentBest": false,
-      "createdAt": 1777737010685,
-      "depth": 7
-    },
-    {
-      "id": "99f5e3965ae2",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1360",
-      "metricName": "score",
-      "metricValue": 145.1309258364505,
-      "isCurrentBest": false,
-      "createdAt": 1777732690407,
       "depth": 7
     }
   ],
