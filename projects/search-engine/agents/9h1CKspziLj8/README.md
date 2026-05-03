@@ -1,10 +1,10 @@
 # Search Research — Agent 9h1CKspziLj8
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d4c1efc0
-**Updated:** 2026-05-03T09:12:52.155Z
+**Run:** 3a38954c
+**Updated:** 2026-05-03T11:52:17.906Z
