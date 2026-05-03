@@ -1,0 +1,23 @@
+{
+  "runId": "llm-r16",
+  "runNumber": 16,
+  "hypothesis": "[LLM] Adjusting the portfolio's allocation to improve its Sharpe ratio by incorporating a new factor: mean reversion.",
+  "sharpeRatio": 1.3723,
+  "totalReturn": 3.0353,
+  "maxDrawdown": 0.047,
+  "alpha": 1.5411,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "meanReversionWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0.001,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-05-03T11:46:04.671Z"
+}
