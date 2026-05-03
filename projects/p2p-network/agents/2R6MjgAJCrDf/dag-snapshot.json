@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-02T19:27:29.605Z",
+  "timestamp": "2026-05-03T01:56:31.583Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 1742,
+    "totalNodes": 1763,
     "observations": 4,
-    "experiments": 1738,
+    "experiments": 1759,
     "syntheses": 0,
-    "totalEdges": 1412,
+    "totalEdges": 1428,
     "maxDepth": 12,
-    "activeExperiments": 254,
-    "recentActivity": 1
+    "activeExperiments": 259,
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,206 +47,208 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 939,
+    "infrastructure": 951,
     "skills": 422,
-    "physics": 254,
+    "physics": 259,
     "general": 69,
     "knowledge": 4,
-    "finance": 54
+    "finance": 58
   },
   "recentExperiments": [
     {
-      "id": "94c45ed90951",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2950",
-      "metricName": "score",
-      "metricValue": 145.62971136574149,
+      "id": "d1758db56363",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
       "isCurrentBest": false,
-      "createdAt": 1777747484313,
+      "createdAt": 1777772483051,
       "depth": 12
     },
     {
-      "id": "b2b8f1f9c08b",
+      "id": "3a98cab13f17",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.3031",
+      "metricName": "Sharpe",
+      "metricValue": 1.3031,
+      "isCurrentBest": false,
+      "createdAt": 1777772332982,
+      "depth": 12
+    },
+    {
+      "id": "d89c1e9ab930",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2077",
+      "metricName": "Sharpe",
+      "metricValue": 1.2077,
+      "isCurrentBest": false,
+      "createdAt": 1777772182986,
+      "depth": 12
+    },
+    {
+      "id": "9a6ae28d0e65",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.1991",
+      "metricName": "Sharpe",
+      "metricValue": 1.1991,
+      "isCurrentBest": false,
+      "createdAt": 1777771731444,
+      "depth": 12
+    },
+    {
+      "id": "4032d1b20e8a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 22",
+      "metricName": "score",
+      "metricValue": 141.13485641450785,
+      "isCurrentBest": false,
+      "createdAt": 1777771731353,
+      "depth": 12
+    },
+    {
+      "id": "634bd08e3aea",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: If the Hawking radiation spectrum emitted from the warp bubb\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: How does the localized manipulation of vacuum state fluctuat\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1777746303542,
+      "createdAt": 1777768210472,
       "depth": 0
     },
     {
-      "id": "f15d6dcd20b3",
+      "id": "b76fa66961b1",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2944",
+      "title": "Cause infra-optimization round 3270",
       "metricName": "score",
-      "metricValue": 0.9141305257758422,
+      "metricValue": 145.58212108025324,
       "isCurrentBest": false,
-      "createdAt": 1777746194294,
+      "createdAt": 1777766834586,
       "depth": 12
     },
     {
-      "id": "49e0bfbcda3a",
+      "id": "7bb05a71b3b8",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2943",
+      "title": "Cause literature-analysis round 3248",
       "metricName": "score",
-      "metricValue": 145.76366817875504,
+      "metricValue": 0.9232935299050757,
       "isCurrentBest": false,
-      "createdAt": 1777746194293,
+      "createdAt": 1777765544576,
       "depth": 12
     },
     {
-      "id": "307795560ee3",
-      "domain": "physics",
-      "title": "Wrote paper: \"Thermodynamic Efficiency Limits on Casimir Array Warp Drive Micro-Gravitational Wave E",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1777743691683,
-      "depth": 0
-    },
-    {
-      "id": "a041b8f820a0",
-      "domain": "physics",
-      "title": "Wrote paper: \"** Quantum Fluctuations and Warp Bubble Stability in the Fuchs et al. Warp Drive Geome",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1777741134371,
-      "depth": 0
-    },
-    {
-      "id": "15e21fb7df8b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2860",
-      "metricName": "score",
-      "metricValue": 0.9156729652469574,
-      "isCurrentBest": false,
-      "createdAt": 1777741094108,
-      "depth": 12
-    },
-    {
-      "id": "ef88a401465f",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2805",
-      "metricName": "score",
-      "metricValue": 145.5912302144962,
-      "isCurrentBest": false,
-      "createdAt": 1777738454074,
-      "depth": 12
-    },
-    {
-      "id": "c589a8ff62be",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2799",
-      "metricName": "score",
-      "metricValue": 145.665259552525,
-      "isCurrentBest": false,
-      "createdAt": 1777738454073,
-      "depth": 12
-    },
-    {
-      "id": "d3e194616be5",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2792",
-      "metricName": "score",
-      "metricValue": 0.9152605447933309,
-      "isCurrentBest": false,
-      "createdAt": 1777737164064,
-      "depth": 12
-    },
-    {
-      "id": "7c2e452aadf4",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2771",
-      "metricName": "score",
-      "metricValue": 0.9140041993388662,
-      "isCurrentBest": false,
-      "createdAt": 1777735874027,
-      "depth": 12
-    },
-    {
-      "id": "8cd10e88df5f",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2758",
-      "metricName": "score",
-      "metricValue": 145.66839512930954,
-      "isCurrentBest": false,
-      "createdAt": 1777735874026,
-      "depth": 12
-    },
-    {
-      "id": "ace205649b0d",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the scaling limits of Casimir micro-cavity arrays produc\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1777734714109,
-      "depth": 0
-    },
-    {
-      "id": "77df46080929",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How does the interaction of dynamically-tuned, pre-existing \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1777732078704,
-      "depth": 0
-    },
-    {
-      "id": "0c58bab95314",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2701",
-      "metricName": "score",
-      "metricValue": 145.67939829165053,
-      "isCurrentBest": false,
-      "createdAt": 1777732003992,
-      "depth": 12
-    },
-    {
-      "id": "fb68a9c4adc5",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2692",
-      "metricName": "score",
-      "metricValue": 0.9145254768603279,
-      "isCurrentBest": false,
-      "createdAt": 1777732003991,
-      "depth": 12
-    },
-    {
-      "id": "0e863ede802b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2676",
-      "metricName": "score",
-      "metricValue": 0.9144696138086046,
-      "isCurrentBest": false,
-      "createdAt": 1777730713980,
-      "depth": 12
-    },
-    {
-      "id": "bec0c18aab80",
+      "id": "fcb0b9b9b1cf",
       "domain": "physics",
       "title": "Wrote paper: \"On warp_drives: Given the Fuchs et al. (2024) constant-velocity subluminal w\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1777728253350,
+      "createdAt": 1777764368284,
       "depth": 0
     },
     {
-      "id": "442561c80ee3",
+      "id": "bcc2437e8be5",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2578",
+      "title": "Cause literature-analysis round 3244",
       "metricName": "score",
-      "metricValue": 0.9152996758223226,
+      "metricValue": 0.918358997667769,
       "isCurrentBest": false,
-      "createdAt": 1777724263893,
+      "createdAt": 1777764254554,
       "depth": 12
     },
     {
-      "id": "8859e5f070ba",
+      "id": "1c6fa4393269",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3199",
+      "metricName": "score",
+      "metricValue": 0.9175886820944542,
+      "isCurrentBest": false,
+      "createdAt": 1777761674522,
+      "depth": 12
+    },
+    {
+      "id": "93e9744097a2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3173",
+      "metricName": "score",
+      "metricValue": 0.9148144271888989,
+      "isCurrentBest": false,
+      "createdAt": 1777760384509,
+      "depth": 12
+    },
+    {
+      "id": "9d0f30a8179c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3167",
+      "metricName": "score",
+      "metricValue": 0.9134305589253335,
+      "isCurrentBest": false,
+      "createdAt": 1777760384508,
+      "depth": 12
+    },
+    {
+      "id": "8606d17ae67a",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Assuming the White/LSI 2021 geometry for Casimir micro-cavit\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: What are the implications of incorporating a dynamically evo\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1777723019445,
+      "createdAt": 1777759156552,
       "depth": 0
+    },
+    {
+      "id": "810c48791caf",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 3155",
+      "metricName": "score",
+      "metricValue": 145.54707433672596,
+      "isCurrentBest": false,
+      "createdAt": 1777759094487,
+      "depth": 12
+    },
+    {
+      "id": "c874412787e6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3114",
+      "metricName": "score",
+      "metricValue": 0.9124730461135755,
+      "isCurrentBest": false,
+      "createdAt": 1777756514455,
+      "depth": 12
+    },
+    {
+      "id": "3e26c468feba",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How does the interaction of the warp field's non-standard me\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777755332797,
+      "depth": 0
+    },
+    {
+      "id": "ee242a2d3944",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Given the observed limitations on thermodynamic efficiency i\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777752746859,
+      "depth": 0
+    },
+    {
+      "id": "8c8d90cac5dd",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 3033",
+      "metricName": "score",
+      "metricValue": 145.55171441152592,
+      "isCurrentBest": false,
+      "createdAt": 1777752644415,
+      "depth": 12
+    },
+    {
+      "id": "5069f77faf3c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 3022",
+      "metricName": "score",
+      "metricValue": 145.59959118889657,
+      "isCurrentBest": false,
+      "createdAt": 1777751354372,
+      "depth": 12
     }
   ],
   "frontier": [],
