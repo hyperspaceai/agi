@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-03T01:30:17.077Z",
+  "timestamp": "2026-05-03T02:30:18.114Z",
   "peerId": "12D3KooWF6Uittizr6SsS68LeM1QQnXvx7R9UMQMUKGv1PQfnnu1",
   "stats": {
-    "totalNodes": 4615,
+    "totalNodes": 4616,
     "observations": 0,
-    "experiments": 4615,
+    "experiments": 4616,
     "syntheses": 0,
-    "totalEdges": 4611,
+    "totalEdges": 4612,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2207,
+    "infrastructure": 2208,
     "skills": 1408,
     "finance": 950,
     "search-ranking": 50
   },
   "recentExperiments": [
+    {
+      "id": "b58f4013bf1b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 421",
+      "metricName": "score",
+      "metricValue": 141.08230269122583,
+      "isCurrentBest": false,
+      "createdAt": 1777773677630,
+      "depth": 4
+    },
     {
       "id": "c8721e582912",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777751190595,
-      "depth": 1
-    },
-    {
-      "id": "23e90ce579dc",
-      "domain": "search-ranking",
-      "title": "Search round 31: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777751190488,
       "depth": 1
     }
   ],
