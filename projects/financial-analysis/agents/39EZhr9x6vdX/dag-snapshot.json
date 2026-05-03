@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-03T20:46:41.966Z",
+  "timestamp": "2026-05-03T21:46:55.063Z",
   "peerId": "12D3KooWBxbjSyjfHpu1o7t12ieKA45v4RCGJmCGPbH55yVbxPzv",
   "stats": {
-    "totalNodes": 39,
+    "totalNodes": 41,
     "observations": 0,
-    "experiments": 39,
+    "experiments": 41,
     "syntheses": 0,
-    "totalEdges": 34,
+    "totalEdges": 36,
     "maxDepth": 15,
     "activeExperiments": 1,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "skills": {
@@ -22,12 +22,12 @@
       "depth": 1
     },
     "infrastructure": {
-      "nodeId": "e58ac9e61c1d8168b49b724d5d866f3fac6a81a9af953585f183004e48dff276",
-      "title": "Cause infra-optimization round 1",
+      "nodeId": "4dffb702512091caf34d8b295e78f953675ef7e8299aad99016eae3c62d211a1",
+      "title": "Cause infra-optimization round 292",
       "metricName": "score",
-      "metricValue": 141.9640840410062,
+      "metricValue": 145.11493383576646,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     },
     "finance": {
       "nodeId": "2ae33176989c2d1f467b2f8999ea31ae4f49b92613b7f609489925a6d4e118e8",
@@ -49,11 +49,31 @@
   "domainCounts": {
     "skills": 2,
     "physics": 1,
-    "infrastructure": 6,
+    "infrastructure": 8,
     "finance": 16,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "f8b1f0fa2358",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 319",
+      "metricName": "score",
+      "metricValue": 145.0479684686426,
+      "isCurrentBest": false,
+      "createdAt": 1777844182853,
+      "depth": 2
+    },
+    {
+      "id": "4dffb7025120",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 292",
+      "metricName": "score",
+      "metricValue": 145.11493383576646,
+      "isCurrentBest": true,
+      "createdAt": 1777842561173,
+      "depth": 1
+    },
     {
       "id": "a8129ee85565",
       "domain": "infrastructure",
@@ -233,26 +253,6 @@
       "isCurrentBest": false,
       "createdAt": 1777828413986,
       "depth": 1
-    },
-    {
-      "id": "1152191bcc0d",
-      "domain": "search-ranking",
-      "title": "Search round 38: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
-      "isCurrentBest": true,
-      "createdAt": 1777828413395,
-      "depth": 0
-    },
-    {
-      "id": "4b4a8edd84df",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 56",
-      "metricName": "score",
-      "metricValue": 141.26309039074434,
-      "isCurrentBest": false,
-      "createdAt": 1777828333549,
-      "depth": 1
     }
   ],
   "frontier": [],
@@ -272,6 +272,12 @@
       }
     ],
     "infrastructure": [
+      {
+        "id": "4dffb7025120",
+        "title": "Cause infra-optimization round 292",
+        "metricValue": 145.11493383576646,
+        "depth": 1
+      },
       {
         "id": "e58ac9e61c1d",
         "title": "Cause infra-optimization round 1",
