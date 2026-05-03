@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-03T05:31:10.606Z",
+  "timestamp": "2026-05-03T06:31:20.087Z",
   "peerId": "12D3KooWFgXdEE9AsL8uCTVtcr3Dj9RXUbnNobgjod69bdb5saom",
   "stats": {
-    "totalNodes": 188,
+    "totalNodes": 191,
     "observations": 2,
-    "experiments": 186,
+    "experiments": 189,
     "syntheses": 0,
-    "totalEdges": 139,
+    "totalEdges": 142,
     "maxDepth": 6,
     "activeExperiments": 32,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 58,
+    "infrastructure": 61,
     "skills": 77,
     "knowledge": 2,
     "physics": 32,
@@ -64,6 +64,36 @@
     "finance": 7
   },
   "recentExperiments": [
+    {
+      "id": "44ee2701b145",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 160",
+      "metricName": "score",
+      "metricValue": 141.18146487463147,
+      "isCurrentBest": false,
+      "createdAt": 1777789309497,
+      "depth": 6
+    },
+    {
+      "id": "60b29c712304",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 151",
+      "metricName": "score",
+      "metricValue": 0.9648043611168511,
+      "isCurrentBest": false,
+      "createdAt": 1777788762399,
+      "depth": 6
+    },
+    {
+      "id": "e4256fab731e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 122",
+      "metricName": "score",
+      "metricValue": 141.29254651270927,
+      "isCurrentBest": false,
+      "createdAt": 1777787019937,
+      "depth": 6
+    },
     {
       "id": "5bfaf7394691",
       "domain": "infrastructure",
@@ -232,35 +262,6 @@
       "isCurrentBest": false,
       "createdAt": 1777762869287,
       "depth": 2
-    },
-    {
-      "id": "213725e97348",
-      "domain": "physics",
-      "title": "Wrote paper: \"Stability of Fuchs-et-al. Warp Bubbles in a Stochastic Gravitational Wave Background**",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1777761651544,
-      "depth": 0
-    },
-    {
-      "id": "a512453fd130",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1777761558330,
-      "depth": 2
-    },
-    {
-      "id": "3715188562aa",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 186",
-      "metricName": "score",
-      "metricValue": 141.00837387939066,
-      "isCurrentBest": false,
-      "createdAt": 1777761529656,
-      "depth": 6
     }
   ],
   "frontier": [],
