@@ -1,0 +1,21 @@
+{
+  "runId": "llm-r3",
+  "runNumber": 3,
+  "hypothesis": "[LLM] Add RSI momentum filter to momentum factor, switch to risk parity position sizing, increase value factor weight and add low volatility factor, enable drawdown protection and reduce exposure in bear, and set maximum drawdown limit and volatility target.",
+  "sharpeRatio": 1.4089,
+  "totalReturn": 3.3568,
+  "maxDrawdown": 0.0426,
+  "alpha": 1.8626,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0.002,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-05-04T06:44:42.740Z"
+}
