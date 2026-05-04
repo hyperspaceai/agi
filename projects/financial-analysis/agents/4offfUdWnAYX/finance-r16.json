@@ -1,28 +1,21 @@
 {
-  "version": 1,
-  "peerId": "12D3KooWDd2qQcDDy4p29j4qdpubuR7Lbb6TCWyFTctborzM7VWh",
-  "timestamp": 1773497903208,
-  "title": "Finance round 16: Sharpe=1.3174",
+  "runId": "finance-r16",
+  "runNumber": 16,
   "hypothesis": "Round 16 best mutation",
-  "metricName": "Sharpe",
-  "metricValue": 1.3174,
-  "isCurrentBest": false,
-  "roundNumber": 16,
-  "depth": 14,
   "sharpeRatio": 1.3174,
-  "sortinoRatio": 2.2848,
+  "totalReturn": 3.0115,
   "maxDrawdown": 0.0546,
   "alpha": 1.5172,
-  "totalReturn": 3.0115,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight",
-    "dividendWeight",
-    "growthWeight",
-    "meanReversionWeight",
-    "trendWeight"
+    "lowVolWeight"
   ],
-  "positionSizing": "risk_parity"
+  "positionSizing": "risk_parity",
+  "durationSec": 0,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-05-04T00:59:58.026Z"
 }
