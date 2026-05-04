@@ -1,10 +1,10 @@
 # Search Research — Agent 8HFreAmCF5pn
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a7f6ee08
-**Updated:** 2026-05-01T10:03:58.315Z
+**Run:** bc4d22fc
+**Updated:** 2026-05-03T22:44:56.816Z
