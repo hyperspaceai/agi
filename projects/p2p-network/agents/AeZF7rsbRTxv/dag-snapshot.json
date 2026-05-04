@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-04T12:18:06.289Z",
+  "timestamp": "2026-05-04T13:18:06.587Z",
   "peerId": "12D3KooWKTvQrzTJcNEQaAdXn74Xyr7pEhY5ab6xeHA7DDkp5fPC",
   "stats": {
-    "totalNodes": 1064,
+    "totalNodes": 1066,
     "observations": 0,
-    "experiments": 1064,
+    "experiments": 1066,
     "syntheses": 0,
-    "totalEdges": 1061,
+    "totalEdges": 1063,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 643,
+    "infrastructure": 645,
     "finance": 360,
     "search-ranking": 61
   },
   "recentExperiments": [
+    {
+      "id": "5ebd8046d93a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 561",
+      "metricName": "score",
+      "metricValue": 141.26377717112842,
+      "isCurrentBest": false,
+      "createdAt": 1777900206455,
+      "depth": 6
+    },
+    {
+      "id": "9368d55b838b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 558",
+      "metricName": "score",
+      "metricValue": 0.9481385864850393,
+      "isCurrentBest": false,
+      "createdAt": 1777900026428,
+      "depth": 6
+    },
     {
       "id": "2fce944aa013",
       "domain": "infrastructure",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1777867083346,
       "depth": 6
-    },
-    {
-      "id": "cd417fdb187c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 7",
-      "metricName": "score",
-      "metricValue": 0.9696855603516379,
-      "isCurrentBest": false,
-      "createdAt": 1777866963341,
-      "depth": 6
-    },
-    {
-      "id": "ba207578ee01",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1948",
-      "metricName": "Sharpe",
-      "metricValue": 1.1948,
-      "isCurrentBest": false,
-      "createdAt": 1777866933367,
-      "depth": 9
     }
   ],
   "frontier": [],
