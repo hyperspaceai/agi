@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-04T02:57:46.828Z",
+  "timestamp": "2026-05-04T05:03:22.779Z",
   "peerId": "12D3KooWNmBXsmUCeqAtC31C3NWi1Y28wkpCMTv8KS1F1c6yuRUJ",
   "stats": {
-    "totalNodes": 452,
+    "totalNodes": 455,
     "observations": 0,
-    "experiments": 452,
+    "experiments": 455,
     "syntheses": 0,
-    "totalEdges": 448,
+    "totalEdges": 451,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 25
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 201,
-    "skills": 135,
+    "infrastructure": 203,
+    "skills": 136,
     "finance": 88,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "945861fdad6a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 182",
+      "metricName": "score",
+      "metricValue": 0.9544366376795271,
+      "isCurrentBest": false,
+      "createdAt": 1777869027588,
+      "depth": 9
+    },
+    {
+      "id": "5b205b5fe55a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 149",
+      "metricName": "score",
+      "metricValue": 144.9841691446143,
+      "isCurrentBest": false,
+      "createdAt": 1777867024708,
+      "depth": 9
+    },
+    {
+      "id": "729905e0ea84",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1777864114693,
+      "depth": 3
+    },
     {
       "id": "480988d2b290",
       "domain": "search-ranking",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777861212840,
       "depth": 1
-    },
-    {
-      "id": "f4297723c647",
-      "domain": "search-ranking",
-      "title": "Search round 36: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777861212837,
-      "depth": 1
-    },
-    {
-      "id": "94672bfce33d",
-      "domain": "search-ranking",
-      "title": "Search round 36: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777861212833,
-      "depth": 1
-    },
-    {
-      "id": "52d66d5bce70",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1777861204313,
-      "depth": 3
     }
   ],
   "frontier": [],
