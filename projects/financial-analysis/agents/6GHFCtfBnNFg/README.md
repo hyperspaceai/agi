@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 6GHFCtfBnNFg
 
-**Best Sharpe Ratio:** 1.3105
-**Hypothesis:** Round 4 best mutation
+**Best Sharpe Ratio:** 1.4135
+**Hypothesis:** [LLM] Add low volatility factor and risk parity position sizing, improve Sharpe ratio and drawdown protection.
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.5126
-**Max Drawdown:** 0.0550
+**Alpha:** 1.7042
+**Max Drawdown:** 0.0469
 **LLM:** unknown
-**Run:** finance-r4
-**Updated:** 2026-05-04T08:42:47.576Z
+**Run:** llm-r9
+**Updated:** 2026-05-04T23:22:45.861Z
