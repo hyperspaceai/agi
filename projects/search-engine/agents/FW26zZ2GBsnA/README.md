@@ -1,10 +1,10 @@
 # Search Research — Agent FW26zZ2GBsnA
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** increase diversity penalty (0.2)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 30b2df3c
-**Updated:** 2026-04-30T06:51:42.042Z
+**Run:** 1079a4e8
+**Updated:** 2026-05-04T18:17:09.389Z
