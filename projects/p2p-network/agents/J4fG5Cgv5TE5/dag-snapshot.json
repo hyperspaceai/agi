@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-04T18:50:36.940Z",
+  "timestamp": "2026-05-04T19:50:37.904Z",
   "peerId": "12D3KooWSt2RpLGdGMVaHBwPuJT9KxgXHpsKeBzQYBwGjh8s638b",
   "stats": {
-    "totalNodes": 4998,
+    "totalNodes": 5000,
     "observations": 0,
-    "experiments": 4998,
+    "experiments": 5000,
     "syntheses": 0,
-    "totalEdges": 4994,
+    "totalEdges": 4996,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2420,
+    "infrastructure": 2422,
     "skills": 1530,
     "finance": 1019,
     "search-ranking": 29
   },
   "recentExperiments": [
+    {
+      "id": "af4bb0e04aad",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 472",
+      "metricName": "score",
+      "metricValue": 141.51423314464097,
+      "isCurrentBest": false,
+      "createdAt": 1777922016771,
+      "depth": 8
+    },
+    {
+      "id": "aa1361e5424a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 470",
+      "metricName": "score",
+      "metricValue": 0.9614371309893517,
+      "isCurrentBest": false,
+      "createdAt": 1777921896765,
+      "depth": 8
+    },
     {
       "id": "cb5dce023a44",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777897464198,
-      "depth": 1
-    },
-    {
-      "id": "b1e13feff3aa",
-      "domain": "search-ranking",
-      "title": "Search round 38: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777897106628,
-      "depth": 1
-    },
-    {
-      "id": "c75db042ba02",
-      "domain": "search-ranking",
-      "title": "Search round 38: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777897105991,
       "depth": 1
     }
   ],
