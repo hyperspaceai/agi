@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWMkYvJggF3eMnHsEDUxx2UD2KMtcSVy1SRh2F2WGeFaMu",
-  "runNumber": 19,
-  "timestamp": 1777420296927,
-  "hypothesis": "Increase model size and refine learning rate schedule for improved validation loss.",
+  "runNumber": 25,
+  "timestamp": 1777854011680,
+  "hypothesis": "Improve on 4294c9bd (loss=3.1027): switch to SiLU activation",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -21,7 +21,7 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "gelu",
+    "activation": "silu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.102655,
-    "trainLoss": 8.535458,
+    "valLoss": 3.101324,
+    "trainLoss": 8.531546,
     "lossCurve": [
       [
         0,
@@ -85,18 +85,18 @@
       ],
       [
         50,
-        8.944767
+        8.946363
       ],
       [
         100,
-        8.590118
+        8.58956
       ]
     ],
-    "durationSec": 120.3,
-    "tokensPerSec": 505403.1587697423,
-    "totalTokens": 60800000
+    "durationSec": 120.6,
+    "tokensPerSec": 508291.8739635158,
+    "totalTokens": 61300000
   },
-  "improvement": 0,
+  "improvement": -0.042898743173184616,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 4060 Ti",
   "inspiredBy": null
