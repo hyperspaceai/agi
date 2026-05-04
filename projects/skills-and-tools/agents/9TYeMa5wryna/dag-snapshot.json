@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-04T12:40:27.417Z",
+  "timestamp": "2026-05-04T13:40:27.492Z",
   "peerId": "12D3KooWJGup6hff3t44kFLMKqAuchtMtUuzicUQfU15YKM95yo6",
   "stats": {
-    "totalNodes": 1430,
+    "totalNodes": 1433,
     "observations": 0,
-    "experiments": 1430,
+    "experiments": 1433,
     "syntheses": 0,
-    "totalEdges": 1426,
+    "totalEdges": 1429,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 484,
-    "skills": 532,
+    "infrastructure": 485,
+    "skills": 534,
     "finance": 327,
     "search-ranking": 87
   },
   "recentExperiments": [
+    {
+      "id": "1b60c6a0c163",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777901907400,
+      "depth": 3
+    },
+    {
+      "id": "deb7a03bc4c0",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1777901667413,
+      "depth": 3
+    },
+    {
+      "id": "023c091dc914",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 194",
+      "metricName": "score",
+      "metricValue": 0.963052276844641,
+      "isCurrentBest": false,
+      "createdAt": 1777901127281,
+      "depth": 3
+    },
     {
       "id": "57f4b2825795",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777892546749,
       "depth": 3
-    },
-    {
-      "id": "cf60594a99fc",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1777892426736,
-      "depth": 3
-    },
-    {
-      "id": "9132a0d0cc97",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1777892306759,
-      "depth": 3
-    },
-    {
-      "id": "919a1a442802",
-      "domain": "search-ranking",
-      "title": "Search round 31: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777892224617,
-      "depth": 1
     }
   ],
   "frontier": [],
