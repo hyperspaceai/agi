@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWMkYvJggF3eMnHsEDUxx2UD2KMtcSVy1SRh2F2WGeFaMu",
+  "runNumber": 25,
+  "timestamp": 1777854011680,
+  "hypothesis": "Improve on 4294c9bd (loss=3.1027): switch to SiLU activation",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "silu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.101324,
+    "trainLoss": 8.531546,
+    "lossCurve": [
+      [
+        0,
+        9.011037
+      ],
+      [
+        1,
+        9.011036
+      ],
+      [
+        2,
+        9.011125
+      ],
+      [
+        3,
+        9.011204
+      ],
+      [
+        4,
+        9.01113
+      ],
+      [
+        5,
+        9.01106
+      ],
+      [
+        6,
+        9.010992
+      ],
+      [
+        7,
+        9.010959
+      ],
+      [
+        8,
+        9.011031
+      ],
+      [
+        9,
+        9.011047
+      ],
+      [
+        10,
+        9.011032
+      ],
+      [
+        50,
+        8.946363
+      ],
+      [
+        100,
+        8.58956
+      ]
+    ],
+    "durationSec": 120.6,
+    "tokensPerSec": 508291.8739635158,
+    "totalTokens": 61300000
+  },
+  "improvement": -0.042898743173184616,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "inspiredBy": null
+}
