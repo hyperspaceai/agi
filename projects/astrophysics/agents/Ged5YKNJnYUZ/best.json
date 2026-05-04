@@ -2,27 +2,27 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWRTzFHSx1ySk43xhyodJghBhw5Kq8HxAdeC62wikuGWCj",
-  "runNumber": 6,
-  "timestamp": 1777864013183,
-  "hypothesis": "Inspired by LyfNG3UJ (loss=3.0000): light weight decay (0.05)",
+  "runNumber": 13,
+  "timestamp": 1777870015291,
+  "hypothesis": "Improve on run #6 (loss=4.5581): heavy weight decay (0.4)",
   "config": {
-    "weightDecay": 0.05
+    "weightDecay": 0.4
   },
   "result": {
-    "valLoss": 4.5580875898142565,
-    "trainLoss": 4.639321485656749,
+    "valLoss": 4.1333733453773664,
+    "trainLoss": 4.124985978011071,
     "lossCurve": [
       [
-        6,
-        4.5580875898142565
+        174,
+        4.1333733453773664
       ]
     ],
-    "durationSec": 934.129,
-    "tokensPerSec": 26.30900014880172,
-    "totalTokens": 24576
+    "durationSec": 125.112,
+    "tokensPerSec": 2848.263955495876,
+    "totalTokens": 356352
   },
-  "improvement": 0,
+  "improvement": -9.317816651570695,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 5060 Ti",
-  "inspiredBy": "12D3KooWDBmmT6RjfecYG4BwdeuaPLvDkJaeFLb8CV1HLyfNG3UJ"
+  "inspiredBy": null
 }
