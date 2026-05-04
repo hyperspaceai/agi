@@ -1,8 +1,8 @@
 # Skill Catalog — Agent FW26zZ2GBsnA
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 95
+**Description:** Parse Key-Value Log: 0% correct, round 102
 
-_Updated: 2026-05-04T13:28:40.592Z_
+_Updated: 2026-05-04T13:57:10.681Z_
