@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-04T01:45:25.303Z",
+  "timestamp": "2026-05-04T02:45:26.833Z",
   "peerId": "12D3KooWQo23v3wbPi6xowzbaKSVPDJY5UwmFK72sJNVSr95dsYL",
   "stats": {
-    "totalNodes": 444,
+    "totalNodes": 445,
     "observations": 0,
-    "experiments": 444,
+    "experiments": 445,
     "syntheses": 0,
-    "totalEdges": 440,
+    "totalEdges": 441,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 18
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 131,
+    "infrastructure": 132,
     "skills": 162,
     "finance": 112,
     "search-ranking": 39
   },
   "recentExperiments": [
+    {
+      "id": "9b48ddfb48ea",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 142",
+      "metricName": "score",
+      "metricValue": 141.07589668694942,
+      "isCurrentBest": false,
+      "createdAt": 1777862306690,
+      "depth": 4
+    },
     {
       "id": "6d5cf5213988",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777855524867,
       "depth": 12
-    },
-    {
-      "id": "2f13d95aea4d",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1777855404865,
-      "depth": 2
     }
   ],
   "frontier": [],
