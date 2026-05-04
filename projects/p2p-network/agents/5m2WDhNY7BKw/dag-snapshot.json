@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-04T01:14:22.739Z",
+  "timestamp": "2026-05-04T03:34:13.776Z",
   "peerId": "12D3KooWEaPfxpxFJ5bRjDDsicBg5HBB7jJxpsDc1YQ3DtLrt5hx",
   "stats": {
-    "totalNodes": 309,
+    "totalNodes": 366,
     "observations": 0,
-    "experiments": 309,
+    "experiments": 366,
     "syntheses": 0,
-    "totalEdges": 305,
+    "totalEdges": 362,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 21
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,220 +38,220 @@
       "depth": 5
     },
     "search-ranking": {
-      "nodeId": "dbd820dc4951e2ca0ff6700cdf3b594c721e0f4c33885bea83b9088f01c917c6",
-      "title": "Search round 31: boost BM25 weight (+0.05)",
+      "nodeId": "f6cd2e52274a1af55b5f40bb327c7502e41fcd9f1871603765fbeeb5ef9c4959",
+      "title": "Search round 38: skip peer cascade (local-only fast)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
+      "metricValue": 0.4,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 176,
-    "skills": 84,
-    "finance": 35,
-    "search-ranking": 14
+    "infrastructure": 187,
+    "skills": 106,
+    "finance": 45,
+    "search-ranking": 28
   },
   "recentExperiments": [
     {
-      "id": "5210e3f7ac9a",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 319",
-      "metricName": "score",
-      "metricValue": 145.02601436424786,
+      "id": "8f9790e678f5",
+      "domain": "search-ranking",
+      "title": "Search round 50: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1777852497506,
-      "depth": 7
+      "createdAt": 1777864753838,
+      "depth": 2
     },
     {
-      "id": "f1ea99080df4",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 204",
-      "metricName": "score",
-      "metricValue": 0.953723387537185,
+      "id": "b4efedaa2fed",
+      "domain": "search-ranking",
+      "title": "Search round 50: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1777845516489,
-      "depth": 7
+      "createdAt": 1777864753666,
+      "depth": 2
     },
     {
-      "id": "921a5e62f237",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 195",
-      "metricName": "score",
-      "metricValue": 0.9531475620267106,
-      "isCurrentBest": false,
-      "createdAt": 1777845014958,
-      "depth": 7
-    },
-    {
-      "id": "d03105a7d34e",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 160",
-      "metricName": "score",
-      "metricValue": 141.08668139861058,
-      "isCurrentBest": false,
-      "createdAt": 1777842871025,
-      "depth": 7
-    },
-    {
-      "id": "64d839413aa1",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 85",
-      "metricName": "score",
-      "metricValue": 141.14835885160034,
-      "isCurrentBest": false,
-      "createdAt": 1777838342357,
-      "depth": 7
-    },
-    {
-      "id": "32c45518e790",
+      "id": "2527230f94ec",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1777837622347,
+      "createdAt": 1777864519451,
       "depth": 3
     },
     {
-      "id": "1057866cb222",
+      "id": "164d6e8e2089",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1777837382342,
+      "createdAt": 1777864399434,
       "depth": 3
     },
     {
-      "id": "326f83568237",
+      "id": "3fa60f356717",
+      "domain": "search-ranking",
+      "title": "Search round 46: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777864375946,
+      "depth": 2
+    },
+    {
+      "id": "89cb584cd5ad",
+      "domain": "search-ranking",
+      "title": "Search round 46: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777864375774,
+      "depth": 2
+    },
+    {
+      "id": "8c05e4f909e0",
+      "domain": "search-ranking",
+      "title": "Search round 46: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777864375600,
+      "depth": 2
+    },
+    {
+      "id": "e6f6e1579eb9",
+      "domain": "search-ranking",
+      "title": "Search round 46: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777864375442,
+      "depth": 2
+    },
+    {
+      "id": "87e77f1ae16b",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1777837262337,
+      "createdAt": 1777864284184,
       "depth": 3
     },
     {
-      "id": "62b2a2fd71c1",
+      "id": "2292bade6f64",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1777837022335,
+      "createdAt": 1777864023015,
       "depth": 3
     },
     {
-      "id": "798ac60f103c",
+      "id": "b57c4ee22e6b",
       "domain": "search-ranking",
-      "title": "Search round 41: boost BM25 weight (+0.05)",
+      "title": "Search round 42: skip peer cascade (local-only fast)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1777836885073,
+      "createdAt": 1777863999499,
+      "depth": 2
+    },
+    {
+      "id": "262ba6cdcaa1",
+      "domain": "search-ranking",
+      "title": "Search round 42: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777863999335,
+      "depth": 2
+    },
+    {
+      "id": "d464259d1205",
+      "domain": "search-ranking",
+      "title": "Search round 42: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777863999170,
+      "depth": 2
+    },
+    {
+      "id": "76263133ac29",
+      "domain": "search-ranking",
+      "title": "Search round 38: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777863620849,
+      "depth": 2
+    },
+    {
+      "id": "8bebd1e49f72",
+      "domain": "search-ranking",
+      "title": "Search round 38: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777863620588,
+      "depth": 2
+    },
+    {
+      "id": "e2cbec147ca8",
+      "domain": "search-ranking",
+      "title": "Search round 38: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777863620424,
+      "depth": 2
+    },
+    {
+      "id": "a2609743ab1b",
+      "domain": "search-ranking",
+      "title": "Search round 38: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1777863620250,
+      "depth": 2
+    },
+    {
+      "id": "f6cd2e52274a",
+      "domain": "search-ranking",
+      "title": "Search round 38: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": true,
+      "createdAt": 1777863620088,
       "depth": 1
     },
     {
-      "id": "f8b4002e304d",
-      "domain": "search-ranking",
-      "title": "Search round 41: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
-      "isCurrentBest": false,
-      "createdAt": 1777836884698,
-      "depth": 1
-    },
-    {
-      "id": "4df677dd39ee",
-      "domain": "search-ranking",
-      "title": "Search round 41: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
-      "isCurrentBest": false,
-      "createdAt": 1777836884415,
-      "depth": 1
-    },
-    {
-      "id": "9b5fd55d62c7",
-      "domain": "search-ranking",
-      "title": "Search round 41: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
-      "isCurrentBest": false,
-      "createdAt": 1777836884169,
-      "depth": 1
-    },
-    {
-      "id": "fa930b2c4fca",
-      "domain": "search-ranking",
-      "title": "Search round 41: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
-      "isCurrentBest": false,
-      "createdAt": 1777836883700,
-      "depth": 1
-    },
-    {
-      "id": "1bb0478a19cc",
+      "id": "88f61e18d30b",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1777836782322,
+      "createdAt": 1777862892671,
       "depth": 3
     },
     {
-      "id": "581b03056e6a",
+      "id": "2d14adbf518d",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1777836542319,
+      "createdAt": 1777862776612,
       "depth": 3
-    },
-    {
-      "id": "d07938237d72",
-      "domain": "search-ranking",
-      "title": "Search round 37: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
-      "isCurrentBest": false,
-      "createdAt": 1777836525460,
-      "depth": 1
-    },
-    {
-      "id": "93992e7dc1bc",
-      "domain": "search-ranking",
-      "title": "Search round 37: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
-      "isCurrentBest": false,
-      "createdAt": 1777836524698,
-      "depth": 1
-    },
-    {
-      "id": "68543dcf6091",
-      "domain": "search-ranking",
-      "title": "Search round 37: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
-      "isCurrentBest": false,
-      "createdAt": 1777836524403,
-      "depth": 1
-    },
-    {
-      "id": "56eb718532d0",
-      "domain": "search-ranking",
-      "title": "Search round 37: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3898713694067948,
-      "isCurrentBest": false,
-      "createdAt": 1777836524000,
-      "depth": 1
     }
   ],
   "frontier": [],
@@ -359,6 +359,12 @@
       }
     ],
     "search-ranking": [
+      {
+        "id": "f6cd2e52274a",
+        "title": "Search round 38: skip peer cascade (local-only fast)",
+        "metricValue": 0.4,
+        "depth": 1
+      },
       {
         "id": "dbd820dc4951",
         "title": "Search round 31: boost BM25 weight (+0.05)",
