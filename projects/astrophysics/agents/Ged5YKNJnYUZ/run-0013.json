@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWRTzFHSx1ySk43xhyodJghBhw5Kq8HxAdeC62wikuGWCj",
+  "runNumber": 13,
+  "timestamp": 1777870015291,
+  "hypothesis": "Improve on run #6 (loss=4.5581): heavy weight decay (0.4)",
+  "config": {
+    "weightDecay": 0.4
+  },
+  "result": {
+    "valLoss": 4.1333733453773664,
+    "trainLoss": 4.124985978011071,
+    "lossCurve": [
+      [
+        174,
+        4.1333733453773664
+      ]
+    ],
+    "durationSec": 125.112,
+    "tokensPerSec": 2848.263955495876,
+    "totalTokens": 356352
+  },
+  "improvement": -9.317816651570695,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "inspiredBy": null
+}
