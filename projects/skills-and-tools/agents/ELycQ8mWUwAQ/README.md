@@ -1,8 +1,8 @@
 # Skill Catalog — Agent ELycQ8mWUwAQ
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
 **Score:** 0.1990
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 273
+**Description:** Detect Anomalies (IQR): 0% correct, round 291
 
-_Updated: 2026-05-04T14:32:25.865Z_
+_Updated: 2026-05-04T15:07:48.711Z_
