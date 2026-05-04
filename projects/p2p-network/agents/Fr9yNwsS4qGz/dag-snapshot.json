@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-04T10:53:06.653Z",
+  "timestamp": "2026-05-04T13:53:07.057Z",
   "peerId": "12D3KooWQfX985T9FjYUQznqqGJ1NKAkVBMowH2H5JwLHgdGot19",
   "stats": {
-    "totalNodes": 82,
+    "totalNodes": 91,
     "observations": 0,
-    "experiments": 82,
+    "experiments": 91,
     "syntheses": 0,
-    "totalEdges": 78,
+    "totalEdges": 87,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 20
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,102 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 32,
-    "skills": 26,
+    "infrastructure": 39,
+    "skills": 28,
     "finance": 10,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "92575a13946b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 249",
+      "metricName": "score",
+      "metricValue": 0.9699012401257382,
+      "isCurrentBest": false,
+      "createdAt": 1777901586813,
+      "depth": 1
+    },
+    {
+      "id": "652453c0bdbc",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 244",
+      "metricName": "score",
+      "metricValue": 0.9696148106178513,
+      "isCurrentBest": false,
+      "createdAt": 1777901286809,
+      "depth": 1
+    },
+    {
+      "id": "7b7fbbd95fb5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 205",
+      "metricName": "score",
+      "metricValue": 144.96457149193304,
+      "isCurrentBest": false,
+      "createdAt": 1777898946772,
+      "depth": 1
+    },
+    {
+      "id": "806e91f41f4c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 189",
+      "metricName": "score",
+      "metricValue": 145.1339618571444,
+      "isCurrentBest": false,
+      "createdAt": 1777897986629,
+      "depth": 1
+    },
+    {
+      "id": "4d293a429717",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1777895466588,
+      "depth": 2
+    },
+    {
+      "id": "73bfddf4a7ca",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 141",
+      "metricName": "score",
+      "metricValue": 145.1848593030128,
+      "isCurrentBest": false,
+      "createdAt": 1777895106569,
+      "depth": 1
+    },
+    {
+      "id": "14dca826e07e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 139",
+      "metricName": "score",
+      "metricValue": 145.22767244723752,
+      "isCurrentBest": false,
+      "createdAt": 1777894986569,
+      "depth": 1
+    },
+    {
+      "id": "db72301dc97a",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1777892946453,
+      "depth": 2
+    },
+    {
+      "id": "9242943bd12a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 105",
+      "metricName": "score",
+      "metricValue": 0.9774114297665562,
+      "isCurrentBest": false,
+      "createdAt": 1777892946428,
+      "depth": 1
+    },
     {
       "id": "35637fe45a1d",
       "domain": "skills",
@@ -162,96 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1777889927642,
       "depth": 1
-    },
-    {
-      "id": "b01b03fe94c5",
-      "domain": "search-ranking",
-      "title": "Search round 32: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777889479910,
-      "depth": 1
-    },
-    {
-      "id": "2053b4dfa35b",
-      "domain": "search-ranking",
-      "title": "Search round 32: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777889479316,
-      "depth": 1
-    },
-    {
-      "id": "51a8cc24b508",
-      "domain": "search-ranking",
-      "title": "Search round 32: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777889478946,
-      "depth": 1
-    },
-    {
-      "id": "1d61eed7fc44",
-      "domain": "search-ranking",
-      "title": "Search round 32: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777889478490,
-      "depth": 1
-    },
-    {
-      "id": "c07afbbd736b",
-      "domain": "search-ranking",
-      "title": "Search round 32: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777889478124,
-      "depth": 1
-    },
-    {
-      "id": "77807a942958",
-      "domain": "search-ranking",
-      "title": "Search round 32: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": true,
-      "createdAt": 1777889477662,
-      "depth": 0
-    },
-    {
-      "id": "97c01316dcaa",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 42",
-      "metricName": "score",
-      "metricValue": 141.09333170755667,
-      "isCurrentBest": false,
-      "createdAt": 1777889166259,
-      "depth": 1
-    },
-    {
-      "id": "fcc929e50026",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1777888986266,
-      "depth": 2
-    },
-    {
-      "id": "38d586d35296",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1777888506257,
-      "depth": 2
     }
   ],
   "frontier": [],
