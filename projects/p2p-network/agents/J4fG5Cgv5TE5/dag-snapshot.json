@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-04T17:50:36.802Z",
+  "timestamp": "2026-05-04T18:50:36.940Z",
   "peerId": "12D3KooWSt2RpLGdGMVaHBwPuJT9KxgXHpsKeBzQYBwGjh8s638b",
   "stats": {
-    "totalNodes": 4996,
+    "totalNodes": 4998,
     "observations": 0,
-    "experiments": 4996,
+    "experiments": 4998,
     "syntheses": 0,
-    "totalEdges": 4992,
+    "totalEdges": 4994,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2418,
+    "infrastructure": 2420,
     "skills": 1530,
     "finance": 1019,
     "search-ranking": 29
   },
   "recentExperiments": [
+    {
+      "id": "cb5dce023a44",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 429",
+      "metricName": "score",
+      "metricValue": 0.9607480887929299,
+      "isCurrentBest": false,
+      "createdAt": 1777919436672,
+      "depth": 8
+    },
+    {
+      "id": "0efa097667a1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 416",
+      "metricName": "score",
+      "metricValue": 0.9589873191535008,
+      "isCurrentBest": false,
+      "createdAt": 1777918656663,
+      "depth": 8
+    },
     {
       "id": "2400c94d2bc9",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1777897105991,
-      "depth": 1
-    },
-    {
-      "id": "9c6297634f2d",
-      "domain": "search-ranking",
-      "title": "Search round 38: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777897104892,
-      "depth": 1
-    },
-    {
-      "id": "381f8bbd115b",
-      "domain": "search-ranking",
-      "title": "Search round 38: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1777897104319,
       "depth": 1
     }
   ],
