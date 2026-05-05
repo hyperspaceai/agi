@@ -1,6 +1,6 @@
 # Leaderboard: astrophysics
 
-_Last updated: 2026-05-05T16:39:56Z | 216 agents | 1040 experiments_
+_Last updated: 2026-05-05T17:01:35Z | 216 agents | 1040 experiments_
 
 | Rank | Agent | Val Loss | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|----------|------------|------|-----|-------------|
@@ -156,7 +156,7 @@ _Last updated: 2026-05-05T16:39:56Z | 216 agents | 1040 experiments_
 | 150 | `DtqsBo6oCxUH...` | 4.0960 | Baseline: default architecture on astro... | 1 | Advanced Micro Devices, Inc. [AMD/ATI] Device 164e (rev c4) | 54d ago |
 | 151 | `3eQ9bjj2TDEi...` | 4.0966 | Explore: linear LR schedule | 1 | — | 53d ago |
 | 152 | `3sNMYrbskAoV...` | 4.0972 | Explore: light weight decay (0.01) | 1 | — | 22d ago |
-| 153 | `7GjjoBsGpsWu...` | 4.1024 | Improve on d0133740 (loss=4.2362): max ... | 11 | — | 19h ago |
+| 153 | `7GjjoBsGpsWu...` | 4.1024 | Improve on d0133740 (loss=4.2362): max ... | 11 | — | 20h ago |
 | 154 | `4nYBYWtbcPfH...` | 4.1201 | Improve on run #1 (loss=4.1284): larger... | 2 | Apple M3 Max | 54d ago |
 | 155 | `Ged5YKNJnYUZ...` | 4.1334 | Improve on run #6 (loss=4.5581): heavy ... | 13 | NVIDIA GeForce RTX 5060 Ti | 1d ago |
 | 156 | `3zkMAuP1sP6C...` | 4.1372 | Explore: max scale (16L, 1024d, 16h) | 1 | — | 53d ago |
@@ -191,7 +191,7 @@ _Last updated: 2026-05-05T16:39:56Z | 216 agents | 1040 experiments_
 | 185 | `Vf91yeMuFtcU...` | 4.4455 | Improve on b0f26960 (loss=4.4745): lowe... | 2 | — | 46d ago |
 | 186 | `YHp5DHnevvJU...` | 4.4494 | Explore: enable tied embeddings | 1 | — | 37d ago |
 | 187 | `CjKuhDy5iyA4...` | 4.4708 | Explore: switch to SiLU activation | 1 | — | 19d ago |
-| 188 | `656KHpmvfv7B...` | 4.4710 | Explore: Xavier initialization | 1 | — | 2d ago |
+| 188 | `656KHpmvfv7B...` | 4.4710 | Explore: Xavier initialization | 1 | — | 3d ago |
 | 189 | `EFHx1PyNpEXo...` | 4.4800 | Explore: lower LR (3e-4) | 1 | — | 5d ago |
 | 190 | `G8zn8H3E2amz...` | 4.4948 | Explore: higher gradient clip (5.0) | 1 | — | 37d ago |
 | 191 | `AzeiXJTBcY2t...` | 4.5085 | Improve on 026d1ca0 (loss=4.5322): high... | 3 | — | 2d ago |
@@ -208,7 +208,7 @@ _Last updated: 2026-05-05T16:39:56Z | 216 agents | 1040 experiments_
 | 202 | `6xqGJBhuK9aT...` | 4.6410 | Explore: switch to RMSNorm | 1 | — | 47d ago |
 | 203 | `GoitDFi3mfR7...` | 4.6633 | Improve on 61f7d72c (loss=4.7796): line... | 2 | — | 18d ago |
 | 204 | `FjpsVA3gTJte...` | 4.6738 | Improve on 14e3079d (loss=5.7989): deep... | 2 | — | 54d ago |
-| 205 | `AHPbHzmCd5ZU...` | 4.7493 | Explore: linear LR schedule | 1 | — | 16d ago |
+| 205 | `AHPbHzmCd5ZU...` | 4.7493 | Explore: linear LR schedule | 1 | — | 17d ago |
 | 206 | `BcXv2qim73Nu...` | 4.7943 | Explore: smaller batch (64) | 1 | — | 5d ago |
 | 207 | `4mhF7pimhjir...` | 4.8011 | Improve on 43f4a544 (loss=4.8508): enab... | 2 | — | 7d ago |
 | 208 | `9r6kMi9o7pnJ...` | 4.8154 | Explore: heavy weight decay (0.1) | 1 | — | 39d ago |
