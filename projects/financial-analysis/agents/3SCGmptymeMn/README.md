@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 3SCGmptymeMn
 
-**Best Sharpe Ratio:** 1.2818
-**Hypothesis:** Round 22 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.3530
-**Max Drawdown:** 0.0694
+**Best Sharpe Ratio:** 1.0882
+**Hypothesis:** Round 1 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Position Sizing:** equal_weight
+**Alpha:** 0.9068
+**Max Drawdown:** 0.0772
 **LLM:** unknown
-**Run:** finance-r22
-**Updated:** 2026-05-04T08:11:53.818Z
+**Run:** finance-r1
+**Updated:** 2026-05-05T00:34:44.167Z
