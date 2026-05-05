@@ -2,21 +2,21 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWH8JkBfdDLGNbSXJ5pZvzzWrUbLa7JUhjvPAPtJmLAeLH",
-  "runNumber": 1,
-  "timestamp": 1777600808867,
-  "hypothesis": "Explore: more heads (8h)",
+  "runNumber": 12,
+  "timestamp": 1777972373658,
+  "hypothesis": "Improve on d698d4a0 (loss=4.0624): aggressive LR (0.006) + warmup",
   "config": {
-    "nLayers": 2,
-    "nHeads": 8,
-    "dModel": 64,
-    "dFF": 256,
+    "nLayers": 16,
+    "nHeads": 16,
+    "dModel": 1024,
+    "dFF": 4096,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.006,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
-    "warmupSteps": 100,
+    "warmupSteps": 500,
     "weightDecay": 0.01,
     "evalInterval": 200,
     "evalSteps": 10,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.759078093581401,
-    "trainLoss": 4.772604263663611,
+    "valLoss": 3.86749355420434,
+    "trainLoss": 4.986690440557167,
     "lossCurve": [
       [
-        16,
-        4.759078093581401
+        1,
+        3.86749355420434
       ]
     ],
-    "durationSec": 177.447,
-    "tokensPerSec": 184.66358969156988,
-    "totalTokens": 32768
+    "durationSec": 50756.243,
+    "tokensPerSec": 0.04034971619156288,
+    "totalTokens": 2048
   },
-  "improvement": 0,
+  "improvement": -4.798858585683404,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
