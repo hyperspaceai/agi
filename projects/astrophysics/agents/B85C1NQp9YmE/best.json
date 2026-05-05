@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWKwSMkVzXLT2iZsajBczAht8yPTPVfRNfnSwpVZ4bw39i",
-  "runNumber": 4,
-  "timestamp": 1778018329919,
-  "hypothesis": "Improve on 6a6d4bc8 (loss=3.3265): lower LR (3e-4)",
+  "runNumber": 5,
+  "timestamp": 1778020030709,
+  "hypothesis": "Improve on 6a6d4bc8 (loss=3.3265): Kaiming initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -30,25 +30,25 @@
     "gradientClipNorm": 1,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "normal",
+    "initType": "kaiming",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.13147250171105,
-    "trainLoss": 4.124822656817317,
+    "valLoss": 3.261459357378654,
+    "trainLoss": 3.3530381289214195,
     "lossCurve": [
       [
-        86,
-        4.13147250171105
+        98,
+        3.261459357378654
       ]
     ],
-    "durationSec": 131.785,
-    "tokensPerSec": 1336.4798725196342,
-    "totalTokens": 176128
+    "durationSec": 444.729,
+    "tokensPerSec": 451.2950583388985,
+    "totalTokens": 200704
   },
-  "improvement": -4.874666298157876,
+  "improvement": -21.05818552518696,
   "isNewBest": true,
   "gpu": "Apple M4",
   "inspiredBy": null
