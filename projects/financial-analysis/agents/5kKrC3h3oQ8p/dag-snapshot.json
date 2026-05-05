@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-05T09:48:19.604Z",
+  "timestamp": "2026-05-05T14:00:45.229Z",
   "peerId": "12D3KooWEZh1wBGkzJQJiQ7sqpVTnZwwS4ntH76gQtkJjWsrgjid",
   "stats": {
-    "totalNodes": 23,
+    "totalNodes": 27,
     "observations": 0,
-    "experiments": 23,
+    "experiments": 27,
     "syntheses": 0,
-    "totalEdges": 18,
+    "totalEdges": 22,
     "maxDepth": 13,
     "activeExperiments": 2,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,12 +39,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 6,
+    "infrastructure": 10,
     "physics": 2,
     "skills": 1,
     "finance": 14
   },
   "recentExperiments": [
+    {
+      "id": "c9f48740cbc4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 417",
+      "metricName": "score",
+      "metricValue": 141.47138493991778,
+      "isCurrentBest": false,
+      "createdAt": 1777988772562,
+      "depth": 3
+    },
+    {
+      "id": "fa12acdf99d2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 394",
+      "metricName": "score",
+      "metricValue": 141.8728994689664,
+      "isCurrentBest": false,
+      "createdAt": 1777984671809,
+      "depth": 3
+    },
+    {
+      "id": "7b33733646db",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 393",
+      "metricName": "score",
+      "metricValue": 144.2266832216344,
+      "isCurrentBest": false,
+      "createdAt": 1777984606888,
+      "depth": 3
+    },
+    {
+      "id": "b6888c352951",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 373",
+      "metricName": "score",
+      "metricValue": 0.9388047360704108,
+      "isCurrentBest": false,
+      "createdAt": 1777977335145,
+      "depth": 3
+    },
     {
       "id": "40cb74e08506",
       "domain": "infrastructure",
@@ -204,45 +244,6 @@
       "isCurrentBest": false,
       "createdAt": 1777938393011,
       "depth": 3
-    },
-    {
-      "id": "d6d33bd4752e",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.2052",
-      "metricName": "Sharpe",
-      "metricValue": 1.2052,
-      "isCurrentBest": false,
-      "createdAt": 1777938091837,
-      "depth": 2
-    },
-    {
-      "id": "e946ea609f2d",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1870",
-      "metricName": "Sharpe",
-      "metricValue": 1.187,
-      "isCurrentBest": false,
-      "createdAt": 1777937941510,
-      "depth": 1
-    },
-    {
-      "id": "125805525a39",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.1782",
-      "metricName": "Sharpe",
-      "metricValue": 1.1782,
-      "isCurrentBest": false,
-      "createdAt": 1777937790797,
-      "depth": 0
-    },
-    {
-      "id": "af06680359e3",
-      "domain": "physics",
-      "title": "Wrote paper: \"On energy_conditions: What are the quantum gravity corrections to the null energy \" (s",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1777936562707,
-      "depth": 0
     }
   ],
   "frontier": [],
