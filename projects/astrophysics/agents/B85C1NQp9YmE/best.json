@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWKwSMkVzXLT2iZsajBczAht8yPTPVfRNfnSwpVZ4bw39i",
-  "runNumber": 3,
-  "timestamp": 1778016943096,
-  "hypothesis": "LLM-guided script evolution",
+  "runNumber": 4,
+  "timestamp": 1778018329919,
+  "hypothesis": "Improve on 6a6d4bc8 (loss=3.3265): lower LR (3e-4)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.34318844511033,
-    "trainLoss": 4.34538709163974,
+    "valLoss": 4.13147250171105,
+    "trainLoss": 4.124822656817317,
     "lossCurve": [
       [
-        46,
-        4.34318844511033
+        86,
+        4.13147250171105
       ]
     ],
-    "durationSec": 133.324,
-    "tokensPerSec": 706.6094626623862,
-    "totalTokens": 94208
+    "durationSec": 131.785,
+    "tokensPerSec": 1336.4798725196342,
+    "totalTokens": 176128
   },
-  "improvement": 0,
+  "improvement": -4.874666298157876,
   "isNewBest": true,
   "gpu": "Apple M4",
   "inspiredBy": null
