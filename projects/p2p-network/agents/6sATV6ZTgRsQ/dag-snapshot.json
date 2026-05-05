@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-05T23:11:40.150Z",
+  "peerId": "12D3KooWFgXdEE9AsL8uCTVtcr3Dj9RXUbnNobgjod69bdb5saom",
+  "stats": {
+    "totalNodes": 390,
+    "observations": 2,
+    "experiments": 388,
+    "syntheses": 0,
+    "totalEdges": 261,
+    "maxDepth": 9,
+    "activeExperiments": 101,
+    "recentActivity": 4
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "da7294c9b9ca3685759b777589f3630fc3a20b60c9e468fc9009d4a01f5e470f",
+      "title": "Cause infra-optimization round 1689",
+      "metricName": "score",
+      "metricValue": 145.5778379615148,
+      "metricDirection": "maximize",
+      "depth": 8
+    },
+    "skills": {
+      "nodeId": "38dc83eedf25682b4877ee56051ef2490d07b0d2211161a2ba8b980a1b08553c",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "general": {
+      "nodeId": "98869e735918cd87e0ad0529edf447d22c96162d04aa493f85504a54dba60fe7",
+      "title": "AutoWeb round 6: 87/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 87,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "search-ranking": {
+      "nodeId": "728c4f0d7632d33c7cc18660a6e67784aaf292690b5e9fc82271e6f48e166e58",
+      "title": "Search round 1: Further increased authorityWeight and slightly decreased bod",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "finance": {
+      "nodeId": "79fb0d4e610a72fa62fd2856fd471a495a22ebed9d2981705234d9a7ef7406a2",
+      "title": "Finance round 6: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "metricDirection": "maximize",
+      "depth": 6
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 120,
+    "skills": 118,
+    "knowledge": 2,
+    "physics": 101,
+    "general": 22,
+    "search-ranking": 1,
+    "finance": 26
+  },
+  "recentExperiments": [
+    {
+      "id": "1f7b4bf001d5",
+      "domain": "physics",
+      "title": "Wrote paper: \"Dynamically-Driven Warp Bubbles: Reducing Energy Requirements with Spatially Inhomogen",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778021668854,
+      "depth": 0
+    },
+    {
+      "id": "5ffd12a9f5f6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2587",
+      "metricName": "score",
+      "metricValue": 0.9116601561845884,
+      "isCurrentBest": false,
+      "createdAt": 1778021472919,
+      "depth": 9
+    },
+    {
+      "id": "33035d91fb86",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the observed scaling behavior of Casimir energy densitie\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778020458919,
+      "depth": 0
+    },
+    {
+      "id": "7d2fd9840a1b",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How do the quantum corrections to the stress-energy tensor a\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778019136621,
+      "depth": 0
+    },
+    {
+      "id": "e8b29acab6a6",
+      "domain": "physics",
+      "title": "Wrote paper: \"Dynamic Casimir Cavity Modulation for Warp Drive Construction: A Reduction in Negative",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778015424299,
+      "depth": 0
+    },
+    {
+      "id": "2b6bd40c590c",
+      "domain": "finance",
+      "title": "Finance round 11: Sharpe=1.3040",
+      "metricName": "Sharpe",
+      "metricValue": 1.304,
+      "isCurrentBest": false,
+      "createdAt": 1778013986824,
+      "depth": 7
+    },
+    {
+      "id": "506e4beb1067",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2452",
+      "metricName": "score",
+      "metricValue": 145.10077384464518,
+      "isCurrentBest": false,
+      "createdAt": 1778013972895,
+      "depth": 9
+    },
+    {
+      "id": "222a30f41ecb",
+      "domain": "physics",
+      "title": "Wrote paper: \"f(R) Gravity and Warp Drive Stability: Exploring Scalar-Tensor Coupling Effects**\" (se",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778011654060,
+      "depth": 0
+    },
+    {
+      "id": "fbfdf578ee70",
+      "domain": "physics",
+      "title": "Wrote paper: \"Dynamically Tunable Metamaterials for Optimized Warp Bubble Generation: A Theoretical ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778009285760,
+      "depth": 0
+    },
+    {
+      "id": "d9c292b57081",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Spatiotemporal Modulation of Warp Field Strength: Implications for Energy Density a",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778007995181,
+      "depth": 0
+    },
+    {
+      "id": "22eaad12a800",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Given the limitations on achievable negative energy densitie\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778004215976,
+      "depth": 0
+    },
+    {
+      "id": "3eab9b5d4e73",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How does the effective refractive index of spacetime within \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778002988338,
+      "depth": 0
+    },
+    {
+      "id": "2c64d8533adc",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2264",
+      "metricName": "score",
+      "metricValue": 0.91843551813151,
+      "isCurrentBest": false,
+      "createdAt": 1778002842803,
+      "depth": 9
+    },
+    {
+      "id": "b5ecebdce9a6",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2263",
+      "metricName": "score",
+      "metricValue": 145.2077815430194,
+      "isCurrentBest": false,
+      "createdAt": 1778002842802,
+      "depth": 9
+    },
+    {
+      "id": "d0c18e4da802",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Considering the potential for quantum gravity regularization\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778000555266,
+      "depth": 0
+    },
+    {
+      "id": "35be5a31cad1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2233",
+      "metricName": "score",
+      "metricValue": 0.9184068869968711,
+      "isCurrentBest": false,
+      "createdAt": 1778000352789,
+      "depth": 9
+    },
+    {
+      "id": "d72cab170679",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Mitigation of Energy Scaling in the Fuchs-et al. Warp Drive via Dynamically Adjuste",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1777996929985,
+      "depth": 0
+    },
+    {
+      "id": "94d457597350",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2137",
+      "metricName": "score",
+      "metricValue": 145.10385034595419,
+      "isCurrentBest": false,
+      "createdAt": 1777995342766,
+      "depth": 9
+    },
+    {
+      "id": "124d94b0b1c9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2131",
+      "metricName": "score",
+      "metricValue": 0.9181753678601189,
+      "isCurrentBest": false,
+      "createdAt": 1777994142761,
+      "depth": 9
+    },
+    {
+      "id": "1eb72b3da89b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 2120",
+      "metricName": "score",
+      "metricValue": 145.31129290872886,
+      "isCurrentBest": false,
+      "createdAt": 1777994142760,
+      "depth": 9
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "da7294c9b9ca",
+        "title": "Cause infra-optimization round 1689",
+        "metricValue": 145.5778379615148,
+        "depth": 8
+      },
+      {
+        "id": "e5a21cb97a90",
+        "title": "Cause infra-optimization round 1609",
+        "metricValue": 145.5641976967645,
+        "depth": 7
+      },
+      {
+        "id": "3f12cd974014",
+        "title": "Cause infra-optimization round 363",
+        "metricValue": 145.23908715707063,
+        "depth": 6
+      },
+      {
+        "id": "b4962a4bd838",
+        "title": "Cause infra-optimization round 474",
+        "metricValue": 145.13505267150748,
+        "depth": 5
+      },
+      {
+        "id": "6fef81becbb0",
+        "title": "Cause infra-optimization round 226",
+        "metricValue": 144.99324429181257,
+        "depth": 4
+      },
+      {
+        "id": "d8eec4be3c81",
+        "title": "Cause infra-optimization round 9",
+        "metricValue": 142.4760446369589,
+        "depth": 3
+      },
+      {
+        "id": "b338c4702d22",
+        "title": "Cause infra-optimization round 7",
+        "metricValue": 141.29595950026808,
+        "depth": 2
+      },
+      {
+        "id": "c5d4bc16c504",
+        "title": "Cause infra-optimization round 18",
+        "metricValue": 141.2749701947964,
+        "depth": 1
+      },
+      {
+        "id": "03e43f7e00b3",
+        "title": "Cause infra-optimization round 18",
+        "metricValue": 141.01769718007807,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "38dc83eedf25",
+        "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+        "metricValue": 0.1998,
+        "depth": 1
+      },
+      {
+        "id": "82b7a031fab3",
+        "title": "Skill Compute Text Statistics (LLM 3 iter): 0%",
+        "metricValue": 0.1997,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "98869e735918",
+        "title": "AutoWeb round 6: 87/100",
+        "metricValue": 87,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "728c4f0d7632",
+        "title": "Search round 1: Further increased authorityWeight and slightly decreased bod",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "79fb0d4e610a",
+        "title": "Finance round 6: Sharpe=1.3129",
+        "metricValue": 1.3129,
+        "depth": 6
+      },
+      {
+        "id": "ef46eb28712d",
+        "title": "Finance round 5: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 5
+      },
+      {
+        "id": "840272b32318",
+        "title": "Finance round 4: Sharpe=1.1814",
+        "metricValue": 1.1814,
+        "depth": 4
+      },
+      {
+        "id": "6842eae51e7e",
+        "title": "Finance round 3: Sharpe=1.1701",
+        "metricValue": 1.1701,
+        "depth": 3
+      },
+      {
+        "id": "b20134d1a978",
+        "title": "Finance round 2: Sharpe=1.1448",
+        "metricValue": 1.1448,
+        "depth": 2
+      },
+      {
+        "id": "fa9ccced3fdd",
+        "title": "Finance round 1: Sharpe=1.1413",
+        "metricValue": 1.1413,
+        "depth": 1
+      },
+      {
+        "id": "0ffc5c51a215",
+        "title": "Finance round 1: Sharpe=1.1400",
+        "metricValue": 1.14,
+        "depth": 0
+      }
+    ]
+  }
+}
