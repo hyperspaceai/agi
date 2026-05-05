@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-05T22:09:47.644Z",
+  "timestamp": "2026-05-05T23:09:49.653Z",
   "peerId": "12D3KooWHjp19KQ2WpntvjHUXLavVsHJ7LNrM445LmKyhiwRP5Ec",
   "stats": {
-    "totalNodes": 846,
+    "totalNodes": 849,
     "observations": 0,
-    "experiments": 846,
+    "experiments": 849,
     "syntheses": 0,
-    "totalEdges": 842,
+    "totalEdges": 845,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,41 @@
   },
   "domainCounts": {
     "infrastructure": 305,
-    "skills": 310,
+    "skills": 313,
     "finance": 227,
     "search-ranking": 4
   },
   "recentExperiments": [
+    {
+      "id": "5649c56fac95",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1778021389159,
+      "depth": 2
+    },
+    {
+      "id": "dc406a1198e5",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778020549171,
+      "depth": 2
+    },
+    {
+      "id": "c919c23742cd",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778019112291,
+      "depth": 2
+    },
     {
       "id": "17f7bdd79d9d",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 145.07333245557518,
       "isCurrentBest": false,
       "createdAt": 1777986224189,
-      "depth": 2
-    },
-    {
-      "id": "3b34b41cc478",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1981",
-      "metricName": "score",
-      "metricValue": 0.9025199608101926,
-      "isCurrentBest": false,
-      "createdAt": 1777984904121,
-      "depth": 2
-    },
-    {
-      "id": "ee1270810791",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1972",
-      "metricName": "score",
-      "metricValue": 0.901890127705451,
-      "isCurrentBest": false,
-      "createdAt": 1777984364087,
-      "depth": 2
-    },
-    {
-      "id": "e02bb2669a0c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1966",
-      "metricName": "score",
-      "metricValue": 0.9014324360058447,
-      "isCurrentBest": false,
-      "createdAt": 1777984004068,
       "depth": 2
     }
   ],
