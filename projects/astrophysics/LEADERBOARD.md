@@ -1,6 +1,6 @@
 # Leaderboard: astrophysics
 
-_Last updated: 2026-05-05T17:37:32Z | 216 agents | 1040 experiments_
+_Last updated: 2026-05-05T17:42:59Z | 216 agents | 1040 experiments_
 
 | Rank | Agent | Val Loss | Hypothesis | Runs | GPU | Last Updated |
 |------|-------|----------|------------|------|-----|-------------|
@@ -155,7 +155,7 @@ _Last updated: 2026-05-05T17:37:32Z | 216 agents | 1040 experiments_
 | 149 | `DtqsBo6oCxUH...` | 4.0960 | Baseline: default architecture on astro... | 1 | Advanced Micro Devices, Inc. [AMD/ATI] Device 164e (rev c4) | 54d ago |
 | 150 | `3eQ9bjj2TDEi...` | 4.0966 | Explore: linear LR schedule | 1 | — | 53d ago |
 | 151 | `3sNMYrbskAoV...` | 4.0972 | Explore: light weight decay (0.01) | 1 | — | 22d ago |
-| 152 | `7GjjoBsGpsWu...` | 4.1024 | Improve on d0133740 (loss=4.2362): max ... | 11 | — | 20h ago |
+| 152 | `7GjjoBsGpsWu...` | 4.1024 | Improve on d0133740 (loss=4.2362): max ... | 11 | — | 21h ago |
 | 153 | `4nYBYWtbcPfH...` | 4.1201 | Improve on run #1 (loss=4.1284): larger... | 2 | Apple M3 Max | 54d ago |
 | 154 | `Ged5YKNJnYUZ...` | 4.1334 | Improve on run #6 (loss=4.5581): heavy ... | 13 | NVIDIA GeForce RTX 5060 Ti | 1d ago |
 | 155 | `3zkMAuP1sP6C...` | 4.1372 | Explore: max scale (16L, 1024d, 16h) | 1 | — | 53d ago |
@@ -211,7 +211,7 @@ _Last updated: 2026-05-05T17:37:32Z | 216 agents | 1040 experiments_
 | 205 | `BcXv2qim73Nu...` | 4.7943 | Explore: smaller batch (64) | 1 | — | 5d ago |
 | 206 | `4mhF7pimhjir...` | 4.8011 | Improve on 43f4a544 (loss=4.8508): enab... | 2 | — | 7d ago |
 | 207 | `9r6kMi9o7pnJ...` | 4.8154 | Explore: heavy weight decay (0.1) | 1 | — | 39d ago |
-| 208 | `ELycQ8mWUwAQ...` | 4.8211 | Explore: wider (768d, 3072ff, 12h) | 1 | — | 28m ago |
+| 208 | `ELycQ8mWUwAQ...` | 4.8211 | Explore: wider (768d, 3072ff, 12h) | 1 | — | 33m ago |
 | 209 | `49RV4ggVsAgx...` | 4.8281 | Improve on 6b371a20 (loss=4.8635): cons... | 2 | — | 49d ago |
 | 210 | `HwWANejMe9Xk...` | 4.8436 | Explore: light weight decay (0.01) | 1 | — | 54d ago |
 | 211 | `DarJ3byXVZau...` | 4.8447 | Improve on 8b3e8a60 (loss=4.8458): line... | 3 | — | 51d ago |
