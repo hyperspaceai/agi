@@ -1,22 +1,24 @@
 {
   "runId": "llm-r4",
   "runNumber": 4,
-  "hypothesis": "[LLM] Enhance Sharpe ratio by incorporating a trend factor and adjusting risk management parameters.",
-  "sharpeRatio": 1.2082,
-  "totalReturn": 2.9917,
-  "maxDrawdown": 0.0637,
-  "alpha": 1.4974,
+  "hypothesis": "[LLM] Enhance Sharpe ratio by incorporating trend following and adjusting risk management parameters.",
+  "sharpeRatio": 1.2527,
+  "totalReturn": 3.0294,
+  "maxDrawdown": 0.057,
+  "alpha": 1.5351,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
     "lowVolWeight",
+    "dividendWeight",
+    "growthWeight",
     "trendWeight"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0,
+  "durationSec": 0.002,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-19T04:50:09.315Z"
+  "timestamp": "2026-05-05T09:16:09.947Z"
 }
