@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWFTqHdmi7CDSxaBvWtAMhv5aWovDruoP3pDtaZ7xJGBSY",
+  "runNumber": 27,
+  "timestamp": 1778025939046,
+  "hypothesis": "Incorporate tied embeddings and cosine learning rate schedule for improved validation loss.",
+  "config": {
+    "nLayers": 3,
+    "nHeads": 2,
+    "dModel": 128,
+    "dFF": 512,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0004,
+    "batchSize": 32,
+    "maxSteps": 75000,
+    "maxDurationSec": 180,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 100,
+    "evalSteps": 5,
+    "dataset": "astrophysics",
+    "activation": "silu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": true,
+    "residualScale": 1,
+    "dropoutRate": 0.1,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 2.821559,
+    "trainLoss": 7.745766,
+    "lossCurve": [
+      [
+        0,
+        9.011009
+      ],
+      [
+        1,
+        9.010995
+      ],
+      [
+        2,
+        9.011047
+      ],
+      [
+        3,
+        9.011156
+      ],
+      [
+        4,
+        9.011123
+      ],
+      [
+        5,
+        9.011093
+      ],
+      [
+        6,
+        9.01105
+      ],
+      [
+        7,
+        9.011012
+      ],
+      [
+        8,
+        9.011057
+      ],
+      [
+        9,
+        9.011049
+      ],
+      [
+        10,
+        9.011002
+      ],
+      [
+        50,
+        8.907233
+      ],
+      [
+        100,
+        8.233831
+      ],
+      [
+        150,
+        7.834321
+      ]
+    ],
+    "durationSec": 180.6,
+    "tokensPerSec": 519379.8449612403,
+    "totalTokens": 93800000
+  },
+  "improvement": -9.02082465424444,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "inspiredBy": null
+}
