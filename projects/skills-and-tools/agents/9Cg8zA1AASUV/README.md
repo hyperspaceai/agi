@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 9Cg8zA1AASUV
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1998
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.1997
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 6
+**Description:** Parse Key-Value Log: 0% correct, round 7
 
-_Updated: 2026-05-06T00:55:17.056Z_
+_Updated: 2026-05-06T02:40:31.224Z_
