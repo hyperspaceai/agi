@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-06T02:25:01.924Z",
+  "timestamp": "2026-05-06T03:25:15.801Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 1960,
+    "totalNodes": 1963,
     "observations": 4,
-    "experiments": 1956,
+    "experiments": 1959,
     "syntheses": 0,
-    "totalEdges": 1580,
+    "totalEdges": 1583,
     "maxDepth": 12,
     "activeExperiments": 297,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,7 +47,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1045,
+    "infrastructure": 1048,
     "skills": 437,
     "physics": 297,
     "general": 76,
@@ -55,6 +55,36 @@
     "finance": 101
   },
   "recentExperiments": [
+    {
+      "id": "3dd883f32ba0",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 193",
+      "metricName": "score",
+      "metricValue": 141.13011942736296,
+      "isCurrentBest": false,
+      "createdAt": 1778035691267,
+      "depth": 12
+    },
+    {
+      "id": "9c05d6a710da",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 191",
+      "metricName": "score",
+      "metricValue": 141.13329953035918,
+      "isCurrentBest": false,
+      "createdAt": 1778035571267,
+      "depth": 12
+    },
+    {
+      "id": "b24dca8e48da",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 185",
+      "metricName": "score",
+      "metricValue": 141.2590800176793,
+      "isCurrentBest": false,
+      "createdAt": 1778035201427,
+      "depth": 12
+    },
     {
       "id": "59585cbaf857",
       "domain": "finance",
@@ -217,35 +247,6 @@
       "isCurrentBest": false,
       "createdAt": 1777998336738,
       "depth": 0
-    },
-    {
-      "id": "f0a9eb12ae98",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2033",
-      "metricName": "score",
-      "metricValue": 0.9171555435665151,
-      "isCurrentBest": false,
-      "createdAt": 1777998234025,
-      "depth": 12
-    },
-    {
-      "id": "20fab5d105f5",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Considering the Fuchs et al. (2024) constant-velocity warp d\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1777993141714,
-      "depth": 0
-    },
-    {
-      "id": "453a65e910e0",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1941",
-      "metricName": "score",
-      "metricValue": 0.9144404390630189,
-      "isCurrentBest": false,
-      "createdAt": 1777993073920,
-      "depth": 12
     }
   ],
   "frontier": [],
