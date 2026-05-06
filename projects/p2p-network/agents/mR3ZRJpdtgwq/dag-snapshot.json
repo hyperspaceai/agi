@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-06T06:02:49.373Z",
+  "timestamp": "2026-05-06T07:02:49.475Z",
   "peerId": "12D3KooWAanDJYtXpnxSFrYRwc2q4YsNyfu7QrYYtCKHBus7hqXd",
   "stats": {
-    "totalNodes": 4792,
+    "totalNodes": 4793,
     "observations": 0,
-    "experiments": 4792,
+    "experiments": 4793,
     "syntheses": 0,
-    "totalEdges": 4788,
+    "totalEdges": 4789,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 2161,
-    "skills": 1503,
+    "skills": 1504,
     "finance": 928,
     "search-ranking": 200
   },
   "recentExperiments": [
+    {
+      "id": "5fb2ebcc2d81",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1778050369210,
+      "depth": 3
+    },
     {
       "id": "e1ceb382111e",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778031768527,
       "depth": 9
-    },
-    {
-      "id": "85554da65939",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1778031648497,
-      "depth": 3
     }
   ],
   "frontier": [],
