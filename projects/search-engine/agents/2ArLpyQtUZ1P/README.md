@@ -1,10 +1,10 @@
 # Search Research — Agent 2ArLpyQtUZ1P
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** fc82f4b4
-**Updated:** 2026-04-29T09:48:54.087Z
+**Run:** 509329cc
+**Updated:** 2026-05-06T02:09:58.966Z
