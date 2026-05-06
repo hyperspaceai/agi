@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-06T22:36:06.531Z",
+  "timestamp": "2026-05-06T23:36:06.660Z",
   "peerId": "12D3KooWBExHzV83fyg1QoeNQ3qp7LorZpZ1GmU3tBx2mX6ujgBR",
   "stats": {
-    "totalNodes": 1068,
+    "totalNodes": 1073,
     "observations": 0,
-    "experiments": 1068,
+    "experiments": 1073,
     "syntheses": 0,
-    "totalEdges": 1064,
+    "totalEdges": 1069,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 34
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 318,
-    "skills": 478,
+    "infrastructure": 319,
+    "skills": 482,
     "finance": 258,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "48a3ff260ae0",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778110206414,
+      "depth": 1
+    },
+    {
+      "id": "42d42a0c935f",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778109966420,
+      "depth": 1
+    },
+    {
+      "id": "b04fc780f5fe",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778108646404,
+      "depth": 1
+    },
+    {
+      "id": "8a0fc712916b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 46",
+      "metricName": "score",
+      "metricValue": 141.03410824788796,
+      "isCurrentBest": false,
+      "createdAt": 1778107986368,
+      "depth": 5
+    },
+    {
+      "id": "f6495774b369",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778107566397,
+      "depth": 1
+    },
     {
       "id": "9b5a19b58073",
       "domain": "skills",
@@ -201,56 +251,6 @@
       "metricValue": 145.8305651432787,
       "isCurrentBest": false,
       "createdAt": 1778105586025,
-      "depth": 5
-    },
-    {
-      "id": "3242009bf7d5",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1778105526006,
-      "depth": 1
-    },
-    {
-      "id": "9f5eeb09c409",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.0826",
-      "metricName": "Sharpe",
-      "metricValue": 1.0826,
-      "isCurrentBest": false,
-      "createdAt": 1778105466011,
-      "depth": 9
-    },
-    {
-      "id": "8cd299d697c8",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 4",
-      "metricName": "score",
-      "metricValue": 146.117225675222,
-      "isCurrentBest": false,
-      "createdAt": 1778105465971,
-      "depth": 5
-    },
-    {
-      "id": "6333e6464b77",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1986,
-      "isCurrentBest": false,
-      "createdAt": 1778105406000,
-      "depth": 1
-    },
-    {
-      "id": "ad6f4f3edd21",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3",
-      "metricName": "score",
-      "metricValue": 146.15633474506265,
-      "isCurrentBest": false,
-      "createdAt": 1778105405945,
       "depth": 5
     }
   ],
