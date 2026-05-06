@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 8HFreAmCF5pn
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
-**Score:** 0.1999
+**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Score:** 0.1997
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 1244
+**Description:** Cosine Text Similarity: 0% correct, round 1
 
-_Updated: 2026-05-05T21:25:58.813Z_
+_Updated: 2026-05-06T00:08:13.173Z_
