@@ -1,10 +1,10 @@
 # Search Research — Agent 7eBS2c3aiK28
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** boost click weight (+0.03)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7a776e30
-**Updated:** 2026-04-29T10:12:40.892Z
+**Run:** aebc4667
+**Updated:** 2026-05-06T12:45:21.522Z
