@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 6Z4gEvjfKFjf
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1992
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.1993
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 23
+**Description:** Parse Key-Value Log: 0% correct, round 30
 
-_Updated: 2026-05-06T18:25:40.004Z_
+_Updated: 2026-05-06T18:30:45.544Z_
