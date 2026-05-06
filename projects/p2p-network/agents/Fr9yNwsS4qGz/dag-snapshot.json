@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-06T12:19:43.157Z",
+  "timestamp": "2026-05-06T13:20:37.681Z",
   "peerId": "12D3KooWQfX985T9FjYUQznqqGJ1NKAkVBMowH2H5JwLHgdGot19",
   "stats": {
-    "totalNodes": 196,
+    "totalNodes": 199,
     "observations": 0,
-    "experiments": 196,
+    "experiments": 199,
     "syntheses": 0,
-    "totalEdges": 192,
+    "totalEdges": 195,
     "maxDepth": 5,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 110,
+    "infrastructure": 113,
     "skills": 42,
     "finance": 16,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "d35c498f379f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 794",
+      "metricName": "score",
+      "metricValue": 141.0877312542335,
+      "isCurrentBest": false,
+      "createdAt": 1778072697149,
+      "depth": 5
+    },
+    {
+      "id": "c37bcd1841ee",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 778",
+      "metricName": "score",
+      "metricValue": 141.5570704123426,
+      "isCurrentBest": false,
+      "createdAt": 1778071749291,
+      "depth": 5
+    },
+    {
+      "id": "6e44b81e54db",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 754",
+      "metricName": "score",
+      "metricValue": 0.9213363558723591,
+      "isCurrentBest": false,
+      "createdAt": 1778070287335,
+      "depth": 5
+    },
     {
       "id": "45841ea81794",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.395,
       "isCurrentBest": false,
       "createdAt": 1778028928166,
-      "depth": 1
-    },
-    {
-      "id": "8cf9b3b86bc7",
-      "domain": "search-ranking",
-      "title": "Search round 50: use softmax normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1778028928029,
-      "depth": 1
-    },
-    {
-      "id": "54b5af303176",
-      "domain": "search-ranking",
-      "title": "Search round 46: use softmax normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1778028564561,
-      "depth": 1
-    },
-    {
-      "id": "ae007c4f0283",
-      "domain": "search-ranking",
-      "title": "Search round 46: use softmax normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1778028564094,
       "depth": 1
     }
   ],
