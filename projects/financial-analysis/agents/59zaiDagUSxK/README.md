@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 59zaiDagUSxK
 
-**Best Sharpe Ratio:** 1.3193
-**Hypothesis:** [LLM] Increase momentum factor to improve relevance for trending queries.
+**Best Sharpe Ratio:** 1.3174
+**Hypothesis:** Round 16 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.3536
-**Max Drawdown:** 0.0660
+**Alpha:** 1.5172
+**Max Drawdown:** 0.0546
 **LLM:** unknown
-**Run:** llm-r6
-**Updated:** 2026-05-05T17:47:17.441Z
+**Run:** finance-r16
+**Updated:** 2026-05-06T00:10:32.078Z
