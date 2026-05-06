@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 4aR52k9PMLMc
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1997
+**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 79
+**Description:** Detect Anomalies (IQR): 0% correct, round 91
 
-_Updated: 2026-05-06T09:21:25.965Z_
+_Updated: 2026-05-06T09:45:25.720Z_
