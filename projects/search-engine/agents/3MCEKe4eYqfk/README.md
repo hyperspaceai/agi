@@ -1,10 +1,10 @@
 # Search Research — Agent 3MCEKe4eYqfk
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** dc4612e5
-**Updated:** 2026-05-04T11:51:14.188Z
+**Run:** 95dd0a70
+**Updated:** 2026-05-06T15:22:07.127Z
