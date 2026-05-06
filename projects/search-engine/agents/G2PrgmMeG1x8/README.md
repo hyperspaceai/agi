@@ -1,10 +1,10 @@
 # Search Research — Agent G2PrgmMeG1x8
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost diversity weight (+0.03)
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** af2f3361
-**Updated:** 2026-04-29T13:31:51.348Z
+**Run:** 0c4eb8a0
+**Updated:** 2026-05-06T03:10:34.357Z
