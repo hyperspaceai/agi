@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-06T04:08:02.964Z",
+  "timestamp": "2026-05-06T05:08:03.340Z",
   "peerId": "12D3KooWBpkPsWXVQEehc1XHD2BQyCyqVBsCzTq3Lpi4d7eW3f5R",
   "stats": {
-    "totalNodes": 3515,
+    "totalNodes": 3517,
     "observations": 0,
-    "experiments": 3515,
+    "experiments": 3517,
     "syntheses": 0,
-    "totalEdges": 3511,
+    "totalEdges": 3513,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1283,
+    "infrastructure": 1285,
     "skills": 1247,
     "finance": 841,
     "search-ranking": 144
   },
   "recentExperiments": [
+    {
+      "id": "11fec37be27d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 196",
+      "metricName": "score",
+      "metricValue": 141.0076820118493,
+      "isCurrentBest": false,
+      "createdAt": 1778043303225,
+      "depth": 8
+    },
+    {
+      "id": "a9bccb2b6dc2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 166",
+      "metricName": "score",
+      "metricValue": 141.16554966824518,
+      "isCurrentBest": false,
+      "createdAt": 1778041503019,
+      "depth": 8
+    },
     {
       "id": "3066d840abac",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778031842073,
       "depth": 3
-    },
-    {
-      "id": "0b70f0bc677e",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5",
-      "metricName": "score",
-      "metricValue": 142.05111170704336,
-      "isCurrentBest": false,
-      "createdAt": 1778031842062,
-      "depth": 8
-    },
-    {
-      "id": "2979e6312b48",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1850",
-      "metricName": "Sharpe",
-      "metricValue": 1.185,
-      "isCurrentBest": false,
-      "createdAt": 1778031782065,
-      "depth": 9
     }
   ],
   "frontier": [],
