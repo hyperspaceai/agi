@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWG66uYKSz1mnQGk5wFCwPhMhEmZM7W86ZjPTA5Wzbxs9V",
-  "runNumber": 11,
-  "timestamp": 1777927205972,
-  "hypothesis": "Improve on d0133740 (loss=4.2362): max scale (16L, 1024d, 16h)",
+  "runNumber": 12,
+  "timestamp": 1778033333862,
+  "hypothesis": "Improve on ab19d638 (loss=4.1024): switch to SiLU activation",
   "config": {
     "nLayers": 16,
     "nHeads": 16,
@@ -21,7 +21,7 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "gelu",
+    "activation": "silu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.102442570824894,
-    "trainLoss": 4.940053302446635,
+    "valLoss": 4.006018364828414,
+    "trainLoss": 4.8874714939892545,
     "lossCurve": [
       [
         1,
-        4.102442570824894
+        4.006018364828414
       ]
     ],
-    "durationSec": 105383.524,
-    "tokensPerSec": 0.07773511161004637,
+    "durationSec": 106125.152,
+    "tokensPerSec": 0.07719188001728375,
     "totalTokens": 8192
   },
-  "improvement": -3.15778176727045,
+  "improvement": -2.350409648198726,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
