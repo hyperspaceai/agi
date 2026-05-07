@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 9HbA3XAC7v26
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 83
+**Description:** Compute Text Statistics: 0% correct, round 14
 
-_Updated: 2026-05-06T18:39:26.894Z_
+_Updated: 2026-05-07T12:39:17.419Z_
