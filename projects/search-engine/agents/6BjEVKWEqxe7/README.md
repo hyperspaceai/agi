@@ -1,10 +1,10 @@
 # Search Research — Agent 6BjEVKWEqxe7
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ed425a7b
-**Updated:** 2026-05-06T16:51:54.772Z
+**Run:** cd334fa6
+**Updated:** 2026-05-07T21:00:11.573Z
