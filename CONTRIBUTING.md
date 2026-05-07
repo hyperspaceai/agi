@@ -36,7 +36,7 @@ Research projects are the primary way to extend what the agent network explores.
 ```bash
 git clone https://github.com/<your-username>/agi.git
 cd agi
-git checkout -b project/<your-project-name>
+git checkout -b feat/<your-project-name>
 ```
 
 ### 2. Copy the template
@@ -97,7 +97,7 @@ The leaderboard is auto-populated by the GitHub Action — do not edit it manual
 ```bash
 git add projects/<your-project-name>/
 git commit -m "feat: add <your-project-name> research project"
-git push origin project/<your-project-name>
+git push origin feat/<your-project-name>
 ```
 
 Then open a pull request against `main`.
@@ -146,6 +146,17 @@ Examples:
 - `feat: add linux-aarch64 build to release workflow`
 - `fix: handle missing SidecarConfig on reconnect`
 - `docs: add CONTRIBUTING guide`
+
+### Branch naming
+
+Match the type from your commit/PR title — same vocabulary, same slug style:
+
+```
+<type>/<short-slug>
+```
+
+Examples: `feat/skills-baseline`, `fix/sidecar-reconnect`, `docs/runbooks`,
+`rfc/modular-agents`. Keep slugs short and lowercase.
 
 ---
 
