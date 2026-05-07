@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-07T22:42:07.948Z",
+  "timestamp": "2026-05-07T23:42:21.073Z",
   "peerId": "12D3KooWF16QET5x2rubkCDxZ3JaoiFkeiGmt6uzVjFQiUiGHUo1",
   "stats": {
-    "totalNodes": 4737,
+    "totalNodes": 4739,
     "observations": 0,
-    "experiments": 4737,
+    "experiments": 4739,
     "syntheses": 0,
-    "totalEdges": 4733,
+    "totalEdges": 4735,
     "maxDepth": 19,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2273,
-    "skills": 1445,
+    "infrastructure": 2274,
+    "skills": 1446,
     "finance": 962,
     "search-ranking": 57
   },
   "recentExperiments": [
+    {
+      "id": "4eb33054bd79",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 262",
+      "metricName": "score",
+      "metricValue": 0.9308071570093401,
+      "isCurrentBest": false,
+      "createdAt": 1778196858370,
+      "depth": 19
+    },
+    {
+      "id": "841c0e7ca35b",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778194208390,
+      "depth": 3
+    },
     {
       "id": "a6c126526cb0",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778184567850,
       "depth": 1
-    },
-    {
-      "id": "2ae3e67927e6",
-      "domain": "search-ranking",
-      "title": "Search round 38: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778184566811,
-      "depth": 1
-    },
-    {
-      "id": "003d58351f47",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778183357151,
-      "depth": 3
     }
   ],
   "frontier": [],
