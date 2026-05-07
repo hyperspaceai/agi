@@ -1,0 +1,346 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-07T14:17:25.425Z",
+  "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
+  "stats": {
+    "totalNodes": 72,
+    "observations": 0,
+    "experiments": 72,
+    "syntheses": 0,
+    "totalEdges": 52,
+    "maxDepth": 5,
+    "activeExperiments": 14,
+    "recentActivity": 24
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "aacb9d89ec0c4e5e998a77a986b636e251d41afd9deb522fc752cfba88c1e228",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 148.7450242195175,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "skills": {
+      "nodeId": "e8106ffe2b857b5bac853d4b10a586c7093d32780eb5fa51983639b66a73ef46",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "finance": {
+      "nodeId": "f357e4f6ef10b464bf06bf886ade362b1390073ec80cf9ea4e8261b85715dae2",
+      "title": "Finance round 12: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "metricDirection": "maximize",
+      "depth": 5
+    },
+    "general": {
+      "nodeId": "1a1baed206f2650f660b6822ceabd872139fc89749103929ebc1d622f5f5f324",
+      "title": "AutoWeb round 8: 54/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 54,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "search-ranking": {
+      "nodeId": "e6cfaa884dcd8dcd21c6dfaa7e623b0b67d714e1cc5b1afd4eb5984191ae0350",
+      "title": "Search round 36: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 24,
+    "skills": 6,
+    "finance": 14,
+    "physics": 14,
+    "general": 2,
+    "search-ranking": 12
+  },
+  "recentExperiments": [
+    {
+      "id": "4f4c62446fc2",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Does a time‑dependent warp bubble that accelerates from rest\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778162758843,
+      "depth": 0
+    },
+    {
+      "id": "b4a5762b1f92",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 78",
+      "metricName": "score",
+      "metricValue": 141.04038304246401,
+      "isCurrentBest": false,
+      "createdAt": 1778162334703,
+      "depth": 2
+    },
+    {
+      "id": "f173643d3e08",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Do higher‑dimensional braneworld models (e.g., Randall–Sundr\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778162327941,
+      "depth": 0
+    },
+    {
+      "id": "014a98403f58",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a quasi‑periodic lattice of Casimir micro‑cavities produ\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778162093737,
+      "depth": 0
+    },
+    {
+      "id": "4b6265ac96e7",
+      "domain": "search-ranking",
+      "title": "Search round 45: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778162058158,
+      "depth": 1
+    },
+    {
+      "id": "929ba4290ffa",
+      "domain": "search-ranking",
+      "title": "Search round 45: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778162055835,
+      "depth": 1
+    },
+    {
+      "id": "6cea2643d333",
+      "domain": "search-ranking",
+      "title": "Search round 45: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778162054811,
+      "depth": 1
+    },
+    {
+      "id": "7408c3247c88",
+      "domain": "search-ranking",
+      "title": "Search round 45: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778162054704,
+      "depth": 1
+    },
+    {
+      "id": "291d56c5e440",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can an adiabatically switched, time‑dependent warp bubble av\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778161858622,
+      "depth": 0
+    },
+    {
+      "id": "aa22ec5dc6e5",
+      "domain": "search-ranking",
+      "title": "Search round 41: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778161665267,
+      "depth": 1
+    },
+    {
+      "id": "c5d9abf4c994",
+      "domain": "search-ranking",
+      "title": "Search round 41: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778161665019,
+      "depth": 1
+    },
+    {
+      "id": "a2477e0a6951",
+      "domain": "search-ranking",
+      "title": "Search round 37: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778161296055,
+      "depth": 1
+    },
+    {
+      "id": "465df6511b4e",
+      "domain": "search-ranking",
+      "title": "Search round 37: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778161294256,
+      "depth": 1
+    },
+    {
+      "id": "a8b92104f5e1",
+      "domain": "search-ranking",
+      "title": "Search round 37: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778161292303,
+      "depth": 1
+    },
+    {
+      "id": "627d671104a1",
+      "domain": "search-ranking",
+      "title": "Search round 37: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778161280148,
+      "depth": 1
+    },
+    {
+      "id": "5b3f54ac342c",
+      "domain": "search-ranking",
+      "title": "Search round 37: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": false,
+      "createdAt": 1778161276880,
+      "depth": 1
+    },
+    {
+      "id": "e6cfaa884dcd",
+      "domain": "search-ranking",
+      "title": "Search round 36: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "isCurrentBest": true,
+      "createdAt": 1778161274619,
+      "depth": 0
+    },
+    {
+      "id": "e78fcf073e50",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a three‑dimensional lattice of Casimir micro‑cavities, a\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778161013702,
+      "depth": 0
+    },
+    {
+      "id": "f23a97e59742",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "isCurrentBest": false,
+      "createdAt": 1778160643020,
+      "depth": 2
+    },
+    {
+      "id": "b245660359c7",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the quantum‑backreaction of vacuum polarization on t\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778160286478,
+      "depth": 0
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "aacb9d89ec0c",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.7450242195175,
+        "depth": 1
+      },
+      {
+        "id": "378b246c064e",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 142.33352583869305,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "e8106ffe2b85",
+        "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+        "metricValue": 0.199,
+        "depth": 1
+      },
+      {
+        "id": "94081709fbc4",
+        "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
+        "metricValue": 0.1976,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "f357e4f6ef10",
+        "title": "Finance round 12: Sharpe=1.3129",
+        "metricValue": 1.3129,
+        "depth": 5
+      },
+      {
+        "id": "a24cf53995d2",
+        "title": "Finance round 7: Sharpe=1.3031",
+        "metricValue": 1.3031,
+        "depth": 4
+      },
+      {
+        "id": "35cd64a6f2b0",
+        "title": "Finance round 6: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 3
+      },
+      {
+        "id": "e9b36abf6633",
+        "title": "Finance round 5: Sharpe=1.2286",
+        "metricValue": 1.2286,
+        "depth": 2
+      },
+      {
+        "id": "bae065cac712",
+        "title": "Finance round 2: Sharpe=1.2064",
+        "metricValue": 1.2064,
+        "depth": 1
+      },
+      {
+        "id": "1d7f97d73715",
+        "title": "Finance round 1: Sharpe=1.2041",
+        "metricValue": 1.2041,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "1a1baed206f2",
+        "title": "AutoWeb round 8: 54/100",
+        "metricValue": 54,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "e6cfaa884dcd",
+        "title": "Search round 36: local + peer only",
+        "metricValue": 0.3933333333333333,
+        "depth": 0
+      }
+    ]
+  }
+}
