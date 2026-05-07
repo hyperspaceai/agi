@@ -1,22 +1,21 @@
 {
   "runId": "llm-r8",
   "runNumber": 8,
-  "hypothesis": "[LLM] Increase momentum weight and add a trend factor to capitalize on sustained momentum and improve Sharpe ratio.",
-  "sharpeRatio": 1.3297,
-  "totalReturn": 3.3633,
-  "maxDrawdown": 0.048,
-  "alpha": 1.869,
+  "hypothesis": "[LLM] Increase momentum factor weighting and enable drawdown protection for improved Sharpe ratio.",
+  "sharpeRatio": 1.3513,
+  "totalReturn": 3.4586,
+  "maxDrawdown": 0.0487,
+  "alpha": 1.9644,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight",
-    "trendWeight"
+    "lowVolWeight"
   ],
   "positionSizing": "risk_parity",
   "durationSec": 0,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-03-19T17:53:13.729Z"
+  "timestamp": "2026-05-07T17:45:38.408Z"
 }
