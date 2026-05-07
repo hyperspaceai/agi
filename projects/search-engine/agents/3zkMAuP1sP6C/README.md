@@ -1,10 +1,10 @@
 # Search Research — Agent 3zkMAuP1sP6C
 
-**Best NDCG@10:** 0.3913
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 83d85d0f
-**Updated:** 2026-05-06T21:21:48.321Z
+**Run:** 30042d88
+**Updated:** 2026-05-07T07:37:43.631Z
