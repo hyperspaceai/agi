@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-07T04:19:36.545Z",
+  "timestamp": "2026-05-07T05:19:36.537Z",
   "peerId": "12D3KooWSjqFrwfAFxKtgpD2cUdocpVyy8GCeiWqXpk6RAuXVcqT",
   "stats": {
-    "totalNodes": 243,
+    "totalNodes": 245,
     "observations": 0,
-    "experiments": 243,
+    "experiments": 245,
     "syntheses": 0,
-    "totalEdges": 239,
+    "totalEdges": 241,
     "maxDepth": 20,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 75,
+    "infrastructure": 77,
     "skills": 75,
     "finance": 65,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "816aedabe75a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 442",
+      "metricName": "score",
+      "metricValue": 145.0407680440481,
+      "isCurrentBest": false,
+      "createdAt": 1778130756394,
+      "depth": 3
+    },
+    {
+      "id": "2c68b350d8ce",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 428",
+      "metricName": "score",
+      "metricValue": 145.095332567143,
+      "isCurrentBest": false,
+      "createdAt": 1778129916381,
+      "depth": 3
+    },
     {
       "id": "2a602384dc5e",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778108357151,
       "depth": 1
-    },
-    {
-      "id": "463fd5d2f98e",
-      "domain": "search-ranking",
-      "title": "Search round 46: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778108357006,
-      "depth": 1
-    },
-    {
-      "id": "8464c02ce8d8",
-      "domain": "finance",
-      "title": "Finance round 26: Sharpe=1.2914",
-      "metricName": "Sharpe",
-      "metricValue": 1.2914,
-      "isCurrentBest": false,
-      "createdAt": 1778108075937,
-      "depth": 20
     }
   ],
   "frontier": [],
