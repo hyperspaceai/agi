@@ -1,0 +1,72 @@
+name: Network Snapshots
+
+# Resumes hourly network snapshots — fixes issue #12 (stalled since 2026-03-11).
+# Fetches live network stats from the Hyperspace API and commits them to the
+# network-snapshots branch every hour.
+
+on:
+  schedule:
+    - cron: '7 * * * *'   # every hour at :07 (offset from :00 to spread load)
+  workflow_dispatch:        # also triggerable manually
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout network-snapshots branch
+        uses: actions/checkout@v4
+        with:
+          ref: network-snapshots
+          fetch-depth: 1
+
+      - name: Fetch network stats
+        id: fetch
+        run: |
+          set -euo pipefail
+
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%S.%6NZ")
+
+          # Primary: live network API
+          RAW=$(curl -sf --max-time 15 \
+            "https://agents.hyper.space/api/network/stats" 2>/dev/null) || true
+
+          if [ -z "$RAW" ]; then
+            echo "::warning::Network API unavailable — skipping snapshot"
+            echo "skipped=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Merge timestamp into the response
+          echo "$RAW" | jq --arg ts "$TIMESTAMP" '. + {snapshot_at: $ts}' \
+            > snapshots/latest.json
+
+          # Archive: keep last 30 days of hourly snapshots
+          DATE_DIR="snapshots/$(date -u +"%Y/%m/%d")"
+          mkdir -p "$DATE_DIR"
+          HOUR=$(date -u +"%H")
+          cp snapshots/latest.json "${DATE_DIR}/${HOUR}00.json"
+
+          echo "skipped=false" >> "$GITHUB_OUTPUT"
+          echo "timestamp=${TIMESTAMP}" >> "$GITHUB_OUTPUT"
+
+      - name: Count agents from snapshot
+        if: steps.fetch.outputs.skipped == 'false'
+        id: stats
+        run: |
+          AGENTS=$(jq -r '.agents // .connected_agents // "unknown"' snapshots/latest.json)
+          EXPERIMENTS=$(jq -r '.total_experiments // .experiment_count // "unknown"' snapshots/latest.json)
+          echo "agents=${AGENTS}" >> "$GITHUB_OUTPUT"
+          echo "experiments=${EXPERIMENTS}" >> "$GITHUB_OUTPUT"
+
+      - name: Commit snapshot
+        if: steps.fetch.outputs.skipped == 'false'
+        run: |
+          git config user.name "Hyperspace Bot"
+          git config user.email "bot@hyper.space"
+          git add snapshots/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "snapshot: ${{ steps.fetch.outputs.timestamp }} — ${{ steps.stats.outputs.agents }} agents · ${{ steps.stats.outputs.experiments }} experiments [skip ci]"
+          git push
