@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-07T14:17:25.425Z",
+  "timestamp": "2026-05-07T15:20:49.489Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 72,
+    "totalNodes": 85,
     "observations": 0,
-    "experiments": 72,
+    "experiments": 85,
     "syntheses": 0,
-    "totalEdges": 52,
+    "totalEdges": 55,
     "maxDepth": 5,
-    "activeExperiments": 14,
-    "recentActivity": 24
+    "activeExperiments": 24,
+    "recentActivity": 12
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -22,12 +22,12 @@
       "depth": 1
     },
     "skills": {
-      "nodeId": "e8106ffe2b857b5bac853d4b10a586c7093d32780eb5fa51983639b66a73ef46",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "nodeId": "bdf2126becd5015b7f0370fca4399194012f958fb673707d7a5ac6d83427be04",
+      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.199,
+      "metricValue": 0.1991,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "finance": {
       "nodeId": "f357e4f6ef10b464bf06bf886ade362b1390073ec80cf9ea4e8261b85715dae2",
@@ -55,14 +55,134 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 24,
-    "skills": 6,
+    "infrastructure": 25,
+    "skills": 8,
     "finance": 14,
-    "physics": 14,
+    "physics": 24,
     "general": 2,
     "search-ranking": 12
   },
   "recentExperiments": [
+    {
+      "id": "6a8a24295e22",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a quantum‑gravity effective stress‑energy tensor derived\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778166926307,
+      "depth": 0
+    },
+    {
+      "id": "211d619d3980",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the scaling law for negative energy density achievab\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778166306804,
+      "depth": 0
+    },
+    {
+      "id": "98b607e8a2f1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Within f(R) gravity, can a warp‑drive solution be found wher\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778166109747,
+      "depth": 0
+    },
+    {
+      "id": "dd7aa326b303",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Is it possible to construct a time‑dependent warp‑bubble met\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778165873908,
+      "depth": 0
+    },
+    {
+      "id": "bdf2126becd5",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": true,
+      "createdAt": 1778165501176,
+      "depth": 2
+    },
+    {
+      "id": "6ded2a35b226",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent warp‑bubble metric that adiabatically r\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778165388426,
+      "depth": 0
+    },
+    {
+      "id": "061afda79162",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Do \\(f(R)=R+\\alpha R^{2}\\) or Gauss–Bonnet gravity theories \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778164761784,
+      "depth": 0
+    },
+    {
+      "id": "e72fc78193a0",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a periodic lattice of Casimir micro‑cavities with engine\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778164511735,
+      "depth": 0
+    },
+    {
+      "id": "5e9b6868e8fe",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the form of the quantum‑gravity induced effective st\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778164282481,
+      "depth": 0
+    },
+    {
+      "id": "d60ea5fa9367",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 110",
+      "metricName": "score",
+      "metricValue": 141.02308492574818,
+      "isCurrentBest": false,
+      "createdAt": 1778164237712,
+      "depth": 2
+    },
+    {
+      "id": "5a25e237d2e7",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "isCurrentBest": false,
+      "createdAt": 1778164224498,
+      "depth": 2
+    },
+    {
+      "id": "f58d4e30204d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: In five‑dimensional Gauss–Bonnet gravity, can a warp bubble \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778163829429,
+      "depth": 0
+    },
+    {
+      "id": "f4f972dc3d91",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the Ford–Roman quantum inequality be saturated in a fini\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778163587813,
+      "depth": 0
+    },
     {
       "id": "4f4c62446fc2",
       "domain": "physics",
@@ -129,133 +249,6 @@
       "isCurrentBest": false,
       "createdAt": 1778162054811,
       "depth": 1
-    },
-    {
-      "id": "7408c3247c88",
-      "domain": "search-ranking",
-      "title": "Search round 45: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3933333333333333,
-      "isCurrentBest": false,
-      "createdAt": 1778162054704,
-      "depth": 1
-    },
-    {
-      "id": "291d56c5e440",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can an adiabatically switched, time‑dependent warp bubble av\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778161858622,
-      "depth": 0
-    },
-    {
-      "id": "aa22ec5dc6e5",
-      "domain": "search-ranking",
-      "title": "Search round 41: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3933333333333333,
-      "isCurrentBest": false,
-      "createdAt": 1778161665267,
-      "depth": 1
-    },
-    {
-      "id": "c5d9abf4c994",
-      "domain": "search-ranking",
-      "title": "Search round 41: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3933333333333333,
-      "isCurrentBest": false,
-      "createdAt": 1778161665019,
-      "depth": 1
-    },
-    {
-      "id": "a2477e0a6951",
-      "domain": "search-ranking",
-      "title": "Search round 37: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3933333333333333,
-      "isCurrentBest": false,
-      "createdAt": 1778161296055,
-      "depth": 1
-    },
-    {
-      "id": "465df6511b4e",
-      "domain": "search-ranking",
-      "title": "Search round 37: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3933333333333333,
-      "isCurrentBest": false,
-      "createdAt": 1778161294256,
-      "depth": 1
-    },
-    {
-      "id": "a8b92104f5e1",
-      "domain": "search-ranking",
-      "title": "Search round 37: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3933333333333333,
-      "isCurrentBest": false,
-      "createdAt": 1778161292303,
-      "depth": 1
-    },
-    {
-      "id": "627d671104a1",
-      "domain": "search-ranking",
-      "title": "Search round 37: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3933333333333333,
-      "isCurrentBest": false,
-      "createdAt": 1778161280148,
-      "depth": 1
-    },
-    {
-      "id": "5b3f54ac342c",
-      "domain": "search-ranking",
-      "title": "Search round 37: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3933333333333333,
-      "isCurrentBest": false,
-      "createdAt": 1778161276880,
-      "depth": 1
-    },
-    {
-      "id": "e6cfaa884dcd",
-      "domain": "search-ranking",
-      "title": "Search round 36: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3933333333333333,
-      "isCurrentBest": true,
-      "createdAt": 1778161274619,
-      "depth": 0
-    },
-    {
-      "id": "e78fcf073e50",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a three‑dimensional lattice of Casimir micro‑cavities, a\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778161013702,
-      "depth": 0
-    },
-    {
-      "id": "f23a97e59742",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1778160643020,
-      "depth": 2
-    },
-    {
-      "id": "b245660359c7",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the quantum‑backreaction of vacuum polarization on t\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778160286478,
-      "depth": 0
     }
   ],
   "frontier": [],
@@ -275,6 +268,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "bdf2126becd5",
+        "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+        "metricValue": 0.1991,
+        "depth": 2
+      },
       {
         "id": "e8106ffe2b85",
         "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
