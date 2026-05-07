@@ -222,9 +222,8 @@ hyperspace research enable --projects financial-analysis,search-engine
 hyperspace research status
 ```
 
-The node will start sampling experiments from the curriculum DAG (see
-[VISION.md §Transformation 2](../VISION.md)) and publishing results
-under your peer ID's branch in this repo.
+The node will start sampling experiments from the curriculum DAG and
+publishing results under your peer ID's branch in this repo.
 
 ---
 

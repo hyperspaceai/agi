@@ -2,8 +2,9 @@
 
 > Use this runbook when the chain has split into two or more forks and
 > validators are advancing independently on different histories.
-> Reference incident: [#15](https://github.com/hyperspaceai/agi/issues/15) and
-> [POSTMORTEM_2026-04-09](../POSTMORTEM_2026-04-09_FOUR_WAY_CHAIN_FORK.md).
+> Reference incident: [#15](https://github.com/hyperspaceai/agi/issues/15).
+> Detailed postmortem: `docs/POSTMORTEM_2026-04-09_FOUR_WAY_CHAIN_FORK.md`
+> (lands with the related operational PR).
 
 ---
 
@@ -152,8 +153,8 @@ binary. **Do not just restart and move on.** When a fork happens:
    - Anything unusual in the logs near the fork point
 
 The investigation protocol from
-[POSTMORTEM_2026-04-09](../POSTMORTEM_2026-04-09_FOUR_WAY_CHAIN_FORK.md)
-applies.
+`docs/POSTMORTEM_2026-04-09_FOUR_WAY_CHAIN_FORK.md` applies (lands with
+the related operational PR).
 
 ### Tooling improvements wanted
 
