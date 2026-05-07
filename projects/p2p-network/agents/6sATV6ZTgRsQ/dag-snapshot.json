@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-07T16:38:38.499Z",
+  "timestamp": "2026-05-07T23:39:10.845Z",
   "peerId": "12D3KooWFgXdEE9AsL8uCTVtcr3Dj9RXUbnNobgjod69bdb5saom",
   "stats": {
-    "totalNodes": 467,
+    "totalNodes": 493,
     "observations": 2,
-    "experiments": 465,
+    "experiments": 491,
     "syntheses": 0,
-    "totalEdges": 338,
+    "totalEdges": 358,
     "maxDepth": 9,
-    "activeExperiments": 101,
-    "recentActivity": 1
+    "activeExperiments": 107,
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,214 +55,208 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 180,
-    "skills": 119,
+    "infrastructure": 188,
+    "skills": 130,
     "knowledge": 2,
-    "physics": 101,
+    "physics": 107,
     "general": 22,
     "search-ranking": 1,
-    "finance": 42
+    "finance": 43
   },
   "recentExperiments": [
     {
-      "id": "f267022792ef",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1105",
-      "metricName": "score",
-      "metricValue": 0.9124630316135015,
+      "id": "54e871d9f2fe",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Spacetime Pre-Stress via Modified Gravity Seeds: Reducing Exotic Matter Requirement",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778170443516,
+      "createdAt": 1778196053435,
+      "depth": 0
+    },
+    {
+      "id": "c54d8daa2319",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 270",
+      "metricName": "score",
+      "metricValue": 0.9547610606195202,
+      "isCurrentBest": false,
+      "createdAt": 1778194572253,
       "depth": 9
     },
     {
-      "id": "0ef122a37ed8",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1053",
-      "metricName": "score",
-      "metricValue": 145.07917242254638,
+      "id": "7111f8d215f9",
+      "domain": "physics",
+      "title": "Wrote paper: \"Dynamically Evolving Casimir Energy Densities in White/LSI 2021 Geometries: Scaling Be",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778167319020,
+      "createdAt": 1778193524077,
+      "depth": 0
+    },
+    {
+      "id": "dbc335b94a13",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: If semiclassical instability (RSET growth) *is* regularized \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778191173195,
+      "depth": 0
+    },
+    {
+      "id": "d6f81f4c85b6",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778191052348,
+      "depth": 2
+    },
+    {
+      "id": "319fbe125d30",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1778190961824,
+      "depth": 2
+    },
+    {
+      "id": "33bfe50b5eac",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1778189721354,
+      "depth": 2
+    },
+    {
+      "id": "661f392dcccb",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.1912",
+      "metricName": "Sharpe",
+      "metricValue": 1.1912,
+      "isCurrentBest": false,
+      "createdAt": 1778188606793,
       "depth": 9
     },
     {
-      "id": "4d32be25bc58",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1015",
-      "metricName": "score",
-      "metricValue": 0.9175927748495879,
+      "id": "b57f27d4cbe0",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1778165034590,
+      "createdAt": 1778188552268,
+      "depth": 2
+    },
+    {
+      "id": "d4da7dba4beb",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Constraints on f(GB) Gravity for Warp Drive Spacetimes: Maintaining Asymptotic Flat",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778187509040,
+      "depth": 0
+    },
+    {
+      "id": "a4ad9636cb49",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1778187397752,
+      "depth": 2
+    },
+    {
+      "id": "f2de67114c9b",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1778187320761,
+      "depth": 2
+    },
+    {
+      "id": "ce2238206763",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the observed exponential RSET growth within warp bubbles\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778186268120,
+      "depth": 0
+    },
+    {
+      "id": "2e105dc7fc3b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 127",
+      "metricName": "score",
+      "metricValue": 0.9572252608718423,
+      "isCurrentBest": false,
+      "createdAt": 1778186082218,
       "depth": 9
     },
     {
-      "id": "3afcd81a1101",
+      "id": "c504f0d5f677",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 983",
+      "title": "Cause literature-analysis round 125",
       "metricName": "score",
-      "metricValue": 0.9171063729342188,
+      "metricValue": 0.954923444436061,
       "isCurrentBest": false,
-      "createdAt": 1778163140386,
+      "createdAt": 1778186082216,
       "depth": 9
     },
     {
-      "id": "249f3d72ddf1",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 953",
-      "metricName": "score",
-      "metricValue": 144.99157841435698,
+      "id": "e5dfdf062c56",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1778161307091,
-      "depth": 9
+      "createdAt": 1778184965993,
+      "depth": 2
     },
     {
-      "id": "3c7227274929",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 919",
-      "metricName": "score",
-      "metricValue": 145.0500903534164,
+      "id": "f7fd00c573ce",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1778159263114,
-      "depth": 9
+      "createdAt": 1778184834664,
+      "depth": 2
     },
     {
-      "id": "d8b698f3b099",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 878",
-      "metricName": "score",
-      "metricValue": 145.10310986378983,
+      "id": "0a053c9374c4",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Given the Fuchs et al. (2024) constant-velocity subluminal w\" (self-ve",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778156797759,
-      "depth": 9
+      "createdAt": 1778183664825,
+      "depth": 0
     },
     {
-      "id": "f519c58bc739",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 864",
-      "metricName": "score",
-      "metricValue": 0.9145982813643335,
+      "id": "756930932539",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1778155954801,
-      "depth": 9
+      "createdAt": 1778183473664,
+      "depth": 2
     },
     {
-      "id": "f0b4fc56b293",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 853",
-      "metricName": "score",
-      "metricValue": 0.9142717107666287,
+      "id": "167baec1ddb0",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
       "isCurrentBest": false,
-      "createdAt": 1778155323898,
-      "depth": 9
-    },
-    {
-      "id": "4ee421564367",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 839",
-      "metricName": "score",
-      "metricValue": 145.1472227421067,
-      "isCurrentBest": false,
-      "createdAt": 1778154483565,
-      "depth": 9
-    },
-    {
-      "id": "f366cadddf2e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 797",
-      "metricName": "score",
-      "metricValue": 0.9129726164947793,
-      "isCurrentBest": false,
-      "createdAt": 1778151927530,
-      "depth": 9
-    },
-    {
-      "id": "f2946db37962",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 774",
-      "metricName": "score",
-      "metricValue": 0.9129464154714069,
-      "isCurrentBest": false,
-      "createdAt": 1778150544856,
-      "depth": 9
-    },
-    {
-      "id": "1b9fe488f5b6",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 771",
-      "metricName": "score",
-      "metricValue": 0.9125862634265876,
-      "isCurrentBest": false,
-      "createdAt": 1778150364854,
-      "depth": 9
-    },
-    {
-      "id": "07e0463202c0",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 749",
-      "metricName": "score",
-      "metricValue": 145.0686238572293,
-      "isCurrentBest": false,
-      "createdAt": 1778149071894,
-      "depth": 9
-    },
-    {
-      "id": "fbb4750ff764",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 721",
-      "metricName": "score",
-      "metricValue": 0.9123969418746325,
-      "isCurrentBest": false,
-      "createdAt": 1778147359309,
-      "depth": 9
-    },
-    {
-      "id": "0530683d49c3",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 719",
-      "metricName": "score",
-      "metricValue": 0.9116583132917988,
-      "isCurrentBest": false,
-      "createdAt": 1778147239308,
-      "depth": 9
-    },
-    {
-      "id": "5eb567d64f4f",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 696",
-      "metricName": "score",
-      "metricValue": 145.1846315965521,
-      "isCurrentBest": false,
-      "createdAt": 1778145855077,
-      "depth": 9
-    },
-    {
-      "id": "2fc0a406e3d8",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 694",
-      "metricName": "score",
-      "metricValue": 145.22079425246847,
-      "isCurrentBest": false,
-      "createdAt": 1778145734776,
-      "depth": 9
-    },
-    {
-      "id": "35b2c1b71458",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 686",
-      "metricName": "score",
-      "metricValue": 145.23568939245482,
-      "isCurrentBest": false,
-      "createdAt": 1778145254774,
-      "depth": 9
-    },
-    {
-      "id": "3fc4b2871e70",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 544",
-      "metricName": "score",
-      "metricValue": 145.06753515235354,
-      "isCurrentBest": false,
-      "createdAt": 1778136718231,
-      "depth": 9
+      "createdAt": 1778180964902,
+      "depth": 2
     }
   ],
   "frontier": [],
