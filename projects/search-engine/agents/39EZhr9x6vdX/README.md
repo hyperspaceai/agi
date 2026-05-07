@@ -1,10 +1,10 @@
 # Search Research — Agent 39EZhr9x6vdX
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ff3961f0
-**Updated:** 2026-05-06T14:38:05.332Z
+**Run:** 0e21a7af
+**Updated:** 2026-05-07T06:35:08.544Z
