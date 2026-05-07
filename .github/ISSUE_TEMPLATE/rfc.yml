@@ -1,0 +1,39 @@
+name: RFC discussion
+description: Propose a structural change (protocol, schema, consensus, economics).
+title: "RFC: <one-line summary>"
+labels: [rfc, discussion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is for structural changes that warrant an RFC. For feature requests on existing components, use the bug report template. For trivial fixes, just open a PR.
+
+        **Read [`docs/rfcs/README.md`](../docs/rfcs/README.md) first.** The RFC process is two stages: this issue (rough feedback), then a PR adding `docs/rfcs/RFC-NNNN-<slug>.md`.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What is structurally wrong with the current state? What does the absence of this change cost?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed direction (sketch, not full design)
+      description: A high-level direction to anchor discussion. The detailed design lives in the eventual RFC document.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Even one or two sentences sketching alternatives helps reviewers understand the design space.
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and dependencies
+      description: Does this RFC depend on or block other RFCs? Is it backwards-compatible?
