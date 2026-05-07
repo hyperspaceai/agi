@@ -92,7 +92,7 @@ This depends on Transformation 1 (verifiable receipts) and is the strongest argu
 > skills, each independently versioned, signed, and hot-swappable. Skills
 > migrate between agents at runtime.
 
-**RFC:** [`docs/rfcs/RFC-004-modular-agents.md`](rfcs/RFC-004-modular-agents.md) *(to be written)*
+**RFC:** RFC-004 (to be written)
 
 **The change:** A skill is a sandboxed WebAssembly module with a declared capability manifest (network, filesystem, model access, GPU). Agents are configurations that wire skills into a graph. Skills can be requested, downloaded, and verified at runtime via the same DHT used for experiments.
 
@@ -109,7 +109,7 @@ This depends on Transformation 1 (verifiable receipts) and is the strongest argu
 > connections to real-world feedback loops — outputs that fail in production
 > get downweighted regardless of synthetic-benchmark scores.
 
-**RFC:** [`docs/rfcs/RFC-005-reality-anchoring.md`](rfcs/RFC-005-reality-anchoring.md) *(to be written)*
+**RFC:** RFC-005 (to be written)
 
 **The change:** Add a `RealityProbe` adapter: lightweight scorers that measure outputs against real-world signals (GitHub PR merge rate, Stack Overflow answer acceptance, Wikipedia edit retention, user thumbs-up/down on inference). Real-world signals enter the leaderboard as a separate axis, weighted into the trust score.
 
