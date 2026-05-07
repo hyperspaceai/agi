@@ -1,10 +1,10 @@
 # Search Research — Agent AKMCcaaWgQoS
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.3963
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 204ea035
-**Updated:** 2026-05-03T22:22:04.582Z
+**Run:** 8093c62c
+**Updated:** 2026-05-07T19:09:21.074Z
