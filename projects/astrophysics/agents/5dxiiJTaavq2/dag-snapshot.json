@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-07T19:59:40.679Z",
+  "timestamp": "2026-05-07T21:56:06.816Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 123,
+    "totalNodes": 138,
     "observations": 0,
-    "experiments": 123,
+    "experiments": 138,
     "syntheses": 0,
-    "totalEdges": 65,
+    "totalEdges": 71,
     "maxDepth": 5,
-    "activeExperiments": 51,
-    "recentActivity": 8
+    "activeExperiments": 60,
+    "recentActivity": 6
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -22,12 +22,12 @@
       "depth": 1
     },
     "skills": {
-      "nodeId": "bdf2126becd5015b7f0370fca4399194012f958fb673707d7a5ac6d83427be04",
-      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "nodeId": "43fe205c70e25678844db620fdbe6e0e1f74a33d73f331dea8c08666d3ed4e10",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1991,
+      "metricValue": 0.1993,
       "metricDirection": "maximize",
-      "depth": 2
+      "depth": 3
     },
     "finance": {
       "nodeId": "f357e4f6ef10b464bf06bf886ade362b1390073ec80cf9ea4e8261b85715dae2",
@@ -55,14 +55,155 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 30,
-    "skills": 13,
+    "infrastructure": 34,
+    "skills": 15,
     "finance": 14,
-    "physics": 51,
+    "physics": 60,
     "general": 3,
     "search-ranking": 12
   },
   "recentExperiments": [
+    {
+      "id": "cb959c433ef7",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778189412747,
+      "depth": 0
+    },
+    {
+      "id": "af9951df19c7",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778189230898,
+      "depth": 0
+    },
+    {
+      "id": "ee5694055e6c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 523",
+      "metricName": "score",
+      "metricValue": 145.01392394665956,
+      "isCurrentBest": false,
+      "createdAt": 1778189046893,
+      "depth": 2
+    },
+    {
+      "id": "961e2aba8d67",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778187964246,
+      "depth": 0
+    },
+    {
+      "id": "49dbd4fba74e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 498",
+      "metricName": "score",
+      "metricValue": 145.06560650418996,
+      "isCurrentBest": false,
+      "createdAt": 1778187539590,
+      "depth": 2
+    },
+    {
+      "id": "c3a161ea2050",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Do non‑local quantum‑gravity corrections (e.g., infinite‑der\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778187494055,
+      "depth": 0
+    },
+    {
+      "id": "f175265fa1b4",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How do stochastic quantum fluctuations of the renormalised s\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778186847213,
+      "depth": 0
+    },
+    {
+      "id": "6dc78234ec83",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the entanglement entropy of quantum fields across the wa\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778186617953,
+      "depth": 0
+    },
+    {
+      "id": "574dd9f37e8d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 474",
+      "metricName": "score",
+      "metricValue": 145.08363431290078,
+      "isCurrentBest": false,
+      "createdAt": 1778186270105,
+      "depth": 2
+    },
+    {
+      "id": "4f051fa52573",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Do the higher‑curvature terms in \\(f(R)\\) or Gauss‑Bonnet gr\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778185178656,
+      "depth": 0
+    },
+    {
+      "id": "697ebe540790",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Is there a class of time‑dependent warp‑bubble shape functio\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778184709303,
+      "depth": 0
+    },
+    {
+      "id": "3cbde2b345c6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 450",
+      "metricName": "score",
+      "metricValue": 0.9434535455707822,
+      "isCurrentBest": false,
+      "createdAt": 1778184672201,
+      "depth": 2
+    },
+    {
+      "id": "43fe205c70e2",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": true,
+      "createdAt": 1778184538526,
+      "depth": 3
+    },
+    {
+      "id": "7796092e4870",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can loop quantum gravity (LQG) corrections to the semiclassi\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778184413212,
+      "depth": 0
+    },
+    {
+      "id": "bae2d2803118",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1778184003624,
+      "depth": 3
+    },
     {
       "id": "3b80c931c2d9",
       "domain": "physics",
@@ -107,146 +248,6 @@
       "isCurrentBest": false,
       "createdAt": 1778182268692,
       "depth": 0
-    },
-    {
-      "id": "31d199fac891",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Do Einstein‑Gauss‑Bonnet or f(R) modified gravity theories a\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778182008835,
-      "depth": 0
-    },
-    {
-      "id": "35508a5a5c65",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent warp bubble with a dynamically evolving\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778181782171,
-      "depth": 0
-    },
-    {
-      "id": "0a9a19021e99",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What are the fundamental scaling limits of Casimir micro‑cav\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778181322644,
-      "depth": 0
-    },
-    {
-      "id": "63ede199d6b4",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Do non‑local (infinite‑derivative) gravity theories admit wa\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778180112786,
-      "depth": 0
-    },
-    {
-      "id": "b5c683d20201",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 369",
-      "metricName": "score",
-      "metricValue": 144.96540348845483,
-      "isCurrentBest": false,
-      "createdAt": 1778179808793,
-      "depth": 2
-    },
-    {
-      "id": "2a1e93634a70",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can quantum‑gravity loop corrections produce a finite, stabl\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778179443364,
-      "depth": 0
-    },
-    {
-      "id": "9dce96c2efad",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1778179025915,
-      "depth": 3
-    },
-    {
-      "id": "c9564d150f8b",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a higher‑dimensional braneworld model with localized gra\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778178976660,
-      "depth": 0
-    },
-    {
-      "id": "b72e2ac3ff3a",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1778178876167,
-      "depth": 3
-    },
-    {
-      "id": "149214fb2ffe",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: In asymptotically safe quantum gravity, does the running of \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778178753260,
-      "depth": 0
-    },
-    {
-      "id": "34926809eb8b",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the quantum energy inequalities (QEIs) be satisfied in a\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778178483592,
-      "depth": 0
-    },
-    {
-      "id": "4ddf9cac392c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 329",
-      "metricName": "score",
-      "metricValue": 0.9617941461581586,
-      "isCurrentBest": false,
-      "createdAt": 1778177664773,
-      "depth": 2
-    },
-    {
-      "id": "e322818c102e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 323",
-      "metricName": "score",
-      "metricValue": 0.9590826905103558,
-      "isCurrentBest": false,
-      "createdAt": 1778177664770,
-      "depth": 2
-    },
-    {
-      "id": "f7d9e0bf3d21",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can modified gravity theories with non‑minimal curvature cou\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778176611575,
-      "depth": 0
-    },
-    {
-      "id": "c48be580496f",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the effect of quantum inequalities (Ford–Roman bound\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778176432290,
-      "depth": 0
     }
   ],
   "frontier": [],
@@ -266,6 +267,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "43fe205c70e2",
+        "title": "Skill Normalize Text (LLM 3 iter): 0%",
+        "metricValue": 0.1993,
+        "depth": 3
+      },
       {
         "id": "bdf2126becd5",
         "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
