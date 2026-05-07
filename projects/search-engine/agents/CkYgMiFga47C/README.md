@@ -1,10 +1,10 @@
 # Search Research — Agent CkYgMiFga47C
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** use z-score normalization
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c5ed15dc
-**Updated:** 2026-05-05T15:29:30.600Z
+**Run:** 86864ee0
+**Updated:** 2026-05-07T07:02:10.136Z
