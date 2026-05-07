@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-07T03:20:00.067Z",
+  "timestamp": "2026-05-07T04:19:30.511Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 423,
+    "totalNodes": 425,
     "observations": 0,
-    "experiments": 423,
+    "experiments": 425,
     "syntheses": 0,
-    "totalEdges": 419,
+    "totalEdges": 421,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 128,
-    "skills": 190,
+    "infrastructure": 129,
+    "skills": 191,
     "finance": 91,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "a06a7e3d7146",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1778126022519,
+      "depth": 3
+    },
+    {
+      "id": "ecf19489f6e5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 337",
+      "metricName": "score",
+      "metricValue": 0.9416224429208716,
+      "isCurrentBest": false,
+      "createdAt": 1778124447676,
+      "depth": 5
+    },
     {
       "id": "c038a6896444",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778106043379,
       "depth": 3
-    },
-    {
-      "id": "6289f573d807",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1992,
-      "isCurrentBest": false,
-      "createdAt": 1778105923500,
-      "depth": 3
-    },
-    {
-      "id": "3a988fd7b15f",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.3137",
-      "metricName": "Sharpe",
-      "metricValue": 1.3137,
-      "isCurrentBest": false,
-      "createdAt": 1778105743665,
-      "depth": 10
     }
   ],
   "frontier": [],
