@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWL3rZi6MK9W9BnRtiURFJNiMGMFNh1k1gTtLSJ5kDsNT6",
+  "runNumber": 1,
+  "timestamp": 1778120527923,
+  "hypothesis": "Further reduce model capacity and refine optimizer for improved validation loss, building on previous scaling attempts.",
+  "config": {
+    "nLayers": 8,
+    "nHeads": 2,
+    "dModel": 768,
+    "dFF": 2048,
+    "contextLength": 2048,
+    "vocabSize": 32768,
+    "learningRate": 0.00003,
+    "batchSize": 8,
+    "maxSteps": 25000,
+    "maxDurationSec": 75,
+    "warmupSteps": 50,
+    "weightDecay": 0.01,
+    "evalInterval": 5,
+    "evalSteps": 2,
+    "dataset": "astrophysics",
+    "activation": "gelu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0.1,
+    "gradientClipNorm": 1,
+    "scheduleType": "linear",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 10.323493636076998,
+    "trainLoss": 10.402506942014933,
+    "lossCurve": [
+      [
+        1,
+        10.323493636076998
+      ]
+    ],
+    "durationSec": 17361.565,
+    "tokensPerSec": 0.9436937280711734,
+    "totalTokens": 16384
+  },
+  "improvement": 0,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "inspiredBy": null
+}
