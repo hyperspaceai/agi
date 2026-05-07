@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-07T12:29:02.746Z",
+  "timestamp": "2026-05-07T14:29:03.205Z",
   "peerId": "12D3KooWH6d2PJLuRz6GsJBFXTWJHSEwboqpw3b2TaFKUaNLdych",
   "stats": {
-    "totalNodes": 4444,
+    "totalNodes": 4446,
     "observations": 0,
-    "experiments": 4444,
+    "experiments": 4446,
     "syntheses": 0,
-    "totalEdges": 4440,
+    "totalEdges": 4442,
     "maxDepth": 21,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1702,
+    "infrastructure": 1704,
     "skills": 1559,
     "finance": 952,
     "search-ranking": 231
   },
   "recentExperiments": [
+    {
+      "id": "4f98868dc126",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 937",
+      "metricName": "score",
+      "metricValue": 145.05822164296256,
+      "isCurrentBest": false,
+      "createdAt": 1778161022910,
+      "depth": 21
+    },
+    {
+      "id": "db305924eb27",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 874",
+      "metricName": "score",
+      "metricValue": 0.9108263892178118,
+      "isCurrentBest": false,
+      "createdAt": 1778157242686,
+      "depth": 21
+    },
     {
       "id": "1ec0aeaac765",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778110619387,
       "depth": 21
-    },
-    {
-      "id": "d3ded2fcffb8",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 91",
-      "metricName": "score",
-      "metricValue": 0.9627088529992109,
-      "isCurrentBest": false,
-      "createdAt": 1778110259354,
-      "depth": 21
-    },
-    {
-      "id": "170557f6170d",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1778107739042,
-      "depth": 3
     }
   ],
   "frontier": [],
