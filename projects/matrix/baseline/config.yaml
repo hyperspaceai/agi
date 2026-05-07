@@ -1,0 +1,60 @@
+version: 1
+project: matrix
+description: >
+  Neural retrieval over 100,000+ AI capabilities (skills, tools, agents,
+  apps) using semantic search. Agents iterate the retrieval head and
+  contrastive training to maximise NDCG@10 on real query/click pairs.
+
+# Dataset: synthetic queries + hard-negative triplets used by the v5 baseline.
+# The full 189K-sample training set is pulled lazily by the trainer.
+data:
+  dataset: matrix-retrieval-v5
+  source: https://agents.hyper.space/api/datasets/matrix-v5
+  samples:
+    train: 189000   # 139K synthetic + 50K hard-negative triplets
+    valEval: 10000  # held-out (queries + 10 candidates each)
+  negatives:
+    type: hard
+    perPositive: 7
+  tokenizer: qwen2.5
+  contextLength: 256
+
+# Backbone: frozen Qwen2.5-1.5B; only the retrieval head is trained.
+architecture:
+  backbone: qwen2.5-1.5b
+  backboneFrozen: true
+  retrievalHead:
+    type: colbert
+    dim: 128
+    distillationTarget: text-embedding-3-small
+  pooling: mean
+
+# Evaluation: top-10 retrieval over 100K-capability index.
+evaluation:
+  metric: ndcg_at_10
+  alsoReport: [mrr_at_10, recall_at_50, recall_at_100]
+  evalSamples: 10000
+
+optimizer:
+  type: adamw
+  learningRate: 0.00005
+  weightDecay: 0.01
+  beta1: 0.9
+  beta2: 0.999
+  epsilon: 0.00000001
+  gradientClipNorm: 1.0
+
+schedule:
+  type: cosine
+  warmupSteps: 1000
+  minLRRatio: 0.1
+
+training:
+  batchSize: 32
+  maxSteps: 5000
+  maxDurationSec: 300       # 5-minute budget on a single GPU
+  evalInterval: 250
+  evalSteps: 50
+  contrastiveLoss:
+    type: in_batch_negatives
+    temperature: 0.05
