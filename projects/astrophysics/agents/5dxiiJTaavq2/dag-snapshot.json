@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-07T17:01:01.303Z",
+  "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
+  "stats": {
+    "totalNodes": 97,
+    "observations": 0,
+    "experiments": 97,
+    "syntheses": 0,
+    "totalEdges": 57,
+    "maxDepth": 5,
+    "activeExperiments": 33,
+    "recentActivity": 8
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "aacb9d89ec0c4e5e998a77a986b636e251d41afd9deb522fc752cfba88c1e228",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 148.7450242195175,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "skills": {
+      "nodeId": "bdf2126becd5015b7f0370fca4399194012f958fb673707d7a5ac6d83427be04",
+      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "finance": {
+      "nodeId": "f357e4f6ef10b464bf06bf886ade362b1390073ec80cf9ea4e8261b85715dae2",
+      "title": "Finance round 12: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "metricDirection": "maximize",
+      "depth": 5
+    },
+    "general": {
+      "nodeId": "0c0b7f52ed988db2af24040cebd9f346e8d7e16f2f39a0d283b37eb6040b5309",
+      "title": "AutoWeb round 39: 56/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 56,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "search-ranking": {
+      "nodeId": "e6cfaa884dcd8dcd21c6dfaa7e623b0b67d714e1cc5b1afd4eb5984191ae0350",
+      "title": "Search round 36: local + peer only",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3933333333333333,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 25,
+    "skills": 10,
+    "finance": 14,
+    "physics": 33,
+    "general": 3,
+    "search-ranking": 12
+  },
+  "recentExperiments": [
+    {
+      "id": "7a2cae4580af",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the exponential growth of the renormalized stress–energy\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778173137860,
+      "depth": 0
+    },
+    {
+      "id": "7012e3ae5f1c",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778172690910,
+      "depth": 0
+    },
+    {
+      "id": "7c572ef5d5d1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 6.7)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778171988497,
+      "depth": 0
+    },
+    {
+      "id": "cbb024bc4db7",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778171828000,
+      "depth": 0
+    },
+    {
+      "id": "072a845e3d3c",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a periodic lattice of Casimir micro‑cavities arranged in\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778171436608,
+      "depth": 0
+    },
+    {
+      "id": "d66e1d8ade12",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Do the higher‑derivative terms in viable f(R) and Gauss‑Bonn\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778171179091,
+      "depth": 0
+    },
+    {
+      "id": "dfc20a109f28",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1778171038522,
+      "depth": 3
+    },
+    {
+      "id": "19f353ca0a1f",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a semiclassical renormalized stress‑energy tensor derive\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778170952283,
+      "depth": 0
+    },
+    {
+      "id": "0c0b7f52ed98",
+      "domain": "general",
+      "title": "AutoWeb round 39: 56/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 56,
+      "isCurrentBest": true,
+      "createdAt": 1778167971621,
+      "depth": 0
+    },
+    {
+      "id": "989d0c644a2d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can higher‑curvature terms in \\(f(R)\\) or Gauss–Bonnet gravi\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778167892259,
+      "depth": 0
+    },
+    {
+      "id": "3880d360dfb4",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the ultimate bound on macroscopic negative‑energy de\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778167376731,
+      "depth": 0
+    },
+    {
+      "id": "67239a863214",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1778167284001,
+      "depth": 3
+    },
+    {
+      "id": "6a8a24295e22",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a quantum‑gravity effective stress‑energy tensor derived\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778166926307,
+      "depth": 0
+    },
+    {
+      "id": "211d619d3980",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the scaling law for negative energy density achievab\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778166306804,
+      "depth": 0
+    },
+    {
+      "id": "98b607e8a2f1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Within f(R) gravity, can a warp‑drive solution be found wher\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778166109747,
+      "depth": 0
+    },
+    {
+      "id": "dd7aa326b303",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Is it possible to construct a time‑dependent warp‑bubble met\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778165873908,
+      "depth": 0
+    },
+    {
+      "id": "bdf2126becd5",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": true,
+      "createdAt": 1778165501176,
+      "depth": 2
+    },
+    {
+      "id": "6ded2a35b226",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent warp‑bubble metric that adiabatically r\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778165388426,
+      "depth": 0
+    },
+    {
+      "id": "061afda79162",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Do \\(f(R)=R+\\alpha R^{2}\\) or Gauss–Bonnet gravity theories \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778164761784,
+      "depth": 0
+    },
+    {
+      "id": "e72fc78193a0",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a periodic lattice of Casimir micro‑cavities with engine\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778164511735,
+      "depth": 0
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "aacb9d89ec0c",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.7450242195175,
+        "depth": 1
+      },
+      {
+        "id": "378b246c064e",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 142.33352583869305,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "bdf2126becd5",
+        "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
+        "metricValue": 0.1991,
+        "depth": 2
+      },
+      {
+        "id": "e8106ffe2b85",
+        "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+        "metricValue": 0.199,
+        "depth": 1
+      },
+      {
+        "id": "94081709fbc4",
+        "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
+        "metricValue": 0.1976,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "f357e4f6ef10",
+        "title": "Finance round 12: Sharpe=1.3129",
+        "metricValue": 1.3129,
+        "depth": 5
+      },
+      {
+        "id": "a24cf53995d2",
+        "title": "Finance round 7: Sharpe=1.3031",
+        "metricValue": 1.3031,
+        "depth": 4
+      },
+      {
+        "id": "35cd64a6f2b0",
+        "title": "Finance round 6: Sharpe=1.2960",
+        "metricValue": 1.296,
+        "depth": 3
+      },
+      {
+        "id": "e9b36abf6633",
+        "title": "Finance round 5: Sharpe=1.2286",
+        "metricValue": 1.2286,
+        "depth": 2
+      },
+      {
+        "id": "bae065cac712",
+        "title": "Finance round 2: Sharpe=1.2064",
+        "metricValue": 1.2064,
+        "depth": 1
+      },
+      {
+        "id": "1d7f97d73715",
+        "title": "Finance round 1: Sharpe=1.2041",
+        "metricValue": 1.2041,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "0c0b7f52ed98",
+        "title": "AutoWeb round 39: 56/100",
+        "metricValue": 56,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "e6cfaa884dcd",
+        "title": "Search round 36: local + peer only",
+        "metricValue": 0.3933333333333333,
+        "depth": 0
+      }
+    ]
+  }
+}
