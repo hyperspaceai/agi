@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hyperspaceai-agi-badge.png)](https://mseep.ai/app/hyperspaceai-agi)
+
 # AGI
 
 **The first experimental distributed AGI system. Fully peer-to-peer. Intelligence compounds continuously.**
