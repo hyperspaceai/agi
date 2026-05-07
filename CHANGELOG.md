@@ -29,9 +29,21 @@ Versions: date-based [CalVer](https://calver.org/) (`YYYY.MM.PATCH`).
 
 ---
 
-## [2026.05.07] — strategic roadmap (PR #22)
+## [2026.05.07] — open contribution batch
 
-### Added
+Same-day batch of four pull requests (#20, #21, #22, #23). The grouping
+below reflects the PR each change came from; the order within the day
+matches the order PRs are expected to merge.
+
+### Added (PR #20)
+- `CONTRIBUTING.md` — full contributor guide.
+- `projects/architect/baseline/` — baseline for the architect project.
+
+### Added (PR #21)
+- `.github/workflows/network-snapshots.yml` — resumes hourly snapshots stalled since 2026-03-11 (closes #12).
+- `docs/POSTMORTEM_2026-04-09_FOUR_WAY_CHAIN_FORK.md` — incident documentation for #15.
+
+### Added (PR #22)
 - `docs/VISION.md` — Compounding Intelligence Roadmap.
 - `docs/rfcs/RFC-001-verifiable-research.md` — every experiment carries a signed receipt with graduated proof ladder.
 - `docs/rfcs/RFC-002-curriculum-dag.md` — projects form a DAG of prerequisites; weights transfer along edges.
@@ -41,17 +53,7 @@ Versions: date-based [CalVer](https://calver.org/) (`YYYY.MM.PATCH`).
 - `schemas/research-receipt-v1.schema.json` — JSON Schema for receipts.
 - `scripts/sign-receipt.js` — Ed25519 signer.
 - `scripts/validate-receipt.js` — reference validator.
-
----
-
-## [2026.04.28] — operational improvements (PRs #20, #21)
-
-### Added
-- `CONTRIBUTING.md` — full contributor guide.
-- `projects/architect/baseline/` — baseline for the architect project.
-- `.github/workflows/release-builds.yml` — multi-platform builds incl. Linux aarch64 (closes #16).
-- `.github/workflows/network-snapshots.yml` — resumes hourly snapshots stalled since 2026-03-11 (closes #12).
-- `docs/POSTMORTEM_2026-04-09_FOUR_WAY_CHAIN_FORK.md` — incident documentation for #15.
+- `scripts/validate-receipt.test.js` — 17 unit tests, all passing.
 
 ---
 
