@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-07T16:28:03.670Z",
+  "timestamp": "2026-05-07T17:31:32.861Z",
   "peerId": "12D3KooWPALn9GMDfqRuLr1hEgsn6Qs2MtfeSyxoCX5JjBbv8nJ7",
   "stats": {
-    "totalNodes": 621,
+    "totalNodes": 622,
     "observations": 0,
-    "experiments": 621,
+    "experiments": 622,
     "syntheses": 0,
-    "totalEdges": 618,
+    "totalEdges": 619,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -40,10 +40,20 @@
   },
   "domainCounts": {
     "infrastructure": 223,
-    "skills": 258,
+    "skills": 259,
     "finance": 140
   },
   "recentExperiments": [
+    {
+      "id": "436b1b6a4e9d",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778172409289,
+      "depth": 4
+    },
     {
       "id": "e21ebc2427ad",
       "domain": "infrastructure",
@@ -233,16 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1778145291965,
       "depth": 3
-    },
-    {
-      "id": "f3de2314d210",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1778141784332,
-      "depth": 4
     }
   ],
   "frontier": [],
