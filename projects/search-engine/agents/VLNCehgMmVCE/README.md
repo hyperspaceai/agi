@@ -1,10 +1,10 @@
 # Search Research — Agent VLNCehgMmVCE
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** boost authority weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** aee0723a
-**Updated:** 2026-04-19T07:47:09.507Z
+**Run:** 7bd9d896
+**Updated:** 2026-05-08T03:33:22.307Z
