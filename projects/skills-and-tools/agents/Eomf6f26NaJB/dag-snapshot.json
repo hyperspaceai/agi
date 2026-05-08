@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-08T06:47:35.844Z",
+  "timestamp": "2026-05-08T12:40:48.277Z",
   "peerId": "12D3KooWPd8pqnboZUZgKfmnvVWgwLmcWBj7AvzaTi3pNXMsxju5",
   "stats": {
-    "totalNodes": 177,
+    "totalNodes": 206,
     "observations": 0,
-    "experiments": 177,
+    "experiments": 206,
     "syntheses": 0,
-    "totalEdges": 173,
+    "totalEdges": 193,
     "maxDepth": 6,
-    "activeExperiments": 0,
-    "recentActivity": 2
+    "activeExperiments": 7,
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -44,214 +44,218 @@
       "metricValue": 0.4,
       "metricDirection": "maximize",
       "depth": 0
+    },
+    "general": {
+      "nodeId": "c7c7efbc9d68d0f7227e00e3529d9541a914e0339ccdec518013e3c75d8833f0",
+      "title": "AutoWeb round 3: 77/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 77,
+      "metricDirection": "maximize",
+      "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 53,
-    "skills": 75,
+    "infrastructure": 61,
+    "skills": 86,
     "finance": 35,
-    "search-ranking": 14
+    "search-ranking": 15,
+    "physics": 7,
+    "general": 2
   },
   "recentExperiments": [
     {
-      "id": "6b68a3e163f4",
+      "id": "a006d84af1e4",
       "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778222495557,
-      "depth": 3
-    },
-    {
-      "id": "926c5bdac148",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778220935349,
-      "depth": 3
-    },
-    {
-      "id": "05e7e84abc6b",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778218654850,
-      "depth": 3
-    },
-    {
-      "id": "454b777e7f96",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.3129",
-      "metricName": "Sharpe",
-      "metricValue": 1.3129,
-      "isCurrentBest": false,
-      "createdAt": 1778218504828,
-      "depth": 6
-    },
-    {
-      "id": "2afe50281c52",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778218415146,
-      "depth": 3
-    },
-    {
-      "id": "27f72c362638",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.3031",
-      "metricName": "Sharpe",
-      "metricValue": 1.3031,
-      "isCurrentBest": false,
-      "createdAt": 1778218354845,
-      "depth": 6
-    },
-    {
-      "id": "591fbe38ac79",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778218294833,
-      "depth": 3
-    },
-    {
-      "id": "331224309648",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778218174825,
-      "depth": 3
-    },
-    {
-      "id": "7282751696d8",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 10",
-      "metricName": "score",
-      "metricValue": 141.07927583480424,
-      "isCurrentBest": false,
-      "createdAt": 1778218114556,
-      "depth": 3
-    },
-    {
-      "id": "0d0b97eccf78",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778218054581,
-      "depth": 3
-    },
-    {
-      "id": "bf02b2b320b8",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.2198",
-      "metricName": "Sharpe",
-      "metricValue": 1.2198,
-      "isCurrentBest": false,
-      "createdAt": 1778218054576,
-      "depth": 6
-    },
-    {
-      "id": "c2e840b7b2c0",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778217934564,
-      "depth": 3
-    },
-    {
-      "id": "34d802113e41",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 7",
-      "metricName": "score",
-      "metricValue": 141.23145966879264,
-      "isCurrentBest": false,
-      "createdAt": 1778217934545,
-      "depth": 3
-    },
-    {
-      "id": "f224d4cf1a61",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1940",
-      "metricName": "Sharpe",
-      "metricValue": 1.194,
-      "isCurrentBest": false,
-      "createdAt": 1778217904667,
-      "depth": 6
-    },
-    {
-      "id": "251ded84a413",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
       "metricName": "correctness",
       "metricValue": 0.1994,
       "isCurrentBest": false,
-      "createdAt": 1778217814527,
+      "createdAt": 1778242823301,
       "depth": 3
     },
     {
-      "id": "f4b0aab0dfcd",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.0996",
-      "metricName": "Sharpe",
-      "metricValue": 1.0996,
+      "id": "ce030e2a5188",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Gravitational Wave Signatures of Warp Drive Dynamics: Constructing a Template Libra",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778217754522,
-      "depth": 6
+      "createdAt": 1778240384432,
+      "depth": 0
     },
     {
-      "id": "bb668cccd614",
+      "id": "245a711ff546",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Warp Drive Solutions with Vorticity and Curved Spatial Sections: An Examination of ",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778239109894,
+      "depth": 0
+    },
+    {
+      "id": "52d15f9bfbe3",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 4",
+      "title": "Cause infra-optimization round 247",
       "metricName": "score",
-      "metricValue": 143.47177223871685,
+      "metricValue": 144.98508231078972,
       "isCurrentBest": false,
-      "createdAt": 1778217754516,
+      "createdAt": 1778239047175,
       "depth": 3
     },
     {
-      "id": "4d23cdd2676b",
+      "id": "434b795a491f",
       "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
       "metricName": "correctness",
       "metricValue": 0.1994,
       "isCurrentBest": false,
-      "createdAt": 1778217694535,
+      "createdAt": 1778237782761,
       "depth": 3
     },
     {
-      "id": "97ced613fb7e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3",
-      "metricName": "score",
-      "metricValue": 0.967857821588492,
+      "id": "f53204bfa350",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
       "isCurrentBest": false,
-      "createdAt": 1778217694517,
+      "createdAt": 1778236462099,
       "depth": 3
     },
     {
-      "id": "0daf36b707ea",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3",
-      "metricName": "score",
-      "metricValue": 143.90290511047124,
+      "id": "d84bded7a90f",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Warp Drive Potential in Modified Gravity: Exploring f(R) and Gauss-Bonnet Solutions",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778217694512,
+      "createdAt": 1778235348481,
+      "depth": 0
+    },
+    {
+      "id": "c7c7efbc9d68",
+      "domain": "general",
+      "title": "AutoWeb round 3: 77/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 77,
+      "isCurrentBest": true,
+      "createdAt": 1778234021582,
+      "depth": 0
+    },
+    {
+      "id": "8a7c0fcf9ddb",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778234003416,
       "depth": 3
+    },
+    {
+      "id": "b46b0fb2fc9b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 154",
+      "metricName": "score",
+      "metricValue": 141.11606155069126,
+      "isCurrentBest": false,
+      "createdAt": 1778233946920,
+      "depth": 3
+    },
+    {
+      "id": "c2aa5b77391a",
+      "domain": "physics",
+      "title": "Wrote paper: \"Scaling Casimir Micro-Cavity Arrays for Macroscopic Negative Energy Densities: A Space",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778232852841,
+      "depth": 0
+    },
+    {
+      "id": "8df8d8ecfed2",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778232768028,
+      "depth": 3
+    },
+    {
+      "id": "a3a678945c16",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778231538111,
+      "depth": 3
+    },
+    {
+      "id": "b2db2cd8a4cb",
+      "domain": "physics",
+      "title": "Wrote paper: \"Scaling of Energy Requirements for a Fuchs et al. Warp Drive Towards the Speed of Ligh",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778231517573,
+      "depth": 0
+    },
+    {
+      "id": "fb39661167d8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 113",
+      "metricName": "score",
+      "metricValue": 0.969109691933629,
+      "isCurrentBest": false,
+      "createdAt": 1778231456733,
+      "depth": 3
+    },
+    {
+      "id": "9a5c0e0d54e9",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778230219220,
+      "depth": 3
+    },
+    {
+      "id": "8fe17b48870c",
+      "domain": "search-ranking",
+      "title": "Search round 1: Increase title weight and enable expansion to address recent",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778230122546,
+      "depth": 1
+    },
+    {
+      "id": "6839c66cf11f",
+      "domain": "general",
+      "title": "AutoWeb round 1: 71/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 71,
+      "isCurrentBest": false,
+      "createdAt": 1778228967049,
+      "depth": 0
+    },
+    {
+      "id": "7c4d16a0d7cc",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778228956350,
+      "depth": 3
+    },
+    {
+      "id": "80a0e50f50cb",
+      "domain": "physics",
+      "title": "Wrote paper: \"Quantum Gravity Corrections to the Null Energy Condition Near Warp Drive Walls and the",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778227865581,
+      "depth": 0
     }
   ],
   "frontier": [],
@@ -339,6 +343,14 @@
         "id": "311a4e59173b",
         "title": "Search round 30: require more local results (5)",
         "metricValue": 0.4,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "c7c7efbc9d68",
+        "title": "AutoWeb round 3: 77/100",
+        "metricValue": 77,
         "depth": 0
       }
     ]
