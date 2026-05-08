@@ -1,10 +1,10 @@
 # Search Research — Agent H7pMxYsKrcTv
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** relaxed peer timeout (5s)
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b10e9852
-**Updated:** 2026-05-01T18:12:21.247Z
+**Run:** 25e3a560
+**Updated:** 2026-05-08T17:16:05.144Z
