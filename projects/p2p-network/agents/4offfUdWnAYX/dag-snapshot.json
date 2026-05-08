@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-07T19:24:07.064Z",
+  "timestamp": "2026-05-08T19:38:55.382Z",
   "peerId": "12D3KooWDd2qQcDDy4p29j4qdpubuR7Lbb6TCWyFTctborzM7VWh",
   "stats": {
-    "totalNodes": 530,
+    "totalNodes": 623,
     "observations": 0,
-    "experiments": 530,
+    "experiments": 623,
     "syntheses": 0,
-    "totalEdges": 397,
+    "totalEdges": 470,
     "maxDepth": 6,
-    "activeExperiments": 91,
-    "recentActivity": 1
+    "activeExperiments": 107,
+    "recentActivity": 9
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -30,10 +30,10 @@
       "depth": 1
     },
     "general": {
-      "nodeId": "1fa2d573bca62519c98e150909ccb0c843a934d43887f71a5690326aef50b265",
-      "title": "AutoWeb round 17: 87/100",
+      "nodeId": "a34f65f3e7e963dcc2ee6cca32c5712dc5f0d79c377eb27a05285f4c98c5371e",
+      "title": "AutoWeb round 26: 89/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 87,
+      "metricValue": 89,
       "metricDirection": "maximize",
       "depth": 0
     },
@@ -47,204 +47,211 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 191,
-    "skills": 160,
-    "physics": 91,
-    "general": 39,
-    "finance": 49
+    "infrastructure": 232,
+    "skills": 178,
+    "physics": 107,
+    "general": 43,
+    "finance": 63
   },
   "recentExperiments": [
     {
-      "id": "4a2082de878b",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How does the presence of a non-trivial topology (e.g., a cos\" (self-ve",
-      "metricName": "verification_score",
+      "id": "466603435432",
+      "domain": "finance",
+      "title": "Finance round 8: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
       "isCurrentBest": false,
-      "createdAt": 1778179552686,
-      "depth": 0
+      "createdAt": 1778268685064,
+      "depth": 5
     },
     {
-      "id": "1cc9a7feed57",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the quantum stress-tensor arising from *real* quantum fi\" (self-ve",
-      "metricName": "verification_score",
+      "id": "268a70852f51",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.3105",
+      "metricName": "Sharpe",
+      "metricValue": 1.3105,
       "isCurrentBest": false,
-      "createdAt": 1778176954434,
-      "depth": 0
+      "createdAt": 1778268370681,
+      "depth": 5
     },
     {
-      "id": "58476d3692f5",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Assuming the existence of traversable wormholes (even micros\" (self-ve",
-      "metricName": "verification_score",
+      "id": "e83910392791",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.3031",
+      "metricName": "Sharpe",
+      "metricValue": 1.3031,
       "isCurrentBest": false,
-      "createdAt": 1778170438610,
-      "depth": 0
+      "createdAt": 1778268220815,
+      "depth": 5
     },
     {
-      "id": "b6d3d577ad5d",
+      "id": "e32e20300027",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2960",
+      "metricName": "Sharpe",
+      "metricValue": 1.296,
+      "isCurrentBest": false,
+      "createdAt": 1778268070672,
+      "depth": 5
+    },
+    {
+      "id": "ca8392508e9c",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.2071",
+      "metricName": "Sharpe",
+      "metricValue": 1.2071,
+      "isCurrentBest": false,
+      "createdAt": 1778267920668,
+      "depth": 5
+    },
+    {
+      "id": "9188034e81df",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.1814",
+      "metricName": "Sharpe",
+      "metricValue": 1.1814,
+      "isCurrentBest": false,
+      "createdAt": 1778267620127,
+      "depth": 5
+    },
+    {
+      "id": "519b59862a88",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1080",
+      "title": "Cause infra-optimization round 22",
       "metricName": "score",
-      "metricValue": 0.9340956215436811,
+      "metricValue": 141.11822916702096,
       "isCurrentBest": false,
-      "createdAt": 1778170248500,
+      "createdAt": 1778266261906,
       "depth": 6
     },
     {
-      "id": "1e7eae9bd2ca",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1068",
-      "metricName": "score",
-      "metricValue": 0.9310281894567045,
+      "id": "edd03b3c3a9f",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778168958490,
+      "createdAt": 1778266241216,
+      "depth": 2
+    },
+    {
+      "id": "c04b454fe730",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 13",
+      "metricName": "score",
+      "metricValue": 141.5285532844574,
+      "isCurrentBest": false,
+      "createdAt": 1778266201906,
       "depth": 6
     },
     {
-      "id": "c8c5d82d0224",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the localized negative energy density created by dynamic\" (self-ve",
-      "metricName": "verification_score",
+      "id": "c839c079b3c9",
+      "domain": "finance",
+      "title": "Finance round 15: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
       "isCurrentBest": false,
-      "createdAt": 1778167853916,
-      "depth": 0
+      "createdAt": 1778262392235,
+      "depth": 5
     },
     {
-      "id": "d69009d8cc41",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1054",
-      "metricName": "score",
-      "metricValue": 0.9308198222663243,
+      "id": "020c6186ece1",
+      "domain": "finance",
+      "title": "Finance round 11: Sharpe=1.3137",
+      "metricName": "Sharpe",
+      "metricValue": 1.3137,
       "isCurrentBest": false,
-      "createdAt": 1778167668483,
+      "createdAt": 1778261786189,
+      "depth": 5
+    },
+    {
+      "id": "3834406fa95a",
+      "domain": "finance",
+      "title": "Finance round 8: Sharpe=1.3040",
+      "metricName": "Sharpe",
+      "metricValue": 1.304,
+      "isCurrentBest": false,
+      "createdAt": 1778261330825,
+      "depth": 5
+    },
+    {
+      "id": "aba3a6fb56a1",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.2960",
+      "metricName": "Sharpe",
+      "metricValue": 1.296,
+      "isCurrentBest": false,
+      "createdAt": 1778261027292,
+      "depth": 5
+    },
+    {
+      "id": "1da5013d82f4",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2020",
+      "metricName": "Sharpe",
+      "metricValue": 1.202,
+      "isCurrentBest": false,
+      "createdAt": 1778260721419,
+      "depth": 5
+    },
+    {
+      "id": "d5725e36b150",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1899",
+      "metricName": "Sharpe",
+      "metricValue": 1.1899,
+      "isCurrentBest": false,
+      "createdAt": 1778260571424,
+      "depth": 5
+    },
+    {
+      "id": "a85b70659222",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1618",
+      "metricName": "Sharpe",
+      "metricValue": 1.1618,
+      "isCurrentBest": false,
+      "createdAt": 1778260421473,
+      "depth": 5
+    },
+    {
+      "id": "704b193a4288",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.1513",
+      "metricName": "Sharpe",
+      "metricValue": 1.1513,
+      "isCurrentBest": false,
+      "createdAt": 1778260271423,
+      "depth": 5
+    },
+    {
+      "id": "96cfd00abd6c",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1778260151495,
+      "depth": 2
+    },
+    {
+      "id": "bed9b3f0ea23",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 126",
+      "metricName": "score",
+      "metricValue": 141.1334940326219,
+      "isCurrentBest": false,
+      "createdAt": 1778260082326,
       "depth": 6
     },
     {
-      "id": "1fa2d573bca6",
+      "id": "83ecffe6d0b4",
       "domain": "general",
-      "title": "AutoWeb round 17: 87/100",
+      "title": "AutoWeb round 1: 67/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 87,
-      "isCurrentBest": true,
-      "createdAt": 1778166423499,
-      "depth": 0
-    },
-    {
-      "id": "7ffeef7b2e9e",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1033",
-      "metricName": "score",
-      "metricValue": 141.0192772484709,
+      "metricValue": 67,
       "isCurrentBest": false,
-      "createdAt": 1778166378475,
-      "depth": 6
-    },
-    {
-      "id": "a44b299485ec",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1013",
-      "metricName": "score",
-      "metricValue": 141.1898780245549,
-      "isCurrentBest": false,
-      "createdAt": 1778165088473,
-      "depth": 6
-    },
-    {
-      "id": "29f2ce09d27a",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 999",
-      "metricName": "score",
-      "metricValue": 141.2699865990624,
-      "isCurrentBest": false,
-      "createdAt": 1778165088471,
-      "depth": 6
-    },
-    {
-      "id": "348cc9fa5d22",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Following Barzegar & Buchert (2025), how do the tidal forces\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778164039016,
-      "depth": 0
-    },
-    {
-      "id": "098334126c29",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 937",
-      "metricName": "score",
-      "metricValue": 0.9305690710117679,
-      "isCurrentBest": false,
-      "createdAt": 1778161218447,
-      "depth": 6
-    },
-    {
-      "id": "51bdba7d2623",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 924",
-      "metricName": "score",
-      "metricValue": 0.9293426958074399,
-      "isCurrentBest": false,
-      "createdAt": 1778159928439,
-      "depth": 6
-    },
-    {
-      "id": "c872d7a48b5b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 911",
-      "metricName": "score",
-      "metricValue": 0.9291888028691286,
-      "isCurrentBest": false,
-      "createdAt": 1778159928438,
-      "depth": 6
-    },
-    {
-      "id": "24519eebbd53",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Extending Clough et al. (2024), what are the dominant non-li\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778158848980,
-      "depth": 0
-    },
-    {
-      "id": "f7f969acfcf3",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 904",
-      "metricName": "score",
-      "metricValue": 141.08187254134992,
-      "isCurrentBest": false,
-      "createdAt": 1778158638431,
-      "depth": 6
-    },
-    {
-      "id": "952837ac721b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 895",
-      "metricName": "score",
-      "metricValue": 0.9275906507406871,
-      "isCurrentBest": false,
-      "createdAt": 1778158638430,
-      "depth": 6
-    },
-    {
-      "id": "98f7674d98a5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 895",
-      "metricName": "score",
-      "metricValue": 141.1078819278065,
-      "isCurrentBest": false,
-      "createdAt": 1778158638429,
-      "depth": 6
-    },
-    {
-      "id": "024392e5702b",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the minimum required coherence length and entangleme\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778155016287,
+      "createdAt": 1778258889685,
       "depth": 0
     }
   ],
@@ -304,9 +311,9 @@
     ],
     "general": [
       {
-        "id": "1fa2d573bca6",
-        "title": "AutoWeb round 17: 87/100",
-        "metricValue": 87,
+        "id": "a34f65f3e7e9",
+        "title": "AutoWeb round 26: 89/100",
+        "metricValue": 89,
         "depth": 0
       }
     ],
