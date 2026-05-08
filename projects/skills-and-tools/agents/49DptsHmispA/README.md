@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 49DptsHmispA
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 215
+**Description:** Parse Key-Value Log: 0% correct, round 262
 
-_Updated: 2026-05-07T13:16:47.855Z_
+_Updated: 2026-05-08T05:08:54.227Z_
