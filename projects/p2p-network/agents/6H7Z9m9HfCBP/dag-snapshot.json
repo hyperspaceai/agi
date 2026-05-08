@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-08T09:12:16.655Z",
+  "timestamp": "2026-05-08T10:14:20.614Z",
   "peerId": "12D3KooWF6Uittizr6SsS68LeM1QQnXvx7R9UMQMUKGv1PQfnnu1",
   "stats": {
-    "totalNodes": 4928,
+    "totalNodes": 4930,
     "observations": 0,
-    "experiments": 4928,
+    "experiments": 4930,
     "syntheses": 0,
-    "totalEdges": 4924,
+    "totalEdges": 4926,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2414,
-    "skills": 1472,
+    "infrastructure": 2415,
+    "skills": 1473,
     "finance": 992,
     "search-ranking": 50
   },
   "recentExperiments": [
+    {
+      "id": "6b70fe0356cb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1468",
+      "metricName": "score",
+      "metricValue": 0.9070715858311994,
+      "isCurrentBest": false,
+      "createdAt": 1778234580960,
+      "depth": 4
+    },
+    {
+      "id": "ebfaa01be1c2",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1778234261218,
+      "depth": 2
+    },
     {
       "id": "103e69895230",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.9217807860707163,
       "isCurrentBest": false,
       "createdAt": 1778174708168,
-      "depth": 4
-    },
-    {
-      "id": "f519809e5f81",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 445",
-      "metricName": "score",
-      "metricValue": 141.08374865250534,
-      "isCurrentBest": false,
-      "createdAt": 1778173028134,
-      "depth": 4
-    },
-    {
-      "id": "5d36cdf414af",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 383",
-      "metricName": "score",
-      "metricValue": 0.9257190665992648,
-      "isCurrentBest": false,
-      "createdAt": 1778169308000,
       "depth": 4
     }
   ],
