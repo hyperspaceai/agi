@@ -1,10 +1,10 @@
 # Search Research — Agent 4aR52k9PMLMc
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.3963
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 07a0e6dc
-**Updated:** 2026-05-07T18:00:44.799Z
+**Run:** ae596944
+**Updated:** 2026-05-08T07:26:51.186Z
