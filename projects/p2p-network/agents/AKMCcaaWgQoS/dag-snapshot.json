@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-08T20:12:21.189Z",
+  "timestamp": "2026-05-08T21:16:41.138Z",
   "peerId": "12D3KooWK8iNMiADsK4vdvZBCFpauzg6PtKfy6GAonXr2qUUzQNe",
   "stats": {
-    "totalNodes": 454,
+    "totalNodes": 455,
     "observations": 0,
-    "experiments": 454,
+    "experiments": 455,
     "syntheses": 0,
-    "totalEdges": 450,
+    "totalEdges": 451,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 237,
+    "infrastructure": 238,
     "skills": 98,
     "finance": 63,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "be5f6343d799",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 307",
+      "metricName": "score",
+      "metricValue": 141.09108845468273,
+      "isCurrentBest": false,
+      "createdAt": 1778273475924,
+      "depth": 5
+    },
     {
       "id": "1d259cd04a4c",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778256657290,
       "depth": 2
-    },
-    {
-      "id": "78e42fd98b6b",
-      "domain": "finance",
-      "title": "Finance round 14: Sharpe=1.3205",
-      "metricName": "Sharpe",
-      "metricValue": 1.3205,
-      "isCurrentBest": false,
-      "createdAt": 1778256357269,
-      "depth": 7
     }
   ],
   "frontier": [],
