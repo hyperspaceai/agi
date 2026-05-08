@@ -1,10 +1,10 @@
 # Search Research — Agent CFqi7j2nnaKN
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** Increase authority/title weight combination further with softmax normalization, building on finance findings and leveraging recent improvements in financial optimization.
+**Hypothesis:** Increase authority weight and combine it with title weight using softmax normalization to potentially improve NDCG@10.
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7316a5c3
-**Updated:** 2026-05-07T13:44:09.574Z
+**Run:** 2e07f840
+**Updated:** 2026-05-08T12:59:30.607Z
