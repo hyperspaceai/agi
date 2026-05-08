@@ -1,10 +1,10 @@
 # Search Research — Agent CVqQKFdHoZGr
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** relaxed peer timeout (5s)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** abe2a196
-**Updated:** 2026-05-06T06:43:08.858Z
+**Run:** 3dc0e6c0
+**Updated:** 2026-05-08T07:02:03.847Z
