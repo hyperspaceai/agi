@@ -2,13 +2,13 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWFTqHdmi7CDSxaBvWtAMhv5aWovDruoP3pDtaZ7xJGBSY",
-  "runNumber": 27,
-  "timestamp": 1778025939046,
-  "hypothesis": "Incorporate tied embeddings and cosine learning rate schedule for improved validation loss.",
+  "runNumber": 28,
+  "timestamp": 1778234795225,
+  "hypothesis": "Increased model size and refined learning rate schedule based on recent successes.",
   "config": {
-    "nLayers": 3,
+    "nLayers": 4,
     "nHeads": 2,
-    "dModel": 128,
+    "dModel": 256,
     "dFF": 512,
     "contextLength": 128,
     "vocabSize": 128,
@@ -36,71 +36,71 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.821559,
-    "trainLoss": 7.745766,
+    "valLoss": 2.745605,
+    "trainLoss": 7.550649,
     "lossCurve": [
       [
         0,
-        9.011009
+        9.010832
       ],
       [
         1,
-        9.010995
+        9.010848
       ],
       [
         2,
-        9.011047
+        9.01083
       ],
       [
         3,
-        9.011156
+        9.010832
       ],
       [
         4,
-        9.011123
+        9.010832
       ],
       [
         5,
-        9.011093
+        9.01073
       ],
       [
         6,
-        9.01105
+        9.01081
       ],
       [
         7,
-        9.011012
+        9.010804
       ],
       [
         8,
-        9.011057
+        9.010768
       ],
       [
         9,
-        9.011049
+        9.010759
       ],
       [
         10,
-        9.011002
+        9.01078
       ],
       [
         50,
-        8.907233
+        8.881868
       ],
       [
         100,
-        8.233831
+        8.002567
       ],
       [
         150,
-        7.834321
+        7.590208
       ]
     ],
-    "durationSec": 180.6,
-    "tokensPerSec": 519379.8449612403,
-    "totalTokens": 93800000
+    "durationSec": 180.2,
+    "tokensPerSec": 477247.5027746948,
+    "totalTokens": 86000000
   },
-  "improvement": -9.02082465424444,
+  "improvement": -2.6919160648421774,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 4060 Ti",
   "inspiredBy": null
