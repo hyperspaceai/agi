@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-08T08:48:51.221Z",
+  "timestamp": "2026-05-08T09:48:51.586Z",
   "peerId": "12D3KooWH6d2PJLuRz6GsJBFXTWJHSEwboqpw3b2TaFKUaNLdych",
   "stats": {
-    "totalNodes": 4554,
+    "totalNodes": 4555,
     "observations": 0,
-    "experiments": 4554,
+    "experiments": 4555,
     "syntheses": 0,
-    "totalEdges": 4550,
+    "totalEdges": 4551,
     "maxDepth": 21,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1757,
+    "infrastructure": 1758,
     "skills": 1586,
     "finance": 966,
     "search-ranking": 245
   },
   "recentExperiments": [
+    {
+      "id": "3aa9bdc372f6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 210",
+      "metricName": "score",
+      "metricValue": 0.9272165368176588,
+      "isCurrentBest": false,
+      "createdAt": 1778230191159,
+      "depth": 21
+    },
     {
       "id": "b89c6451c456",
       "domain": "skills",
@@ -241,16 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1778220988546,
-      "depth": 3
-    },
-    {
-      "id": "ef10199c4353",
-      "domain": "search-ranking",
-      "title": "Search round 38: use softmax normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778220988462,
       "depth": 3
     }
   ],
