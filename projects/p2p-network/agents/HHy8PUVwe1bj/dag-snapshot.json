@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-07T23:13:53.814Z",
+  "timestamp": "2026-05-08T00:13:53.856Z",
   "peerId": "12D3KooWS7LJ8c5epusDaiSqq5WThSTsHMgZvCdjeyqJwrN1cQij",
   "stats": {
-    "totalNodes": 665,
+    "totalNodes": 666,
     "observations": 0,
-    "experiments": 665,
+    "experiments": 666,
     "syntheses": 0,
-    "totalEdges": 661,
+    "totalEdges": 662,
     "maxDepth": 12,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 260,
+    "infrastructure": 261,
     "skills": 236,
     "finance": 141,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "059ef31ab2c6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 931",
+      "metricName": "score",
+      "metricValue": 0.9224606701680821,
+      "isCurrentBest": false,
+      "createdAt": 1778195723700,
+      "depth": 7
+    },
     {
       "id": "4f5116540cae",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.1997,
       "isCurrentBest": false,
       "createdAt": 1778144632159,
-      "depth": 2
-    },
-    {
-      "id": "7a858230bc78",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1778144032137,
       "depth": 2
     }
   ],
