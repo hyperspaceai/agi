@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWKwSMkVzXLT2iZsajBczAht8yPTPVfRNfnSwpVZ4bw39i",
-  "runNumber": 14,
-  "timestamp": 1778179510230,
-  "hypothesis": "Improve on efd99590 (loss=3.2615): extended training (600s)",
+  "runNumber": 25,
+  "timestamp": 1778221108303,
+  "hypothesis": "Improve on ec11e130 (loss=2.9827): extended training (600s)",
   "config": {
     "nLayers": 4,
     "nHeads": 4,
@@ -17,7 +17,7 @@
     "maxSteps": 50000,
     "maxDurationSec": 600,
     "warmupSteps": 100,
-    "weightDecay": 0,
+    "weightDecay": 0.1,
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
@@ -36,23 +36,23 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.9827008319844097,
-    "trainLoss": 2.8962529613697563,
+    "valLoss": 2.8733538352250094,
+    "trainLoss": 2.813419925506771,
     "lossCurve": [
       [
         200,
-        3.0277736836913607
+        2.96851912697905
       ],
       [
-        290,
-        2.9827008319844097
+        299,
+        2.8733538352250094
       ]
     ],
-    "durationSec": 615.931,
-    "tokensPerSec": 964.2638542304251,
-    "totalTokens": 593920
+    "durationSec": 616.18,
+    "tokensPerSec": 993.7875296179689,
+    "totalTokens": 612352
   },
-  "improvement": -8.547048877478336,
+  "improvement": -3.6660397042451978,
   "isNewBest": true,
   "gpu": "Apple M4",
   "inspiredBy": null
