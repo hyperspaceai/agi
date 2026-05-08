@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-08T03:29:21.399Z",
+  "timestamp": "2026-05-08T07:31:05.679Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 178,
+    "totalNodes": 240,
     "observations": 0,
-    "experiments": 178,
+    "experiments": 240,
     "syntheses": 0,
-    "totalEdges": 85,
-    "maxDepth": 5,
-    "activeExperiments": 86,
-    "recentActivity": 12
+    "totalEdges": 122,
+    "maxDepth": 7,
+    "activeExperiments": 107,
+    "recentActivity": 8
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -30,224 +30,228 @@
       "depth": 3
     },
     "finance": {
-      "nodeId": "f357e4f6ef10b464bf06bf886ade362b1390073ec80cf9ea4e8261b85715dae2",
-      "title": "Finance round 12: Sharpe=1.3129",
+      "nodeId": "94786ae4d5218dfbeb8960319b269cfe4e293b6152d47145e0aac67003a1d8f1",
+      "title": "Finance round 12: Sharpe=1.3205",
       "metricName": "Sharpe",
-      "metricValue": 1.3129,
+      "metricValue": 1.3205,
       "metricDirection": "maximize",
-      "depth": 5
+      "depth": 7
     },
     "general": {
-      "nodeId": "0c0b7f52ed988db2af24040cebd9f346e8d7e16f2f39a0d283b37eb6040b5309",
-      "title": "AutoWeb round 39: 56/100",
+      "nodeId": "2a362eb0d7cf7430dc3861e9cad5f454f4b17abcde62d8f23f6f44a986500671",
+      "title": "AutoWeb round 8: 58/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 56,
+      "metricValue": 58,
       "metricDirection": "maximize",
       "depth": 0
     },
     "search-ranking": {
-      "nodeId": "e6cfaa884dcd8dcd21c6dfaa7e623b0b67d714e1cc5b1afd4eb5984191ae0350",
-      "title": "Search round 36: local + peer only",
+      "nodeId": "15a672eb745fd062daf43aaee732bc2db1eb17b889842b2c8d1dd7590cb7d12a",
+      "title": "Search round 24: skip peer cascade (local-only fast)",
       "metricName": "NDCG@10",
-      "metricValue": 0.3933333333333333,
+      "metricValue": 0.3963092975357146,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     }
   },
   "domainCounts": {
-    "infrastructure": 47,
-    "skills": 16,
-    "finance": 14,
-    "physics": 86,
-    "general": 3,
-    "search-ranking": 12
+    "infrastructure": 63,
+    "skills": 25,
+    "finance": 25,
+    "physics": 107,
+    "general": 7,
+    "search-ranking": 13
   },
   "recentExperiments": [
     {
-      "id": "036c1109e341",
+      "id": "6b42288b8a5d",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: In Einstein–Gauss–Bonnet or generic f(R) gravity, can the hi\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: Can a periodic lattice of sub‑micron Casimir cavities, engin\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778210255862,
+      "createdAt": 1778224547814,
       "depth": 0
     },
     {
-      "id": "5c0d4ad2ff0a",
+      "id": "07317096272b",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Is it possible to engineer a sub‑Planckian Casimir micro‑cav\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: What is the full non‑perturbative quantum‑gravity correction\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778210036747,
+      "createdAt": 1778223930609,
       "depth": 0
     },
     {
-      "id": "b8216569d3ba",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can asymptotically safe quantum gravity or loop quantum grav\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778209825186,
-      "depth": 0
-    },
-    {
-      "id": "e87106c4d0d5",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can arrays of Casimir micro‑cavities be arranged in a topolo\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778209140949,
-      "depth": 0
-    },
-    {
-      "id": "9533f6fd5684",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 852",
-      "metricName": "score",
-      "metricValue": 0.9252992820028771,
-      "isCurrentBest": false,
-      "createdAt": 1778208795483,
-      "depth": 2
-    },
-    {
-      "id": "3fa34e6f27f3",
+      "id": "27719c31e082",
       "domain": "skills",
-      "title": "Skill Normalize Text (LLM 2 iter): 0%",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1993,
+      "metricValue": 0.1986,
       "isCurrentBest": false,
-      "createdAt": 1778208747937,
+      "createdAt": 1778223258616,
       "depth": 4
     },
     {
-      "id": "c6b63284bc16",
+      "id": "432fb0ed526a",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: In scalar‑tensor theories with non‑minimal coupling, can a w\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778223221600,
+      "depth": 0
+    },
+    {
+      "id": "6983be1f62fd",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Under the constraints of quantum energy inequalities, what i\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778223006705,
+      "depth": 0
+    },
+    {
+      "id": "f3a29fc81bac",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 87",
+      "metricName": "score",
+      "metricValue": 141.01683284855218,
+      "isCurrentBest": false,
+      "createdAt": 1778222844880,
+      "depth": 2
+    },
+    {
+      "id": "d85343c5a111",
       "domain": "physics",
       "title": "Wrote paper: \"## ABSTRACT\" (self-verification score: 4.0)",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778208528449,
+      "createdAt": 1778222783128,
       "depth": 0
     },
     {
-      "id": "f3ca80293059",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 847",
-      "metricName": "score",
-      "metricValue": 144.99154912059893,
+      "id": "2395969a9c6d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: In a braneworld scenario with a 5‑dimensional bulk, can the \" (self-ve",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778208494886,
+      "createdAt": 1778222072041,
+      "depth": 0
+    },
+    {
+      "id": "b9d437f9739d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What role does the entanglement entropy of quantum fields ac\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778221830867,
+      "depth": 0
+    },
+    {
+      "id": "86f7bb083162",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1986,
+      "isCurrentBest": false,
+      "createdAt": 1778221727057,
+      "depth": 4
+    },
+    {
+      "id": "3afc79b68712",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent warp bubble geometry with a smoothly va\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778221573415,
+      "depth": 0
+    },
+    {
+      "id": "9729e0ada488",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 61",
+      "metricName": "score",
+      "metricValue": 141.03225594649152,
+      "isCurrentBest": false,
+      "createdAt": 1778221272954,
       "depth": 2
     },
     {
-      "id": "464c57066304",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the exponential growth of the renormalized stress‑energy\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778208293760,
+      "id": "15a672eb745f",
+      "domain": "search-ranking",
+      "title": "Search round 24: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": true,
+      "createdAt": 1778221258228,
+      "depth": 1
+    },
+    {
+      "id": "2a362eb0d7cf",
+      "domain": "general",
+      "title": "AutoWeb round 8: 58/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 58,
+      "isCurrentBest": true,
+      "createdAt": 1778221110742,
       "depth": 0
     },
     {
-      "id": "d6a619e13911",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 839",
-      "metricName": "score",
-      "metricValue": 0.9249052771124529,
-      "isCurrentBest": false,
-      "createdAt": 1778208011527,
-      "depth": 2
+      "id": "94786ae4d521",
+      "domain": "finance",
+      "title": "Finance round 12: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "isCurrentBest": true,
+      "createdAt": 1778220843987,
+      "depth": 7
     },
     {
-      "id": "54260cfdab7c",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can Gauss‑Bonnet modified gravity produce a warp bubble with\" (self-ve",
-      "metricName": "verification_score",
+      "id": "3bef086dc70a",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1986,
       "isCurrentBest": false,
-      "createdAt": 1778207599778,
+      "createdAt": 1778220390703,
+      "depth": 4
+    },
+    {
+      "id": "6fdb7015cd1c",
+      "domain": "general",
+      "title": "AutoWeb round 5: 56/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 56,
+      "isCurrentBest": false,
+      "createdAt": 1778220334537,
       "depth": 0
     },
     {
-      "id": "45531c2604b4",
+      "id": "877144d323bd",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the form of the quantum‑gravity corrected renormaliz\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent warp bubble with a dynamically varying \" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778207362942,
+      "createdAt": 1778219992294,
       "depth": 0
     },
     {
-      "id": "ed63cd17cd0b",
+      "id": "7c98acb25a51",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.3137",
+      "metricName": "Sharpe",
+      "metricValue": 1.3137,
+      "isCurrentBest": false,
+      "createdAt": 1778219843447,
+      "depth": 6
+    },
+    {
+      "id": "630cab802c3a",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What are the quantum gravity corrections to the Casimir stre\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: Can a UV‑complete effective action with higher‑derivative te\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778205718487,
+      "createdAt": 1778219741210,
       "depth": 0
-    },
-    {
-      "id": "59d2f34c941d",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a hybrid warp–wormhole metric reduce the total exotic ma\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778205276335,
-      "depth": 0
-    },
-    {
-      "id": "8861fa127be2",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a warp bubble metric be engineered such that the semicla\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778205034240,
-      "depth": 0
-    },
-    {
-      "id": "5a81217d91c8",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Do $f(R)$ gravity models with a non‑minimally coupled scalar\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778204597246,
-      "depth": 0
-    },
-    {
-      "id": "328647b07179",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What are the fundamental limits on negative‑energy density a\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778204177645,
-      "depth": 0
-    },
-    {
-      "id": "ca540603e376",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 737",
-      "metricName": "score",
-      "metricValue": 145.0071316585522,
-      "isCurrentBest": false,
-      "createdAt": 1778202637448,
-      "depth": 2
-    },
-    {
-      "id": "6596d7fb9c57",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a fully self‑consistent semiclassical warp bubble be sta\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778201334608,
-      "depth": 0
-    },
-    {
-      "id": "c681ec52c147",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 724",
-      "metricName": "score",
-      "metricValue": 0.9258747466848755,
-      "isCurrentBest": false,
-      "createdAt": 1778201098733,
-      "depth": 2
     }
   ],
   "frontier": [],
@@ -294,6 +298,18 @@
     ],
     "finance": [
       {
+        "id": "94786ae4d521",
+        "title": "Finance round 12: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 7
+      },
+      {
+        "id": "7c98acb25a51",
+        "title": "Finance round 6: Sharpe=1.3137",
+        "metricValue": 1.3137,
+        "depth": 6
+      },
+      {
         "id": "f357e4f6ef10",
         "title": "Finance round 12: Sharpe=1.3129",
         "metricValue": 1.3129,
@@ -332,13 +348,19 @@
     ],
     "general": [
       {
-        "id": "0c0b7f52ed98",
-        "title": "AutoWeb round 39: 56/100",
-        "metricValue": 56,
+        "id": "2a362eb0d7cf",
+        "title": "AutoWeb round 8: 58/100",
+        "metricValue": 58,
         "depth": 0
       }
     ],
     "search-ranking": [
+      {
+        "id": "15a672eb745f",
+        "title": "Search round 24: skip peer cascade (local-only fast)",
+        "metricValue": 0.3963092975357146,
+        "depth": 1
+      },
       {
         "id": "e6cfaa884dcd",
         "title": "Search round 36: local + peer only",
