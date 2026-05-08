@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWFTqHdmi7CDSxaBvWtAMhv5aWovDruoP3pDtaZ7xJGBSY",
+  "runNumber": 28,
+  "timestamp": 1778234795225,
+  "hypothesis": "Increased model size and refined learning rate schedule based on recent successes.",
+  "config": {
+    "nLayers": 4,
+    "nHeads": 2,
+    "dModel": 256,
+    "dFF": 512,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0004,
+    "batchSize": 32,
+    "maxSteps": 75000,
+    "maxDurationSec": 180,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 100,
+    "evalSteps": 5,
+    "dataset": "astrophysics",
+    "activation": "silu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": true,
+    "residualScale": 1,
+    "dropoutRate": 0.1,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 2.745605,
+    "trainLoss": 7.550649,
+    "lossCurve": [
+      [
+        0,
+        9.010832
+      ],
+      [
+        1,
+        9.010848
+      ],
+      [
+        2,
+        9.01083
+      ],
+      [
+        3,
+        9.010832
+      ],
+      [
+        4,
+        9.010832
+      ],
+      [
+        5,
+        9.01073
+      ],
+      [
+        6,
+        9.01081
+      ],
+      [
+        7,
+        9.010804
+      ],
+      [
+        8,
+        9.010768
+      ],
+      [
+        9,
+        9.010759
+      ],
+      [
+        10,
+        9.01078
+      ],
+      [
+        50,
+        8.881868
+      ],
+      [
+        100,
+        8.002567
+      ],
+      [
+        150,
+        7.590208
+      ]
+    ],
+    "durationSec": 180.2,
+    "tokensPerSec": 477247.5027746948,
+    "totalTokens": 86000000
+  },
+  "improvement": -2.6919160648421774,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "inspiredBy": null
+}
