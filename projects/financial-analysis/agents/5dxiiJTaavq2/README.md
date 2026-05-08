@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 5dxiiJTaavq2
 
-**Best Sharpe Ratio:** 1.0695
-**Hypothesis:** [LLM] Boost momentum and trend weights, switch to risk‑parity sizing, and add drawdown protection & regime detection to tighten risk limits.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
+**Best Sharpe Ratio:** 1.3105
+**Hypothesis:** Round 10 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.1558
-**Max Drawdown:** 0.0731
+**Alpha:** 1.5126
+**Max Drawdown:** 0.0550
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-05-08T04:44:23.408Z
+**Run:** finance-r10
+**Updated:** 2026-05-08T16:03:10.764Z
