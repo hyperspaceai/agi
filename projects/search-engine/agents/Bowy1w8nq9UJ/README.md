@@ -1,10 +1,10 @@
 # Search Research — Agent Bowy1w8nq9UJ
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** abb19e9b
-**Updated:** 2026-05-07T13:19:48.759Z
+**Run:** bf2cafd1
+**Updated:** 2026-05-08T08:33:04.228Z
