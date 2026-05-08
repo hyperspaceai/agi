@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 4i8hBVhMKFLj
 
-**Best Sharpe Ratio:** 1.4072
-**Hypothesis:** [LLM] Increase momentum weight and introduce a trend-following overlay to capitalize on momentum, while tightening drawdown protection.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
+**Best Sharpe Ratio:** 1.3174
+**Hypothesis:** Round 9 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 2.2001
-**Max Drawdown:** 0.0404
+**Alpha:** 1.5172
+**Max Drawdown:** 0.0546
 **LLM:** unknown
-**Run:** llm-r6
-**Updated:** 2026-05-07T21:34:31.725Z
+**Run:** finance-r9
+**Updated:** 2026-05-08T12:29:21.294Z
