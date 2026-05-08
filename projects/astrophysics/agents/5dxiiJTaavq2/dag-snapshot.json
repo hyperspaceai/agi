@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-08T09:29:58.181Z",
+  "timestamp": "2026-05-08T11:28:15.554Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 252,
+    "totalNodes": 266,
     "observations": 0,
-    "experiments": 252,
+    "experiments": 266,
     "syntheses": 0,
-    "totalEdges": 127,
+    "totalEdges": 132,
     "maxDepth": 7,
-    "activeExperiments": 114,
-    "recentActivity": 6
+    "activeExperiments": 123,
+    "recentActivity": 7
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,14 +55,145 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 66,
-    "skills": 27,
+    "infrastructure": 67,
+    "skills": 31,
     "finance": 25,
-    "physics": 114,
+    "physics": 123,
     "general": 7,
     "search-ranking": 13
   },
   "recentExperiments": [
+    {
+      "id": "00e2db59ebc8",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can quantum‑gravity induced higher‑derivative corrections to\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778239585794,
+      "depth": 0
+    },
+    {
+      "id": "a8ff43aa4a96",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: In \\(f(R)\\) and Gauss–Bonnet gravity, can one engineer a war\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778239174576,
+      "depth": 0
+    },
+    {
+      "id": "d95182af6bfb",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Is it possible to construct a “hybrid” warp drive that combi\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778237510469,
+      "depth": 0
+    },
+    {
+      "id": "347fe96d3e49",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 328",
+      "metricName": "score",
+      "metricValue": 141.2753437289807,
+      "isCurrentBest": false,
+      "createdAt": 1778237316284,
+      "depth": 2
+    },
+    {
+      "id": "18942a0965be",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a quantum‑gravity–induced dynamical backreaction regular\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778237272253,
+      "depth": 0
+    },
+    {
+      "id": "d0d7a69ebe60",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "isCurrentBest": false,
+      "createdAt": 1778237228335,
+      "depth": 4
+    },
+    {
+      "id": "e0f660bf9ac4",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778236850842,
+      "depth": 0
+    },
+    {
+      "id": "d4633463b77a",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778235576567,
+      "depth": 0
+    },
+    {
+      "id": "c7a6d3cbeba9",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "isCurrentBest": false,
+      "createdAt": 1778233688118,
+      "depth": 4
+    },
+    {
+      "id": "3838940e115c",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: In higher‑dimensional braneworld scenarios, does the project\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778233484899,
+      "depth": 0
+    },
+    {
+      "id": "875bd037bebb",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1986,
+      "isCurrentBest": false,
+      "createdAt": 1778233424569,
+      "depth": 4
+    },
+    {
+      "id": "fbd09c6d7bfe",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a lattice of dynamically tunable, entangled quantum‑opti\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778233271274,
+      "depth": 0
+    },
+    {
+      "id": "e0edb25d2684",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the inclusion of the leading‑order quantum‑gravity corre\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778233004042,
+      "depth": 0
+    },
+    {
+      "id": "8bacd7015c2e",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1986,
+      "isCurrentBest": false,
+      "createdAt": 1778232726580,
+      "depth": 4
+    },
     {
       "id": "ed463e2d915f",
       "domain": "physics",
@@ -117,137 +248,6 @@
       "metricName": "verification_score",
       "isCurrentBest": false,
       "createdAt": 1778229053101,
-      "depth": 0
-    },
-    {
-      "id": "f70707976246",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1986,
-      "isCurrentBest": false,
-      "createdAt": 1778228799125,
-      "depth": 4
-    },
-    {
-      "id": "80ee75ebb895",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1986,
-      "isCurrentBest": false,
-      "createdAt": 1778226875267,
-      "depth": 4
-    },
-    {
-      "id": "2b063f0b6f1d",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: **What is the minimal number of Casimir micro‑cavities requi\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778226595557,
-      "depth": 0
-    },
-    {
-      "id": "8741b83af9d6",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: **Can the semiclassical instability of a finite‑thickness su\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778226137663,
-      "depth": 0
-    },
-    {
-      "id": "70e4b5b07785",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What are the characteristic gravitational‑wave signatures em\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778225603528,
-      "depth": 0
-    },
-    {
-      "id": "a8e9c5ce46b9",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 118",
-      "metricName": "score",
-      "metricValue": 0.945842428573212,
-      "isCurrentBest": false,
-      "createdAt": 1778225474642,
-      "depth": 2
-    },
-    {
-      "id": "6b42288b8a5d",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a periodic lattice of sub‑micron Casimir cavities, engin\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778224547814,
-      "depth": 0
-    },
-    {
-      "id": "07317096272b",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the full non‑perturbative quantum‑gravity correction\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778223930609,
-      "depth": 0
-    },
-    {
-      "id": "27719c31e082",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1986,
-      "isCurrentBest": false,
-      "createdAt": 1778223258616,
-      "depth": 4
-    },
-    {
-      "id": "432fb0ed526a",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: In scalar‑tensor theories with non‑minimal coupling, can a w\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778223221600,
-      "depth": 0
-    },
-    {
-      "id": "6983be1f62fd",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Under the constraints of quantum energy inequalities, what i\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778223006705,
-      "depth": 0
-    },
-    {
-      "id": "f3a29fc81bac",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 87",
-      "metricName": "score",
-      "metricValue": 141.01683284855218,
-      "isCurrentBest": false,
-      "createdAt": 1778222844880,
-      "depth": 2
-    },
-    {
-      "id": "d85343c5a111",
-      "domain": "physics",
-      "title": "Wrote paper: \"## ABSTRACT\" (self-verification score: 4.0)",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778222783128,
-      "depth": 0
-    },
-    {
-      "id": "2395969a9c6d",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: In a braneworld scenario with a 5‑dimensional bulk, can the \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778222072041,
       "depth": 0
     }
   ],
