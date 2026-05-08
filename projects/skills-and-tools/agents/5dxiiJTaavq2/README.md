@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 5dxiiJTaavq2
 
-**Latest Skill:** Cosine Text Similarity (LLM 2 iter) v1
-**Score:** 0.1986
+**Latest Skill:** Structured JSON Diff (LLM 2 iter) v1
+**Score:** 0.1969
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct [0.20]
+**Description:** Structured JSON Diff: 0% correct [0.20]
 
-_Updated: 2026-05-08T17:17:20.639Z_
+_Updated: 2026-05-08T17:27:11.984Z_
