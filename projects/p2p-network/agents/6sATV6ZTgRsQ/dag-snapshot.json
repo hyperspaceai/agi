@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-08T13:14:21.152Z",
+  "timestamp": "2026-05-08T19:52:34.277Z",
   "peerId": "12D3KooWFgXdEE9AsL8uCTVtcr3Dj9RXUbnNobgjod69bdb5saom",
   "stats": {
-    "totalNodes": 539,
+    "totalNodes": 566,
     "observations": 2,
-    "experiments": 537,
+    "experiments": 564,
     "syntheses": 0,
-    "totalEdges": 390,
+    "totalEdges": 412,
     "maxDepth": 9,
-    "activeExperiments": 118,
-    "recentActivity": 1
+    "activeExperiments": 123,
+    "recentActivity": 7
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,208 +55,211 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 200,
-    "skills": 139,
+    "infrastructure": 208,
+    "skills": 145,
     "knowledge": 2,
-    "physics": 118,
+    "physics": 123,
     "general": 25,
     "search-ranking": 2,
-    "finance": 53
+    "finance": 61
   },
   "recentExperiments": [
     {
-      "id": "72b448ce232b",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can dynamically modulating the geometry of a warp bubble, sp\" (self-ve",
-      "metricName": "verification_score",
+      "id": "ec3723ccf006",
+      "domain": "finance",
+      "title": "Finance round 10: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
       "isCurrentBest": false,
-      "createdAt": 1778244956915,
-      "depth": 0
+      "createdAt": 1778269653997,
+      "depth": 9
     },
     {
-      "id": "a6c947ade019",
+      "id": "08a91e5d7385",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.3137",
+      "metricName": "Sharpe",
+      "metricValue": 1.3137,
+      "isCurrentBest": false,
+      "createdAt": 1778269053948,
+      "depth": 9
+    },
+    {
+      "id": "14790adfbbdd",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.2113",
+      "metricName": "Sharpe",
+      "metricValue": 1.2113,
+      "isCurrentBest": false,
+      "createdAt": 1778268903888,
+      "depth": 9
+    },
+    {
+      "id": "eddefcd7cd32",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.1991",
+      "metricName": "Sharpe",
+      "metricValue": 1.1991,
+      "isCurrentBest": false,
+      "createdAt": 1778268753885,
+      "depth": 9
+    },
+    {
+      "id": "98a595cb41f8",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1057",
+      "metricName": "Sharpe",
+      "metricValue": 1.1057,
+      "isCurrentBest": false,
+      "createdAt": 1778268603939,
+      "depth": 9
+    },
+    {
+      "id": "de4cf68cb4de",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.0852",
+      "metricName": "Sharpe",
+      "metricValue": 1.0852,
+      "isCurrentBest": false,
+      "createdAt": 1778268453880,
+      "depth": 9
+    },
+    {
+      "id": "33257492fb47",
       "domain": "finance",
       "title": "Finance round 1: Sharpe=1.0735",
       "metricName": "Sharpe",
       "metricValue": 1.0735,
       "isCurrentBest": false,
-      "createdAt": 1778242386100,
+      "createdAt": 1778268303884,
       "depth": 9
     },
     {
-      "id": "8436235a1486",
+      "id": "fe9a3b5f5387",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can we formulate a consistent framework where the higher-cur\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: Given the limitations on scaling Casimir micro-cavities for \" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778241239297,
+      "createdAt": 1778264987443,
       "depth": 0
     },
     {
-      "id": "51d4253aad7a",
-      "domain": "search-ranking",
-      "title": "Search round 1: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778241038981,
-      "depth": 1
-    },
-    {
-      "id": "c876750dbaf4",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1778238661673,
-      "depth": 2
-    },
-    {
-      "id": "cf39c2a708f7",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Given the limitations on achievable negative energy densitie\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778237647047,
-      "depth": 0
-    },
-    {
-      "id": "59e75c66708b",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1778237439624,
-      "depth": 2
-    },
-    {
-      "id": "53025ce08050",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How does the introduction of a dynamically evolving, spatial\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778236258013,
-      "depth": 0
-    },
-    {
-      "id": "f543482b22d1",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1778236092547,
-      "depth": 2
-    },
-    {
-      "id": "d7824572e35f",
-      "domain": "general",
-      "title": "AutoWeb round 2: 69/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 69,
-      "isCurrentBest": false,
-      "createdAt": 1778234879126,
-      "depth": 0
-    },
-    {
-      "id": "0a7cbbb6c6cf",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1778234791734,
-      "depth": 2
-    },
-    {
-      "id": "4b86e70a296e",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 165",
-      "metricName": "score",
-      "metricValue": 145.03121701686027,
-      "isCurrentBest": false,
-      "createdAt": 1778234753568,
-      "depth": 9
-    },
-    {
-      "id": "265f880a52d2",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1778232244828,
-      "depth": 2
-    },
-    {
-      "id": "877ecdcf9b30",
-      "domain": "general",
-      "title": "AutoWeb round 1: 59/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 59,
-      "isCurrentBest": false,
-      "createdAt": 1778230984874,
-      "depth": 0
-    },
-    {
-      "id": "91373834a732",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1778230911728,
-      "depth": 2
-    },
-    {
-      "id": "49a9bd3432bc",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Does the semiclassical instability associated with warp bubb\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778229751359,
-      "depth": 0
-    },
-    {
-      "id": "0f6ebc7dbf9d",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1778229572155,
-      "depth": 2
-    },
-    {
-      "id": "c3d15fd7b7fe",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can dynamically varying the geometry of Casimir micro-cavity\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778227195533,
-      "depth": 0
-    },
-    {
-      "id": "a3581832cd53",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1778227058944,
-      "depth": 2
-    },
-    {
-      "id": "9740b418ad13",
+      "id": "e05ea695199d",
       "domain": "skills",
       "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1996,
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1778225708104,
+      "createdAt": 1778264862004,
       "depth": 2
+    },
+    {
+      "id": "42b038ada9df",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1778263508018,
+      "depth": 2
+    },
+    {
+      "id": "ba91c55e892f",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778261739906,
+      "depth": 2
+    },
+    {
+      "id": "2e1adeae7c96",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 20",
+      "metricName": "score",
+      "metricValue": 141.1955327871021,
+      "isCurrentBest": false,
+      "createdAt": 1778261724710,
+      "depth": 9
+    },
+    {
+      "id": "13eda85186ac",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 17",
+      "metricName": "score",
+      "metricValue": 141.24137748998209,
+      "isCurrentBest": false,
+      "createdAt": 1778261724709,
+      "depth": 9
+    },
+    {
+      "id": "a883fb0ae14a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 15",
+      "metricName": "score",
+      "metricValue": 141.40297621205042,
+      "isCurrentBest": false,
+      "createdAt": 1778261724708,
+      "depth": 9
+    },
+    {
+      "id": "6fabfe7f44de",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Assuming the Fuchs et al. (2024) solution can be extended to\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778259628402,
+      "depth": 0
+    },
+    {
+      "id": "26345b3b04dd",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778259432826,
+      "depth": 2
+    },
+    {
+      "id": "409a0b8a3d59",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can dynamically varying the warp bubble geometry *during* tr\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778256999283,
+      "depth": 0
+    },
+    {
+      "id": "b2b2bb1d03a2",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778256852917,
+      "depth": 2
+    },
+    {
+      "id": "566fa627fbd9",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778255517834,
+      "depth": 2
+    },
+    {
+      "id": "eb2f039d7616",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 481",
+      "metricName": "score",
+      "metricValue": 0.9404889227632653,
+      "isCurrentBest": false,
+      "createdAt": 1778253623852,
+      "depth": 9
     }
   ],
   "frontier": [],
