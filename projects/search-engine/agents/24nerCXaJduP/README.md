@@ -1,10 +1,10 @@
 # Search Research — Agent 24nerCXaJduP
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** increase diversity penalty (0.2)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 102b4e18
-**Updated:** 2026-05-07T05:51:30.941Z
+**Run:** 799debec
+**Updated:** 2026-05-09T08:15:38.171Z
