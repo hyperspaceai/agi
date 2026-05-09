@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-09T11:36:06.193Z",
+  "timestamp": "2026-05-09T12:36:27.228Z",
   "peerId": "12D3KooWCjeASx5bWxPVoMh1K1vkKowEXH3HFGe6Pedf52yVZ9QV",
   "stats": {
-    "totalNodes": 652,
+    "totalNodes": 654,
     "observations": 0,
-    "experiments": 652,
+    "experiments": 654,
     "syntheses": 0,
-    "totalEdges": 648,
+    "totalEdges": 650,
     "maxDepth": 13,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 305,
-    "skills": 188,
+    "infrastructure": 306,
+    "skills": 189,
     "finance": 103,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "442866873928",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 440",
+      "metricName": "score",
+      "metricValue": 141.01501202567312,
+      "isCurrentBest": false,
+      "createdAt": 1778329586919,
+      "depth": 4
+    },
+    {
+      "id": "65d4b84657a5",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1778329106931,
+      "depth": 1
+    },
     {
       "id": "e21b70315342",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778304553836,
       "depth": 1
-    },
-    {
-      "id": "827eedbf7d44",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 22",
-      "metricName": "score",
-      "metricValue": 0.9668737325003969,
-      "isCurrentBest": false,
-      "createdAt": 1778304463821,
-      "depth": 4
-    },
-    {
-      "id": "ed870813210b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 18",
-      "metricName": "score",
-      "metricValue": 0.9627689742611591,
-      "isCurrentBest": false,
-      "createdAt": 1778304222007,
-      "depth": 4
     }
   ],
   "frontier": [],
