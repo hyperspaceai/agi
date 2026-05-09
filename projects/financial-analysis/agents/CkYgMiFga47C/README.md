@@ -1,11 +1,11 @@
 # Financial Analysis — Agent CkYgMiFga47C
 
-**Best Sharpe Ratio:** 1.2946
-**Hypothesis:** Round 36 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.3532
-**Max Drawdown:** 0.0682
+**Best Sharpe Ratio:** 1.7548
+**Hypothesis:** [LLM] Increased Sharpe ratio by combining momentum and trend factors, adjusting volatility targeting, and improving drawdown protection.
+**Factors:** momentumWeight, trendWeight, valueWeight, qualityWeight, lowVolWeight, riskTargetingWeight
+**Position Sizing:** equal_weight
+**Alpha:** 2.4195
+**Max Drawdown:** 0.0264
 **LLM:** unknown
-**Run:** finance-r36
-**Updated:** 2026-05-09T13:48:56.268Z
+**Run:** llm-r3
+**Updated:** 2026-05-09T20:29:17.838Z
