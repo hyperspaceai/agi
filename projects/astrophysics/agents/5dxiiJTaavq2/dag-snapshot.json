@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-09T17:48:52.090Z",
+  "timestamp": "2026-05-09T19:24:44.144Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 723,
+    "totalNodes": 735,
     "observations": 0,
-    "experiments": 723,
+    "experiments": 735,
     "syntheses": 0,
-    "totalEdges": 395,
+    "totalEdges": 397,
     "maxDepth": 8,
-    "activeExperiments": 305,
-    "recentActivity": 4
+    "activeExperiments": 315,
+    "recentActivity": 8
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,14 +55,124 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 168,
-    "skills": 93,
+    "infrastructure": 169,
+    "skills": 94,
     "finance": 108,
-    "physics": 305,
+    "physics": 315,
     "general": 19,
     "search-ranking": 30
   },
   "recentExperiments": [
+    {
+      "id": "9ad00f221121",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Do non‑local modified gravity models of the form \\(f(\\Box R)\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778353560546,
+      "depth": 0
+    },
+    {
+      "id": "c5959bacef58",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent scalar field configuration be engineere\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778353347720,
+      "depth": 0
+    },
+    {
+      "id": "8751391b08eb",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How do higher‑spin quantum fields (spin‑½ fermions and spin‑\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778353006783,
+      "depth": 0
+    },
+    {
+      "id": "43b0bbe13065",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.199,
+      "isCurrentBest": false,
+      "createdAt": 1778352793702,
+      "depth": 4
+    },
+    {
+      "id": "7e8dbd564b76",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: In polynomial \\(f(R)\\) gravity, can a specific functional fo\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778352537086,
+      "depth": 0
+    },
+    {
+      "id": "f395f8f27b21",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a Casimir–metamaterial negative‑energy layer be engineer\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778352344229,
+      "depth": 0
+    },
+    {
+      "id": "04236b2e008a",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How do quantum fluctuations of a non‑minimally coupled scala\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778352113126,
+      "depth": 0
+    },
+    {
+      "id": "cd794ebf885d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 193",
+      "metricName": "score",
+      "metricValue": 141.42792207033943,
+      "isCurrentBest": false,
+      "createdAt": 1778351981664,
+      "depth": 2
+    },
+    {
+      "id": "501ce049be92",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What are the fundamental limits on scaling arrays of Casimir\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778349970835,
+      "depth": 0
+    },
+    {
+      "id": "261a6ecd2437",
+      "domain": "physics",
+      "title": "Wrote paper: \"1. TITLE\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778349754624,
+      "depth": 0
+    },
+    {
+      "id": "8e3e3321be08",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What functional constraints on \\(f(R)\\) theories allow warp‑\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778349535741,
+      "depth": 0
+    },
+    {
+      "id": "75d734c36f4d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How do finite temperature effects and realistic material los\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778349145623,
+      "depth": 0
+    },
     {
       "id": "9cb7b7e736a1",
       "domain": "physics",
@@ -136,122 +246,6 @@
       "isCurrentBest": false,
       "createdAt": 1778343471698,
       "depth": 8
-    },
-    {
-      "id": "591692d5ebce",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1778343425938,
-      "depth": 4
-    },
-    {
-      "id": "1fa2120aaeb6",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.3137",
-      "metricName": "Sharpe",
-      "metricValue": 1.3137,
-      "isCurrentBest": false,
-      "createdAt": 1778343018374,
-      "depth": 8
-    },
-    {
-      "id": "b5e22c285882",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What gravitational‑wave signatures are produced by a warp bu\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778342991622,
-      "depth": 0
-    },
-    {
-      "id": "90061c5722ce",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.3040",
-      "metricName": "Sharpe",
-      "metricValue": 1.304,
-      "isCurrentBest": false,
-      "createdAt": 1778342872570,
-      "depth": 8
-    },
-    {
-      "id": "bcb9a860b9f2",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the minimal lattice spacing and cavity geometry requ\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778342776425,
-      "depth": 0
-    },
-    {
-      "id": "ca8c675ae87a",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1778342708551,
-      "depth": 4
-    },
-    {
-      "id": "2321e3eb87fa",
-      "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.2081",
-      "metricName": "Sharpe",
-      "metricValue": 1.2081,
-      "isCurrentBest": false,
-      "createdAt": 1778342564948,
-      "depth": 8
-    },
-    {
-      "id": "0ae2ee97097c",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a non‑local \\(f(R)=R+\\alpha R^{2}\\,e^{-R/\\Lambda^{2}}\\) \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778341592501,
-      "depth": 0
-    },
-    {
-      "id": "24e93cec2202",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.1991",
-      "metricName": "Sharpe",
-      "metricValue": 1.1991,
-      "isCurrentBest": false,
-      "createdAt": 1778341284804,
-      "depth": 8
-    },
-    {
-      "id": "00d2fe09535f",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1778341238795,
-      "depth": 4
-    },
-    {
-      "id": "f0bd372cd407",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 13",
-      "metricName": "score",
-      "metricValue": 141.3173690955396,
-      "isCurrentBest": false,
-      "createdAt": 1778341202113,
-      "depth": 2
-    },
-    {
-      "id": "c5eb5880eb98",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Do f(R) gravity models with a suitable choice of the functio\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778341142575,
-      "depth": 0
     }
   ],
   "frontier": [],
