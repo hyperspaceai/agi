@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 59zaiDagUSxK
 
-**Best Sharpe Ratio:** 1.3623
-**Hypothesis:** [LLM] Increase momentum factor weight and enable trend following to capitalize on momentum trends, while also reducing max drawdown.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, trendWeight
+**Best Sharpe Ratio:** 1.2487
+**Hypothesis:** Round 9 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.8929
-**Max Drawdown:** 0.0467
+**Alpha:** 1.3522
+**Max Drawdown:** 0.0725
 **LLM:** unknown
-**Run:** llm-r11
-**Updated:** 2026-05-08T03:35:40.419Z
+**Run:** finance-r9
+**Updated:** 2026-05-09T15:38:58.830Z
