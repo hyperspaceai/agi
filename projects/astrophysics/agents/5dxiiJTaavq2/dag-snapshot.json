@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "timestamp": "2026-05-09T04:49:32.360Z",
+  "timestamp": "2026-05-09T05:49:37.941Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 543,
+    "totalNodes": 554,
     "observations": 0,
-    "experiments": 543,
+    "experiments": 554,
     "syntheses": 0,
-    "totalEdges": 304,
+    "totalEdges": 306,
     "maxDepth": 8,
-    "activeExperiments": 222,
+    "activeExperiments": 230,
     "recentActivity": 11
   },
   "bestPerDomain": {
@@ -55,14 +55,116 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 128,
-    "skills": 68,
+    "infrastructure": 129,
+    "skills": 69,
     "finance": 82,
-    "physics": 222,
-    "general": 13,
+    "physics": 230,
+    "general": 14,
     "search-ranking": 30
   },
   "recentExperiments": [
+    {
+      "id": "5738633aa908",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the optimal time‑dependent angular velocity profile \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778305711709,
+      "depth": 0
+    },
+    {
+      "id": "32f7243ff0df",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can temporally modulated Casimir micro‑cavities with resonan\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778305122354,
+      "depth": 0
+    },
+    {
+      "id": "c0865fda4da5",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1989,
+      "isCurrentBest": false,
+      "createdAt": 1778304940338,
+      "depth": 4
+    },
+    {
+      "id": "74beef04116b",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the quantum backreaction of a rotating 5‑D warp bubb\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778304440991,
+      "depth": 0
+    },
+    {
+      "id": "7f320b28cf24",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the combined effect of introducing Kerr‑like rotatio\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778304223240,
+      "depth": 0
+    },
+    {
+      "id": "5dec60c0333f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 216",
+      "metricName": "score",
+      "metricValue": 145.00683690646684,
+      "isCurrentBest": false,
+      "createdAt": 1778303321497,
+      "depth": 2
+    },
+    {
+      "id": "dc5fb44a19c2",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the effect of introducing a controlled angular momen\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778303232497,
+      "depth": 0
+    },
+    {
+      "id": "d94fa591503f",
+      "domain": "general",
+      "title": "AutoWeb round 25: 58/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 58,
+      "isCurrentBest": false,
+      "createdAt": 1778303058087,
+      "depth": 0
+    },
+    {
+      "id": "bf99105bd046",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Is it feasible to engineer a lattice of Casimir micro‑caviti\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778302971451,
+      "depth": 0
+    },
+    {
+      "id": "d240f40185aa",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can higher‑order Lovelock terms (cubic and quartic) be emplo\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778302761311,
+      "depth": 0
+    },
+    {
+      "id": "df14512ab3a1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent scalar–Gauss–Bonnet coupling function b\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778302330399,
+      "depth": 0
+    },
     {
       "id": "68a0bd43a267",
       "domain": "physics",
@@ -147,113 +249,6 @@
       "isCurrentBest": false,
       "createdAt": 1778299473645,
       "depth": 0
-    },
-    {
-      "id": "694720ecb72d",
-      "domain": "finance",
-      "title": "Finance round 24: Sharpe=1.2818",
-      "metricName": "Sharpe",
-      "metricValue": 1.2818,
-      "isCurrentBest": false,
-      "createdAt": 1778299405117,
-      "depth": 8
-    },
-    {
-      "id": "2d6288ac94c5",
-      "domain": "finance",
-      "title": "Finance round 23: Sharpe=1.2754",
-      "metricName": "Sharpe",
-      "metricValue": 1.2754,
-      "isCurrentBest": false,
-      "createdAt": 1778299242656,
-      "depth": 8
-    },
-    {
-      "id": "88a30c56241a",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1988,
-      "isCurrentBest": false,
-      "createdAt": 1778297485625,
-      "depth": 4
-    },
-    {
-      "id": "6ccf647ebb17",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the effect of quantum backreaction from vacuum fluct\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778297458944,
-      "depth": 0
-    },
-    {
-      "id": "fc3cd719e5e3",
-      "domain": "finance",
-      "title": "Finance round 19: Sharpe=1.2711",
-      "metricName": "Sharpe",
-      "metricValue": 1.2711,
-      "isCurrentBest": false,
-      "createdAt": 1778297440628,
-      "depth": 8
-    },
-    {
-      "id": "36289a386a00",
-      "domain": "finance",
-      "title": "Finance round 18: Sharpe=1.2668",
-      "metricName": "Sharpe",
-      "metricValue": 1.2668,
-      "isCurrentBest": false,
-      "createdAt": 1778297286726,
-      "depth": 8
-    },
-    {
-      "id": "154dbc7e5632",
-      "domain": "finance",
-      "title": "Finance round 17: Sharpe=1.2593",
-      "metricName": "Sharpe",
-      "metricValue": 1.2593,
-      "isCurrentBest": false,
-      "createdAt": 1778295933545,
-      "depth": 8
-    },
-    {
-      "id": "6fa5cc11cc00",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a composite Casimir lattice that alternates high‑ and lo\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778295798220,
-      "depth": 0
-    },
-    {
-      "id": "d045ee474c54",
-      "domain": "finance",
-      "title": "Finance round 16: Sharpe=1.2543",
-      "metricName": "Sharpe",
-      "metricValue": 1.2543,
-      "isCurrentBest": false,
-      "createdAt": 1778295782923,
-      "depth": 8
-    },
-    {
-      "id": "ad25252003d8",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the minimal bubble radius for which a warp bubble in\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778295634157,
-      "depth": 0
-    },
-    {
-      "id": "7014ae5d2aeb",
-      "domain": "search-ranking",
-      "title": "Search round 16: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778294098235,
-      "depth": 3
     }
   ],
   "frontier": [],
