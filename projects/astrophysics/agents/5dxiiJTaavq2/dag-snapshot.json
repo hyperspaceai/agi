@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-09T21:44:12.447Z",
+  "timestamp": "2026-05-09T23:02:04.070Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 765,
+    "totalNodes": 777,
     "observations": 0,
-    "experiments": 765,
+    "experiments": 777,
     "syntheses": 0,
-    "totalEdges": 408,
+    "totalEdges": 412,
     "maxDepth": 8,
-    "activeExperiments": 334,
-    "recentActivity": 11
+    "activeExperiments": 342,
+    "recentActivity": 10
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,14 +55,126 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 176,
-    "skills": 98,
+    "infrastructure": 178,
+    "skills": 100,
     "finance": 108,
-    "physics": 334,
+    "physics": 342,
     "general": 19,
     "search-ranking": 30
   },
   "recentExperiments": [
+    {
+      "id": "b13d46f3ed0e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 449",
+      "metricName": "score",
+      "metricValue": 141.09984031989575,
+      "isCurrentBest": false,
+      "createdAt": 1778367364883,
+      "depth": 2
+    },
+    {
+      "id": "9c826aeb2af3",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 6.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778367288401,
+      "depth": 0
+    },
+    {
+      "id": "45f4a869ba4d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778367125379,
+      "depth": 0
+    },
+    {
+      "id": "9a397708da31",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778366915219,
+      "depth": 0
+    },
+    {
+      "id": "9a01c2207665",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1778366373267,
+      "depth": 4
+    },
+    {
+      "id": "ec360977e41d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What are the scaling laws for arrays of Casimir micro‑caviti\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778366303900,
+      "depth": 0
+    },
+    {
+      "id": "719b92a98fa1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the higher‑curvature terms of Gauss‑Bonnet‑\\(f(R)\\) grav\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778365628555,
+      "depth": 0
+    },
+    {
+      "id": "114beb6f5d5d",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1778365548903,
+      "depth": 4
+    },
+    {
+      "id": "f04504477dc8",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What are the quantum back‑reaction effects of a dynamically \" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778365407438,
+      "depth": 0
+    },
+    {
+      "id": "8d87086ba78b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 398",
+      "metricName": "score",
+      "metricValue": 0.9323600356728395,
+      "isCurrentBest": false,
+      "createdAt": 1778364896295,
+      "depth": 2
+    },
+    {
+      "id": "af7c78b5bf03",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What gravitational‑wave signatures are emitted during the nu\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778363370943,
+      "depth": 0
+    },
+    {
+      "id": "75ebf951b1c1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent Casimir micro‑cavity lattice satisfy th\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778363149480,
+      "depth": 0
+    },
     {
       "id": "782648ebcf33",
       "domain": "physics",
@@ -134,117 +246,6 @@
       "metricName": "verification_score",
       "isCurrentBest": false,
       "createdAt": 1778361061704,
-      "depth": 0
-    },
-    {
-      "id": "b6c62cefd586",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: In warp‑drive spacetimes where the higher‑curvature terms of\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778360604662,
-      "depth": 0
-    },
-    {
-      "id": "4c8274548219",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the backreaction of entanglement entropy across a wa\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778360229873,
-      "depth": 0
-    },
-    {
-      "id": "662615e8d78d",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent array of Casimir micro‑cavities, whose \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778359569894,
-      "depth": 0
-    },
-    {
-      "id": "919e3441bfab",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1778359328254,
-      "depth": 4
-    },
-    {
-      "id": "08914247a8de",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1778359201170,
-      "depth": 4
-    },
-    {
-      "id": "d49e7e9afb5f",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the backreaction of entanglement entropy across a wa\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778359116421,
-      "depth": 0
-    },
-    {
-      "id": "56c60b10629b",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can squeezed‑vacuum quantum field configurations be combined\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778358942340,
-      "depth": 0
-    },
-    {
-      "id": "48b5a076e690",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 304",
-      "metricName": "score",
-      "metricValue": 141.1079198104983,
-      "isCurrentBest": false,
-      "createdAt": 1778358662055,
-      "depth": 2
-    },
-    {
-      "id": "ffc88bb78791",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Do higher‑order Lovelock gravity theories admit warp‑bubble \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778358323700,
-      "depth": 0
-    },
-    {
-      "id": "b7c40b871abc",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the entanglement entropy of quantum fields across the wa\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778357857463,
-      "depth": 0
-    },
-    {
-      "id": "b9c221973f2c",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent array of Casimir micro‑cavities embedde\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778357674396,
-      "depth": 0
-    },
-    {
-      "id": "a36270e4a11e",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Do higher‑dimensional (D > 4) Gauss‑Bonnet gravity theories \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778357439817,
       "depth": 0
     }
   ],
