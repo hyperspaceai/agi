@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-08T21:14:57.495Z",
+  "timestamp": "2026-05-09T00:53:47.335Z",
   "peerId": "12D3KooWEFEvnwmAHWA6cRGhbjWMcR2TSTjbkMJ18H7nWpQh2k1e",
   "stats": {
-    "totalNodes": 688,
+    "totalNodes": 692,
     "observations": 0,
-    "experiments": 688,
+    "experiments": 692,
     "syntheses": 0,
-    "totalEdges": 684,
+    "totalEdges": 688,
     "maxDepth": 18,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 233,
-    "skills": 292,
+    "infrastructure": 234,
+    "skills": 295,
     "finance": 107,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "1497135afff5",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1977,
+      "isCurrentBest": false,
+      "createdAt": 1778287914642,
+      "depth": 8
+    },
+    {
+      "id": "744d12306947",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1977,
+      "isCurrentBest": false,
+      "createdAt": 1778283580458,
+      "depth": 8
+    },
+    {
+      "id": "24a4c58282b1",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1977,
+      "isCurrentBest": false,
+      "createdAt": 1778277298456,
+      "depth": 8
+    },
+    {
+      "id": "0292b629b95f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 166",
+      "metricName": "score",
+      "metricValue": 0.9776219293804033,
+      "isCurrentBest": false,
+      "createdAt": 1778275156731,
+      "depth": 6
+    },
     {
       "id": "b19e89789e73",
       "domain": "skills",
@@ -211,46 +251,6 @@
       "metricValue": 0.3935620718710802,
       "isCurrentBest": false,
       "createdAt": 1778268133066,
-      "depth": 1
-    },
-    {
-      "id": "90115d34f304",
-      "domain": "search-ranking",
-      "title": "Search round 28: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710802,
-      "isCurrentBest": false,
-      "createdAt": 1778268130154,
-      "depth": 1
-    },
-    {
-      "id": "fa343e395450",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1977,
-      "isCurrentBest": false,
-      "createdAt": 1778267973122,
-      "depth": 8
-    },
-    {
-      "id": "00f003db6843",
-      "domain": "search-ranking",
-      "title": "Search round 27: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710802,
-      "isCurrentBest": false,
-      "createdAt": 1778267757473,
-      "depth": 1
-    },
-    {
-      "id": "e4b398ee810c",
-      "domain": "search-ranking",
-      "title": "Search round 27: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710802,
-      "isCurrentBest": false,
-      "createdAt": 1778267737460,
       "depth": 1
     }
   ],
