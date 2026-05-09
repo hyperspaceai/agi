@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-09T13:08:05.538Z",
+  "timestamp": "2026-05-09T14:28:00.363Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 665,
+    "totalNodes": 678,
     "observations": 0,
-    "experiments": 665,
+    "experiments": 678,
     "syntheses": 0,
-    "totalEdges": 364,
+    "totalEdges": 368,
     "maxDepth": 8,
-    "activeExperiments": 279,
-    "recentActivity": 13
+    "activeExperiments": 288,
+    "recentActivity": 7
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,14 +55,135 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 156,
-    "skills": 82,
+    "infrastructure": 157,
+    "skills": 85,
     "finance": 100,
-    "physics": 279,
+    "physics": 288,
     "general": 18,
     "search-ranking": 30
   },
   "recentExperiments": [
+    {
+      "id": "cf72b765abe5",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What entanglement structure between two quantum fields is ne\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778336572280,
+      "depth": 0
+    },
+    {
+      "id": "194862baea73",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the ultimate negative‑energy density attainable by a\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778336233424,
+      "depth": 0
+    },
+    {
+      "id": "396b8ab66bde",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a warp bubble be realized in Einstein‑Gauss‑Bonnet gravi\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778336011111,
+      "depth": 0
+    },
+    {
+      "id": "ac33fb38c1ef",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Is it possible to use entanglement‑assisted quantum‑field co\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778335550632,
+      "depth": 0
+    },
+    {
+      "id": "02f56e3b524d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a warp bubble be engineered in Gauss‑Bonnet gravity wher\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778335360577,
+      "depth": 0
+    },
+    {
+      "id": "5efa5835b07b",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1987,
+      "isCurrentBest": false,
+      "createdAt": 1778335201808,
+      "depth": 4
+    },
+    {
+      "id": "58c04b053be2",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the theoretical upper bound on negative energy densi\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778335111930,
+      "depth": 0
+    },
+    {
+      "id": "30b48e8bd43d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778332914743,
+      "depth": 0
+    },
+    {
+      "id": "0c4eee94b1a4",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778332679319,
+      "depth": 0
+    },
+    {
+      "id": "4ff1944d6927",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 132",
+      "metricName": "score",
+      "metricValue": 141.16781974535374,
+      "isCurrentBest": false,
+      "createdAt": 1778332644074,
+      "depth": 2
+    },
+    {
+      "id": "3ac2fa32340c",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778332456660,
+      "depth": 0
+    },
+    {
+      "id": "70bcc3be805c",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1987,
+      "isCurrentBest": false,
+      "createdAt": 1778332336905,
+      "depth": 4
+    },
+    {
+      "id": "c66685e5441e",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1987,
+      "isCurrentBest": false,
+      "createdAt": 1778332221921,
+      "depth": 4
+    },
     {
       "id": "c28558090578",
       "domain": "physics",
@@ -127,131 +248,6 @@
       "isCurrentBest": false,
       "createdAt": 1778330667246,
       "depth": 4
-    },
-    {
-      "id": "db1b18b92723",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 95",
-      "metricName": "score",
-      "metricValue": 0.9789317533560262,
-      "isCurrentBest": false,
-      "createdAt": 1778330655985,
-      "depth": 2
-    },
-    {
-      "id": "5980eb191de1",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can entanglement‑assisted boundary conditions in a Casimir m\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778329509983,
-      "depth": 0
-    },
-    {
-      "id": "baa1e2b0c178",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 78",
-      "metricName": "score",
-      "metricValue": 0.9724063391877569,
-      "isCurrentBest": false,
-      "createdAt": 1778329388610,
-      "depth": 2
-    },
-    {
-      "id": "7cedac1292b0",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the minimal Gauss–Bonnet coupling constant that perm\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778329329104,
-      "depth": 0
-    },
-    {
-      "id": "81233ab8f62a",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1987,
-      "isCurrentBest": false,
-      "createdAt": 1778329214852,
-      "depth": 4
-    },
-    {
-      "id": "39df03736df9",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a quasi‑two‑dimensional lattice of Casimir micro‑cavitie\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778328512690,
-      "depth": 0
-    },
-    {
-      "id": "7e4ee4eb2809",
-      "domain": "finance",
-      "title": "Finance round 16: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1778328225199,
-      "depth": 8
-    },
-    {
-      "id": "4ef56a00f29e",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1987,
-      "isCurrentBest": false,
-      "createdAt": 1778328134849,
-      "depth": 4
-    },
-    {
-      "id": "4717404dac14",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the minimal lattice spacing and cavity size required\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778328067211,
-      "depth": 0
-    },
-    {
-      "id": "4e47bd64c5a3",
-      "domain": "general",
-      "title": "AutoWeb round 7: 58/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 58,
-      "isCurrentBest": false,
-      "createdAt": 1778327767056,
-      "depth": 0
-    },
-    {
-      "id": "e184fb776d90",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.3105",
-      "metricName": "Sharpe",
-      "metricValue": 1.3105,
-      "isCurrentBest": false,
-      "createdAt": 1778327471604,
-      "depth": 8
-    },
-    {
-      "id": "7190e30003e8",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1987,
-      "isCurrentBest": false,
-      "createdAt": 1778327396697,
-      "depth": 4
-    },
-    {
-      "id": "c6c0d156df1a",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: In Gauss‑Bonnet gravity, can the higher‑curvature terms prov\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778327242576,
-      "depth": 0
     }
   ],
   "frontier": [],
