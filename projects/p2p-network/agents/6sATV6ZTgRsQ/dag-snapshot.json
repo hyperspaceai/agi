@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-09T02:52:36.070Z",
+  "timestamp": "2026-05-09T04:52:36.319Z",
   "peerId": "12D3KooWFgXdEE9AsL8uCTVtcr3Dj9RXUbnNobgjod69bdb5saom",
   "stats": {
-    "totalNodes": 576,
+    "totalNodes": 579,
     "observations": 2,
-    "experiments": 574,
+    "experiments": 577,
     "syntheses": 0,
-    "totalEdges": 422,
+    "totalEdges": 425,
     "maxDepth": 9,
     "activeExperiments": 123,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 218,
+    "infrastructure": 221,
     "skills": 145,
     "knowledge": 2,
     "physics": 123,
@@ -64,6 +64,36 @@
     "finance": 61
   },
   "recentExperiments": [
+    {
+      "id": "5872e84a204b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 540",
+      "metricName": "score",
+      "metricValue": 0.9433833184085827,
+      "isCurrentBest": false,
+      "createdAt": 1778299415861,
+      "depth": 9
+    },
+    {
+      "id": "99f3f1f5d69a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 525",
+      "metricName": "score",
+      "metricValue": 0.9410480488535184,
+      "isCurrentBest": false,
+      "createdAt": 1778298515841,
+      "depth": 9
+    },
+    {
+      "id": "cf9d2cc9a339",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 493",
+      "metricName": "score",
+      "metricValue": 0.9399896433359961,
+      "isCurrentBest": false,
+      "createdAt": 1778296595733,
+      "depth": 9
+    },
     {
       "id": "2bf04fd7b472",
       "domain": "infrastructure",
@@ -233,35 +263,6 @@
       "isCurrentBest": false,
       "createdAt": 1778268303884,
       "depth": 9
-    },
-    {
-      "id": "fe9a3b5f5387",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Given the limitations on scaling Casimir micro-cavities for \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778264987443,
-      "depth": 0
-    },
-    {
-      "id": "e05ea695199d",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1778264862004,
-      "depth": 2
-    },
-    {
-      "id": "42b038ada9df",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1778263508018,
-      "depth": 2
     }
   ],
   "frontier": [],
