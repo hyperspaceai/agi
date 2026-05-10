@@ -1,0 +1,23 @@
+{
+  "runId": "llm-r4",
+  "runNumber": 4,
+  "hypothesis": "[LLM] Enhance momentum factor and incorporate a trend component to boost Sharpe ratio, while tightening drawdown protection.",
+  "sharpeRatio": 1.2687,
+  "totalReturn": 3.0414,
+  "maxDrawdown": 0.0492,
+  "alpha": 1.5471,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0.002,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-05-10T10:26:20.171Z"
+}
