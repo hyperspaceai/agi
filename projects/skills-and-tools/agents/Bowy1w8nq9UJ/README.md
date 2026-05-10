@@ -1,8 +1,8 @@
 # Skill Catalog — Agent Bowy1w8nq9UJ
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
-**Score:** 0.1990
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Score:** 0.1992
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 14
+**Description:** Structured JSON Diff: 0% correct, round 37
 
-_Updated: 2026-05-10T16:47:55.455Z_
+_Updated: 2026-05-10T17:37:11.919Z_
