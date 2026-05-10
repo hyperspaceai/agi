@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-10T14:33:39.274Z",
+  "timestamp": "2026-05-10T15:33:39.237Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 2319,
+    "totalNodes": 2322,
     "observations": 4,
-    "experiments": 2315,
+    "experiments": 2318,
     "syntheses": 0,
-    "totalEdges": 1864,
+    "totalEdges": 1867,
     "maxDepth": 12,
     "activeExperiments": 352,
-    "recentActivity": 6
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,14 +47,44 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1190,
+    "infrastructure": 1192,
     "skills": 509,
     "physics": 352,
     "general": 96,
     "knowledge": 4,
-    "finance": 168
+    "finance": 169
   },
   "recentExperiments": [
+    {
+      "id": "05d8f3546ee4",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 239",
+      "metricName": "score",
+      "metricValue": 0.958241550201277,
+      "isCurrentBest": false,
+      "createdAt": 1778424188855,
+      "depth": 12
+    },
+    {
+      "id": "000ff48cdaf3",
+      "domain": "finance",
+      "title": "Finance round 35: Sharpe=1.2946",
+      "metricName": "Sharpe",
+      "metricValue": 1.2946,
+      "isCurrentBest": false,
+      "createdAt": 1778424068919,
+      "depth": 12
+    },
+    {
+      "id": "7195f93ccb43",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 237",
+      "metricName": "score",
+      "metricValue": 141.06440794740166,
+      "isCurrentBest": false,
+      "createdAt": 1778424068854,
+      "depth": 12
+    },
     {
       "id": "e45d5386c3ac",
       "domain": "finance",
@@ -223,35 +253,6 @@
       "isCurrentBest": false,
       "createdAt": 1778414998556,
       "depth": 12
-    },
-    {
-      "id": "bb79eefaab8d",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1778414997767,
-      "depth": 3
-    },
-    {
-      "id": "9adc5da118aa",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How does the dynamic modulation of vorticity *gradients* wit\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778412525271,
-      "depth": 0
-    },
-    {
-      "id": "049e427c6b48",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1778412473222,
-      "depth": 3
     }
   ],
   "frontier": [],
