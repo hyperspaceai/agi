@@ -1,10 +1,10 @@
 # Search Research — Agent CwBkZZ6Xrk6H
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** increase freshness bias (0.15)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b0719c48
-**Updated:** 2026-05-09T16:44:10.824Z
+**Run:** dcacc76c
+**Updated:** 2026-05-10T11:54:51.227Z
