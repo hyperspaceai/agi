@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-05-10T19:05:29.146Z",
+  "timestamp": "2026-05-10T21:16:39.607Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 964,
+    "totalNodes": 1020,
     "observations": 0,
-    "experiments": 964,
+    "experiments": 1020,
     "syntheses": 0,
-    "totalEdges": 487,
+    "totalEdges": 530,
     "maxDepth": 8,
-    "activeExperiments": 450,
-    "recentActivity": 16
+    "activeExperiments": 459,
+    "recentActivity": 36
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "aacb9d89ec0c4e5e998a77a986b636e251d41afd9deb522fc752cfba88c1e228",
+      "nodeId": "f7f1cdfc99f7e1c31e816ed67b437bc7d02e4998d820a4d6d780e750178a7695",
       "title": "Cause infra-optimization round 1",
       "metricName": "score",
-      "metricValue": 148.7450242195175,
+      "metricValue": 150.50909751432977,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "skills": {
       "nodeId": "43fe205c70e25678844db620fdbe6e0e1f74a33d73f331dea8c08666d3ed4e10",
@@ -55,214 +55,219 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 221,
-    "skills": 117,
-    "finance": 123,
-    "physics": 450,
-    "general": 23,
-    "search-ranking": 30
+    "infrastructure": 238,
+    "skills": 123,
+    "finance": 137,
+    "physics": 459,
+    "general": 27,
+    "search-ranking": 36
   },
   "recentExperiments": [
     {
-      "id": "57761e5f08f7",
+      "id": "9f9ba33efddd",
       "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.3129",
+      "title": "Finance round 11: Sharpe=1.3105",
       "metricName": "Sharpe",
-      "metricValue": 1.3129,
+      "metricValue": 1.3105,
       "isCurrentBest": false,
-      "createdAt": 1778439005202,
+      "createdAt": 1778447637516,
       "depth": 8
     },
     {
-      "id": "b90f023101ec",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.3031",
-      "metricName": "Sharpe",
-      "metricValue": 1.3031,
+      "id": "b95725f98ad4",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a lattice of Casimir micro‑cavities arranged in a hyperb\" (self-ve",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778438846327,
+      "createdAt": 1778447552770,
+      "depth": 0
+    },
+    {
+      "id": "1c87f5a4d6db",
+      "domain": "finance",
+      "title": "Finance round 10: Sharpe=1.3040",
+      "metricName": "Sharpe",
+      "metricValue": 1.304,
+      "isCurrentBest": false,
+      "createdAt": 1778447492562,
       "depth": 8
     },
     {
-      "id": "d5eb9cf4bac4",
+      "id": "f7ce6e5d09f1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What minimal higher‑curvature coupling structure in a non‑lo\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778447424224,
+      "depth": 0
+    },
+    {
+      "id": "842b7a99f7b5",
+      "domain": "general",
+      "title": "AutoWeb round 4: 56/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 56,
+      "isCurrentBest": false,
+      "createdAt": 1778447228708,
+      "depth": 0
+    },
+    {
+      "id": "d8f374e52ac3",
       "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.2960",
+      "title": "Finance round 8: Sharpe=1.2960",
       "metricName": "Sharpe",
       "metricValue": 1.296,
       "isCurrentBest": false,
-      "createdAt": 1778437549087,
+      "createdAt": 1778447187565,
       "depth": 8
     },
     {
-      "id": "0fda96b4584c",
+      "id": "37fcac43bf16",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the maximum negative energy density attainable by an\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: Does a lattice of Casimir micro‑cavities engineered to produ\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778437522607,
+      "createdAt": 1778446981173,
       "depth": 0
     },
     {
-      "id": "90b8be44a2e5",
+      "id": "f23b07437903",
       "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1991",
+      "title": "Finance round 6: Sharpe=1.2286",
       "metricName": "Sharpe",
-      "metricValue": 1.1991,
+      "metricValue": 1.2286,
       "isCurrentBest": false,
-      "createdAt": 1778437412625,
+      "createdAt": 1778446893003,
       "depth": 8
     },
     {
-      "id": "a847c24eb1d8",
+      "id": "e3d51f36f3cc",
       "domain": "skills",
       "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1969,
+      "metricValue": 0.1978,
       "isCurrentBest": false,
-      "createdAt": 1778437336898,
+      "createdAt": 1778446857505,
       "depth": 4
     },
     {
-      "id": "d85c7614b54e",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.0826",
-      "metricName": "Sharpe",
-      "metricValue": 1.0826,
+      "id": "a6f985fc8068",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 31",
+      "metricName": "score",
+      "metricValue": 141.11103851918023,
       "isCurrentBest": false,
-      "createdAt": 1778437249605,
+      "createdAt": 1778446786957,
+      "depth": 3
+    },
+    {
+      "id": "0a00a70cb2b1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a self‑regulating warp bubble metric be constructed in a\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778446745166,
+      "depth": 0
+    },
+    {
+      "id": "000b1f6db734",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.2027",
+      "metricName": "Sharpe",
+      "metricValue": 1.2027,
+      "isCurrentBest": false,
+      "createdAt": 1778446727336,
       "depth": 8
     },
     {
-      "id": "48d1c8a92a49",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.0626",
-      "metricName": "Sharpe",
-      "metricValue": 1.0626,
+      "id": "6acb9b2ff3f7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 29",
+      "metricName": "score",
+      "metricValue": 0.9597707707946018,
       "isCurrentBest": false,
-      "createdAt": 1778437099508,
+      "createdAt": 1778446666957,
+      "depth": 3
+    },
+    {
+      "id": "1081bf05a6f9",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.1929",
+      "metricName": "Sharpe",
+      "metricValue": 1.1929,
+      "isCurrentBest": false,
+      "createdAt": 1778446587512,
       "depth": 8
     },
     {
-      "id": "7352e515d6dd",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1",
-      "metricName": "score",
-      "metricValue": 0.9668873495829748,
+      "id": "39e622317005",
+      "domain": "general",
+      "title": "AutoWeb round 1: 52/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 52,
       "isCurrentBest": false,
-      "createdAt": 1778437058814,
-      "depth": 2
+      "createdAt": 1778446515305,
+      "depth": 0
     },
     {
-      "id": "d26c903f3ef3",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1",
-      "metricName": "score",
-      "metricValue": 141.4122906597169,
-      "isCurrentBest": false,
-      "createdAt": 1778437058807,
-      "depth": 2
-    },
-    {
-      "id": "f0b5d1afca0b",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2",
-      "metricName": "score",
-      "metricValue": 143.18504365609712,
-      "isCurrentBest": false,
-      "createdAt": 1778436851571,
-      "depth": 2
-    },
-    {
-      "id": "3c3df03d7a24",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.0497",
-      "metricName": "Sharpe",
-      "metricValue": 1.0497,
-      "isCurrentBest": false,
-      "createdAt": 1778436832005,
-      "depth": 8
-    },
-    {
-      "id": "246df3618897",
+      "id": "2603dc800fdc",
       "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
       "metricName": "correctness",
       "metricValue": 0.1978,
       "isCurrentBest": false,
-      "createdAt": 1778436817056,
+      "createdAt": 1778446493926,
       "depth": 4
     },
     {
-      "id": "5d0fb0ef7fc7",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1",
-      "metricName": "score",
-      "metricValue": 0.9237530515989887,
+      "id": "a673a9cc60bc",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1807",
+      "metricName": "Sharpe",
+      "metricValue": 1.1807,
       "isCurrentBest": false,
-      "createdAt": 1778436791579,
-      "depth": 2
+      "createdAt": 1778446438361,
+      "depth": 8
     },
     {
-      "id": "bc3ac9df091f",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1",
-      "metricName": "score",
-      "metricValue": 147.5816359542281,
+      "id": "3c976ce14ede",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1971,
       "isCurrentBest": false,
-      "createdAt": 1778436791571,
-      "depth": 2
+      "createdAt": 1778446358421,
+      "depth": 4
     },
     {
-      "id": "b1eff8b78f1b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 294",
-      "metricName": "score",
-      "metricValue": 0.9775411450816428,
-      "isCurrentBest": false,
-      "createdAt": 1778436647921,
-      "depth": 2
-    },
-    {
-      "id": "0f56106fc88a",
+      "id": "545b686307eb",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What are the characteristic gravitational‑wave signatures em\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: Can a real‑time quantum‑field‑feedback system in a lattice o\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778435894888,
+      "createdAt": 1778446338421,
       "depth": 0
     },
     {
-      "id": "a782171bda15",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent modulation of Casimir micro‑cavity geom\" (self-ve",
-      "metricName": "verification_score",
+      "id": "5502e2d285a9",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1705",
+      "metricName": "Sharpe",
+      "metricValue": 1.1705,
       "isCurrentBest": false,
-      "createdAt": 1778435705139,
-      "depth": 0
-    },
-    {
-      "id": "b102a8db8539",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What are the linear stability properties of warp‑bubble solu\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778435525568,
-      "depth": 0
-    },
-    {
-      "id": "a1de68453515",
-      "domain": "general",
-      "title": "AutoWeb round 46: 60/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 60,
-      "isCurrentBest": true,
-      "createdAt": 1778435346681,
-      "depth": 0
+      "createdAt": 1778446292059,
+      "depth": 8
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "f7f1cdfc99f7",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 150.50909751432977,
+        "depth": 2
+      },
       {
         "id": "aacb9d89ec0c",
         "title": "Cause infra-optimization round 1",
