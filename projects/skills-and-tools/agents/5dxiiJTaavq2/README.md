@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 5dxiiJTaavq2
 
-**Latest Skill:** Normalize Text (LLM 2 iter) v1
-**Score:** 0.1991
+**Latest Skill:** Extract Entities from Text (LLM 2 iter) v1
+**Score:** 0.1978
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20]
+**Description:** Extract Entities from Text: 0% correct [0.20]
 
-_Updated: 2026-05-10T17:53:07.983Z_
+_Updated: 2026-05-10T18:13:55.121Z_
