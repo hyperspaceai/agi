@@ -1,10 +1,10 @@
 # Search Research — Agent 24nerCXaJduP
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 799debec
-**Updated:** 2026-05-09T08:15:38.171Z
+**Run:** 1e42a2fc
+**Updated:** 2026-05-10T12:17:58.438Z
