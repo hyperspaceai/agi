@@ -1,10 +1,10 @@
 # Search Research — Agent 8AmMHuUQKMXi
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** boost diversity weight (+0.03)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d28fd5c8
-**Updated:** 2026-05-10T14:52:47.311Z
+**Run:** 783826ef
+**Updated:** 2026-05-10T19:49:24.149Z
