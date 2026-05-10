@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWL3rZi6MK9W9BnRtiURFJNiMGMFNh1k1gTtLSJ5kDsNT6",
-  "runNumber": 1,
-  "timestamp": 1778120527923,
-  "hypothesis": "Further reduce model capacity and refine optimizer for improved validation loss, building on previous scaling attempts.",
+  "runNumber": 3,
+  "timestamp": 1778417398514,
+  "hypothesis": "Improve on 6428dfae (loss=10.3235): lower LR (3e-4)",
   "config": {
     "nLayers": 8,
     "nHeads": 2,
@@ -12,7 +12,7 @@
     "dFF": 2048,
     "contextLength": 2048,
     "vocabSize": 32768,
-    "learningRate": 0.00003,
+    "learningRate": 0.0003,
     "batchSize": 8,
     "maxSteps": 25000,
     "maxDurationSec": 75,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 10.323493636076998,
-    "trainLoss": 10.402506942014933,
+    "valLoss": 9.757616788456964,
+    "trainLoss": 10.474513272933237,
     "lossCurve": [
       [
         1,
-        10.323493636076998
+        9.757616788456964
       ]
     ],
-    "durationSec": 17361.565,
-    "tokensPerSec": 0.9436937280711734,
+    "durationSec": 17401.377,
+    "tokensPerSec": 0.9415346842953864,
     "totalTokens": 16384
   },
-  "improvement": 0,
+  "improvement": -5.481447149272146,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
   "inspiredBy": null
