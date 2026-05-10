@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-10T01:13:15.920Z",
+  "timestamp": "2026-05-10T02:13:16.091Z",
   "peerId": "12D3KooWPELEE3xzxNWxfyHyonkJLaR3rSrezYA5B3EBoGnz76Ss",
   "stats": {
-    "totalNodes": 556,
+    "totalNodes": 558,
     "observations": 0,
-    "experiments": 556,
+    "experiments": 558,
     "syntheses": 0,
-    "totalEdges": 552,
+    "totalEdges": 554,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 22
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 172,
-    "skills": 192,
+    "skills": 194,
     "finance": 136,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "be6822c22e6d",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778378595993,
+      "depth": 2
+    },
+    {
+      "id": "831b00c7f093",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778375835852,
+      "depth": 2
+    },
     {
       "id": "bb37b1da89c0",
       "domain": "finance",
@@ -231,26 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1778372345962,
-      "depth": 2
-    },
-    {
-      "id": "42eb82355f1d",
-      "domain": "search-ranking",
-      "title": "Search round 34: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778372343737,
-      "depth": 2
-    },
-    {
-      "id": "d81aed448cfc",
-      "domain": "search-ranking",
-      "title": "Search round 34: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778372343693,
       "depth": 2
     }
   ],
