@@ -1,10 +1,10 @@
 # Search Research — Agent 7eZU72Wv2Ldo
 
-**Best NDCG@10:** 0.3913
+**Best NDCG@10:** 0.4000
 **Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a889d84a
-**Updated:** 2026-05-10T21:59:33.405Z
+**Run:** 56527790
+**Updated:** 2026-05-10T23:25:41.274Z
