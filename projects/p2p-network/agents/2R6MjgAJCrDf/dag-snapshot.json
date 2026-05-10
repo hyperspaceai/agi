@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-10T13:33:36.344Z",
+  "timestamp": "2026-05-10T14:33:39.274Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 2313,
+    "totalNodes": 2319,
     "observations": 4,
-    "experiments": 2309,
+    "experiments": 2315,
     "syntheses": 0,
-    "totalEdges": 1858,
+    "totalEdges": 1864,
     "maxDepth": 12,
     "activeExperiments": 352,
-    "recentActivity": 8
+    "recentActivity": 6
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -52,9 +52,69 @@
     "physics": 352,
     "general": 96,
     "knowledge": 4,
-    "finance": 162
+    "finance": 168
   },
   "recentExperiments": [
+    {
+      "id": "e45d5386c3ac",
+      "domain": "finance",
+      "title": "Finance round 27: Sharpe=1.2890",
+      "metricName": "Sharpe",
+      "metricValue": 1.289,
+      "isCurrentBest": false,
+      "createdAt": 1778422868860,
+      "depth": 12
+    },
+    {
+      "id": "208486248077",
+      "domain": "finance",
+      "title": "Finance round 25: Sharpe=1.2794",
+      "metricName": "Sharpe",
+      "metricValue": 1.2794,
+      "isCurrentBest": false,
+      "createdAt": 1778422568857,
+      "depth": 12
+    },
+    {
+      "id": "d3854eda9b15",
+      "domain": "finance",
+      "title": "Finance round 20: Sharpe=1.2754",
+      "metricName": "Sharpe",
+      "metricValue": 1.2754,
+      "isCurrentBest": false,
+      "createdAt": 1778421818897,
+      "depth": 12
+    },
+    {
+      "id": "21df1ee1a6a3",
+      "domain": "finance",
+      "title": "Finance round 19: Sharpe=1.2713",
+      "metricName": "Sharpe",
+      "metricValue": 1.2713,
+      "isCurrentBest": false,
+      "createdAt": 1778421668846,
+      "depth": 12
+    },
+    {
+      "id": "38df2f124a7f",
+      "domain": "finance",
+      "title": "Finance round 18: Sharpe=1.2593",
+      "metricName": "Sharpe",
+      "metricValue": 1.2593,
+      "isCurrentBest": false,
+      "createdAt": 1778421518843,
+      "depth": 12
+    },
+    {
+      "id": "bc5277a0f13d",
+      "domain": "finance",
+      "title": "Finance round 16: Sharpe=1.2513",
+      "metricName": "Sharpe",
+      "metricValue": 1.2513,
+      "isCurrentBest": false,
+      "createdAt": 1778421218789,
+      "depth": 12
+    },
     {
       "id": "d9203f47726a",
       "domain": "finance",
@@ -192,66 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778412473222,
       "depth": 3
-    },
-    {
-      "id": "897de1abfa14",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 38",
-      "metricName": "score",
-      "metricValue": 141.09014268507144,
-      "isCurrentBest": false,
-      "createdAt": 1778412418537,
-      "depth": 12
-    },
-    {
-      "id": "444e09fc0cf3",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1778411136282,
-      "depth": 3
-    },
-    {
-      "id": "97233004630e",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 17",
-      "metricName": "score",
-      "metricValue": 0.9659116918151813,
-      "isCurrentBest": false,
-      "createdAt": 1778411128303,
-      "depth": 12
-    },
-    {
-      "id": "084d2811d63c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 15",
-      "metricName": "score",
-      "metricValue": 0.965663477101555,
-      "isCurrentBest": false,
-      "createdAt": 1778411128302,
-      "depth": 12
-    },
-    {
-      "id": "19e0fb7f0248",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 16",
-      "metricName": "score",
-      "metricValue": 141.19957047957013,
-      "isCurrentBest": false,
-      "createdAt": 1778411128302,
-      "depth": 12
-    },
-    {
-      "id": "96b8a0148159",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 6",
-      "metricName": "score",
-      "metricValue": 141.53755826514475,
-      "isCurrentBest": false,
-      "createdAt": 1778411128300,
-      "depth": 12
     }
   ],
   "frontier": [],
