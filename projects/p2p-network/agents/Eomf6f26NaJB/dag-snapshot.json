@@ -1,0 +1,354 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-10T09:22:56.688Z",
+  "peerId": "12D3KooWPd8pqnboZUZgKfmnvVWgwLmcWBj7AvzaTi3pNXMsxju5",
+  "stats": {
+    "totalNodes": 388,
+    "observations": 0,
+    "experiments": 388,
+    "syntheses": 0,
+    "totalEdges": 325,
+    "maxDepth": 6,
+    "activeExperiments": 46,
+    "recentActivity": 2
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "1db4384246818592ff2d5dae639df466c96ee7a469f759c903fe8e93a10510c5",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 148.96565523124278,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "skills": {
+      "nodeId": "deb47d5e8e8b95b621263ec532adc340a4d1dc81ac331fbdf9c3f4b7fd9d379a",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "finance": {
+      "nodeId": "35b8789f435336d88c885f72e518cdde7cf6d64352ffea0e3495983d8f49659b",
+      "title": "Finance round 11: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "metricDirection": "maximize",
+      "depth": 5
+    },
+    "search-ranking": {
+      "nodeId": "311a4e59173befdffea18d7d38caff8e890881213eff588898761c49b3822546",
+      "title": "Search round 30: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    },
+    "general": {
+      "nodeId": "04d90b7c62b926189d150bd348f04d4d3b173491ea148b0a11f015546a9afc82",
+      "title": "AutoWeb round 8: 83/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 83,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 137,
+    "skills": 137,
+    "finance": 37,
+    "search-ranking": 18,
+    "physics": 46,
+    "general": 13
+  },
+  "recentExperiments": [
+    {
+      "id": "c1bf004ff0fc",
+      "domain": "physics",
+      "title": "Wrote paper: \"Numerical Stability Analysis of the Fuchs et al. (2024) Subluminal Warp Drive Solution",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778403738503,
+      "depth": 0
+    },
+    {
+      "id": "bfbfd2c46efe",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1039",
+      "metricName": "score",
+      "metricValue": 145.1189324327226,
+      "isCurrentBest": false,
+      "createdAt": 1778403671231,
+      "depth": 3
+    },
+    {
+      "id": "414ad6f9de98",
+      "domain": "physics",
+      "title": "Wrote paper: \"Quantifying Exotic Matter Requirements in f(R) Warp Drives via Higher-Curvature Correc",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778397403718,
+      "depth": 0
+    },
+    {
+      "id": "7913db8d6d16",
+      "domain": "physics",
+      "title": "Wrote paper: \"** Controlled Singularity Horizons: A Minimal Geometry for Traversable Hyperspace Trav",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778394885400,
+      "depth": 0
+    },
+    {
+      "id": "b934294bb238",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1285",
+      "metricName": "Sharpe",
+      "metricValue": 1.1285,
+      "isCurrentBest": false,
+      "createdAt": 1778394834499,
+      "depth": 6
+    },
+    {
+      "id": "cfcbdcf21d27",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 908",
+      "metricName": "score",
+      "metricValue": 145.08314292071202,
+      "isCurrentBest": false,
+      "createdAt": 1778394791027,
+      "depth": 3
+    },
+    {
+      "id": "7efb2e7f5ecf",
+      "domain": "physics",
+      "title": "Wrote paper: \"Stabilizing Warp Bubble Instabilities via Dynamic Quantum Vacuum Feedback**\" (self-ver",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778393495414,
+      "depth": 0
+    },
+    {
+      "id": "36788937df26",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778392129287,
+      "depth": 3
+    },
+    {
+      "id": "27274d900517",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.0852",
+      "metricName": "Sharpe",
+      "metricValue": 1.0852,
+      "isCurrentBest": false,
+      "createdAt": 1778392120881,
+      "depth": 6
+    },
+    {
+      "id": "8639b1be4d20",
+      "domain": "physics",
+      "title": "Wrote paper: \"Spacetime Curvature and Scaled Casimir Micro-Cavities: A Linearized Analysis of Warp D",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778388461962,
+      "depth": 0
+    },
+    {
+      "id": "dced6bd6465b",
+      "domain": "physics",
+      "title": "Wrote paper: \"Predictive Modeling of Warp Bubble Energy Density Profiles via Machine Learning and Qu",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778385864768,
+      "depth": 0
+    },
+    {
+      "id": "728262692872",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 729",
+      "metricName": "score",
+      "metricValue": 0.9476303693686314,
+      "isCurrentBest": false,
+      "createdAt": 1778384530384,
+      "depth": 3
+    },
+    {
+      "id": "f4b8d47209e0",
+      "domain": "general",
+      "title": "AutoWeb round 14: 59/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 59,
+      "isCurrentBest": false,
+      "createdAt": 1778383282289,
+      "depth": 0
+    },
+    {
+      "id": "ae13000d6fb9",
+      "domain": "physics",
+      "title": "Wrote paper: \"Topological Transition in Warp Bubble Formation: A Planck-Scale Quantum Foam Model and",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778382069816,
+      "depth": 0
+    },
+    {
+      "id": "bab44e3b4b0c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 657",
+      "metricName": "score",
+      "metricValue": 144.97513692848017,
+      "isCurrentBest": false,
+      "createdAt": 1778380660095,
+      "depth": 3
+    },
+    {
+      "id": "fe6e51299d01",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 637",
+      "metricName": "score",
+      "metricValue": 0.9515577044897334,
+      "isCurrentBest": false,
+      "createdAt": 1778379460083,
+      "depth": 3
+    },
+    {
+      "id": "cb50f1316dd8",
+      "domain": "physics",
+      "title": "Wrote paper: \"Stability of Warp Bubble Solutions in f(R) Modified Gravity: The Role of Higher-Curvat",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778377085538,
+      "depth": 0
+    },
+    {
+      "id": "a2eb0a820e2d",
+      "domain": "physics",
+      "title": "Wrote paper: \"Dynamic Warp Bubble Control via Time-Varying Casimir Micro-Cavity Arrays**\" (self-veri",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778374590025,
+      "depth": 0
+    },
+    {
+      "id": "d2e4006a867b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 553",
+      "metricName": "score",
+      "metricValue": 0.9508473426382978,
+      "isCurrentBest": false,
+      "createdAt": 1778374510000,
+      "depth": 3
+    },
+    {
+      "id": "dd278cb3f407",
+      "domain": "physics",
+      "title": "Wrote paper: \"Dynamic Warp Bubble Geometry and the Finazzi-Liberati-Barceló Instability: Maintaining",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778373330799,
+      "depth": 0
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "1db438424681",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 148.96565523124278,
+        "depth": 2
+      },
+      {
+        "id": "f5871f2d36cd",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 145.24904530005497,
+        "depth": 1
+      },
+      {
+        "id": "9a5a01754ba3",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 143.72008346412332,
+        "depth": 0
+      }
+    ],
+    "skills": [
+      {
+        "id": "deb47d5e8e8b",
+        "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+        "metricValue": 0.1995,
+        "depth": 2
+      },
+      {
+        "id": "a4b8b0c9f6ec",
+        "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+        "metricValue": 0.1991,
+        "depth": 1
+      },
+      {
+        "id": "0c8481cda237",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1989,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "35b8789f4353",
+        "title": "Finance round 11: Sharpe=1.3174",
+        "metricValue": 1.3174,
+        "depth": 5
+      },
+      {
+        "id": "98982c0232ec",
+        "title": "Finance round 5: Sharpe=1.3105",
+        "metricValue": 1.3105,
+        "depth": 4
+      },
+      {
+        "id": "f9d04a807b5d",
+        "title": "Finance round 4: Sharpe=1.2077",
+        "metricValue": 1.2077,
+        "depth": 3
+      },
+      {
+        "id": "cf766f4b2cec",
+        "title": "Finance round 3: Sharpe=1.1991",
+        "metricValue": 1.1991,
+        "depth": 2
+      },
+      {
+        "id": "7222826c3e3c",
+        "title": "Finance round 2: Sharpe=1.1013",
+        "metricValue": 1.1013,
+        "depth": 1
+      },
+      {
+        "id": "8ea6cd9f928a",
+        "title": "Finance round 1: Sharpe=1.0834",
+        "metricValue": 1.0834,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "311a4e59173b",
+        "title": "Search round 30: require more local results (5)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "04d90b7c62b9",
+        "title": "AutoWeb round 8: 83/100",
+        "metricValue": 83,
+        "depth": 0
+      }
+    ]
+  }
+}
