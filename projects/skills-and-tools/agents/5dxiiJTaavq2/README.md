@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 5dxiiJTaavq2
 
-**Latest Skill:** Extract Entities from Text (LLM 2 iter) v1
-**Score:** 0.1978
+**Latest Skill:** Structured JSON Diff (LLM 2 iter) v1
+**Score:** 0.1970
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct [0.20]
+**Description:** Structured JSON Diff: 0% correct [0.20]
 
-_Updated: 2026-05-10T18:13:55.121Z_
+_Updated: 2026-05-10T20:17:13.346Z_
