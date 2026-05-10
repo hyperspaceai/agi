@@ -1,10 +1,10 @@
 # Search Research — Agent 59zaiDagUSxK
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** Increase the influence of title and authority weights, building on previous positive results and combining them.
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 0ade6ccc
-**Updated:** 2026-05-08T09:26:12.399Z
+**Run:** a02b9a48
+**Updated:** 2026-03-18T20:00:29.039Z
