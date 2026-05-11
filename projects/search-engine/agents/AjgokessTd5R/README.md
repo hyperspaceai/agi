@@ -1,10 +1,10 @@
 # Search Research — Agent AjgokessTd5R
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.3950
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** e0a6f868
-**Updated:** 2026-05-07T12:51:54.704Z
+**Run:** 9d9eb7f3
+**Updated:** 2026-05-11T18:15:42.729Z
