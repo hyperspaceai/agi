@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DHHFM4Mv1ai3
 
-**Latest Skill:** Detect Anomalies (IQR) (LLM 2 iter) v1
-**Score:** 0.1994
+**Latest Skill:** Extract Entities from Text (LLM 2 iter) v1
+**Score:** 0.1995
 **Permissions:** none
-**Description:** Detect Anomalies (IQR): 0% correct [0.20]
+**Description:** Extract Entities from Text: 0% correct [0.20]
 
-_Updated: 2026-05-11T19:03:48.477Z_
+_Updated: 2026-05-11T19:43:54.627Z_
