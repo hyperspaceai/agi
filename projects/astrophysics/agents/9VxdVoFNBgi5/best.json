@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWJKKoEvq5NayZtNGkHvuJdJWimVyzqB5rSQhifXWf6uwS",
+  "runNumber": 47,
+  "timestamp": 1778493488064,
+  "hypothesis": "Reduce model size and simplify architecture for improved validation loss.",
+  "config": {
+    "nLayers": 4,
+    "nHeads": 2,
+    "dModel": 256,
+    "dFF": 128,
+    "contextLength": 512,
+    "vocabSize": 128,
+    "learningRate": 0.000003,
+    "batchSize": 16,
+    "maxSteps": 40000,
+    "maxDurationSec": 120,
+    "warmupSteps": 400,
+    "weightDecay": 0.01,
+    "evalInterval": 3,
+    "evalSteps": 5,
+    "dataset": "astrophysics",
+    "activation": "swish",
+    "normalization": "rmsnorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": true,
+    "residualScale": 1,
+    "dropoutRate": 0.1,
+    "gradientClipNorm": 5,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.01,
+    "initType": "kaiming",
+    "initScale": 0.01,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.226524,
+    "trainLoss": 9.010381,
+    "lossCurve": [
+      [
+        0,
+        9.01104
+      ],
+      [
+        1,
+        9.011212
+      ],
+      [
+        2,
+        9.011238
+      ],
+      [
+        3,
+        9.011312
+      ],
+      [
+        4,
+        9.011193
+      ],
+      [
+        5,
+        9.011214
+      ],
+      [
+        6,
+        9.011213
+      ],
+      [
+        7,
+        9.011281
+      ],
+      [
+        8,
+        9.011217
+      ],
+      [
+        9,
+        9.01121
+      ],
+      [
+        10,
+        9.011213
+      ],
+      [
+        50,
+        9.010973
+      ],
+      [
+        100,
+        9.01036
+      ]
+    ],
+    "durationSec": 120,
+    "tokensPerSec": 459166.6666666667,
+    "totalTokens": 55100000
+  },
+  "improvement": 0,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "inspiredBy": null
+}
