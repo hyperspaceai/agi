@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-11T01:56:59.492Z",
+  "timestamp": "2026-05-11T02:58:46.787Z",
   "peerId": "12D3KooWDyMkTMAPfMDoS68UgKNd5PXgLA8ct6PQVi5cYdumEj1D",
   "stats": {
-    "totalNodes": 4634,
+    "totalNodes": 4637,
     "observations": 3510,
-    "experiments": 1124,
+    "experiments": 1127,
     "syntheses": 0,
-    "totalEdges": 1062,
+    "totalEdges": 1065,
     "maxDepth": 7,
     "activeExperiments": 22,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 720,
+    "infrastructure": 723,
     "finance": 108,
     "search-ranking": 11,
     "general": 36,
@@ -64,6 +64,36 @@
     "physics": 22
   },
   "recentExperiments": [
+    {
+      "id": "b968d53331a6",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 332",
+      "metricName": "score",
+      "metricValue": 141.00872528847313,
+      "isCurrentBest": false,
+      "createdAt": 1778466070317,
+      "depth": 7
+    },
+    {
+      "id": "0892f8784d05",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 323",
+      "metricName": "score",
+      "metricValue": 0.9392547310462522,
+      "isCurrentBest": false,
+      "createdAt": 1778465514940,
+      "depth": 7
+    },
+    {
+      "id": "b1a8103c6593",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 322",
+      "metricName": "score",
+      "metricValue": 0.9364210685213514,
+      "isCurrentBest": false,
+      "createdAt": 1778465452982,
+      "depth": 7
+    },
     {
       "id": "a671cf66f229",
       "domain": "infrastructure",
@@ -233,36 +263,6 @@
       "isCurrentBest": false,
       "createdAt": 1778452163841,
       "depth": 1
-    },
-    {
-      "id": "89ae0d3c5884",
-      "domain": "general",
-      "title": "AutoWeb round 1: 67/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 67,
-      "isCurrentBest": false,
-      "createdAt": 1778451135088,
-      "depth": 0
-    },
-    {
-      "id": "b465ea3d55a5",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1778451082875,
-      "depth": 4
-    },
-    {
-      "id": "f4e552425c53",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1778449782081,
-      "depth": 4
     }
   ],
   "frontier": [],
