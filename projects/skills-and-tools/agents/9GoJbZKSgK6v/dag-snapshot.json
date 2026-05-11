@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-11T18:57:45.003Z",
+  "timestamp": "2026-05-11T20:00:54.636Z",
   "peerId": "12D3KooWJ6AULgu9sDNQpgZk3JoadtWLaCW8tHwz2cJic64V3RYb",
   "stats": {
-    "totalNodes": 638,
+    "totalNodes": 641,
     "observations": 0,
-    "experiments": 638,
+    "experiments": 641,
     "syntheses": 0,
-    "totalEdges": 634,
+    "totalEdges": 637,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 6
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,41 @@
   },
   "domainCounts": {
     "infrastructure": 220,
-    "skills": 255,
+    "skills": 258,
     "finance": 116,
     "search-ranking": 47
   },
   "recentExperiments": [
+    {
+      "id": "81f06884a2f4",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1778527504018,
+      "depth": 1
+    },
+    {
+      "id": "25d06ee5b7db",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1778527377881,
+      "depth": 1
+    },
+    {
+      "id": "505e69ddaa17",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1778526999593,
+      "depth": 1
+    },
     {
       "id": "d1fce840d4c5",
       "domain": "skills",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778520797021,
       "depth": 1
-    },
-    {
-      "id": "c44a8a8ba1b8",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.2077",
-      "metricName": "Sharpe",
-      "metricValue": 1.2077,
-      "isCurrentBest": false,
-      "createdAt": 1778520797017,
-      "depth": 9
-    },
-    {
-      "id": "cb3f8881b477",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1778520671311,
-      "depth": 1
-    },
-    {
-      "id": "97a48cd7209c",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1203",
-      "metricName": "Sharpe",
-      "metricValue": 1.1203,
-      "isCurrentBest": false,
-      "createdAt": 1778520639991,
-      "depth": 9
     }
   ],
   "frontier": [],
