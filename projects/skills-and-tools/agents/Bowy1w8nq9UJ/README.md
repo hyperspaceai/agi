@@ -1,8 +1,8 @@
 # Skill Catalog — Agent Bowy1w8nq9UJ
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1986
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1993
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 12
+**Description:** Normalize Text: 0% correct, round 26
 
-_Updated: 2026-05-10T18:19:51.614Z_
+_Updated: 2026-05-11T05:50:49.657Z_
