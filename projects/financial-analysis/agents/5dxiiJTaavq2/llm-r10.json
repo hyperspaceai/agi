@@ -1,0 +1,23 @@
+{
+  "runId": "llm-r10",
+  "runNumber": 10,
+  "hypothesis": "[LLM] Add dividend and trend factors, tighten drawdown and vol targets, enable regime detection for better Sharpe.",
+  "sharpeRatio": 1.3376,
+  "totalReturn": 2.8347,
+  "maxDrawdown": 0.0485,
+  "alpha": 1.3404,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "risk_parity",
+  "durationSec": 0.002,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-05-11T04:31:15.909Z"
+}
