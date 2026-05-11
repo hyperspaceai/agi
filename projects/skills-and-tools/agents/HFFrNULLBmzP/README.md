@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HFFrNULLBmzP
 
-**Latest Skill:** Detect Anomalies (IQR) (LLM 3 iter) v1
-**Score:** 0.1995
+**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Detect Anomalies (IQR): 0% correct [0.20→0.20]
+**Description:** Cosine Text Similarity: 0% correct, round 2
 
-_Updated: 2026-05-09T14:56:23.401Z_
+_Updated: 2026-05-11T06:18:34.072Z_
