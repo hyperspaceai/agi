@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-11T18:59:52.181Z",
+  "timestamp": "2026-05-11T20:01:39.874Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 1341,
+    "totalNodes": 1351,
     "observations": 0,
-    "experiments": 1341,
+    "experiments": 1351,
     "syntheses": 0,
-    "totalEdges": 708,
+    "totalEdges": 710,
     "maxDepth": 8,
-    "activeExperiments": 590,
-    "recentActivity": 7
+    "activeExperiments": 598,
+    "recentActivity": 10
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,14 +55,106 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 311,
-    "skills": 163,
+    "infrastructure": 312,
+    "skills": 164,
     "finance": 188,
-    "physics": 590,
+    "physics": 598,
     "general": 39,
     "search-ranking": 50
   },
   "recentExperiments": [
+    {
+      "id": "6d5af9ba1685",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the entanglement entropy across a dynamically evolving w\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778529648309,
+      "depth": 0
+    },
+    {
+      "id": "3c4363353a4a",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: In a multi‑field \\(f(R)\\) gravity model with non‑minimal cur\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778529444503,
+      "depth": 0
+    },
+    {
+      "id": "873b279fe02d",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent warp‑bubble metric combined with a dyna\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778529263847,
+      "depth": 0
+    },
+    {
+      "id": "7a1784641078",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 156",
+      "metricName": "score",
+      "metricValue": 141.20789538656052,
+      "isCurrentBest": false,
+      "createdAt": 1778528891354,
+      "depth": 3
+    },
+    {
+      "id": "e134ebb6bbea",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Does a multi‑field \\(f(R)\\) gravity model with a non‑minimal\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778527924014,
+      "depth": 0
+    },
+    {
+      "id": "eb08acebd1d2",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent warp‑bubble metric combined with a dyna\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778527082367,
+      "depth": 0
+    },
+    {
+      "id": "777a10b7ac49",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can the entanglement entropy across a warp‑bubble horizon be\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778526795974,
+      "depth": 0
+    },
+    {
+      "id": "5830b27e0779",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a multi‑field model with non‑minimal curvature couplings\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778526398080,
+      "depth": 0
+    },
+    {
+      "id": "ec3e3b5c5428",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1991,
+      "isCurrentBest": false,
+      "createdAt": 1778526233134,
+      "depth": 4
+    },
+    {
+      "id": "f8bd02c9b153",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent warp‑bubble shape combined with a dynam\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778526163308,
+      "depth": 0
+    },
     {
       "id": "305a819a9d68",
       "domain": "physics",
@@ -155,102 +247,6 @@
       "isCurrentBest": false,
       "createdAt": 1778522162321,
       "depth": 0
-    },
-    {
-      "id": "8e28a979e55e",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the minimal entanglement‑entropy cost for maintainin\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778521955776,
-      "depth": 0
-    },
-    {
-      "id": "2db300085c5f",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1778521781203,
-      "depth": 4
-    },
-    {
-      "id": "1273dd008653",
-      "domain": "finance",
-      "title": "Finance round 14: Sharpe=1.3205",
-      "metricName": "Sharpe",
-      "metricValue": 1.3205,
-      "isCurrentBest": false,
-      "createdAt": 1778521586243,
-      "depth": 8
-    },
-    {
-      "id": "c4890d481c59",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1778521546688,
-      "depth": 4
-    },
-    {
-      "id": "b13ec011f1a7",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the thermodynamic cost of creating, maintaining, and\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778521546681,
-      "depth": 0
-    },
-    {
-      "id": "7a1e26935511",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1985,
-      "isCurrentBest": false,
-      "createdAt": 1778521197263,
-      "depth": 4
-    },
-    {
-      "id": "e4530533977a",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent Casimir metamaterial shell with sub‑mic\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778521107710,
-      "depth": 0
-    },
-    {
-      "id": "170d55d2d07f",
-      "domain": "general",
-      "title": "AutoWeb round 5: 56/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 56,
-      "isCurrentBest": false,
-      "createdAt": 1778520972723,
-      "depth": 0
-    },
-    {
-      "id": "c4e5d3b489d1",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the magnitude and spectrum of quantum stress‑energy \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778520915756,
-      "depth": 0
-    },
-    {
-      "id": "9ae073234011",
-      "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.3137",
-      "metricName": "Sharpe",
-      "metricValue": 1.3137,
-      "isCurrentBest": false,
-      "createdAt": 1778520840042,
-      "depth": 8
     }
   ],
   "frontier": [],
