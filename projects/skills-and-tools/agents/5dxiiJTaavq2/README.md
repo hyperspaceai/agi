@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 5dxiiJTaavq2
 
-**Latest Skill:** Detect Anomalies (IQR) (LLM 2 iter) v1
-**Score:** 0.1993
+**Latest Skill:** Structured JSON Diff (LLM 2 iter) v1
+**Score:** 0.1972
 **Permissions:** none
-**Description:** Detect Anomalies (IQR): 0% correct [0.20]
+**Description:** Structured JSON Diff: 0% correct [0.20]
 
-_Updated: 2026-05-11T02:54:38.251Z_
+_Updated: 2026-05-11T03:11:16.536Z_
