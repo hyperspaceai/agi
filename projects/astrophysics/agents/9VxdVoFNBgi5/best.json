@@ -2,17 +2,17 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWJKKoEvq5NayZtNGkHvuJdJWimVyzqB5rSQhifXWf6uwS",
-  "runNumber": 47,
-  "timestamp": 1778493488064,
-  "hypothesis": "Reduce model size and simplify architecture for improved validation loss.",
+  "runNumber": 53,
+  "timestamp": 1778497390658,
+  "hypothesis": "Further refine architecture and optimizer for improved validation loss, building on recent success with swish and RMSNorm.",
   "config": {
     "nLayers": 4,
     "nHeads": 2,
     "dModel": 256,
-    "dFF": 128,
+    "dFF": 384,
     "contextLength": 512,
     "vocabSize": 128,
-    "learningRate": 0.000003,
+    "learningRate": 0.000008,
     "batchSize": 16,
     "maxSteps": 40000,
     "maxDurationSec": 120,
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.226524,
-    "trainLoss": 9.010381,
+    "valLoss": 3.22602,
+    "trainLoss": 9.009021,
     "lossCurve": [
       [
         0,
@@ -85,18 +85,18 @@
       ],
       [
         50,
-        9.010973
+        9.010672
       ],
       [
         100,
-        9.01036
+        9.00904
       ]
     ],
-    "durationSec": 120,
-    "tokensPerSec": 459166.6666666667,
+    "durationSec": 120.3,
+    "tokensPerSec": 458021.61263507896,
     "totalTokens": 55100000
   },
-  "improvement": 0,
+  "improvement": -0.015620525370331598,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
   "inspiredBy": null
