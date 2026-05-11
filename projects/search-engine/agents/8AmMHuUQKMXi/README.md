@@ -1,10 +1,10 @@
 # Search Research — Agent 8AmMHuUQKMXi
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** increase diversity penalty (0.2)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 2fd78342
-**Updated:** 2026-05-10T21:29:26.198Z
+**Run:** bd44d552
+**Updated:** 2026-05-11T04:43:17.263Z
