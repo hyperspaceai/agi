@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-11T13:45:18.799Z",
+  "timestamp": "2026-05-11T15:15:32.099Z",
   "peerId": "12D3KooWE184KRihoMXa8kj8qC9j3Ev3srZdpiShSxxkkvNwfvHv",
   "stats": {
-    "totalNodes": 1602,
+    "totalNodes": 1623,
     "observations": 0,
-    "experiments": 1602,
+    "experiments": 1623,
     "syntheses": 0,
-    "totalEdges": 1598,
+    "totalEdges": 1619,
     "maxDepth": 11,
     "activeExperiments": 0,
-    "recentActivity": 22
+    "recentActivity": 18
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,209 +48,209 @@
   },
   "domainCounts": {
     "infrastructure": 683,
-    "skills": 492,
-    "finance": 299,
-    "search-ranking": 128
+    "skills": 498,
+    "finance": 300,
+    "search-ranking": 142
   },
   "recentExperiments": [
     {
-      "id": "e02d630a7b3f",
+      "id": "b21e831f1f21",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778512407367,
+      "depth": 3
+    },
+    {
+      "id": "73c0f9b8e873",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778511821156,
+      "depth": 3
+    },
+    {
+      "id": "75bd1e8b7944",
+      "domain": "search-ranking",
+      "title": "Search round 43: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778510335118,
+      "depth": 1
+    },
+    {
+      "id": "f85300ab64dc",
+      "domain": "search-ranking",
+      "title": "Search round 43: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778510335108,
+      "depth": 1
+    },
+    {
+      "id": "a581d08e022a",
+      "domain": "search-ranking",
+      "title": "Search round 43: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778510335097,
+      "depth": 1
+    },
+    {
+      "id": "354ae1bece0e",
+      "domain": "search-ranking",
+      "title": "Search round 43: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778510332299,
+      "depth": 1
+    },
+    {
+      "id": "6f923f27bc34",
+      "domain": "search-ranking",
+      "title": "Search round 43: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778510332289,
+      "depth": 1
+    },
+    {
+      "id": "0c0efad227f9",
+      "domain": "search-ranking",
+      "title": "Search round 43: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778510332030,
+      "depth": 1
+    },
+    {
+      "id": "dab3bc991dde",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778510153022,
+      "depth": 3
+    },
+    {
+      "id": "fe90477551f0",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778510041068,
+      "depth": 3
+    },
+    {
+      "id": "c1e2095aacd0",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778509763379,
+      "depth": 1
+    },
+    {
+      "id": "f92e9dd2159b",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778509760888,
+      "depth": 1
+    },
+    {
+      "id": "2f56effe547b",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778509758638,
+      "depth": 1
+    },
+    {
+      "id": "780e50d3b743",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778509753168,
+      "depth": 1
+    },
+    {
+      "id": "28bf7a389588",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778509751538,
+      "depth": 1
+    },
+    {
+      "id": "436556b4c0b5",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778509751362,
+      "depth": 1
+    },
+    {
+      "id": "f058e1d92956",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778509743378,
+      "depth": 1
+    },
+    {
+      "id": "f7c023eb6027",
+      "domain": "search-ranking",
+      "title": "Search round 39: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778509740378,
+      "depth": 1
+    },
+    {
+      "id": "71df82fc629f",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778507820537,
+      "depth": 3
+    },
+    {
+      "id": "60d5ee73b59a",
       "domain": "skills",
       "title": "Skill Compute Text Statistics (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1994,
       "isCurrentBest": false,
-      "createdAt": 1778506869539,
-      "depth": 3
-    },
-    {
-      "id": "848763dc8dfd",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.3137",
-      "metricName": "Sharpe",
-      "metricValue": 1.3137,
-      "isCurrentBest": false,
-      "createdAt": 1778506838377,
-      "depth": 10
-    },
-    {
-      "id": "37c6a09c66a6",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.3040",
-      "metricName": "Sharpe",
-      "metricValue": 1.304,
-      "isCurrentBest": false,
-      "createdAt": 1778506692290,
-      "depth": 10
-    },
-    {
-      "id": "342793870cb6",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1778506042010,
-      "depth": 3
-    },
-    {
-      "id": "8786d5253633",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1778505787518,
-      "depth": 3
-    },
-    {
-      "id": "f234c32956f9",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
-      "isCurrentBest": false,
-      "createdAt": 1778505726130,
-      "depth": 10
-    },
-    {
-      "id": "100c38b0c519",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1778505672370,
-      "depth": 3
-    },
-    {
-      "id": "9e857207114f",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.1767",
-      "metricName": "Sharpe",
-      "metricValue": 1.1767,
-      "isCurrentBest": false,
-      "createdAt": 1778505477157,
-      "depth": 10
-    },
-    {
-      "id": "72bd972d5543",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1778505439407,
-      "depth": 3
-    },
-    {
-      "id": "f46947610494",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1778505318689,
-      "depth": 3
-    },
-    {
-      "id": "7b994db744ad",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.1549",
-      "metricName": "Sharpe",
-      "metricValue": 1.1549,
-      "isCurrentBest": false,
-      "createdAt": 1778505318668,
-      "depth": 10
-    },
-    {
-      "id": "2b6b14d8a53a",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1778505198190,
-      "depth": 3
-    },
-    {
-      "id": "1eb800b82ad4",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.0563",
-      "metricName": "Sharpe",
-      "metricValue": 1.0563,
-      "isCurrentBest": false,
-      "createdAt": 1778505168687,
-      "depth": 10
-    },
-    {
-      "id": "75d628821167",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1778505077660,
-      "depth": 3
-    },
-    {
-      "id": "00f60ada6c0c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 5",
-      "metricName": "score",
-      "metricValue": 0.9774511726740827,
-      "isCurrentBest": false,
-      "createdAt": 1778505047210,
-      "depth": 11
-    },
-    {
-      "id": "af82fb8320fd",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1778504955768,
-      "depth": 3
-    },
-    {
-      "id": "a2418ffd40a2",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3",
-      "metricName": "score",
-      "metricValue": 0.9649832247753495,
-      "isCurrentBest": false,
-      "createdAt": 1778504925637,
-      "depth": 11
-    },
-    {
-      "id": "6b790480283a",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.0401",
-      "metricName": "Sharpe",
-      "metricValue": 1.0401,
-      "isCurrentBest": false,
-      "createdAt": 1778504870350,
-      "depth": 10
-    },
-    {
-      "id": "9ca3b03df5e1",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2",
-      "metricName": "score",
-      "metricValue": 140.9640516106927,
-      "isCurrentBest": false,
-      "createdAt": 1778504865628,
-      "depth": 11
-    },
-    {
-      "id": "5a7f9fc9a482",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1959,
-      "isCurrentBest": false,
-      "createdAt": 1778504828529,
+      "createdAt": 1778507471258,
       "depth": 3
     }
   ],
