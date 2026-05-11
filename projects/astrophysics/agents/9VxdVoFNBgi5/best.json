@@ -2,17 +2,17 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWJKKoEvq5NayZtNGkHvuJdJWimVyzqB5rSQhifXWf6uwS",
-  "runNumber": 53,
-  "timestamp": 1778497390658,
-  "hypothesis": "Further refine architecture and optimizer for improved validation loss, building on recent success with swish and RMSNorm.",
+  "runNumber": 60,
+  "timestamp": 1778500250261,
+  "hypothesis": "Reduce model size and further refine optimizer for improved validation loss, building on recent successes with swish and RMSNorm.",
   "config": {
-    "nLayers": 4,
+    "nLayers": 6,
     "nHeads": 2,
-    "dModel": 256,
-    "dFF": 384,
+    "dModel": 128,
+    "dFF": 256,
     "contextLength": 512,
     "vocabSize": 128,
-    "learningRate": 0.000008,
+    "learningRate": 0.00001,
     "batchSize": 16,
     "maxSteps": 40000,
     "maxDurationSec": 120,
@@ -36,67 +36,67 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.22602,
-    "trainLoss": 9.009021,
+    "valLoss": 3.225944,
+    "trainLoss": 9.008774,
     "lossCurve": [
       [
         0,
-        9.01104
+        9.011035
       ],
       [
         1,
-        9.011212
+        9.011103
       ],
       [
         2,
-        9.011238
+        9.010993
       ],
       [
         3,
-        9.011312
+        9.011054
       ],
       [
         4,
-        9.011193
+        9.010969
       ],
       [
         5,
-        9.011214
+        9.010927
       ],
       [
         6,
-        9.011213
+        9.010977
       ],
       [
         7,
-        9.011281
+        9.010964
       ],
       [
         8,
-        9.011217
+        9.010948
       ],
       [
         9,
-        9.01121
+        9.010931
       ],
       [
         10,
-        9.011213
+        9.010923
       ],
       [
         50,
-        9.010672
+        9.010469
       ],
       [
         100,
-        9.00904
+        9.00894
       ]
     ],
-    "durationSec": 120.3,
-    "tokensPerSec": 458021.61263507896,
-    "totalTokens": 55100000
+    "durationSec": 120.7,
+    "tokensPerSec": 521126.76056338026,
+    "totalTokens": 62900000
   },
-  "improvement": -0.015620525370331598,
+  "improvement": -0.0023558440431232595,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
   "inspiredBy": null
