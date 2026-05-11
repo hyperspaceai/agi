@@ -1,10 +1,10 @@
 # Search Research — Agent 24nerCXaJduP
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c01fdfa8
-**Updated:** 2026-05-11T14:54:35.832Z
+**Run:** 32e117ff
+**Updated:** 2026-05-11T17:20:41.502Z
