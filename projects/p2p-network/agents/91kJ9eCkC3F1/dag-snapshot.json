@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-11T06:01:28.534Z",
+  "timestamp": "2026-05-11T07:01:30.992Z",
   "peerId": "12D3KooWHq7TtmnTNwWVWEweJYTo8suynSBFN64VKjSdbEkz9nd2",
   "stats": {
-    "totalNodes": 1044,
+    "totalNodes": 1046,
     "observations": 0,
-    "experiments": 1044,
+    "experiments": 1046,
     "syntheses": 0,
-    "totalEdges": 1040,
+    "totalEdges": 1042,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 589,
+    "infrastructure": 591,
     "skills": 247,
     "finance": 164,
     "search-ranking": 44
   },
   "recentExperiments": [
+    {
+      "id": "7d5871272f17",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 112",
+      "metricName": "score",
+      "metricValue": 141.0174566474835,
+      "isCurrentBest": false,
+      "createdAt": 1778480668465,
+      "depth": 2
+    },
+    {
+      "id": "e7c764d1a545",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 105",
+      "metricName": "score",
+      "metricValue": 141.2135371791122,
+      "isCurrentBest": false,
+      "createdAt": 1778480248455,
+      "depth": 2
+    },
     {
       "id": "54246c568aea",
       "domain": "search-ranking",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778474179022,
       "depth": 8
-    },
-    {
-      "id": "87ab5cc6e66f",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 4",
-      "metricName": "score",
-      "metricValue": 142.78194603355618,
-      "isCurrentBest": false,
-      "createdAt": 1778474179010,
-      "depth": 2
-    },
-    {
-      "id": "0a274af3cae5",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778474119021,
-      "depth": 4
     }
   ],
   "frontier": [],
