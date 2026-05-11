@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-11T03:01:56.211Z",
+  "timestamp": "2026-05-11T05:30:41.213Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 1121,
+    "totalNodes": 1201,
     "observations": 0,
-    "experiments": 1121,
+    "experiments": 1201,
     "syntheses": 0,
-    "totalEdges": 603,
+    "totalEdges": 663,
     "maxDepth": 8,
-    "activeExperiments": 483,
-    "recentActivity": 12
+    "activeExperiments": 498,
+    "recentActivity": 18
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,209 +55,208 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 257,
-    "skills": 139,
-    "finance": 161,
-    "physics": 483,
-    "general": 31,
+    "infrastructure": 288,
+    "skills": 148,
+    "finance": 181,
+    "physics": 498,
+    "general": 36,
     "search-ranking": 50
   },
   "recentExperiments": [
     {
-      "id": "ae009bd0e4cc",
+      "id": "3492d5e4a7c9",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a warp‑drive metric with a smooth, parameterized shape f\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778468506752,
+      "createdAt": 1778477240430,
       "depth": 0
     },
     {
-      "id": "b4624c236674",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
+      "id": "f043dfcc3553",
+      "domain": "general",
+      "title": "AutoWeb round 5: 54/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 54,
       "isCurrentBest": false,
-      "createdAt": 1778468046665,
+      "createdAt": 1778477124375,
+      "depth": 0
+    },
+    {
+      "id": "590d1f019848",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778477058367,
+      "depth": 0
+    },
+    {
+      "id": "198400decf5c",
+      "domain": "general",
+      "title": "AutoWeb round 4: 52/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 52,
+      "isCurrentBest": false,
+      "createdAt": 1778476876966,
+      "depth": 0
+    },
+    {
+      "id": "bcb8a2bc5007",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 18",
+      "metricName": "score",
+      "metricValue": 141.27677175839318,
+      "isCurrentBest": false,
+      "createdAt": 1778476757848,
+      "depth": 3
+    },
+    {
+      "id": "996a16c78d7c",
+      "domain": "finance",
+      "title": "Finance round 7: Sharpe=1.3096",
+      "metricName": "Sharpe",
+      "metricValue": 1.3096,
+      "isCurrentBest": false,
+      "createdAt": 1778476678012,
+      "depth": 8
+    },
+    {
+      "id": "6737b88b0acb",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can a matched‑filter search pipeline be constructed for LISA\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778476623264,
+      "depth": 0
+    },
+    {
+      "id": "2cdfdaa86523",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can quantum energy inequalities (QEI) be satisfied in a warp\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778476400039,
+      "depth": 0
+    },
+    {
+      "id": "23014f52fab0",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.3031",
+      "metricName": "Sharpe",
+      "metricValue": 1.3031,
+      "isCurrentBest": false,
+      "createdAt": 1778476368787,
+      "depth": 8
+    },
+    {
+      "id": "b7a5a8980d75",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.1991",
+      "metricName": "Sharpe",
+      "metricValue": 1.1991,
+      "isCurrentBest": false,
+      "createdAt": 1778476227834,
+      "depth": 8
+    },
+    {
+      "id": "a5fb3f0d96ee",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: What is the linear stability spectrum of a warp‑bubble solut\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778476171696,
+      "depth": 0
+    },
+    {
+      "id": "8138c8096bd3",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.0939",
+      "metricName": "Sharpe",
+      "metricValue": 1.0939,
+      "isCurrentBest": false,
+      "createdAt": 1778476091184,
+      "depth": 8
+    },
+    {
+      "id": "71f0ba98045a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 6",
+      "metricName": "score",
+      "metricValue": 141.42562630321885,
+      "isCurrentBest": false,
+      "createdAt": 1778476037795,
+      "depth": 3
+    },
+    {
+      "id": "bc2a68b30ccf",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1978,
+      "isCurrentBest": false,
+      "createdAt": 1778476014149,
       "depth": 4
     },
     {
-      "id": "fa75d4053106",
-      "domain": "finance",
-      "title": "Finance round 30: Sharpe=1.2946",
-      "metricName": "Sharpe",
-      "metricValue": 1.2946,
-      "isCurrentBest": false,
-      "createdAt": 1778467622488,
-      "depth": 8
-    },
-    {
-      "id": "a76c1d2bf681",
-      "domain": "finance",
-      "title": "Finance round 27: Sharpe=1.2914",
-      "metricName": "Sharpe",
-      "metricValue": 1.2914,
-      "isCurrentBest": false,
-      "createdAt": 1778467169332,
-      "depth": 8
-    },
-    {
-      "id": "24147b145e0e",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can Casimir energy engineering in a laboratory setting provi\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778467004833,
-      "depth": 0
-    },
-    {
-      "id": "c847cccfe384",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What are the nonlinear stability properties of Barzegar & Bu\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778466801230,
-      "depth": 0
-    },
-    {
-      "id": "172bdad9620e",
-      "domain": "finance",
-      "title": "Finance round 24: Sharpe=1.2818",
-      "metricName": "Sharpe",
-      "metricValue": 1.2818,
-      "isCurrentBest": false,
-      "createdAt": 1778466715705,
-      "depth": 8
-    },
-    {
-      "id": "689050ea24b9",
-      "domain": "finance",
-      "title": "Finance round 23: Sharpe=1.2779",
-      "metricName": "Sharpe",
-      "metricValue": 1.2779,
-      "isCurrentBest": false,
-      "createdAt": 1778465529510,
-      "depth": 8
-    },
-    {
-      "id": "618054cd002c",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: To what extent does the quantum null energy condition (QNEC)\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778465399538,
-      "depth": 0
-    },
-    {
-      "id": "6638cb396baf",
-      "domain": "finance",
-      "title": "Finance round 21: Sharpe=1.2711",
-      "metricName": "Sharpe",
-      "metricValue": 1.2711,
-      "isCurrentBest": false,
-      "createdAt": 1778465228511,
-      "depth": 8
-    },
-    {
-      "id": "715a44c51251",
+      "id": "6c8d07d05afe",
       "domain": "skills",
       "title": "Skill Normalize Text (LLM 2 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.199,
+      "metricValue": 0.1972,
       "isCurrentBest": false,
-      "createdAt": 1778465217381,
+      "createdAt": 1778475890532,
       "depth": 4
     },
     {
-      "id": "f5ef9ae917b7",
+      "id": "2773278aae4a",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.0810",
+      "metricName": "Sharpe",
+      "metricValue": 1.081,
+      "isCurrentBest": false,
+      "createdAt": 1778475778466,
+      "depth": 8
+    },
+    {
+      "id": "365e1a7b2807",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1",
+      "metricName": "score",
+      "metricValue": 0.9730690585850403,
+      "isCurrentBest": false,
+      "createdAt": 1778475737722,
+      "depth": 3
+    },
+    {
+      "id": "6b82d36ffe5d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1",
+      "metricName": "score",
+      "metricValue": 141.61225710845665,
+      "isCurrentBest": false,
+      "createdAt": 1778475737715,
+      "depth": 3
+    },
+    {
+      "id": "35048a6ebe9b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 26",
+      "metricName": "score",
+      "metricValue": 141.34206737160244,
+      "isCurrentBest": false,
+      "createdAt": 1778473805673,
+      "depth": 3
+    },
+    {
+      "id": "30bd3c1194a6",
       "domain": "skills",
-      "title": "Skill Normalize Text (LLM 2 iter): 0%",
+      "title": "Skill Compute Text Statistics (LLM 2 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.199,
+      "metricValue": 0.1973,
       "isCurrentBest": false,
-      "createdAt": 1778465101852,
+      "createdAt": 1778473697183,
       "depth": 4
-    },
-    {
-      "id": "51c8ccb953ab",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1778464732001,
-      "depth": 4
-    },
-    {
-      "id": "611778542228",
-      "domain": "search-ranking",
-      "title": "Search round 27: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778464694392,
-      "depth": 3
-    },
-    {
-      "id": "3512b14aae9c",
-      "domain": "search-ranking",
-      "title": "Search round 27: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778464673280,
-      "depth": 3
-    },
-    {
-      "id": "b140b03496e6",
-      "domain": "search-ranking",
-      "title": "Search round 27: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778464335016,
-      "depth": 3
-    },
-    {
-      "id": "e142569bcead",
-      "domain": "search-ranking",
-      "title": "Search round 27: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778464334029,
-      "depth": 3
-    },
-    {
-      "id": "cc96c91367ec",
-      "domain": "search-ranking",
-      "title": "Search round 27: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778464319512,
-      "depth": 3
-    },
-    {
-      "id": "9cbc8e85a0ff",
-      "domain": "search-ranking",
-      "title": "Search round 27: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778464312735,
-      "depth": 3
-    },
-    {
-      "id": "692575a0668a",
-      "domain": "search-ranking",
-      "title": "Search round 27: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778463971423,
-      "depth": 3
     }
   ],
   "frontier": [],
