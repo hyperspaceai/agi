@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2R6MjgAJCrDf
 
-**Latest Skill:** Chunk Text for Embeddings (LLM 3 iter) v1
+**Latest Skill:** Compute Text Statistics (LLM 3 iter) v1
 **Score:** 0.1997
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct [0.20→0.20→0.20]
+**Description:** Compute Text Statistics: 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-05-10T23:42:44.849Z_
+_Updated: 2026-05-11T07:42:06.813Z_
