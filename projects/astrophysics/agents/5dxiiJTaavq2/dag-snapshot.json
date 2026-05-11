@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-10T22:52:30.660Z",
+  "timestamp": "2026-05-11T01:10:06.580Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 1034,
+    "totalNodes": 1089,
     "observations": 0,
-    "experiments": 1034,
+    "experiments": 1089,
     "syntheses": 0,
-    "totalEdges": 536,
+    "totalEdges": 576,
     "maxDepth": 8,
-    "activeExperiments": 466,
-    "recentActivity": 8
+    "activeExperiments": 479,
+    "recentActivity": 33
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,204 +55,209 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 239,
-    "skills": 127,
-    "finance": 138,
-    "physics": 466,
-    "general": 28,
+    "infrastructure": 256,
+    "skills": 134,
+    "finance": 154,
+    "physics": 479,
+    "general": 30,
     "search-ranking": 36
   },
   "recentExperiments": [
     {
-      "id": "7789e22d0ce0",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1986,
+      "id": "b36cc21d1e67",
+      "domain": "finance",
+      "title": "Finance round 12: Sharpe=1.2487",
+      "metricName": "Sharpe",
+      "metricValue": 1.2487,
       "isCurrentBest": false,
-      "createdAt": 1778453220334,
-      "depth": 4
+      "createdAt": 1778461805428,
+      "depth": 8
     },
     {
-      "id": "a018d970f2a2",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What gravitational‑wave signatures arise from a lattice of C\" (self-ve",
-      "metricName": "verification_score",
+      "id": "4263b8c6e865",
+      "domain": "finance",
+      "title": "Finance round 11: Sharpe=1.2427",
+      "metricName": "Sharpe",
+      "metricValue": 1.2427,
       "isCurrentBest": false,
-      "createdAt": 1778452894605,
-      "depth": 0
+      "createdAt": 1778461641125,
+      "depth": 8
     },
     {
-      "id": "8844cfbf83c7",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a time‑dependent warp bubble in Einstein–Cartan gravity,\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778452695996,
-      "depth": 0
-    },
-    {
-      "id": "497314a11e91",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1986,
-      "isCurrentBest": false,
-      "createdAt": 1778451282558,
-      "depth": 4
-    },
-    {
-      "id": "ef23b72a90a5",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Do warp drive solutions with non‑zero vorticity in Einstein–\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778451173806,
-      "depth": 0
-    },
-    {
-      "id": "bd66287e1aad",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1984,
-      "isCurrentBest": false,
-      "createdAt": 1778451041390,
-      "depth": 4
-    },
-    {
-      "id": "de2f276955af",
+      "id": "e8b1c8e99130",
       "domain": "skills",
       "title": "Skill Normalize Text (LLM 2 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1981,
+      "metricValue": 0.199,
       "isCurrentBest": false,
-      "createdAt": 1778450909501,
+      "createdAt": 1778461566387,
       "depth": 4
     },
     {
-      "id": "6021c5be7faf",
-      "domain": "general",
-      "title": "AutoWeb round 14: 58/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 58,
-      "isCurrentBest": false,
-      "createdAt": 1778450708641,
-      "depth": 0
-    },
-    {
-      "id": "bf01fc0e6e66",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What are the gravitational‑wave signatures of warp‑bubble so\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778449056200,
-      "depth": 0
-    },
-    {
-      "id": "a20d35fa4e84",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a lattice of Casimir micro‑cavities engineered with quan\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778448862637,
-      "depth": 0
-    },
-    {
-      "id": "9fe9e0d74049",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the renormalised stress‑energy tensor of a non‑minimally\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778448648851,
-      "depth": 0
-    },
-    {
-      "id": "c67a5840b7b4",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the renormalized stress‑energy tensor of a conformally c\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778448222158,
-      "depth": 0
-    },
-    {
-      "id": "16dae99697f5",
-      "domain": "finance",
-      "title": "Finance round 14: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1778448087476,
-      "depth": 8
-    },
-    {
-      "id": "0b1b28159c9b",
+      "id": "c25de312304b",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 50",
+      "title": "Cause literature-analysis round 24",
       "metricName": "score",
-      "metricValue": 0.9632316595915889,
+      "metricValue": 0.9763642103563313,
       "isCurrentBest": false,
-      "createdAt": 1778447926986,
+      "createdAt": 1778461479374,
       "depth": 3
     },
     {
-      "id": "9f9ba33efddd",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.3105",
-      "metricName": "Sharpe",
-      "metricValue": 1.3105,
+      "id": "54d73f214d27",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1981,
       "isCurrentBest": false,
-      "createdAt": 1778447637516,
+      "createdAt": 1778461212295,
+      "depth": 4
+    },
+    {
+      "id": "9fc5979fdd5b",
+      "domain": "finance",
+      "title": "Finance round 8: Sharpe=1.2366",
+      "metricName": "Sharpe",
+      "metricValue": 1.2366,
+      "isCurrentBest": false,
+      "createdAt": 1778461189098,
       "depth": 8
     },
     {
-      "id": "b95725f98ad4",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a lattice of Casimir micro‑cavities arranged in a hyperb\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778447552770,
-      "depth": 0
-    },
-    {
-      "id": "1c87f5a4d6db",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.3040",
-      "metricName": "Sharpe",
-      "metricValue": 1.304,
-      "isCurrentBest": false,
-      "createdAt": 1778447492562,
-      "depth": 8
-    },
-    {
-      "id": "f7ce6e5d09f1",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What minimal higher‑curvature coupling structure in a non‑lo\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778447424224,
-      "depth": 0
-    },
-    {
-      "id": "842b7a99f7b5",
+      "id": "412d775ba150",
       "domain": "general",
-      "title": "AutoWeb round 4: 56/100",
+      "title": "AutoWeb round 3: 54/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 56,
+      "metricValue": 54,
       "isCurrentBest": false,
-      "createdAt": 1778447228708,
+      "createdAt": 1778461006010,
       "depth": 0
     },
     {
-      "id": "d8f374e52ac3",
-      "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
+      "id": "31f83b4ce2ca",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: ** Does semiclassical backreaction from quantum fields in a \" (self-ve",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1778447187565,
+      "createdAt": 1778460973856,
+      "depth": 0
+    },
+    {
+      "id": "b1a2bebcf292",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 13",
+      "metricName": "score",
+      "metricValue": 0.9734646428387612,
+      "isCurrentBest": false,
+      "createdAt": 1778460818690,
+      "depth": 3
+    },
+    {
+      "id": "a06a230929a2",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: ** Can Gauss‑Bonnet corrections be tuned to produce a warp b\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778460760766,
+      "depth": 0
+    },
+    {
+      "id": "d2f60e019451",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 10",
+      "metricName": "score",
+      "metricValue": 141.03761297659116,
+      "isCurrentBest": false,
+      "createdAt": 1778460638687,
+      "depth": 3
+    },
+    {
+      "id": "1cb5e6b583de",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2267",
+      "metricName": "Sharpe",
+      "metricValue": 1.2267,
+      "isCurrentBest": false,
+      "createdAt": 1778460588783,
       "depth": 8
+    },
+    {
+      "id": "8324f2896b59",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 9",
+      "metricName": "score",
+      "metricValue": 0.9724984653770395,
+      "isCurrentBest": false,
+      "createdAt": 1778460578686,
+      "depth": 3
+    },
+    {
+      "id": "e256829a86e4",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: ** What are the linear stability properties of the warp‑driv\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778460530457,
+      "depth": 0
+    },
+    {
+      "id": "b3cfbcc4ac68",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 7",
+      "metricName": "score",
+      "metricValue": 141.57525152963598,
+      "isCurrentBest": false,
+      "createdAt": 1778460458687,
+      "depth": 3
+    },
+    {
+      "id": "779b7e565cda",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1977",
+      "metricName": "Sharpe",
+      "metricValue": 1.1977,
+      "isCurrentBest": false,
+      "createdAt": 1778460446766,
+      "depth": 8
+    },
+    {
+      "id": "d186d4afc5f7",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: ** Do f(R) gravity models admit warp‑drive metrics that sati\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1778460340243,
+      "depth": 0
+    },
+    {
+      "id": "4501f8cd3eaf",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 5",
+      "metricName": "score",
+      "metricValue": 0.9694569415454335,
+      "isCurrentBest": false,
+      "createdAt": 1778460338686,
+      "depth": 3
+    },
+    {
+      "id": "bb2f83803e9b",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1782",
+      "metricName": "Sharpe",
+      "metricValue": 1.1782,
+      "isCurrentBest": false,
+      "createdAt": 1778460292088,
+      "depth": 8
+    },
+    {
+      "id": "96c58a2063d4",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 3",
+      "metricName": "score",
+      "metricValue": 0.9399691748305022,
+      "isCurrentBest": false,
+      "createdAt": 1778460218681,
+      "depth": 3
     }
   ],
   "frontier": [],
