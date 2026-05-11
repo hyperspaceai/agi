@@ -1,10 +1,10 @@
 # Search Research — Agent HdeojxwATVJR
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** require 5 unique domains
+**Best NDCG@10:** 0.4000
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 866b0b7f
-**Updated:** 2026-05-11T02:51:44.845Z
+**Run:** 192f5360
+**Updated:** 2026-05-11T15:48:31.957Z
