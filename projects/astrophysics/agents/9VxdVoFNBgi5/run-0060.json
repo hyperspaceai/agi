@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWJKKoEvq5NayZtNGkHvuJdJWimVyzqB5rSQhifXWf6uwS",
+  "runNumber": 60,
+  "timestamp": 1778500250261,
+  "hypothesis": "Reduce model size and further refine optimizer for improved validation loss, building on recent successes with swish and RMSNorm.",
+  "config": {
+    "nLayers": 6,
+    "nHeads": 2,
+    "dModel": 128,
+    "dFF": 256,
+    "contextLength": 512,
+    "vocabSize": 128,
+    "learningRate": 0.00001,
+    "batchSize": 16,
+    "maxSteps": 40000,
+    "maxDurationSec": 120,
+    "warmupSteps": 400,
+    "weightDecay": 0.01,
+    "evalInterval": 3,
+    "evalSteps": 5,
+    "dataset": "astrophysics",
+    "activation": "swish",
+    "normalization": "rmsnorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": true,
+    "residualScale": 1,
+    "dropoutRate": 0.1,
+    "gradientClipNorm": 5,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.01,
+    "initType": "kaiming",
+    "initScale": 0.01,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.225944,
+    "trainLoss": 9.008774,
+    "lossCurve": [
+      [
+        0,
+        9.011035
+      ],
+      [
+        1,
+        9.011103
+      ],
+      [
+        2,
+        9.010993
+      ],
+      [
+        3,
+        9.011054
+      ],
+      [
+        4,
+        9.010969
+      ],
+      [
+        5,
+        9.010927
+      ],
+      [
+        6,
+        9.010977
+      ],
+      [
+        7,
+        9.010964
+      ],
+      [
+        8,
+        9.010948
+      ],
+      [
+        9,
+        9.010931
+      ],
+      [
+        10,
+        9.010923
+      ],
+      [
+        50,
+        9.010469
+      ],
+      [
+        100,
+        9.00894
+      ]
+    ],
+    "durationSec": 120.7,
+    "tokensPerSec": 521126.76056338026,
+    "totalTokens": 62900000
+  },
+  "improvement": -0.0023558440431232595,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "inspiredBy": null
+}
