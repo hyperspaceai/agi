@@ -1,10 +1,10 @@
 # Search Research — Agent 5dxiiJTaavq2
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost diversity weight (+0.03)
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a3c6075a
-**Updated:** 2026-05-10T20:10:39.471Z
+**Run:** 4587174d
+**Updated:** 2026-05-11T02:29:42.416Z
