@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-12T21:41:15.883Z",
+  "timestamp": "2026-05-12T22:41:16.111Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 3654,
+    "totalNodes": 3656,
     "observations": 323,
-    "experiments": 3331,
+    "experiments": 3333,
     "syntheses": 0,
-    "totalEdges": 3259,
+    "totalEdges": 3261,
     "maxDepth": 15,
     "activeExperiments": 52,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,15 +55,35 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1520,
+    "infrastructure": 1521,
     "knowledge": 323,
     "search-ranking": 101,
     "general": 16,
-    "skills": 996,
+    "skills": 997,
     "finance": 646,
     "physics": 52
   },
   "recentExperiments": [
+    {
+      "id": "0dbb7efffaeb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1161",
+      "metricName": "score",
+      "metricValue": 145.1751540548352,
+      "isCurrentBest": false,
+      "createdAt": 1778625195962,
+      "depth": 7
+    },
+    {
+      "id": "01070671e429",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778623875959,
+      "depth": 4
+    },
     {
       "id": "27dba64631ae",
       "domain": "infrastructure",
@@ -242,26 +262,6 @@
       "metricValue": 145.1650379161395,
       "isCurrentBest": false,
       "createdAt": 1778582173392,
-      "depth": 7
-    },
-    {
-      "id": "a981dec2416a",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 363",
-      "metricName": "score",
-      "metricValue": 145.02929142736878,
-      "isCurrentBest": false,
-      "createdAt": 1778577313119,
-      "depth": 7
-    },
-    {
-      "id": "92da2dfdf2a3",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 273",
-      "metricName": "score",
-      "metricValue": 0.9672158212274976,
-      "isCurrentBest": false,
-      "createdAt": 1778571912764,
       "depth": 7
     }
   ],
