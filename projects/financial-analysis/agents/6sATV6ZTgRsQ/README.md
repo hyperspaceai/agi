@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 6sATV6ZTgRsQ
 
-**Best Sharpe Ratio:** 1.0193
-**Hypothesis:** [LLM] Increased momentum weight and slightly decreased value weight to capitalize on recent momentum performance.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
-**Position Sizing:** equal_weight
-**Alpha:** 0.9166
-**Max Drawdown:** 0.0860
+**Best Sharpe Ratio:** 1.2487
+**Hypothesis:** Round 11 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Position Sizing:** risk_parity
+**Alpha:** 1.3522
+**Max Drawdown:** 0.0725
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-05-11T14:51:30.955Z
+**Run:** finance-r11
+**Updated:** 2026-05-12T13:48:39.504Z
