@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWL3rZi6MK9W9BnRtiURFJNiMGMFNh1k1gTtLSJ5kDsNT6",
+  "runNumber": 8,
+  "timestamp": 1778557328761,
+  "hypothesis": "Increase model size and refine learning rate schedule, building on previous successes.",
+  "config": {
+    "nLayers": 24,
+    "nHeads": 2,
+    "dModel": 128,
+    "dFF": 128,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.00001,
+    "batchSize": 4,
+    "maxSteps": 500000,
+    "maxDurationSec": 300,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 10,
+    "evalSteps": 2,
+    "dataset": "astrophysics",
+    "activation": "swish",
+    "normalization": "rmsnorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0.1,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "xavier",
+    "initScale": 0.01,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 4.316984138986962,
+    "trainLoss": 4.307485221962632,
+    "lossCurve": [
+      [
+        10,
+        4.994651532438948
+      ],
+      [
+        20,
+        4.786136388090485
+      ],
+      [
+        30,
+        4.389946664852813
+      ],
+      [
+        36,
+        4.316984138986962
+      ]
+    ],
+    "durationSec": 322.701,
+    "tokensPerSec": 57.117889315496384,
+    "totalTokens": 18432
+  },
+  "improvement": -13.14295707833201,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "inspiredBy": null
+}
