@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCoXXr2XmVMAqMhWdEWif87CmvMAN8VdmJEeGi8cu6ULA",
-  "runNumber": 18,
-  "timestamp": 1778595057436,
-  "hypothesis": "Improve on dd4f8428 (loss=2.5894): higher gradient clip (5.0)",
+  "runNumber": 19,
+  "timestamp": 1778596189606,
+  "hypothesis": "Improve on 7187ae1d (loss=2.5893): extended training (600s)",
   "config": {
     "nLayers": 8,
     "nHeads": 4,
@@ -15,7 +15,7 @@
     "learningRate": 0.0003,
     "batchSize": 64,
     "maxSteps": 100000,
-    "maxDurationSec": 300,
+    "maxDurationSec": 600,
     "warmupSteps": 100,
     "weightDecay": 0.01,
     "evalInterval": 500,
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.589343,
-    "trainLoss": 7.264459,
+    "valLoss": 2.302285,
+    "trainLoss": 6.44815,
     "lossCurve": [
       [
         0,
@@ -85,22 +85,38 @@
       ],
       [
         50,
-        8.898203
+        8.897984
       ],
       [
         100,
-        7.99926
+        7.998537
       ],
       [
         150,
-        7.425045
+        7.355955
+      ],
+      [
+        200,
+        6.96923
+      ],
+      [
+        250,
+        6.710441
+      ],
+      [
+        300,
+        6.558912
+      ],
+      [
+        350,
+        6.477711
       ]
     ],
-    "durationSec": 300,
-    "tokensPerSec": 346000,
-    "totalTokens": 103800000
+    "durationSec": 601.3,
+    "tokensPerSec": 332280.0598702811,
+    "totalTokens": 199800000
   },
-  "improvement": -0.0020468093717553714,
+  "improvement": -11.086132659906395,
   "isNewBest": true,
   "gpu": "NVIDIA RTX A6000",
   "inspiredBy": null
