@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWL3rZi6MK9W9BnRtiURFJNiMGMFNh1k1gTtLSJ5kDsNT6",
+  "runNumber": 4,
+  "timestamp": 1778553419136,
+  "hypothesis": "Reduce layer count and FF ratio further, combined with a shorter warmup, potentially improving convergence.",
+  "config": {
+    "nLayers": 18,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 1024,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.000005,
+    "batchSize": 4,
+    "maxSteps": 500000,
+    "maxDurationSec": 300,
+    "warmupSteps": 25000,
+    "weightDecay": 0.01,
+    "evalInterval": 10,
+    "evalSteps": 2,
+    "dataset": "astrophysics",
+    "activation": "swish",
+    "normalization": "rmsnorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0.1,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "xavier",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 5.090217537931363,
+    "trainLoss": 5.071118087572004,
+    "lossCurve": [
+      [
+        10,
+        5.122627506718407
+      ],
+      [
+        20,
+        5.051317354023207
+      ],
+      [
+        30,
+        5.10242821215869
+      ],
+      [
+        35,
+        5.090217537931363
+      ]
+    ],
+    "durationSec": 314.237,
+    "tokensPerSec": 57.02702100643781,
+    "totalTokens": 17920
+  },
+  "improvement": -47.833393662754084,
+  "isNewBest": true,
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "inspiredBy": null
+}
