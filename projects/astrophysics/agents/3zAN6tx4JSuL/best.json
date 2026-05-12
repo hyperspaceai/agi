@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCoXXr2XmVMAqMhWdEWif87CmvMAN8VdmJEeGi8cu6ULA",
-  "runNumber": 2,
-  "timestamp": 1778589832394,
-  "hypothesis": "Explore: smaller init scale (0.01)",
+  "runNumber": 6,
+  "timestamp": 1778593156447,
+  "hypothesis": "Improve on a30e0f44 (loss=2.5905): lower LR (3e-4)",
   "config": {
     "nLayers": 8,
     "nHeads": 4,
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.590464,
-    "trainLoss": 7.284334,
+    "valLoss": 2.589396,
+    "trainLoss": 7.264507,
     "lossCurve": [
       [
         0,
@@ -45,39 +45,39 @@
       ],
       [
         1,
-        9.011263
+        9.011257
       ],
       [
         2,
-        9.011293
+        9.011289
       ],
       [
         3,
-        9.011268
+        9.011265
       ],
       [
         4,
-        9.011247
+        9.011245
       ],
       [
         5,
-        9.01125
+        9.011238
       ],
       [
         6,
-        9.011252
+        9.011243
       ],
       [
         7,
-        9.011233
+        9.011253
       ],
       [
         8,
-        9.01123
+        9.011239
       ],
       [
         9,
-        9.011234
+        9.011233
       ],
       [
         10,
@@ -85,22 +85,22 @@
       ],
       [
         50,
-        8.898325
+        8.897512
       ],
       [
         100,
-        7.995088
+        7.99617
       ],
       [
         150,
-        7.427556
+        7.424567
       ]
     ],
-    "durationSec": 302.5,
-    "tokensPerSec": 341487.6033057851,
-    "totalTokens": 103300000
+    "durationSec": 300.1,
+    "tokensPerSec": 345884.70509830053,
+    "totalTokens": 103800000
   },
-  "improvement": 0,
+  "improvement": -0.04122813519122709,
   "isNewBest": true,
   "gpu": "NVIDIA RTX A6000",
   "inspiredBy": null
