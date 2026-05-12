@@ -1,0 +1,23 @@
+{
+  "runId": "llm-r1",
+  "runNumber": 1,
+  "hypothesis": "[LLM] Enhance Sharpe ratio by incorporating a trend factor and adjusting position sizing for improved risk-adjusted returns.",
+  "sharpeRatio": 1.1949,
+  "totalReturn": 2.4329,
+  "maxDrawdown": 0.0499,
+  "alpha": 0.9387,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "meanReversionWeight",
+    "trendWeight"
+  ],
+  "positionSizing": "inverse_vol",
+  "durationSec": 0.001,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-05-11T23:50:21.751Z"
+}
