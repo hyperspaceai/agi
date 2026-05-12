@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCoXXr2XmVMAqMhWdEWif87CmvMAN8VdmJEeGi8cu6ULA",
-  "runNumber": 24,
-  "timestamp": 1778598755541,
-  "hypothesis": "Improve on 3cd066b8 (loss=1.7362): muon LR (0.08)",
+  "runNumber": 21,
+  "timestamp": 1778599084988,
+  "hypothesis": "Improve on a9829ea0 (loss=2.3023): higher LR (0.003)",
   "config": {
     "nLayers": 8,
     "nHeads": 4,
@@ -12,7 +12,7 @@
     "dFF": 2048,
     "contextLength": 2048,
     "vocabSize": 32768,
-    "learningRate": 0.08,
+    "learningRate": 0.003,
     "batchSize": 64,
     "maxSteps": 100000,
     "maxDurationSec": 300,
@@ -36,8 +36,8 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 1.188658,
-    "trainLoss": 3.345321,
+    "valLoss": 1.736239,
+    "trainLoss": 4.883967,
     "lossCurve": [
       [
         0,
@@ -85,22 +85,22 @@
       ],
       [
         50,
-        5.260921
+        6.755815
       ],
       [
         100,
-        4.082512
+        5.672638
       ],
       [
         150,
-        3.524991
+        5.111479
       ]
     ],
-    "durationSec": 301.4,
-    "tokensPerSec": 344392.83344392834,
-    "totalTokens": 103800000
+    "durationSec": 301.2,
+    "tokensPerSec": 339309.42895086325,
+    "totalTokens": 102200000
   },
-  "improvement": -31.538342359548434,
+  "improvement": -24.586269727683575,
   "isNewBest": true,
   "gpu": "NVIDIA RTX A6000",
   "inspiredBy": null
