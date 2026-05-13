@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-13T16:53:57.022Z",
+  "timestamp": "2026-05-13T17:59:25.146Z",
   "peerId": "12D3KooWHPY3T3tfsdP6oTLbHz9pksAMSfKm3EXg6YsxuDd5yGUa",
   "stats": {
-    "totalNodes": 4872,
+    "totalNodes": 4876,
     "observations": 0,
-    "experiments": 4872,
+    "experiments": 4876,
     "syntheses": 0,
-    "totalEdges": 4868,
+    "totalEdges": 4872,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2331,
-    "skills": 1446,
+    "infrastructure": 2334,
+    "skills": 1447,
     "finance": 925,
     "search-ranking": 170
   },
   "recentExperiments": [
+    {
+      "id": "f5116abe97cb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 198",
+      "metricName": "score",
+      "metricValue": 145.02967884604544,
+      "isCurrentBest": false,
+      "createdAt": 1778694467968,
+      "depth": 7
+    },
+    {
+      "id": "6dd3ec8b4263",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778693749092,
+      "depth": 2
+    },
+    {
+      "id": "d4d3d52de736",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 174",
+      "metricName": "score",
+      "metricValue": 145.14818955268754,
+      "isCurrentBest": false,
+      "createdAt": 1778692880154,
+      "depth": 7
+    },
+    {
+      "id": "9190fc3ace25",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 152",
+      "metricName": "score",
+      "metricValue": 145.2783266080961,
+      "isCurrentBest": false,
+      "createdAt": 1778691413700,
+      "depth": 7
+    },
     {
       "id": "f3a565e6c3bc",
       "domain": "skills",
@@ -211,46 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1778685162878,
-      "depth": 2
-    },
-    {
-      "id": "0bde00162e4b",
-      "domain": "search-ranking",
-      "title": "Search round 38: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778685162875,
-      "depth": 2
-    },
-    {
-      "id": "879ee386cf50",
-      "domain": "search-ranking",
-      "title": "Search round 38: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778685161754,
-      "depth": 2
-    },
-    {
-      "id": "cf76bcd052a5",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778684800911,
-      "depth": 2
-    },
-    {
-      "id": "7083eace0c83",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1778683870635,
       "depth": 2
     }
   ],
