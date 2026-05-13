@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-13T00:44:17.429Z",
+  "timestamp": "2026-05-13T01:49:56.088Z",
   "peerId": "12D3KooWF1WzArLbvmQ2iiexaT3Q7HaKwFUybpQV1oH7AuX8DxPc",
   "stats": {
-    "totalNodes": 780,
+    "totalNodes": 784,
     "observations": 0,
-    "experiments": 780,
+    "experiments": 784,
     "syntheses": 0,
-    "totalEdges": 776,
+    "totalEdges": 780,
     "maxDepth": 11,
     "activeExperiments": 0,
-    "recentActivity": 17
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,51 @@
   },
   "domainCounts": {
     "infrastructure": 427,
-    "skills": 203,
+    "skills": 207,
     "finance": 108,
     "search-ranking": 42
   },
   "recentExperiments": [
+    {
+      "id": "92259b839b59",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778636090536,
+      "depth": 3
+    },
+    {
+      "id": "640a267ad039",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778635175627,
+      "depth": 3
+    },
+    {
+      "id": "5eab503eb911",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778635055148,
+      "depth": 3
+    },
+    {
+      "id": "230f3d4b2e5d",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778633296840,
+      "depth": 3
+    },
     {
       "id": "4ee420b677d2",
       "domain": "search-ranking",
@@ -211,46 +251,6 @@
       "metricValue": 0.1994,
       "isCurrentBest": false,
       "createdAt": 1778630382190,
-      "depth": 3
-    },
-    {
-      "id": "2e3879057d1f",
-      "domain": "search-ranking",
-      "title": "Search round 32: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778630339629,
-      "depth": 1
-    },
-    {
-      "id": "0af233b1377c",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1778629244530,
-      "depth": 3
-    },
-    {
-      "id": "cd6aa48f955a",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1778628872993,
-      "depth": 3
-    },
-    {
-      "id": "fb5d920674b1",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1778628558385,
       "depth": 3
     }
   ],
