@@ -1,10 +1,10 @@
 # Search Research — Agent 6sATV6ZTgRsQ
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** Increased authorityWeight slightly and decreased freshnessWeight further, continuing the positive trend observed in recent experiments.
+**Hypothesis:** Further increased authorityWeight and slightly decreased bodyWeight, continuing the trend of synergy with titleWeight.
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** fae1f9f8
-**Updated:** 2026-05-11T16:11:12.074Z
+**Run:** 4443f8f6
+**Updated:** 2026-04-24T03:18:49.491Z
