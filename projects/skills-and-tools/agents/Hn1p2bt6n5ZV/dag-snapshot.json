@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-13T00:04:07.897Z",
+  "timestamp": "2026-05-13T01:05:04.503Z",
   "peerId": "12D3KooWSbNymjToxypyepJkHhuwLFRZRRcuQRngJpdEHAupTUpm",
   "stats": {
-    "totalNodes": 99,
+    "totalNodes": 100,
     "observations": 0,
-    "experiments": 99,
+    "experiments": 100,
     "syntheses": 0,
-    "totalEdges": 95,
+    "totalEdges": 96,
     "maxDepth": 5,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 29,
+    "infrastructure": 30,
     "skills": 34,
     "finance": 8,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "6c5e8292fd0a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 346",
+      "metricName": "score",
+      "metricValue": 145.07957745678584,
+      "isCurrentBest": false,
+      "createdAt": 1778631562105,
+      "depth": 3
+    },
     {
       "id": "14a48e2acbcf",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.395,
       "isCurrentBest": false,
       "createdAt": 1778613373005,
-      "depth": 1
-    },
-    {
-      "id": "516b01984c9b",
-      "domain": "search-ranking",
-      "title": "Search round 31: use z-score normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1778613368305,
       "depth": 1
     }
   ],
