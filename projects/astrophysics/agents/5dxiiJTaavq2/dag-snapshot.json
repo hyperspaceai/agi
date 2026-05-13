@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-12T20:33:01.538Z",
+  "timestamp": "2026-05-13T01:04:03.254Z",
   "peerId": "12D3KooWETKtTS3Hmq6XC1q6GaqSpBDjRG9oimDTFqTG9LkPuDQT",
   "stats": {
-    "totalNodes": 1522,
+    "totalNodes": 1569,
     "observations": 0,
-    "experiments": 1522,
+    "experiments": 1569,
     "syntheses": 0,
-    "totalEdges": 761,
+    "totalEdges": 808,
     "maxDepth": 8,
     "activeExperiments": 718,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -22,12 +22,12 @@
       "depth": 2
     },
     "skills": {
-      "nodeId": "43fe205c70e25678844db620fdbe6e0e1f74a33d73f331dea8c08666d3ed4e10",
-      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "nodeId": "fbfed92bb193067d016ab5d09a00f96c1c69ee49fedfb1825acf9d3db4d6c44a",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1993,
+      "metricValue": 0.1995,
       "metricDirection": "maximize",
-      "depth": 3
+      "depth": 5
     },
     "finance": {
       "nodeId": "94786ae4d5218dfbeb8960319b269cfe4e293b6152d47145e0aac67003a1d8f1",
@@ -55,204 +55,213 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 353,
-    "skills": 174,
-    "finance": 188,
+    "infrastructure": 367,
+    "skills": 199,
+    "finance": 196,
     "physics": 718,
     "general": 39,
     "search-ranking": 50
   },
   "recentExperiments": [
     {
-      "id": "4ebe42e2903d",
+      "id": "57aa5fc3037b",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1585",
+      "title": "Cause infra-optimization round 191",
       "metricName": "score",
-      "metricValue": 0.9034990127116299,
+      "metricValue": 141.04148443136188,
       "isCurrentBest": false,
-      "createdAt": 1778614790727,
+      "createdAt": 1778633102930,
       "depth": 3
     },
     {
-      "id": "0af9a9264e9b",
+      "id": "e0590bd8f1fc",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1538",
+      "title": "Cause literature-analysis round 179",
       "metricName": "score",
-      "metricValue": 145.01624286339168,
+      "metricValue": 0.9600038180318489,
       "isCurrentBest": false,
-      "createdAt": 1778611951167,
+      "createdAt": 1778632382918,
       "depth": 3
     },
     {
-      "id": "bd9bdf9fcaa8",
+      "id": "1dbe9d753363",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1451",
+      "title": "Cause infra-optimization round 168",
       "metricName": "score",
-      "metricValue": 145.06213036284564,
+      "metricValue": 141.15837340725793,
       "isCurrentBest": false,
-      "createdAt": 1778606707058,
+      "createdAt": 1778631722746,
       "depth": 3
     },
     {
-      "id": "033752339274",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1362",
-      "metricName": "score",
-      "metricValue": 145.04874577655198,
+      "id": "bca3d6d8ca9f",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778601298455,
+      "createdAt": 1778628575232,
+      "depth": 6
+    },
+    {
+      "id": "a8068f71c217",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778627730906,
+      "depth": 6
+    },
+    {
+      "id": "311792c477f5",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778627368287,
+      "depth": 6
+    },
+    {
+      "id": "e8cc0ebffe24",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778627127439,
+      "depth": 6
+    },
+    {
+      "id": "bb436dde8cf1",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778627005975,
+      "depth": 6
+    },
+    {
+      "id": "f20dd3d5ad25",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 76",
+      "metricName": "score",
+      "metricValue": 141.14910021906934,
+      "isCurrentBest": false,
+      "createdAt": 1778626189399,
       "depth": 3
     },
     {
-      "id": "db8ceba1fc4d",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1335",
-      "metricName": "score",
-      "metricValue": 0.9149031350444166,
+      "id": "5c4cf952a1b2",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778599684154,
-      "depth": 3
+      "createdAt": 1778624959187,
+      "depth": 6
     },
     {
-      "id": "e8840eb9ac43",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1316",
-      "metricName": "score",
-      "metricValue": 0.9119670332901111,
+      "id": "f6eff30cab0c",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778598544059,
-      "depth": 3
+      "createdAt": 1778624837797,
+      "depth": 6
     },
     {
-      "id": "79ebdcb11720",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1297",
-      "metricName": "score",
-      "metricValue": 145.06822528525151,
+      "id": "e19c25a84594",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778597403506,
-      "depth": 3
+      "createdAt": 1778624717040,
+      "depth": 6
     },
     {
-      "id": "9c68225409e6",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1223",
-      "metricName": "score",
-      "metricValue": 0.9127817536624749,
+      "id": "30c151df3509",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778592952016,
-      "depth": 3
+      "createdAt": 1778624596645,
+      "depth": 6
     },
     {
-      "id": "c42dca270aef",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1219",
-      "metricName": "score",
-      "metricValue": 145.05306420424117,
+      "id": "2e241e0af241",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778592709802,
-      "depth": 3
+      "createdAt": 1778624476022,
+      "depth": 6
     },
     {
-      "id": "f92383ad2fb7",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1193",
-      "metricName": "score",
-      "metricValue": 0.9111754408351186,
-      "isCurrentBest": false,
-      "createdAt": 1778591379674,
-      "depth": 3
+      "id": "fbfed92bb193",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": true,
+      "createdAt": 1778624354565,
+      "depth": 5
     },
     {
-      "id": "d69b95f6f3cd",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
-      "metricName": "verification_score",
+      "id": "cd93ef125548",
+      "domain": "finance",
+      "title": "Finance round 18: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
       "isCurrentBest": false,
-      "createdAt": 1778590210289,
-      "depth": 0
+      "createdAt": 1778624293542,
+      "depth": 8
     },
     {
-      "id": "da1b682ea280",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1175",
-      "metricName": "score",
-      "metricValue": 145.1075839007973,
+      "id": "ff92d887c6f5",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
       "isCurrentBest": false,
-      "createdAt": 1778590059622,
-      "depth": 3
+      "createdAt": 1778624236425,
+      "depth": 4
     },
     {
-      "id": "2aa2a5029280",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 6.0)",
-      "metricName": "verification_score",
+      "id": "04dfd637b210",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
       "isCurrentBest": false,
-      "createdAt": 1778589850155,
-      "depth": 0
+      "createdAt": 1778623861471,
+      "depth": 4
     },
     {
-      "id": "0a9695b209f4",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
-      "metricName": "verification_score",
+      "id": "2bb8b1a1e64f",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
       "isCurrentBest": false,
-      "createdAt": 1778589376133,
-      "depth": 0
+      "createdAt": 1778623501478,
+      "depth": 4
     },
     {
-      "id": "6e5e4ccace43",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a dynamically evolving warp bubble, constructed via nume\" (self-ve",
-      "metricName": "verification_score",
+      "id": "2cce5ae68e0b",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
       "isCurrentBest": false,
-      "createdAt": 1778588985572,
-      "depth": 0
-    },
-    {
-      "id": "cfc25de74ac8",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: What is the minimal NEC‑violation profile required for a sel\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778588728904,
-      "depth": 0
-    },
-    {
-      "id": "29bef2c4b9c8",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: **\" (self-verification score: 4.0)",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778588127945,
-      "depth": 0
-    },
-    {
-      "id": "cf1ae143a58f",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can a tailored quantum state of a massive scalar field (e.g.\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778587707824,
-      "depth": 0
-    },
-    {
-      "id": "eaa5ab2ce253",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Is it possible to construct a self‑consistent semiclassical \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778587491668,
-      "depth": 0
-    },
-    {
-      "id": "79218c7c5137",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can the quantum null energy condition (QNEC) be applied to t\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1778587287376,
-      "depth": 0
+      "createdAt": 1778623381482,
+      "depth": 4
     }
   ],
   "frontier": [],
@@ -278,6 +287,18 @@
       }
     ],
     "skills": [
+      {
+        "id": "fbfed92bb193",
+        "title": "Skill Normalize Text (seed/mutation): 0%",
+        "metricValue": 0.1995,
+        "depth": 5
+      },
+      {
+        "id": "ff92d887c6f5",
+        "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+        "metricValue": 0.1994,
+        "depth": 4
+      },
       {
         "id": "43fe205c70e2",
         "title": "Skill Normalize Text (LLM 3 iter): 0%",
