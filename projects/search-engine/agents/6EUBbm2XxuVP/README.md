@@ -1,10 +1,10 @@
 # Search Research — Agent 6EUBbm2XxuVP
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f1951120
-**Updated:** 2026-05-13T01:05:44.394Z
+**Run:** 23d52718
+**Updated:** 2026-05-13T09:07:13.007Z
