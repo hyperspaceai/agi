@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-13T03:00:54.278Z",
+  "timestamp": "2026-05-13T03:57:43.561Z",
   "peerId": "12D3KooWMKCa4PCzzTYLRn6ie8Vc1znWDwVXCEu46bMe74wHvmkQ",
   "stats": {
-    "totalNodes": 159,
+    "totalNodes": 160,
     "observations": 0,
-    "experiments": 159,
+    "experiments": 160,
     "syntheses": 0,
-    "totalEdges": 156,
+    "totalEdges": 157,
     "maxDepth": 10,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -39,11 +39,21 @@
     }
   },
   "domainCounts": {
-    "skills": 71,
+    "skills": 72,
     "finance": 46,
     "search-ranking": 42
   },
   "recentExperiments": [
+    {
+      "id": "76c4eca8d207",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1778644095208,
+      "depth": 3
+    },
     {
       "id": "8943489df3e5",
       "domain": "skills",
@@ -232,16 +242,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1778628186052,
-      "depth": 1
-    },
-    {
-      "id": "dc0474d38848",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778628185333,
       "depth": 1
     }
   ],
