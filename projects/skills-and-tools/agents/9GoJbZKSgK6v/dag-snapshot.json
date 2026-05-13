@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-13T01:23:50.133Z",
+  "timestamp": "2026-05-13T02:32:19.126Z",
   "peerId": "12D3KooWJ6AULgu9sDNQpgZk3JoadtWLaCW8tHwz2cJic64V3RYb",
   "stats": {
-    "totalNodes": 877,
+    "totalNodes": 884,
     "observations": 0,
-    "experiments": 877,
+    "experiments": 884,
     "syntheses": 0,
-    "totalEdges": 873,
+    "totalEdges": 880,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,82 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 303,
-    "skills": 353,
+    "infrastructure": 307,
+    "skills": 356,
     "finance": 146,
     "search-ranking": 75
   },
   "recentExperiments": [
+    {
+      "id": "babcd9112c03",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1778639539068,
+      "depth": 1
+    },
+    {
+      "id": "c34adbd821f2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 328",
+      "metricName": "score",
+      "metricValue": 0.9781058393648947,
+      "isCurrentBest": false,
+      "createdAt": 1778638123663,
+      "depth": 2
+    },
+    {
+      "id": "1048c439598f",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1778637558437,
+      "depth": 1
+    },
+    {
+      "id": "56a124a214ef",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 318",
+      "metricName": "score",
+      "metricValue": 0.9590181875303638,
+      "isCurrentBest": false,
+      "createdAt": 1778637459542,
+      "depth": 2
+    },
+    {
+      "id": "4a7d3e566ab1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 317",
+      "metricName": "score",
+      "metricValue": 0.9551627344585345,
+      "isCurrentBest": false,
+      "createdAt": 1778637395232,
+      "depth": 2
+    },
+    {
+      "id": "fddc7192f6e5",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1778635834350,
+      "depth": 1
+    },
+    {
+      "id": "3d0d348347b6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 296",
+      "metricName": "score",
+      "metricValue": 0.9550894022396622,
+      "isCurrentBest": false,
+      "createdAt": 1778635829503,
+      "depth": 2
+    },
     {
       "id": "184b6e749236",
       "domain": "skills",
@@ -181,76 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1778619290169,
-      "depth": 1
-    },
-    {
-      "id": "67ecb180c1b0",
-      "domain": "search-ranking",
-      "title": "Search round 44: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778619278408,
-      "depth": 1
-    },
-    {
-      "id": "83dfe0cace76",
-      "domain": "search-ranking",
-      "title": "Search round 44: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778619277883,
-      "depth": 1
-    },
-    {
-      "id": "718d62f3f1da",
-      "domain": "search-ranking",
-      "title": "Search round 44: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778619252332,
-      "depth": 1
-    },
-    {
-      "id": "64e63c2bd06a",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1992,
-      "isCurrentBest": false,
-      "createdAt": 1778618988085,
-      "depth": 1
-    },
-    {
-      "id": "13bb4de5c32e",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1992,
-      "isCurrentBest": false,
-      "createdAt": 1778618855505,
-      "depth": 1
-    },
-    {
-      "id": "dab53134597e",
-      "domain": "search-ranking",
-      "title": "Search round 41: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778618825000,
-      "depth": 1
-    },
-    {
-      "id": "4bbacbff54ed",
-      "domain": "search-ranking",
-      "title": "Search round 41: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778618822791,
       "depth": 1
     }
   ],
