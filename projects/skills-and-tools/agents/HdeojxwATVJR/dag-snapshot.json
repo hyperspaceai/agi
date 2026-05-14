@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-14T16:13:26.008Z",
+  "timestamp": "2026-05-14T17:36:55.588Z",
   "peerId": "12D3KooWST1yV6WsePZvB7LTkJk7JUNMDuy2mKyGm4m4UX7EpecT",
   "stats": {
-    "totalNodes": 328,
+    "totalNodes": 329,
     "observations": 0,
-    "experiments": 328,
+    "experiments": 329,
     "syntheses": 0,
-    "totalEdges": 324,
+    "totalEdges": 325,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 103,
-    "skills": 128,
+    "skills": 129,
     "finance": 69,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "759625fa7464",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1778777114717,
+      "depth": 2
+    },
     {
       "id": "217bb10dc29f",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1778765632138,
-      "depth": 1
-    },
-    {
-      "id": "4b40a6eb8dd8",
-      "domain": "search-ranking",
-      "title": "Search round 34: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778765632107,
       "depth": 1
     }
   ],
