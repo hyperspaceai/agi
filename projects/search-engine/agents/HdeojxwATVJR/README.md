@@ -1,10 +1,10 @@
 # Search Research — Agent HdeojxwATVJR
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 432d2a80
-**Updated:** 2026-05-13T21:49:19.146Z
+**Run:** 8ea25cb4
+**Updated:** 2026-05-14T14:42:35.128Z
