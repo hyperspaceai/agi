@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-14T05:25:53.609Z",
+  "timestamp": "2026-05-14T06:25:53.742Z",
   "peerId": "12D3KooWA4sBr88jT69GaULoiuR84qZtNxFcCTCAdo2uwfJGVMsw",
   "stats": {
-    "totalNodes": 1936,
+    "totalNodes": 1938,
     "observations": 0,
-    "experiments": 1936,
+    "experiments": 1938,
     "syntheses": 0,
-    "totalEdges": 1932,
+    "totalEdges": 1934,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 786,
-    "skills": 657,
+    "infrastructure": 787,
+    "skills": 658,
     "finance": 385,
     "search-ranking": 108
   },
   "recentExperiments": [
+    {
+      "id": "366dc6901535",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1522",
+      "metricName": "score",
+      "metricValue": 145.00613954066333,
+      "isCurrentBest": false,
+      "createdAt": 1778739053675,
+      "depth": 3
+    },
+    {
+      "id": "118117a58f7f",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1778738153697,
+      "depth": 2
+    },
     {
       "id": "6c06eb05c387",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 145.0184074886635,
       "isCurrentBest": false,
       "createdAt": 1778687021071,
-      "depth": 3
-    },
-    {
-      "id": "469c48e40cc7",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 719",
-      "metricName": "score",
-      "metricValue": 0.9274488697127143,
-      "isCurrentBest": false,
-      "createdAt": 1778684260781,
-      "depth": 3
-    },
-    {
-      "id": "2f43fc6478b2",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 719",
-      "metricName": "score",
-      "metricValue": 145.06566987075766,
-      "isCurrentBest": false,
-      "createdAt": 1778684260777,
       "depth": 3
     }
   ],
