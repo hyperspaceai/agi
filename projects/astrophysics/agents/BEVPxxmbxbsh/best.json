@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWL3rZi6MK9W9BnRtiURFJNiMGMFNh1k1gTtLSJ5kDsNT6",
-  "runNumber": 16,
-  "timestamp": 1778624416765,
-  "hypothesis": "Improve on 2c0b4850 (loss=4.6025): muon LR (0.08)",
+  "runNumber": 74,
+  "timestamp": 1778762328451,
+  "hypothesis": "Improve on 8a6ad942 (loss=3.3081): aggressive LR (0.006) + warmup",
   "config": {
     "nLayers": 24,
     "nHeads": 2,
@@ -12,11 +12,11 @@
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.08,
+    "learningRate": 0.006,
     "batchSize": 4,
     "maxSteps": 500000,
     "maxDurationSec": 300,
-    "warmupSteps": 10000,
+    "warmupSteps": 500,
     "weightDecay": 0.01,
     "evalInterval": 10,
     "evalSteps": 2,
@@ -36,23 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 3.283453704947469,
-    "trainLoss": 3.1619610213475076,
+    "valLoss": 3.1397550678395705,
+    "trainLoss": 3.2068935541649495,
     "lossCurve": [
       [
         10,
-        3.523213676791287
-      ],
-      [
-        12,
-        3.283453704947469
+        3.1397550678395705
       ]
     ],
-    "durationSec": 355.877,
-    "tokensPerSec": 17.264391910688243,
-    "totalTokens": 6144
+    "durationSec": 347.441,
+    "tokensPerSec": 14.736314942680917,
+    "totalTokens": 5120
   },
-  "improvement": -23.94102921772663,
+  "improvement": -4.3764477900624925,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
   "inspiredBy": null
