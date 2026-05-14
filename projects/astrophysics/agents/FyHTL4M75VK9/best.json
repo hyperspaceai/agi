@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQned5BvpGPadtuTz5ATmLvRhAiohZznZEnUPVdJyA2LZ",
-  "runNumber": 7,
-  "timestamp": 1778747455752,
-  "hypothesis": "Improve on aec3c247 (loss=10.3493): higher LR (0.003)",
+  "runNumber": 9,
+  "timestamp": 1778796464177,
+  "hypothesis": "Improve on ef33ba22 (loss=9.6370): muon LR (0.08)",
   "config": {
     "nLayers": 8,
     "nHeads": 16,
@@ -12,7 +12,7 @@
     "dFF": 768,
     "contextLength": 2048,
     "vocabSize": 32768,
-    "learningRate": 0.003,
+    "learningRate": 0.08,
     "batchSize": 4,
     "maxSteps": 100000,
     "maxDurationSec": 1200,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 9.636974594696989,
-    "trainLoss": 10.412101798747196,
+    "valLoss": 9.546209303346078,
+    "trainLoss": 10.45675551241044,
     "lossCurve": [
       [
         1,
-        9.636974594696989
+        9.546209303346078
       ]
     ],
-    "durationSec": 20191.781,
-    "tokensPerSec": 0.4057096300717604,
+    "durationSec": 23846.169,
+    "tokensPerSec": 0.34353526555984737,
     "totalTokens": 8192
   },
-  "improvement": -6.88314834434234,
+  "improvement": -0.9418442526646985,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3060 Ti",
   "inspiredBy": null
