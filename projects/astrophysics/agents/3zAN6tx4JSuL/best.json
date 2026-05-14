@@ -2,42 +2,15 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCoXXr2XmVMAqMhWdEWif87CmvMAN8VdmJEeGi8cu6ULA",
-  "runNumber": 21,
-  "timestamp": 1778599084988,
-  "hypothesis": "Improve on a9829ea0 (loss=2.3023): higher LR (0.003)",
+  "runNumber": 87,
+  "timestamp": 1778746503287,
+  "hypothesis": "Inspired by i8cu6ULA (loss=1.1887): smaller batch (64 device)",
   "config": {
-    "nLayers": 8,
-    "nHeads": 4,
-    "dModel": 512,
-    "dFF": 2048,
-    "contextLength": 2048,
-    "vocabSize": 32768,
-    "learningRate": 0.003,
-    "batchSize": 64,
-    "maxSteps": 100000,
-    "maxDurationSec": 300,
-    "warmupSteps": 100,
-    "weightDecay": 0.01,
-    "evalInterval": 500,
-    "evalSteps": 20,
-    "dataset": "astrophysics",
-    "activation": "relu",
-    "normalization": "rmsnorm",
-    "positionEncoding": "learned",
-    "tieEmbeddings": false,
-    "residualScale": 1,
-    "dropoutRate": 0,
-    "gradientClipNorm": 5,
-    "scheduleType": "cosine",
-    "minLRRatio": 0.1,
-    "initType": "normal",
-    "initScale": 0.01,
-    "beta1": 0.9,
-    "beta2": 0.999
+    "batchSize": 64
   },
   "result": {
-    "valLoss": 1.736239,
-    "trainLoss": 4.883967,
+    "valLoss": 1.173286,
+    "trainLoss": 3.299775,
     "lossCurve": [
       [
         0,
@@ -45,63 +18,63 @@
       ],
       [
         1,
-        9.011282
+        8.858637
       ],
       [
         2,
-        9.011305
+        8.448338
       ],
       [
         3,
-        9.011277
+        7.987181
       ],
       [
         4,
-        9.011253
+        7.599989
       ],
       [
         5,
-        9.011255
+        7.268122
       ],
       [
         6,
-        9.011256
+        7.018343
       ],
       [
         7,
-        9.011236
+        6.805284
       ],
       [
         8,
-        9.011233
+        6.628814
       ],
       [
         9,
-        9.011236
+        6.475113
       ],
       [
         10,
-        9.011238
+        6.349386
       ],
       [
         50,
-        6.755815
+        4.808287
       ],
       [
         100,
-        5.672638
+        3.834998
       ],
       [
         150,
-        5.111479
+        3.450356
       ]
     ],
-    "durationSec": 301.2,
-    "tokensPerSec": 339309.42895086325,
-    "totalTokens": 102200000
+    "durationSec": 301,
+    "tokensPerSec": 344850.4983388704,
+    "totalTokens": 103800000
   },
-  "improvement": -24.586269727683575,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": "NVIDIA RTX A6000",
-  "inspiredBy": null
+  "inspiredBy": "12D3KooWCoXXr2XmVMAqMhWdEWif87CmvMAN8VdmJEeGi8cu6ULA"
 }
