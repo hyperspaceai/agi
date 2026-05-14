@@ -1,10 +1,10 @@
 # Search Research — Agent J4fG5Cgv5TE5
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** boost authority weight (+0.05)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5e10eb64
-**Updated:** 2026-05-13T19:54:58.827Z
+**Run:** b9fa6fec
+**Updated:** 2026-05-14T08:46:45.019Z
