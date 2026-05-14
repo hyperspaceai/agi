@@ -2,20 +2,22 @@
   "runId": "finance-r8",
   "runNumber": 8,
   "hypothesis": "Round 8 best mutation",
-  "sharpeRatio": 1.3205,
-  "totalReturn": 3.0146,
-  "maxDrawdown": 0.0546,
-  "alpha": 1.5203,
+  "sharpeRatio": 1.2386,
+  "totalReturn": 2.7966,
+  "maxDrawdown": 0.0572,
+  "alpha": 1.3024,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0,
+  "durationSec": 0.017,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-05-08T20:02:57.598Z"
+  "timestamp": "2026-05-14T15:57:31.656Z"
 }
