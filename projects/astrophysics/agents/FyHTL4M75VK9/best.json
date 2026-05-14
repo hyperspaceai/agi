@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQned5BvpGPadtuTz5ATmLvRhAiohZznZEnUPVdJyA2LZ",
-  "runNumber": 1,
-  "timestamp": 1778426229810,
-  "hypothesis": "Reduce layers and model size, experiment with a lower learning rate and cosine schedule for improved stability.",
+  "runNumber": 7,
+  "timestamp": 1778747455752,
+  "hypothesis": "Improve on aec3c247 (loss=10.3493): higher LR (0.003)",
   "config": {
     "nLayers": 8,
     "nHeads": 16,
@@ -12,7 +12,7 @@
     "dFF": 768,
     "contextLength": 2048,
     "vocabSize": 32768,
-    "learningRate": 0.00005,
+    "learningRate": 0.003,
     "batchSize": 4,
     "maxSteps": 100000,
     "maxDurationSec": 1200,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 10.349334651405666,
-    "trainLoss": 10.390121972382504,
+    "valLoss": 9.636974594696989,
+    "trainLoss": 10.412101798747196,
     "lossCurve": [
       [
         1,
-        10.349334651405666
+        9.636974594696989
       ]
     ],
-    "durationSec": 24998.945,
-    "tokensPerSec": 0.3276938286795703,
+    "durationSec": 20191.781,
+    "tokensPerSec": 0.4057096300717604,
     "totalTokens": 8192
   },
-  "improvement": 0,
+  "improvement": -6.88314834434234,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3060 Ti",
   "inspiredBy": null
