@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWCoXXr2XmVMAqMhWdEWif87CmvMAN8VdmJEeGi8cu6ULA",
+  "runNumber": 87,
+  "timestamp": 1778746503287,
+  "hypothesis": "Inspired by i8cu6ULA (loss=1.1887): smaller batch (64 device)",
+  "config": {
+    "batchSize": 64
+  },
+  "result": {
+    "valLoss": 1.173286,
+    "trainLoss": 3.299775,
+    "lossCurve": [
+      [
+        0,
+        9.011301
+      ],
+      [
+        1,
+        8.858637
+      ],
+      [
+        2,
+        8.448338
+      ],
+      [
+        3,
+        7.987181
+      ],
+      [
+        4,
+        7.599989
+      ],
+      [
+        5,
+        7.268122
+      ],
+      [
+        6,
+        7.018343
+      ],
+      [
+        7,
+        6.805284
+      ],
+      [
+        8,
+        6.628814
+      ],
+      [
+        9,
+        6.475113
+      ],
+      [
+        10,
+        6.349386
+      ],
+      [
+        50,
+        4.808287
+      ],
+      [
+        100,
+        3.834998
+      ],
+      [
+        150,
+        3.450356
+      ]
+    ],
+    "durationSec": 301,
+    "tokensPerSec": 344850.4983388704,
+    "totalTokens": 103800000
+  },
+  "improvement": 0,
+  "isNewBest": true,
+  "gpu": "NVIDIA RTX A6000",
+  "inspiredBy": "12D3KooWCoXXr2XmVMAqMhWdEWif87CmvMAN8VdmJEeGi8cu6ULA"
+}
