@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-15T15:12:58.721Z",
+  "timestamp": "2026-05-15T18:17:47.181Z",
   "peerId": "12D3KooWSjqFrwfAFxKtgpD2cUdocpVyy8GCeiWqXpk6RAuXVcqT",
   "stats": {
-    "totalNodes": 1396,
+    "totalNodes": 1436,
     "observations": 0,
-    "experiments": 1396,
+    "experiments": 1436,
     "syntheses": 0,
-    "totalEdges": 1392,
+    "totalEdges": 1432,
     "maxDepth": 22,
     "activeExperiments": 0,
-    "recentActivity": 17
+    "recentActivity": 15
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,211 +47,211 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 555,
-    "skills": 435,
-    "finance": 280,
-    "search-ranking": 126
+    "infrastructure": 564,
+    "skills": 447,
+    "finance": 285,
+    "search-ranking": 140
   },
   "recentExperiments": [
     {
-      "id": "f42e6aa7ed87",
+      "id": "28adf846d0f1",
       "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1996,
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778857606849,
+      "createdAt": 1778869067079,
       "depth": 2
     },
     {
-      "id": "8d7d63d9fbb7",
+      "id": "4ca6b0f77689",
       "domain": "search-ranking",
-      "title": "Search round 52: decrease diversity penalty (0.05)",
+      "title": "Search round 47: reduce body weight (-0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1778857069440,
+      "createdAt": 1778867247139,
       "depth": 1
     },
     {
-      "id": "5097b606160f",
+      "id": "f736652bebb2",
       "domain": "search-ranking",
-      "title": "Search round 52: decrease diversity penalty (0.05)",
+      "title": "Search round 46: reduce body weight (-0.05)",
       "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
-      "createdAt": 1778857069108,
+      "createdAt": 1778867241278,
       "depth": 1
     },
     {
-      "id": "0436e5e42606",
+      "id": "05016ad952bb",
+      "domain": "search-ranking",
+      "title": "Search round 46: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778867240268,
+      "depth": 1
+    },
+    {
+      "id": "7130d19b5662",
+      "domain": "search-ranking",
+      "title": "Search round 41: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778866487738,
+      "depth": 1
+    },
+    {
+      "id": "04a7c85b54c1",
+      "domain": "search-ranking",
+      "title": "Search round 41: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778866486661,
+      "depth": 1
+    },
+    {
+      "id": "a3d18d844c8e",
+      "domain": "search-ranking",
+      "title": "Search round 41: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778866483900,
+      "depth": 1
+    },
+    {
+      "id": "9690c04caba9",
+      "domain": "search-ranking",
+      "title": "Search round 41: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778866481980,
+      "depth": 1
+    },
+    {
+      "id": "d9891880277a",
+      "domain": "search-ranking",
+      "title": "Search round 41: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778866472721,
+      "depth": 1
+    },
+    {
+      "id": "a3eeaac169d7",
+      "domain": "search-ranking",
+      "title": "Search round 41: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778866466460,
+      "depth": 1
+    },
+    {
+      "id": "1439506d17cf",
+      "domain": "search-ranking",
+      "title": "Search round 41: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778866465941,
+      "depth": 1
+    },
+    {
+      "id": "61905090251e",
+      "domain": "search-ranking",
+      "title": "Search round 35: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778865712779,
+      "depth": 1
+    },
+    {
+      "id": "173b77e82e3b",
+      "domain": "search-ranking",
+      "title": "Search round 35: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778865710201,
+      "depth": 1
+    },
+    {
+      "id": "f49b5958a883",
+      "domain": "search-ranking",
+      "title": "Search round 35: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778865705940,
+      "depth": 1
+    },
+    {
+      "id": "a9786c6c3419",
+      "domain": "search-ranking",
+      "title": "Search round 35: reduce body weight (-0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.3963092975357146,
+      "isCurrentBest": false,
+      "createdAt": 1778865700860,
+      "depth": 1
+    },
+    {
+      "id": "163c378e0e18",
       "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1996,
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778856248708,
+      "createdAt": 1778865267548,
       "depth": 2
     },
     {
-      "id": "46d781be5baa",
+      "id": "84707ef6e0bc",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 70",
+      "title": "Cause literature-analysis round 43",
       "metricName": "score",
-      "metricValue": 141.00690234838706,
+      "metricValue": 0.9697300300462147,
       "isCurrentBest": false,
-      "createdAt": 1778856124961,
+      "createdAt": 1778864798789,
       "depth": 7
     },
     {
-      "id": "3cc9eb5ee31c",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855344238,
-      "depth": 1
-    },
-    {
-      "id": "67247ff7832d",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855343380,
-      "depth": 1
-    },
-    {
-      "id": "dd5ed4d2d99d",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855341820,
-      "depth": 1
-    },
-    {
-      "id": "85e9f07142e1",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855339681,
-      "depth": 1
-    },
-    {
-      "id": "c16dba49d05b",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855336368,
-      "depth": 1
-    },
-    {
-      "id": "d1315018343c",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855335661,
-      "depth": 1
-    },
-    {
-      "id": "8775102f881c",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855334908,
-      "depth": 1
-    },
-    {
-      "id": "00a51c641aff",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855333581,
-      "depth": 1
-    },
-    {
-      "id": "e1c22537a885",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855332938,
-      "depth": 1
-    },
-    {
-      "id": "6b507b949d2a",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855331358,
-      "depth": 1
-    },
-    {
-      "id": "2010d727ab9f",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855330540,
-      "depth": 1
-    },
-    {
-      "id": "f16a4c71aef6",
-      "domain": "search-ranking",
-      "title": "Search round 39: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778855326178,
-      "depth": 1
-    },
-    {
-      "id": "6a4201e5b8c8",
+      "id": "04ec35979119",
       "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1996,
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778852802561,
+      "createdAt": 1778864521720,
       "depth": 2
     },
     {
-      "id": "a964094bac96",
+      "id": "d026d2a4b7e5",
       "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.3096",
+      "title": "Finance round 16: Sharpe=1.3174",
       "metricName": "Sharpe",
-      "metricValue": 1.3096,
+      "metricValue": 1.3174,
       "isCurrentBest": false,
-      "createdAt": 1778852098260,
+      "createdAt": 1778864521700,
       "depth": 22
     },
     {
-      "id": "c56a40132664",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 19",
-      "metricName": "score",
-      "metricValue": 141.24936991771378,
+      "id": "85b0ef3510cd",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1778851741339,
-      "depth": 7
+      "createdAt": 1778864415402,
+      "depth": 2
     }
   ],
   "frontier": [],
