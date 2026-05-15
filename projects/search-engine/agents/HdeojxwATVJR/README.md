@@ -1,10 +1,10 @@
 # Search Research — Agent HdeojxwATVJR
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** use softmax normalization
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 6566c47b
-**Updated:** 2026-05-14T21:48:09.448Z
+**Run:** dd532460
+**Updated:** 2026-05-15T04:02:45.994Z
