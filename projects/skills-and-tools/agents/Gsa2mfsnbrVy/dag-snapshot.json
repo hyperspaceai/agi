@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-15T05:38:39.006Z",
+  "timestamp": "2026-05-15T06:58:39.220Z",
   "peerId": "12D3KooWRgwCWoTVnkmUDvUQB7TtZuPqQpwN9k6QW7tieVZx8WYs",
   "stats": {
-    "totalNodes": 1296,
+    "totalNodes": 1297,
     "observations": 0,
-    "experiments": 1296,
+    "experiments": 1297,
     "syntheses": 0,
-    "totalEdges": 1292,
+    "totalEdges": 1293,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 428,
+    "infrastructure": 429,
     "skills": 469,
     "finance": 249,
     "search-ranking": 150
   },
   "recentExperiments": [
+    {
+      "id": "fe4f3be48146",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 207",
+      "metricName": "score",
+      "metricValue": 0.9680176793364917,
+      "isCurrentBest": false,
+      "createdAt": 1778824027454,
+      "depth": 5
+    },
     {
       "id": "66eabb3211fb",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778814036949,
       "depth": 5
-    },
-    {
-      "id": "b52faed57501",
-      "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.3205",
-      "metricName": "Sharpe",
-      "metricValue": 1.3205,
-      "isCurrentBest": false,
-      "createdAt": 1778813107060,
-      "depth": 9
     }
   ],
   "frontier": [],
