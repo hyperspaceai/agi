@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2R6MjgAJCrDf
 
-**Latest Skill:** Normalize Text (LLM 3 iter) v1
+**Latest Skill:** Detect Anomalies (IQR) (LLM 3 iter) v1
 **Score:** 0.1997
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20→0.20→0.20]
+**Description:** Detect Anomalies (IQR): 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-05-15T14:00:51.555Z_
+_Updated: 2026-05-15T20:49:14.776Z_
