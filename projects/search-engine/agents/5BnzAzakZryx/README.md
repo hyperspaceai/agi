@@ -1,10 +1,10 @@
 # Search Research — Agent 5BnzAzakZryx
 
-**Best NDCG@10:** 0.3886
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 2d148b14
-**Updated:** 2026-05-15T07:03:00.363Z
+**Run:** e465c258
+**Updated:** 2026-05-15T09:24:12.759Z
