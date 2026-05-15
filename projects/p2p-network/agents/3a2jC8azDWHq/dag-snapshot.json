@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-15T16:00:45.360Z",
+  "timestamp": "2026-05-15T17:00:45.684Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 3785,
+    "totalNodes": 3787,
     "observations": 323,
-    "experiments": 3462,
+    "experiments": 3464,
     "syntheses": 0,
-    "totalEdges": 3390,
+    "totalEdges": 3392,
     "maxDepth": 15,
     "activeExperiments": 52,
     "recentActivity": 2
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1574,
+    "infrastructure": 1576,
     "knowledge": 323,
     "search-ranking": 115,
     "general": 16,
@@ -64,6 +64,26 @@
     "physics": 52
   },
   "recentExperiments": [
+    {
+      "id": "607efa64f5bb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 664",
+      "metricName": "score",
+      "metricValue": 0.9194717461650466,
+      "isCurrentBest": false,
+      "createdAt": 1778862915463,
+      "depth": 7
+    },
+    {
+      "id": "22fb76d2144a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 657",
+      "metricName": "score",
+      "metricValue": 145.1480510982097,
+      "isCurrentBest": false,
+      "createdAt": 1778862495435,
+      "depth": 7
+    },
     {
       "id": "c179e5bd0f56",
       "domain": "infrastructure",
@@ -243,26 +263,6 @@
       "isCurrentBest": false,
       "createdAt": 1778830960482,
       "depth": 7
-    },
-    {
-      "id": "6b7f44a63002",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 69",
-      "metricName": "score",
-      "metricValue": 0.9684314909186867,
-      "isCurrentBest": false,
-      "createdAt": 1778827240262,
-      "depth": 7
-    },
-    {
-      "id": "a78ff5842e56",
-      "domain": "search-ranking",
-      "title": "Search round 44: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778827018474,
-      "depth": 2
     }
   ],
   "frontier": [],
