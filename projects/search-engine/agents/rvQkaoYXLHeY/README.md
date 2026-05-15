@@ -1,10 +1,10 @@
 # Search Research — Agent rvQkaoYXLHeY
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.4000
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a161bea0
-**Updated:** 2026-05-12T23:34:33.612Z
+**Run:** a3f211b0
+**Updated:** 2026-05-15T22:09:27.655Z
