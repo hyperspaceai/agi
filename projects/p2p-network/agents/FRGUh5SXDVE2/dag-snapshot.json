@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-15T06:17:24.131Z",
+  "timestamp": "2026-05-15T07:17:24.168Z",
   "peerId": "12D3KooWQEdeSD2EQPVWzMzTeu8DY6wcNB2L4bui5VfcLYEkH9h6",
   "stats": {
-    "totalNodes": 244,
+    "totalNodes": 246,
     "observations": 0,
-    "experiments": 244,
+    "experiments": 246,
     "syntheses": 0,
-    "totalEdges": 240,
+    "totalEdges": 242,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 85,
+    "infrastructure": 86,
     "finance": 53,
     "search-ranking": 50,
-    "skills": 56
+    "skills": 57
   },
   "recentExperiments": [
+    {
+      "id": "cab1e5349345",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 198",
+      "metricName": "score",
+      "metricValue": 145.00382724455014,
+      "isCurrentBest": false,
+      "createdAt": 1778828784029,
+      "depth": 3
+    },
+    {
+      "id": "92b8bbbe4142",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778827404021,
+      "depth": 2
+    },
     {
       "id": "45089ed114ef",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1778819133623,
-      "depth": 1
-    },
-    {
-      "id": "43fd1c85ab08",
-      "domain": "search-ranking",
-      "title": "Search round 25: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778819133367,
-      "depth": 1
-    },
-    {
-      "id": "e0fad7ed363f",
-      "domain": "search-ranking",
-      "title": "Search round 25: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778819130182,
       "depth": 1
     }
   ],
