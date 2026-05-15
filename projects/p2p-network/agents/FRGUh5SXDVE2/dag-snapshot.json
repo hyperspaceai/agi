@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-15T05:17:24.072Z",
+  "timestamp": "2026-05-15T06:17:24.131Z",
   "peerId": "12D3KooWQEdeSD2EQPVWzMzTeu8DY6wcNB2L4bui5VfcLYEkH9h6",
   "stats": {
-    "totalNodes": 242,
+    "totalNodes": 244,
     "observations": 0,
-    "experiments": 242,
+    "experiments": 244,
     "syntheses": 0,
-    "totalEdges": 238,
+    "totalEdges": 240,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 18
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -50,9 +50,29 @@
     "infrastructure": 85,
     "finance": 53,
     "search-ranking": 50,
-    "skills": 54
+    "skills": 56
   },
   "recentExperiments": [
+    {
+      "id": "45089ed114ef",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778825003992,
+      "depth": 2
+    },
+    {
+      "id": "3a13b6febfc5",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778823203944,
+      "depth": 2
+    },
     {
       "id": "07640c670a87",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778819130182,
       "depth": 1
-    },
-    {
-      "id": "780274895d2a",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1778818493878,
-      "depth": 9
-    },
-    {
-      "id": "4a4be991e771",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1778817803876,
-      "depth": 2
     }
   ],
   "frontier": [],
