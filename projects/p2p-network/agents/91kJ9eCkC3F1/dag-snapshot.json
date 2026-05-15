@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-15T04:42:40.768Z",
+  "timestamp": "2026-05-15T05:44:38.486Z",
   "peerId": "12D3KooWHq7TtmnTNwWVWEweJYTo8suynSBFN64VKjSdbEkz9nd2",
   "stats": {
-    "totalNodes": 1576,
+    "totalNodes": 1577,
     "observations": 0,
-    "experiments": 1576,
+    "experiments": 1577,
     "syntheses": 0,
-    "totalEdges": 1572,
+    "totalEdges": 1573,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 21
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -50,9 +50,19 @@
     "infrastructure": 826,
     "skills": 412,
     "finance": 284,
-    "search-ranking": 54
+    "search-ranking": 55
   },
   "recentExperiments": [
+    {
+      "id": "89d19fd21cd6",
+      "domain": "search-ranking",
+      "title": "Search round 43: skip peer cascade (local-only fast)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778822359787,
+      "depth": 1
+    },
     {
       "id": "2ed7a7429488",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1778818440368,
       "depth": 4
-    },
-    {
-      "id": "c8cb1be23e39",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1",
-      "metricName": "score",
-      "metricValue": 0.9662511947025496,
-      "isCurrentBest": false,
-      "createdAt": 1778818440308,
-      "depth": 3
     }
   ],
   "frontier": [],
