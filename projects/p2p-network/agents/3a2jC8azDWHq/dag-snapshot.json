@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-15T10:00:41.096Z",
+  "timestamp": "2026-05-15T11:00:41.692Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 3771,
+    "totalNodes": 3774,
     "observations": 323,
-    "experiments": 3448,
+    "experiments": 3451,
     "syntheses": 0,
-    "totalEdges": 3376,
+    "totalEdges": 3379,
     "maxDepth": 15,
     "activeExperiments": 52,
-    "recentActivity": 2
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -59,11 +59,41 @@
     "knowledge": 323,
     "search-ranking": 115,
     "general": 16,
-    "skills": 1032,
+    "skills": 1035,
     "finance": 668,
     "physics": 52
   },
   "recentExperiments": [
+    {
+      "id": "e09c1c29bdac",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778842841633,
+      "depth": 4
+    },
+    {
+      "id": "b27bbf086946",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778841401507,
+      "depth": 4
+    },
+    {
+      "id": "2dcccdf72b7e",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1778841281282,
+      "depth": 4
+    },
     {
       "id": "2611042f042d",
       "domain": "skills",
@@ -233,36 +263,6 @@
       "isCurrentBest": false,
       "createdAt": 1778826268385,
       "depth": 2
-    },
-    {
-      "id": "c5a866f23fe6",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778826266985,
-      "depth": 2
-    },
-    {
-      "id": "b48780c5a735",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost freshness weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1778826265410,
-      "depth": 2
-    },
-    {
-      "id": "5742c3e91b72",
-      "domain": "finance",
-      "title": "Finance round 18: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1778825740170,
-      "depth": 15
     }
   ],
   "frontier": [],
