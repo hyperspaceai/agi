@@ -1,10 +1,10 @@
 # Search Research — Agent HFFrNULLBmzP
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** increase diversity penalty (0.2)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** e6515090
-**Updated:** 2026-05-09T13:08:03.535Z
+**Run:** cb64561c
+**Updated:** 2026-05-15T23:35:51.169Z
