@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-15T04:39:42.690Z",
+  "timestamp": "2026-05-15T09:59:15.311Z",
   "peerId": "12D3KooWHjp19KQ2WpntvjHUXLavVsHJ7LNrM445LmKyhiwRP5Ec",
   "stats": {
-    "totalNodes": 2090,
+    "totalNodes": 2091,
     "observations": 0,
-    "experiments": 2090,
+    "experiments": 2091,
     "syntheses": 0,
-    "totalEdges": 2086,
+    "totalEdges": 2087,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 20
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 820,
-    "skills": 719,
+    "skills": 720,
     "finance": 483,
     "search-ranking": 68
   },
   "recentExperiments": [
+    {
+      "id": "c8d26ccf6365",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1778828436250,
+      "depth": 2
+    },
     {
       "id": "8c1ec9bd3467",
       "domain": "search-ranking",
@@ -241,16 +251,6 @@
       "metricValue": 0.1999,
       "isCurrentBest": false,
       "createdAt": 1778816861969,
-      "depth": 2
-    },
-    {
-      "id": "4be8200ce381",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1999,
-      "isCurrentBest": false,
-      "createdAt": 1778816741924,
       "depth": 2
     }
   ],
