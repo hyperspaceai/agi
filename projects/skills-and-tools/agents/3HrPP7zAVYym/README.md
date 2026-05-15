@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 3HrPP7zAVYym
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 167
+**Description:** Detect Anomalies (IQR): 0% correct, round 195
 
-_Updated: 2026-05-15T21:21:45.928Z_
+_Updated: 2026-05-15T22:16:15.861Z_
