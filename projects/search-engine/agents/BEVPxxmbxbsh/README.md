@@ -1,10 +1,10 @@
 # Search Research — Agent BEVPxxmbxbsh
 
-**Best NDCG@10:** 0.3936
+**Best NDCG@10:** 0.3899
 **Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5f8c9081
-**Updated:** 2026-05-12T04:37:05.950Z
+**Run:** dfe73630
+**Updated:** 2026-05-13T08:08:45.878Z
