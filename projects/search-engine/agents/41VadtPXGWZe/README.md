@@ -1,10 +1,10 @@
 # Search Research — Agent 41VadtPXGWZe
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7bd50914
-**Updated:** 2026-05-09T07:16:15.213Z
+**Run:** 6bfd16e8
+**Updated:** 2026-04-12T22:09:33.994Z
