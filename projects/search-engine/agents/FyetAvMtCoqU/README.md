@@ -1,10 +1,10 @@
 # Search Research — Agent FyetAvMtCoqU
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 48243804
-**Updated:** 2026-05-11T06:38:28.658Z
+**Run:** a6824cc5
+**Updated:** 2026-05-16T03:30:11.980Z
