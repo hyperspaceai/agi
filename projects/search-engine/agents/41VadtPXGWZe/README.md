@@ -1,10 +1,10 @@
 # Search Research — Agent 41VadtPXGWZe
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** boost BM25 weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 585e4b60
-**Updated:** 2026-04-14T05:47:07.072Z
+**Run:** e167cf1c
+**Updated:** 2026-05-16T05:00:23.754Z
