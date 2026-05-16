@@ -1,10 +1,10 @@
 # Search Research — Agent 2ArLpyQtUZ1P
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8da69080
-**Updated:** 2026-05-15T03:01:33.424Z
+**Run:** 430d8c30
+**Updated:** 2026-05-16T05:07:35.113Z
