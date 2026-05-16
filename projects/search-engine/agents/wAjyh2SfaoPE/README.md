@@ -1,10 +1,10 @@
 # Search Research — Agent wAjyh2SfaoPE
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f5476b30
-**Updated:** 2026-05-15T11:39:31.624Z
+**Run:** febe9a24
+**Updated:** 2026-05-16T09:38:19.180Z
