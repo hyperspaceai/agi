@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-16T14:13:48.384Z",
+  "peerId": "12D3KooWCxw9f56kMP1JFNfoCrYzNtPyRUrjg4anwa46tjxjAdjt",
+  "stats": {
+    "totalNodes": 34,
+    "observations": 0,
+    "experiments": 34,
+    "syntheses": 0,
+    "totalEdges": 31,
+    "maxDepth": 5,
+    "activeExperiments": 0,
+    "recentActivity": 2
+  },
+  "bestPerDomain": {
+    "infrastructure": {
+      "nodeId": "79bc75354c0316744d266ddae48f00cc3300d41a5f624b1530cfe8862c1a5064",
+      "title": "Cause infra-optimization round 415",
+      "metricName": "score",
+      "metricValue": 145.18438196380893,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "finance": {
+      "nodeId": "cd3f749ecf87f079e2c45f8d80f5c4d78064b92e962cf9e3b6307339552ac403",
+      "title": "Finance round 11: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "metricDirection": "maximize",
+      "depth": 5
+    },
+    "search-ranking": {
+      "nodeId": "d72a33bfb1d971c2e0d62e8b6bca3c9d3c75e1e3b2ae3d40ffd80da4ec239128",
+      "title": "Search round 38: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "infrastructure": 14,
+    "finance": 6,
+    "search-ranking": 14
+  },
+  "recentExperiments": [
+    {
+      "id": "377e2d66b5f3",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 460",
+      "metricName": "score",
+      "metricValue": 145.01035499580692,
+      "isCurrentBest": false,
+      "createdAt": 1778939285380,
+      "depth": 2
+    },
+    {
+      "id": "b803ba4c2b4f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 457",
+      "metricName": "score",
+      "metricValue": 0.9522014044858307,
+      "isCurrentBest": false,
+      "createdAt": 1778939131382,
+      "depth": 2
+    },
+    {
+      "id": "79bc75354c03",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 415",
+      "metricName": "score",
+      "metricValue": 145.18438196380893,
+      "isCurrentBest": true,
+      "createdAt": 1778936572380,
+      "depth": 1
+    },
+    {
+      "id": "104e8a2de065",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 212",
+      "metricName": "score",
+      "metricValue": 0.9601923951101071,
+      "isCurrentBest": false,
+      "createdAt": 1778924220080,
+      "depth": 1
+    },
+    {
+      "id": "fc3306874ea2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 207",
+      "metricName": "score",
+      "metricValue": 0.9566557101431076,
+      "isCurrentBest": false,
+      "createdAt": 1778923914188,
+      "depth": 1
+    },
+    {
+      "id": "c2493894328f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 189",
+      "metricName": "score",
+      "metricValue": 0.9477802980712969,
+      "isCurrentBest": false,
+      "createdAt": 1778922782782,
+      "depth": 1
+    },
+    {
+      "id": "2e28803280d4",
+      "domain": "search-ranking",
+      "title": "Search round 46: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778914278585,
+      "depth": 1
+    },
+    {
+      "id": "017deb79adaf",
+      "domain": "search-ranking",
+      "title": "Search round 46: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778914274977,
+      "depth": 1
+    },
+    {
+      "id": "fa697a1b9490",
+      "domain": "search-ranking",
+      "title": "Search round 46: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778914274880,
+      "depth": 1
+    },
+    {
+      "id": "1a7d73e9b4a8",
+      "domain": "search-ranking",
+      "title": "Search round 46: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778914272577,
+      "depth": 1
+    },
+    {
+      "id": "835e656c2ff9",
+      "domain": "search-ranking",
+      "title": "Search round 46: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778914272479,
+      "depth": 1
+    },
+    {
+      "id": "4ccf8a7d03b2",
+      "domain": "search-ranking",
+      "title": "Search round 46: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778914266376,
+      "depth": 1
+    },
+    {
+      "id": "96fd06fa9c2f",
+      "domain": "search-ranking",
+      "title": "Search round 42: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778913867885,
+      "depth": 1
+    },
+    {
+      "id": "d30e131d802c",
+      "domain": "search-ranking",
+      "title": "Search round 42: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778913843979,
+      "depth": 1
+    },
+    {
+      "id": "b9e503837fa0",
+      "domain": "search-ranking",
+      "title": "Search round 38: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778913468276,
+      "depth": 1
+    },
+    {
+      "id": "36fbe30691ec",
+      "domain": "search-ranking",
+      "title": "Search round 38: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778913467882,
+      "depth": 1
+    },
+    {
+      "id": "43ee7e924d35",
+      "domain": "search-ranking",
+      "title": "Search round 38: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778913467879,
+      "depth": 1
+    },
+    {
+      "id": "f44ae829e805",
+      "domain": "search-ranking",
+      "title": "Search round 38: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778913467089,
+      "depth": 1
+    },
+    {
+      "id": "22f22e9423e8",
+      "domain": "search-ranking",
+      "title": "Search round 38: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1778913465880,
+      "depth": 1
+    },
+    {
+      "id": "d72a33bfb1d9",
+      "domain": "search-ranking",
+      "title": "Search round 38: require more local results (5)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": true,
+      "createdAt": 1778913438080,
+      "depth": 0
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "infrastructure": [
+      {
+        "id": "79bc75354c03",
+        "title": "Cause infra-optimization round 415",
+        "metricValue": 145.18438196380893,
+        "depth": 1
+      },
+      {
+        "id": "f9b79472ab8b",
+        "title": "Cause infra-optimization round 1",
+        "metricValue": 143.11135158802168,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "cd3f749ecf87",
+        "title": "Finance round 11: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 5
+      },
+      {
+        "id": "b0709ce4169f",
+        "title": "Finance round 9: Sharpe=1.3137",
+        "metricValue": 1.3137,
+        "depth": 4
+      },
+      {
+        "id": "74ddd93740e5",
+        "title": "Finance round 5: Sharpe=1.3040",
+        "metricValue": 1.304,
+        "depth": 3
+      },
+      {
+        "id": "0bcc33dbdd2b",
+        "title": "Finance round 3: Sharpe=1.1198",
+        "metricValue": 1.1198,
+        "depth": 2
+      },
+      {
+        "id": "c38ad483ff10",
+        "title": "Finance round 2: Sharpe=1.1088",
+        "metricValue": 1.1088,
+        "depth": 1
+      },
+      {
+        "id": "dc2260c23148",
+        "title": "Finance round 1: Sharpe=1.1057",
+        "metricValue": 1.1057,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "d72a33bfb1d9",
+        "title": "Search round 38: require more local results (5)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
