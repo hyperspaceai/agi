@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-17T03:02:16.753Z",
+  "timestamp": "2026-05-17T06:02:16.977Z",
   "peerId": "12D3KooWFgXdEE9AsL8uCTVtcr3Dj9RXUbnNobgjod69bdb5saom",
   "stats": {
-    "totalNodes": 1067,
+    "totalNodes": 1072,
     "observations": 2,
-    "experiments": 1065,
+    "experiments": 1070,
     "syntheses": 0,
-    "totalEdges": 897,
+    "totalEdges": 902,
     "maxDepth": 12,
     "activeExperiments": 134,
     "recentActivity": 1
@@ -22,12 +22,12 @@
       "depth": 11
     },
     "skills": {
-      "nodeId": "38dc83eedf25682b4877ee56051ef2490d07b0d2211161a2ba8b980a1b08553c",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "nodeId": "165a0dc5beb9c64231d0a7760821db76024f9b954e0f8f61ae1bd2caabcbba70",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1998,
+      "metricValue": 0.1999,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     },
     "general": {
       "nodeId": "98869e735918cd87e0ad0529edf447d22c96162d04aa493f85504a54dba60fe7",
@@ -55,8 +55,8 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 521,
-    "skills": 237,
+    "infrastructure": 525,
+    "skills": 238,
     "knowledge": 2,
     "physics": 134,
     "general": 30,
@@ -64,6 +64,56 @@
     "finance": 139
   },
   "recentExperiments": [
+    {
+      "id": "165a0dc5beb9",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": true,
+      "createdAt": 1778995336859,
+      "depth": 2
+    },
+    {
+      "id": "52b09ae4d05b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1529",
+      "metricName": "score",
+      "metricValue": 145.27335271960445,
+      "isCurrentBest": false,
+      "createdAt": 1778994106837,
+      "depth": 12
+    },
+    {
+      "id": "cf65e31d8745",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1487",
+      "metricName": "score",
+      "metricValue": 0.9129170666932447,
+      "isCurrentBest": false,
+      "createdAt": 1778991586691,
+      "depth": 12
+    },
+    {
+      "id": "b0a1e17fd545",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1481",
+      "metricName": "score",
+      "metricValue": 0.9125580702100945,
+      "isCurrentBest": false,
+      "createdAt": 1778991226689,
+      "depth": 12
+    },
+    {
+      "id": "1d86d2ba420e",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1466",
+      "metricName": "score",
+      "metricValue": 0.9117037544048645,
+      "isCurrentBest": false,
+      "createdAt": 1778990326681,
+      "depth": 12
+    },
     {
       "id": "bf9cae150d7f",
       "domain": "infrastructure",
@@ -213,56 +263,6 @@
       "isCurrentBest": false,
       "createdAt": 1778952106315,
       "depth": 12
-    },
-    {
-      "id": "8804b4642953",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 820",
-      "metricName": "score",
-      "metricValue": 0.9168419381379068,
-      "isCurrentBest": false,
-      "createdAt": 1778951566314,
-      "depth": 12
-    },
-    {
-      "id": "c070c2fa752b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 723",
-      "metricName": "score",
-      "metricValue": 0.9177396050300125,
-      "isCurrentBest": false,
-      "createdAt": 1778945746243,
-      "depth": 12
-    },
-    {
-      "id": "c9441a5e1264",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 712",
-      "metricName": "score",
-      "metricValue": 0.9166146535824566,
-      "isCurrentBest": false,
-      "createdAt": 1778945086241,
-      "depth": 12
-    },
-    {
-      "id": "6366cee29de7",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 693",
-      "metricName": "score",
-      "metricValue": 0.9157692254819589,
-      "isCurrentBest": false,
-      "createdAt": 1778943946238,
-      "depth": 12
-    },
-    {
-      "id": "d7c3adf276b2",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 675",
-      "metricName": "score",
-      "metricValue": 145.06396590556233,
-      "isCurrentBest": false,
-      "createdAt": 1778942866234,
-      "depth": 12
     }
   ],
   "frontier": [],
@@ -330,6 +330,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "165a0dc5beb9",
+        "title": "Skill Normalize Text (seed/mutation): 0%",
+        "metricValue": 0.1999,
+        "depth": 2
+      },
       {
         "id": "38dc83eedf25",
         "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
