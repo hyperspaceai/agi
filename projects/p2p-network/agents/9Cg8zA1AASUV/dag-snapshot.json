@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-17T04:41:12.466Z",
+  "timestamp": "2026-05-17T05:41:12.581Z",
   "peerId": "12D3KooWJ23JjHasMLjySX4WXLEy4VzRgqgoAuPoYhNDq7qcTQk6",
   "stats": {
-    "totalNodes": 1984,
+    "totalNodes": 1986,
     "observations": 0,
-    "experiments": 1984,
+    "experiments": 1986,
     "syntheses": 0,
-    "totalEdges": 1980,
+    "totalEdges": 1982,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 937,
+    "infrastructure": 939,
     "skills": 591,
     "finance": 372,
     "search-ranking": 84
   },
   "recentExperiments": [
+    {
+      "id": "c65c1a579bae",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 759",
+      "metricName": "score",
+      "metricValue": 141.03393129099564,
+      "isCurrentBest": false,
+      "createdAt": 1778993472399,
+      "depth": 4
+    },
+    {
+      "id": "ce70ce70cfd6",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 758",
+      "metricName": "score",
+      "metricValue": 0.9131116976969923,
+      "isCurrentBest": false,
+      "createdAt": 1778993412398,
+      "depth": 4
+    },
     {
       "id": "ddc84e89d1ac",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1778951398357,
-      "depth": 1
-    },
-    {
-      "id": "7537d1182ee0",
-      "domain": "search-ranking",
-      "title": "Search round 39: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778951396290,
-      "depth": 1
-    },
-    {
-      "id": "64d9bfcbe4ab",
-      "domain": "search-ranking",
-      "title": "Search round 39: boost title weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1778951395927,
       "depth": 1
     }
   ],
