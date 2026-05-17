@@ -1,10 +1,10 @@
 # Search Research — Agent 9Cg8zA1AASUV
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost title weight (+0.05)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 6941ddb4
-**Updated:** 2026-05-16T17:42:05.674Z
+**Run:** 257802d0
+**Updated:** 2026-05-17T09:49:40.524Z
