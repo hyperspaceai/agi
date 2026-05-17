@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-17T11:45:46.523Z",
+  "timestamp": "2026-05-17T12:46:00.097Z",
   "peerId": "12D3KooWCxw9f56kMP1JFNfoCrYzNtPyRUrjg4anwa46tjxjAdjt",
   "stats": {
-    "totalNodes": 104,
+    "totalNodes": 106,
     "observations": 0,
-    "experiments": 104,
+    "experiments": 106,
     "syntheses": 0,
-    "totalEdges": 101,
+    "totalEdges": 103,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 61,
+    "infrastructure": 63,
     "finance": 29,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "becd142a9b0d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 167",
+      "metricName": "score",
+      "metricValue": 141.01602849001645,
+      "isCurrentBest": false,
+      "createdAt": 1779019364014,
+      "depth": 3
+    },
+    {
+      "id": "cca7f340cfaf",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 163",
+      "metricName": "score",
+      "metricValue": 142.2887666063386,
+      "isCurrentBest": false,
+      "createdAt": 1779019123564,
+      "depth": 3
+    },
     {
       "id": "605bb0b7a101",
       "domain": "infrastructure",
@@ -222,26 +242,6 @@
       "metricValue": 144.13341791589065,
       "isCurrentBest": false,
       "createdAt": 1778996491744,
-      "depth": 3
-    },
-    {
-      "id": "fac1166fa125",
-      "domain": "finance",
-      "title": "Finance round 12: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1778988170644,
-      "depth": 6
-    },
-    {
-      "id": "178ad7c1dd3c",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 23",
-      "metricName": "score",
-      "metricValue": 141.25202356457265,
-      "isCurrentBest": false,
-      "createdAt": 1778987764465,
       "depth": 3
     }
   ],
