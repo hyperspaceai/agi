@@ -1,10 +1,10 @@
 # Search Research — Agent 2Y9wf1sF6RqY
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** skip peer cascade (local-only fast)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** dc2d1fac
-**Updated:** 2026-05-16T13:07:03.291Z
+**Run:** ee19b6e4
+**Updated:** 2026-05-17T10:08:17.230Z
