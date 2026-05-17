@@ -1,8 +1,8 @@
 # Skill Catalog — Agent Gsa2mfsnbrVy
 
-**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
+**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Detect Anomalies (IQR): 0% correct, round 25
+**Description:** Chunk Text for Embeddings: 0% correct, round 26
 
-_Updated: 2026-05-17T10:10:37.581Z_
+_Updated: 2026-05-17T10:16:07.528Z_
