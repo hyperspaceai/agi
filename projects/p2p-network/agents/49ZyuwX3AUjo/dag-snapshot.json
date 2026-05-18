@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-17T23:42:58.769Z",
+  "timestamp": "2026-05-18T00:43:06.619Z",
   "peerId": "12D3KooWCxw9f56kMP1JFNfoCrYzNtPyRUrjg4anwa46tjxjAdjt",
   "stats": {
-    "totalNodes": 143,
+    "totalNodes": 145,
     "observations": 0,
-    "experiments": 143,
+    "experiments": 145,
     "syntheses": 0,
-    "totalEdges": 140,
+    "totalEdges": 142,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 88,
+    "infrastructure": 90,
     "finance": 41,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "0a9aac2ee752",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 435",
+      "metricName": "score",
+      "metricValue": 141.00950327235776,
+      "isCurrentBest": false,
+      "createdAt": 1779064016873,
+      "depth": 3
+    },
+    {
+      "id": "11fc652ce8be",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 424",
+      "metricName": "score",
+      "metricValue": 141.29927526754713,
+      "isCurrentBest": false,
+      "createdAt": 1779063353890,
+      "depth": 3
+    },
     {
       "id": "fcf789254cf5",
       "domain": "infrastructure",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1779039006792,
       "depth": 3
-    },
-    {
-      "id": "a714cdbde1c7",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.2303",
-      "metricName": "Sharpe",
-      "metricValue": 1.2303,
-      "isCurrentBest": false,
-      "createdAt": 1779038863873,
-      "depth": 6
-    },
-    {
-      "id": "020e214e81cf",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2196",
-      "metricName": "Sharpe",
-      "metricValue": 1.2196,
-      "isCurrentBest": false,
-      "createdAt": 1779038711476,
-      "depth": 6
     }
   ],
   "frontier": [],
