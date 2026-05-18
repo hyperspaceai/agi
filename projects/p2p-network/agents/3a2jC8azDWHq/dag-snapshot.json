@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-18T17:43:53.438Z",
+  "timestamp": "2026-05-18T18:43:53.672Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 4061,
+    "totalNodes": 4063,
     "observations": 323,
-    "experiments": 3738,
+    "experiments": 3740,
     "syntheses": 0,
-    "totalEdges": 3666,
+    "totalEdges": 3668,
     "maxDepth": 15,
     "activeExperiments": 52,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,15 +55,35 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1713,
+    "infrastructure": 1714,
     "knowledge": 323,
     "search-ranking": 157,
     "general": 16,
-    "skills": 1092,
+    "skills": 1093,
     "finance": 708,
     "physics": 52
   },
   "recentExperiments": [
+    {
+      "id": "8839eea7e1d9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 137",
+      "metricName": "score",
+      "metricValue": 141.31158113614603,
+      "isCurrentBest": false,
+      "createdAt": 1779129113494,
+      "depth": 7
+    },
+    {
+      "id": "b6000879c267",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779127433389,
+      "depth": 4
+    },
     {
       "id": "6bf84bac2b4d",
       "domain": "infrastructure",
@@ -242,26 +262,6 @@
       "metricValue": 0.9699066942649257,
       "isCurrentBest": false,
       "createdAt": 1779121132802,
-      "depth": 7
-    },
-    {
-      "id": "16522e937734",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1779121072820,
-      "depth": 4
-    },
-    {
-      "id": "40db9e23d37c",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3",
-      "metricName": "score",
-      "metricValue": 142.29885746341836,
-      "isCurrentBest": false,
-      "createdAt": 1779121072800,
       "depth": 7
     }
   ],
