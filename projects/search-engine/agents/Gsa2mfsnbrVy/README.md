@@ -1,10 +1,10 @@
 # Search Research — Agent Gsa2mfsnbrVy
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase diversity penalty (0.2)
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** e0ce4728
-**Updated:** 2026-05-17T16:18:35.812Z
+**Run:** 07105e28
+**Updated:** 2026-05-18T02:28:18.209Z
