@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 9TYeMa5wryna
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 85
+**Description:** Cosine Text Similarity: 0% correct, round 40
 
-_Updated: 2026-05-16T15:46:50.418Z_
+_Updated: 2026-05-18T09:39:54.071Z_
