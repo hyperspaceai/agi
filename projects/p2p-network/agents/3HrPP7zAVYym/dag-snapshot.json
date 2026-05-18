@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-18T05:13:33.863Z",
+  "timestamp": "2026-05-18T11:57:59.457Z",
   "peerId": "12D3KooWC7DZ8FZsgTFGDP1hSXKnb6s4wBDY6EG9kGmN6NSgZCik",
   "stats": {
-    "totalNodes": 278,
+    "totalNodes": 281,
     "observations": 0,
-    "experiments": 278,
+    "experiments": 281,
     "syntheses": 0,
-    "totalEdges": 274,
+    "totalEdges": 277,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 121,
-    "skills": 113,
+    "infrastructure": 122,
+    "skills": 115,
     "finance": 30,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "2e14ba774eda",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 500",
+      "metricName": "score",
+      "metricValue": 0.935495364212813,
+      "isCurrentBest": false,
+      "createdAt": 1779104939390,
+      "depth": 4
+    },
+    {
+      "id": "890a4cd1fcb4",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779104159217,
+      "depth": 5
+    },
+    {
+      "id": "d49536aba644",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779103439181,
+      "depth": 5
+    },
     {
       "id": "aa63b1571624",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.1998,
       "isCurrentBest": false,
       "createdAt": 1779056731920,
-      "depth": 5
-    },
-    {
-      "id": "77742885d4b1",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1779056611901,
-      "depth": 5
-    },
-    {
-      "id": "975e9d8735a6",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1779056131866,
-      "depth": 5
-    },
-    {
-      "id": "09cd3af63a57",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1779056011844,
       "depth": 5
     }
   ],
