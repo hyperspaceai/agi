@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQned5BvpGPadtuTz5ATmLvRhAiohZznZEnUPVdJyA2LZ",
-  "runNumber": 14,
-  "timestamp": 1779152488222,
-  "hypothesis": "Improve on 6dcec6c0 (loss=9.5462): switch to RMSNorm",
+  "runNumber": 7,
+  "timestamp": 1779176842245,
+  "hypothesis": "Improve on aec3c247 (loss=10.3493): higher LR (0.003)",
   "config": {
     "nLayers": 8,
     "nHeads": 16,
@@ -12,7 +12,7 @@
     "dFF": 768,
     "contextLength": 2048,
     "vocabSize": 32768,
-    "learningRate": 0.08,
+    "learningRate": 0.003,
     "batchSize": 4,
     "maxSteps": 100000,
     "maxDurationSec": 1200,
@@ -36,20 +36,20 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 9.459102168693496,
-    "trainLoss": 10.376576796699107,
+    "valLoss": 9.636974594696989,
+    "trainLoss": 10.412101798747196,
     "lossCurve": [
       [
         1,
-        9.459102168693496
+        9.636974594696989
       ]
     ],
-    "durationSec": 22647.945,
-    "tokensPerSec": 0.36171052163893896,
+    "durationSec": 20191.781,
+    "tokensPerSec": 0.4057096300717604,
     "totalTokens": 8192
   },
-  "improvement": -0.9124787848727534,
+  "improvement": -6.88314834434234,
   "isNewBest": true,
-  "gpu": "NVIDIA Corporation GA104 [GeForce RTX 3060 Ti Lite Hash Rate] (rev a1)",
+  "gpu": "NVIDIA GeForce RTX 3060 Ti",
   "inspiredBy": null
 }
