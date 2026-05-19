@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-18T23:35:37.860Z",
+  "timestamp": "2026-05-19T00:35:38.205Z",
   "peerId": "12D3KooWCjeASx5bWxPVoMh1K1vkKowEXH3HFGe6Pedf52yVZ9QV",
   "stats": {
-    "totalNodes": 1547,
+    "totalNodes": 1549,
     "observations": 0,
-    "experiments": 1547,
+    "experiments": 1549,
     "syntheses": 0,
-    "totalEdges": 1543,
+    "totalEdges": 1545,
     "maxDepth": 13,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 727,
-    "skills": 482,
+    "skills": 484,
     "finance": 254,
     "search-ranking": 84
   },
   "recentExperiments": [
+    {
+      "id": "5801c7819cf3",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1779150338158,
+      "depth": 1
+    },
+    {
+      "id": "01724cce0949",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1779148057772,
+      "depth": 1
+    },
     {
       "id": "7d8f40686545",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1779131495865,
-      "depth": 1
-    },
-    {
-      "id": "6cee068375dd",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 64",
-      "metricName": "score",
-      "metricValue": 141.10393042627865,
-      "isCurrentBest": false,
-      "createdAt": 1779131406556,
-      "depth": 5
-    },
-    {
-      "id": "fbfb743012f4",
-      "domain": "search-ranking",
-      "title": "Search round 40: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1779131144252,
       "depth": 1
     }
   ],
