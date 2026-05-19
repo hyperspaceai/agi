@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQned5BvpGPadtuTz5ATmLvRhAiohZznZEnUPVdJyA2LZ",
-  "runNumber": 9,
-  "timestamp": 1778796464177,
-  "hypothesis": "Improve on ef33ba22 (loss=9.6370): muon LR (0.08)",
+  "runNumber": 14,
+  "timestamp": 1779152488222,
+  "hypothesis": "Improve on 6dcec6c0 (loss=9.5462): switch to RMSNorm",
   "config": {
     "nLayers": 8,
     "nHeads": 16,
@@ -36,20 +36,20 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 9.546209303346078,
-    "trainLoss": 10.45675551241044,
+    "valLoss": 9.459102168693496,
+    "trainLoss": 10.376576796699107,
     "lossCurve": [
       [
         1,
-        9.546209303346078
+        9.459102168693496
       ]
     ],
-    "durationSec": 23846.169,
-    "tokensPerSec": 0.34353526555984737,
+    "durationSec": 22647.945,
+    "tokensPerSec": 0.36171052163893896,
     "totalTokens": 8192
   },
-  "improvement": -0.9418442526646985,
+  "improvement": -0.9124787848727534,
   "isNewBest": true,
-  "gpu": "NVIDIA GeForce RTX 3060 Ti",
+  "gpu": "NVIDIA Corporation GA104 [GeForce RTX 3060 Ti Lite Hash Rate] (rev a1)",
   "inspiredBy": null
 }
