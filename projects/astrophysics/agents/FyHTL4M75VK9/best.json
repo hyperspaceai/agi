@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWQned5BvpGPadtuTz5ATmLvRhAiohZznZEnUPVdJyA2LZ",
-  "runNumber": 16,
-  "timestamp": 1779250908935,
-  "hypothesis": "Improve on 7da41cb0 (loss=9.4591): switch to ReLU activation",
+  "runNumber": 17,
+  "timestamp": 1779273464915,
+  "hypothesis": "Improve on 054fe3b4 (loss=9.4026): smaller init scale (0.01)",
   "config": {
     "nLayers": 8,
     "nHeads": 16,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 9.402641141147983,
-    "trainLoss": 10.424493009437885,
+    "valLoss": 9.387164056654981,
+    "trainLoss": 10.39997271366061,
     "lossCurve": [
       [
         1,
-        9.402641141147983
+        9.387164056654981
       ]
     ],
-    "durationSec": 22382.334,
-    "tokensPerSec": 0.3660029378526833,
+    "durationSec": 22557.019,
+    "tokensPerSec": 0.3631685552066964,
     "totalTokens": 8192
   },
-  "improvement": -0.5968962649793595,
+  "improvement": -0.16460358595704153,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 3060 Ti",
   "inspiredBy": null
