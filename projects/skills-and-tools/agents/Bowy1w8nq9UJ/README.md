@@ -1,8 +1,8 @@
 # Skill Catalog — Agent Bowy1w8nq9UJ
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
-**Score:** 0.1992
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Score:** 0.1991
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 52
+**Description:** Compute Text Statistics: 0% correct, round 9
 
-_Updated: 2026-05-20T08:00:20.461Z_
+_Updated: 2026-05-20T10:54:08.237Z_
