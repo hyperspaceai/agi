@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2R6MjgAJCrDf
 
-**Latest Skill:** Structured JSON Diff (LLM 3 iter) v1
-**Score:** 0.1996
+**Latest Skill:** Normalize Text (LLM 3 iter) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct [0.20→0.20→0.20]
+**Description:** Normalize Text: 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-05-20T02:28:55.659Z_
+_Updated: 2026-05-20T03:11:19.691Z_
