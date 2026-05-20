@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-19T18:33:44.937Z",
+  "timestamp": "2026-05-20T08:53:11.290Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 2863,
+    "totalNodes": 2896,
     "observations": 4,
-    "experiments": 2859,
+    "experiments": 2892,
     "syntheses": 0,
-    "totalEdges": 2268,
+    "totalEdges": 2286,
     "maxDepth": 12,
-    "activeExperiments": 454,
-    "recentActivity": 0
+    "activeExperiments": 467,
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -44,207 +44,219 @@
       "metricValue": 1.3205,
       "metricDirection": "maximize",
       "depth": 11
+    },
+    "search-ranking": {
+      "nodeId": "9701f702f01f0e7060d204d46d1b32327eb9846928102e4d2460fbd690b249f0",
+      "title": "Search round 1: Increasing authorityWeight and slightly decreasing bm25Weigh",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 1487,
-    "skills": 595,
-    "physics": 454,
-    "general": 134,
+    "infrastructure": 1496,
+    "skills": 604,
+    "physics": 467,
+    "general": 135,
     "knowledge": 4,
-    "finance": 189
+    "finance": 189,
+    "search-ranking": 1
   },
   "recentExperiments": [
     {
-      "id": "aa1877d43318",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1218",
-      "metricName": "score",
-      "metricValue": 145.1878991774704,
-      "isCurrentBest": false,
-      "createdAt": 1779211761705,
-      "depth": 12
-    },
-    {
-      "id": "0514fb6e4ebc",
+      "id": "5b8002a39ff2",
       "domain": "physics",
-      "title": "Wrote paper: \"Fractal Geometry and Negative Energy Generation within Warp Bubble Spacetimes: A Casim",
+      "title": "Wrote paper: \"On warp_drives: Given the thermodynamic constraints on negative energy densi\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1779210600813,
+      "createdAt": 1779264747984,
       "depth": 0
     },
     {
-      "id": "b1d03139eec8",
+      "id": "e2156125fac7",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1191",
+      "title": "Cause literature-analysis round 356",
       "metricName": "score",
-      "metricValue": 0.9196617655895314,
+      "metricValue": 0.9528480409159271,
       "isCurrentBest": false,
-      "createdAt": 1779210471698,
+      "createdAt": 1779264620716,
       "depth": 12
     },
     {
-      "id": "ecd9082bed7e",
+      "id": "cc6527954f11",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 312",
+      "metricName": "score",
+      "metricValue": 0.9518813237263662,
+      "isCurrentBest": false,
+      "createdAt": 1779262040685,
+      "depth": 12
+    },
+    {
+      "id": "83f07da20993",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How does the non-local entanglement structure predicted to a\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: Assuming warp bubble creation generates distinct gravitation\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1779206752285,
+      "createdAt": 1779259535780,
       "depth": 0
     },
     {
-      "id": "0aa56fc7c3bd",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1133",
-      "metricName": "score",
-      "metricValue": 0.91473190374337,
+      "id": "891241d244a1",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1779206601619,
+      "createdAt": 1779258187375,
+      "depth": 3
+    },
+    {
+      "id": "5571c33638d9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 219",
+      "metricName": "score",
+      "metricValue": 0.9498553432187459,
+      "isCurrentBest": false,
+      "createdAt": 1779256880576,
       "depth": 12
     },
     {
-      "id": "b02017d52d1d",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1115",
-      "metricName": "score",
-      "metricValue": 0.9103199548613868,
-      "isCurrentBest": false,
-      "createdAt": 1779205311616,
-      "depth": 12
-    },
-    {
-      "id": "909add4bce3b",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Given the potential for resonant interactions between warp d\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1779204115443,
+      "id": "9701f702f01f",
+      "domain": "search-ranking",
+      "title": "Search round 1: Increasing authorityWeight and slightly decreasing bm25Weigh",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": true,
+      "createdAt": 1779256858227,
       "depth": 0
     },
     {
-      "id": "46077abbc660",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1066",
-      "metricName": "score",
-      "metricValue": 145.30371830276323,
-      "isCurrentBest": false,
-      "createdAt": 1779202731509,
-      "depth": 12
-    },
-    {
-      "id": "201ed48976be",
+      "id": "c1d728d2719e",
       "domain": "physics",
-      "title": "Wrote paper: \"** Collective Warp Field Modes in Multiple Warp Drive Systems\" (self-verification scor",
+      "title": "Wrote paper: \"On warp_drives: How does the presence of non-zero vorticity within a Barzega\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1779197700381,
+      "createdAt": 1779255786481,
       "depth": 0
     },
     {
-      "id": "e19dbdb5715b",
+      "id": "2bcf2d827a56",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779254490059,
+      "depth": 3
+    },
+    {
+      "id": "379a8590172c",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Given the thermodynamic constraints on negative energy densi\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1779253335194,
+      "depth": 0
+    },
+    {
+      "id": "4df26d1f7f4a",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779253269531,
+      "depth": 3
+    },
+    {
+      "id": "6b8e141f82e2",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779253153280,
+      "depth": 3
+    },
+    {
+      "id": "ccc2bac2d605",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 150",
+      "metricName": "score",
+      "metricValue": 141.0560283035285,
+      "isCurrentBest": false,
+      "createdAt": 1779251870538,
+      "depth": 12
+    },
+    {
+      "id": "71b6b804a57c",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779250628530,
+      "depth": 3
+    },
+    {
+      "id": "b175404b3ff9",
       "domain": "general",
-      "title": "AutoWeb round 16: 89/100",
+      "title": "AutoWeb round 1: 55/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 89,
+      "metricValue": 55,
       "isCurrentBest": false,
-      "createdAt": 1779196353774,
+      "createdAt": 1779249454023,
       "depth": 0
     },
     {
-      "id": "04e40792e052",
+      "id": "f226d4fd86c0",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779249311451,
+      "depth": 3
+    },
+    {
+      "id": "8e27d623f8b0",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Given that warp drive solutions with non-zero vorticity (Bar\" (self-ve",
+      "title": "Wrote paper: \"On warp_drives: If warp drive operation necessitates localized regions of ne\" (self-ve",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1779195075630,
+      "createdAt": 1779248109073,
       "depth": 0
     },
     {
-      "id": "30fcaa0c70d8",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How does the localized, time-dependent violation of the Weak\" (self-ve",
-      "metricName": "verification_score",
+      "id": "fd93f478bdf7",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1779192500509,
-      "depth": 0
+      "createdAt": 1779248000517,
+      "depth": 3
     },
     {
-      "id": "68e68454722b",
+      "id": "d80fc3d0caa0",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 892",
+      "title": "Cause infra-optimization round 61",
       "metricName": "score",
-      "metricValue": 145.11399752103196,
+      "metricValue": 141.27535352322278,
       "isCurrentBest": false,
-      "createdAt": 1779192411437,
+      "createdAt": 1779246710488,
       "depth": 12
     },
     {
-      "id": "071028cfb31b",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 869",
-      "metricName": "score",
-      "metricValue": 0.9194096887124371,
-      "isCurrentBest": false,
-      "createdAt": 1779191121430,
-      "depth": 12
-    },
-    {
-      "id": "651289c84069",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 865",
-      "metricName": "score",
-      "metricValue": 145.1728725488163,
-      "isCurrentBest": false,
-      "createdAt": 1779191121429,
-      "depth": 12
-    },
-    {
-      "id": "0a52ba316a04",
+      "id": "20ea03b34be1",
       "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Given the stochastic gravitational wave background generated\" (self-ve",
+      "title": "Wrote paper: \"Information Content and Causality in Warp Bubbles with Vorticity and Curved Spatial Se",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1779186081022,
+      "createdAt": 1779245479345,
       "depth": 0
-    },
-    {
-      "id": "56d6e7858347",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How does the interaction of a warp bubble's induced spacetim\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1779183452537,
-      "depth": 0
-    },
-    {
-      "id": "c7e2c2057156",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Considering the energy condition violations inherent in warp\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1779179648323,
-      "depth": 0
-    },
-    {
-      "id": "1dda31cee654",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 689",
-      "metricName": "score",
-      "metricValue": 145.06153348831296,
-      "isCurrentBest": false,
-      "createdAt": 1779179571323,
-      "depth": 12
-    },
-    {
-      "id": "52ac7ffc02e5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 667",
-      "metricName": "score",
-      "metricValue": 145.2283917572695,
-      "isCurrentBest": false,
-      "createdAt": 1779178251292,
-      "depth": 12
     }
   ],
   "frontier": [],
@@ -399,6 +411,14 @@
         "title": "Finance round 3: Sharpe=1.1728",
         "metricValue": 1.1728,
         "depth": 2
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "9701f702f01f",
+        "title": "Search round 1: Increasing authorityWeight and slightly decreasing bm25Weigh",
+        "metricValue": 0.4,
+        "depth": 0
       }
     ]
   }
