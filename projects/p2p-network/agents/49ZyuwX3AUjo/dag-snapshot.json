@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-20T00:04:51.278Z",
+  "timestamp": "2026-05-20T01:04:51.760Z",
   "peerId": "12D3KooWCxw9f56kMP1JFNfoCrYzNtPyRUrjg4anwa46tjxjAdjt",
   "stats": {
-    "totalNodes": 451,
+    "totalNodes": 452,
     "observations": 0,
-    "experiments": 451,
+    "experiments": 452,
     "syntheses": 0,
-    "totalEdges": 448,
+    "totalEdges": 449,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 12
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -40,10 +40,20 @@
   },
   "domainCounts": {
     "infrastructure": 280,
-    "finance": 157,
+    "finance": 158,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "f19e24b8cc99",
+      "domain": "finance",
+      "title": "Finance round 18: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "isCurrentBest": false,
+      "createdAt": 1779236399196,
+      "depth": 6
+    },
     {
       "id": "3b2d54cba86b",
       "domain": "finance",
@@ -233,16 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1779222427847,
       "depth": 3
-    },
-    {
-      "id": "26a5a49c9f24",
-      "domain": "finance",
-      "title": "Finance round 19: Sharpe=1.2713",
-      "metricName": "Sharpe",
-      "metricValue": 1.2713,
-      "isCurrentBest": false,
-      "createdAt": 1779222341126,
-      "depth": 6
     }
   ],
   "frontier": [],
