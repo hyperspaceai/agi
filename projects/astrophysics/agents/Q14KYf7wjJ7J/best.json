@@ -2,93 +2,101 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWADNE4gEq8dZbiheYaDaFymdfyAQZh3eL7hPNGrGViFqW",
-  "runNumber": 304,
-  "timestamp": 1777002858672,
-  "hypothesis": "Explore: smaller init scale (0.01)",
+  "runNumber": 598,
+  "timestamp": 1779304602731,
+  "hypothesis": "<one-line description of what you changed and why>",
   "config": {
-    "nLayers": 12,
-    "nHeads": 8,
-    "dModel": 768,
-    "dFF": 3072,
-    "contextLength": 160,
-    "vocabSize": 256,
-    "learningRate": 0.08,
-    "batchSize": 64,
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0003,
+    "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 600,
-    "warmupSteps": 1000,
-    "weightDecay": 0.1,
+    "maxDurationSec": 120,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "silu",
-    "normalization": "rmsnorm",
+    "activation": "gelu",
+    "normalization": "layernorm",
     "positionEncoding": "learned",
-    "tieEmbeddings": true,
+    "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 0,
-    "scheduleType": "constant",
-    "minLRRatio": 0.01,
-    "initType": "xavier",
-    "initScale": 0.01,
+    "gradientClipNorm": 1,
+    "scheduleType": "cosine",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 2.330441,
-    "trainLoss": 6.66602,
+    "valLoss": 2.062682,
+    "trainLoss": 5.679385,
     "lossCurve": [
       [
         0,
-        9.17994
+        9.174506
       ],
       [
         1,
-        8.720186
+        9.132591
       ],
       [
         2,
-        8.426869
+        9.076663
       ],
       [
         3,
-        8.166635
+        9.003605
       ],
       [
         4,
-        7.993805
+        8.914766
       ],
       [
         5,
-        7.892993
+        8.809856
       ],
       [
         6,
-        7.829263
+        8.698129
       ],
       [
         7,
-        7.775072
+        8.585649
       ],
       [
         8,
-        7.722684
+        8.472951
       ],
       [
         9,
-        7.67619
+        8.362756
       ],
       [
         10,
-        7.630286
+        8.259779
+      ],
+      [
+        50,
+        6.625331
+      ],
+      [
+        100,
+        5.870401
       ]
     ],
-    "durationSec": 614.3,
-    "tokensPerSec": 18069.347224483154,
-    "totalTokens": 11100000
+    "durationSec": 120.1,
+    "tokensPerSec": 76602.83097418818,
+    "totalTokens": 9200000
   },
-  "improvement": 0,
+  "improvement": -11.489627928791155,
   "isNewBest": true,
   "gpu": "Apple M5 Pro",
   "inspiredBy": null
