@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWCgKWS6Q1R16tGA8kMTV3bqgeSeVS1AXk2uVJYpoPemYt",
-  "runNumber": 1,
-  "timestamp": 1779313816222,
-  "hypothesis": "Explore: light weight decay (0.01)",
+  "runNumber": 8,
+  "timestamp": 1779316823503,
+  "hypothesis": "Improve on 507c0ad0 (loss=4.0099): Xavier initialization",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -30,25 +30,25 @@
     "gradientClipNorm": 1,
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
-    "initType": "normal",
+    "initType": "xavier",
     "initScale": 0.02,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.009941648674804,
-    "trainLoss": 4.00774115232066,
+    "valLoss": 3.2919314291629442,
+    "trainLoss": 3.2458633572391484,
     "lossCurve": [
       [
         114,
-        4.009941648674804
+        3.2919314291629442
       ]
     ],
-    "durationSec": 128.805,
-    "tokensPerSec": 1812.6004425294047,
+    "durationSec": 128.993,
+    "tokensPerSec": 1809.9586799283684,
     "totalTokens": 233472
   },
-  "improvement": 0,
+  "improvement": -17.90575231310775,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
