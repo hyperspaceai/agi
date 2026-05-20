@@ -1,0 +1,23 @@
+{
+  "runId": "llm-r4",
+  "runNumber": 4,
+  "hypothesis": "[LLM] Increase Sharpe Ratio by adding momentum, value, quality, and dividend factors; enable drawdown protection; adjust position sizing to inverse volatility; reduce risk target to 10%; and enable regime detection.",
+  "sharpeRatio": 1.279,
+  "totalReturn": 2.4946,
+  "maxDrawdown": 0.0445,
+  "alpha": 1.0003,
+  "factors": [
+    "momentumWeight",
+    "valueWeight",
+    "qualityWeight",
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight"
+  ],
+  "positionSizing": "inverse_vol",
+  "durationSec": 0.003,
+  "isNewBest": true,
+  "improvement": null,
+  "llmModel": null,
+  "timestamp": "2026-05-20T22:44:54.711Z"
+}
