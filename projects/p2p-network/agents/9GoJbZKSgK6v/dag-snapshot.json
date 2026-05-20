@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-20T17:59:26.553Z",
+  "timestamp": "2026-05-20T19:02:59.213Z",
   "peerId": "12D3KooWJ6AULgu9sDNQpgZk3JoadtWLaCW8tHwz2cJic64V3RYb",
   "stats": {
-    "totalNodes": 1648,
+    "totalNodes": 1653,
     "observations": 0,
-    "experiments": 1648,
+    "experiments": 1653,
     "syntheses": 0,
-    "totalEdges": 1644,
+    "totalEdges": 1649,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 24
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 647,
-    "skills": 646,
+    "infrastructure": 650,
+    "skills": 648,
     "finance": 210,
     "search-ranking": 145
   },
   "recentExperiments": [
+    {
+      "id": "681a066570f0",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1779303144709,
+      "depth": 1
+    },
+    {
+      "id": "11e3f1e78bd2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 134",
+      "metricName": "score",
+      "metricValue": 0.9670810142552013,
+      "isCurrentBest": false,
+      "createdAt": 1779302598624,
+      "depth": 2
+    },
+    {
+      "id": "68e3f9e061c8",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1779302388502,
+      "depth": 1
+    },
+    {
+      "id": "8481187db8e9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 127",
+      "metricName": "score",
+      "metricValue": 0.9623301477555356,
+      "isCurrentBest": false,
+      "createdAt": 1779302153589,
+      "depth": 2
+    },
+    {
+      "id": "42b11e33503a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 115",
+      "metricName": "score",
+      "metricValue": 141.2501542846712,
+      "isCurrentBest": false,
+      "createdAt": 1779301399485,
+      "depth": 2
+    },
     {
       "id": "f2333eaa8afb",
       "domain": "skills",
@@ -201,56 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1779297854611,
-      "depth": 1
-    },
-    {
-      "id": "ebe5f7389780",
-      "domain": "search-ranking",
-      "title": "Search round 37: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779297853141,
-      "depth": 1
-    },
-    {
-      "id": "2b82ea604c81",
-      "domain": "search-ranking",
-      "title": "Search round 33: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779297472546,
-      "depth": 1
-    },
-    {
-      "id": "c6b366671992",
-      "domain": "search-ranking",
-      "title": "Search round 33: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779297467387,
-      "depth": 1
-    },
-    {
-      "id": "cfb763f69385",
-      "domain": "search-ranking",
-      "title": "Search round 33: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779297464990,
-      "depth": 1
-    },
-    {
-      "id": "743b5e759398",
-      "domain": "search-ranking",
-      "title": "Search round 33: aggressive peer timeout (500ms)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779297464808,
       "depth": 1
     }
   ],
