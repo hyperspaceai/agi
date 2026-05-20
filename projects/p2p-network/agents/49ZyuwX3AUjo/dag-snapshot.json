@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-20T19:29:20.301Z",
+  "timestamp": "2026-05-20T20:29:22.773Z",
   "peerId": "12D3KooWCxw9f56kMP1JFNfoCrYzNtPyRUrjg4anwa46tjxjAdjt",
   "stats": {
-    "totalNodes": 498,
+    "totalNodes": 500,
     "observations": 0,
-    "experiments": 498,
+    "experiments": 500,
     "syntheses": 0,
-    "totalEdges": 495,
+    "totalEdges": 497,
     "maxDepth": 6,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 318,
+    "infrastructure": 320,
     "finance": 166,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "7b3cb9cffa5b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 296",
+      "metricName": "score",
+      "metricValue": 0.9468834821953337,
+      "isCurrentBest": false,
+      "createdAt": 1779306942686,
+      "depth": 3
+    },
+    {
+      "id": "e138eb01ac03",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 273",
+      "metricName": "score",
+      "metricValue": 0.9454444195680654,
+      "isCurrentBest": false,
+      "createdAt": 1779305562593,
+      "depth": 3
+    },
     {
       "id": "070d585b2dd1",
       "domain": "infrastructure",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1779288580663,
       "depth": 3
-    },
-    {
-      "id": "2059509ecf7a",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.2027",
-      "metricName": "Sharpe",
-      "metricValue": 1.2027,
-      "isCurrentBest": false,
-      "createdAt": 1779288497446,
-      "depth": 6
-    },
-    {
-      "id": "23bc7e6a4b5a",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1940",
-      "metricName": "Sharpe",
-      "metricValue": 1.194,
-      "isCurrentBest": false,
-      "createdAt": 1779288354749,
-      "depth": 6
     }
   ],
   "frontier": [],
