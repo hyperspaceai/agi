@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DP43tN1K9oZG
 
-**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
-**Score:** 0.1994
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1995
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct, round 59
+**Description:** Extract Entities from Text: 0% correct, round 64
 
-_Updated: 2026-05-20T07:00:56.268Z_
+_Updated: 2026-05-20T07:07:26.479Z_
