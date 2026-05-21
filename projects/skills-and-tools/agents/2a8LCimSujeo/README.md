@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2a8LCimSujeo
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 6
+**Description:** Normalize Text: 0% correct, round 7
 
-_Updated: 2026-05-21T23:47:31.308Z_
+_Updated: 2026-05-21T23:52:59.413Z_
