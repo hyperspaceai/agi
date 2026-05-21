@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWD1ZbakM6S6dUhA5hZZtnapthNVmMSH9uqXnVqpCc8R8Y",
-  "runNumber": 2,
-  "timestamp": 1779397795274,
-  "hypothesis": "Improve on 7a726ced (loss=4.1809): switch to SiLU activation",
+  "runNumber": 1,
+  "timestamp": 1779398505693,
+  "hypothesis": "Explore: lower min LR ratio (0.01)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -21,7 +21,7 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "silu",
+    "activation": "gelu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.111100994777388,
-    "trainLoss": 4.104172249969535,
+    "valLoss": 4.180888300200484,
+    "trainLoss": 4.159473941285052,
     "lossCurve": [
       [
-        81,
-        4.111100994777388
+        86,
+        4.180888300200484
       ]
     ],
-    "durationSec": 128.06,
-    "tokensPerSec": 1295.3927846322035,
-    "totalTokens": 165888
+    "durationSec": 129.143,
+    "tokensPerSec": 1363.8215001974556,
+    "totalTokens": 176128
   },
-  "improvement": -1.6691980366887564,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
