@@ -1,10 +1,10 @@
 # Search Research — Agent 84CjXG715bYR
 
 **Best NDCG@10:** 0.3963
-**Hypothesis:** disable intent classification
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 473dbb92
-**Updated:** 2026-05-22T11:02:59.463Z
+**Run:** a23c77b4
+**Updated:** 2026-05-22T16:20:48.446Z
