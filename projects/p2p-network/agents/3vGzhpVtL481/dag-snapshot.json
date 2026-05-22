@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-22T07:14:29.064Z",
+  "timestamp": "2026-05-22T08:14:29.082Z",
   "peerId": "12D3KooWCjeASx5bWxPVoMh1K1vkKowEXH3HFGe6Pedf52yVZ9QV",
   "stats": {
-    "totalNodes": 1939,
+    "totalNodes": 1940,
     "observations": 0,
-    "experiments": 1939,
+    "experiments": 1940,
     "syntheses": 0,
-    "totalEdges": 1935,
+    "totalEdges": 1936,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 879,
-    "skills": 600,
+    "skills": 601,
     "finance": 334,
     "search-ranking": 126
   },
   "recentExperiments": [
+    {
+      "id": "ec008921a72f",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1779436828926,
+      "depth": 1
+    },
     {
       "id": "50a667b433ce",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1779421882089,
       "depth": 6
-    },
-    {
-      "id": "765f32515da7",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1779421822118,
-      "depth": 1
     }
   ],
   "frontier": [],
