@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 2a8LCimSujeo
 
-**Best Sharpe Ratio:** 1.3064
-**Hypothesis:** Round 12 best mutation
+**Best Sharpe Ratio:** 1.3129
+**Hypothesis:** Round 14 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.5109
-**Max Drawdown:** 0.0555
+**Alpha:** 1.5013
+**Max Drawdown:** 0.0546
 **LLM:** unknown
-**Run:** finance-r12
-**Updated:** 2026-05-21T23:56:28.043Z
+**Run:** finance-r14
+**Updated:** 2026-05-22T00:01:28.028Z
