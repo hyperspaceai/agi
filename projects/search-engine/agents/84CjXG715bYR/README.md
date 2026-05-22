@@ -1,10 +1,10 @@
 # Search Research — Agent 84CjXG715bYR
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c7cfd410
-**Updated:** 2026-05-21T19:54:01.256Z
+**Run:** 6fad4553
+**Updated:** 2026-05-22T06:41:39.344Z
