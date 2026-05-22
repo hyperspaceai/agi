@@ -1,11 +1,11 @@
 # Financial Analysis — Agent AJB8CC7U3Any
 
-**Best Sharpe Ratio:** 1.0031
-**Hypothesis:** [LLM] Increased momentum weight to capitalize on potential early performance and shifted position sizing to inverse volatility for better risk management.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight
-**Position Sizing:** inverse_vol
-**Alpha:** 0.7835
-**Max Drawdown:** 0.0835
+**Best Sharpe Ratio:** 1.0884
+**Hypothesis:** Round 1 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, meanReversionWeight
+**Position Sizing:** risk_parity
+**Alpha:** 1.0204
+**Max Drawdown:** 0.0806
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-05-22T07:39:13.044Z
+**Run:** finance-r1
+**Updated:** 2026-05-22T09:46:03.230Z
