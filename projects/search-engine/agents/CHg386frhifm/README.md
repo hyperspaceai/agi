@@ -1,10 +1,10 @@
 # Search Research — Agent CHg386frhifm
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.3963
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** bd2a93b3
-**Updated:** 2026-05-21T11:18:13.537Z
+**Run:** 2f168c60
+**Updated:** 2026-05-22T07:49:55.634Z
