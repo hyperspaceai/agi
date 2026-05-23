@@ -1,10 +1,10 @@
 # Search Research — Agent CHg386frhifm
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** increase freshness bias (0.15)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c136a238
-**Updated:** 2026-05-23T02:40:32.981Z
+**Run:** 56eff663
+**Updated:** 2026-05-23T03:11:56.453Z
