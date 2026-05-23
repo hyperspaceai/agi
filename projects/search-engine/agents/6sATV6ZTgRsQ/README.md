@@ -1,10 +1,10 @@
 # Search Research — Agent 6sATV6ZTgRsQ
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** Further increased authorityWeight and slightly decreased bodyWeight, continuing the trend of synergy with titleWeight.
+**Best NDCG@10:** 0.3963
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 4443f8f6
-**Updated:** 2026-04-24T03:18:49.491Z
+**Run:** 32bb2b40
+**Updated:** 2026-05-08T12:50:45.543Z
