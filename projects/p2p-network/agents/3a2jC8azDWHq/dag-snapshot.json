@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-24T13:17:32.931Z",
+  "timestamp": "2026-05-24T14:17:33.381Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 4532,
+    "totalNodes": 4533,
     "observations": 323,
-    "experiments": 4209,
+    "experiments": 4210,
     "syntheses": 0,
-    "totalEdges": 4137,
+    "totalEdges": 4138,
     "maxDepth": 15,
     "activeExperiments": 52,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -59,11 +59,21 @@
     "knowledge": 323,
     "search-ranking": 199,
     "general": 16,
-    "skills": 1200,
+    "skills": 1201,
     "finance": 774,
     "physics": 52
   },
   "recentExperiments": [
+    {
+      "id": "9aaabc28c6e6",
+      "domain": "skills",
+      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779629252944,
+      "depth": 4
+    },
     {
       "id": "e70a5f1d5b2d",
       "domain": "infrastructure",
@@ -253,16 +263,6 @@
       "isCurrentBest": false,
       "createdAt": 1779622572172,
       "depth": 2
-    },
-    {
-      "id": "e9e089de7bbd",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1779622412044,
-      "depth": 4
     }
   ],
   "frontier": [],
