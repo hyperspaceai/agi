@@ -1,8 +1,8 @@
 # Skill Catalog — Agent EQy4UvPHmUFU
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
-**Score:** 0.1999
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 61
+**Description:** Parse Key-Value Log: 0% correct, round 9
 
-_Updated: 2026-05-23T09:31:10.279Z_
+_Updated: 2026-05-24T09:04:32.645Z_
