@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-24T18:51:04.944Z",
+  "timestamp": "2026-05-24T19:54:17.503Z",
   "peerId": "12D3KooWPSVnY1ZusAoWJhX7cHzyzvBNSFMj7vtD5aeaT6QxGusp",
   "stats": {
-    "totalNodes": 386,
+    "totalNodes": 387,
     "observations": 0,
-    "experiments": 386,
+    "experiments": 387,
     "syntheses": 0,
-    "totalEdges": 382,
+    "totalEdges": 383,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 157,
+    "infrastructure": 158,
     "skills": 113,
     "finance": 88,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "3ebcf2954c60",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 219",
+      "metricName": "score",
+      "metricValue": 0.9549527618691875,
+      "isCurrentBest": false,
+      "createdAt": 1779649052824,
+      "depth": 4
+    },
     {
       "id": "ba8d2bfbdacf",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1779639151350,
       "depth": 8
-    },
-    {
-      "id": "72e21bb7f9b5",
-      "domain": "search-ranking",
-      "title": "Search round 38: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779639044446,
-      "depth": 1
     }
   ],
   "frontier": [],
