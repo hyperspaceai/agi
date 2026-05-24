@@ -1,10 +1,10 @@
 # Search Research — Agent HFFrNULLBmzP
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** Experimenting with freshness weight.
+**Best NDCG@10:** 0.3963
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9b72165b
-**Updated:** 2026-05-17T23:02:54.074Z
+**Run:** a35ec330
+**Updated:** 2026-05-24T17:55:18.402Z
