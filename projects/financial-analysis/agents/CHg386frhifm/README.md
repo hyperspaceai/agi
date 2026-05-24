@@ -1,11 +1,11 @@
 # Financial Analysis — Agent CHg386frhifm
 
-**Best Sharpe Ratio:** 1.2668
-**Hypothesis:** Round 15 best mutation
+**Best Sharpe Ratio:** 1.2430
+**Hypothesis:** Round 11 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.3527
-**Max Drawdown:** 0.0708
+**Alpha:** 1.3569
+**Max Drawdown:** 0.0733
 **LLM:** unknown
-**Run:** finance-r15
-**Updated:** 2026-05-23T16:32:59.486Z
+**Run:** finance-r11
+**Updated:** 2026-05-24T01:52:03.592Z
