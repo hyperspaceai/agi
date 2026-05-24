@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-24T20:22:56.960Z",
+  "timestamp": "2026-05-24T21:22:57.769Z",
   "peerId": "12D3KooWMKCa4PCzzTYLRn6ie8Vc1znWDwVXCEu46bMe74wHvmkQ",
   "stats": {
-    "totalNodes": 1556,
+    "totalNodes": 1557,
     "observations": 0,
-    "experiments": 1556,
+    "experiments": 1557,
     "syntheses": 0,
-    "totalEdges": 1553,
+    "totalEdges": 1554,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "skills": {
@@ -39,11 +39,21 @@
     }
   },
   "domainCounts": {
-    "skills": 795,
+    "skills": 796,
     "finance": 487,
     "search-ranking": 274
   },
   "recentExperiments": [
+    {
+      "id": "93f9435ec187",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1779654416829,
+      "depth": 4
+    },
     {
       "id": "1cec57fc9259",
       "domain": "skills",
@@ -232,16 +242,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1779572921704,
-      "depth": 1
-    },
-    {
-      "id": "edc4a213d7c2",
-      "domain": "search-ranking",
-      "title": "Search round 37: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779572921379,
       "depth": 1
     }
   ],
