@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-25T13:13:50.139Z",
+  "timestamp": "2026-05-25T14:13:50.669Z",
   "peerId": "12D3KooWLCyoN1eH8HeXqzehoTQqeQ15sZonEpHVkiqc5Fd5Gi99",
   "stats": {
-    "totalNodes": 2684,
+    "totalNodes": 2686,
     "observations": 0,
-    "experiments": 2684,
+    "experiments": 2686,
     "syntheses": 0,
-    "totalEdges": 2674,
+    "totalEdges": 2676,
     "maxDepth": 17,
     "activeExperiments": 6,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,13 +47,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1306,
-    "skills": 671,
+    "infrastructure": 1307,
+    "skills": 672,
     "physics": 6,
     "finance": 518,
     "search-ranking": 183
   },
   "recentExperiments": [
+    {
+      "id": "a85b7c43f76b",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1992,
+      "isCurrentBest": false,
+      "createdAt": 1779717830282,
+      "depth": 4
+    },
+    {
+      "id": "7e2973fe9f61",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 219",
+      "metricName": "score",
+      "metricValue": 141.13372601659444,
+      "isCurrentBest": false,
+      "createdAt": 1779715399672,
+      "depth": 9
+    },
     {
       "id": "6f0a5d7250c1",
       "domain": "infrastructure",
@@ -233,26 +253,6 @@
       "isCurrentBest": false,
       "createdAt": 1779704021084,
       "depth": 9
-    },
-    {
-      "id": "40f5377618b1",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1779703901101,
-      "depth": 4
-    },
-    {
-      "id": "7fc304ebffa8",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1991,
-      "isCurrentBest": false,
-      "createdAt": 1779703541075,
-      "depth": 4
     }
   ],
   "frontier": [],
