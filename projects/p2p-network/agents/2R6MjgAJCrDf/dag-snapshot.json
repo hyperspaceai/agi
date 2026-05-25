@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-25T17:09:03.212Z",
+  "timestamp": "2026-05-25T20:08:41.286Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 3215,
+    "totalNodes": 3223,
     "observations": 4,
-    "experiments": 3211,
+    "experiments": 3219,
     "syntheses": 0,
-    "totalEdges": 2478,
+    "totalEdges": 2484,
     "maxDepth": 12,
-    "activeExperiments": 575,
-    "recentActivity": 1
+    "activeExperiments": 577,
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,15 +55,93 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1633,
+    "infrastructure": 1635,
     "skills": 653,
-    "physics": 575,
+    "physics": 577,
     "general": 154,
     "knowledge": 4,
-    "finance": 195,
+    "finance": 199,
     "search-ranking": 1
   },
   "recentExperiments": [
+    {
+      "id": "0ea9f14b8f64",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 591",
+      "metricName": "score",
+      "metricValue": 141.19408437051615,
+      "isCurrentBest": false,
+      "createdAt": 1779738610828,
+      "depth": 12
+    },
+    {
+      "id": "53c618d71c1e",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.3129",
+      "metricName": "Sharpe",
+      "metricValue": 1.3129,
+      "isCurrentBest": false,
+      "createdAt": 1779737320838,
+      "depth": 12
+    },
+    {
+      "id": "640845099050",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.3064",
+      "metricName": "Sharpe",
+      "metricValue": 1.3064,
+      "isCurrentBest": false,
+      "createdAt": 1779737020870,
+      "depth": 12
+    },
+    {
+      "id": "598ab425f09b",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1782",
+      "metricName": "Sharpe",
+      "metricValue": 1.1782,
+      "isCurrentBest": false,
+      "createdAt": 1779736870830,
+      "depth": 12
+    },
+    {
+      "id": "4adec6d632da",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.1504",
+      "metricName": "Sharpe",
+      "metricValue": 1.1504,
+      "isCurrentBest": false,
+      "createdAt": 1779736720837,
+      "depth": 12
+    },
+    {
+      "id": "d398eb043dfb",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Given the Barzegar & Buchert (2025) solutions allowing for v\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1779735506106,
+      "depth": 0
+    },
+    {
+      "id": "c7bcd4bb9b77",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Considering the anisotropic nature of the dynamic Casimir ef\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1779730356216,
+      "depth": 0
+    },
+    {
+      "id": "29fd5671a4bb",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 428",
+      "metricName": "score",
+      "metricValue": 0.9294389723541067,
+      "isCurrentBest": false,
+      "createdAt": 1779728950717,
+      "depth": 12
+    },
     {
       "id": "4a9105dfab7c",
       "domain": "physics",
@@ -178,85 +256,6 @@
       "metricValue": 0.1997,
       "isCurrentBest": false,
       "createdAt": 1779713458136,
-      "depth": 3
-    },
-    {
-      "id": "00a07371ee42",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How does the localized, dynamic Casimir effect-generated exo\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1779712243850,
-      "depth": 0
-    },
-    {
-      "id": "595f83fa0697",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1779710933962,
-      "depth": 3
-    },
-    {
-      "id": "80dbee2461d9",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 117",
-      "metricName": "score",
-      "metricValue": 0.9675870674073694,
-      "isCurrentBest": false,
-      "createdAt": 1779710890324,
-      "depth": 12
-    },
-    {
-      "id": "f2f52d367530",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 128",
-      "metricName": "score",
-      "metricValue": 0.9708068426991857,
-      "isCurrentBest": false,
-      "createdAt": 1779710890324,
-      "depth": 12
-    },
-    {
-      "id": "6021294f6e7f",
-      "domain": "general",
-      "title": "AutoWeb round 1: 81/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 81,
-      "isCurrentBest": false,
-      "createdAt": 1779709676000,
-      "depth": 0
-    },
-    {
-      "id": "e26139b71a90",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1779709621544,
-      "depth": 3
-    },
-    {
-      "id": "869615f603e0",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 99",
-      "metricName": "score",
-      "metricValue": 141.0724420517699,
-      "isCurrentBest": false,
-      "createdAt": 1779709600316,
-      "depth": 12
-    },
-    {
-      "id": "5d4512a7bb8d",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1779708311749,
       "depth": 3
     }
   ],
