@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-25T20:08:41.286Z",
+  "timestamp": "2026-05-25T21:08:41.299Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 3223,
+    "totalNodes": 3225,
     "observations": 4,
-    "experiments": 3219,
+    "experiments": 3221,
     "syntheses": 0,
-    "totalEdges": 2484,
+    "totalEdges": 2486,
     "maxDepth": 12,
     "activeExperiments": 577,
-    "recentActivity": 5
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1635,
+    "infrastructure": 1637,
     "skills": 653,
     "physics": 577,
     "general": 154,
@@ -64,6 +64,26 @@
     "search-ranking": 1
   },
   "recentExperiments": [
+    {
+      "id": "75515de5b6a0",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 622",
+      "metricName": "score",
+      "metricValue": 141.07872629536317,
+      "isCurrentBest": false,
+      "createdAt": 1779740470840,
+      "depth": 12
+    },
+    {
+      "id": "120c7e63e96e",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 621",
+      "metricName": "score",
+      "metricValue": 0.9202001434808255,
+      "isCurrentBest": false,
+      "createdAt": 1779740410840,
+      "depth": 12
+    },
     {
       "id": "0ea9f14b8f64",
       "domain": "infrastructure",
@@ -236,26 +256,6 @@
       "metricValue": 0.1997,
       "isCurrentBest": false,
       "createdAt": 1779714777987,
-      "depth": 3
-    },
-    {
-      "id": "289cda1d8c40",
-      "domain": "general",
-      "title": "AutoWeb round 2: 83/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 83,
-      "isCurrentBest": false,
-      "createdAt": 1779713520262,
-      "depth": 0
-    },
-    {
-      "id": "d2d43c3cd3c7",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1779713458136,
       "depth": 3
     }
   ],
