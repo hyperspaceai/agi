@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-24T22:19:15.922Z",
+  "timestamp": "2026-05-25T00:23:12.213Z",
   "peerId": "12D3KooWGsZuGPgiGVov4xYV36DABoag9o6eMDUnXRPkFea2YQEQ",
   "stats": {
-    "totalNodes": 1001,
+    "totalNodes": 1002,
     "observations": 0,
-    "experiments": 1001,
+    "experiments": 1002,
     "syntheses": 0,
-    "totalEdges": 997,
+    "totalEdges": 998,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 271,
+    "infrastructure": 272,
     "skills": 365,
     "finance": 183,
     "search-ranking": 182
   },
   "recentExperiments": [
+    {
+      "id": "22a2b29763d7",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 224",
+      "metricName": "score",
+      "metricValue": 145.04161289465168,
+      "isCurrentBest": false,
+      "createdAt": 1779664728518,
+      "depth": 5
+    },
     {
       "id": "188ed9bbd2b0",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1779647592865,
       "depth": 9
-    },
-    {
-      "id": "f3a13bc4d010",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1779647472852,
-      "depth": 2
     }
   ],
   "frontier": [],
