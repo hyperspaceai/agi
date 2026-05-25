@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-25T07:12:16.536Z",
+  "timestamp": "2026-05-25T08:12:16.631Z",
   "peerId": "12D3KooWK7YHwKhBE54UGeGv4wAuNaa7NA17F4MfTNA2MyQCbfkQ",
   "stats": {
-    "totalNodes": 116,
+    "totalNodes": 119,
     "observations": 0,
-    "experiments": 116,
+    "experiments": 119,
     "syntheses": 0,
-    "totalEdges": 104,
-    "maxDepth": 5,
+    "totalEdges": 107,
+    "maxDepth": 6,
     "activeExperiments": 6,
-    "recentActivity": 7
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -30,12 +30,12 @@
       "depth": 4
     },
     "finance": {
-      "nodeId": "0408eef4a74abff562221f51916123ac1fcf934e348df3e868c58698d26a8b12",
-      "title": "Finance round 6: Sharpe=1.3129",
+      "nodeId": "a1bf6604774b434ad35b9b7e6909bf4059d8f198073b6371f9aa0c266ad566e2",
+      "title": "Finance round 12: Sharpe=1.3205",
       "metricName": "Sharpe",
-      "metricValue": 1.3129,
+      "metricValue": 1.3205,
       "metricDirection": "maximize",
-      "depth": 4
+      "depth": 6
     },
     "general": {
       "nodeId": "c106f6757eaeec6c95d05e67ef4ddc0403373f043441d86fc5acb1e36226094b",
@@ -47,13 +47,43 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 91,
+    "infrastructure": 92,
     "skills": 7,
     "physics": 6,
-    "finance": 9,
+    "finance": 11,
     "general": 3
   },
   "recentExperiments": [
+    {
+      "id": "a1bf6604774b",
+      "domain": "finance",
+      "title": "Finance round 12: Sharpe=1.3205",
+      "metricName": "Sharpe",
+      "metricValue": 1.3205,
+      "isCurrentBest": true,
+      "createdAt": 1779694336291,
+      "depth": 6
+    },
+    {
+      "id": "344870791e22",
+      "domain": "finance",
+      "title": "Finance round 11: Sharpe=1.3137",
+      "metricName": "Sharpe",
+      "metricValue": 1.3137,
+      "isCurrentBest": false,
+      "createdAt": 1779694186194,
+      "depth": 5
+    },
+    {
+      "id": "2fb5920792cd",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 361",
+      "metricName": "score",
+      "metricValue": 141.12649768813944,
+      "isCurrentBest": false,
+      "createdAt": 1779693195167,
+      "depth": 5
+    },
     {
       "id": "bc572dad8b7c",
       "domain": "finance",
@@ -220,35 +250,6 @@
       "isCurrentBest": false,
       "createdAt": 1779677637781,
       "depth": 4
-    },
-    {
-      "id": "c9705a70a53a",
-      "domain": "physics",
-      "title": "Wrote paper: \"On casimir_engineering: Can arrays of Casimir micro-cavities (following White/LSI 20\" ",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1779676454012,
-      "depth": 0
-    },
-    {
-      "id": "26c84d5dd429",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1992,
-      "isCurrentBest": false,
-      "createdAt": 1779676134274,
-      "depth": 3
-    },
-    {
-      "id": "db84697fddb5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 66",
-      "metricName": "score",
-      "metricValue": 141.07136969464264,
-      "isCurrentBest": false,
-      "createdAt": 1779674680307,
-      "depth": 5
     }
   ],
   "frontier": [],
@@ -318,6 +319,18 @@
       }
     ],
     "finance": [
+      {
+        "id": "a1bf6604774b",
+        "title": "Finance round 12: Sharpe=1.3205",
+        "metricValue": 1.3205,
+        "depth": 6
+      },
+      {
+        "id": "344870791e22",
+        "title": "Finance round 11: Sharpe=1.3137",
+        "metricValue": 1.3137,
+        "depth": 5
+      },
       {
         "id": "0408eef4a74a",
         "title": "Finance round 6: Sharpe=1.3129",
