@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 92fyWUjy6zRE
 
-**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Parse Key-Value Log: 0% correct, round 19
+**Description:** Structured JSON Diff: 0% correct, round 20
 
-_Updated: 2026-05-26T02:47:54.421Z_
+_Updated: 2026-05-26T02:53:24.446Z_
