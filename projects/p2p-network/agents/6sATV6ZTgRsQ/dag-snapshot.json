@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-26T08:03:03.106Z",
+  "timestamp": "2026-05-26T09:03:03.231Z",
   "peerId": "12D3KooWFgXdEE9AsL8uCTVtcr3Dj9RXUbnNobgjod69bdb5saom",
   "stats": {
-    "totalNodes": 2477,
+    "totalNodes": 2480,
     "observations": 2,
-    "experiments": 2475,
+    "experiments": 2478,
     "syntheses": 0,
-    "totalEdges": 2307,
+    "totalEdges": 2310,
     "maxDepth": 15,
     "activeExperiments": 134,
-    "recentActivity": 2
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1252,
+    "infrastructure": 1255,
     "skills": 634,
     "knowledge": 2,
     "physics": 134,
@@ -64,6 +64,36 @@
     "finance": 421
   },
   "recentExperiments": [
+    {
+      "id": "16490a3b40e2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 303",
+      "metricName": "score",
+      "metricValue": 0.929398621541409,
+      "isCurrentBest": false,
+      "createdAt": 1779784623057,
+      "depth": 15
+    },
+    {
+      "id": "a37962cd604b",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 290",
+      "metricName": "score",
+      "metricValue": 0.9288436345092526,
+      "isCurrentBest": false,
+      "createdAt": 1779783843053,
+      "depth": 15
+    },
+    {
+      "id": "c67a038beb9e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 270",
+      "metricName": "score",
+      "metricValue": 144.9983857202337,
+      "isCurrentBest": false,
+      "createdAt": 1779782643046,
+      "depth": 15
+    },
     {
       "id": "23103d2f7674",
       "domain": "infrastructure",
@@ -233,36 +263,6 @@
       "isCurrentBest": false,
       "createdAt": 1779766981985,
       "depth": 3
-    },
-    {
-      "id": "78e0b517205a",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
-      "isCurrentBest": false,
-      "createdAt": 1779766981983,
-      "depth": 9
-    },
-    {
-      "id": "7e55aec0a1c4",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1779766861963,
-      "depth": 3
-    },
-    {
-      "id": "71eb5c61487a",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 6",
-      "metricName": "score",
-      "metricValue": 0.9745613615482758,
-      "isCurrentBest": false,
-      "createdAt": 1779766801946,
-      "depth": 15
     }
   ],
   "frontier": [],
