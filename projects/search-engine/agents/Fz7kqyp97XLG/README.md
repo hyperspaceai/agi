@@ -1,10 +1,10 @@
 # Search Research — Agent Fz7kqyp97XLG
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** local + peer only
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ec3cff7c
-**Updated:** 2026-05-25T02:30:17.466Z
+**Run:** ebc05f98
+**Updated:** 2026-05-26T17:13:23.311Z
