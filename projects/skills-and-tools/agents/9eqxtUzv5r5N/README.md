@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 9eqxtUzv5r5N
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
 **Score:** 0.1990
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 10
+**Description:** Parse Key-Value Log: 0% correct, round 15
 
-_Updated: 2026-05-26T14:37:04.314Z_
+_Updated: 2026-05-26T15:00:07.303Z_
