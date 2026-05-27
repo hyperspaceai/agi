@@ -1,10 +1,10 @@
 # Search Research — Agent 2ArLpyQtUZ1P
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** skip peer cascade (local-only fast)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9fdcb4da
-**Updated:** 2026-05-26T14:02:56.669Z
+**Run:** b5a6a03c
+**Updated:** 2026-05-27T02:26:48.533Z
