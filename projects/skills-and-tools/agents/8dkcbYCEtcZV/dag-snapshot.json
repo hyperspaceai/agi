@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-27T15:53:53.383Z",
+  "peerId": "12D3KooWHT7nLfmx5Wpz5GfyQHpdbyunuFjNCPKgz6RYroMFGURd",
+  "stats": {
+    "totalNodes": 191,
+    "observations": 0,
+    "experiments": 191,
+    "syntheses": 0,
+    "totalEdges": 188,
+    "maxDepth": 3,
+    "activeExperiments": 0,
+    "recentActivity": 2
+  },
+  "bestPerDomain": {
+    "skills": {
+      "nodeId": "460c182d2bbadc2e7764fc800bc14580cf70d522f89e7232aad76ba64daa774c",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "metricDirection": "maximize",
+      "depth": 1
+    },
+    "finance": {
+      "nodeId": "681024e97f69eccc58e2d80958d0ed560e00dba1216f14a6414f01f1eac1c592",
+      "title": "Finance round 3: Sharpe=1.3137",
+      "metricName": "Sharpe",
+      "metricValue": 1.3137,
+      "metricDirection": "maximize",
+      "depth": 2
+    },
+    "search-ranking": {
+      "nodeId": "5f1fd01fd4c95c0bd982cbad2c7ff8f6e1ec2e83e3646ca154708ac5abafe8a3",
+      "title": "Search round 31: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "metricDirection": "maximize",
+      "depth": 0
+    }
+  },
+  "domainCounts": {
+    "skills": 105,
+    "finance": 72,
+    "search-ranking": 14
+  },
+  "recentExperiments": [
+    {
+      "id": "10e931d4eacf",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779896873337,
+      "depth": 2
+    },
+    {
+      "id": "fe397a91055e",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779894713309,
+      "depth": 2
+    },
+    {
+      "id": "6b26c31508e7",
+      "domain": "finance",
+      "title": "Finance round 36: Sharpe=1.2946",
+      "metricName": "Sharpe",
+      "metricValue": 1.2946,
+      "isCurrentBest": false,
+      "createdAt": 1779893633309,
+      "depth": 3
+    },
+    {
+      "id": "441202ad0b2a",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779893393299,
+      "depth": 2
+    },
+    {
+      "id": "aaac4b84b799",
+      "domain": "finance",
+      "title": "Finance round 29: Sharpe=1.2913",
+      "metricName": "Sharpe",
+      "metricValue": 1.2913,
+      "isCurrentBest": false,
+      "createdAt": 1779892583285,
+      "depth": 3
+    },
+    {
+      "id": "0b251064b8f4",
+      "domain": "finance",
+      "title": "Finance round 26: Sharpe=1.2878",
+      "metricName": "Sharpe",
+      "metricValue": 1.2878,
+      "isCurrentBest": false,
+      "createdAt": 1779892133281,
+      "depth": 3
+    },
+    {
+      "id": "fc85043f17ef",
+      "domain": "finance",
+      "title": "Finance round 24: Sharpe=1.2779",
+      "metricName": "Sharpe",
+      "metricValue": 1.2779,
+      "isCurrentBest": false,
+      "createdAt": 1779891833290,
+      "depth": 3
+    },
+    {
+      "id": "e8daf286d6e8",
+      "domain": "search-ranking",
+      "title": "Search round 39: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1779891788641,
+      "depth": 1
+    },
+    {
+      "id": "295e8ed695a5",
+      "domain": "search-ranking",
+      "title": "Search round 39: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1779891788349,
+      "depth": 1
+    },
+    {
+      "id": "a63579e106e9",
+      "domain": "search-ranking",
+      "title": "Search round 39: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1779891787519,
+      "depth": 1
+    },
+    {
+      "id": "d4bc2fa2c505",
+      "domain": "search-ranking",
+      "title": "Search round 39: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1779891787115,
+      "depth": 1
+    },
+    {
+      "id": "e84c2849c32e",
+      "domain": "search-ranking",
+      "title": "Search round 39: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1779891787056,
+      "depth": 1
+    },
+    {
+      "id": "9b46e89f5853",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779891713291,
+      "depth": 2
+    },
+    {
+      "id": "27e27a38c473",
+      "domain": "finance",
+      "title": "Finance round 22: Sharpe=1.2711",
+      "metricName": "Sharpe",
+      "metricValue": 1.2711,
+      "isCurrentBest": false,
+      "createdAt": 1779891533279,
+      "depth": 3
+    },
+    {
+      "id": "c993f2cd5b7a",
+      "domain": "finance",
+      "title": "Finance round 21: Sharpe=1.2668",
+      "metricName": "Sharpe",
+      "metricValue": 1.2668,
+      "isCurrentBest": false,
+      "createdAt": 1779891383280,
+      "depth": 3
+    },
+    {
+      "id": "d3c059354c34",
+      "domain": "search-ranking",
+      "title": "Search round 31: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1779891043887,
+      "depth": 1
+    },
+    {
+      "id": "ab0909b16a1d",
+      "domain": "search-ranking",
+      "title": "Search round 31: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1779891043764,
+      "depth": 1
+    },
+    {
+      "id": "99a3062ff541",
+      "domain": "search-ranking",
+      "title": "Search round 31: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1779891042595,
+      "depth": 1
+    },
+    {
+      "id": "d2c1e6ee9554",
+      "domain": "search-ranking",
+      "title": "Search round 31: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1779891042507,
+      "depth": 1
+    },
+    {
+      "id": "52c37b78209e",
+      "domain": "search-ranking",
+      "title": "Search round 31: decrease diversity penalty (0.05)",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1779891039932,
+      "depth": 1
+    }
+  ],
+  "frontier": [],
+  "lineages": {
+    "skills": [
+      {
+        "id": "460c182d2bba",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 1
+      },
+      {
+        "id": "9a9a907e61d7",
+        "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+        "metricValue": 0.1994,
+        "depth": 0
+      }
+    ],
+    "finance": [
+      {
+        "id": "681024e97f69",
+        "title": "Finance round 3: Sharpe=1.3137",
+        "metricValue": 1.3137,
+        "depth": 2
+      },
+      {
+        "id": "cb985733d967",
+        "title": "Finance round 2: Sharpe=1.2081",
+        "metricValue": 1.2081,
+        "depth": 1
+      },
+      {
+        "id": "4ef9665f34bb",
+        "title": "Finance round 1: Sharpe=1.1991",
+        "metricValue": 1.1991,
+        "depth": 0
+      }
+    ],
+    "search-ranking": [
+      {
+        "id": "5f1fd01fd4c9",
+        "title": "Search round 31: decrease diversity penalty (0.05)",
+        "metricValue": 0.4,
+        "depth": 0
+      }
+    ]
+  }
+}
