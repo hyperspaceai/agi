@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-27T08:11:26.457Z",
+  "timestamp": "2026-05-27T09:11:26.656Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 4756,
+    "totalNodes": 4757,
     "observations": 323,
-    "experiments": 4433,
+    "experiments": 4434,
     "syntheses": 0,
-    "totalEdges": 4361,
+    "totalEdges": 4362,
     "maxDepth": 15,
     "activeExperiments": 52,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2081,
+    "infrastructure": 2082,
     "knowledge": 323,
     "search-ranking": 227,
     "general": 16,
@@ -64,6 +64,16 @@
     "physics": 52
   },
   "recentExperiments": [
+    {
+      "id": "a7d2a7553eb2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 457",
+      "metricName": "score",
+      "metricValue": 145.2761130288541,
+      "isCurrentBest": false,
+      "createdAt": 1779869966365,
+      "depth": 7
+    },
     {
       "id": "7c941d891503",
       "domain": "skills",
@@ -252,16 +262,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1779845799026,
-      "depth": 2
-    },
-    {
-      "id": "129a3e1dba10",
-      "domain": "search-ranking",
-      "title": "Search round 36: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779845798524,
       "depth": 2
     }
   ],
