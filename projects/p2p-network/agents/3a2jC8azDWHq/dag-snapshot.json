@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-27T10:11:26.877Z",
+  "timestamp": "2026-05-27T11:11:27.078Z",
   "peerId": "12D3KooWCPPtwGAhQQZKX2TLGtJmkSAHDn5REn2RNHtM3kZh6m7i",
   "stats": {
-    "totalNodes": 4760,
+    "totalNodes": 4762,
     "observations": 323,
-    "experiments": 4437,
+    "experiments": 4439,
     "syntheses": 0,
-    "totalEdges": 4365,
+    "totalEdges": 4367,
     "maxDepth": 15,
     "activeExperiments": 52,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,15 +55,35 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2085,
+    "infrastructure": 2086,
     "knowledge": 323,
     "search-ranking": 227,
     "general": 16,
-    "skills": 1249,
+    "skills": 1250,
     "finance": 808,
     "physics": 52
   },
   "recentExperiments": [
+    {
+      "id": "4333afce9f85",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1779880287067,
+      "depth": 4
+    },
+    {
+      "id": "7eb75d74cb83",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 609",
+      "metricName": "score",
+      "metricValue": 145.04874684669312,
+      "isCurrentBest": false,
+      "createdAt": 1779879086933,
+      "depth": 7
+    },
     {
       "id": "2120b4e51e8f",
       "domain": "infrastructure",
@@ -242,26 +262,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1779845805548,
-      "depth": 2
-    },
-    {
-      "id": "3d1008f11b3d",
-      "domain": "search-ranking",
-      "title": "Search round 36: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779845805489,
-      "depth": 2
-    },
-    {
-      "id": "67a6a9e46f3b",
-      "domain": "search-ranking",
-      "title": "Search round 36: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779845803816,
       "depth": 2
     }
   ],
