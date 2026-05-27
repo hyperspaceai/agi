@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-27T17:56:42.628Z",
+  "timestamp": "2026-05-27T19:56:42.762Z",
   "peerId": "12D3KooWJ23JjHasMLjySX4WXLEy4VzRgqgoAuPoYhNDq7qcTQk6",
   "stats": {
-    "totalNodes": 2564,
+    "totalNodes": 2570,
     "observations": 0,
-    "experiments": 2564,
+    "experiments": 2570,
     "syntheses": 0,
-    "totalEdges": 2560,
+    "totalEdges": 2566,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,72 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 872,
+    "infrastructure": 878,
     "skills": 970,
     "finance": 638,
     "search-ranking": 84
   },
   "recentExperiments": [
+    {
+      "id": "4ffeff8cebd5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 600",
+      "metricName": "score",
+      "metricValue": 144.99333152435048,
+      "isCurrentBest": false,
+      "createdAt": 1779910032620,
+      "depth": 5
+    },
+    {
+      "id": "c2f5d94c3ad9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 564",
+      "metricName": "score",
+      "metricValue": 0.9672161410245177,
+      "isCurrentBest": false,
+      "createdAt": 1779907872586,
+      "depth": 5
+    },
+    {
+      "id": "08b8eddf3c98",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 558",
+      "metricName": "score",
+      "metricValue": 0.9555680247512649,
+      "isCurrentBest": false,
+      "createdAt": 1779907512581,
+      "depth": 5
+    },
+    {
+      "id": "612d1e2d0601",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 557",
+      "metricName": "score",
+      "metricValue": 0.951542701196686,
+      "isCurrentBest": false,
+      "createdAt": 1779907452581,
+      "depth": 5
+    },
+    {
+      "id": "e7c37ffc06b3",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 532",
+      "metricName": "score",
+      "metricValue": 0.9512012751023662,
+      "isCurrentBest": false,
+      "createdAt": 1779905952555,
+      "depth": 5
+    },
+    {
+      "id": "1b6cd979cc08",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 512",
+      "metricName": "score",
+      "metricValue": 0.9482166329150239,
+      "isCurrentBest": false,
+      "createdAt": 1779904752531,
+      "depth": 5
+    },
     {
       "id": "b545acd2d279",
       "domain": "infrastructure",
@@ -192,66 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1779880242190,
       "depth": 2
-    },
-    {
-      "id": "428655b3b231",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1779880122189,
-      "depth": 2
-    },
-    {
-      "id": "b56d0f87c57c",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1779879882187,
-      "depth": 2
-    },
-    {
-      "id": "dfe7284ceb6f",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 97",
-      "metricName": "score",
-      "metricValue": 0.9730745712984069,
-      "isCurrentBest": false,
-      "createdAt": 1779879852177,
-      "depth": 5
-    },
-    {
-      "id": "f6a6a829b49c",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 93",
-      "metricName": "score",
-      "metricValue": 0.9693097548651348,
-      "isCurrentBest": false,
-      "createdAt": 1779874116111,
-      "depth": 5
-    },
-    {
-      "id": "50db3869fec2",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 90",
-      "metricName": "score",
-      "metricValue": 0.9664779165601443,
-      "isCurrentBest": false,
-      "createdAt": 1779873936106,
-      "depth": 5
-    },
-    {
-      "id": "c8bf49a39926",
-      "domain": "search-ranking",
-      "title": "Search round 50: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779873057128,
-      "depth": 1
     }
   ],
   "frontier": [],
