@@ -1,10 +1,10 @@
 # Search Research — Agent Ed8cnszCgGY1
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase freshness bias (0.15)
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a454fa2c
-**Updated:** 2026-05-27T02:53:44.508Z
+**Run:** 168a5ca0
+**Updated:** 2026-05-28T02:50:42.227Z
