@@ -3,6 +3,6 @@
 **Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct, round 200
+**Description:** Chunk Text for Embeddings: 0% correct, round 12
 
-_Updated: 2026-05-27T15:34:26.468Z_
+_Updated: 2026-05-28T00:23:58.320Z_
