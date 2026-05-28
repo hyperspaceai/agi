@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-28T04:44:36.560Z",
+  "timestamp": "2026-05-28T05:44:42.444Z",
   "peerId": "12D3KooWLNgA2dPeP5ay7k6TdmmDEJ9ihsb7zF18hDANNBedNBBH",
   "stats": {
-    "totalNodes": 763,
+    "totalNodes": 767,
     "observations": 0,
-    "experiments": 763,
+    "experiments": 767,
     "syntheses": 0,
-    "totalEdges": 759,
+    "totalEdges": 763,
     "maxDepth": 19,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 288,
-    "skills": 270,
+    "infrastructure": 289,
+    "skills": 273,
     "finance": 154,
     "search-ranking": 51
   },
   "recentExperiments": [
+    {
+      "id": "11af1af01c34",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1779946481143,
+      "depth": 1
+    },
+    {
+      "id": "10f9d74264f9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 175",
+      "metricName": "score",
+      "metricValue": 0.9372924089493497,
+      "isCurrentBest": false,
+      "createdAt": 1779945008919,
+      "depth": 2
+    },
+    {
+      "id": "2d140167754b",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1779943957381,
+      "depth": 1
+    },
+    {
+      "id": "30f819a11563",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1779943837032,
+      "depth": 1
+    },
     {
       "id": "34f3dce0b755",
       "domain": "skills",
@@ -212,46 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1779937828450,
       "depth": 1
-    },
-    {
-      "id": "75e05d349f25",
-      "domain": "search-ranking",
-      "title": "Search round 36: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779937714076,
-      "depth": 2
-    },
-    {
-      "id": "b31ccca8f141",
-      "domain": "search-ranking",
-      "title": "Search round 36: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779937713032,
-      "depth": 2
-    },
-    {
-      "id": "1495f071223a",
-      "domain": "search-ranking",
-      "title": "Search round 35: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779937706564,
-      "depth": 2
-    },
-    {
-      "id": "186eade0a878",
-      "domain": "search-ranking",
-      "title": "Search round 35: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1779937705655,
-      "depth": 2
     }
   ],
   "frontier": [],
