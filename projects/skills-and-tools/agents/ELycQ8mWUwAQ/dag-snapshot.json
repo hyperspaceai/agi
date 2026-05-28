@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-28T04:03:59.238Z",
+  "timestamp": "2026-05-28T05:09:25.446Z",
   "peerId": "12D3KooWPALn9GMDfqRuLr1hEgsn6Qs2MtfeSyxoCX5JjBbv8nJ7",
   "stats": {
-    "totalNodes": 2199,
+    "totalNodes": 2201,
     "observations": 0,
-    "experiments": 2199,
+    "experiments": 2201,
     "syntheses": 0,
-    "totalEdges": 2195,
+    "totalEdges": 2197,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 683,
-    "skills": 957,
+    "skills": 959,
     "finance": 467,
     "search-ranking": 92
   },
   "recentExperiments": [
+    {
+      "id": "3f9baabb9878",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1779942883847,
+      "depth": 5
+    },
+    {
+      "id": "7b9fc0b1bf5d",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1779942755736,
+      "depth": 5
+    },
     {
       "id": "a8b8637183e7",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1779927506783,
       "depth": 5
-    },
-    {
-      "id": "1dcc2abbd616",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1779927377312,
-      "depth": 5
-    },
-    {
-      "id": "d4d28e3d4e95",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 69",
-      "metricName": "score",
-      "metricValue": 0.963101649787265,
-      "isCurrentBest": false,
-      "createdAt": 1779927213715,
-      "depth": 4
     }
   ],
   "frontier": [],
