@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DHHFM4Mv1ai3
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
-**Score:** 0.1999
+**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 20
+**Description:** Cosine Text Similarity: 0% correct, round 17
 
-_Updated: 2026-05-27T00:32:10.635Z_
+_Updated: 2026-05-28T12:32:50.198Z_
