@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-28T01:50:42.987Z",
+  "timestamp": "2026-05-28T02:50:44.233Z",
   "peerId": "12D3KooWAzDWa6zbfTGszVAyLGdZzipVzfXMgDuMcvDtzDY9RiFE",
   "stats": {
-    "totalNodes": 537,
+    "totalNodes": 539,
     "observations": 0,
-    "experiments": 537,
+    "experiments": 539,
     "syntheses": 0,
-    "totalEdges": 533,
+    "totalEdges": 535,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 190,
-    "skills": 152,
+    "infrastructure": 191,
+    "skills": 153,
     "finance": 111,
     "search-ranking": 84
   },
   "recentExperiments": [
+    {
+      "id": "0d1a1e1e9f40",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 322",
+      "metricName": "score",
+      "metricValue": 0.9481347880981847,
+      "isCurrentBest": false,
+      "createdAt": 1779936194037,
+      "depth": 5
+    },
+    {
+      "id": "f6b4ec10c0d5",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1779933642835,
+      "depth": 2
+    },
     {
       "id": "66dcee6cfd85",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.9715352119398054,
       "isCurrentBest": false,
       "createdAt": 1779917774116,
-      "depth": 5
-    },
-    {
-      "id": "2e5bbf6ba40d",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 2",
-      "metricName": "score",
-      "metricValue": 0.9353113056342983,
-      "isCurrentBest": false,
-      "createdAt": 1779917717225,
-      "depth": 5
-    },
-    {
-      "id": "0fd2a891aab2",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2",
-      "metricName": "score",
-      "metricValue": 143.4718690686669,
-      "isCurrentBest": false,
-      "createdAt": 1779917717223,
       "depth": 5
     }
   ],
