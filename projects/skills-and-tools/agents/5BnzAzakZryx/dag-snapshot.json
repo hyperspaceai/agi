@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-29T21:57:48.657Z",
+  "timestamp": "2026-05-29T22:57:45.570Z",
   "peerId": "12D3KooWE1A9v8ATkmFSt2zmjEjDM3P2SphjxtHvW2xRhES9yAXh",
   "stats": {
-    "totalNodes": 2908,
+    "totalNodes": 2910,
     "observations": 0,
-    "experiments": 2908,
+    "experiments": 2910,
     "syntheses": 0,
-    "totalEdges": 2904,
+    "totalEdges": 2906,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1019,
+    "infrastructure": 1021,
     "skills": 1098,
     "finance": 603,
     "search-ranking": 188
   },
   "recentExperiments": [
+    {
+      "id": "29e76570da2c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 201",
+      "metricName": "score",
+      "metricValue": 144.9759504558926,
+      "isCurrentBest": false,
+      "createdAt": 1780094985350,
+      "depth": 4
+    },
+    {
+      "id": "27ef95ec1dba",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 153",
+      "metricName": "score",
+      "metricValue": 145.04774356060463,
+      "isCurrentBest": false,
+      "createdAt": 1780092104862,
+      "depth": 4
+    },
     {
       "id": "7eb53cf96f1e",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1780083914164,
       "depth": 7
-    },
-    {
-      "id": "f463cd0b6e80",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1780083824156,
-      "depth": 1
-    },
-    {
-      "id": "4ffacb5e6524",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1780083704118,
-      "depth": 1
     }
   ],
   "frontier": [],
