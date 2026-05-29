@@ -1,10 +1,10 @@
 # Search Research — Agent 8AmMHuUQKMXi
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** bd44d552
-**Updated:** 2026-05-11T04:38:31.258Z
+**Run:** 45c31ef0
+**Updated:** 2026-05-29T05:15:15.865Z
