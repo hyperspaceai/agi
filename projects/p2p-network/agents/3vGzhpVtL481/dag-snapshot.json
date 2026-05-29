@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-29T12:51:46.229Z",
+  "timestamp": "2026-05-29T13:51:46.566Z",
   "peerId": "12D3KooWCjeASx5bWxPVoMh1K1vkKowEXH3HFGe6Pedf52yVZ9QV",
   "stats": {
-    "totalNodes": 2560,
+    "totalNodes": 2561,
     "observations": 0,
-    "experiments": 2560,
+    "experiments": 2561,
     "syntheses": 0,
-    "totalEdges": 2556,
+    "totalEdges": 2557,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1180,
+    "infrastructure": 1181,
     "skills": 787,
     "finance": 411,
     "search-ranking": 182
   },
   "recentExperiments": [
+    {
+      "id": "669b1ab09978",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 174",
+      "metricName": "score",
+      "metricValue": 0.9558274096280088,
+      "isCurrentBest": false,
+      "createdAt": 1780060576145,
+      "depth": 6
+    },
     {
       "id": "e2718e7851cb",
       "domain": "skills",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1780053253759,
-      "depth": 1
-    },
-    {
-      "id": "7d84ab932f4d",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780053248767,
       "depth": 1
     }
   ],
