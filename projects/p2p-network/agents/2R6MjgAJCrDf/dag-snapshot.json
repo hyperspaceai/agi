@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-29T17:03:43.632Z",
+  "timestamp": "2026-05-29T18:03:43.687Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 3430,
+    "totalNodes": 3432,
     "observations": 4,
-    "experiments": 3426,
+    "experiments": 3428,
     "syntheses": 0,
-    "totalEdges": 2679,
+    "totalEdges": 2681,
     "maxDepth": 12,
     "activeExperiments": 586,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1776,
+    "infrastructure": 1778,
     "skills": 664,
     "physics": 586,
     "general": 157,
@@ -64,6 +64,26 @@
     "search-ranking": 1
   },
   "recentExperiments": [
+    {
+      "id": "34b8f71d2915",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 723",
+      "metricName": "score",
+      "metricValue": 144.96878535788062,
+      "isCurrentBest": false,
+      "createdAt": 1780077403300,
+      "depth": 12
+    },
+    {
+      "id": "c1379dd4dbf8",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 707",
+      "metricName": "score",
+      "metricValue": 145.3087693555931,
+      "isCurrentBest": false,
+      "createdAt": 1780076443293,
+      "depth": 12
+    },
     {
       "id": "4bf1b12e6b62",
       "domain": "infrastructure",
@@ -238,25 +258,6 @@
       "metricName": "verification_score",
       "isCurrentBest": false,
       "createdAt": 1780054805877,
-      "depth": 0
-    },
-    {
-      "id": "f925b72c8e7c",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1780052154136,
-      "depth": 3
-    },
-    {
-      "id": "ca2c2d4f6876",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can we develop a theoretical framework to predict and charac\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1780048348609,
       "depth": 0
     }
   ],
