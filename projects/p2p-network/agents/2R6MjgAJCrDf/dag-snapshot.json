@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-29T21:03:43.850Z",
+  "timestamp": "2026-05-29T22:03:43.902Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 3435,
+    "totalNodes": 3437,
     "observations": 4,
-    "experiments": 3431,
+    "experiments": 3433,
     "syntheses": 0,
-    "totalEdges": 2684,
+    "totalEdges": 2686,
     "maxDepth": 12,
     "activeExperiments": 586,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1781,
+    "infrastructure": 1783,
     "skills": 664,
     "physics": 586,
     "general": 157,
@@ -64,6 +64,26 @@
     "search-ranking": 1
   },
   "recentExperiments": [
+    {
+      "id": "e34a1e97f44c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 945",
+      "metricName": "score",
+      "metricValue": 145.22135149400728,
+      "isCurrentBest": false,
+      "createdAt": 1780090723512,
+      "depth": 12
+    },
+    {
+      "id": "741f569e8000",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 911",
+      "metricName": "score",
+      "metricValue": 0.9311006970186787,
+      "isCurrentBest": false,
+      "createdAt": 1780088683466,
+      "depth": 12
+    },
     {
       "id": "65dc96e75201",
       "domain": "infrastructure",
@@ -242,25 +262,6 @@
       "isCurrentBest": false,
       "createdAt": 1780063721964,
       "depth": 12
-    },
-    {
-      "id": "0ddccff5fb99",
-      "domain": "physics",
-      "title": "Wrote paper: \"Energy Scaling Approximation for Warp Drives via Refractive Index Profile Analysis**\" ",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1780061242853,
-      "depth": 0
-    },
-    {
-      "id": "4786d8aaca54",
-      "domain": "general",
-      "title": "AutoWeb round 7: 91/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 91,
-      "isCurrentBest": false,
-      "createdAt": 1780061242071,
-      "depth": 0
     }
   ],
   "frontier": [],
