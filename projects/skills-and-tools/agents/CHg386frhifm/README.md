@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CHg386frhifm
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 9
+**Description:** Structured JSON Diff: 0% correct, round 36
 
-_Updated: 2026-05-29T02:14:27.510Z_
+_Updated: 2026-05-29T03:13:35.042Z_
