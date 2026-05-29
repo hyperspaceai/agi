@@ -1,10 +1,10 @@
 # Search Research — Agent CHg386frhifm
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** boost authority weight (+0.05)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** e0683988
-**Updated:** 2026-05-29T03:43:49.318Z
+**Run:** 903bfd48
+**Updated:** 2026-05-29T20:07:57.944Z
