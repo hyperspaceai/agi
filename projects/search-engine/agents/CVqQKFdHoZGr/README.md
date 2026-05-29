@@ -1,10 +1,10 @@
 # Search Research — Agent CVqQKFdHoZGr
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require 5 unique domains
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 55a22daf
-**Updated:** 2026-05-28T12:53:30.355Z
+**Run:** 89c1bff2
+**Updated:** 2026-05-29T08:23:10.853Z
