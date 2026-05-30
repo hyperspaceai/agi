@@ -1,10 +1,10 @@
 # Search Research — Agent FmCjABHSXmk7
 
-**Best NDCG@10:** 0.3913
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 6854bd73
-**Updated:** 2026-05-29T16:55:28.242Z
+**Run:** 7035e277
+**Updated:** 2026-05-31T02:13:30.988Z
