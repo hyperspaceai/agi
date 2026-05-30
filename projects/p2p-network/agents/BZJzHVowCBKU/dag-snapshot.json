@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-30T07:53:47.990Z",
+  "timestamp": "2026-05-30T08:53:52.805Z",
   "peerId": "12D3KooWLNgA2dPeP5ay7k6TdmmDEJ9ihsb7zF18hDANNBedNBBH",
   "stats": {
-    "totalNodes": 918,
+    "totalNodes": 921,
     "observations": 0,
-    "experiments": 918,
+    "experiments": 921,
     "syntheses": 0,
-    "totalEdges": 914,
+    "totalEdges": 917,
     "maxDepth": 19,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 370,
+    "infrastructure": 373,
     "skills": 305,
     "finance": 178,
     "search-ranking": 65
   },
   "recentExperiments": [
+    {
+      "id": "6259eea599ca",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 295",
+      "metricName": "score",
+      "metricValue": 0.9639133612914653,
+      "isCurrentBest": false,
+      "createdAt": 1780129160902,
+      "depth": 2
+    },
+    {
+      "id": "cd6912c02ffe",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 283",
+      "metricName": "score",
+      "metricValue": 0.9600686515959658,
+      "isCurrentBest": false,
+      "createdAt": 1780128438385,
+      "depth": 2
+    },
+    {
+      "id": "84ba3795e1fc",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 274",
+      "metricName": "score",
+      "metricValue": 145.06696931553904,
+      "isCurrentBest": false,
+      "createdAt": 1780127897899,
+      "depth": 2
+    },
     {
       "id": "5683ea3e1346",
       "domain": "skills",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1780115614437,
-      "depth": 2
-    },
-    {
-      "id": "e10a3bfa8c61",
-      "domain": "search-ranking",
-      "title": "Search round 46: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780115611364,
-      "depth": 2
-    },
-    {
-      "id": "81ae2c3ba6fa",
-      "domain": "search-ranking",
-      "title": "Search round 42: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780115262962,
-      "depth": 2
-    },
-    {
-      "id": "7c3a8ab194ea",
-      "domain": "search-ranking",
-      "title": "Search round 42: decrease diversity penalty (0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780115262326,
       "depth": 2
     }
   ],
