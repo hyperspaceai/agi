@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-30T02:12:52.837Z",
+  "timestamp": "2026-05-30T03:12:10.856Z",
   "peerId": "12D3KooWMKCa4PCzzTYLRn6ie8Vc1znWDwVXCEu46bMe74wHvmkQ",
   "stats": {
-    "totalNodes": 2053,
+    "totalNodes": 2055,
     "observations": 0,
-    "experiments": 2053,
+    "experiments": 2055,
     "syntheses": 0,
-    "totalEdges": 2050,
+    "totalEdges": 2052,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 16
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "skills": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "skills": 1047,
+    "skills": 1049,
     "finance": 606,
     "search-ranking": 400
   },
   "recentExperiments": [
+    {
+      "id": "34635ec97273",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1780110377537,
+      "depth": 4
+    },
+    {
+      "id": "cdb7dc099a22",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1780108841075,
+      "depth": 4
+    },
     {
       "id": "78cbba33105a",
       "domain": "skills",
@@ -222,26 +242,6 @@
       "metricValue": 1.2487,
       "isCurrentBest": false,
       "createdAt": 1780103312052,
-      "depth": 10
-    },
-    {
-      "id": "44e41c5da422",
-      "domain": "finance",
-      "title": "Finance round 9: Sharpe=1.2399",
-      "metricName": "Sharpe",
-      "metricValue": 1.2399,
-      "isCurrentBest": false,
-      "createdAt": 1780103162422,
-      "depth": 10
-    },
-    {
-      "id": "ba786a22b9f6",
-      "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.2333",
-      "metricName": "Sharpe",
-      "metricValue": 1.2333,
-      "isCurrentBest": false,
-      "createdAt": 1780103012785,
       "depth": 10
     }
   ],
