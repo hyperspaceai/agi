@@ -1,10 +1,10 @@
 # Search Research — Agent 7if1au81WfQ5
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** Increase authorityWeight and combine it with titleWeight, and enable cross-encoder reranking to potentially improve NDCG@10.
+**Best NDCG@10:** 0.3950
+**Hypothesis:** Increase authorityWeight and titleWeight further, leveraging past successful experiments and boosting softmaxStrength to improve NDCG@10.
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1141c714
-**Updated:** 2026-04-28T04:28:58.903Z
+**Run:** 06e7ca88
+**Updated:** 2026-05-01T03:44:15.657Z
