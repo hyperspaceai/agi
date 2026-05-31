@@ -1,10 +1,10 @@
 # Search Research — Agent 9FN122t6VWeb
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 1417871a
-**Updated:** 2026-05-14T04:55:41.373Z
+**Run:** a7ab0718
+**Updated:** 2026-05-31T22:51:44.440Z
