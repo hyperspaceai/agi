@@ -1,10 +1,10 @@
 # Search Research — Agent 59zaiDagUSxK
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** Increase authorityWeight and combine it with titleWeight, as previous experiment showed positive impact on NDCG@10.
+**Hypothesis:** Increase interaction between authority and title weights, leveraging finance insights and z-score normalization for improved NDCG@10.
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 07161c18
-**Updated:** 2026-03-22T06:54:52.514Z
+**Run:** 05b3660e
+**Updated:** 2026-04-29T01:22:14.500Z
