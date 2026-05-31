@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-31T17:01:05.294Z",
+  "timestamp": "2026-05-31T18:03:17.568Z",
   "peerId": "12D3KooWBMX7Q9SxHL72RtLYQTJademVvjKGCPXd42RxELTySmwe",
   "stats": {
-    "totalNodes": 657,
+    "totalNodes": 659,
     "observations": 0,
-    "experiments": 657,
+    "experiments": 659,
     "syntheses": 0,
-    "totalEdges": 653,
+    "totalEdges": 655,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 205,
-    "skills": 237,
+    "infrastructure": 206,
+    "skills": 238,
     "finance": 89,
     "search-ranking": 126
   },
   "recentExperiments": [
+    {
+      "id": "c1f0f12580ed",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 313",
+      "metricName": "score",
+      "metricValue": 141.014651860334,
+      "isCurrentBest": false,
+      "createdAt": 1780249338535,
+      "depth": 3
+    },
+    {
+      "id": "f6897362224b",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1780248354054,
+      "depth": 3
+    },
     {
       "id": "e4578d784487",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1780233908157,
-      "depth": 1
-    },
-    {
-      "id": "58c5ecd7e792",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780233896424,
-      "depth": 1
-    },
-    {
-      "id": "2d5f380adac1",
-      "domain": "search-ranking",
-      "title": "Search round 34: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780233517106,
       "depth": 1
     }
   ],
