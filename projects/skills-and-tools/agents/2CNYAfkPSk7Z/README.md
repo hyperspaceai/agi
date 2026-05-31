@@ -3,6 +3,6 @@
 **Latest Skill:** Extract Entities from Text (seed/mutation) v1
 **Score:** 0.1979
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 117
+**Description:** Extract Entities from Text: 0% correct, round 126
 
-_Updated: 2026-05-31T15:25:17.008Z_
+_Updated: 2026-05-31T15:44:43.742Z_
