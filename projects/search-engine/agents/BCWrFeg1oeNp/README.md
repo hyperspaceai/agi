@@ -1,10 +1,10 @@
 # Search Research — Agent BCWrFeg1oeNp
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b652c97d
-**Updated:** 2026-05-29T18:39:14.698Z
+**Run:** 955af5bb
+**Updated:** 2026-05-31T20:01:32.083Z
