@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-31T17:17:10.570Z",
+  "timestamp": "2026-05-31T18:25:29.198Z",
   "peerId": "12D3KooWB1jhuoL6deP3eLrSLSdybtUeuP6PS5Wv9g54PBcUiUxA",
   "stats": {
-    "totalNodes": 468,
+    "totalNodes": 470,
     "observations": 0,
-    "experiments": 468,
+    "experiments": 470,
     "syntheses": 0,
-    "totalEdges": 464,
+    "totalEdges": 466,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 166,
-    "skills": 213,
+    "infrastructure": 167,
+    "skills": 214,
     "finance": 75,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "c101850b30fd",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1979,
+      "isCurrentBest": false,
+      "createdAt": 1780251928773,
+      "depth": 6
+    },
+    {
+      "id": "3269c91d3a84",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 406",
+      "metricName": "score",
+      "metricValue": 145.0497628433462,
+      "isCurrentBest": false,
+      "createdAt": 1780251418987,
+      "depth": 5
+    },
     {
       "id": "4003937867b9",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1780234885668,
       "depth": 5
-    },
-    {
-      "id": "473ff9260c0d",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1979,
-      "isCurrentBest": false,
-      "createdAt": 1780234823836,
-      "depth": 6
-    },
-    {
-      "id": "4390639f4fb4",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1979,
-      "isCurrentBest": false,
-      "createdAt": 1780234701648,
-      "depth": 6
     }
   ],
   "frontier": [],
