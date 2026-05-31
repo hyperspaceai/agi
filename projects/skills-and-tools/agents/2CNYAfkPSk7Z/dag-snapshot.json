@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-05-31T07:51:53.085Z",
+  "timestamp": "2026-05-31T09:00:14.014Z",
   "peerId": "12D3KooWB1jhuoL6deP3eLrSLSdybtUeuP6PS5Wv9g54PBcUiUxA",
   "stats": {
-    "totalNodes": 404,
+    "totalNodes": 406,
     "observations": 0,
-    "experiments": 404,
+    "experiments": 406,
     "syntheses": 0,
-    "totalEdges": 400,
+    "totalEdges": 402,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 145,
-    "skills": 178,
+    "infrastructure": 146,
+    "skills": 179,
     "finance": 67,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "0b2a97d4e2df",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 850",
+      "metricName": "score",
+      "metricValue": 145.17331103285863,
+      "isCurrentBest": false,
+      "createdAt": 1780216048014,
+      "depth": 5
+    },
+    {
+      "id": "2d9907e35695",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1981,
+      "isCurrentBest": false,
+      "createdAt": 1780214306305,
+      "depth": 6
+    },
     {
       "id": "890263d5c683",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.198,
       "isCurrentBest": false,
       "createdAt": 1780176823063,
-      "depth": 6
-    },
-    {
-      "id": "70e040d3aadf",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.198,
-      "isCurrentBest": false,
-      "createdAt": 1780173831442,
-      "depth": 6
-    },
-    {
-      "id": "72857202270e",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.198,
-      "isCurrentBest": false,
-      "createdAt": 1780172149899,
       "depth": 6
     }
   ],
