@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-05-31T02:13:19.635Z",
+  "timestamp": "2026-05-31T03:13:23.944Z",
   "peerId": "12D3KooWCjeASx5bWxPVoMh1K1vkKowEXH3HFGe6Pedf52yVZ9QV",
   "stats": {
-    "totalNodes": 2686,
+    "totalNodes": 2688,
     "observations": 0,
-    "experiments": 2686,
+    "experiments": 2688,
     "syntheses": 0,
-    "totalEdges": 2682,
+    "totalEdges": 2684,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 8
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 1250,
-    "skills": 822,
+    "skills": 824,
     "finance": 432,
     "search-ranking": 182
   },
   "recentExperiments": [
+    {
+      "id": "c56d5ffe593c",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1780197203551,
+      "depth": 1
+    },
+    {
+      "id": "82b84eb4873e",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1780194560099,
+      "depth": 1
+    },
     {
       "id": "12b2727cfeb6",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1780188793604,
       "depth": 13
-    },
-    {
-      "id": "2018c4181fa5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 9",
-      "metricName": "score",
-      "metricValue": 141.51298990423956,
-      "isCurrentBest": false,
-      "createdAt": 1780188793573,
-      "depth": 6
-    },
-    {
-      "id": "dd88f4f381c7",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1780188673593,
-      "depth": 1
     }
   ],
   "frontier": [],
