@@ -1,10 +1,10 @@
 # Search Research — Agent BFBH52jGsLUh
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** more expansion terms (5)
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5780b320
-**Updated:** 2026-04-29T13:11:21.945Z
+**Run:** 9506adbc
+**Updated:** 2026-06-01T15:48:32.207Z
