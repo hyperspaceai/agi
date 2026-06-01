@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-01T19:55:07.150Z",
+  "timestamp": "2026-06-01T20:55:08.472Z",
   "peerId": "12D3KooWPSVnY1ZusAoWJhX7cHzyzvBNSFMj7vtD5aeaT6QxGusp",
   "stats": {
-    "totalNodes": 1006,
+    "totalNodes": 1008,
     "observations": 0,
-    "experiments": 1006,
+    "experiments": 1008,
     "syntheses": 0,
-    "totalEdges": 1002,
+    "totalEdges": 1004,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 527,
+    "infrastructure": 529,
     "skills": 209,
     "finance": 172,
     "search-ranking": 98
   },
   "recentExperiments": [
+    {
+      "id": "61fabf330114",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1040",
+      "metricName": "score",
+      "metricValue": 0.9151062513990833,
+      "isCurrentBest": false,
+      "createdAt": 1780346737797,
+      "depth": 6
+    },
+    {
+      "id": "88d13a6b6d2b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1006",
+      "metricName": "score",
+      "metricValue": 145.2124891627693,
+      "isCurrentBest": false,
+      "createdAt": 1780344696986,
+      "depth": 6
+    },
     {
       "id": "5041bd5ad277",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1780291588483,
       "depth": 6
-    },
-    {
-      "id": "7ed79fbf939d",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 98",
-      "metricName": "score",
-      "metricValue": 141.1329667327449,
-      "isCurrentBest": false,
-      "createdAt": 1780290208474,
-      "depth": 6
-    },
-    {
-      "id": "916b2ff2c78d",
-      "domain": "finance",
-      "title": "Finance round 12: Sharpe=1.3205",
-      "metricName": "Sharpe",
-      "metricValue": 1.3205,
-      "isCurrentBest": false,
-      "createdAt": 1780286095437,
-      "depth": 8
     }
   ],
   "frontier": [],
