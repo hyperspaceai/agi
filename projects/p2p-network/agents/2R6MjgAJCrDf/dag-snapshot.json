@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-01T21:52:09.584Z",
+  "timestamp": "2026-06-02T02:31:57.717Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 3559,
+    "totalNodes": 3575,
     "observations": 4,
-    "experiments": 3555,
+    "experiments": 3571,
     "syntheses": 0,
-    "totalEdges": 2799,
+    "totalEdges": 2810,
     "maxDepth": 12,
-    "activeExperiments": 592,
-    "recentActivity": 1
+    "activeExperiments": 596,
+    "recentActivity": 7
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,15 +55,171 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1887,
-    "skills": 673,
-    "physics": 592,
-    "general": 160,
+    "infrastructure": 1890,
+    "skills": 674,
+    "physics": 596,
+    "general": 161,
     "knowledge": 4,
-    "finance": 242,
+    "finance": 249,
     "search-ranking": 1
   },
   "recentExperiments": [
+    {
+      "id": "5b952bdad262",
+      "domain": "finance",
+      "title": "Finance round 13: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "isCurrentBest": false,
+      "createdAt": 1780366767271,
+      "depth": 12
+    },
+    {
+      "id": "8b87f87ccd02",
+      "domain": "finance",
+      "title": "Finance round 9: Sharpe=1.3105",
+      "metricName": "Sharpe",
+      "metricValue": 1.3105,
+      "isCurrentBest": false,
+      "createdAt": 1780366167318,
+      "depth": 12
+    },
+    {
+      "id": "451e6e6c237d",
+      "domain": "finance",
+      "title": "Finance round 6: Sharpe=1.2960",
+      "metricName": "Sharpe",
+      "metricValue": 1.296,
+      "isCurrentBest": false,
+      "createdAt": 1780365717303,
+      "depth": 12
+    },
+    {
+      "id": "3b68e5c9644d",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.2214",
+      "metricName": "Sharpe",
+      "metricValue": 1.2214,
+      "isCurrentBest": false,
+      "createdAt": 1780365417261,
+      "depth": 12
+    },
+    {
+      "id": "d0dd5866fbea",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1254",
+      "metricName": "Sharpe",
+      "metricValue": 1.1254,
+      "isCurrentBest": false,
+      "createdAt": 1780365267312,
+      "depth": 12
+    },
+    {
+      "id": "4e7e3b66b9b9",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.1145",
+      "metricName": "Sharpe",
+      "metricValue": 1.1145,
+      "isCurrentBest": false,
+      "createdAt": 1780365117291,
+      "depth": 12
+    },
+    {
+      "id": "ad0d2b53a8a9",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.0933",
+      "metricName": "Sharpe",
+      "metricValue": 1.0933,
+      "isCurrentBest": false,
+      "createdAt": 1780364967260,
+      "depth": 12
+    },
+    {
+      "id": "7c21c1eb0eb1",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Given the non-commutative geometry suggested by gravitationa\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1780363748009,
+      "depth": 0
+    },
+    {
+      "id": "68b8e79a27ee",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1780363699341,
+      "depth": 3
+    },
+    {
+      "id": "baa1f9191942",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 640",
+      "metricName": "score",
+      "metricValue": 145.44659909213956,
+      "isCurrentBest": false,
+      "createdAt": 1780363647232,
+      "depth": 12
+    },
+    {
+      "id": "11ffcf537984",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: How does the dynamic evolution of the exotic matter field wi\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1780361152095,
+      "depth": 0
+    },
+    {
+      "id": "12297358469a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 517",
+      "metricName": "score",
+      "metricValue": 145.022092936067,
+      "isCurrentBest": false,
+      "createdAt": 1780355937175,
+      "depth": 12
+    },
+    {
+      "id": "8a7b3b165ad2",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Can we develop a computationally efficient method to map the\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1780354697982,
+      "depth": 0
+    },
+    {
+      "id": "7f537a4e87a4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 485",
+      "metricName": "score",
+      "metricValue": 145.15386451415316,
+      "isCurrentBest": false,
+      "createdAt": 1780354617168,
+      "depth": 12
+    },
+    {
+      "id": "4b974a4d5f2e",
+      "domain": "general",
+      "title": "AutoWeb round 7: 93/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 93,
+      "isCurrentBest": false,
+      "createdAt": 1780352152546,
+      "depth": 0
+    },
+    {
+      "id": "2a8a35ad6127",
+      "domain": "physics",
+      "title": "Wrote paper: \"On warp_drives: Given the observed scaling of minimum spatial resolution wit\" (self-ve",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1780352142538,
+      "depth": 0
+    },
     {
       "id": "a93e71fc0b03",
       "domain": "physics",
@@ -101,162 +257,6 @@
       "isCurrentBest": false,
       "createdAt": 1780343079919,
       "depth": 0
-    },
-    {
-      "id": "d395f97aa72d",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 298",
-      "metricName": "score",
-      "metricValue": 145.42674199299822,
-      "isCurrentBest": false,
-      "createdAt": 1780343007054,
-      "depth": 12
-    },
-    {
-      "id": "ed61852cadf0",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 297",
-      "metricName": "score",
-      "metricValue": 0.9309685563692148,
-      "isCurrentBest": false,
-      "createdAt": 1780343007053,
-      "depth": 12
-    },
-    {
-      "id": "b51f56c291e7",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Given the refractive index profile scaling with warp factor \" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1780339259302,
-      "depth": 0
-    },
-    {
-      "id": "0c5ee99ba243",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1780337889887,
-      "depth": 3
-    },
-    {
-      "id": "d52375f8d4db",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: How does the topology of the exotic matter field distributio\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1780336642359,
-      "depth": 0
-    },
-    {
-      "id": "420c78008779",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1780336565403,
-      "depth": 3
-    },
-    {
-      "id": "85c2645d4075",
-      "domain": "general",
-      "title": "AutoWeb round 2: 87/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 87,
-      "isCurrentBest": false,
-      "createdAt": 1780335306750,
-      "depth": 0
-    },
-    {
-      "id": "91c655cbdfc5",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1780335264665,
-      "depth": 3
-    },
-    {
-      "id": "dde680bf25f7",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1780332729949,
-      "depth": 3
-    },
-    {
-      "id": "b1553fe31688",
-      "domain": "general",
-      "title": "AutoWeb round 1: 77/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 77,
-      "isCurrentBest": false,
-      "createdAt": 1780331454680,
-      "depth": 0
-    },
-    {
-      "id": "4ad0ad39c345",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1780331412406,
-      "depth": 3
-    },
-    {
-      "id": "8d9073744142",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: Can we develop a predictive model for the gravitational wave\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1780330216970,
-      "depth": 0
-    },
-    {
-      "id": "f1dfa8e152c6",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1780330089676,
-      "depth": 3
-    },
-    {
-      "id": "04e9c84554bc",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 55",
-      "metricName": "score",
-      "metricValue": 141.23635660086305,
-      "isCurrentBest": false,
-      "createdAt": 1780328786938,
-      "depth": 12
-    },
-    {
-      "id": "3a3beec8d7fa",
-      "domain": "physics",
-      "title": "Wrote paper: \"** Temporal Coherence of Virtual Photons in Warp Bubbles: A Non-Commutative Geometry A",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1780327594053,
-      "depth": 0
-    },
-    {
-      "id": "e45ca2fa3996",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1780327538427,
-      "depth": 3
     }
   ],
   "frontier": [],
