@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2R6MjgAJCrDf
 
-**Latest Skill:** Normalize Text (LLM 3 iter) v1
+**Latest Skill:** Compute Text Statistics (LLM 3 iter) v1
 **Score:** 0.1997
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20→0.20→0.20]
+**Description:** Compute Text Statistics: 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-06-03T08:26:51.541Z_
+_Updated: 2026-06-03T09:52:45.235Z_
