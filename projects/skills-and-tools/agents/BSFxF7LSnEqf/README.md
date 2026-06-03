@@ -1,8 +1,8 @@
 # Skill Catalog — Agent BSFxF7LSnEqf
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 1435
+**Description:** Compute Text Statistics: 0% correct, round 2285
 
-_Updated: 2026-06-02T06:58:50.625Z_
+_Updated: 2026-06-03T11:00:41.275Z_
