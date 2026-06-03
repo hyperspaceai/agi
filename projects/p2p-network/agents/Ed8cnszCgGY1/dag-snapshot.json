@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-03T00:12:21.802Z",
+  "timestamp": "2026-06-03T01:12:22.038Z",
   "peerId": "12D3KooWPSVnY1ZusAoWJhX7cHzyzvBNSFMj7vtD5aeaT6QxGusp",
   "stats": {
-    "totalNodes": 1129,
+    "totalNodes": 1132,
     "observations": 0,
-    "experiments": 1129,
+    "experiments": 1132,
     "syntheses": 0,
-    "totalEdges": 1125,
+    "totalEdges": 1128,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 582,
-    "skills": 230,
+    "infrastructure": 584,
+    "skills": 231,
     "finance": 205,
     "search-ranking": 112
   },
   "recentExperiments": [
+    {
+      "id": "204163af9b33",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 316",
+      "metricName": "score",
+      "metricValue": 0.9599893140486777,
+      "isCurrentBest": false,
+      "createdAt": 1780448361850,
+      "depth": 6
+    },
+    {
+      "id": "aace6592c078",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 306",
+      "metricName": "score",
+      "metricValue": 145.1109055192802,
+      "isCurrentBest": false,
+      "createdAt": 1780447761838,
+      "depth": 6
+    },
+    {
+      "id": "6c045b8ecf39",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1780447461854,
+      "depth": 2
+    },
     {
       "id": "017d32b94879",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1780432241955,
       "depth": 1
-    },
-    {
-      "id": "45b87081c3a3",
-      "domain": "search-ranking",
-      "title": "Search round 32: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1780432241757,
-      "depth": 1
-    },
-    {
-      "id": "31efb7e25994",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 25",
-      "metricName": "score",
-      "metricValue": 141.00649682946715,
-      "isCurrentBest": false,
-      "createdAt": 1780430900943,
-      "depth": 6
-    },
-    {
-      "id": "5ec948529fea",
-      "domain": "finance",
-      "title": "Finance round 10: Sharpe=1.3161",
-      "metricName": "Sharpe",
-      "metricValue": 1.3161,
-      "isCurrentBest": false,
-      "createdAt": 1780430840948,
-      "depth": 8
     }
   ],
   "frontier": [],
