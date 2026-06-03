@@ -1,10 +1,10 @@
 # Search Research — Agent BPcdct4ZwPP3
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** use z-score normalization
+**Best NDCG@10:** 0.3950
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 01cdf4b3
-**Updated:** 2026-05-31T20:53:36.557Z
+**Run:** e019d127
+**Updated:** 2026-06-03T20:08:38.252Z
