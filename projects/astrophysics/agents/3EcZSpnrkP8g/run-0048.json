@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWC3yjBxNZwHQAegyEXmrkFX67A2MFJPMjeu7yHy1W77qA",
+  "runNumber": 48,
+  "timestamp": 1780476055091,
+  "hypothesis": "Improve on d69a6368 (loss=3.3618): switch to ReLU activation",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 8,
+    "dModel": 768,
+    "dFF": 3072,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.08,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 600,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "relu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 0,
+    "scheduleType": "linear",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.01,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 3.3220143819847876,
+    "trainLoss": 3.6826194482926313,
+    "lossCurve": [
+      [
+        2,
+        3.3220143819847876
+      ]
+    ],
+    "durationSec": 2757.893,
+    "tokensPerSec": 1.4851917750253545,
+    "totalTokens": 4096
+  },
+  "improvement": -1.1831870090788321,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
