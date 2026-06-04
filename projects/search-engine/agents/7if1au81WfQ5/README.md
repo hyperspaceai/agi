@@ -1,10 +1,10 @@
 # Search Research — Agent 7if1au81WfQ5
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** Increase authorityWeight and combine it with titleWeight further, leveraging prior successful mutations.
+**Best NDCG@10:** 0.4000
+**Hypothesis:** decrease diversity penalty (0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 07a43878
-**Updated:** 2026-05-04T11:51:04.276Z
+**Run:** 258388b2
+**Updated:** 2026-06-04T20:56:44.536Z
