@@ -1,10 +1,10 @@
 # Search Research — Agent 9eqxtUzv5r5N
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** aggressive peer timeout (500ms)
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 3101e958
-**Updated:** 2026-06-04T15:00:10.857Z
+**Run:** adafa2dc
+**Updated:** 2026-06-04T21:21:05.379Z
