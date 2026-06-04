@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-06-04T09:42:50.451Z",
+  "timestamp": "2026-06-04T10:45:39.731Z",
   "peerId": "12D3KooWE2Q7PtKVeNSEM4tdoB74Hr9nZAvxx8pSkVoda89snN3N",
   "stats": {
-    "totalNodes": 4576,
+    "totalNodes": 4577,
     "observations": 0,
-    "experiments": 4576,
+    "experiments": 4577,
     "syntheses": 0,
-    "totalEdges": 4571,
+    "totalEdges": 4572,
     "maxDepth": 13,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -55,13 +55,23 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2413,
+    "infrastructure": 2414,
     "skills": 1247,
     "finance": 736,
     "search-ranking": 179,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "7e8589e6c107",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 359",
+      "metricName": "score",
+      "metricValue": 0.9552941713913468,
+      "isCurrentBest": false,
+      "createdAt": 1780566980154,
+      "depth": 13
+    },
     {
       "id": "373e158c592c",
       "domain": "infrastructure",
@@ -250,16 +260,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1780548435073,
-      "depth": 1
-    },
-    {
-      "id": "5ec86a021024",
-      "domain": "search-ranking",
-      "title": "Search round 38: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780548434954,
       "depth": 1
     }
   ],
