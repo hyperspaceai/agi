@@ -1,10 +1,10 @@
 # Search Research — Agent 5D2wekjnTUAj
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.4000
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c7776e1c
-**Updated:** 2026-05-12T13:24:54.055Z
+**Run:** 2590fe52
+**Updated:** 2026-06-04T05:41:18.112Z
