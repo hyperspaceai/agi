@@ -1,10 +1,10 @@
 # Search Research — Agent Ed8cnszCgGY1
 
-**Best NDCG@10:** 0.3936
-**Hypothesis:** require 5 unique domains
+**Best NDCG@10:** 0.3963
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ff0724fc
-**Updated:** 2026-06-02T21:10:03.073Z
+**Run:** 51334a64
+**Updated:** 2026-06-04T20:58:05.470Z
