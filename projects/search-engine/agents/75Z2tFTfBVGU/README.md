@@ -1,10 +1,10 @@
 # Search Research — Agent 75Z2tFTfBVGU
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase freshness bias (0.15)
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f0f45a36
-**Updated:** 2026-06-01T21:37:57.630Z
+**Run:** eed5a3e8
+**Updated:** 2026-06-05T15:14:28.819Z
