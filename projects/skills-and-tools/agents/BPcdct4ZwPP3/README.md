@@ -1,8 +1,8 @@
 # Skill Catalog — Agent BPcdct4ZwPP3
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1991
+**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Score:** 0.1990
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 9
+**Description:** Cosine Text Similarity: 0% correct, round 11
 
-_Updated: 2026-06-05T14:19:21.341Z_
+_Updated: 2026-06-05T15:45:24.137Z_
