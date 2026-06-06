@@ -1,8 +1,8 @@
 # Skill Catalog — Agent ELycQ8mWUwAQ
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1992
+**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
+**Score:** 0.1979
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 16
+**Description:** Chunk Text for Embeddings: 0% correct, round 12
 
-_Updated: 2026-06-04T21:18:30.814Z_
+_Updated: 2026-06-06T18:53:08.758Z_
