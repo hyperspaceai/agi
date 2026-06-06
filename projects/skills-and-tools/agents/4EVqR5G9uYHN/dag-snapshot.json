@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-06T16:10:44.295Z",
+  "timestamp": "2026-06-06T18:10:52.396Z",
   "peerId": "12D3KooWD3s1ACqs6SYs8GeGmkenrqxSaTdnwHAHksEWJg57jqwu",
   "stats": {
-    "totalNodes": 960,
+    "totalNodes": 967,
     "observations": 0,
-    "experiments": 960,
+    "experiments": 967,
     "syntheses": 0,
-    "totalEdges": 956,
+    "totalEdges": 963,
     "maxDepth": 19,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,82 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 255,
-    "skills": 418,
+    "infrastructure": 259,
+    "skills": 421,
     "finance": 226,
     "search-ranking": 61
   },
   "recentExperiments": [
+    {
+      "id": "b120a35fa635",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 240",
+      "metricName": "score",
+      "metricValue": 0.9401191864284214,
+      "isCurrentBest": false,
+      "createdAt": 1780767675733,
+      "depth": 2
+    },
+    {
+      "id": "f75a953d6cf1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 223",
+      "metricName": "score",
+      "metricValue": 0.9390868659653863,
+      "isCurrentBest": false,
+      "createdAt": 1780766655475,
+      "depth": 2
+    },
+    {
+      "id": "0d759e03bd31",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 221",
+      "metricName": "score",
+      "metricValue": 0.9376540577748196,
+      "isCurrentBest": false,
+      "createdAt": 1780766535474,
+      "depth": 2
+    },
+    {
+      "id": "3ad43ad69262",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1780766445515,
+      "depth": 2
+    },
+    {
+      "id": "59b3086232b4",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1780765605830,
+      "depth": 2
+    },
+    {
+      "id": "d823b6be9e9a",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1780764404766,
+      "depth": 2
+    },
+    {
+      "id": "13bc8a9f05af",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 154",
+      "metricName": "score",
+      "metricValue": 145.06172182649968,
+      "isCurrentBest": false,
+      "createdAt": 1780762513475,
+      "depth": 2
+    },
     {
       "id": "4710a32543b5",
       "domain": "skills",
@@ -181,76 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1780757077714,
-      "depth": 2
-    },
-    {
-      "id": "88e37c2ee492",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1780757072176,
-      "depth": 2
-    },
-    {
-      "id": "046f7d2df4bf",
-      "domain": "search-ranking",
-      "title": "Search round 42: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780757072058,
-      "depth": 2
-    },
-    {
-      "id": "0dc28a1ec0cc",
-      "domain": "search-ranking",
-      "title": "Search round 42: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780757070070,
-      "depth": 2
-    },
-    {
-      "id": "2691c3f6cbd9",
-      "domain": "search-ranking",
-      "title": "Search round 38: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780756715989,
-      "depth": 2
-    },
-    {
-      "id": "4ed661d9cf86",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1780756710547,
-      "depth": 2
-    },
-    {
-      "id": "fb9c7908a953",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1780756587375,
-      "depth": 2
-    },
-    {
-      "id": "3fc2f1c40c7f",
-      "domain": "search-ranking",
-      "title": "Search round 34: local + peer only",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780756351308,
       "depth": 2
     }
   ],
