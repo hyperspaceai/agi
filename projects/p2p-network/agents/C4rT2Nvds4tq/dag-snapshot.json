@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-06-06T04:39:31.074Z",
+  "timestamp": "2026-06-06T05:39:19.044Z",
   "peerId": "12D3KooWLtDcmWWM3yAL8q6Dk6traKVeXP4ir6A1nGW2X5D1SoNf",
   "stats": {
-    "totalNodes": 2273,
+    "totalNodes": 2275,
     "observations": 0,
-    "experiments": 2273,
+    "experiments": 2275,
     "syntheses": 0,
-    "totalEdges": 2258,
+    "totalEdges": 2260,
     "maxDepth": 14,
     "activeExperiments": 11,
     "recentActivity": 2
@@ -47,13 +47,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1350,
+    "infrastructure": 1352,
     "finance": 403,
     "physics": 11,
     "search-ranking": 24,
     "skills": 485
   },
   "recentExperiments": [
+    {
+      "id": "b766e2935640",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 306",
+      "metricName": "score",
+      "metricValue": 141.15876753848966,
+      "isCurrentBest": false,
+      "createdAt": 1780722984337,
+      "depth": 4
+    },
+    {
+      "id": "ceb680ad9d1a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 270",
+      "metricName": "score",
+      "metricValue": 141.24709524837445,
+      "isCurrentBest": false,
+      "createdAt": 1780720830781,
+      "depth": 4
+    },
     {
       "id": "da1d3e846ed6",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "metricValue": 0.1993,
       "isCurrentBest": false,
       "createdAt": 1780705385247,
-      "depth": 2
-    },
-    {
-      "id": "73089194b77f",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
-      "isCurrentBest": false,
-      "createdAt": 1780705294849,
-      "depth": 14
-    },
-    {
-      "id": "f67a14727e5f",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1780705264270,
       "depth": 2
     }
   ],
