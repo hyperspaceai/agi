@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-06T14:00:22.950Z",
+  "timestamp": "2026-06-06T15:07:03.171Z",
   "peerId": "12D3KooWM5CsrrcVyUas7czyspyNYyxoJk5xD9Zabmh5pxtbzyA8",
   "stats": {
-    "totalNodes": 1874,
+    "totalNodes": 1875,
     "observations": 0,
-    "experiments": 1874,
+    "experiments": 1875,
     "syntheses": 0,
-    "totalEdges": 1848,
+    "totalEdges": 1849,
     "maxDepth": 13,
     "activeExperiments": 4,
-    "recentActivity": 5
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1208,
+    "infrastructure": 1209,
     "finance": 233,
     "skills": 278,
     "general": 18,
@@ -63,6 +63,16 @@
     "search-ranking": 133
   },
   "recentExperiments": [
+    {
+      "id": "a6237f8e6713",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 784",
+      "metricName": "score",
+      "metricValue": 145.2197534749863,
+      "isCurrentBest": false,
+      "createdAt": 1780756756331,
+      "depth": 13
+    },
     {
       "id": "a7163932b9d0",
       "domain": "infrastructure",
@@ -251,16 +261,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1780709073432,
-      "depth": 1
-    },
-    {
-      "id": "695a28231848",
-      "domain": "search-ranking",
-      "title": "Search round 46: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780709073194,
       "depth": 1
     }
   ],
