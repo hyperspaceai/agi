@@ -2,35 +2,32 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWD3s1ACqs6SYs8GeGmkenrqxSaTdnwHAHksEWJg57jqwu",
-  "runNumber": 5404,
-  "timestamp": 1780705360387,
-  "hypothesis": "Inspired by Hy1W77qA (loss=3.3220): smaller batch (64 device)",
+  "runNumber": 5406,
+  "timestamp": 1780707143044,
+  "hypothesis": "Inspired by 9zGawJov (loss=0.9952): aggressive LR (0.12) + warmup",
   "config": {
-    "batchSize": 64
+    "learningRate": 0.12,
+    "warmupSteps": 200
   },
   "result": {
-    "valLoss": 3.4208977671637832,
-    "trainLoss": 3.962843513192167,
+    "valLoss": 3.3100930577466,
+    "trainLoss": 3.5725210611841685,
     "lossCurve": [
       [
         50,
-        4.246682886684524
+        3.3301557195793676
       ],
       [
-        100,
-        3.4440662687958437
-      ],
-      [
-        100,
-        3.4208977671637832
+        50,
+        3.3100930577466
       ]
     ],
-    "durationSec": 592.467,
-    "tokensPerSec": 345.67326112678006,
-    "totalTokens": 204800
+    "durationSec": 349.057,
+    "tokensPerSec": 293.3618291568426,
+    "totalTokens": 102400
   },
-  "improvement": 0,
+  "improvement": -3.23905351632445,
   "isNewBest": true,
   "gpu": "Red Hat, Inc. Virtio 1.0 GPU (rev 01)",
-  "inspiredBy": "12D3KooWC3yjBxNZwHQAegyEXmrkFX67A2MFJPMjeu7yHy1W77qA"
+  "inspiredBy": "2Buv9zGawJov"
 }
