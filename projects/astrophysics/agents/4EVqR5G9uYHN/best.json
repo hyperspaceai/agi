@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWD3s1ACqs6SYs8GeGmkenrqxSaTdnwHAHksEWJg57jqwu",
+  "runNumber": 5404,
+  "timestamp": 1780705360387,
+  "hypothesis": "Inspired by Hy1W77qA (loss=3.3220): smaller batch (64 device)",
+  "config": {
+    "batchSize": 64
+  },
+  "result": {
+    "valLoss": 3.4208977671637832,
+    "trainLoss": 3.962843513192167,
+    "lossCurve": [
+      [
+        50,
+        4.246682886684524
+      ],
+      [
+        100,
+        3.4440662687958437
+      ],
+      [
+        100,
+        3.4208977671637832
+      ]
+    ],
+    "durationSec": 592.467,
+    "tokensPerSec": 345.67326112678006,
+    "totalTokens": 204800
+  },
+  "improvement": 0,
+  "isNewBest": true,
+  "gpu": "Red Hat, Inc. Virtio 1.0 GPU (rev 01)",
+  "inspiredBy": "12D3KooWC3yjBxNZwHQAegyEXmrkFX67A2MFJPMjeu7yHy1W77qA"
+}
