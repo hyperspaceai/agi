@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-07T05:24:09.491Z",
+  "timestamp": "2026-06-07T06:35:08.165Z",
   "peerId": "12D3KooWE2Q7PtKVeNSEM4tdoB74Hr9nZAvxx8pSkVoda89snN3N",
   "stats": {
-    "totalNodes": 4715,
+    "totalNodes": 4718,
     "observations": 0,
-    "experiments": 4715,
+    "experiments": 4718,
     "syntheses": 0,
-    "totalEdges": 4710,
+    "totalEdges": 4713,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,43 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2510,
-    "skills": 1267,
+    "infrastructure": 2512,
+    "skills": 1268,
     "finance": 744,
     "search-ranking": 193,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "f01c6f7bd72f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 287",
+      "metricName": "score",
+      "metricValue": 144.99730499310704,
+      "isCurrentBest": false,
+      "createdAt": 1780813654880,
+      "depth": 13
+    },
+    {
+      "id": "2ba37f39001c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 265",
+      "metricName": "score",
+      "metricValue": 145.35570707138314,
+      "isCurrentBest": false,
+      "createdAt": 1780812283571,
+      "depth": 13
+    },
+    {
+      "id": "2ac7f8ba6ea4",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1780811127500,
+      "depth": 3
+    },
     {
       "id": "08a6c5db1777",
       "domain": "skills",
@@ -230,36 +260,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1780798227211,
-      "depth": 1
-    },
-    {
-      "id": "b4fc4adbda23",
-      "domain": "search-ranking",
-      "title": "Search round 33: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780798225910,
-      "depth": 1
-    },
-    {
-      "id": "77a19b9d437d",
-      "domain": "search-ranking",
-      "title": "Search round 33: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780798225312,
-      "depth": 1
-    },
-    {
-      "id": "1d1eb5e1aad3",
-      "domain": "search-ranking",
-      "title": "Search round 33: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780798215903,
       "depth": 1
     }
   ],
