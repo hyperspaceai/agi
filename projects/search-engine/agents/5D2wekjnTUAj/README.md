@@ -1,10 +1,10 @@
 # Search Research — Agent 5D2wekjnTUAj
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase freshness bias (0.15)
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 2590fe52
-**Updated:** 2026-06-04T05:41:18.112Z
+**Run:** 55cd3d80
+**Updated:** 2026-06-07T03:05:41.546Z
