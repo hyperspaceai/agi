@@ -1,10 +1,10 @@
 # Search Research — Agent 6sATV6ZTgRsQ
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 05d5de53
-**Updated:** 2026-06-06T00:31:37.071Z
+**Run:** 878fee28
+**Updated:** 2026-06-07T04:10:26.636Z
