@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-07T15:04:17.196Z",
+  "timestamp": "2026-06-07T16:04:17.298Z",
   "peerId": "12D3KooWGxFbizcGhGwruGXvzZVPye6x8vNbBQ8PXq7PBX6t266T",
   "stats": {
-    "totalNodes": 897,
+    "totalNodes": 898,
     "observations": 0,
-    "experiments": 897,
+    "experiments": 898,
     "syntheses": 0,
-    "totalEdges": 893,
+    "totalEdges": 894,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 369,
+    "infrastructure": 370,
     "skills": 241,
     "finance": 175,
     "search-ranking": 112
   },
   "recentExperiments": [
+    {
+      "id": "95d8b421b2aa",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 802",
+      "metricName": "score",
+      "metricValue": 145.38003045270597,
+      "isCurrentBest": false,
+      "createdAt": 1780847807106,
+      "depth": 4
+    },
     {
       "id": "147e762d49dd",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1780803691119,
-      "depth": 1
-    },
-    {
-      "id": "8c4967374dba",
-      "domain": "search-ranking",
-      "title": "Search round 39: use softmax normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780803194983,
       "depth": 1
     }
   ],
