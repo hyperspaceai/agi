@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-06-07T13:39:36.168Z",
+  "timestamp": "2026-06-07T14:52:50.144Z",
   "peerId": "12D3KooWE2Q7PtKVeNSEM4tdoB74Hr9nZAvxx8pSkVoda89snN3N",
   "stats": {
-    "totalNodes": 4727,
+    "totalNodes": 4728,
     "observations": 0,
-    "experiments": 4727,
+    "experiments": 4728,
     "syntheses": 0,
-    "totalEdges": 4722,
+    "totalEdges": 4723,
     "maxDepth": 13,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -55,13 +55,23 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2520,
+    "infrastructure": 2521,
     "skills": 1269,
     "finance": 744,
     "search-ranking": 193,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "daa5f2206ba5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 725",
+      "metricName": "score",
+      "metricValue": 144.96341886898531,
+      "isCurrentBest": false,
+      "createdAt": 1780842733903,
+      "depth": 13
+    },
     {
       "id": "6f82042c8408",
       "domain": "infrastructure",
@@ -250,16 +260,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1780799199709,
-      "depth": 1
-    },
-    {
-      "id": "401f82514dd7",
-      "domain": "search-ranking",
-      "title": "Search round 43: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780799198921,
       "depth": 1
     }
   ],
