@@ -1,8 +1,8 @@
 # Skill Catalog — Agent GeYoD5YyM3Af
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 79
+**Description:** Parse Key-Value Log: 0% correct, round 822
 
-_Updated: 2026-06-07T01:50:13.723Z_
+_Updated: 2026-06-08T04:40:09.200Z_
