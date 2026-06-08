@@ -1,10 +1,10 @@
 # Search Research — Agent 5Rsm3pBT6btc
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase diversity penalty (0.2)
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c8270138
-**Updated:** 2026-06-02T09:29:56.253Z
+**Run:** 86cb1a24
+**Updated:** 2026-06-08T06:46:17.562Z
