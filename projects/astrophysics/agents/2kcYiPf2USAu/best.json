@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWBZyiTXEjfLSPck7Bkqr7iWp9BbD8AK2SWycM14pZYiuj",
-  "runNumber": 1,
-  "timestamp": 1780912702405,
-  "hypothesis": "Explore: deeper (12 layers)",
+  "runNumber": 3,
+  "timestamp": 1780913759851,
+  "hypothesis": "Improve on 62c532d4 (loss=4.4925): extended training (600s)",
   "config": {
     "nLayers": 12,
     "nHeads": 2,
@@ -15,7 +15,7 @@
     "learningRate": 0.006,
     "batchSize": 16,
     "maxSteps": 50000,
-    "maxDurationSec": 120,
+    "maxDurationSec": 600,
     "warmupSteps": 500,
     "weightDecay": 0.01,
     "evalInterval": 200,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.4924868691218425,
-    "trainLoss": 4.5103244711271175,
+    "valLoss": 4.361389969087983,
+    "trainLoss": 4.342727326837741,
     "lossCurve": [
       [
-        19,
-        4.4924868691218425
+        91,
+        4.361389969087983
       ]
     ],
-    "durationSec": 175.542,
-    "tokensPerSec": 221.66774902872248,
-    "totalTokens": 38912
+    "durationSec": 656.544,
+    "tokensPerSec": 283.8621630842716,
+    "totalTokens": 186368
   },
-  "improvement": 0,
+  "improvement": -2.918136521108745,
   "isNewBest": true,
   "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
   "inspiredBy": null
