@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-06-08T12:43:33.496Z",
+  "timestamp": "2026-06-08T13:46:26.774Z",
   "peerId": "12D3KooWNCRDdVb2LhpmCshjAR5tAQ1eg4nrzbLfETs2UXbkRMXg",
   "stats": {
-    "totalNodes": 3238,
+    "totalNodes": 3240,
     "observations": 0,
-    "experiments": 3238,
+    "experiments": 3240,
     "syntheses": 0,
-    "totalEdges": 3235,
+    "totalEdges": 3237,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1583,
-    "skills": 1071,
+    "infrastructure": 1584,
+    "skills": 1072,
     "finance": 584
   },
   "recentExperiments": [
+    {
+      "id": "fc1ac351a80d",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1780925620662,
+      "depth": 4
+    },
+    {
+      "id": "278e7cd6d933",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1992",
+      "metricName": "score",
+      "metricValue": 0.9124479287263456,
+      "isCurrentBest": false,
+      "createdAt": 1780922768441,
+      "depth": 4
+    },
     {
       "id": "c2580eaebc0d",
       "domain": "skills",
@@ -222,26 +242,6 @@
       "metricValue": 145.21775649996107,
       "isCurrentBest": false,
       "createdAt": 1780884061882,
-      "depth": 4
-    },
-    {
-      "id": "fd41cd6a8695",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 1329",
-      "metricName": "score",
-      "metricValue": 145.44237339113963,
-      "isCurrentBest": false,
-      "createdAt": 1780882127267,
-      "depth": 4
-    },
-    {
-      "id": "7f8f8f845516",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 1183",
-      "metricName": "score",
-      "metricValue": 0.9488129530604927,
-      "isCurrentBest": false,
-      "createdAt": 1780873192136,
       "depth": 4
     }
   ],
