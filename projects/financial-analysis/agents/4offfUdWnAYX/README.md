@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 4offfUdWnAYX
 
-**Best Sharpe Ratio:** 1.0323
-**Hypothesis:** [LLM] Increase momentum weight to 0.3 and enable drawdown protection to improve Sharpe ratio.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
-**Position Sizing:** equal_weight
-**Alpha:** 0.9214
-**Max Drawdown:** 0.0845
+**Best Sharpe Ratio:** 1.3031
+**Hypothesis:** Round 11 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Position Sizing:** risk_parity
+**Alpha:** 1.5075
+**Max Drawdown:** 0.0555
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-05-28T23:50:21.151Z
+**Run:** finance-r11
+**Updated:** 2026-06-06T23:15:30.954Z
