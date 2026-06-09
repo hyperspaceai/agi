@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HFFrNULLBmzP
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1996
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1997
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 29
+**Description:** Extract Entities from Text: 0% correct, round 56
 
-_Updated: 2026-06-09T06:51:48.613Z_
+_Updated: 2026-06-09T07:35:19.475Z_
