@@ -1,10 +1,10 @@
 # Search Research — Agent BZJzHVowCBKU
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase freshness bias (0.15)
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 36c10169
-**Updated:** 2026-06-09T06:32:43.693Z
+**Run:** 2bd2cb12
+**Updated:** 2026-06-09T16:07:24.142Z
