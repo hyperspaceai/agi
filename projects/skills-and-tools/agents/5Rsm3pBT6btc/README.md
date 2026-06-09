@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 5Rsm3pBT6btc
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1981
+**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
+**Score:** 0.1978
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 10
+**Description:** Detect Anomalies (IQR): 0% correct, round 9
 
-_Updated: 2026-06-08T15:26:49.269Z_
+_Updated: 2026-06-09T05:10:11.771Z_
