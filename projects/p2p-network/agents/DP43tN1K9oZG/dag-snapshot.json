@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-09T13:55:20.157Z",
+  "timestamp": "2026-06-09T14:55:55.324Z",
   "peerId": "12D3KooWNCRDdVb2LhpmCshjAR5tAQ1eg4nrzbLfETs2UXbkRMXg",
   "stats": {
-    "totalNodes": 3300,
+    "totalNodes": 3302,
     "observations": 0,
-    "experiments": 3300,
+    "experiments": 3302,
     "syntheses": 0,
-    "totalEdges": 3297,
+    "totalEdges": 3299,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1617,
-    "skills": 1091,
+    "infrastructure": 1618,
+    "skills": 1092,
     "finance": 592
   },
   "recentExperiments": [
+    {
+      "id": "cb32f05f7b17",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 562",
+      "metricName": "score",
+      "metricValue": 145.07822768999472,
+      "isCurrentBest": false,
+      "createdAt": 1781016229763,
+      "depth": 4
+    },
+    {
+      "id": "3e426557727e",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1781015627826,
+      "depth": 4
+    },
     {
       "id": "42a98738ae54",
       "domain": "infrastructure",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1780984133302,
       "depth": 4
-    },
-    {
-      "id": "5be20aae3f9e",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1780984009369,
-      "depth": 4
-    },
-    {
-      "id": "0b3f786dc969",
-      "domain": "finance",
-      "title": "Finance round 8: Sharpe=1.3105",
-      "metricName": "Sharpe",
-      "metricValue": 1.3105,
-      "isCurrentBest": false,
-      "createdAt": 1780983229675,
-      "depth": 8
     }
   ],
   "frontier": [],
