@@ -1,10 +1,10 @@
 # Search Research — Agent 8Zvizpmd2Lf7
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** aggressive peer timeout (500ms)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8a38cc88
-**Updated:** 2026-06-08T15:21:09.277Z
+**Run:** 52b2ac18
+**Updated:** 2026-06-09T02:07:32.148Z
