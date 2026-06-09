@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-09T03:52:19.084Z",
+  "timestamp": "2026-06-09T04:52:19.430Z",
   "peerId": "12D3KooWGY2BL2hihZfZWnEi9JibCfqgCHpHtcF3Fftt3X1vzati",
   "stats": {
-    "totalNodes": 1360,
+    "totalNodes": 1362,
     "observations": 0,
-    "experiments": 1360,
+    "experiments": 1362,
     "syntheses": 0,
-    "totalEdges": 1322,
+    "totalEdges": 1324,
     "maxDepth": 15,
     "activeExperiments": 19,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -56,13 +56,33 @@
   },
   "domainCounts": {
     "infrastructure": 787,
-    "skills": 283,
+    "skills": 285,
     "physics": 19,
     "general": 15,
     "search-ranking": 73,
     "finance": 183
   },
   "recentExperiments": [
+    {
+      "id": "3bff674b89bb",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1780978338916,
+      "depth": 4
+    },
+    {
+      "id": "8830c19e48a9",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1780977738902,
+      "depth": 4
+    },
     {
       "id": "5c17411a544a",
       "domain": "skills",
@@ -242,26 +262,6 @@
       "isCurrentBest": false,
       "createdAt": 1780967687542,
       "depth": 7
-    },
-    {
-      "id": "c0c23578627f",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780967660894,
-      "depth": 2
-    },
-    {
-      "id": "a731487d9f4c",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780967660719,
-      "depth": 2
     }
   ],
   "frontier": [],
