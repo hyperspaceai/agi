@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-09T07:28:45.651Z",
+  "timestamp": "2026-06-09T08:29:04.022Z",
   "peerId": "12D3KooWBMX7Q9SxHL72RtLYQTJademVvjKGCPXd42RxELTySmwe",
   "stats": {
-    "totalNodes": 1906,
+    "totalNodes": 1912,
     "observations": 0,
-    "experiments": 1906,
+    "experiments": 1912,
     "syntheses": 0,
-    "totalEdges": 1902,
+    "totalEdges": 1908,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 6
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,72 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 631,
-    "skills": 716,
+    "infrastructure": 634,
+    "skills": 719,
     "finance": 294,
     "search-ranking": 265
   },
   "recentExperiments": [
+    {
+      "id": "c814e17cd23e",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 187",
+      "metricName": "score",
+      "metricValue": 0.9676814928226668,
+      "isCurrentBest": false,
+      "createdAt": 1780992356212,
+      "depth": 4
+    },
+    {
+      "id": "3b3847694b69",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 182",
+      "metricName": "score",
+      "metricValue": 141.18405384167548,
+      "isCurrentBest": false,
+      "createdAt": 1780992054409,
+      "depth": 4
+    },
+    {
+      "id": "b8cb14636257",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1780991813757,
+      "depth": 3
+    },
+    {
+      "id": "ba4cc196929b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 178",
+      "metricName": "score",
+      "metricValue": 141.19088599376022,
+      "isCurrentBest": false,
+      "createdAt": 1780991813646,
+      "depth": 4
+    },
+    {
+      "id": "b1e05ac21588",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1780990487455,
+      "depth": 3
+    },
+    {
+      "id": "58867edbc05e",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1780990244903,
+      "depth": 3
+    },
     {
       "id": "9902b4ddbff8",
       "domain": "infrastructure",
@@ -191,66 +251,6 @@
       "metricValue": 0.1995,
       "isCurrentBest": false,
       "createdAt": 1780984329819,
-      "depth": 3
-    },
-    {
-      "id": "c4c96ec1927b",
-      "domain": "search-ranking",
-      "title": "Search round 32: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780983995500,
-      "depth": 1
-    },
-    {
-      "id": "e104ce9404fa",
-      "domain": "search-ranking",
-      "title": "Search round 32: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780983992940,
-      "depth": 1
-    },
-    {
-      "id": "d244b999b14e",
-      "domain": "search-ranking",
-      "title": "Search round 32: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780983990575,
-      "depth": 1
-    },
-    {
-      "id": "09585803177b",
-      "domain": "search-ranking",
-      "title": "Search round 32: boost click weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1780983972658,
-      "depth": 1
-    },
-    {
-      "id": "a3ffc2cdb649",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1780983960647,
-      "depth": 3
-    },
-    {
-      "id": "b484f2985282",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1780983839046,
       "depth": 3
     }
   ],
