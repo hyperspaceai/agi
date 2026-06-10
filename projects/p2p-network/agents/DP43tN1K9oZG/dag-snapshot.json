@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-10T01:38:10.586Z",
+  "timestamp": "2026-06-10T02:38:53.487Z",
   "peerId": "12D3KooWNCRDdVb2LhpmCshjAR5tAQ1eg4nrzbLfETs2UXbkRMXg",
   "stats": {
-    "totalNodes": 3427,
+    "totalNodes": 3429,
     "observations": 0,
-    "experiments": 3427,
+    "experiments": 3429,
     "syntheses": 0,
-    "totalEdges": 3424,
+    "totalEdges": 3426,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1659,
-    "skills": 1143,
+    "infrastructure": 1660,
+    "skills": 1144,
     "finance": 625
   },
   "recentExperiments": [
+    {
+      "id": "2e9ee94753e5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 138",
+      "metricName": "score",
+      "metricValue": 145.02896443866263,
+      "isCurrentBest": false,
+      "createdAt": 1781058370192,
+      "depth": 4
+    },
+    {
+      "id": "4b2dbf00bc66",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1781056216252,
+      "depth": 4
+    },
     {
       "id": "e0ee8bb5d752",
       "domain": "skills",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1781050587648,
       "depth": 8
-    },
-    {
-      "id": "2f6cd634d096",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 8",
-      "metricName": "score",
-      "metricValue": 141.6698415163914,
-      "isCurrentBest": false,
-      "createdAt": 1781050496948,
-      "depth": 4
-    },
-    {
-      "id": "e83846105c01",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1781050467356,
-      "depth": 4
     }
   ],
   "frontier": [],
