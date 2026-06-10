@@ -1,10 +1,10 @@
 # Search Research — Agent FB47rV9r4m39
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost click weight (+0.03)
+**Best NDCG@10:** 0.3913
+**Hypothesis:** decrease diversity penalty (0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 041f6b58
-**Updated:** 2026-06-10T00:35:45.802Z
+**Run:** 8f31d5c0
+**Updated:** 2026-06-10T20:06:03.820Z
