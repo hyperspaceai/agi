@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-10T06:39:44.254Z",
+  "timestamp": "2026-06-10T07:39:43.724Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 4228,
+    "totalNodes": 4230,
     "observations": 0,
-    "experiments": 4228,
+    "experiments": 4230,
     "syntheses": 0,
-    "totalEdges": 4224,
+    "totalEdges": 4226,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1882,
+    "infrastructure": 1884,
     "skills": 1490,
     "finance": 617,
     "search-ranking": 239
   },
   "recentExperiments": [
+    {
+      "id": "8ddcf5816871",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 252",
+      "metricName": "score",
+      "metricValue": 141.0277580797551,
+      "isCurrentBest": false,
+      "createdAt": 1781076133168,
+      "depth": 6
+    },
+    {
+      "id": "ca05bfc543c9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 223",
+      "metricName": "score",
+      "metricValue": 141.0413862060295,
+      "isCurrentBest": false,
+      "createdAt": 1781074393811,
+      "depth": 6
+    },
     {
       "id": "e7f1c831f304",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 0.199,
       "isCurrentBest": false,
       "createdAt": 1781062655644,
-      "depth": 4
-    },
-    {
-      "id": "f91708b89746",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.3057",
-      "metricName": "Sharpe",
-      "metricValue": 1.3057,
-      "isCurrentBest": false,
-      "createdAt": 1781062024408,
-      "depth": 10
-    },
-    {
-      "id": "8c4bec0d4194",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.199,
-      "isCurrentBest": false,
-      "createdAt": 1781061933510,
       "depth": 4
     }
   ],
