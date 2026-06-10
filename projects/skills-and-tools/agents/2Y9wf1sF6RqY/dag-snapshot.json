@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-10T21:42:29.416Z",
+  "timestamp": "2026-06-10T23:43:20.737Z",
   "peerId": "12D3KooWBMX7Q9SxHL72RtLYQTJademVvjKGCPXd42RxELTySmwe",
   "stats": {
-    "totalNodes": 2360,
+    "totalNodes": 2368,
     "observations": 0,
-    "experiments": 2360,
+    "experiments": 2368,
     "syntheses": 0,
-    "totalEdges": 2356,
+    "totalEdges": 2364,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 21
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,92 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 757,
-    "skills": 922,
+    "infrastructure": 759,
+    "skills": 928,
     "finance": 388,
     "search-ranking": 293
   },
   "recentExperiments": [
+    {
+      "id": "949e3b26ade3",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 201",
+      "metricName": "score",
+      "metricValue": 0.9701229897926137,
+      "isCurrentBest": false,
+      "createdAt": 1781134454104,
+      "depth": 4
+    },
+    {
+      "id": "b7437d2729c7",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781133791453,
+      "depth": 3
+    },
+    {
+      "id": "bf98526cd6d9",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 182",
+      "metricName": "score",
+      "metricValue": 0.9622596085008677,
+      "isCurrentBest": false,
+      "createdAt": 1781133307098,
+      "depth": 4
+    },
+    {
+      "id": "1458933f7e70",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781132706041,
+      "depth": 3
+    },
+    {
+      "id": "f9735ec92b97",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781131855000,
+      "depth": 3
+    },
+    {
+      "id": "ab3b6cdedb11",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781131130622,
+      "depth": 3
+    },
+    {
+      "id": "5deedd2ef8b1",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781129680795,
+      "depth": 3
+    },
+    {
+      "id": "c3468458811b",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781127871519,
+      "depth": 3
+    },
     {
       "id": "90a7762eec42",
       "domain": "skills",
@@ -171,86 +251,6 @@
       "metricValue": 0.1995,
       "isCurrentBest": false,
       "createdAt": 1781125693024,
-      "depth": 3
-    },
-    {
-      "id": "91bf11488779",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1781125571760,
-      "depth": 3
-    },
-    {
-      "id": "21811ffdea60",
-      "domain": "search-ranking",
-      "title": "Search round 34: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1781125461214,
-      "depth": 1
-    },
-    {
-      "id": "9b3611d49ac9",
-      "domain": "search-ranking",
-      "title": "Search round 34: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1781125455203,
-      "depth": 1
-    },
-    {
-      "id": "6b185a880a36",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1781125451722,
-      "depth": 3
-    },
-    {
-      "id": "9115bc2582bb",
-      "domain": "search-ranking",
-      "title": "Search round 34: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1781125451646,
-      "depth": 1
-    },
-    {
-      "id": "abb2c7f21387",
-      "domain": "search-ranking",
-      "title": "Search round 34: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1781125450972,
-      "depth": 1
-    },
-    {
-      "id": "2f0af8cbb743",
-      "domain": "search-ranking",
-      "title": "Search round 34: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1781125449522,
-      "depth": 1
-    },
-    {
-      "id": "e63204d41396",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1781124847993,
       "depth": 3
     }
   ],
