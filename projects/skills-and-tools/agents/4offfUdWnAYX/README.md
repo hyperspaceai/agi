@@ -3,6 +3,6 @@
 **Latest Skill:** Normalize Text (LLM 3 iter) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20→0.20→0.20]
+**Description:** Normalize Text: 0% correct [0.20→0.20]
 
-_Updated: 2026-06-11T07:28:38.844Z_
+_Updated: 2026-06-11T08:54:12.628Z_
