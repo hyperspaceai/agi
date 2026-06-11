@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 9Ns544bbmNte
 
-**Latest Skill:** Normalize Text (LLM 3 iter) v1
-**Score:** 0.1997
+**Latest Skill:** Detect Anomalies (IQR) (LLM 3 iter) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20→0.20→0.20]
+**Description:** Detect Anomalies (IQR): 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-06-11T00:56:18.850Z_
+_Updated: 2026-06-11T01:45:49.594Z_
