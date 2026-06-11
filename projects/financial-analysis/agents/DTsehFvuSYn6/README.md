@@ -1,11 +1,11 @@
 # Financial Analysis — Agent DTsehFvuSYn6
 
-**Best Sharpe Ratio:** 1.3174
-**Hypothesis:** Round 12 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.5172
-**Max Drawdown:** 0.0546
+**Best Sharpe Ratio:** 1.0497
+**Hypothesis:** [LLM] Increased momentum weight to 0.25 and enabled drawdown protection to improve Sharpe ratio.
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Position Sizing:** equal_weight
+**Alpha:** 0.9135
+**Max Drawdown:** 0.0820
 **LLM:** unknown
-**Run:** finance-r12
-**Updated:** 2026-06-11T05:54:56.778Z
+**Run:** llm-r0
+**Updated:** 2026-06-11T17:28:16.419Z
