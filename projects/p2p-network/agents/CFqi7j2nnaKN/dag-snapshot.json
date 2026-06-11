@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-11T06:26:10.463Z",
+  "timestamp": "2026-06-11T07:26:10.603Z",
   "peerId": "12D3KooWM5CsrrcVyUas7czyspyNYyxoJk5xD9Zabmh5pxtbzyA8",
   "stats": {
-    "totalNodes": 2611,
+    "totalNodes": 2613,
     "observations": 0,
-    "experiments": 2611,
+    "experiments": 2613,
     "syntheses": 0,
-    "totalEdges": 2585,
+    "totalEdges": 2587,
     "maxDepth": 15,
     "activeExperiments": 4,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,14 +55,34 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1535,
+    "infrastructure": 1536,
     "finance": 399,
-    "skills": 508,
+    "skills": 509,
     "general": 18,
     "physics": 4,
     "search-ranking": 147
   },
   "recentExperiments": [
+    {
+      "id": "ce49c1b97ef3",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 537",
+      "metricName": "score",
+      "metricValue": 0.9271427387438953,
+      "isCurrentBest": false,
+      "createdAt": 1781160820370,
+      "depth": 15
+    },
+    {
+      "id": "a63ed7fc4933",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1781160490369,
+      "depth": 5
+    },
     {
       "id": "d6c71bb7aa90",
       "domain": "infrastructure",
@@ -241,26 +261,6 @@
       "metricValue": 0.1997,
       "isCurrentBest": false,
       "createdAt": 1781129386404,
-      "depth": 5
-    },
-    {
-      "id": "a3c98207d60e",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.3137",
-      "metricName": "Sharpe",
-      "metricValue": 1.3137,
-      "isCurrentBest": false,
-      "createdAt": 1781129296403,
-      "depth": 9
-    },
-    {
-      "id": "78e4585c5a06",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1781129266402,
       "depth": 5
     }
   ],
