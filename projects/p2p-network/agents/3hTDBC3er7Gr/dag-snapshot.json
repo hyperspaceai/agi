@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "timestamp": "2026-06-10T13:38:28.064Z",
+  "timestamp": "2026-06-11T12:48:56.984Z",
   "peerId": "12D3KooWCWpNvKdN31YLVmu2B6VXD9i89ke6EL5SqBLV4i5uJPtp",
   "stats": {
-    "totalNodes": 438,
+    "totalNodes": 528,
     "observations": 0,
-    "experiments": 438,
+    "experiments": 528,
     "syntheses": 0,
-    "totalEdges": 434,
+    "totalEdges": 516,
     "maxDepth": 8,
-    "activeExperiments": 0,
+    "activeExperiments": 7,
     "recentActivity": 2
   },
   "bestPerDomain": {
@@ -44,214 +44,219 @@
       "metricValue": 0.4,
       "metricDirection": "maximize",
       "depth": 0
+    },
+    "general": {
+      "nodeId": "af7a6df6d6cf38a4d3e4407bd711f111a1e3ed694d45465b8fe1ce5f1d54c7a4",
+      "title": "AutoWeb round 1: 39/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 39,
+      "metricDirection": "maximize",
+      "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 194,
-    "skills": 129,
-    "finance": 73,
-    "search-ranking": 42
+    "infrastructure": 221,
+    "skills": 166,
+    "finance": 90,
+    "search-ranking": 43,
+    "physics": 7,
+    "general": 1
   },
   "recentExperiments": [
     {
-      "id": "8406880da264",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 43",
-      "metricName": "score",
-      "metricValue": 0.9793719471559896,
+      "id": "b2e851e631c9",
+      "domain": "physics",
+      "title": "Wrote paper: \"Fundamental Limits and Mitigation Strategies for Casimir-Based FTL Propulsion\" (self-v",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1781095757782,
+      "createdAt": 1781179861765,
+      "depth": 0
+    },
+    {
+      "id": "c1ec8164dd48",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 299",
+      "metricName": "score",
+      "metricValue": 141.16003033741924,
+      "isCurrentBest": false,
+      "createdAt": 1781179674848,
       "depth": 5
     },
     {
-      "id": "0b729fddece0",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
+      "id": "45c703624122",
+      "domain": "physics",
+      "title": "Wrote paper: \"**\" (self-verification score: 6.0)",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1781095373066,
+      "createdAt": 1781177316904,
+      "depth": 0
+    },
+    {
+      "id": "63d835e1d70d",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781173192526,
       "depth": 2
     },
     {
-      "id": "e4b9f9596592",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 30",
-      "metricName": "score",
-      "metricValue": 0.9774334654340289,
+      "id": "7c8d682ff203",
+      "domain": "physics",
+      "title": "Wrote paper: \"** *Fundamental Constraints on Casimir-Based FTL Propulsion: Energy Efficiency and Wor",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1781094924516,
+      "createdAt": 1781172006624,
+      "depth": 0
+    },
+    {
+      "id": "14e3a080760b",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781171849034,
+      "depth": 2
+    },
+    {
+      "id": "cef0c5a765cb",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781170544508,
+      "depth": 2
+    },
+    {
+      "id": "a1a801558e01",
+      "domain": "search-ranking",
+      "title": "Search round 1: Boosting diversity weight and adjusting freshness bias to im",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1781170512556,
+      "depth": 1
+    },
+    {
+      "id": "1781539ef670",
+      "domain": "physics",
+      "title": "Wrote paper: \"**Quantum Fluctuations of Casimir Vacuum Energy and Wormhole Stability**\" (self-verifi",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1781169438365,
+      "depth": 0
+    },
+    {
+      "id": "9f27338715d2",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781168157540,
+      "depth": 2
+    },
+    {
+      "id": "b0bbd2b91f59",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781166897908,
+      "depth": 2
+    },
+    {
+      "id": "542a206b0ad7",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781166769957,
+      "depth": 2
+    },
+    {
+      "id": "682cca727eab",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 65",
+      "metricName": "score",
+      "metricValue": 141.02567866794226,
+      "isCurrentBest": false,
+      "createdAt": 1781165532294,
       "depth": 5
     },
     {
-      "id": "c181f1b26cfa",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
+      "id": "536f8f56be55",
+      "domain": "physics",
+      "title": "Wrote paper: \"Can Casimir-Based Propulsion Systems Violate the Null Energy Condition and Enable Trav",
+      "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1781094604149,
+      "createdAt": 1781164360923,
+      "depth": 0
+    },
+    {
+      "id": "f605c2f44dd3",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781164257507,
       "depth": 2
     },
     {
-      "id": "49ed3025f464",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.3161",
-      "metricName": "Sharpe",
-      "metricValue": 1.3161,
+      "id": "1fc2e167c776",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1781094059676,
-      "depth": 8
+      "createdAt": 1781162899842,
+      "depth": 2
     },
     {
-      "id": "ea64cbfeae3d",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 16",
-      "metricName": "score",
-      "metricValue": 0.976911885809704,
+      "id": "5aed33e6a38a",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1781094027692,
+      "createdAt": 1781110315433,
+      "depth": 2
+    },
+    {
+      "id": "5bfb01c2a692",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 81",
+      "metricName": "score",
+      "metricValue": 141.0242504981346,
+      "isCurrentBest": false,
+      "createdAt": 1781110268390,
       "depth": 5
     },
     {
-      "id": "b5de21f6b8bc",
+      "id": "41c7bf7c0576",
       "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1997,
+      "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1781093963612,
+      "createdAt": 1781109017174,
       "depth": 2
     },
     {
-      "id": "1333482b8ae2",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1781093835460,
-      "depth": 2
-    },
-    {
-      "id": "856886cdb62a",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.3064",
-      "metricName": "Sharpe",
-      "metricValue": 1.3064,
-      "isCurrentBest": false,
-      "createdAt": 1781093739364,
-      "depth": 8
-    },
-    {
-      "id": "37baeb750ea2",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1781093707317,
-      "depth": 2
-    },
-    {
-      "id": "c61a1a723dc9",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1781093579168,
-      "depth": 2
-    },
-    {
-      "id": "63ee75cc198c",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
-      "isCurrentBest": false,
-      "createdAt": 1781093579159,
-      "depth": 8
-    },
-    {
-      "id": "895b0e158fb9",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1781093450991,
-      "depth": 2
-    },
-    {
-      "id": "290e82fc7e20",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1781093322855,
-      "depth": 2
-    },
-    {
-      "id": "83363feac964",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1991",
-      "metricName": "Sharpe",
-      "metricValue": 1.1991,
-      "isCurrentBest": false,
-      "createdAt": 1781093258686,
-      "depth": 8
-    },
-    {
-      "id": "2e2d8b8bea52",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1781093194684,
-      "depth": 2
-    },
-    {
-      "id": "4406b9c8dbf9",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 3",
-      "metricName": "score",
-      "metricValue": 0.9767343062919156,
-      "isCurrentBest": false,
-      "createdAt": 1781093194665,
-      "depth": 5
-    },
-    {
-      "id": "959116b8e363",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 3",
-      "metricName": "score",
-      "metricValue": 141.12448588538476,
-      "isCurrentBest": false,
-      "createdAt": 1781093194662,
-      "depth": 5
-    },
-    {
-      "id": "39fa54d70994",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2",
-      "metricName": "score",
-      "metricValue": 141.87226437694943,
-      "isCurrentBest": false,
-      "createdAt": 1781093130596,
-      "depth": 5
-    },
-    {
-      "id": "3d7fac2aff9c",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.0899",
-      "metricName": "Sharpe",
-      "metricValue": 1.0899,
-      "isCurrentBest": false,
-      "createdAt": 1781093098641,
-      "depth": 8
+      "id": "af7a6df6d6cf",
+      "domain": "general",
+      "title": "AutoWeb round 1: 39/100",
+      "metricName": "SteveJobsScore",
+      "metricValue": 39,
+      "isCurrentBest": true,
+      "createdAt": 1781108999953,
+      "depth": 0
     }
   ],
   "frontier": [],
@@ -357,6 +362,14 @@
         "id": "7fac7f536d0a",
         "title": "Search round 29: relaxed peer timeout (5s)",
         "metricValue": 0.4,
+        "depth": 0
+      }
+    ],
+    "general": [
+      {
+        "id": "af7a6df6d6cf",
+        "title": "AutoWeb round 1: 39/100",
+        "metricValue": 39,
         "depth": 0
       }
     ]
