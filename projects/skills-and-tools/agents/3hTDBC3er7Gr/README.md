@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 3hTDBC3er7Gr
 
-**Latest Skill:** Normalize Text (LLM 3 iter) v1
+**Latest Skill:** Parse Key-Value Log (LLM 3 iter) v1
 **Score:** 0.1995
 **Permissions:** none
-**Description:** Normalize Text: 0% correct [0.20→0.20→0.20]
+**Description:** Parse Key-Value Log: 0% correct [0.20→0.20→0.20]
 
-_Updated: 2026-06-11T18:48:39.042Z_
+_Updated: 2026-06-11T20:44:20.763Z_
