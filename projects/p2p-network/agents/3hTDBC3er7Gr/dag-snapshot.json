@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-12T16:22:59.839Z",
+  "timestamp": "2026-06-12T17:46:44.685Z",
   "peerId": "12D3KooWCWpNvKdN31YLVmu2B6VXD9i89ke6EL5SqBLV4i5uJPtp",
   "stats": {
-    "totalNodes": 610,
+    "totalNodes": 611,
     "observations": 0,
-    "experiments": 610,
+    "experiments": 611,
     "syntheses": 0,
-    "totalEdges": 583,
+    "totalEdges": 584,
     "maxDepth": 8,
     "activeExperiments": 22,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -56,13 +56,23 @@
   },
   "domainCounts": {
     "infrastructure": 250,
-    "skills": 193,
+    "skills": 194,
     "finance": 101,
     "search-ranking": 43,
     "physics": 22,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "21bf606767ec",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1781283512694,
+      "depth": 2
+    },
     {
       "id": "52ca79ac2a70",
       "domain": "skills",
@@ -248,15 +258,6 @@
       "isCurrentBest": false,
       "createdAt": 1781249584789,
       "depth": 8
-    },
-    {
-      "id": "835d13138e88",
-      "domain": "physics",
-      "title": "Wrote paper: \"**Fundamental Limitations and Theoretical Overcomes for Casimir-Based FTL Propulsion**",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1781245673257,
-      "depth": 0
     }
   ],
   "frontier": [],
