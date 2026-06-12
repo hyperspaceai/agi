@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "project": "astrophysics",
+  "peerId": "12D3KooWKQW7mSRsxfYr4hJqqvyNaFtiy57gnxdtEvknsFG2qJWg",
+  "runNumber": 8,
+  "timestamp": 1781285575007,
+  "hypothesis": "Improve on 99e9e198 (loss=4.7242): switch to SiLU activation",
+  "config": {
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
+    "contextLength": 128,
+    "vocabSize": 128,
+    "learningRate": 0.0003,
+    "batchSize": 16,
+    "maxSteps": 50000,
+    "maxDurationSec": 120,
+    "warmupSteps": 100,
+    "weightDecay": 0.01,
+    "evalInterval": 200,
+    "evalSteps": 10,
+    "dataset": "astrophysics",
+    "activation": "silu",
+    "normalization": "layernorm",
+    "positionEncoding": "learned",
+    "tieEmbeddings": false,
+    "residualScale": 1,
+    "dropoutRate": 0,
+    "gradientClipNorm": 1,
+    "scheduleType": "linear",
+    "minLRRatio": 0.1,
+    "initType": "normal",
+    "initScale": 0.02,
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "result": {
+    "valLoss": 4.551924849580337,
+    "trainLoss": 4.576517720815723,
+    "lossCurve": [
+      [
+        31,
+        4.551924849580337
+      ]
+    ],
+    "durationSec": 148.874,
+    "tokensPerSec": 426.4545857570832,
+    "totalTokens": 63488
+  },
+  "improvement": -3.646029442386528,
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
