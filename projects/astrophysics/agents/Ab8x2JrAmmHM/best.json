@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWKQW7mSRsxfYr4hJqqvyNaFtiy57gnxdtEvknsFG2qJWg",
-  "runNumber": 2,
-  "timestamp": 1781285210662,
-  "hypothesis": "Improve on 2368c200 (loss=4.7702): higher gradient clip (5.0)",
+  "runNumber": 8,
+  "timestamp": 1781285575007,
+  "hypothesis": "Improve on 99e9e198 (loss=4.7242): switch to SiLU activation",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -21,13 +21,13 @@
     "evalInterval": 200,
     "evalSteps": 10,
     "dataset": "astrophysics",
-    "activation": "gelu",
+    "activation": "silu",
     "normalization": "layernorm",
     "positionEncoding": "learned",
     "tieEmbeddings": false,
     "residualScale": 1,
     "dropoutRate": 0,
-    "gradientClipNorm": 5,
+    "gradientClipNorm": 1,
     "scheduleType": "linear",
     "minLRRatio": 0.1,
     "initType": "normal",
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.724169458962336,
-    "trainLoss": 4.737126464128975,
+    "valLoss": 4.551924849580337,
+    "trainLoss": 4.576517720815723,
     "lossCurve": [
       [
-        19,
-        4.724169458962336
+        31,
+        4.551924849580337
       ]
     ],
-    "durationSec": 150.966,
-    "tokensPerSec": 257.7534014281361,
-    "totalTokens": 38912
+    "durationSec": 148.874,
+    "tokensPerSec": 426.4545857570832,
+    "totalTokens": 63488
   },
-  "improvement": -0.9648677418464374,
+  "improvement": -3.646029442386528,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
