@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-11T12:48:56.984Z",
+  "timestamp": "2026-06-12T07:33:12.799Z",
   "peerId": "12D3KooWCWpNvKdN31YLVmu2B6VXD9i89ke6EL5SqBLV4i5uJPtp",
   "stats": {
-    "totalNodes": 528,
+    "totalNodes": 592,
     "observations": 0,
-    "experiments": 528,
+    "experiments": 592,
     "syntheses": 0,
-    "totalEdges": 516,
+    "totalEdges": 569,
     "maxDepth": 8,
-    "activeExperiments": 7,
-    "recentActivity": 2
+    "activeExperiments": 18,
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,208 +55,209 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 221,
-    "skills": 166,
-    "finance": 90,
+    "infrastructure": 243,
+    "skills": 192,
+    "finance": 95,
     "search-ranking": 43,
-    "physics": 7,
+    "physics": 18,
     "general": 1
   },
   "recentExperiments": [
     {
-      "id": "b2e851e631c9",
+      "id": "d3aee8460aff",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.1655",
+      "metricName": "Sharpe",
+      "metricValue": 1.1655,
+      "isCurrentBest": false,
+      "createdAt": 1781249584789,
+      "depth": 8
+    },
+    {
+      "id": "835d13138e88",
       "domain": "physics",
-      "title": "Wrote paper: \"Fundamental Limits and Mitigation Strategies for Casimir-Based FTL Propulsion\" (self-v",
+      "title": "Wrote paper: \"**Fundamental Limitations and Theoretical Overcomes for Casimir-Based FTL Propulsion**",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1781179861765,
+      "createdAt": 1781245673257,
       "depth": 0
     },
     {
-      "id": "c1ec8164dd48",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 299",
-      "metricName": "score",
-      "metricValue": 141.16003033741924,
+      "id": "d9699d8f8289",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.0672",
+      "metricName": "Sharpe",
+      "metricValue": 1.0672,
       "isCurrentBest": false,
-      "createdAt": 1781179674848,
+      "createdAt": 1781245605350,
+      "depth": 8
+    },
+    {
+      "id": "9238460a3805",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1781243032276,
+      "depth": 2
+    },
+    {
+      "id": "00a9103e2473",
+      "domain": "physics",
+      "title": "Wrote paper: \"**Quantum Vacuum Fluctuations and Wormhole Stability: A Hyperspace Travel Perspective*",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1781242042961,
+      "depth": 0
+    },
+    {
+      "id": "b39d7f319117",
+      "domain": "physics",
+      "title": "Wrote paper: \"Can the Casimir Effect Be Harnessed for Warp Drive?\" (self-verification score: 4.0)",
+      "metricName": "verification_score",
+      "isCurrentBest": false,
+      "createdAt": 1781241858753,
+      "depth": 0
+    },
+    {
+      "id": "1e9e38029f54",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1781241836637,
+      "depth": 2
+    },
+    {
+      "id": "6e0b298361fd",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1781241725002,
+      "depth": 2
+    },
+    {
+      "id": "8035ae86e503",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1781240435327,
+      "depth": 2
+    },
+    {
+      "id": "92099020b44a",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 103",
+      "metricName": "score",
+      "metricValue": 0.9736696594576013,
+      "isCurrentBest": false,
+      "createdAt": 1781240423484,
       "depth": 5
     },
     {
-      "id": "45c703624122",
-      "domain": "physics",
-      "title": "Wrote paper: \"**\" (self-verification score: 6.0)",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1781177316904,
-      "depth": 0
-    },
-    {
-      "id": "63d835e1d70d",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1781173192526,
-      "depth": 2
-    },
-    {
-      "id": "7c8d682ff203",
-      "domain": "physics",
-      "title": "Wrote paper: \"** *Fundamental Constraints on Casimir-Based FTL Propulsion: Energy Efficiency and Wor",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1781172006624,
-      "depth": 0
-    },
-    {
-      "id": "14e3a080760b",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1781171849034,
-      "depth": 2
-    },
-    {
-      "id": "cef0c5a765cb",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1781170544508,
-      "depth": 2
-    },
-    {
-      "id": "a1a801558e01",
-      "domain": "search-ranking",
-      "title": "Search round 1: Boosting diversity weight and adjusting freshness bias to im",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1781170512556,
-      "depth": 1
-    },
-    {
-      "id": "1781539ef670",
-      "domain": "physics",
-      "title": "Wrote paper: \"**Quantum Fluctuations of Casimir Vacuum Energy and Wormhole Stability**\" (self-verifi",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1781169438365,
-      "depth": 0
-    },
-    {
-      "id": "9f27338715d2",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1781168157540,
-      "depth": 2
-    },
-    {
-      "id": "b0bbd2b91f59",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1781166897908,
-      "depth": 2
-    },
-    {
-      "id": "542a206b0ad7",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1781166769957,
-      "depth": 2
-    },
-    {
-      "id": "682cca727eab",
+      "id": "d89da206fc64",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 65",
+      "title": "Cause infra-optimization round 96",
       "metricName": "score",
-      "metricValue": 141.02567866794226,
+      "metricValue": 141.1347638480544,
       "isCurrentBest": false,
-      "createdAt": 1781165532294,
+      "createdAt": 1781240423482,
       "depth": 5
     },
     {
-      "id": "536f8f56be55",
+      "id": "2e07783b64f8",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1781238145688,
+      "depth": 2
+    },
+    {
+      "id": "3a4b00b90256",
       "domain": "physics",
-      "title": "Wrote paper: \"Can Casimir-Based Propulsion Systems Violate the Null Energy Condition and Enable Trav",
+      "title": "Wrote paper: \"Fundamental Limits on the Scalability of Casimir Micro-Cavity Arrays for FTL Travel\" (",
       "metricName": "verification_score",
       "isCurrentBest": false,
-      "createdAt": 1781164360923,
+      "createdAt": 1781238063628,
       "depth": 0
     },
     {
-      "id": "f605c2f44dd3",
+      "id": "416208a9713a",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1781238037689,
+      "depth": 2
+    },
+    {
+      "id": "67fe78062b68",
+      "domain": "finance",
+      "title": "Finance round 1: Sharpe=1.0552",
+      "metricName": "Sharpe",
+      "metricValue": 1.0552,
+      "isCurrentBest": false,
+      "createdAt": 1781237980569,
+      "depth": 8
+    },
+    {
+      "id": "aecd9a0c8d03",
+      "domain": "skills",
+      "title": "Skill Normalize Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1781237906835,
+      "depth": 2
+    },
+    {
+      "id": "bdcca21db277",
       "domain": "skills",
       "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
       "metricName": "correctness",
       "metricValue": 0.1995,
       "isCurrentBest": false,
-      "createdAt": 1781164257507,
+      "createdAt": 1781235257446,
       "depth": 2
     },
     {
-      "id": "1fc2e167c776",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1781162899842,
-      "depth": 2
-    },
-    {
-      "id": "5aed33e6a38a",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1781110315433,
-      "depth": 2
-    },
-    {
-      "id": "5bfb01c2a692",
+      "id": "a33eb1de5a29",
       "domain": "infrastructure",
-      "title": "Cause infra-optimization round 81",
+      "title": "Cause infra-optimization round 181",
       "metricName": "score",
-      "metricValue": 141.0242504981346,
+      "metricValue": 141.0872636494581,
       "isCurrentBest": false,
-      "createdAt": 1781110268390,
+      "createdAt": 1781227308874,
       "depth": 5
     },
     {
-      "id": "41c7bf7c0576",
+      "id": "5e29eb89c1e8",
       "domain": "skills",
-      "title": "Skill Parse Key-Value Log (LLM 3 iter): 0%",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1995,
+      "metricValue": 0.1996,
       "isCurrentBest": false,
-      "createdAt": 1781109017174,
+      "createdAt": 1781227294835,
       "depth": 2
     },
     {
-      "id": "af7a6df6d6cf",
-      "domain": "general",
-      "title": "AutoWeb round 1: 39/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 39,
-      "isCurrentBest": true,
-      "createdAt": 1781108999953,
-      "depth": 0
+      "id": "75fde7a4c3d4",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1781224953550,
+      "depth": 2
     }
   ],
   "frontier": [],
