@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HFFrNULLBmzP
 
-**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
-**Score:** 0.1997
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Chunk Text for Embeddings: 0% correct, round 32
+**Description:** Parse Key-Value Log: 0% correct, round 126
 
-_Updated: 2026-06-13T16:30:54.484Z_
+_Updated: 2026-06-13T19:38:58.515Z_
