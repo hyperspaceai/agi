@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 5WSAijZMs5Uk
 
-**Best Sharpe Ratio:** 1.0889
-**Hypothesis:** [LLM] LLM-guided strategy evolution
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, meanReversionWeight
-**Position Sizing:** risk_parity
-**Alpha:** 1.0526
-**Max Drawdown:** 0.0816
+**Best Sharpe Ratio:** 1.0827
+**Hypothesis:** Round 2 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Position Sizing:** equal_weight
+**Alpha:** 0.9212
+**Max Drawdown:** 0.0783
 **LLM:** unknown
-**Run:** llm-r1
-**Updated:** 2026-06-06T19:02:19.022Z
+**Run:** finance-r2
+**Updated:** 2026-06-13T01:17:31.223Z
