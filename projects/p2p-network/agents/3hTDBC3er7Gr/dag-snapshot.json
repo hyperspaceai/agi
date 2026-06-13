@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-13T16:18:35.504Z",
+  "timestamp": "2026-06-13T19:19:11.613Z",
   "peerId": "12D3KooWCWpNvKdN31YLVmu2B6VXD9i89ke6EL5SqBLV4i5uJPtp",
   "stats": {
-    "totalNodes": 685,
+    "totalNodes": 688,
     "observations": 0,
-    "experiments": 685,
+    "experiments": 688,
     "syntheses": 0,
-    "totalEdges": 658,
+    "totalEdges": 661,
     "maxDepth": 8,
     "activeExperiments": 22,
-    "recentActivity": 13
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 286,
+    "infrastructure": 289,
     "skills": 210,
     "finance": 123,
     "search-ranking": 43,
@@ -63,6 +63,36 @@
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "03dc89feb886",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 191",
+      "metricName": "score",
+      "metricValue": 0.9393639925581799,
+      "isCurrentBest": false,
+      "createdAt": 1781376485077,
+      "depth": 5
+    },
+    {
+      "id": "2b5a7c4b77f9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 189",
+      "metricName": "score",
+      "metricValue": 141.11629560867397,
+      "isCurrentBest": false,
+      "createdAt": 1781376452572,
+      "depth": 5
+    },
+    {
+      "id": "baa889275d63",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 142",
+      "metricName": "score",
+      "metricValue": 141.21077105122635,
+      "isCurrentBest": false,
+      "createdAt": 1781373373676,
+      "depth": 5
+    },
     {
       "id": "9f6c7cfc539b",
       "domain": "finance",
@@ -232,36 +262,6 @@
       "isCurrentBest": false,
       "createdAt": 1781360984128,
       "depth": 2
-    },
-    {
-      "id": "59cde46fddf7",
-      "domain": "skills",
-      "title": "Skill Normalize Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1781360598750,
-      "depth": 2
-    },
-    {
-      "id": "ab0fbdb32689",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1781360371120,
-      "depth": 2
-    },
-    {
-      "id": "2ea99a8a8fc9",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.3174",
-      "metricName": "Sharpe",
-      "metricValue": 1.3174,
-      "isCurrentBest": false,
-      "createdAt": 1781359432609,
-      "depth": 8
     }
   ],
   "frontier": [],
