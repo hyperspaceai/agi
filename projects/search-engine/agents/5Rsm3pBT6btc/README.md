@@ -1,10 +1,10 @@
 # Search Research — Agent 5Rsm3pBT6btc
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** decrease diversity penalty (0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** a9662208
-**Updated:** 2026-06-11T23:27:17.084Z
+**Run:** 024c0f9f
+**Updated:** 2026-06-14T12:16:17.758Z
