@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 8AmMHuUQKMXi
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
 **Score:** 0.1993
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 77
+**Description:** Extract Entities from Text: 0% correct, round 19
 
-_Updated: 2026-06-14T02:08:08.575Z_
+_Updated: 2026-06-14T03:41:05.690Z_
