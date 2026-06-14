@@ -1,10 +1,10 @@
 # Search Research — Agent 8dkcbYCEtcZV
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.4000
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 389e3e00
-**Updated:** 2026-06-13T17:55:17.931Z
+**Run:** f2c0a3bc
+**Updated:** 2026-06-14T04:28:48.147Z
