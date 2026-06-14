@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 21B39bRdR3AP
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
-**Score:** 0.1992
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Score:** 0.1993
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 161
+**Description:** Structured JSON Diff: 0% correct, round 260
 
-_Updated: 2026-06-14T12:46:47.033Z_
+_Updated: 2026-06-14T16:04:43.293Z_
