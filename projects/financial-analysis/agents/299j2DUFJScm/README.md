@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 299j2DUFJScm
 
-**Best Sharpe Ratio:** 1.2286
-**Hypothesis:** Round 6 best mutation
+**Best Sharpe Ratio:** 1.2075
+**Hypothesis:** Round 4 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.2996
-**Max Drawdown:** 0.0580
+**Alpha:** 1.2965
+**Max Drawdown:** 0.0598
 **LLM:** unknown
-**Run:** finance-r6
-**Updated:** 2026-06-15T17:54:55.370Z
+**Run:** finance-r4
+**Updated:** 2026-06-15T18:06:49.272Z
