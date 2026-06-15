@@ -1,10 +1,10 @@
 # Search Research — Agent Eomf6f26NaJB
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** more expansion terms (5)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** d52cd477
-**Updated:** 2026-06-14T06:28:21.635Z
+**Run:** 506257e0
+**Updated:** 2026-06-15T05:53:19.566Z
