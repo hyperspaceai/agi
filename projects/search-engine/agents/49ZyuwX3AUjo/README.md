@@ -1,10 +1,10 @@
 # Search Research — Agent 49ZyuwX3AUjo
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** reduce body weight (-0.05)
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 22aa15b6
-**Updated:** 2026-06-14T04:29:56.764Z
+**Run:** 1ebaf430
+**Updated:** 2026-06-15T03:14:25.698Z
