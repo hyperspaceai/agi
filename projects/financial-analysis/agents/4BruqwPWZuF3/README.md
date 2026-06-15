@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 4BruqwPWZuF3
 
-**Best Sharpe Ratio:** 0.9683
-**Hypothesis:** [LLM] Increased momentum and trend weights to exploit stronger momentum patterns while incorporating trend-based positioning to enhance risk-adjusted returns.
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, trendWeight
-**Position Sizing:** inverse_vol
-**Alpha:** 0.7097
-**Max Drawdown:** 0.0852
+**Best Sharpe Ratio:** 1.0697
+**Hypothesis:** Round 1 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
+**Position Sizing:** equal_weight
+**Alpha:** 0.9047
+**Max Drawdown:** 0.0793
 **LLM:** unknown
-**Run:** llm-r0
-**Updated:** 2026-06-15T19:04:55.022Z
+**Run:** finance-r1
+**Updated:** 2026-06-15T19:24:52.030Z
