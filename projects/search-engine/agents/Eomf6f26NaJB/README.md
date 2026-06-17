@@ -1,10 +1,10 @@
 # Search Research — Agent Eomf6f26NaJB
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** decrease diversity penalty (0.05)
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 71272e3e
-**Updated:** 2026-06-16T07:21:38.769Z
+**Run:** 77202d80
+**Updated:** 2026-06-17T02:00:18.208Z
