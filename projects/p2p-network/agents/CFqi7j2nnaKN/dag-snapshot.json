@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-17T16:46:44.986Z",
+  "timestamp": "2026-06-17T17:47:10.257Z",
   "peerId": "12D3KooWM5CsrrcVyUas7czyspyNYyxoJk5xD9Zabmh5pxtbzyA8",
   "stats": {
-    "totalNodes": 3845,
+    "totalNodes": 3849,
     "observations": 0,
-    "experiments": 3845,
+    "experiments": 3849,
     "syntheses": 0,
-    "totalEdges": 3819,
+    "totalEdges": 3823,
     "maxDepth": 17,
     "activeExperiments": 4,
-    "recentActivity": 2
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2003,
+    "infrastructure": 2007,
     "finance": 672,
     "skills": 960,
     "general": 18,
@@ -63,6 +63,46 @@
     "search-ranking": 188
   },
   "recentExperiments": [
+    {
+      "id": "3b24080d7192",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 793",
+      "metricName": "score",
+      "metricValue": 0.9442768468101722,
+      "isCurrentBest": false,
+      "createdAt": 1781717444838,
+      "depth": 17
+    },
+    {
+      "id": "dde225b2e362",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 793",
+      "metricName": "score",
+      "metricValue": 145.01927561977902,
+      "isCurrentBest": false,
+      "createdAt": 1781717444836,
+      "depth": 17
+    },
+    {
+      "id": "4f00ba867455",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 789",
+      "metricName": "score",
+      "metricValue": 0.9420460690409697,
+      "isCurrentBest": false,
+      "createdAt": 1781717204824,
+      "depth": 17
+    },
+    {
+      "id": "f83de2125c27",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 771",
+      "metricName": "score",
+      "metricValue": 0.9418967335709331,
+      "isCurrentBest": false,
+      "createdAt": 1781716124831,
+      "depth": 17
+    },
     {
       "id": "e3c811ff08cb",
       "domain": "infrastructure",
@@ -222,46 +262,6 @@
       "isCurrentBest": false,
       "createdAt": 1781674964364,
       "depth": 5
-    },
-    {
-      "id": "d6a6c059a116",
-      "domain": "search-ranking",
-      "title": "Search round 45: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1781673931558,
-      "depth": 1
-    },
-    {
-      "id": "e89843b1f053",
-      "domain": "search-ranking",
-      "title": "Search round 45: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1781673931124,
-      "depth": 1
-    },
-    {
-      "id": "f8412420fb3b",
-      "domain": "search-ranking",
-      "title": "Search round 41: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1781673577201,
-      "depth": 1
-    },
-    {
-      "id": "74a3ecb7a2b9",
-      "domain": "search-ranking",
-      "title": "Search round 41: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1781673577057,
-      "depth": 1
     }
   ],
   "frontier": [],
