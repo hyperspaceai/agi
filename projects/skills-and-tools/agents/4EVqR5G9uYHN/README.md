@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 4EVqR5G9uYHN
 
-**Latest Skill:** Detect Anomalies (IQR) (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Detect Anomalies (IQR): 0% correct, round 60
+**Description:** Normalize Text: 0% correct, round 63
 
-_Updated: 2026-06-17T23:26:21.112Z_
+_Updated: 2026-06-17T23:31:50.201Z_
