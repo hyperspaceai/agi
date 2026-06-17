@@ -1,10 +1,10 @@
 # Search Research — Agent CFqi7j2nnaKN
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Best NDCG@10:** 0.3963
+**Hypothesis:** disable query expansion
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 45d8a678
-**Updated:** 2026-06-11T19:01:36.823Z
+**Run:** bf185da4
+**Updated:** 2026-06-17T03:32:23.896Z
