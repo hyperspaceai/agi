@@ -1,10 +1,10 @@
 # Search Research — Agent CFqi7j2nnaKN
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** boost freshness weight (+0.05)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** fa63612f
-**Updated:** 2026-06-17T22:42:58.004Z
+**Run:** 98cda70e
+**Updated:** 2026-06-18T21:00:00.989Z
