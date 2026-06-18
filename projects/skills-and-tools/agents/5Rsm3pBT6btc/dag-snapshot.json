@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-18T05:02:56.502Z",
+  "timestamp": "2026-06-18T06:10:48.301Z",
   "peerId": "12D3KooWEFEvnwmAHWA6cRGhbjWMcR2TSTjbkMJ18H7nWpQh2k1e",
   "stats": {
-    "totalNodes": 730,
+    "totalNodes": 733,
     "observations": 0,
-    "experiments": 730,
+    "experiments": 733,
     "syntheses": 0,
-    "totalEdges": 726,
+    "totalEdges": 729,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,41 @@
   },
   "domainCounts": {
     "infrastructure": 214,
-    "skills": 312,
+    "skills": 315,
     "finance": 172,
     "search-ranking": 32
   },
   "recentExperiments": [
+    {
+      "id": "82cb153c349c",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1984,
+      "isCurrentBest": false,
+      "createdAt": 1781763018471,
+      "depth": 3
+    },
+    {
+      "id": "6cb3477c7d52",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1984,
+      "isCurrentBest": false,
+      "createdAt": 1781762503473,
+      "depth": 3
+    },
+    {
+      "id": "dacc5f745d39",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1984,
+      "isCurrentBest": false,
+      "createdAt": 1781761673767,
+      "depth": 3
+    },
     {
       "id": "bba835c00fdf",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1781749116166,
-      "depth": 1
-    },
-    {
-      "id": "acff21f5c89b",
-      "domain": "finance",
-      "title": "Finance round 27: Sharpe=1.2946",
-      "metricName": "Sharpe",
-      "metricValue": 1.2946,
-      "isCurrentBest": false,
-      "createdAt": 1781749010714,
-      "depth": 7
-    },
-    {
-      "id": "2328c392b9ed",
-      "domain": "finance",
-      "title": "Finance round 26: Sharpe=1.2890",
-      "metricName": "Sharpe",
-      "metricValue": 1.289,
-      "isCurrentBest": false,
-      "createdAt": 1781748771247,
-      "depth": 7
-    },
-    {
-      "id": "66ad0c52470a",
-      "domain": "search-ranking",
-      "title": "Search round 42: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1781748711745,
       "depth": 1
     }
   ],
