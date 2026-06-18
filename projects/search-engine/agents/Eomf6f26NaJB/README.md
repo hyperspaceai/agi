@@ -1,10 +1,10 @@
 # Search Research — Agent Eomf6f26NaJB
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.3963
+**Hypothesis:** boost click weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b44f8610
-**Updated:** 2026-06-17T21:47:33.211Z
+**Run:** d1b3a309
+**Updated:** 2026-06-18T12:55:50.459Z
