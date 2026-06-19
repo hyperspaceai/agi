@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-19T03:22:42.013Z",
+  "timestamp": "2026-06-19T04:22:42.037Z",
   "peerId": "12D3KooWCWpNvKdN31YLVmu2B6VXD9i89ke6EL5SqBLV4i5uJPtp",
   "stats": {
-    "totalNodes": 1402,
+    "totalNodes": 1404,
     "observations": 0,
-    "experiments": 1402,
+    "experiments": 1404,
     "syntheses": 0,
-    "totalEdges": 1375,
+    "totalEdges": 1377,
     "maxDepth": 8,
     "activeExperiments": 22,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 504,
+    "infrastructure": 506,
     "skills": 546,
     "finance": 286,
     "search-ranking": 43,
@@ -63,6 +63,26 @@
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "f116bf8dcf41",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 317",
+      "metricName": "score",
+      "metricValue": 145.24478552953641,
+      "isCurrentBest": false,
+      "createdAt": 1781842241933,
+      "depth": 7
+    },
+    {
+      "id": "da1382fe542b",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 305",
+      "metricName": "score",
+      "metricValue": 145.43983551695274,
+      "isCurrentBest": false,
+      "createdAt": 1781841521927,
+      "depth": 7
+    },
     {
       "id": "4ebc8666d381",
       "domain": "infrastructure",
@@ -241,26 +261,6 @@
       "metricValue": 0.1997,
       "isCurrentBest": false,
       "createdAt": 1781823521836,
-      "depth": 2
-    },
-    {
-      "id": "fcc8e5b8252b",
-      "domain": "finance",
-      "title": "Finance round 2: Sharpe=1.1796",
-      "metricName": "Sharpe",
-      "metricValue": 1.1796,
-      "isCurrentBest": false,
-      "createdAt": 1781823461831,
-      "depth": 8
-    },
-    {
-      "id": "866e9b1641c0",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1781823401839,
       "depth": 2
     }
   ],
