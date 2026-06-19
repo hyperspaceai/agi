@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2CNYAfkPSk7Z
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1984
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1978
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 64
+**Description:** Extract Entities from Text: 0% correct, round 17
 
-_Updated: 2026-06-18T22:05:05.660Z_
+_Updated: 2026-06-19T09:14:20.674Z_
