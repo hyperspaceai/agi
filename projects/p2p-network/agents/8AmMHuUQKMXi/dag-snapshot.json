@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-20T07:26:16.420Z",
+  "timestamp": "2026-06-20T08:26:05.929Z",
   "peerId": "12D3KooWGz8X3347WFoCr4wDBSKU2t3tPJJXGNpFSLcM5ds2FVYR",
   "stats": {
-    "totalNodes": 4773,
+    "totalNodes": 4776,
     "observations": 0,
-    "experiments": 4773,
+    "experiments": 4776,
     "syntheses": 0,
-    "totalEdges": 4769,
+    "totalEdges": 4772,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -22,12 +22,12 @@
       "depth": 5
     },
     "skills": {
-      "nodeId": "b11a9fc07e5f945a128281ffdc79a9aba53b18e94e9958e17800c2ff098b18c9",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "nodeId": "7a7dfe08001691ff19a3c229b528baf0b0e6c69f263782c66d04ebeeacf8c49e",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1994,
+      "metricValue": 0.1995,
       "metricDirection": "maximize",
-      "depth": 3
+      "depth": 4
     },
     "finance": {
       "nodeId": "3548d921fff983ff76db07869944f21f33ba4ed7d74c10f56bbcfe94dba47dec",
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2046,
-    "skills": 1788,
+    "infrastructure": 2048,
+    "skills": 1789,
     "finance": 783,
     "search-ranking": 156
   },
   "recentExperiments": [
+    {
+      "id": "ddc8b2379f04",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 314",
+      "metricName": "score",
+      "metricValue": 0.9282233978131227,
+      "isCurrentBest": false,
+      "createdAt": 1781943039053,
+      "depth": 6
+    },
+    {
+      "id": "e2181224c3d2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 302",
+      "metricName": "score",
+      "metricValue": 141.21185858443752,
+      "isCurrentBest": false,
+      "createdAt": 1781942321513,
+      "depth": 6
+    },
+    {
+      "id": "7a7dfe080016",
+      "domain": "skills",
+      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": true,
+      "createdAt": 1781942172081,
+      "depth": 4
+    },
     {
       "id": "80691911cbdb",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1781927185515,
       "depth": 10
-    },
-    {
-      "id": "2cb9c68d29f0",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1781926944482,
-      "depth": 4
-    },
-    {
-      "id": "ff9ca26ac4ad",
-      "domain": "finance",
-      "title": "Finance round 18: Sharpe=1.2593",
-      "metricName": "Sharpe",
-      "metricValue": 1.2593,
-      "isCurrentBest": false,
-      "createdAt": 1781926884292,
-      "depth": 10
-    },
-    {
-      "id": "4b31832da5b2",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1781926823982,
-      "depth": 4
     }
   ],
   "frontier": [],
@@ -295,6 +295,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "7a7dfe080016",
+        "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
+        "metricValue": 0.1995,
+        "depth": 4
+      },
       {
         "id": "b11a9fc07e5f",
         "title": "Skill Normalize Text (seed/mutation): 0%",
