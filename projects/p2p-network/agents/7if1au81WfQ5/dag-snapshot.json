@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-22T17:11:28.298Z",
+  "timestamp": "2026-06-22T18:11:28.421Z",
   "peerId": "12D3KooWGY2BL2hihZfZWnEi9JibCfqgCHpHtcF3Fftt3X1vzati",
   "stats": {
-    "totalNodes": 3866,
+    "totalNodes": 3868,
     "observations": 0,
-    "experiments": 3866,
+    "experiments": 3868,
     "syntheses": 0,
-    "totalEdges": 3828,
+    "totalEdges": 3830,
     "maxDepth": 15,
     "activeExperiments": 19,
-    "recentActivity": 22
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,14 +55,34 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1614,
-    "skills": 1048,
+    "infrastructure": 1615,
+    "skills": 1049,
     "physics": 19,
     "general": 15,
     "search-ranking": 496,
     "finance": 674
   },
   "recentExperiments": [
+    {
+      "id": "95e8fb4b21d3",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1782149727984,
+      "depth": 4
+    },
+    {
+      "id": "7ddb38480717",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 112",
+      "metricName": "score",
+      "metricValue": 0.9612728074293235,
+      "isCurrentBest": false,
+      "createdAt": 1782149667954,
+      "depth": 15
+    },
     {
       "id": "f5e52b3d8e95",
       "domain": "search-ranking",
@@ -242,26 +262,6 @@
       "isCurrentBest": false,
       "createdAt": 1782145736725,
       "depth": 2
-    },
-    {
-      "id": "52a3b18a083c",
-      "domain": "search-ranking",
-      "title": "Search round 31: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1782145734728,
-      "depth": 2
-    },
-    {
-      "id": "af98fb78194c",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1782145528296,
-      "depth": 4
     }
   ],
   "frontier": [],
