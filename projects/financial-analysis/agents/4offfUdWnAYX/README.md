@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 4offfUdWnAYX
 
-**Best Sharpe Ratio:** 1.1381
-**Hypothesis:** [LLM] Increased quality factor weight and enabled drawdown protection to improve Sharpe ratio while managing risk.
+**Best Sharpe Ratio:** 1.2298
+**Hypothesis:** Round 7 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.1569
-**Max Drawdown:** 0.0789
+**Alpha:** 1.2903
+**Max Drawdown:** 0.0577
 **LLM:** unknown
-**Run:** llm-r4
-**Updated:** 2026-06-15T22:04:39.640Z
+**Run:** finance-r7
+**Updated:** 2026-06-23T03:58:51.926Z
