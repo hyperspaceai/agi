@@ -1,10 +1,10 @@
 # Search Research — Agent FJyhCDijqKjT
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** boost diversity weight (+0.03)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** disable intent classification
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 212ebdd9
-**Updated:** 2026-06-23T09:31:45.407Z
+**Run:** 06e56e7b
+**Updated:** 2026-06-23T16:37:26.068Z
