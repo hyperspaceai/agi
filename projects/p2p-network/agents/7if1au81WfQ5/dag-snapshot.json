@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-06-23T03:11:29.586Z",
+  "timestamp": "2026-06-23T04:11:30.061Z",
   "peerId": "12D3KooWGY2BL2hihZfZWnEi9JibCfqgCHpHtcF3Fftt3X1vzati",
   "stats": {
-    "totalNodes": 3884,
+    "totalNodes": 3886,
     "observations": 0,
-    "experiments": 3884,
+    "experiments": 3886,
     "syntheses": 0,
-    "totalEdges": 3846,
+    "totalEdges": 3848,
     "maxDepth": 15,
     "activeExperiments": 19,
     "recentActivity": 2
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1630,
+    "infrastructure": 1632,
     "skills": 1050,
     "physics": 19,
     "general": 15,
@@ -63,6 +63,26 @@
     "finance": 674
   },
   "recentExperiments": [
+    {
+      "id": "6cd6d67a2751",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 728",
+      "metricName": "score",
+      "metricValue": 0.9239181430625413,
+      "isCurrentBest": false,
+      "createdAt": 1782186629237,
+      "depth": 15
+    },
+    {
+      "id": "d122017201a7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 726",
+      "metricName": "score",
+      "metricValue": 0.9226585148804055,
+      "isCurrentBest": false,
+      "createdAt": 1782186509236,
+      "depth": 15
+    },
     {
       "id": "bc7793f86974",
       "domain": "infrastructure",
@@ -242,26 +262,6 @@
       "isCurrentBest": false,
       "createdAt": 1782149667954,
       "depth": 15
-    },
-    {
-      "id": "f5e52b3d8e95",
-      "domain": "search-ranking",
-      "title": "Search round 42: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1782146757680,
-      "depth": 2
-    },
-    {
-      "id": "9a56c5b5674a",
-      "domain": "search-ranking",
-      "title": "Search round 42: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1782146757447,
-      "depth": 2
     }
   ],
   "frontier": [],
