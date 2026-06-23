@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-23T12:16:25.359Z",
+  "timestamp": "2026-06-23T13:16:25.483Z",
   "peerId": "12D3KooWPd8pqnboZUZgKfmnvVWgwLmcWBj7AvzaTi3pNXMsxju5",
   "stats": {
-    "totalNodes": 4720,
+    "totalNodes": 4722,
     "observations": 0,
-    "experiments": 4720,
+    "experiments": 4722,
     "syntheses": 0,
-    "totalEdges": 4612,
+    "totalEdges": 4614,
     "maxDepth": 7,
     "activeExperiments": 79,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,7 +55,7 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1992,
+    "infrastructure": 1994,
     "skills": 1545,
     "finance": 923,
     "search-ranking": 156,
@@ -63,6 +63,26 @@
     "general": 25
   },
   "recentExperiments": [
+    {
+      "id": "65918c190593",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 230",
+      "metricName": "score",
+      "metricValue": 145.09061815357754,
+      "isCurrentBest": false,
+      "createdAt": 1782218245210,
+      "depth": 4
+    },
+    {
+      "id": "9ba1f05ea796",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 220",
+      "metricName": "score",
+      "metricValue": 0.9381952107189073,
+      "isCurrentBest": false,
+      "createdAt": 1782217645203,
+      "depth": 4
+    },
     {
       "id": "98d9bccc6abc",
       "domain": "infrastructure",
@@ -241,26 +261,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1782207233461,
-      "depth": 1
-    },
-    {
-      "id": "dd2de9286980",
-      "domain": "search-ranking",
-      "title": "Search round 31: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1782207233229,
-      "depth": 1
-    },
-    {
-      "id": "c2c1dc6e7aa7",
-      "domain": "search-ranking",
-      "title": "Search round 31: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1782207232639,
       "depth": 1
     }
   ],
