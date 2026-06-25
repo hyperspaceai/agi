@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-25T04:32:24.210Z",
+  "timestamp": "2026-06-25T05:32:26.021Z",
   "peerId": "12D3KooWLbAipjorV4TUmH4H2NnCYNbZF5v7rJ7nWr1hyaXQHr5E",
   "stats": {
-    "totalNodes": 141,
+    "totalNodes": 143,
     "observations": 0,
-    "experiments": 141,
+    "experiments": 143,
     "syntheses": 0,
-    "totalEdges": 138,
+    "totalEdges": 140,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 6
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -22,12 +22,12 @@
       "depth": 2
     },
     "skills": {
-      "nodeId": "7e70dc89960eab74183a2d7924315d586c25c7d23ea481cc98b0c6fd2b173360",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "nodeId": "6b69b2ecda4ce595b71b4331be009ba68581c2592092f8421c68ba4d0e9b7e64",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1997,
+      "metricValue": 0.1998,
       "metricDirection": "maximize",
-      "depth": 0
+      "depth": 1
     },
     "finance": {
       "nodeId": "16468b335f06a35a367dadd7c778c94b0fe3be1de5e9e8ebe0ebf9643ec91d10",
@@ -40,10 +40,30 @@
   },
   "domainCounts": {
     "infrastructure": 52,
-    "skills": 58,
+    "skills": 60,
     "finance": 31
   },
   "recentExperiments": [
+    {
+      "id": "a0a538798947",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1782362544057,
+      "depth": 2
+    },
+    {
+      "id": "6b69b2ecda4c",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": true,
+      "createdAt": 1782362304043,
+      "depth": 1
+    },
     {
       "id": "50b9de5b59fd",
       "domain": "skills",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1782357018200,
       "depth": 1
-    },
-    {
-      "id": "ca0fcf6e19ca",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.1899",
-      "metricName": "Sharpe",
-      "metricValue": 1.1899,
-      "isCurrentBest": false,
-      "createdAt": 1782356993790,
-      "depth": 7
-    },
-    {
-      "id": "aa602ccaff8a",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1782356896763,
-      "depth": 1
     }
   ],
   "frontier": [],
@@ -268,6 +268,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "6b69b2ecda4c",
+        "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+        "metricValue": 0.1998,
+        "depth": 1
+      },
       {
         "id": "7e70dc89960e",
         "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
