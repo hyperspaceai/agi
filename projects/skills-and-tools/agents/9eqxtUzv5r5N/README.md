@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 9eqxtUzv5r5N
 
 **Latest Skill:** Structured JSON Diff (seed/mutation) v1
-**Score:** 0.1996
+**Score:** 0.1995
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 179
+**Description:** Structured JSON Diff: 0% correct, round 5
 
-_Updated: 2026-06-26T19:45:17.809Z_
+_Updated: 2026-06-26T21:12:36.594Z_
