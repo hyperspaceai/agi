@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-26T15:10:51.212Z",
+  "timestamp": "2026-06-26T16:11:04.817Z",
   "peerId": "12D3KooWD3s1ACqs6SYs8GeGmkenrqxSaTdnwHAHksEWJg57jqwu",
   "stats": {
-    "totalNodes": 4097,
+    "totalNodes": 4099,
     "observations": 0,
-    "experiments": 4097,
+    "experiments": 4099,
     "syntheses": 0,
-    "totalEdges": 4093,
+    "totalEdges": 4095,
     "maxDepth": 19,
     "activeExperiments": 0,
-    "recentActivity": 15
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1343,
-    "skills": 1717,
+    "infrastructure": 1344,
+    "skills": 1718,
     "finance": 739,
     "search-ranking": 298
   },
   "recentExperiments": [
+    {
+      "id": "f4e2360b8797",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 140",
+      "metricName": "score",
+      "metricValue": 141.23881118513097,
+      "isCurrentBest": false,
+      "createdAt": 1782489692780,
+      "depth": 4
+    },
+    {
+      "id": "2a5f2c347d9a",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1782487256085,
+      "depth": 3
+    },
     {
       "id": "7dd363f84b60",
       "domain": "skills",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1782482879666,
       "depth": 19
-    },
-    {
-      "id": "3354e6605a50",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 26",
-      "metricName": "score",
-      "metricValue": 141.04300647417082,
-      "isCurrentBest": false,
-      "createdAt": 1782482840015,
-      "depth": 4
-    },
-    {
-      "id": "f0f80598db17",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1782482785713,
-      "depth": 3
     }
   ],
   "frontier": [],
