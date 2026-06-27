@@ -1,11 +1,11 @@
 # Financial Analysis — Agent HuANgEFexATi
 
-**Best Sharpe Ratio:** 1.2826
-**Hypothesis:** Round 6 best mutation
+**Best Sharpe Ratio:** 1.2905
+**Hypothesis:** Round 8 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.4782
-**Max Drawdown:** 0.0568
+**Alpha:** 1.4843
+**Max Drawdown:** 0.0563
 **LLM:** unknown
-**Run:** finance-r6
-**Updated:** 2026-06-27T22:27:35.312Z
+**Run:** finance-r8
+**Updated:** 2026-06-27T22:32:35.261Z
