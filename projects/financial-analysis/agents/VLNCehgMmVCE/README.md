@@ -1,11 +1,11 @@
 # Financial Analysis — Agent VLNCehgMmVCE
 
-**Best Sharpe Ratio:** 1.3114
-**Hypothesis:** Round 14 best mutation
+**Best Sharpe Ratio:** 1.2619
+**Hypothesis:** Round 13 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.5271
-**Max Drawdown:** 0.0554
+**Alpha:** 1.3470
+**Max Drawdown:** 0.0711
 **LLM:** unknown
-**Run:** finance-r14
-**Updated:** 2026-06-04T07:13:47.006Z
+**Run:** finance-r13
+**Updated:** 2026-06-27T07:04:06.369Z
