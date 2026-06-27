@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-06-27T02:27:14.842Z",
+  "timestamp": "2026-06-27T03:27:56.080Z",
   "peerId": "12D3KooWEFEvnwmAHWA6cRGhbjWMcR2TSTjbkMJ18H7nWpQh2k1e",
   "stats": {
-    "totalNodes": 2763,
+    "totalNodes": 2765,
     "observations": 0,
-    "experiments": 2763,
+    "experiments": 2765,
     "syntheses": 0,
-    "totalEdges": 2759,
+    "totalEdges": 2761,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 8
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 795,
-    "skills": 1250,
+    "skills": 1252,
     "finance": 630,
     "search-ranking": 88
   },
   "recentExperiments": [
+    {
+      "id": "486dbec44dcd",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1984,
+      "isCurrentBest": false,
+      "createdAt": 1782530512454,
+      "depth": 3
+    },
+    {
+      "id": "87de983589e2",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1984,
+      "isCurrentBest": false,
+      "createdAt": 1782527841260,
+      "depth": 3
+    },
     {
       "id": "13d2342a7130",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.198,
       "isCurrentBest": false,
       "createdAt": 1782522097966,
-      "depth": 3
-    },
-    {
-      "id": "353250db3cef",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 5",
-      "metricName": "score",
-      "metricValue": 141.52576195982732,
-      "isCurrentBest": false,
-      "createdAt": 1782522097895,
-      "depth": 4
-    },
-    {
-      "id": "1fd1c60e2e7e",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1979,
-      "isCurrentBest": false,
-      "createdAt": 1782521977381,
       "depth": 3
     }
   ],
