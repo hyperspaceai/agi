@@ -1,10 +1,10 @@
 # Search Research — Agent 2CNYAfkPSk7Z
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost diversity weight (+0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ffdae500
-**Updated:** 2026-06-27T08:41:25.792Z
+**Run:** ab6cf7b8
+**Updated:** 2026-06-27T10:47:57.525Z
