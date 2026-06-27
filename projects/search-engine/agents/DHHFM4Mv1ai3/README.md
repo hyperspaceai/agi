@@ -1,10 +1,10 @@
 # Search Research — Agent DHHFM4Mv1ai3
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Hypothesis:** use softmax normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 5ea767a4
-**Updated:** 2026-06-19T15:50:27.685Z
+**Run:** 4079db58
+**Updated:** 2026-06-27T01:55:21.001Z
