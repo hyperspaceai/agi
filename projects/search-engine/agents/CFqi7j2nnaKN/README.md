@@ -1,10 +1,10 @@
 # Search Research — Agent CFqi7j2nnaKN
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** disable query expansion
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 102782f6
-**Updated:** 2026-06-27T13:57:25.826Z
+**Run:** 9f2b3a34
+**Updated:** 2026-06-28T20:22:58.095Z
