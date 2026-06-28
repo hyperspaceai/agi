@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-06-28T22:49:23.280Z",
+  "timestamp": "2026-06-28T23:46:32.326Z",
   "peerId": "12D3KooWMchqNCJUMGrChAWjxf3nuggbhETA7dbzkv3gRt5sTfLc",
   "stats": {
-    "totalNodes": 166,
+    "totalNodes": 167,
     "observations": 0,
-    "experiments": 166,
+    "experiments": 167,
     "syntheses": 0,
-    "totalEdges": 162,
+    "totalEdges": 163,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 70,
+    "infrastructure": 71,
     "skills": 42,
     "finance": 26,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "072f49f46e2e",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1085",
+      "metricName": "score",
+      "metricValue": 0.9044545072526742,
+      "isCurrentBest": false,
+      "createdAt": 1782688993756,
+      "depth": 3
+    },
     {
       "id": "41b279b9e1f8",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1782631891309,
       "depth": 3
-    },
-    {
-      "id": "4d01206578c0",
-      "domain": "search-ranking",
-      "title": "Search round 49: require 5 unique domains",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1782630358978,
-      "depth": 1
     }
   ],
   "frontier": [],
