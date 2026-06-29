@@ -1,10 +1,10 @@
 # Search Research — Agent 8Zvizpmd2Lf7
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** local + peer only
+**Best NDCG@10:** 0.3963
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** b5e3ed4c
-**Updated:** 2026-06-27T22:11:59.726Z
+**Run:** 44c86178
+**Updated:** 2026-06-29T02:23:49.165Z
