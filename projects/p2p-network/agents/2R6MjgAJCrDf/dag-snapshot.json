@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-06-29T08:16:25.689Z",
+  "timestamp": "2026-06-29T10:16:26.782Z",
   "peerId": "12D3KooWBETXUok1PkV9XqWFFtU9a5n8YQErVWgx1vcnucWJhjPQ",
   "stats": {
-    "totalNodes": 1457,
+    "totalNodes": 1460,
     "observations": 0,
-    "experiments": 1457,
+    "experiments": 1460,
     "syntheses": 0,
-    "totalEdges": 1454,
+    "totalEdges": 1457,
     "maxDepth": 15,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
-      "nodeId": "ea43896f245565bace07cdffd41309c409251ef864b362d0be564aaa6055705a",
-      "title": "Cause infra-optimization round 9065",
+      "nodeId": "a47d3b308b650821cf8618328650928113b8a9e287d708109c20d4d96d010e1b",
+      "title": "Cause infra-optimization round 9569",
       "metricName": "score",
-      "metricValue": 146.67699987543045,
+      "metricValue": 146.69603636139715,
       "metricDirection": "maximize",
-      "depth": 14
+      "depth": 15
     },
     "skills": {
       "nodeId": "fbbf3aaded7869f434681fa40b21a9b7d095c52fe8404c0d6dad62ec162c9632",
@@ -39,11 +39,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 901,
+    "infrastructure": 904,
     "skills": 334,
     "finance": 222
   },
   "recentExperiments": [
+    {
+      "id": "a47d3b308b65",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 9569",
+      "metricName": "score",
+      "metricValue": 146.69603636139715,
+      "isCurrentBest": true,
+      "createdAt": 1782726956601,
+      "depth": 15
+    },
+    {
+      "id": "7b20f496af40",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 9542",
+      "metricName": "score",
+      "metricValue": 0.8898765423478001,
+      "isCurrentBest": false,
+      "createdAt": 1782725335515,
+      "depth": 15
+    },
+    {
+      "id": "42d8b0b4f048",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 9527",
+      "metricName": "score",
+      "metricValue": 0.8893430342746741,
+      "isCurrentBest": false,
+      "createdAt": 1782724435503,
+      "depth": 15
+    },
     {
       "id": "bd205cd86b61",
       "domain": "infrastructure",
@@ -150,7 +180,7 @@
       "title": "Cause infra-optimization round 9065",
       "metricName": "score",
       "metricValue": 146.67699987543045,
-      "isCurrentBest": true,
+      "isCurrentBest": false,
       "createdAt": 1782696714578,
       "depth": 14
     },
@@ -213,41 +243,17 @@
       "isCurrentBest": false,
       "createdAt": 1782681051357,
       "depth": 13
-    },
-    {
-      "id": "a0728a9b61fc",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 8802",
-      "metricName": "score",
-      "metricValue": 0.8891589745360455,
-      "isCurrentBest": false,
-      "createdAt": 1782680931355,
-      "depth": 13
-    },
-    {
-      "id": "a5cf7a8a914a",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 8797",
-      "metricName": "score",
-      "metricValue": 146.07078379005554,
-      "isCurrentBest": false,
-      "createdAt": 1782680631352,
-      "depth": 13
-    },
-    {
-      "id": "1bf78ec5aaf6",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 8796",
-      "metricName": "score",
-      "metricValue": 0.8872406173065833,
-      "isCurrentBest": false,
-      "createdAt": 1782680571352,
-      "depth": 13
     }
   ],
   "frontier": [],
   "lineages": {
     "infrastructure": [
+      {
+        "id": "a47d3b308b65",
+        "title": "Cause infra-optimization round 9569",
+        "metricValue": 146.69603636139715,
+        "depth": 15
+      },
       {
         "id": "ea43896f2455",
         "title": "Cause infra-optimization round 9065",
@@ -301,12 +307,6 @@
         "title": "Cause infra-optimization round 3834",
         "metricValue": 145.5517769950333,
         "depth": 6
-      },
-      {
-        "id": "a62cd65e7a45",
-        "title": "Cause infra-optimization round 3657",
-        "metricValue": 145.49514418023975,
-        "depth": 5
       }
     ],
     "skills": [
