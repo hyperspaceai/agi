@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-06-29T12:43:49.862Z",
+  "timestamp": "2026-06-29T13:43:44.483Z",
   "peerId": "12D3KooWN6eR6BwdCUyXUSRpb2v1Mb5D31gFYy6pfFTaQ6oSUznX",
   "stats": {
-    "totalNodes": 644,
+    "totalNodes": 645,
     "observations": 0,
-    "experiments": 644,
+    "experiments": 645,
     "syntheses": 0,
-    "totalEdges": 640,
+    "totalEdges": 641,
     "maxDepth": 6,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 270,
+    "infrastructure": 271,
     "skills": 191,
     "finance": 99,
     "search-ranking": 84
   },
   "recentExperiments": [
+    {
+      "id": "3a5f04c7d750",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 919",
+      "metricName": "score",
+      "metricValue": 0.9132316303902757,
+      "isCurrentBest": false,
+      "createdAt": 1782740025410,
+      "depth": 3
+    },
     {
       "id": "f6021dc0ea80",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 141.40678954378416,
       "isCurrentBest": false,
       "createdAt": 1782690631500,
-      "depth": 3
-    },
-    {
-      "id": "3f89a6ec973d",
-      "domain": "search-ranking",
-      "title": "Search round 49: use softmax normalization",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1782689361899,
       "depth": 3
     }
   ],
