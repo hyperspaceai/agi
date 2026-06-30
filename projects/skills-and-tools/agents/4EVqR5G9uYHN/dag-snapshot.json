@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-06-30T00:44:49.314Z",
+  "timestamp": "2026-06-30T01:44:49.560Z",
   "peerId": "12D3KooWD3s1ACqs6SYs8GeGmkenrqxSaTdnwHAHksEWJg57jqwu",
   "stats": {
-    "totalNodes": 4347,
+    "totalNodes": 4348,
     "observations": 0,
-    "experiments": 4347,
+    "experiments": 4348,
     "syntheses": 0,
-    "totalEdges": 4343,
+    "totalEdges": 4344,
     "maxDepth": 19,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1467,
+    "infrastructure": 1468,
     "skills": 1812,
     "finance": 770,
     "search-ranking": 298
   },
   "recentExperiments": [
+    {
+      "id": "dcd9fad3c44f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 404",
+      "metricName": "score",
+      "metricValue": 141.11259818379966,
+      "isCurrentBest": false,
+      "createdAt": 1782781158986,
+      "depth": 4
+    },
     {
       "id": "a225b667d6ab",
       "domain": "skills",
@@ -241,16 +251,6 @@
       "metricValue": 0.1995,
       "isCurrentBest": false,
       "createdAt": 1782764786826,
-      "depth": 3
-    },
-    {
-      "id": "699ef0bd71bb",
-      "domain": "skills",
-      "title": "Skill Normalize Text (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1782762377876,
       "depth": 3
     }
   ],
