@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-02T12:03:39.890Z",
+  "timestamp": "2026-07-02T13:03:39.911Z",
   "peerId": "12D3KooWPd8pqnboZUZgKfmnvVWgwLmcWBj7AvzaTi3pNXMsxju5",
   "stats": {
-    "totalNodes": 4608,
+    "totalNodes": 4609,
     "observations": 0,
-    "experiments": 4608,
+    "experiments": 4609,
     "syntheses": 0,
-    "totalEdges": 4603,
+    "totalEdges": 4604,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,23 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1952,
+    "infrastructure": 1953,
     "skills": 1498,
     "finance": 945,
     "search-ranking": 212,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "1bf46f24f432",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 533",
+      "metricName": "score",
+      "metricValue": 0.9303260388162752,
+      "isCurrentBest": false,
+      "createdAt": 1782995259733,
+      "depth": 4
+    },
     {
       "id": "3afafadd497c",
       "domain": "infrastructure",
@@ -250,16 +260,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1782966426183,
-      "depth": 1
-    },
-    {
-      "id": "2a40cb6c02d8",
-      "domain": "search-ranking",
-      "title": "Search round 35: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1782966426091,
       "depth": 1
     }
   ],
