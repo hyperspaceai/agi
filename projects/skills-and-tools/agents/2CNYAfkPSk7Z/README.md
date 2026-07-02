@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2CNYAfkPSk7Z
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
-**Score:** 0.1983
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.1984
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 88
+**Description:** Parse Key-Value Log: 0% correct, round 94
 
-_Updated: 2026-07-02T20:59:00.991Z_
+_Updated: 2026-07-02T21:11:37.045Z_
