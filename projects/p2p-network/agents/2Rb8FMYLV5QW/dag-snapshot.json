@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-02T12:47:46.889Z",
+  "timestamp": "2026-07-02T14:47:47.141Z",
   "peerId": "12D3KooWBExHzV83fyg1QoeNQ3qp7LorZpZ1GmU3tBx2mX6ujgBR",
   "stats": {
-    "totalNodes": 3030,
+    "totalNodes": 3036,
     "observations": 0,
-    "experiments": 3030,
+    "experiments": 3036,
     "syntheses": 0,
-    "totalEdges": 3026,
+    "totalEdges": 3032,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,72 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1212,
-    "skills": 1174,
+    "infrastructure": 1217,
+    "skills": 1175,
     "finance": 535,
     "search-ranking": 109
   },
   "recentExperiments": [
+    {
+      "id": "7f632250208a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 356",
+      "metricName": "score",
+      "metricValue": 141.18790588433652,
+      "isCurrentBest": false,
+      "createdAt": 1783001686762,
+      "depth": 5
+    },
+    {
+      "id": "16ac2b7c543a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 330",
+      "metricName": "score",
+      "metricValue": 141.27753402818107,
+      "isCurrentBest": false,
+      "createdAt": 1783000126747,
+      "depth": 5
+    },
+    {
+      "id": "bb89ab9819ca",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 313",
+      "metricName": "score",
+      "metricValue": 141.4163512968609,
+      "isCurrentBest": false,
+      "createdAt": 1782999106738,
+      "depth": 5
+    },
+    {
+      "id": "4b34590d2fb2",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1782998866821,
+      "depth": 2
+    },
+    {
+      "id": "49d0124e05d9",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 294",
+      "metricName": "score",
+      "metricValue": 142.3606290159883,
+      "isCurrentBest": false,
+      "createdAt": 1782997966722,
+      "depth": 5
+    },
+    {
+      "id": "f96197315113",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 273",
+      "metricName": "score",
+      "metricValue": 144.98739288441408,
+      "isCurrentBest": false,
+      "createdAt": 1782996706701,
+      "depth": 5
+    },
     {
       "id": "50821ce6277b",
       "domain": "infrastructure",
@@ -191,66 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1782983791429,
-      "depth": 1
-    },
-    {
-      "id": "6c1b287a6aee",
-      "domain": "search-ranking",
-      "title": "Search round 39: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1782983790391,
-      "depth": 1
-    },
-    {
-      "id": "1d0b8048cee5",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1782983746303,
-      "depth": 2
-    },
-    {
-      "id": "1f3d3112435f",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1782983432836,
-      "depth": 1
-    },
-    {
-      "id": "90537de5041b",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1782983432699,
-      "depth": 1
-    },
-    {
-      "id": "36b3c5a2b643",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1782983431488,
-      "depth": 1
-    },
-    {
-      "id": "42088044cffd",
-      "domain": "search-ranking",
-      "title": "Search round 35: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1782983430290,
       "depth": 1
     }
   ],
