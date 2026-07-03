@@ -1,10 +1,10 @@
 # Search Research — Agent C4rT2Nvds4tq
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** decrease diversity penalty (0.05)
+**Best NDCG@10:** 0.3950
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8d4aaaba
-**Updated:** 2026-07-02T12:48:17.601Z
+**Run:** 9b6158f0
+**Updated:** 2026-07-03T11:55:36.823Z
