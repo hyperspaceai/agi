@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-03T18:47:27.079Z",
+  "timestamp": "2026-07-03T19:47:27.113Z",
   "peerId": "12D3KooWGxFbizcGhGwruGXvzZVPye6x8vNbBQ8PXq7PBX6t266T",
   "stats": {
-    "totalNodes": 4424,
+    "totalNodes": 4426,
     "observations": 0,
-    "experiments": 4424,
+    "experiments": 4426,
     "syntheses": 0,
-    "totalEdges": 4420,
+    "totalEdges": 4422,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1963,
-    "skills": 1311,
+    "infrastructure": 1964,
+    "skills": 1312,
     "finance": 867,
     "search-ranking": 283
   },
   "recentExperiments": [
+    {
+      "id": "786bb3fc0f5d",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1783107206852,
+      "depth": 2
+    },
+    {
+      "id": "4509c5ee01f3",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 191",
+      "metricName": "score",
+      "metricValue": 0.929799004164459,
+      "isCurrentBest": false,
+      "createdAt": 1783106936841,
+      "depth": 8
+    },
     {
       "id": "9a227a7aed5c",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1783095896681,
       "depth": 8
-    },
-    {
-      "id": "a93b54a77da9",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 6",
-      "metricName": "score",
-      "metricValue": 141.59588617608932,
-      "isCurrentBest": false,
-      "createdAt": 1783095836510,
-      "depth": 8
-    },
-    {
-      "id": "946eead81e2c",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1783095806523,
-      "depth": 2
     }
   ],
   "frontier": [],
