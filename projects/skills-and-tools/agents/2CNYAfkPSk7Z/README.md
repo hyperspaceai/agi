@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 2CNYAfkPSk7Z
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1985
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1981
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 300
+**Description:** Normalize Text: 0% correct, round 32
 
-_Updated: 2026-07-03T04:42:05.693Z_
+_Updated: 2026-07-03T06:30:18.384Z_
