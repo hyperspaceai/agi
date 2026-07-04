@@ -1,10 +1,10 @@
 # Search Research — Agent 9eqxtUzv5r5N
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** require more local results (5)
+**Best NDCG@10:** 0.3963
+**Hypothesis:** boost title weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7e3548c6
-**Updated:** 2026-07-04T03:38:29.235Z
+**Run:** 3bfff180
+**Updated:** 2026-07-04T06:08:28.151Z
