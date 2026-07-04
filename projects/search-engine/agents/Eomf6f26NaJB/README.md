@@ -1,10 +1,10 @@
 # Search Research — Agent Eomf6f26NaJB
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost click weight (+0.03)
+**Hypothesis:** reduce anchor weight (-0.03)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** aad45b24
-**Updated:** 2026-07-03T23:33:00.690Z
+**Run:** 3a79283c
+**Updated:** 2026-07-04T10:19:33.864Z
