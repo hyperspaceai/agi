@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-05T07:17:04.818Z",
+  "timestamp": "2026-07-05T08:17:07.484Z",
   "peerId": "12D3KooWGY2BL2hihZfZWnEi9JibCfqgCHpHtcF3Fftt3X1vzati",
   "stats": {
-    "totalNodes": 4901,
+    "totalNodes": 4903,
     "observations": 0,
-    "experiments": 4901,
+    "experiments": 4903,
     "syntheses": 0,
-    "totalEdges": 4896,
+    "totalEdges": 4898,
     "maxDepth": 15,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -55,13 +55,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1897,
+    "infrastructure": 1899,
     "skills": 1381,
     "search-ranking": 760,
     "finance": 862,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "e7ba9441c7e5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 851",
+      "metricName": "score",
+      "metricValue": 141.01053020442743,
+      "isCurrentBest": false,
+      "createdAt": 1783238346020,
+      "depth": 15
+    },
+    {
+      "id": "3e96040fa1e5",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 813",
+      "metricName": "score",
+      "metricValue": 0.9351212061441144,
+      "isCurrentBest": false,
+      "createdAt": 1783236064635,
+      "depth": 15
+    },
     {
       "id": "bb05dc44c66a",
       "domain": "infrastructure",
@@ -240,26 +260,6 @@
       "metricValue": 0.1994,
       "isCurrentBest": false,
       "createdAt": 1783196821528,
-      "depth": 4
-    },
-    {
-      "id": "5d30de5745ed",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1783196101473,
-      "depth": 4
-    },
-    {
-      "id": "77b0ec255214",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1783195621168,
       "depth": 4
     }
   ],
