@@ -1,10 +1,10 @@
 # Search Research — Agent CqAieucFrRvt
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** boost diversity weight (+0.03)
+**Best NDCG@10:** 0.3936
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ebd94e7c
-**Updated:** 2026-07-01T17:38:25.713Z
+**Run:** e2bf4187
+**Updated:** 2026-07-06T09:20:21.603Z
