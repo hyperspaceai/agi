@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-06T00:23:09.975Z",
+  "timestamp": "2026-07-06T01:23:10.039Z",
   "peerId": "12D3KooWHPHtjxMLDEvbvsMfSSt7uJ88RMBkkq8UQd8k2SisK7AC",
   "stats": {
-    "totalNodes": 4624,
+    "totalNodes": 4626,
     "observations": 0,
-    "experiments": 4624,
+    "experiments": 4626,
     "syntheses": 0,
-    "totalEdges": 4620,
+    "totalEdges": 4622,
     "maxDepth": 7,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2821,
+    "infrastructure": 2823,
     "skills": 101,
     "finance": 888,
     "search-ranking": 814
   },
   "recentExperiments": [
+    {
+      "id": "ed321ab24e1d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 371",
+      "metricName": "score",
+      "metricValue": 144.98317144239675,
+      "isCurrentBest": false,
+      "createdAt": 1783299909854,
+      "depth": 5
+    },
+    {
+      "id": "da1295a0686c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 364",
+      "metricName": "score",
+      "metricValue": 0.9333903701169656,
+      "isCurrentBest": false,
+      "createdAt": 1783299489851,
+      "depth": 5
+    },
     {
       "id": "dfffac5a89ff",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1783279869451,
       "depth": 5
-    },
-    {
-      "id": "e97e692a2f56",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 17",
-      "metricName": "score",
-      "metricValue": 141.30196803359053,
-      "isCurrentBest": false,
-      "createdAt": 1783278669438,
-      "depth": 5
-    },
-    {
-      "id": "9ac5960c7409",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.3205",
-      "metricName": "Sharpe",
-      "metricValue": 1.3205,
-      "isCurrentBest": false,
-      "createdAt": 1783278639449,
-      "depth": 7
     }
   ],
   "frontier": [],
