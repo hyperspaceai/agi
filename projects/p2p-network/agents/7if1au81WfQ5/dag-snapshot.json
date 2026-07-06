@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-06T18:40:27.678Z",
+  "timestamp": "2026-07-06T19:40:27.729Z",
   "peerId": "12D3KooWGY2BL2hihZfZWnEi9JibCfqgCHpHtcF3Fftt3X1vzati",
   "stats": {
-    "totalNodes": 4616,
+    "totalNodes": 4617,
     "observations": 0,
-    "experiments": 4616,
+    "experiments": 4617,
     "syntheses": 0,
-    "totalEdges": 4611,
+    "totalEdges": 4612,
     "maxDepth": 15,
     "activeExperiments": 0,
-    "recentActivity": 17
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -56,12 +56,22 @@
   },
   "domainCounts": {
     "infrastructure": 1702,
-    "skills": 1314,
+    "skills": 1315,
     "search-ranking": 789,
     "finance": 810,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "0672fdcdf7c7",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1783363827447,
+      "depth": 4
+    },
     {
       "id": "29082ac72bbc",
       "domain": "search-ranking",
@@ -251,16 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1783359507190,
       "depth": 4
-    },
-    {
-      "id": "c7ddbb0464da",
-      "domain": "finance",
-      "title": "Finance round 11: Sharpe=1.3031",
-      "metricName": "Sharpe",
-      "metricValue": 1.3031,
-      "isCurrentBest": false,
-      "createdAt": 1783359477180,
-      "depth": 7
     }
   ],
   "frontier": [],
