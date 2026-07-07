@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-07T07:54:26.273Z",
+  "timestamp": "2026-07-07T08:54:26.341Z",
   "peerId": "12D3KooWNhUHP2tRWN71wUPop8UmGx13bhoufnqe6gGoqgRCf4LF",
   "stats": {
-    "totalNodes": 50,
+    "totalNodes": 52,
     "observations": 0,
-    "experiments": 50,
+    "experiments": 52,
     "syntheses": 0,
-    "totalEdges": 47,
+    "totalEdges": 49,
     "maxDepth": 3,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 32,
+    "infrastructure": 34,
     "finance": 4,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "58da95887318",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1439",
+      "metricName": "score",
+      "metricValue": 141.0735104072769,
+      "isCurrentBest": false,
+      "createdAt": 1783412666211,
+      "depth": 2
+    },
+    {
+      "id": "1e780fb3502f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 1417",
+      "metricName": "score",
+      "metricValue": 144.9766000532234,
+      "isCurrentBest": false,
+      "createdAt": 1783411346132,
+      "depth": 2
+    },
     {
       "id": "fadb8d2d4aba",
       "domain": "infrastructure",
@@ -222,26 +242,6 @@
       "metricValue": 0.9176070307500752,
       "isCurrentBest": false,
       "createdAt": 1783362264041,
-      "depth": 1
-    },
-    {
-      "id": "50d01b910d9b",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 592",
-      "metricName": "score",
-      "metricValue": 141.15252373037166,
-      "isCurrentBest": false,
-      "createdAt": 1783361844026,
-      "depth": 1
-    },
-    {
-      "id": "3bd34a26d584",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 555",
-      "metricName": "score",
-      "metricValue": 0.9174623145613579,
-      "isCurrentBest": false,
-      "createdAt": 1783359623934,
       "depth": 1
     }
   ],
