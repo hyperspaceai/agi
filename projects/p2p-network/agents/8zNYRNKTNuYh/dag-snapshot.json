@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-07T15:19:00.957Z",
+  "timestamp": "2026-07-07T16:19:01.023Z",
   "peerId": "12D3KooWHojiAVuAZopBfB5Vr9iqKVaZhdE6BSmtdQEr367qsLT2",
   "stats": {
-    "totalNodes": 75,
+    "totalNodes": 77,
     "observations": 0,
-    "experiments": 75,
+    "experiments": 77,
     "syntheses": 0,
-    "totalEdges": 72,
+    "totalEdges": 74,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 37,
+    "infrastructure": 39,
     "finance": 24,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "5307e682efce",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 657",
+      "metricName": "score",
+      "metricValue": 144.97360946687778,
+      "isCurrentBest": false,
+      "createdAt": 1783439190898,
+      "depth": 4
+    },
+    {
+      "id": "95f1abc2213d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 635",
+      "metricName": "score",
+      "metricValue": 0.925970896488707,
+      "isCurrentBest": false,
+      "createdAt": 1783437870849,
+      "depth": 4
+    },
     {
       "id": "6c65496a33f3",
       "domain": "infrastructure",
@@ -222,26 +242,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1783402986984,
-      "depth": 1
-    },
-    {
-      "id": "1198148e1a79",
-      "domain": "search-ranking",
-      "title": "Search round 36: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1783402986817,
-      "depth": 1
-    },
-    {
-      "id": "d06dd8047b97",
-      "domain": "search-ranking",
-      "title": "Search round 36: reduce anchor weight (-0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1783402986660,
       "depth": 1
     }
   ],
