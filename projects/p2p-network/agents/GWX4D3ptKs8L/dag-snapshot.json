@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-08T20:51:27.200Z",
+  "timestamp": "2026-07-08T21:52:09.899Z",
   "peerId": "12D3KooWRKtDxBQbWmPpjCe7KQHCd9KNidw2QEsLgeUwACbqnFjW",
   "stats": {
-    "totalNodes": 385,
+    "totalNodes": 386,
     "observations": 0,
-    "experiments": 385,
+    "experiments": 386,
     "syntheses": 0,
-    "totalEdges": 382,
+    "totalEdges": 383,
     "maxDepth": 9,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -39,11 +39,21 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 275,
+    "infrastructure": 276,
     "finance": 40,
     "search-ranking": 70
   },
   "recentExperiments": [
+    {
+      "id": "216d99e32291",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 667",
+      "metricName": "score",
+      "metricValue": 0.9724533024246926,
+      "isCurrentBest": false,
+      "createdAt": 1783546105136,
+      "depth": 2
+    },
     {
       "id": "4b415384ef8b",
       "domain": "infrastructure",
@@ -232,16 +242,6 @@
       "metricValue": 0.395,
       "isCurrentBest": false,
       "createdAt": 1783509031246,
-      "depth": 1
-    },
-    {
-      "id": "d1fccd0447b1",
-      "domain": "search-ranking",
-      "title": "Search round 35: skip peer cascade (local-only fast)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1783509030028,
       "depth": 1
     }
   ],
