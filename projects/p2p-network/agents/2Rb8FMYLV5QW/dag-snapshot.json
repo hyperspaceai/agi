@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-08T18:13:44.224Z",
+  "timestamp": "2026-07-08T19:13:44.269Z",
   "peerId": "12D3KooWBExHzV83fyg1QoeNQ3qp7LorZpZ1GmU3tBx2mX6ujgBR",
   "stats": {
-    "totalNodes": 3460,
+    "totalNodes": 3463,
     "observations": 0,
-    "experiments": 3460,
+    "experiments": 3463,
     "syntheses": 0,
-    "totalEdges": 3456,
+    "totalEdges": 3459,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1449,
+    "infrastructure": 1452,
     "skills": 1300,
     "finance": 583,
     "search-ranking": 128
   },
   "recentExperiments": [
+    {
+      "id": "300aa3894fb7",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 455",
+      "metricName": "score",
+      "metricValue": 141.0151726294472,
+      "isCurrentBest": false,
+      "createdAt": 1783534754024,
+      "depth": 5
+    },
+    {
+      "id": "d65b9c76169d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 454",
+      "metricName": "score",
+      "metricValue": 0.9595880997013323,
+      "isCurrentBest": false,
+      "createdAt": 1783534694023,
+      "depth": 5
+    },
+    {
+      "id": "841aa1bd5bd2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 453",
+      "metricName": "score",
+      "metricValue": 141.1841660932223,
+      "isCurrentBest": false,
+      "createdAt": 1783534634021,
+      "depth": 5
+    },
     {
       "id": "ff87fc6d1c3b",
       "domain": "skills",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1783512583160,
       "depth": 2
-    },
-    {
-      "id": "4aef7a633583",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1783512223183,
-      "depth": 2
-    },
-    {
-      "id": "f27902c34aca",
-      "domain": "search-ranking",
-      "title": "Search round 46: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1783511612980,
-      "depth": 1
-    },
-    {
-      "id": "57719fcd03c9",
-      "domain": "search-ranking",
-      "title": "Search round 46: disable query expansion",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1783511611995,
-      "depth": 1
     }
   ],
   "frontier": [],
