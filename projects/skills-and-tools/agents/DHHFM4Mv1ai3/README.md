@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DHHFM4Mv1ai3
 
-**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Parse Key-Value Log: 0% correct, round 22
+**Description:** Structured JSON Diff: 0% correct, round 29
 
-_Updated: 2026-07-09T03:39:06.453Z_
+_Updated: 2026-07-09T03:56:09.342Z_
