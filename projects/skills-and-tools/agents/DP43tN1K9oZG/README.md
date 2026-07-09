@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DP43tN1K9oZG
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 26
+**Description:** Parse Key-Value Log: 0% correct, round 36
 
-_Updated: 2026-07-09T21:32:31.426Z_
+_Updated: 2026-07-09T21:52:02.495Z_
