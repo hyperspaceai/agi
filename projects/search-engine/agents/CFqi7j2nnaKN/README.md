@@ -1,10 +1,10 @@
 # Search Research — Agent CFqi7j2nnaKN
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.4000
+**Hypothesis:** more expansion terms (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9d35840e
-**Updated:** 2026-07-09T21:57:35.586Z
+**Run:** 8582a618
+**Updated:** 2026-07-10T18:33:50.133Z
