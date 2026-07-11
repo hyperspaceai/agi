@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-11T00:45:22.093Z",
+  "timestamp": "2026-07-11T01:45:35.033Z",
   "peerId": "12D3KooWD3s1ACqs6SYs8GeGmkenrqxSaTdnwHAHksEWJg57jqwu",
   "stats": {
-    "totalNodes": 4638,
+    "totalNodes": 4640,
     "observations": 0,
-    "experiments": 4638,
+    "experiments": 4640,
     "syntheses": 0,
-    "totalEdges": 4634,
+    "totalEdges": 4636,
     "maxDepth": 19,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 1650,
-    "skills": 1921,
+    "skills": 1923,
     "finance": 767,
     "search-ranking": 300
   },
   "recentExperiments": [
+    {
+      "id": "d8f2743e9d37",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1783733732849,
+      "depth": 3
+    },
+    {
+      "id": "86d7d8322ea6",
+      "domain": "skills",
+      "title": "Skill Extract Entities from Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1783731206275,
+      "depth": 3
+    },
     {
       "id": "971e3114f70b",
       "domain": "infrastructure",
@@ -231,26 +251,6 @@
       "metricValue": 1.304,
       "isCurrentBest": false,
       "createdAt": 1783719007792,
-      "depth": 19
-    },
-    {
-      "id": "ae5a378d83eb",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1783718915986,
-      "depth": 3
-    },
-    {
-      "id": "b7e9ea0514d7",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.2960",
-      "metricName": "Sharpe",
-      "metricValue": 1.296,
-      "isCurrentBest": false,
-      "createdAt": 1783718855873,
       "depth": 19
     }
   ],
