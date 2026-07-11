@@ -2,14 +2,14 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWBV9nFQY6e284hjbB7a4CouuywyGtDn9nwVrCySQDsnxM",
-  "runNumber": 2,
-  "timestamp": 1783739421665,
-  "hypothesis": "Improve on 5c0e9744 (loss=4.4001): max scale (16L, 1024d, 16h)",
+  "runNumber": 1,
+  "timestamp": 1783777422196,
+  "hypothesis": "Explore: disable gradient clip",
   "config": {
-    "nLayers": 16,
-    "nHeads": 16,
-    "dModel": 1024,
-    "dFF": 4096,
+    "nLayers": 2,
+    "nHeads": 2,
+    "dModel": 64,
+    "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
     "learningRate": 0.0003,
@@ -36,19 +36,19 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.205396412894338,
-    "trainLoss": 5.1599204638777,
+    "valLoss": 4.400149982336737,
+    "trainLoss": 4.423619437903018,
     "lossCurve": [
       [
-        1,
-        4.205396412894338
+        39,
+        4.400149982336737
       ]
     ],
-    "durationSec": 37678.979,
-    "tokensPerSec": 0.05435391442002715,
-    "totalTokens": 2048
+    "durationSec": 143.044,
+    "tokensPerSec": 558.3736472693716,
+    "totalTokens": 79872
   },
-  "improvement": -4.426066616460512,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
