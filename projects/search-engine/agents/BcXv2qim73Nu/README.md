@@ -1,10 +1,10 @@
 # Search Research — Agent BcXv2qim73Nu
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** relaxed peer timeout (5s)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 827c96c2
-**Updated:** 2026-07-12T02:26:09.114Z
+**Run:** 506984a4
+**Updated:** 2026-07-12T12:53:12.133Z
