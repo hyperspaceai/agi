@@ -2,20 +2,22 @@
   "runId": "finance-r11",
   "runNumber": 11,
   "hypothesis": "Round 11 best mutation",
-  "sharpeRatio": 1.243,
-  "totalReturn": 2.8512,
-  "maxDrawdown": 0.0733,
-  "alpha": 1.3569,
+  "sharpeRatio": 1.2313,
+  "totalReturn": 2.8049,
+  "maxDrawdown": 0.0579,
+  "alpha": 1.3107,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0.001,
+  "durationSec": 0.002,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-07-08T04:42:49.599Z"
+  "timestamp": "2026-07-12T08:02:38.254Z"
 }
