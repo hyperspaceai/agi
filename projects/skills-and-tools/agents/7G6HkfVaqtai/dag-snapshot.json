@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-12T13:47:12.586Z",
+  "timestamp": "2026-07-12T14:55:57.884Z",
   "peerId": "12D3KooWG5TTVo5J2nrCozocwpZH3i13Jffk6riu18ChfFarcifD",
   "stats": {
-    "totalNodes": 4694,
+    "totalNodes": 4695,
     "observations": 0,
-    "experiments": 4694,
+    "experiments": 4695,
     "syntheses": 0,
-    "totalEdges": 4690,
+    "totalEdges": 4691,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1655,
+    "infrastructure": 1656,
     "skills": 1811,
     "finance": 1103,
     "search-ranking": 125
   },
   "recentExperiments": [
+    {
+      "id": "a6d85f89e464",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 372",
+      "metricName": "score",
+      "metricValue": 0.9717540114280554,
+      "isCurrentBest": false,
+      "createdAt": 1783865041982,
+      "depth": 8
+    },
     {
       "id": "5d2e822a0c50",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.38987136940679484,
       "isCurrentBest": false,
       "createdAt": 1783845354582,
-      "depth": 1
-    },
-    {
-      "id": "77563f5a8b41",
-      "domain": "search-ranking",
-      "title": "Search round 38: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.38987136940679484,
-      "isCurrentBest": false,
-      "createdAt": 1783845354580,
       "depth": 1
     }
   ],
