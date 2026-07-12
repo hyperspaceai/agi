@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 9YHMgTYKJtL5
 
-**Best Sharpe Ratio:** 1.2081
-**Hypothesis:** [LLM] Enhanced Sharpe ratio by incorporating low volatility factor and adjusting position sizing to be more risk-aware.
+**Best Sharpe Ratio:** 1.2373
+**Hypothesis:** [LLM] Increased quality factor weight and enabled drawdown protection to improve risk-adjusted returns and reduce downside risk.
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.3584
-**Max Drawdown:** 0.0769
+**Alpha:** 1.3722
+**Max Drawdown:** 0.0742
 **LLM:** unknown
-**Run:** llm-r3
-**Updated:** 2026-07-12T11:13:33.399Z
+**Run:** llm-r8
+**Updated:** 2026-07-12T23:03:29.321Z
