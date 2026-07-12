@@ -1,10 +1,10 @@
 # Search Research — Agent 8dkcbYCEtcZV
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** reduce body weight (-0.05)
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** f45bdcc6
-**Updated:** 2026-07-10T11:48:26.342Z
+**Run:** 945689f7
+**Updated:** 2026-07-12T05:31:35.525Z
