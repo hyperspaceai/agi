@@ -1,10 +1,10 @@
 # Search Research — Agent 7if1au81WfQ5
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** aggressive peer timeout (500ms)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** require more local results (5)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8339a7cc
-**Updated:** 2026-07-13T05:28:06.072Z
+**Run:** e5d2fb00
+**Updated:** 2026-07-13T12:15:19.300Z
