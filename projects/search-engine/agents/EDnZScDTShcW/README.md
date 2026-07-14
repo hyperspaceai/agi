@@ -1,10 +1,10 @@
 # Search Research — Agent EDnZScDTShcW
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** increase diversity penalty (0.2)
+**Hypothesis:** increase freshness bias (0.15)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** ae1ad444
-**Updated:** 2026-07-13T12:04:31.730Z
+**Run:** e28ff31c
+**Updated:** 2026-07-14T13:21:01.568Z
