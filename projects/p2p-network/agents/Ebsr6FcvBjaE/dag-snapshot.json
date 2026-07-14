@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-14T06:15:41.611Z",
+  "timestamp": "2026-07-14T07:15:46.148Z",
   "peerId": "12D3KooWPRF1qPCdNdqjHKQyLiEGZ8X3u7xzyEjX7iShtdXmryp3",
   "stats": {
-    "totalNodes": 445,
+    "totalNodes": 448,
     "observations": 0,
-    "experiments": 445,
+    "experiments": 448,
     "syntheses": 0,
-    "totalEdges": 441,
+    "totalEdges": 444,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 232,
+    "infrastructure": 235,
     "skills": 125,
     "finance": 74,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "fc08ce65845f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 735",
+      "metricName": "score",
+      "metricValue": 0.9227639914759105,
+      "isCurrentBest": false,
+      "createdAt": 1784012505265,
+      "depth": 2
+    },
+    {
+      "id": "3722dd17afce",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 725",
+      "metricName": "score",
+      "metricValue": 0.9210936711025841,
+      "isCurrentBest": false,
+      "createdAt": 1784011904051,
+      "depth": 2
+    },
+    {
+      "id": "4b46a4a40a79",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 711",
+      "metricName": "score",
+      "metricValue": 145.03374017043458,
+      "isCurrentBest": false,
+      "createdAt": 1784011062931,
+      "depth": 2
+    },
     {
       "id": "8893e6ef69b3",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1783973955880,
       "depth": 2
-    },
-    {
-      "id": "56db29a3f1d8",
-      "domain": "search-ranking",
-      "title": "Search round 39: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1783971839796,
-      "depth": 1
-    },
-    {
-      "id": "7aa39fb346f4",
-      "domain": "search-ranking",
-      "title": "Search round 39: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1783971839569,
-      "depth": 1
-    },
-    {
-      "id": "d2f67d45b3c3",
-      "domain": "search-ranking",
-      "title": "Search round 39: increase freshness bias (0.15)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1783971838725,
-      "depth": 1
     }
   ],
   "frontier": [],
