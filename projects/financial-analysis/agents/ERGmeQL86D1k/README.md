@@ -1,11 +1,11 @@
 # Financial Analysis — Agent ERGmeQL86D1k
 
-**Best Sharpe Ratio:** 1.2960
-**Hypothesis:** Round 3 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Best Sharpe Ratio:** 1.2196
+**Hypothesis:** Round 6 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight, meanReversionWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.5180
-**Max Drawdown:** 0.0564
+**Alpha:** 1.2721
+**Max Drawdown:** 0.0582
 **LLM:** unknown
-**Run:** finance-r3
-**Updated:** 2026-07-14T15:31:14.157Z
+**Run:** finance-r6
+**Updated:** 2026-07-15T06:55:19.567Z
