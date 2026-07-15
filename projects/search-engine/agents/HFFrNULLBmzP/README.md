@@ -1,10 +1,10 @@
 # Search Research — Agent HFFrNULLBmzP
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** eb9d9380
-**Updated:** 2026-06-30T08:52:39.533Z
+**Run:** ca6b2614
+**Updated:** 2026-07-15T09:26:54.957Z
