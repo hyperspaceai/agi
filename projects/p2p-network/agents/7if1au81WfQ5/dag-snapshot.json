@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-16T16:06:25.203Z",
+  "timestamp": "2026-07-16T17:06:25.495Z",
   "peerId": "12D3KooWGY2BL2hihZfZWnEi9JibCfqgCHpHtcF3Fftt3X1vzati",
   "stats": {
-    "totalNodes": 4704,
+    "totalNodes": 4705,
     "observations": 0,
-    "experiments": 4704,
+    "experiments": 4705,
     "syntheses": 0,
-    "totalEdges": 4699,
+    "totalEdges": 4700,
     "maxDepth": 15,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -55,13 +55,23 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1635,
+    "infrastructure": 1636,
     "skills": 1468,
     "search-ranking": 832,
     "finance": 768,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "82784aa273ed",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 226",
+      "metricName": "score",
+      "metricValue": 141.16805162488097,
+      "isCurrentBest": false,
+      "createdAt": 1784218974881,
+      "depth": 15
+    },
     {
       "id": "88d8605baf5f",
       "domain": "infrastructure",
@@ -251,16 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1784208607590,
       "depth": 2
-    },
-    {
-      "id": "f7470cda34d8",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1784207784865,
-      "depth": 4
     }
   ],
   "frontier": [],
