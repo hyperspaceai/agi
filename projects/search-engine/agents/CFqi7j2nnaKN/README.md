@@ -1,10 +1,10 @@
 # Search Research — Agent CFqi7j2nnaKN
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost click weight (+0.03)
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** c93af50a
-**Updated:** 2026-07-16T15:24:29.988Z
+**Run:** d3065f34
+**Updated:** 2026-07-16T17:45:15.910Z
