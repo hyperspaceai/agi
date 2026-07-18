@@ -1,10 +1,10 @@
 # Search Research — Agent 7if1au81WfQ5
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost BM25 weight (+0.05)
+**Hypothesis:** use z-score normalization
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 43ef7ccc
-**Updated:** 2026-07-18T07:27:03.680Z
+**Run:** dcebc264
+**Updated:** 2026-07-18T10:09:46.300Z
