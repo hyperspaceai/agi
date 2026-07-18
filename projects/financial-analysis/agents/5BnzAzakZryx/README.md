@@ -1,11 +1,11 @@
 # Financial Analysis — Agent 5BnzAzakZryx
 
-**Best Sharpe Ratio:** 1.2780
-**Hypothesis:** Round 23 best mutation
+**Best Sharpe Ratio:** 1.2670
+**Hypothesis:** Round 19 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.3569
-**Max Drawdown:** 0.0698
+**Alpha:** 1.3623
+**Max Drawdown:** 0.0710
 **LLM:** unknown
-**Run:** finance-r23
-**Updated:** 2026-07-17T06:16:55.277Z
+**Run:** finance-r19
+**Updated:** 2026-07-18T10:47:59.981Z
