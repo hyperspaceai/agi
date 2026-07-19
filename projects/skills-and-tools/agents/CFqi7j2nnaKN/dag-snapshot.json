@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-19T02:42:18.785Z",
+  "timestamp": "2026-07-19T03:42:03.417Z",
   "peerId": "12D3KooWM5CsrrcVyUas7czyspyNYyxoJk5xD9Zabmh5pxtbzyA8",
   "stats": {
-    "totalNodes": 4649,
+    "totalNodes": 4651,
     "observations": 0,
-    "experiments": 4649,
+    "experiments": 4651,
     "syntheses": 0,
-    "totalEdges": 4644,
+    "totalEdges": 4646,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,33 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1399,
+    "infrastructure": 1401,
     "finance": 921,
     "skills": 1602,
     "search-ranking": 726,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "2b14aa84681d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 355",
+      "metricName": "score",
+      "metricValue": 141.01033980946747,
+      "isCurrentBest": false,
+      "createdAt": 1784430487174,
+      "depth": 17
+    },
+    {
+      "id": "d33beba6347c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 346",
+      "metricName": "score",
+      "metricValue": 141.19444706066312,
+      "isCurrentBest": false,
+      "createdAt": 1784429947711,
+      "depth": 17
+    },
     {
       "id": "619aef9a24ee",
       "domain": "infrastructure",
@@ -240,26 +260,6 @@
       "metricValue": 0.3963092975357146,
       "isCurrentBest": false,
       "createdAt": 1784412369831,
-      "depth": 1
-    },
-    {
-      "id": "be8cd35b1525",
-      "domain": "search-ranking",
-      "title": "Search round 35: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1784412369655,
-      "depth": 1
-    },
-    {
-      "id": "94ca8ed45c46",
-      "domain": "search-ranking",
-      "title": "Search round 35: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1784412368951,
       "depth": 1
     }
   ],
