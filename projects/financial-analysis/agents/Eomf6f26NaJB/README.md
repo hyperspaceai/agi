@@ -1,11 +1,11 @@
 # Financial Analysis — Agent Eomf6f26NaJB
 
-**Best Sharpe Ratio:** 1.3040
-**Hypothesis:** Round 4 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Best Sharpe Ratio:** 1.2395
+**Hypothesis:** Round 7 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.5228
-**Max Drawdown:** 0.0558
+**Alpha:** 1.3024
+**Max Drawdown:** 0.0571
 **LLM:** unknown
-**Run:** finance-r4
-**Updated:** 2026-07-19T14:33:46.663Z
+**Run:** finance-r7
+**Updated:** 2026-07-19T15:28:49.487Z
