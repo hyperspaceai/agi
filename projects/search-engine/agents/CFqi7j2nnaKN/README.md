@@ -1,10 +1,10 @@
 # Search Research — Agent CFqi7j2nnaKN
 
 **Best NDCG@10:** 0.3950
-**Hypothesis:** boost freshness weight (+0.05)
+**Hypothesis:** relaxed peer timeout (5s)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 06104d14
-**Updated:** 2026-07-19T16:06:48.428Z
+**Run:** da24355b
+**Updated:** 2026-07-20T02:16:46.048Z
