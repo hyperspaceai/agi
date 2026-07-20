@@ -1,8 +1,8 @@
 # Skill Catalog — Agent ERGmeQL86D1k
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 136
+**Description:** Cosine Text Similarity: 0% correct, round 161
 
-_Updated: 2026-07-20T09:05:42.018Z_
+_Updated: 2026-07-20T09:48:42.567Z_
