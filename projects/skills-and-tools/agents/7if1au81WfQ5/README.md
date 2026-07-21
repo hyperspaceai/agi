@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 7if1au81WfQ5
 
-**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1994
 **Permissions:** none
-**Description:** Extract Entities from Text: 0% correct, round 17
+**Description:** Compute Text Statistics: 0% correct, round 14
 
-_Updated: 2026-07-21T18:18:03.919Z_
+_Updated: 2026-07-21T22:14:36.004Z_
