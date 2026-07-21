@@ -2,20 +2,22 @@
   "runId": "finance-r5",
   "runNumber": 5,
   "hypothesis": "Round 5 best mutation",
-  "sharpeRatio": 1.3137,
-  "totalReturn": 3.01,
-  "maxDrawdown": 0.055,
-  "alpha": 1.5158,
+  "sharpeRatio": 1.1305,
+  "totalReturn": 2.6293,
+  "maxDrawdown": 0.0791,
+  "alpha": 1.1351,
   "factors": [
     "momentumWeight",
     "valueWeight",
     "qualityWeight",
-    "lowVolWeight"
+    "lowVolWeight",
+    "dividendWeight",
+    "growthWeight"
   ],
   "positionSizing": "risk_parity",
-  "durationSec": 0,
+  "durationSec": 0.001,
   "isNewBest": true,
   "improvement": null,
   "llmModel": null,
-  "timestamp": "2026-05-17T20:35:00.128Z"
+  "timestamp": "2026-07-21T20:26:42.536Z"
 }
