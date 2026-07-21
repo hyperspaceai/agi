@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-14T17:15:16.681Z",
+  "timestamp": "2026-07-21T00:49:24.238Z",
   "peerId": "12D3KooWDd2qQcDDy4p29j4qdpubuR7Lbb6TCWyFTctborzM7VWh",
   "stats": {
-    "totalNodes": 1887,
+    "totalNodes": 1956,
     "observations": 0,
-    "experiments": 1887,
+    "experiments": 1956,
     "syntheses": 0,
-    "totalEdges": 1731,
+    "totalEdges": 1790,
     "maxDepth": 7,
-    "activeExperiments": 116,
-    "recentActivity": 2
+    "activeExperiments": 123,
+    "recentActivity": 0
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -46,216 +46,222 @@
       "depth": 1
     },
     "general": {
-      "nodeId": "c6c9cce4e62dc85568e645e4f64c8d28498e2c45e9372a9b229d558466b69fe0",
-      "title": "AutoWeb round 19: 98/100",
+      "nodeId": "8cc2ab3173bb5e318594a2fc5e2ea2ed5317bc3750ac9ddd4cc9f0397ce0fd9e",
+      "title": "AutoWeb round 7: 100/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 98,
+      "metricValue": 100,
       "metricDirection": "maximize",
       "depth": 0
     }
   },
   "domainCounts": {
-    "infrastructure": 793,
-    "skills": 518,
-    "finance": 370,
+    "infrastructure": 822,
+    "skills": 528,
+    "finance": 390,
     "search-ranking": 54,
-    "physics": 116,
-    "general": 36
+    "physics": 123,
+    "general": 39
   },
   "recentExperiments": [
     {
-      "id": "b186a014d56f",
-      "domain": "general",
-      "title": "AutoWeb round 6: 95/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 95,
-      "isCurrentBest": false,
-      "createdAt": 1784046902487,
-      "depth": 0
-    },
-    {
-      "id": "b19d6c574348",
-      "domain": "physics",
-      "title": "Wrote paper: \"On warp_drives: ** What are the implications of non-zero vorticity and curve\" (self-ve",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1784046891909,
-      "depth": 0
-    },
-    {
-      "id": "df276497d169",
-      "domain": "physics",
-      "title": "Wrote paper: \"**\" (self-verification score: 4.0)",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1784044223934,
-      "depth": 0
-    },
-    {
-      "id": "6616719fa6b6",
+      "id": "6a5d1af3a101",
       "domain": "infrastructure",
-      "title": "Cause literature-analysis round 301",
+      "title": "Cause literature-analysis round 361",
       "metricName": "score",
-      "metricValue": 0.9542019933468262,
+      "metricValue": 0.9763821977264185,
       "isCurrentBest": false,
-      "createdAt": 1784041626902,
+      "createdAt": 1784590946109,
       "depth": 4
     },
     {
-      "id": "e1e64f083050",
+      "id": "385e3894c0d0",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 359",
+      "metricName": "score",
+      "metricValue": 0.9706638556468159,
+      "isCurrentBest": false,
+      "createdAt": 1784590825612,
+      "depth": 4
+    },
+    {
+      "id": "e9888564616d",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 356",
+      "metricName": "score",
+      "metricValue": 0.9654572276101934,
+      "isCurrentBest": false,
+      "createdAt": 1784590644461,
+      "depth": 4
+    },
+    {
+      "id": "398e47f113ea",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 330",
+      "metricName": "score",
+      "metricValue": 0.9607061152353598,
+      "isCurrentBest": false,
+      "createdAt": 1784589077097,
+      "depth": 4
+    },
+    {
+      "id": "8926de809688",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 245",
+      "metricName": "score",
+      "metricValue": 0.960505652037591,
+      "isCurrentBest": false,
+      "createdAt": 1784583974588,
+      "depth": 4
+    },
+    {
+      "id": "12c563f24997",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 196",
+      "metricName": "score",
+      "metricValue": 141.04897180256475,
+      "isCurrentBest": false,
+      "createdAt": 1784581019181,
+      "depth": 4
+    },
+    {
+      "id": "7888e186953d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 166",
+      "metricName": "score",
+      "metricValue": 141.0818968646039,
+      "isCurrentBest": false,
+      "createdAt": 1784579205113,
+      "depth": 4
+    },
+    {
+      "id": "8cc139ce83f0",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 132",
+      "metricName": "score",
+      "metricValue": 141.2753891880197,
+      "isCurrentBest": false,
+      "createdAt": 1784577183676,
+      "depth": 4
+    },
+    {
+      "id": "3164d5e273eb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 37",
+      "metricName": "score",
+      "metricValue": 141.00990264025887,
+      "isCurrentBest": false,
+      "createdAt": 1784571447575,
+      "depth": 4
+    },
+    {
+      "id": "bdc92e598851",
+      "domain": "finance",
+      "title": "Finance round 13: Sharpe=1.3174",
+      "metricName": "Sharpe",
+      "metricValue": 1.3174,
+      "isCurrentBest": false,
+      "createdAt": 1784571382769,
+      "depth": 7
+    },
+    {
+      "id": "97af78872477",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 29",
+      "metricName": "score",
+      "metricValue": 141.4057664869663,
+      "isCurrentBest": false,
+      "createdAt": 1784570963683,
+      "depth": 4
+    },
+    {
+      "id": "10b6e8f8dfb6",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 27",
+      "metricName": "score",
+      "metricValue": 141.64541268481838,
+      "isCurrentBest": false,
+      "createdAt": 1784570872245,
+      "depth": 4
+    },
+    {
+      "id": "6a9dbac77513",
+      "domain": "finance",
+      "title": "Finance round 8: Sharpe=1.3105",
+      "metricName": "Sharpe",
+      "metricValue": 1.3105,
+      "isCurrentBest": false,
+      "createdAt": 1784570501004,
+      "depth": 7
+    },
+    {
+      "id": "06c052eb478e",
+      "domain": "finance",
+      "title": "Finance round 7: Sharpe=1.3040",
+      "metricName": "Sharpe",
+      "metricValue": 1.304,
+      "isCurrentBest": false,
+      "createdAt": 1784570336808,
+      "depth": 7
+    },
+    {
+      "id": "750733fff744",
+      "domain": "finance",
+      "title": "Finance round 5: Sharpe=1.2960",
+      "metricName": "Sharpe",
+      "metricValue": 1.296,
+      "isCurrentBest": false,
+      "createdAt": 1784570013823,
+      "depth": 7
+    },
+    {
+      "id": "91336dc2f83f",
+      "domain": "finance",
+      "title": "Finance round 4: Sharpe=1.1991",
+      "metricName": "Sharpe",
+      "metricValue": 1.1991,
+      "isCurrentBest": false,
+      "createdAt": 1784569870246,
+      "depth": 7
+    },
+    {
+      "id": "37f70d01a101",
       "domain": "general",
-      "title": "AutoWeb round 4: 94/100",
+      "title": "AutoWeb round 1: 39/100",
       "metricName": "SteveJobsScore",
-      "metricValue": 94,
+      "metricValue": 39,
       "isCurrentBest": false,
-      "createdAt": 1784040307490,
+      "createdAt": 1784569811102,
       "depth": 0
     },
     {
-      "id": "aada7418ecf7",
-      "domain": "physics",
-      "title": "Wrote paper: \"** Constructing a Gravitational Wave Template Library for Hyperspace Travel Physics: A",
-      "metricName": "verification_score",
+      "id": "71bd1f489300",
+      "domain": "finance",
+      "title": "Finance round 3: Sharpe=1.1151",
+      "metricName": "Sharpe",
+      "metricValue": 1.1151,
       "isCurrentBest": false,
-      "createdAt": 1784037763783,
-      "depth": 0
+      "createdAt": 1784569700361,
+      "depth": 7
     },
     {
-      "id": "c8d4b4364ce3",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
+      "id": "4aa4d7641024",
+      "domain": "finance",
+      "title": "Finance round 2: Sharpe=1.0939",
+      "metricName": "Sharpe",
+      "metricValue": 1.0939,
       "isCurrentBest": false,
-      "createdAt": 1784036439031,
-      "depth": 2
+      "createdAt": 1784569539449,
+      "depth": 7
     },
     {
-      "id": "131006dcccf4",
-      "domain": "physics",
-      "title": "Wrote paper: \"**Implications of Non-Zero Vorticity in Warp Drive Solutions for Energy Condition Prop",
-      "metricName": "verification_score",
+      "id": "1ca069e192f6",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 4",
+      "metricName": "score",
+      "metricValue": 145.00785863141837,
       "isCurrentBest": false,
-      "createdAt": 1784035159782,
-      "depth": 0
-    },
-    {
-      "id": "ba2da8c64262",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1784035119345,
-      "depth": 2
-    },
-    {
-      "id": "ba2303b386a2",
-      "domain": "general",
-      "title": "AutoWeb round 2: 93/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 93,
-      "isCurrentBest": false,
-      "createdAt": 1784033842817,
-      "depth": 0
-    },
-    {
-      "id": "bb88bef7ca3b",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1784033808074,
-      "depth": 2
-    },
-    {
-      "id": "20946000a2fe",
-      "domain": "physics",
-      "title": "Wrote paper: \"Can Quantum Gravity Effects at the Planck Scale Stabilize the Semiclassical Instabilit",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1784032567875,
-      "depth": 0
-    },
-    {
-      "id": "c916fc461bf7",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 2 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1784031322197,
-      "depth": 2
-    },
-    {
-      "id": "85c7b1bf346b",
-      "domain": "general",
-      "title": "AutoWeb round 1: 92/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 92,
-      "isCurrentBest": false,
-      "createdAt": 1784029974978,
-      "depth": 0
-    },
-    {
-      "id": "60d08ad056e2",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1784029950530,
-      "depth": 2
-    },
-    {
-      "id": "fb706ced3a8c",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1784028638520,
-      "depth": 2
-    },
-    {
-      "id": "e0613d899940",
-      "domain": "physics",
-      "title": "Wrote paper: \"**Can the Casimir Effect Be Engineered for Macroscopic Negative Energy Densities?**\" (",
-      "metricName": "verification_score",
-      "isCurrentBest": false,
-      "createdAt": 1784026200513,
-      "depth": 0
-    },
-    {
-      "id": "dcd14981132c",
-      "domain": "skills",
-      "title": "Skill Extract Entities from Text (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1784026108599,
-      "depth": 2
-    },
-    {
-      "id": "c98d0a3db4e0",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (LLM 3 iter): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1784024844117,
-      "depth": 2
-    },
-    {
-      "id": "94a2b06926c0",
-      "domain": "general",
-      "title": "AutoWeb round 1: 90/100",
-      "metricName": "SteveJobsScore",
-      "metricValue": 90,
-      "isCurrentBest": false,
-      "createdAt": 1783874713224,
-      "depth": 0
+      "createdAt": 1784569454680,
+      "depth": 4
     }
   ],
   "frontier": [],
@@ -360,9 +366,9 @@
     ],
     "general": [
       {
-        "id": "c6c9cce4e62d",
-        "title": "AutoWeb round 19: 98/100",
-        "metricValue": 98,
+        "id": "8cc2ab3173bb",
+        "title": "AutoWeb round 7: 100/100",
+        "metricValue": 100,
         "depth": 0
       }
     ]
