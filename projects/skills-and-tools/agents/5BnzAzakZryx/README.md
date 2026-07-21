@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 5BnzAzakZryx
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1998
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 4
+**Description:** Compute Text Statistics: 0% correct, round 5
 
-_Updated: 2026-07-21T17:09:36.635Z_
+_Updated: 2026-07-21T17:21:55.430Z_
