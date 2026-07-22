@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-22T05:18:18.963Z",
+  "timestamp": "2026-07-22T06:18:19.401Z",
   "peerId": "12D3KooWD6V1a1yYa8Z31sejP69ViK9BbtfhuU7moMW1Knuajmin",
   "stats": {
-    "totalNodes": 992,
+    "totalNodes": 994,
     "observations": 0,
-    "experiments": 992,
+    "experiments": 994,
     "syntheses": 0,
-    "totalEdges": 989,
+    "totalEdges": 991,
     "maxDepth": 7,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 598,
-    "skills": 242,
+    "infrastructure": 599,
+    "skills": 243,
     "finance": 152
   },
   "recentExperiments": [
+    {
+      "id": "e68c3aaa3c06",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 2844",
+      "metricName": "score",
+      "metricValue": 0.9041632857534375,
+      "isCurrentBest": false,
+      "createdAt": 1784700769141,
+      "depth": 4
+    },
+    {
+      "id": "cbbab33aa50b",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1784697978674,
+      "depth": 4
+    },
     {
       "id": "82baf099e9ce",
       "domain": "infrastructure",
@@ -222,26 +242,6 @@
       "metricValue": 0.9031402014691856,
       "isCurrentBest": false,
       "createdAt": 1784659840833,
-      "depth": 4
-    },
-    {
-      "id": "9bcac53f6c57",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2115",
-      "metricName": "score",
-      "metricValue": 141.5820863653449,
-      "isCurrentBest": false,
-      "createdAt": 1784657020301,
-      "depth": 4
-    },
-    {
-      "id": "53ad937aac8f",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2078",
-      "metricName": "score",
-      "metricValue": 141.75954009702738,
-      "isCurrentBest": false,
-      "createdAt": 1784654799857,
       "depth": 4
     }
   ],
