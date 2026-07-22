@@ -3,6 +3,6 @@
 **Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 7
+**Description:** Structured JSON Diff: 0% correct, round 8
 
-_Updated: 2026-07-22T13:24:50.994Z_
+_Updated: 2026-07-22T13:51:19.069Z_
