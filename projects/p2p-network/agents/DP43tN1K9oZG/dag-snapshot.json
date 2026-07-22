@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-22T20:32:19.818Z",
+  "timestamp": "2026-07-22T21:33:57.351Z",
   "peerId": "12D3KooWNCRDdVb2LhpmCshjAR5tAQ1eg4nrzbLfETs2UXbkRMXg",
   "stats": {
-    "totalNodes": 4706,
+    "totalNodes": 4708,
     "observations": 0,
-    "experiments": 4706,
+    "experiments": 4708,
     "syntheses": 0,
-    "totalEdges": 4703,
+    "totalEdges": 4705,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 2148,
+    "infrastructure": 2150,
     "skills": 1867,
     "finance": 691
   },
   "recentExperiments": [
+    {
+      "id": "b12b2d748af2",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 971",
+      "metricName": "score",
+      "metricValue": 145.11350560786227,
+      "isCurrentBest": false,
+      "createdAt": 1784752791110,
+      "depth": 4
+    },
+    {
+      "id": "7f29cee5c32d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 969",
+      "metricName": "score",
+      "metricValue": 145.14952441720297,
+      "isCurrentBest": false,
+      "createdAt": 1784752670863,
+      "depth": 4
+    },
     {
       "id": "11641b6add50",
       "domain": "infrastructure",
@@ -222,26 +242,6 @@
       "metricValue": 0.1995,
       "isCurrentBest": false,
       "createdAt": 1784710766969,
-      "depth": 4
-    },
-    {
-      "id": "b244d30c2719",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1784708953436,
-      "depth": 4
-    },
-    {
-      "id": "df6aab1632c4",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 198",
-      "metricName": "score",
-      "metricValue": 145.02252902789363,
-      "isCurrentBest": false,
-      "createdAt": 1784705111752,
       "depth": 4
     }
   ],
