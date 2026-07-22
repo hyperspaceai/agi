@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 7G6HkfVaqtai
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1997
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1998
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 14
+**Description:** Normalize Text: 0% correct, round 15
 
-_Updated: 2026-07-22T15:33:41.874Z_
+_Updated: 2026-07-22T15:39:13.676Z_
