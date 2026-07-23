@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DHHFM4Mv1ai3
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 38
+**Description:** Parse Key-Value Log: 0% correct, round 30
 
-_Updated: 2026-07-23T10:06:42.566Z_
+_Updated: 2026-07-23T12:25:45.860Z_
