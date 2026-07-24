@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-24T15:20:41.562Z",
+  "timestamp": "2026-07-24T16:21:09.227Z",
   "peerId": "12D3KooWRKtDxBQbWmPpjCe7KQHCd9KNidw2QEsLgeUwACbqnFjW",
   "stats": {
-    "totalNodes": 1385,
+    "totalNodes": 1387,
     "observations": 0,
-    "experiments": 1385,
+    "experiments": 1387,
     "syntheses": 0,
-    "totalEdges": 1381,
+    "totalEdges": 1383,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 27
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,32 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 769,
+    "infrastructure": 771,
     "finance": 177,
     "search-ranking": 196,
     "skills": 243
   },
   "recentExperiments": [
+    {
+      "id": "ca3019dfd92a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 102",
+      "metricName": "score",
+      "metricValue": 141.3313656584434,
+      "isCurrentBest": false,
+      "createdAt": 1784907193658,
+      "depth": 3
+    },
+    {
+      "id": "20f45f8547a8",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 95",
+      "metricName": "score",
+      "metricValue": 141.35870472670177,
+      "isCurrentBest": false,
+      "createdAt": 1784906771768,
+      "depth": 3
+    },
     {
       "id": "88b0c7aabdd9",
       "domain": "finance",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1784904170662,
       "depth": 1
-    },
-    {
-      "id": "4dd335bf328f",
-      "domain": "search-ranking",
-      "title": "Search round 34: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784904170288,
-      "depth": 1
-    },
-    {
-      "id": "12c95ef0725d",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 51",
-      "metricName": "score",
-      "metricValue": 0.9773154677583884,
-      "isCurrentBest": false,
-      "createdAt": 1784904127084,
-      "depth": 3
     }
   ],
   "frontier": [],
