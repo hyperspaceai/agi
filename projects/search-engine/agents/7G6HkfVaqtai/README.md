@@ -1,10 +1,10 @@
 # Search Research — Agent 7G6HkfVaqtai
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** use softmax normalization
+**Best NDCG@10:** 0.3936
+**Hypothesis:** require 5 unique domains
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7bc0089e
-**Updated:** 2026-07-24T19:38:08.257Z
+**Run:** e1475be4
+**Updated:** 2026-07-24T22:34:26.846Z
