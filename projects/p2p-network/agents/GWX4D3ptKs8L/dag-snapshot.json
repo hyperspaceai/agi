@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-24T18:28:29.072Z",
+  "timestamp": "2026-07-24T19:28:34.784Z",
   "peerId": "12D3KooWRKtDxBQbWmPpjCe7KQHCd9KNidw2QEsLgeUwACbqnFjW",
   "stats": {
-    "totalNodes": 1410,
+    "totalNodes": 1415,
     "observations": 0,
-    "experiments": 1410,
+    "experiments": 1415,
     "syntheses": 0,
-    "totalEdges": 1406,
+    "totalEdges": 1411,
     "maxDepth": 10,
     "activeExperiments": 0,
-    "recentActivity": 22
+    "recentActivity": 5
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -38,21 +38,71 @@
       "depth": 0
     },
     "skills": {
-      "nodeId": "d8406eee21e17b637afab0d62ec27f946b730749fba2f557c9560e0ccb5091da",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "nodeId": "e22a9e66cfe10c4242a7c431c65d1463987255000b36ed5391966c46cb412577",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1995,
+      "metricValue": 0.1996,
       "metricDirection": "maximize",
-      "depth": 1
+      "depth": 2
     }
   },
   "domainCounts": {
-    "infrastructure": 776,
+    "infrastructure": 777,
     "finance": 184,
     "search-ranking": 196,
-    "skills": 254
+    "skills": 258
   },
   "recentExperiments": [
+    {
+      "id": "e22a9e66cfe1",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": true,
+      "createdAt": 1784920593215,
+      "depth": 2
+    },
+    {
+      "id": "af8e01cb7cf2",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1784919270994,
+      "depth": 2
+    },
+    {
+      "id": "1bee102430a1",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1784918909511,
+      "depth": 2
+    },
+    {
+      "id": "91d453d83e4f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 36",
+      "metricName": "score",
+      "metricValue": 141.17744841547218,
+      "isCurrentBest": false,
+      "createdAt": 1784918098953,
+      "depth": 3
+    },
+    {
+      "id": "42966e2bba68",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1784917828901,
+      "depth": 2
+    },
     {
       "id": "88139c3489ac",
       "domain": "skills",
@@ -202,56 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1784916210728,
       "depth": 10
-    },
-    {
-      "id": "620e64ba0e2c",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 4",
-      "metricName": "score",
-      "metricValue": 141.36328534252905,
-      "isCurrentBest": false,
-      "createdAt": 1784916178302,
-      "depth": 3
-    },
-    {
-      "id": "822e13e3fc72",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1784916148267,
-      "depth": 2
-    },
-    {
-      "id": "7523b0f056fa",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.0820",
-      "metricName": "Sharpe",
-      "metricValue": 1.082,
-      "isCurrentBest": false,
-      "createdAt": 1784916063593,
-      "depth": 10
-    },
-    {
-      "id": "74180f3563fe",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 2",
-      "metricName": "score",
-      "metricValue": 144.91879512474867,
-      "isCurrentBest": false,
-      "createdAt": 1784916058217,
-      "depth": 3
-    },
-    {
-      "id": "acda06078e06",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1784916028171,
-      "depth": 2
     }
   ],
   "frontier": [],
@@ -347,6 +347,12 @@
       }
     ],
     "skills": [
+      {
+        "id": "e22a9e66cfe1",
+        "title": "Skill Normalize Text (seed/mutation): 0%",
+        "metricValue": 0.1996,
+        "depth": 2
+      },
       {
         "id": "d8406eee21e1",
         "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
