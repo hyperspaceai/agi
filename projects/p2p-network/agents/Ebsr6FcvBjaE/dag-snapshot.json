@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-24T09:27:10.257Z",
+  "timestamp": "2026-07-24T10:27:10.678Z",
   "peerId": "12D3KooWPRF1qPCdNdqjHKQyLiEGZ8X3u7xzyEjX7iShtdXmryp3",
   "stats": {
-    "totalNodes": 596,
+    "totalNodes": 598,
     "observations": 0,
-    "experiments": 596,
+    "experiments": 598,
     "syntheses": 0,
-    "totalEdges": 592,
+    "totalEdges": 594,
     "maxDepth": 9,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 306,
-    "skills": 177,
+    "skills": 179,
     "finance": 99,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "85d4848f494f",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1784887870481,
+      "depth": 4
+    },
+    {
+      "id": "7b3a35a806fb",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1784886310217,
+      "depth": 4
+    },
     {
       "id": "cc9ebe66147a",
       "domain": "skills",
@@ -231,26 +251,6 @@
       "metricValue": 0.1994,
       "isCurrentBest": false,
       "createdAt": 1784876710069,
-      "depth": 4
-    },
-    {
-      "id": "f9e90e0ebf19",
-      "domain": "finance",
-      "title": "Finance round 3: Sharpe=1.0954",
-      "metricName": "Sharpe",
-      "metricValue": 1.0954,
-      "isCurrentBest": false,
-      "createdAt": 1784876680057,
-      "depth": 9
-    },
-    {
-      "id": "fa56e94c45ec",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1994,
-      "isCurrentBest": false,
-      "createdAt": 1784876590055,
       "depth": 4
     }
   ],
