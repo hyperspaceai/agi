@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-24T17:27:00.263Z",
+  "timestamp": "2026-07-24T19:32:06.275Z",
   "peerId": "12D3KooWG5TTVo5J2nrCozocwpZH3i13Jffk6riu18ChfFarcifD",
   "stats": {
-    "totalNodes": 4579,
+    "totalNodes": 4627,
     "observations": 0,
-    "experiments": 4579,
+    "experiments": 4627,
     "syntheses": 0,
-    "totalEdges": 4575,
+    "totalEdges": 4623,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 20
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,210 +47,210 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1766,
-    "skills": 1593,
-    "finance": 969,
-    "search-ranking": 251
+    "infrastructure": 1779,
+    "skills": 1608,
+    "finance": 975,
+    "search-ranking": 265
   },
   "recentExperiments": [
     {
-      "id": "ed92b5a70702",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 165",
-      "metricName": "score",
-      "metricValue": 141.2830450930912,
+      "id": "6cec0c35b654",
+      "domain": "search-ranking",
+      "title": "Search round 51: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
       "isCurrentBest": false,
-      "createdAt": 1784911206158,
+      "createdAt": 1784920715679,
+      "depth": 1
+    },
+    {
+      "id": "16795e60a2d7",
+      "domain": "search-ranking",
+      "title": "Search round 47: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784920348160,
+      "depth": 1
+    },
+    {
+      "id": "91eda47235ef",
+      "domain": "search-ranking",
+      "title": "Search round 47: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784920348090,
+      "depth": 1
+    },
+    {
+      "id": "3c0e0a503ce7",
+      "domain": "search-ranking",
+      "title": "Search round 47: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784920348084,
+      "depth": 1
+    },
+    {
+      "id": "341ef76c88f5",
+      "domain": "search-ranking",
+      "title": "Search round 46: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784920317514,
+      "depth": 1
+    },
+    {
+      "id": "fda25e21b5e6",
+      "domain": "search-ranking",
+      "title": "Search round 46: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784920317503,
+      "depth": 1
+    },
+    {
+      "id": "285664013d7b",
+      "domain": "search-ranking",
+      "title": "Search round 43: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784919944588,
+      "depth": 1
+    },
+    {
+      "id": "9bf841db5439",
+      "domain": "search-ranking",
+      "title": "Search round 43: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784919940999,
+      "depth": 1
+    },
+    {
+      "id": "4d5efe9daf92",
+      "domain": "search-ranking",
+      "title": "Search round 43: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784919940273,
+      "depth": 1
+    },
+    {
+      "id": "9444117b37a0",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1784919653689,
+      "depth": 1
+    },
+    {
+      "id": "5b11d16fe83a",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1784919526762,
+      "depth": 1
+    },
+    {
+      "id": "4ca9e9f12d75",
+      "domain": "search-ranking",
+      "title": "Search round 34: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784919188677,
+      "depth": 1
+    },
+    {
+      "id": "43f3a5ee558e",
+      "domain": "search-ranking",
+      "title": "Search round 34: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784919186200,
+      "depth": 1
+    },
+    {
+      "id": "77576bf1d2ae",
+      "domain": "search-ranking",
+      "title": "Search round 34: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784919184668,
+      "depth": 1
+    },
+    {
+      "id": "8dedd47e59c7",
+      "domain": "search-ranking",
+      "title": "Search round 34: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784919184642,
+      "depth": 1
+    },
+    {
+      "id": "3704fe3a3041",
+      "domain": "search-ranking",
+      "title": "Search round 34: use softmax normalization",
+      "metricName": "NDCG@10",
+      "metricValue": 0.4,
+      "isCurrentBest": false,
+      "createdAt": 1784919181777,
+      "depth": 1
+    },
+    {
+      "id": "55e8ede7005f",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 50",
+      "metricName": "score",
+      "metricValue": 0.9657250840877134,
+      "isCurrentBest": false,
+      "createdAt": 1784919102544,
       "depth": 8
     },
     {
-      "id": "6e3fedc451e2",
+      "id": "3643ce799cb2",
       "domain": "skills",
       "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1784906230188,
+      "createdAt": 1784918437619,
       "depth": 1
     },
     {
-      "id": "2240b767b220",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
+      "id": "c9bbc374ef5f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 33",
+      "metricName": "score",
+      "metricValue": 141.0357938462575,
       "isCurrentBest": false,
-      "createdAt": 1784905025084,
-      "depth": 1
+      "createdAt": 1784918045211,
+      "depth": 8
     },
     {
-      "id": "f66d5b232386",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784905023082,
-      "depth": 1
-    },
-    {
-      "id": "f0815944f482",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784905022909,
-      "depth": 1
-    },
-    {
-      "id": "6fd86c27912c",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784905022523,
-      "depth": 1
-    },
-    {
-      "id": "271dece317fa",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784905022518,
-      "depth": 1
-    },
-    {
-      "id": "210921a9dcff",
-      "domain": "search-ranking",
-      "title": "Search round 42: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784905022510,
-      "depth": 1
-    },
-    {
-      "id": "ec36c25427a1",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784904643979,
-      "depth": 1
-    },
-    {
-      "id": "864ddf961ee4",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784904643130,
-      "depth": 1
-    },
-    {
-      "id": "adce3efd9014",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784904640704,
-      "depth": 1
-    },
-    {
-      "id": "e4140da9a81c",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784904265953,
-      "depth": 1
-    },
-    {
-      "id": "0a7f1e30d4e5",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784904265788,
-      "depth": 1
-    },
-    {
-      "id": "414b8d0d307e",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784904264483,
-      "depth": 1
-    },
-    {
-      "id": "dd77f66b06e7",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784904262852,
-      "depth": 1
-    },
-    {
-      "id": "f3495a731dde",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1784904246967,
-      "depth": 1
-    },
-    {
-      "id": "4b6e9c32f94d",
+      "id": "bf8f6b3054b8",
       "domain": "skills",
       "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
       "metricName": "correctness",
       "metricValue": 0.1998,
       "isCurrentBest": false,
-      "createdAt": 1784904008408,
-      "depth": 1
-    },
-    {
-      "id": "0bc02c3cdc31",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1784903760996,
-      "depth": 1
-    },
-    {
-      "id": "ee11192d1d1f",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1784903639134,
-      "depth": 1
-    },
-    {
-      "id": "2bab757a7650",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1784903519122,
+      "createdAt": 1784917956995,
       "depth": 1
     }
   ],
