@@ -1,10 +1,10 @@
 # Search Research — Agent 7if1au81WfQ5
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** reduce body weight (-0.05)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost freshness weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 7db80cfb
-**Updated:** 2026-07-24T05:49:32.270Z
+**Run:** 2a4e47a4
+**Updated:** 2026-07-24T08:30:13.260Z
