@@ -1,10 +1,10 @@
 # Search Research — Agent HDFsx4evohp3
 
-**Best NDCG@10:** 0.3963
-**Hypothesis:** disable query expansion
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 8b6a643b
-**Updated:** 2026-07-22T15:38:42.627Z
+**Run:** 584b3ca8
+**Updated:** 2026-07-25T08:00:17.514Z
