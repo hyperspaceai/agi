@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HDFsx4evohp3
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1997
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 32
+**Description:** Structured JSON Diff: 0% correct, round 33
 
-_Updated: 2026-07-26T11:29:24.026Z_
+_Updated: 2026-07-26T18:07:06.933Z_
