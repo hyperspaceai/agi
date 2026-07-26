@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-26T11:20:03.992Z",
+  "timestamp": "2026-07-26T12:22:45.788Z",
   "peerId": "12D3KooWG5TTVo5J2nrCozocwpZH3i13Jffk6riu18ChfFarcifD",
   "stats": {
-    "totalNodes": 4976,
+    "totalNodes": 4979,
     "observations": 0,
-    "experiments": 4976,
+    "experiments": 4979,
     "syntheses": 0,
-    "totalEdges": 4972,
+    "totalEdges": 4975,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1891,
+    "infrastructure": 1894,
     "skills": 1718,
     "finance": 1032,
     "search-ranking": 335
   },
   "recentExperiments": [
+    {
+      "id": "c772546c3987",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 508",
+      "metricName": "score",
+      "metricValue": 0.9603813757069606,
+      "isCurrentBest": false,
+      "createdAt": 1785068036286,
+      "depth": 8
+    },
+    {
+      "id": "466c24e81f7c",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 500",
+      "metricName": "score",
+      "metricValue": 0.9582411616121328,
+      "isCurrentBest": false,
+      "createdAt": 1785067537720,
+      "depth": 8
+    },
+    {
+      "id": "7543d5cc9256",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 492",
+      "metricName": "score",
+      "metricValue": 0.9579984814501541,
+      "isCurrentBest": false,
+      "createdAt": 1785067046662,
+      "depth": 8
+    },
     {
       "id": "7b1b6fd845dd",
       "domain": "infrastructure",
@@ -222,36 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1785040718625,
       "depth": 8
-    },
-    {
-      "id": "f0560b8c3750",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 58",
-      "metricName": "score",
-      "metricValue": 141.24620349381496,
-      "isCurrentBest": false,
-      "createdAt": 1785040625664,
-      "depth": 8
-    },
-    {
-      "id": "6e2480e0aa31",
-      "domain": "finance",
-      "title": "Finance round 23: Sharpe=1.2686",
-      "metricName": "Sharpe",
-      "metricValue": 1.2686,
-      "isCurrentBest": false,
-      "createdAt": 1785040565629,
-      "depth": 8
-    },
-    {
-      "id": "6879c937c539",
-      "domain": "search-ranking",
-      "title": "Search round 37: require more local results (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785040529839,
-      "depth": 1
     }
   ],
   "frontier": [],
