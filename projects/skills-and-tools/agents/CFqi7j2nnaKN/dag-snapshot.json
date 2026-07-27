@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-27T09:50:23.617Z",
+  "timestamp": "2026-07-27T11:39:33.421Z",
   "peerId": "12D3KooWM5CsrrcVyUas7czyspyNYyxoJk5xD9Zabmh5pxtbzyA8",
   "stats": {
-    "totalNodes": 4764,
+    "totalNodes": 4773,
     "observations": 0,
-    "experiments": 4764,
+    "experiments": 4773,
     "syntheses": 0,
-    "totalEdges": 4759,
+    "totalEdges": 4768,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,103 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1360,
+    "infrastructure": 1368,
     "finance": 1082,
-    "skills": 1854,
+    "skills": 1855,
     "search-ranking": 467,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "8eeebd756acb",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 260",
+      "metricName": "score",
+      "metricValue": 145.04240087528328,
+      "isCurrentBest": false,
+      "createdAt": 1785151854556,
+      "depth": 17
+    },
+    {
+      "id": "5f5ad100106f",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 217",
+      "metricName": "score",
+      "metricValue": 145.13638072101847,
+      "isCurrentBest": false,
+      "createdAt": 1785149507093,
+      "depth": 17
+    },
+    {
+      "id": "a0bc917393b5",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 203",
+      "metricName": "score",
+      "metricValue": 145.18480957980478,
+      "isCurrentBest": false,
+      "createdAt": 1785148743594,
+      "depth": 17
+    },
+    {
+      "id": "0b7f2af1d5b4",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 195",
+      "metricName": "score",
+      "metricValue": 145.20702688958613,
+      "isCurrentBest": false,
+      "createdAt": 1785148306507,
+      "depth": 17
+    },
+    {
+      "id": "8bdbc65839e1",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 193",
+      "metricName": "score",
+      "metricValue": 0.9591665552759249,
+      "isCurrentBest": false,
+      "createdAt": 1785148197262,
+      "depth": 17
+    },
+    {
+      "id": "d8af8e294ac2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 191",
+      "metricName": "score",
+      "metricValue": 0.9565192045013964,
+      "isCurrentBest": false,
+      "createdAt": 1785148087938,
+      "depth": 17
+    },
+    {
+      "id": "57b8a262fe28",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 185",
+      "metricName": "score",
+      "metricValue": 145.25525169126405,
+      "isCurrentBest": false,
+      "createdAt": 1785147760187,
+      "depth": 17
+    },
+    {
+      "id": "edc7ca3a0fb3",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1997,
+      "isCurrentBest": false,
+      "createdAt": 1785146805478,
+      "depth": 5
+    },
+    {
+      "id": "93323ce7a434",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 160",
+      "metricName": "score",
+      "metricValue": 145.33217428436913,
+      "isCurrentBest": false,
+      "createdAt": 1785146396408,
+      "depth": 17
+    },
     {
       "id": "dede2bf7068e",
       "domain": "infrastructure",
@@ -170,96 +260,6 @@
       "metricValue": 0.395,
       "isCurrentBest": false,
       "createdAt": 1785140893676,
-      "depth": 1
-    },
-    {
-      "id": "8be0c0b751b6",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785140893656,
-      "depth": 1
-    },
-    {
-      "id": "d667eff74557",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785140892672,
-      "depth": 1
-    },
-    {
-      "id": "0d8799406c3a",
-      "domain": "search-ranking",
-      "title": "Search round 39: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785140888237,
-      "depth": 1
-    },
-    {
-      "id": "2247508a843b",
-      "domain": "skills",
-      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1785140633902,
-      "depth": 5
-    },
-    {
-      "id": "576f7dcb3f0e",
-      "domain": "search-ranking",
-      "title": "Search round 34: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785140478870,
-      "depth": 1
-    },
-    {
-      "id": "beb6b59b1708",
-      "domain": "search-ranking",
-      "title": "Search round 34: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785140478867,
-      "depth": 1
-    },
-    {
-      "id": "2232352cffe4",
-      "domain": "search-ranking",
-      "title": "Search round 34: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785140478866,
-      "depth": 1
-    },
-    {
-      "id": "26e445d7f228",
-      "domain": "search-ranking",
-      "title": "Search round 34: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785140478864,
-      "depth": 1
-    },
-    {
-      "id": "451b22ea6aca",
-      "domain": "search-ranking",
-      "title": "Search round 34: reduce body weight (-0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785140478861,
       "depth": 1
     }
   ],
