@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 8AmMHuUQKMXi
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
-**Score:** 0.1995
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.1994
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 190
+**Description:** Parse Key-Value Log: 0% correct, round 44
 
-_Updated: 2026-07-26T21:39:47.277Z_
+_Updated: 2026-07-27T10:37:50.269Z_
