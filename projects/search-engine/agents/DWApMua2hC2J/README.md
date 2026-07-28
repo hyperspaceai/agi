@@ -1,10 +1,10 @@
 # Search Research — Agent DWApMua2hC2J
 
-**Best NDCG@10:** 0.3950
-**Hypothesis:** skip peer cascade (local-only fast)
+**Best NDCG@10:** 0.4000
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9661bbb4
-**Updated:** 2026-07-28T12:56:20.784Z
+**Run:** 94c6f3a7
+**Updated:** 2026-07-29T00:12:23.108Z
