@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-28T05:38:05.955Z",
+  "timestamp": "2026-07-28T06:38:46.416Z",
   "peerId": "12D3KooWNCRDdVb2LhpmCshjAR5tAQ1eg4nrzbLfETs2UXbkRMXg",
   "stats": {
-    "totalNodes": 4501,
+    "totalNodes": 4503,
     "observations": 0,
-    "experiments": 4501,
+    "experiments": 4503,
     "syntheses": 0,
-    "totalEdges": 4498,
+    "totalEdges": 4500,
     "maxDepth": 8,
     "activeExperiments": 0,
-    "recentActivity": 8
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -40,10 +40,30 @@
   },
   "domainCounts": {
     "infrastructure": 2044,
-    "skills": 1812,
+    "skills": 1814,
     "finance": 645
   },
   "recentExperiments": [
+    {
+      "id": "6aea2c80578c",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1785219505467,
+      "depth": 4
+    },
+    {
+      "id": "c1208df0c1af",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1785218059505,
+      "depth": 4
+    },
     {
       "id": "b14f7d5b15ea",
       "domain": "skills",
@@ -222,26 +242,6 @@
       "metricValue": 0.1993,
       "isCurrentBest": false,
       "createdAt": 1785212470255,
-      "depth": 4
-    },
-    {
-      "id": "dd5161dd3181",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785212349544,
-      "depth": 4
-    },
-    {
-      "id": "3f0d935ab682",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785212230684,
       "depth": 4
     }
   ],
