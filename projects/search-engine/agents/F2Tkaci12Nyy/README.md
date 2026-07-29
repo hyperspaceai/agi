@@ -1,10 +1,10 @@
 # Search Research — Agent F2Tkaci12Nyy
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** skip peer cascade (local-only fast)
+**Hypothesis:** reduce body weight (-0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9670c020
-**Updated:** 2026-03-18T23:47:40.009Z
+**Run:** ac9dbae4
+**Updated:** 2026-03-15T16:59:02.737Z
