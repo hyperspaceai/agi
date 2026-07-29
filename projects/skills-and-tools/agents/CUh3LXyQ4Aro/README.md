@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CUh3LXyQ4Aro
 
-**Latest Skill:** Structured JSON Diff (seed/mutation) v1
+**Latest Skill:** Chunk Text for Embeddings (seed/mutation) v1
 **Score:** 0.1993
 **Permissions:** none
-**Description:** Structured JSON Diff: 0% correct, round 60
+**Description:** Chunk Text for Embeddings: 0% correct, round 122
 
-_Updated: 2026-07-29T20:55:54.152Z_
+_Updated: 2026-07-29T23:00:22.530Z_
