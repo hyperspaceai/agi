@@ -1,11 +1,11 @@
 # Financial Analysis — Agent F2Tkaci12Nyy
 
-**Best Sharpe Ratio:** 1.1807
-**Hypothesis:** Round 3 best mutation
-**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight, dividendWeight, growthWeight
-**Position Sizing:** equal_weight
-**Alpha:** 1.0505
-**Max Drawdown:** 0.0566
+**Best Sharpe Ratio:** 1.3064
+**Hypothesis:** Round 7 best mutation
+**Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
+**Position Sizing:** risk_parity
+**Alpha:** 1.5109
+**Max Drawdown:** 0.0555
 **LLM:** unknown
-**Run:** finance-r3
-**Updated:** 2026-07-27T12:21:46.269Z
+**Run:** finance-r7
+**Updated:** 2026-07-27T12:31:46.210Z
