@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "timestamp": "2026-07-29T23:25:56.105Z",
+  "timestamp": "2026-07-30T00:26:58.075Z",
   "peerId": "12D3KooWMJ4D5fZ7F58Hcn67Kzvjry9Xk1uZAkNPhNL3LFKS2YGF",
   "stats": {
-    "totalNodes": 47,
+    "totalNodes": 48,
     "observations": 0,
-    "experiments": 47,
+    "experiments": 48,
     "syntheses": 0,
-    "totalEdges": 56,
+    "totalEdges": 57,
     "maxDepth": 8,
     "activeExperiments": 0,
     "recentActivity": 1
   },
   "bestPerDomain": {
     "skills": {
-      "nodeId": "4ef1e20cffa60e3653262e593245ec5fa2fbbf8af765ce4969643821723cfdea",
+      "nodeId": "1c358fe5081c05441d7383b7292a30e979d2b2e34190f8d539757ea2449c5d12",
       "title": "Skill Normalize Text (seed/mutation): 0%",
       "metricName": "correctness",
-      "metricValue": 0.1993,
+      "metricValue": 0.1994,
       "metricDirection": "maximize",
-      "depth": 3
+      "depth": 4
     },
     "finance": {
       "nodeId": "6993f72ad9a0041feb69c4f106f4efa15d3de07ab973b2057dac27dc7dbba6b1",
@@ -31,10 +31,20 @@
     }
   },
   "domainCounts": {
-    "skills": 35,
+    "skills": 36,
     "finance": 12
   },
   "recentExperiments": [
+    {
+      "id": "1c358fe5081c",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": true,
+      "createdAt": 1785370489683,
+      "depth": 4
+    },
     {
       "id": "01c6b0947c39",
       "domain": "skills",
@@ -224,21 +234,17 @@
       "isCurrentBest": false,
       "createdAt": 1785351538668,
       "depth": 4
-    },
-    {
-      "id": "6daed83ed05e",
-      "domain": "finance",
-      "title": "Finance round 1: Sharpe=1.0810",
-      "metricName": "Sharpe",
-      "metricValue": 1.081,
-      "isCurrentBest": false,
-      "createdAt": 1785351445400,
-      "depth": 7
     }
   ],
   "frontier": [],
   "lineages": {
     "skills": [
+      {
+        "id": "1c358fe5081c",
+        "title": "Skill Normalize Text (seed/mutation): 0%",
+        "metricValue": 0.1994,
+        "depth": 4
+      },
       {
         "id": "4ef1e20cffa6",
         "title": "Skill Normalize Text (seed/mutation): 0%",
