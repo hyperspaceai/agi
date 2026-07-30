@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T19:53:55.859Z",
+  "timestamp": "2026-07-30T20:55:14.447Z",
   "peerId": "12D3KooWD3s1ACqs6SYs8GeGmkenrqxSaTdnwHAHksEWJg57jqwu",
   "stats": {
-    "totalNodes": 4875,
+    "totalNodes": 4876,
     "observations": 0,
-    "experiments": 4875,
+    "experiments": 4876,
     "syntheses": 0,
-    "totalEdges": 5045,
+    "totalEdges": 5047,
     "maxDepth": 40,
     "activeExperiments": 0,
-    "recentActivity": 21
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 1683,
-    "skills": 2019,
+    "skills": 2020,
     "finance": 822,
     "search-ranking": 351
   },
   "recentExperiments": [
+    {
+      "id": "cb277afb0acc",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1995,
+      "isCurrentBest": false,
+      "createdAt": 1785441594659,
+      "depth": 3
+    },
     {
       "id": "21c5d9347957",
       "domain": "skills",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1785437969186,
       "depth": 3
-    },
-    {
-      "id": "97a2da265b20",
-      "domain": "finance",
-      "title": "AutoQuant round 12: Sharpe=3.5383 OOS=4.6483",
-      "metricName": "Sharpe",
-      "metricValue": 3.5383,
-      "isCurrentBest": false,
-      "createdAt": 1785437969178,
-      "depth": 38
     }
   ],
   "frontier": [],
