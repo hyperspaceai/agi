@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T19:58:02.669Z",
+  "timestamp": "2026-07-30T21:02:28.647Z",
   "peerId": "12D3KooWJnP83o5TZGah86TNeYyYjUvye1hBG7fgP64asDjR3aZ8",
   "stats": {
-    "totalNodes": 790,
+    "totalNodes": 795,
     "observations": 0,
-    "experiments": 790,
+    "experiments": 795,
     "syntheses": 0,
-    "totalEdges": 922,
+    "totalEdges": 929,
     "maxDepth": 25,
     "activeExperiments": 0,
-    "recentActivity": 26
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,62 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 259,
+    "infrastructure": 260,
     "skills": 242,
-    "finance": 191,
+    "finance": 195,
     "search-ranking": 98
   },
   "recentExperiments": [
+    {
+      "id": "3902e7dd2720",
+      "domain": "finance",
+      "title": "AutoQuant round 50: Sharpe=3.6762 OOS=4.5497",
+      "metricName": "Sharpe",
+      "metricValue": 3.6762,
+      "isCurrentBest": false,
+      "createdAt": 1785445348586,
+      "depth": 25
+    },
+    {
+      "id": "2a52eceaca6e",
+      "domain": "finance",
+      "title": "AutoQuant round 35: Sharpe=3.6762 OOS=4.5497",
+      "metricName": "Sharpe",
+      "metricValue": 3.6762,
+      "isCurrentBest": false,
+      "createdAt": 1785442448501,
+      "depth": 25
+    },
+    {
+      "id": "b58542c9b82d",
+      "domain": "finance",
+      "title": "AutoQuant round 32: Sharpe=3.6762 OOS=4.5497",
+      "metricName": "Sharpe",
+      "metricValue": 3.6762,
+      "isCurrentBest": false,
+      "createdAt": 1785441868828,
+      "depth": 25
+    },
+    {
+      "id": "38cc127af554",
+      "domain": "finance",
+      "title": "AutoQuant round 31: Sharpe=3.6991 OOS=4.6275",
+      "metricName": "Sharpe",
+      "metricValue": 3.6991,
+      "isCurrentBest": false,
+      "createdAt": 1785441675636,
+      "depth": 25
+    },
+    {
+      "id": "7a9f9e17f333",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 90",
+      "metricName": "score",
+      "metricValue": 141.02218138411078,
+      "isCurrentBest": false,
+      "createdAt": 1785441546871,
+      "depth": 8
+    },
     {
       "id": "91decdb311fa",
       "domain": "finance",
@@ -202,56 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1785439784239,
       "depth": 1
-    },
-    {
-      "id": "7ba451ec9ea7",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1785439399691,
-      "depth": 1
-    },
-    {
-      "id": "8bb2bfe172fb",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1785439398636,
-      "depth": 1
-    },
-    {
-      "id": "f2c9e97ae7f9",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1785439398544,
-      "depth": 1
-    },
-    {
-      "id": "298a86c8a6bc",
-      "domain": "search-ranking",
-      "title": "Search round 38: boost BM25 weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3963092975357146,
-      "isCurrentBest": false,
-      "createdAt": 1785439398427,
-      "depth": 1
-    },
-    {
-      "id": "ee8c1b9b30d9",
-      "domain": "finance",
-      "title": "AutoQuant round 17: Sharpe=3.1249 OOS=4.2748",
-      "metricName": "Sharpe",
-      "metricValue": 3.1249,
-      "isCurrentBest": false,
-      "createdAt": 1785438973381,
-      "depth": 22
     }
   ],
   "frontier": [],
