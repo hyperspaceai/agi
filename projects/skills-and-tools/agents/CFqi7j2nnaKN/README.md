@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CFqi7j2nnaKN
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1997
+**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
+**Score:** 0.1996
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 16
+**Description:** Cosine Text Similarity: 0% correct, round 12
 
-_Updated: 2026-07-30T05:37:33.466Z_
+_Updated: 2026-07-30T06:50:40.121Z_
