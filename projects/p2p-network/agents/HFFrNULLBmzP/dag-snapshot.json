@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T17:04:34.142Z",
+  "timestamp": "2026-07-30T18:04:34.369Z",
   "peerId": "12D3KooWS4d27bv3NgFtGaHa86TVuX39e9mfb9VoeiJG7zivvG77",
   "stats": {
-    "totalNodes": 1204,
+    "totalNodes": 1205,
     "observations": 0,
-    "experiments": 1204,
+    "experiments": 1205,
     "syntheses": 0,
-    "totalEdges": 1247,
+    "totalEdges": 1249,
     "maxDepth": 26,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -47,12 +47,22 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 579,
+    "infrastructure": 580,
     "skills": 334,
     "finance": 235,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "12120c2fb5d7",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 1392",
+      "metricName": "score",
+      "metricValue": 0.913133142891361,
+      "isCurrentBest": false,
+      "createdAt": 1785433653984,
+      "depth": 5
+    },
     {
       "id": "28280ed8bf90",
       "domain": "infrastructure",
@@ -242,16 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1785387992715,
       "depth": 5
-    },
-    {
-      "id": "fb6f829455d4",
-      "domain": "finance",
-      "title": "AutoQuant round 200: Sharpe=3.1638 OOS=4.5153",
-      "metricName": "Sharpe",
-      "metricValue": 3.1638,
-      "isCurrentBest": false,
-      "createdAt": 1785386072906,
-      "depth": 26
     }
   ],
   "frontier": [],
