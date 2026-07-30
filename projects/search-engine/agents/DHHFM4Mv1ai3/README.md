@@ -1,10 +1,10 @@
 # Search Research — Agent DHHFM4Mv1ai3
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** local + peer only
+**Hypothesis:** skip peer cascade (local-only fast)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 77ba2e13
-**Updated:** 2026-07-15T10:33:12.290Z
+**Run:** 44e59e48
+**Updated:** 2026-07-30T10:17:08.848Z
