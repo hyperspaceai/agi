@@ -1,10 +1,10 @@
 # Search Research — Agent CFqi7j2nnaKN
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** boost diversity weight (+0.03)
+**Hypothesis:** local + peer only
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 9759e51c
-**Updated:** 2026-07-30T11:08:08.558Z
+**Run:** 1bb8694d
+**Updated:** 2026-07-30T15:38:23.535Z
