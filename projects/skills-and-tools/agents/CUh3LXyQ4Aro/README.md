@@ -1,8 +1,8 @@
 # Skill Catalog — Agent CUh3LXyQ4Aro
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1993
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 20
+**Description:** Structured JSON Diff: 0% correct, round 44
 
-_Updated: 2026-07-30T19:06:40.152Z_
+_Updated: 2026-07-30T19:54:48.606Z_
