@@ -2,9 +2,9 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWKs7ecdtk2KtQD2XQRqkyzZFkaxY67KDeYfCPsr5gwoKD",
-  "runNumber": 1,
-  "timestamp": 1785433090252,
-  "hypothesis": "Explore: long warmup (1000 steps)",
+  "runNumber": 4,
+  "timestamp": 1785434019962,
+  "hypothesis": "Test vs best de062240 (val_loss=4.8642): smaller init scale (0.01)",
   "config": {
     "nLayers": 2,
     "nHeads": 2,
@@ -31,25 +31,25 @@
     "scheduleType": "cosine",
     "minLRRatio": 0.1,
     "initType": "normal",
-    "initScale": 0.02,
+    "initScale": 0.01,
     "beta1": 0.9,
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.864165105510022,
-    "trainLoss": 4.863993286327046,
+    "valLoss": 4.851206448018785,
+    "trainLoss": 4.852959692597033,
     "lossCurve": [
       [
-        11,
-        4.864165105510022
+        17,
+        4.851206448018785
       ]
     ],
-    "durationSec": 174.7,
-    "tokensPerSec": 128.9524899828277,
-    "totalTokens": 22528,
-    "stepsCompleted": 11
+    "durationSec": 170.967,
+    "tokensPerSec": 203.64163844484605,
+    "totalTokens": 34816,
+    "stepsCompleted": 17
   },
-  "improvement": 0,
+  "improvement": -0.26641072435139024,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
