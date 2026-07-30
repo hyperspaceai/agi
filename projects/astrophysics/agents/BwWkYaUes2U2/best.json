@@ -2,17 +2,17 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWLksvHi4N3vjWUMsqxtNmXcxrAdCjesX6qRtmkxPTGwyi",
-  "runNumber": 1,
-  "timestamp": 1785429831020,
-  "hypothesis": "Explore: deeper (12 layers)",
+  "runNumber": 3,
+  "timestamp": 1785430289282,
+  "hypothesis": "Test vs best cb38f65f (val_loss=3.4348): more heads (8h)",
   "config": {
     "nLayers": 12,
-    "nHeads": 2,
+    "nHeads": 8,
     "dModel": 64,
     "dFF": 256,
     "contextLength": 128,
     "vocabSize": 128,
-    "learningRate": 0.0003,
+    "learningRate": 0.08,
     "batchSize": 16,
     "maxSteps": 50000,
     "maxDurationSec": 120,
@@ -36,20 +36,20 @@
     "beta2": 0.999
   },
   "result": {
-    "valLoss": 4.626582673993942,
-    "trainLoss": 4.644418375467774,
+    "valLoss": 3.3349089839217223,
+    "trainLoss": 3.4335344539903594,
     "lossCurve": [
       [
         13,
-        4.626582673993942
+        3.3349089839217223
       ]
     ],
-    "durationSec": 197.68,
-    "tokensPerSec": 134.6823148522865,
+    "durationSec": 206.302,
+    "tokensPerSec": 129.0535234752935,
     "totalTokens": 26624,
     "stepsCompleted": 13
   },
-  "improvement": 0,
+  "improvement": -2.909113076324043,
   "isNewBest": true,
   "gpu": null,
   "inspiredBy": null
