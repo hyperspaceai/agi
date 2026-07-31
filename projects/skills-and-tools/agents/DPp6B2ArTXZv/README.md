@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DPp6B2ArTXZv
 
-**Latest Skill:** Cosine Text Similarity (seed/mutation) v1
-**Score:** 0.1998
+**Latest Skill:** Extract Entities from Text (seed/mutation) v1
+**Score:** 0.1999
 **Permissions:** none
-**Description:** Cosine Text Similarity: 0% correct, round 15
+**Description:** Extract Entities from Text: 0% correct, round 72
 
-_Updated: 2026-07-31T05:37:58.605Z_
+_Updated: 2026-07-31T07:26:42.676Z_
