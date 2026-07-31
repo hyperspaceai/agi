@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-31T22:46:58.234Z",
+  "timestamp": "2026-07-31T23:55:07.497Z",
   "peerId": "12D3KooWDAkoQtLVWhCpR79wvLfjpGPwWixa9fNVZypaJvdak3s9",
   "stats": {
-    "totalNodes": 4096,
+    "totalNodes": 4098,
     "observations": 0,
-    "experiments": 4096,
+    "experiments": 4098,
     "syntheses": 0,
-    "totalEdges": 4230,
+    "totalEdges": 4232,
     "maxDepth": 41,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -57,11 +57,31 @@
   "domainCounts": {
     "infrastructure": 1744,
     "skills": 1291,
-    "finance": 929,
+    "finance": 931,
     "search-ranking": 129,
     "general": 3
   },
   "recentExperiments": [
+    {
+      "id": "44ef57669ecf",
+      "domain": "finance",
+      "title": "AutoQuant round 88: Sharpe=3.2153 OOS=4.5420",
+      "metricName": "Sharpe",
+      "metricValue": 3.2153,
+      "isCurrentBest": false,
+      "createdAt": 1785541258345,
+      "depth": 41
+    },
+    {
+      "id": "663b59094230",
+      "domain": "finance",
+      "title": "AutoQuant round 78: Sharpe=3.2153 OOS=4.5420",
+      "metricName": "Sharpe",
+      "metricValue": 3.2153,
+      "isCurrentBest": false,
+      "createdAt": 1785539458261,
+      "depth": 41
+    },
     {
       "id": "f078724aa2f1",
       "domain": "finance",
@@ -240,26 +260,6 @@
       "metricValue": 2.9715,
       "isCurrentBest": false,
       "createdAt": 1785527406684,
-      "depth": 41
-    },
-    {
-      "id": "ab3146070b4a",
-      "domain": "finance",
-      "title": "AutoQuant round 28: Sharpe=2.9715 OOS=4.0310",
-      "metricName": "Sharpe",
-      "metricValue": 2.9715,
-      "isCurrentBest": false,
-      "createdAt": 1785527226655,
-      "depth": 41
-    },
-    {
-      "id": "7be23331e91e",
-      "domain": "finance",
-      "title": "AutoQuant round 27: Sharpe=2.9590 OOS=3.9810",
-      "metricName": "Sharpe",
-      "metricValue": 2.959,
-      "isCurrentBest": false,
-      "createdAt": 1785527046668,
       "depth": 41
     }
   ],
