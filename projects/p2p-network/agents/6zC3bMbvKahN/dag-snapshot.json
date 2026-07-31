@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-31T04:34:28.272Z",
+  "timestamp": "2026-07-31T05:35:16.677Z",
   "peerId": "12D3KooWFoZDLVBdWUxsF5BLnvuBPFG6gTkqANWa1mMndQQ93Lg4",
   "stats": {
-    "totalNodes": 1302,
+    "totalNodes": 1308,
     "observations": 0,
-    "experiments": 1302,
+    "experiments": 1308,
     "syntheses": 0,
-    "totalEdges": 1385,
+    "totalEdges": 1393,
     "maxDepth": 26,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 6
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,72 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 640,
+    "infrastructure": 642,
     "skills": 309,
-    "finance": 257,
+    "finance": 261,
     "search-ranking": 96
   },
   "recentExperiments": [
+    {
+      "id": "c64e9c7c7d9f",
+      "domain": "finance",
+      "title": "AutoQuant round 89: Sharpe=3.3201 OOS=4.1051",
+      "metricName": "Sharpe",
+      "metricValue": 3.3201,
+      "isCurrentBest": false,
+      "createdAt": 1785475932819,
+      "depth": 26
+    },
+    {
+      "id": "384fbe1d62a9",
+      "domain": "finance",
+      "title": "AutoQuant round 87: Sharpe=3.3141 OOS=4.0067",
+      "metricName": "Sharpe",
+      "metricValue": 3.3141,
+      "isCurrentBest": false,
+      "createdAt": 1785475567286,
+      "depth": 26
+    },
+    {
+      "id": "b1f4fa7c5428",
+      "domain": "finance",
+      "title": "AutoQuant round 86: Sharpe=3.3141 OOS=4.0067",
+      "metricName": "Sharpe",
+      "metricValue": 3.3141,
+      "isCurrentBest": false,
+      "createdAt": 1785475383577,
+      "depth": 26
+    },
+    {
+      "id": "e7d1463c6467",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 261",
+      "metricName": "score",
+      "metricValue": 141.00939707954578,
+      "isCurrentBest": false,
+      "createdAt": 1785475230530,
+      "depth": 5
+    },
+    {
+      "id": "578fba2e0e87",
+      "domain": "finance",
+      "title": "AutoQuant round 79: Sharpe=3.3141 OOS=4.0067",
+      "metricName": "Sharpe",
+      "metricValue": 3.3141,
+      "isCurrentBest": false,
+      "createdAt": 1785474109093,
+      "depth": 26
+    },
+    {
+      "id": "1c48856affce",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 231",
+      "metricName": "score",
+      "metricValue": 141.0735093416982,
+      "isCurrentBest": false,
+      "createdAt": 1785473411567,
+      "depth": 5
+    },
     {
       "id": "3817299a4932",
       "domain": "finance",
@@ -191,66 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1785440666388,
-      "depth": 1
-    },
-    {
-      "id": "17874f49ea8a",
-      "domain": "search-ranking",
-      "title": "Search round 46: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785440666282,
-      "depth": 1
-    },
-    {
-      "id": "b50772a19321",
-      "domain": "search-ranking",
-      "title": "Search round 42: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785440274992,
-      "depth": 1
-    },
-    {
-      "id": "0aafd7c364be",
-      "domain": "search-ranking",
-      "title": "Search round 42: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785440274900,
-      "depth": 1
-    },
-    {
-      "id": "e915d7ce796a",
-      "domain": "search-ranking",
-      "title": "Search round 42: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785440274807,
-      "depth": 1
-    },
-    {
-      "id": "5ec4597db0cb",
-      "domain": "search-ranking",
-      "title": "Search round 42: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785440274712,
-      "depth": 1
-    },
-    {
-      "id": "5ded068bb8b2",
-      "domain": "search-ranking",
-      "title": "Search round 38: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785439915045,
       "depth": 1
     }
   ],
