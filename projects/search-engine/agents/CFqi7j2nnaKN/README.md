@@ -1,10 +1,10 @@
 # Search Research — Agent CFqi7j2nnaKN
 
 **Best NDCG@10:** 0.4000
-**Hypothesis:** reduce anchor weight (-0.03)
+**Hypothesis:** boost authority weight (+0.05)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 904d2b77
-**Updated:** 2026-07-31T03:10:08.938Z
+**Run:** cc547b6c
+**Updated:** 2026-07-31T12:09:39.102Z
