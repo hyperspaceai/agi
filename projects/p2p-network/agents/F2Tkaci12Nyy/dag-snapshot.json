@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-31T13:40:09.897Z",
+  "timestamp": "2026-07-31T14:40:10.038Z",
   "peerId": "12D3KooWPqpvKkHiDHFTtBGWUvNsJ78cHXWoR4ToW5Hm5u9inEoh",
   "stats": {
-    "totalNodes": 1751,
+    "totalNodes": 1752,
     "observations": 0,
-    "experiments": 1751,
+    "experiments": 1752,
     "syntheses": 0,
-    "totalEdges": 1868,
+    "totalEdges": 1869,
     "maxDepth": 28,
     "activeExperiments": 0,
     "recentActivity": 1
@@ -49,10 +49,20 @@
   "domainCounts": {
     "infrastructure": 688,
     "skills": 635,
-    "finance": 397,
+    "finance": 398,
     "search-ranking": 31
   },
   "recentExperiments": [
+    {
+      "id": "0ea89c5653f9",
+      "domain": "finance",
+      "title": "AutoQuant round 136: Sharpe=3.5971 OOS=4.6474",
+      "metricName": "Sharpe",
+      "metricValue": 3.5971,
+      "isCurrentBest": false,
+      "createdAt": 1785506289877,
+      "depth": 28
+    },
     {
       "id": "d78bea3788a6",
       "domain": "infrastructure",
@@ -241,16 +251,6 @@
       "metricValue": 0.1999,
       "isCurrentBest": false,
       "createdAt": 1785483368278,
-      "depth": 3
-    },
-    {
-      "id": "67236d3cbbfa",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1785483248340,
       "depth": 3
     }
   ],
