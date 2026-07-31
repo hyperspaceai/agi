@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-31T10:52:10.470Z",
+  "timestamp": "2026-07-31T11:53:02.551Z",
   "peerId": "12D3KooWHTYUtxPxWtRsUCxxBVZQSBntCNm5f2k25GxW7HsAThZc",
   "stats": {
-    "totalNodes": 2125,
+    "totalNodes": 2128,
     "observations": 0,
-    "experiments": 2125,
+    "experiments": 2128,
     "syntheses": 0,
-    "totalEdges": 2162,
+    "totalEdges": 2166,
     "maxDepth": 21,
     "activeExperiments": 0,
-    "recentActivity": 10
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -30,20 +30,50 @@
       "depth": 1
     },
     "finance": {
-      "nodeId": "61f4fcf5c461e5031685dd69243eeb1b44a3bb472573cc38e6525a48991cf76a",
-      "title": "AutoQuant round 44: Sharpe=3.4355 OOS=4.5383",
+      "nodeId": "a5015a9cd5d662bb37f71fed68e028702b28fcf9d5c73e34d8b86b22e5befe43",
+      "title": "AutoQuant round 70: Sharpe=3.4415 OOS=4.5472",
       "metricName": "Sharpe",
-      "metricValue": 3.4355,
+      "metricValue": 3.4415,
       "metricDirection": "maximize",
-      "depth": 20
+      "depth": 21
     }
   },
   "domainCounts": {
-    "infrastructure": 1430,
-    "skills": 449,
-    "finance": 246
+    "infrastructure": 1431,
+    "skills": 450,
+    "finance": 247
   },
   "recentExperiments": [
+    {
+      "id": "a5015a9cd5d6",
+      "domain": "finance",
+      "title": "AutoQuant round 70: Sharpe=3.4415 OOS=4.5472",
+      "metricName": "Sharpe",
+      "metricValue": 3.4415,
+      "isCurrentBest": true,
+      "createdAt": 1785498782508,
+      "depth": 21
+    },
+    {
+      "id": "9913f69cec7c",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 165",
+      "metricName": "score",
+      "metricValue": 141.01607445088987,
+      "isCurrentBest": false,
+      "createdAt": 1785496068696,
+      "depth": 13
+    },
+    {
+      "id": "f747d59d32c4",
+      "domain": "skills",
+      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1785495615439,
+      "depth": 2
+    },
     {
       "id": "912216b4848b",
       "domain": "finance",
@@ -80,7 +110,7 @@
       "title": "AutoQuant round 44: Sharpe=3.4355 OOS=4.5383",
       "metricName": "Sharpe",
       "metricValue": 3.4355,
-      "isCurrentBest": true,
+      "isCurrentBest": false,
       "createdAt": 1785494041325,
       "depth": 20
     },
@@ -213,36 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1785489499006,
       "depth": 17
-    },
-    {
-      "id": "73310cdfb701",
-      "domain": "skills",
-      "title": "Skill Detect Anomalies (IQR) (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1785489285053,
-      "depth": 2
-    },
-    {
-      "id": "a54607ffca6c",
-      "domain": "finance",
-      "title": "AutoQuant round 18: Sharpe=3.3229 OOS=4.3366",
-      "metricName": "Sharpe",
-      "metricValue": 3.3229,
-      "isCurrentBest": false,
-      "createdAt": 1785489285048,
-      "depth": 16
-    },
-    {
-      "id": "00e86cfa9e89",
-      "domain": "finance",
-      "title": "AutoQuant round 17: Sharpe=3.2352 OOS=4.2444",
-      "metricName": "Sharpe",
-      "metricValue": 3.2352,
-      "isCurrentBest": false,
-      "createdAt": 1785489113332,
-      "depth": 15
     }
   ],
   "frontier": [],
@@ -325,6 +325,12 @@
     ],
     "finance": [
       {
+        "id": "a5015a9cd5d6",
+        "title": "AutoQuant round 70: Sharpe=3.4415 OOS=4.5472",
+        "metricValue": 3.4415,
+        "depth": 21
+      },
+      {
         "id": "61f4fcf5c461",
         "title": "AutoQuant round 44: Sharpe=3.4355 OOS=4.5383",
         "metricValue": 3.4355,
@@ -377,12 +383,6 @@
         "title": "AutoQuant round 11: Sharpe=3.0480 OOS=3.7485",
         "metricValue": 3.048,
         "depth": 12
-      },
-      {
-        "id": "6829a2e1900a",
-        "title": "AutoQuant round 10: Sharpe=3.0443 OOS=3.7714",
-        "metricValue": 3.0443,
-        "depth": 11
       }
     ]
   }
