@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-07-31T15:35:05.095Z",
+  "timestamp": "2026-07-31T16:35:05.172Z",
   "peerId": "12D3KooWGY2BL2hihZfZWnEi9JibCfqgCHpHtcF3Fftt3X1vzati",
   "stats": {
-    "totalNodes": 4998,
+    "totalNodes": 4501,
     "observations": 0,
-    "experiments": 4998,
+    "experiments": 4501,
     "syntheses": 0,
-    "totalEdges": 5266,
+    "totalEdges": 4770,
     "maxDepth": 19,
     "activeExperiments": 0,
     "recentActivity": 3
@@ -55,13 +55,43 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1422,
-    "skills": 1657,
-    "search-ranking": 959,
-    "finance": 959,
+    "infrastructure": 1299,
+    "skills": 1485,
+    "search-ranking": 857,
+    "finance": 859,
     "general": 1
   },
   "recentExperiments": [
+    {
+      "id": "0a52c60c8e7d",
+      "domain": "finance",
+      "title": "AutoQuant round 61: Sharpe=3.3723 OOS=4.4155",
+      "metricName": "Sharpe",
+      "metricValue": 3.3723,
+      "isCurrentBest": false,
+      "createdAt": 1785514084898,
+      "depth": 19
+    },
+    {
+      "id": "5d18ce2ce112",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 165",
+      "metricName": "score",
+      "metricValue": 144.99104908226806,
+      "isCurrentBest": false,
+      "createdAt": 1785513034685,
+      "depth": 16
+    },
+    {
+      "id": "c2c37e611b73",
+      "domain": "finance",
+      "title": "AutoQuant round 55: Sharpe=3.3797 OOS=4.4253",
+      "metricName": "Sharpe",
+      "metricValue": 3.3797,
+      "isCurrentBest": false,
+      "createdAt": 1785513004848,
+      "depth": 19
+    },
     {
       "id": "af3c267999c8",
       "domain": "finance",
@@ -231,36 +261,6 @@
       "isCurrentBest": false,
       "createdAt": 1785506404322,
       "depth": 19
-    },
-    {
-      "id": "6346fd7e3753",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785506344453,
-      "depth": 4
-    },
-    {
-      "id": "0734fd47789d",
-      "domain": "search-ranking",
-      "title": "Search round 35: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785506330000,
-      "depth": 2
-    },
-    {
-      "id": "dbf600932b4f",
-      "domain": "search-ranking",
-      "title": "Search round 35: more expansion terms (5)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785506328941,
-      "depth": 2
     }
   ],
   "frontier": [],
