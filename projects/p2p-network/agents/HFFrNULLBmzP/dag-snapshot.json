@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "timestamp": "2026-08-01T06:21:44.086Z",
+  "timestamp": "2026-08-01T07:21:44.175Z",
   "peerId": "12D3KooWS4d27bv3NgFtGaHa86TVuX39e9mfb9VoeiJG7zivvG77",
   "stats": {
-    "totalNodes": 1625,
+    "totalNodes": 1627,
     "observations": 0,
-    "experiments": 1625,
+    "experiments": 1627,
     "syntheses": 0,
-    "totalEdges": 2002,
+    "totalEdges": 2005,
     "maxDepth": 29,
     "activeExperiments": 0,
     "recentActivity": 2
@@ -49,10 +49,30 @@
   "domainCounts": {
     "infrastructure": 685,
     "skills": 459,
-    "finance": 425,
+    "finance": 427,
     "search-ranking": 56
   },
   "recentExperiments": [
+    {
+      "id": "54c71a29e8b7",
+      "domain": "finance",
+      "title": "AutoQuant round 64: Sharpe=3.1783 OOS=4.3949",
+      "metricName": "Sharpe",
+      "metricValue": 3.1783,
+      "isCurrentBest": false,
+      "createdAt": 1785567823946,
+      "depth": 29
+    },
+    {
+      "id": "3511cb3ca401",
+      "domain": "finance",
+      "title": "AutoQuant round 54: Sharpe=3.3027 OOS=4.2290",
+      "metricName": "Sharpe",
+      "metricValue": 3.3027,
+      "isCurrentBest": false,
+      "createdAt": 1785566023919,
+      "depth": 29
+    },
     {
       "id": "98dc64bf510f",
       "domain": "infrastructure",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1785558103617,
       "depth": 2
-    },
-    {
-      "id": "1de287826a2a",
-      "domain": "skills",
-      "title": "Skill Parse Key-Value Log (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1997,
-      "isCurrentBest": false,
-      "createdAt": 1785557983572,
-      "depth": 2
-    },
-    {
-      "id": "38e835edc3a0",
-      "domain": "finance",
-      "title": "AutoQuant round 9: Sharpe=2.8746 OOS=3.5364",
-      "metricName": "Sharpe",
-      "metricValue": 2.8746,
-      "isCurrentBest": false,
-      "createdAt": 1785557924932,
-      "depth": 29
     }
   ],
   "frontier": [],
