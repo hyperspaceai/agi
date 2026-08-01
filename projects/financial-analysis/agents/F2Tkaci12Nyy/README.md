@@ -1,11 +1,11 @@
 # Financial Analysis — Agent F2Tkaci12Nyy
 
-**Best Sharpe Ratio:** 1.2960
-**Hypothesis:** Round 12 best mutation
+**Best Sharpe Ratio:** 1.3205
+**Hypothesis:** Round 22 best mutation
 **Factors:** momentumWeight, valueWeight, qualityWeight, lowVolWeight
 **Position Sizing:** risk_parity
-**Alpha:** 1.5180
-**Max Drawdown:** 0.0564
+**Alpha:** 1.5203
+**Max Drawdown:** 0.0546
 **LLM:** unknown
-**Run:** finance-r12
-**Updated:** 2026-08-01T04:29:58.780Z
+**Run:** finance-r22
+**Updated:** 2026-08-01T04:54:58.952Z
