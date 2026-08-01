@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DHHFM4Mv1ai3
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1999
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 53
+**Description:** Structured JSON Diff: 0% correct, round 60
 
-_Updated: 2026-08-01T17:29:32.053Z_
+_Updated: 2026-08-01T20:21:41.817Z_
