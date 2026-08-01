@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-01T05:29:59.417Z",
+  "timestamp": "2026-08-01T06:30:00.031Z",
   "peerId": "12D3KooWPqpvKkHiDHFTtBGWUvNsJ78cHXWoR4ToW5Hm5u9inEoh",
   "stats": {
-    "totalNodes": 1879,
+    "totalNodes": 1880,
     "observations": 0,
-    "experiments": 1879,
+    "experiments": 1880,
     "syntheses": 0,
-    "totalEdges": 2107,
+    "totalEdges": 2109,
     "maxDepth": 28,
     "activeExperiments": 0,
-    "recentActivity": 22
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,21 @@
   },
   "domainCounts": {
     "infrastructure": 730,
-    "skills": 666,
+    "skills": 667,
     "finance": 438,
     "search-ranking": 45
   },
   "recentExperiments": [
+    {
+      "id": "4e2872968474",
+      "domain": "skills",
+      "title": "Skill Compute Text Statistics (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1999,
+      "isCurrentBest": false,
+      "createdAt": 1785562439288,
+      "depth": 3
+    },
     {
       "id": "5bf393e905ab",
       "domain": "search-ranking",
@@ -241,16 +251,6 @@
       "metricValue": 1.3137,
       "isCurrentBest": false,
       "createdAt": 1785559498964,
-      "depth": 28
-    },
-    {
-      "id": "742488ae1561",
-      "domain": "finance",
-      "title": "AutoQuant round 14: Sharpe=3.4953 OOS=4.1352",
-      "metricName": "Sharpe",
-      "metricValue": 3.4953,
-      "isCurrentBest": false,
-      "createdAt": 1785559318898,
       "depth": 28
     }
   ],
