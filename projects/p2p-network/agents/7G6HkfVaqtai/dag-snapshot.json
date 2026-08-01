@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-01T13:24:29.272Z",
+  "timestamp": "2026-08-01T15:24:29.685Z",
   "peerId": "12D3KooWG5TTVo5J2nrCozocwpZH3i13Jffk6riu18ChfFarcifD",
   "stats": {
-    "totalNodes": 4901,
+    "totalNodes": 4910,
     "observations": 0,
-    "experiments": 4901,
+    "experiments": 4910,
     "syntheses": 0,
-    "totalEdges": 5140,
+    "totalEdges": 5156,
     "maxDepth": 21,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 6
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,102 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1958,
+    "infrastructure": 1965,
     "skills": 1584,
-    "finance": 1010,
+    "finance": 1012,
     "search-ranking": 349
   },
   "recentExperiments": [
+    {
+      "id": "6c85539ee565",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 677",
+      "metricName": "score",
+      "metricValue": 144.96958796013578,
+      "isCurrentBest": false,
+      "createdAt": 1785597149197,
+      "depth": 8
+    },
+    {
+      "id": "8e8cb52752e1",
+      "domain": "finance",
+      "title": "AutoQuant round 225: Sharpe=3.5873 OOS=4.6675",
+      "metricName": "Sharpe",
+      "metricValue": 3.5873,
+      "isCurrentBest": false,
+      "createdAt": 1785596971276,
+      "depth": 21
+    },
+    {
+      "id": "03fc5538b7af",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 648",
+      "metricName": "score",
+      "metricValue": 145.19283665658654,
+      "isCurrentBest": false,
+      "createdAt": 1785595409128,
+      "depth": 8
+    },
+    {
+      "id": "d5c9f5be3618",
+      "domain": "finance",
+      "title": "AutoQuant round 215: Sharpe=3.5845 OOS=4.6604",
+      "metricName": "Sharpe",
+      "metricValue": 3.5845,
+      "isCurrentBest": false,
+      "createdAt": 1785595169323,
+      "depth": 21
+    },
+    {
+      "id": "284763692da0",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 632",
+      "metricName": "score",
+      "metricValue": 0.9695109625383551,
+      "isCurrentBest": false,
+      "createdAt": 1785594449092,
+      "depth": 8
+    },
+    {
+      "id": "b156b1f8dbe2",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 630",
+      "metricName": "score",
+      "metricValue": 0.9679731020253575,
+      "isCurrentBest": false,
+      "createdAt": 1785594329088,
+      "depth": 8
+    },
+    {
+      "id": "b7a3755b01cf",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 629",
+      "metricName": "score",
+      "metricValue": 0.967768967064613,
+      "isCurrentBest": false,
+      "createdAt": 1785594268906,
+      "depth": 8
+    },
+    {
+      "id": "0b0e937226f3",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 619",
+      "metricName": "score",
+      "metricValue": 0.9578067312443778,
+      "isCurrentBest": false,
+      "createdAt": 1785593668889,
+      "depth": 8
+    },
+    {
+      "id": "b72ece80d5a8",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 618",
+      "metricName": "score",
+      "metricValue": 0.9334387408002942,
+      "isCurrentBest": false,
+      "createdAt": 1785593608888,
+      "depth": 8
+    },
     {
       "id": "7686c2050a3f",
       "domain": "infrastructure",
@@ -162,96 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1785565226888,
       "depth": 1
-    },
-    {
-      "id": "e4745f95fba1",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1785562586619,
-      "depth": 1
-    },
-    {
-      "id": "c1fd1897e4b7",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 71",
-      "metricName": "score",
-      "metricValue": 0.9766141607650025,
-      "isCurrentBest": false,
-      "createdAt": 1785560756560,
-      "depth": 8
-    },
-    {
-      "id": "90eb38936dc2",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1785559826494,
-      "depth": 1
-    },
-    {
-      "id": "0ff4b22e14cf",
-      "domain": "finance",
-      "title": "AutoQuant round 18: Sharpe=3.5580 OOS=4.4710",
-      "metricName": "Sharpe",
-      "metricValue": 3.558,
-      "isCurrentBest": false,
-      "createdAt": 1785559706601,
-      "depth": 21
-    },
-    {
-      "id": "3b3b7d8a8d82",
-      "domain": "finance",
-      "title": "AutoQuant round 17: Sharpe=3.5612 OOS=4.4870",
-      "metricName": "Sharpe",
-      "metricValue": 3.5612,
-      "isCurrentBest": false,
-      "createdAt": 1785559528923,
-      "depth": 21
-    },
-    {
-      "id": "98df03e9b83c",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1785559106410,
-      "depth": 1
-    },
-    {
-      "id": "d423170b1e90",
-      "domain": "finance",
-      "title": "AutoQuant round 13: Sharpe=3.5315 OOS=4.2063",
-      "metricName": "Sharpe",
-      "metricValue": 3.5315,
-      "isCurrentBest": false,
-      "createdAt": 1785558806498,
-      "depth": 21
-    },
-    {
-      "id": "7eb946dfaee5",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 36",
-      "metricName": "score",
-      "metricValue": 141.3548232089104,
-      "isCurrentBest": false,
-      "createdAt": 1785558656390,
-      "depth": 8
-    },
-    {
-      "id": "53554c8e0590",
-      "domain": "finance",
-      "title": "AutoQuant round 11: Sharpe=3.5275 OOS=4.2063",
-      "metricName": "Sharpe",
-      "metricValue": 3.5275,
-      "isCurrentBest": false,
-      "createdAt": 1785558446613,
-      "depth": 21
     }
   ],
   "frontier": [],
