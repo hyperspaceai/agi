@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-07-31T23:50:36.656Z",
+  "timestamp": "2026-08-01T00:50:36.610Z",
   "peerId": "12D3KooWHT7nLfmx5Wpz5GfyQHpdbyunuFjNCPKgz6RYroMFGURd",
   "stats": {
-    "totalNodes": 615,
+    "totalNodes": 617,
     "observations": 0,
-    "experiments": 615,
+    "experiments": 617,
     "syntheses": 0,
-    "totalEdges": 827,
+    "totalEdges": 829,
     "maxDepth": 15,
     "activeExperiments": 0,
-    "recentActivity": 25
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,31 @@
   },
   "domainCounts": {
     "infrastructure": 136,
-    "skills": 258,
-    "finance": 193,
+    "skills": 259,
+    "finance": 194,
     "search-ranking": 28
   },
   "recentExperiments": [
+    {
+      "id": "158df33a1db0",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1998,
+      "isCurrentBest": false,
+      "createdAt": 1785542916651,
+      "depth": 1
+    },
+    {
+      "id": "9a487ba2a2b8",
+      "domain": "finance",
+      "title": "AutoQuant round 35: Sharpe=3.1625 OOS=4.0061",
+      "metricName": "Sharpe",
+      "metricValue": 3.1625,
+      "isCurrentBest": false,
+      "createdAt": 1785542736618,
+      "depth": 15
+    },
     {
       "id": "6092d6d5726a",
       "domain": "finance",
@@ -232,26 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1785539496572,
       "depth": 15
-    },
-    {
-      "id": "eb4140b3e600",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 49",
-      "metricName": "score",
-      "metricValue": 0.9740962238251357,
-      "isCurrentBest": false,
-      "createdAt": 1785539406505,
-      "depth": 7
-    },
-    {
-      "id": "d8432fb198be",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1998,
-      "isCurrentBest": false,
-      "createdAt": 1785539316576,
-      "depth": 1
     }
   ],
   "frontier": [],
