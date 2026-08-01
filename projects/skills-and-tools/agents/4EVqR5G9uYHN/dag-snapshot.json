@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-01T06:30:18.233Z",
+  "timestamp": "2026-08-01T08:31:24.404Z",
   "peerId": "12D3KooWD3s1ACqs6SYs8GeGmkenrqxSaTdnwHAHksEWJg57jqwu",
   "stats": {
-    "totalNodes": 4685,
+    "totalNodes": 4694,
     "observations": 0,
-    "experiments": 4685,
+    "experiments": 4694,
     "syntheses": 0,
-    "totalEdges": 5132,
+    "totalEdges": 5146,
     "maxDepth": 40,
     "activeExperiments": 0,
-    "recentActivity": 9
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,102 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 1568,
-    "skills": 1948,
-    "finance": 843,
+    "infrastructure": 1569,
+    "skills": 1952,
+    "finance": 847,
     "search-ranking": 326
   },
   "recentExperiments": [
+    {
+      "id": "2ded7261bc67",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 256",
+      "metricName": "score",
+      "metricValue": 141.2374917307038,
+      "isCurrentBest": false,
+      "createdAt": 1785572236274,
+      "depth": 4
+    },
+    {
+      "id": "ed9f816365ba",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1785571995584,
+      "depth": 3
+    },
+    {
+      "id": "2608c703429b",
+      "domain": "finance",
+      "title": "AutoQuant round 76: Sharpe=3.3203 OOS=4.3094",
+      "metricName": "Sharpe",
+      "metricValue": 3.3203,
+      "isCurrentBest": false,
+      "createdAt": 1785570548486,
+      "depth": 40
+    },
+    {
+      "id": "af6a00d6a83a",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1785569328736,
+      "depth": 3
+    },
+    {
+      "id": "5d416cd1b6e7",
+      "domain": "finance",
+      "title": "AutoQuant round 68: Sharpe=3.3188 OOS=4.3061",
+      "metricName": "Sharpe",
+      "metricValue": 3.3188,
+      "isCurrentBest": false,
+      "createdAt": 1785569092877,
+      "depth": 40
+    },
+    {
+      "id": "8616c587993c",
+      "domain": "finance",
+      "title": "AutoQuant round 61: Sharpe=3.3357 OOS=4.2235",
+      "metricName": "Sharpe",
+      "metricValue": 3.3357,
+      "isCurrentBest": false,
+      "createdAt": 1785567802697,
+      "depth": 40
+    },
+    {
+      "id": "ada3227f6b58",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1785567741224,
+      "depth": 3
+    },
+    {
+      "id": "e56d4eb012d3",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1996,
+      "isCurrentBest": false,
+      "createdAt": 1785567499774,
+      "depth": 3
+    },
+    {
+      "id": "ae2c8ae7c74e",
+      "domain": "finance",
+      "title": "AutoQuant round 57: Sharpe=3.3406 OOS=4.2270",
+      "metricName": "Sharpe",
+      "metricValue": 3.3406,
+      "isCurrentBest": false,
+      "createdAt": 1785567077593,
+      "depth": 40
+    },
     {
       "id": "c4874c387c5b",
       "domain": "infrastructure",
@@ -161,96 +251,6 @@
       "metricValue": 3.2195,
       "isCurrentBest": false,
       "createdAt": 1785561071848,
-      "depth": 40
-    },
-    {
-      "id": "bdf1f35904d8",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1785561071843,
-      "depth": 3
-    },
-    {
-      "id": "582bb2dc9b6a",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost diversity weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785560704314,
-      "depth": 2
-    },
-    {
-      "id": "ec38a15691a9",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost diversity weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785560703140,
-      "depth": 2
-    },
-    {
-      "id": "df6a6a2a52cb",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost diversity weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785560702753,
-      "depth": 2
-    },
-    {
-      "id": "e6544b4a8cf1",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost diversity weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785560702329,
-      "depth": 2
-    },
-    {
-      "id": "03fda222c410",
-      "domain": "search-ranking",
-      "title": "Search round 43: boost diversity weight (+0.03)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785560701821,
-      "depth": 2
-    },
-    {
-      "id": "12cb86295acc",
-      "domain": "skills",
-      "title": "Skill Chunk Text for Embeddings (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1995,
-      "isCurrentBest": false,
-      "createdAt": 1785560228296,
-      "depth": 3
-    },
-    {
-      "id": "c404e6cd0a88",
-      "domain": "finance",
-      "title": "AutoQuant round 19: Sharpe=3.2510 OOS=4.1786",
-      "metricName": "Sharpe",
-      "metricValue": 3.251,
-      "isCurrentBest": false,
-      "createdAt": 1785560170310,
-      "depth": 40
-    },
-    {
-      "id": "f94965d5622c",
-      "domain": "finance",
-      "title": "AutoQuant round 18: Sharpe=3.0933 OOS=4.0577",
-      "metricName": "Sharpe",
-      "metricValue": 3.0933,
-      "isCurrentBest": false,
-      "createdAt": 1785559987881,
       "depth": 40
     }
   ],
