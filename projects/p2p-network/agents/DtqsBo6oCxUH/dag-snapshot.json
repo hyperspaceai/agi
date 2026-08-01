@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-01T13:07:12.034Z",
+  "timestamp": "2026-08-01T15:07:12.908Z",
   "peerId": "12D3KooWNiD2vvgWPrjnKimk6FYFcMm5nvTHJYY9JqET8B2BZrYA",
   "stats": {
-    "totalNodes": 972,
+    "totalNodes": 975,
     "observations": 0,
-    "experiments": 972,
+    "experiments": 975,
     "syntheses": 0,
-    "totalEdges": 1058,
-    "maxDepth": 34,
+    "totalEdges": 1063,
+    "maxDepth": 35,
     "activeExperiments": 0,
-    "recentActivity": 4
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,41 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 472,
+    "infrastructure": 474,
     "skills": 295,
-    "finance": 205
+    "finance": 206
   },
   "recentExperiments": [
+    {
+      "id": "366d928faa84",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 470",
+      "metricName": "score",
+      "metricValue": 0.9242154022262173,
+      "isCurrentBest": false,
+      "createdAt": 1785594462236,
+      "depth": 2
+    },
+    {
+      "id": "37a52e4d083d",
+      "domain": "finance",
+      "title": "AutoQuant round 154: Sharpe=5.7512 OOS=4.4569",
+      "metricName": "Sharpe",
+      "metricValue": 5.7512,
+      "isCurrentBest": false,
+      "createdAt": 1785593958503,
+      "depth": 35
+    },
+    {
+      "id": "cc02aa1ca602",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 407",
+      "metricName": "score",
+      "metricValue": 144.9758546243719,
+      "isCurrentBest": false,
+      "createdAt": 1785590681807,
+      "depth": 2
+    },
     {
       "id": "9e12497bb6fa",
       "domain": "finance",
@@ -213,36 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1785569830416,
       "depth": 32
-    },
-    {
-      "id": "adf8c3f39b6c",
-      "domain": "finance",
-      "title": "AutoQuant round 17: Sharpe=5.4553 OOS=4.0689",
-      "metricName": "Sharpe",
-      "metricValue": 5.4553,
-      "isCurrentBest": false,
-      "createdAt": 1785569290257,
-      "depth": 32
-    },
-    {
-      "id": "2dbf66769900",
-      "domain": "infrastructure",
-      "title": "Cause literature-analysis round 49",
-      "metricName": "score",
-      "metricValue": 0.9667131267727596,
-      "isCurrentBest": false,
-      "createdAt": 1785569230148,
-      "depth": 2
-    },
-    {
-      "id": "632a515476f2",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1996,
-      "isCurrentBest": false,
-      "createdAt": 1785568630236,
-      "depth": 4
     }
   ],
   "frontier": [],
