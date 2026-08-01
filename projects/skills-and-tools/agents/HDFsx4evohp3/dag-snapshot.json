@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-01T08:29:29.268Z",
+  "timestamp": "2026-08-01T09:30:13.758Z",
   "peerId": "12D3KooWS2d3hCEdzc5Xi2NvdoeYZSjzfWMZyeL8wfjAnTQJzZPq",
   "stats": {
-    "totalNodes": 1189,
+    "totalNodes": 1193,
     "observations": 0,
-    "experiments": 1189,
+    "experiments": 1193,
     "syntheses": 0,
-    "totalEdges": 1711,
+    "totalEdges": 1716,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,52 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 321,
+    "infrastructure": 322,
     "skills": 427,
-    "finance": 393,
+    "finance": 396,
     "search-ranking": 48
   },
   "recentExperiments": [
+    {
+      "id": "4ce461877f39",
+      "domain": "finance",
+      "title": "AutoQuant round 70: Sharpe=3.2170 OOS=3.9989",
+      "metricName": "Sharpe",
+      "metricValue": 3.217,
+      "isCurrentBest": false,
+      "createdAt": 1785576613725,
+      "depth": 17
+    },
+    {
+      "id": "9c45d302a2cb",
+      "domain": "finance",
+      "title": "AutoQuant round 69: Sharpe=3.2100 OOS=3.9714",
+      "metricName": "Sharpe",
+      "metricValue": 3.21,
+      "isCurrentBest": false,
+      "createdAt": 1785576433564,
+      "depth": 17
+    },
+    {
+      "id": "c893ff7d9bad",
+      "domain": "finance",
+      "title": "AutoQuant round 67: Sharpe=3.1359 OOS=3.9441",
+      "metricName": "Sharpe",
+      "metricValue": 3.1359,
+      "isCurrentBest": false,
+      "createdAt": 1785576075668,
+      "depth": 17
+    },
+    {
+      "id": "b9e4e466cb80",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 167",
+      "metricName": "score",
+      "metricValue": 0.9471521686808521,
+      "isCurrentBest": false,
+      "createdAt": 1785573959322,
+      "depth": 5
+    },
     {
       "id": "0e5ac8c3cf40",
       "domain": "skills",
@@ -212,46 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1785567401932,
       "depth": 2
-    },
-    {
-      "id": "7877396b072a",
-      "domain": "search-ranking",
-      "title": "Search round 39: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785567401726,
-      "depth": 2
-    },
-    {
-      "id": "546f732738f7",
-      "domain": "search-ranking",
-      "title": "Search round 39: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785567401585,
-      "depth": 2
-    },
-    {
-      "id": "f66c654f273a",
-      "domain": "search-ranking",
-      "title": "Search round 39: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785567401455,
-      "depth": 2
-    },
-    {
-      "id": "d1de6dca1719",
-      "domain": "finance",
-      "title": "Finance round 23: Sharpe=1.2754",
-      "metricName": "Sharpe",
-      "metricValue": 1.2754,
-      "isCurrentBest": false,
-      "createdAt": 1785567275400,
-      "depth": 17
     }
   ],
   "frontier": [],
