@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-01T12:42:50.891Z",
+  "timestamp": "2026-08-01T13:43:12.710Z",
   "peerId": "12D3KooWS2d3hCEdzc5Xi2NvdoeYZSjzfWMZyeL8wfjAnTQJzZPq",
   "stats": {
-    "totalNodes": 1203,
+    "totalNodes": 1206,
     "observations": 0,
-    "experiments": 1203,
+    "experiments": 1206,
     "syntheses": 0,
-    "totalEdges": 1732,
+    "totalEdges": 1738,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,42 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 326,
+    "infrastructure": 329,
     "skills": 427,
     "finance": 402,
     "search-ranking": 48
   },
   "recentExperiments": [
+    {
+      "id": "bcccfed28b7a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 432",
+      "metricName": "score",
+      "metricValue": 145.01145596542761,
+      "isCurrentBest": false,
+      "createdAt": 1785590561817,
+      "depth": 5
+    },
+    {
+      "id": "ee1df308577e",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 423",
+      "metricName": "score",
+      "metricValue": 145.03256063578513,
+      "isCurrentBest": false,
+      "createdAt": 1785590021776,
+      "depth": 5
+    },
+    {
+      "id": "12a427d9e87a",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 411",
+      "metricName": "score",
+      "metricValue": 145.06894590084585,
+      "isCurrentBest": false,
+      "createdAt": 1785589281395,
+      "depth": 5
+    },
     {
       "id": "7046d29f56b6",
       "domain": "infrastructure",
@@ -221,36 +251,6 @@
       "metricValue": 0.4,
       "isCurrentBest": false,
       "createdAt": 1785567943542,
-      "depth": 2
-    },
-    {
-      "id": "3b9c5ee198f0",
-      "domain": "search-ranking",
-      "title": "Search round 45: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785567943387,
-      "depth": 2
-    },
-    {
-      "id": "69be97b6f4ea",
-      "domain": "search-ranking",
-      "title": "Search round 45: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785567943235,
-      "depth": 2
-    },
-    {
-      "id": "df9e994e0448",
-      "domain": "search-ranking",
-      "title": "Search round 45: disable intent classification",
-      "metricName": "NDCG@10",
-      "metricValue": 0.4,
-      "isCurrentBest": false,
-      "createdAt": 1785567943055,
       "depth": 2
     }
   ],
