@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-02T20:56:33.165Z",
+  "timestamp": "2026-08-02T21:56:33.207Z",
   "peerId": "12D3KooWG5TTVo5J2nrCozocwpZH3i13Jffk6riu18ChfFarcifD",
   "stats": {
-    "totalNodes": 56,
+    "totalNodes": 57,
     "observations": 0,
-    "experiments": 56,
+    "experiments": 57,
     "syntheses": 0,
-    "totalEdges": 65,
+    "totalEdges": 67,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 2
+    "recentActivity": 1
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,21 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 14,
+    "infrastructure": 15,
     "skills": 14,
     "finance": 28
   },
   "recentExperiments": [
+    {
+      "id": "6f836196b130",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 359",
+      "metricName": "score",
+      "metricValue": 141.09244230010637,
+      "isCurrentBest": false,
+      "createdAt": 1785705992968,
+      "depth": 1
+    },
     {
       "id": "9b0942942539",
       "domain": "finance",
@@ -232,16 +242,6 @@
       "metricValue": 3.3333,
       "isCurrentBest": false,
       "createdAt": 1785686551997,
-      "depth": 6
-    },
-    {
-      "id": "0b295827377d",
-      "domain": "finance",
-      "title": "AutoQuant round 10: Sharpe=3.2313 OOS=4.1645",
-      "metricName": "Sharpe",
-      "metricValue": 3.2313,
-      "isCurrentBest": false,
-      "createdAt": 1785686193922,
       "depth": 6
     }
   ],
