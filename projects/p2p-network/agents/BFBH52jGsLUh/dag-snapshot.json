@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-02T02:01:21.262Z",
+  "timestamp": "2026-08-02T03:01:21.833Z",
   "peerId": "12D3KooWL4YSpAJz4EkBQzuEhxuX5yi8YnwS2v5bE26fjtRLk5hk",
   "stats": {
-    "totalNodes": 4837,
+    "totalNodes": 4841,
     "observations": 0,
-    "experiments": 4837,
+    "experiments": 4841,
     "syntheses": 0,
-    "totalEdges": 5162,
+    "totalEdges": 5166,
     "maxDepth": 27,
     "activeExperiments": 0,
-    "recentActivity": 1
+    "recentActivity": 4
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -48,11 +48,51 @@
   },
   "domainCounts": {
     "infrastructure": 3085,
-    "finance": 1338,
+    "finance": 1342,
     "search-ranking": 357,
     "skills": 57
   },
   "recentExperiments": [
+    {
+      "id": "404be9e814e7",
+      "domain": "finance",
+      "title": "AutoQuant round 66: Sharpe=2.9137 OOS=4.0167",
+      "metricName": "Sharpe",
+      "metricValue": 2.9137,
+      "isCurrentBest": false,
+      "createdAt": 1785638961354,
+      "depth": 27
+    },
+    {
+      "id": "0f54ae7d9e9f",
+      "domain": "finance",
+      "title": "AutoQuant round 65: Sharpe=2.9137 OOS=4.0167",
+      "metricName": "Sharpe",
+      "metricValue": 2.9137,
+      "isCurrentBest": false,
+      "createdAt": 1785638781315,
+      "depth": 27
+    },
+    {
+      "id": "0a45e3548fa0",
+      "domain": "finance",
+      "title": "AutoQuant round 63: Sharpe=2.8986 OOS=3.9599",
+      "metricName": "Sharpe",
+      "metricValue": 2.8986,
+      "isCurrentBest": false,
+      "createdAt": 1785638421275,
+      "depth": 27
+    },
+    {
+      "id": "7e48ce2541fe",
+      "domain": "finance",
+      "title": "AutoQuant round 61: Sharpe=2.8986 OOS=3.9599",
+      "metricName": "Sharpe",
+      "metricValue": 2.8986,
+      "isCurrentBest": false,
+      "createdAt": 1785638061338,
+      "depth": 27
+    },
     {
       "id": "b2380c410a48",
       "domain": "finance",
@@ -212,46 +252,6 @@
       "isCurrentBest": false,
       "createdAt": 1785630500116,
       "depth": 27
-    },
-    {
-      "id": "7ace0dad4ed7",
-      "domain": "finance",
-      "title": "AutoQuant round 18: Sharpe=2.6865 OOS=3.6113",
-      "metricName": "Sharpe",
-      "metricValue": 2.6865,
-      "isCurrentBest": false,
-      "createdAt": 1785630319959,
-      "depth": 27
-    },
-    {
-      "id": "ea10e1c16c48",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785630182214,
-      "depth": 2
-    },
-    {
-      "id": "1aa096623e20",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785630178202,
-      "depth": 2
-    },
-    {
-      "id": "0fb310d88dbe",
-      "domain": "search-ranking",
-      "title": "Search round 34: boost authority weight (+0.05)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.395,
-      "isCurrentBest": false,
-      "createdAt": 1785630178138,
-      "depth": 2
     }
   ],
   "frontier": [],
