@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-02T20:10:09.299Z",
+  "timestamp": "2026-08-02T21:10:58.061Z",
   "peerId": "12D3KooWFoZDLVBdWUxsF5BLnvuBPFG6gTkqANWa1mMndQQ93Lg4",
   "stats": {
-    "totalNodes": 73,
+    "totalNodes": 76,
     "observations": 0,
-    "experiments": 73,
+    "experiments": 76,
     "syntheses": 0,
-    "totalEdges": 97,
+    "totalEdges": 103,
     "maxDepth": 12,
     "activeExperiments": 0,
-    "recentActivity": 0
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -55,13 +55,43 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 18,
+    "infrastructure": 21,
     "skills": 14,
     "finance": 26,
     "general": 1,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "201765e719fa",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 622",
+      "metricName": "score",
+      "metricValue": 145.0955564847846,
+      "isCurrentBest": false,
+      "createdAt": 1785704603355,
+      "depth": 1
+    },
+    {
+      "id": "5e27ccd3b551",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 601",
+      "metricName": "score",
+      "metricValue": 145.30467042464585,
+      "isCurrentBest": false,
+      "createdAt": 1785703327380,
+      "depth": 1
+    },
+    {
+      "id": "69386df0ff79",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 600",
+      "metricName": "score",
+      "metricValue": 0.9467824361927275,
+      "isCurrentBest": false,
+      "createdAt": 1785703266253,
+      "depth": 1
+    },
     {
       "id": "230b96e38da7",
       "domain": "infrastructure",
@@ -230,36 +260,6 @@
       "metricValue": 3.2459,
       "isCurrentBest": false,
       "createdAt": 1785673742847,
-      "depth": 8
-    },
-    {
-      "id": "91509192b43f",
-      "domain": "infrastructure",
-      "title": "Cause infra-optimization round 112",
-      "metricName": "score",
-      "metricValue": 144.9844567556281,
-      "isCurrentBest": false,
-      "createdAt": 1785673649447,
-      "depth": 1
-    },
-    {
-      "id": "4692c0bf66ea",
-      "domain": "finance",
-      "title": "AutoQuant round 37: Sharpe=3.0970 OOS=4.0549",
-      "metricName": "Sharpe",
-      "metricValue": 3.097,
-      "isCurrentBest": false,
-      "createdAt": 1785673561161,
-      "depth": 8
-    },
-    {
-      "id": "5c32a6f79d19",
-      "domain": "finance",
-      "title": "AutoQuant round 35: Sharpe=3.0964 OOS=4.0549",
-      "metricName": "Sharpe",
-      "metricValue": 3.0964,
-      "isCurrentBest": false,
-      "createdAt": 1785673197925,
       "depth": 8
     }
   ],
