@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HFFrNULLBmzP
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
-**Score:** 0.1998
+**Latest Skill:** Normalize Text (seed/mutation) v1
+**Score:** 0.1997
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 78
+**Description:** Normalize Text: 0% correct, round 13
 
-_Updated: 2026-08-02T09:29:59.066Z_
+_Updated: 2026-08-02T11:00:27.072Z_
