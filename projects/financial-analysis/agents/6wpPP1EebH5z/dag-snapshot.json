@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-02T22:54:46.115Z",
+  "timestamp": "2026-08-02T23:54:58.151Z",
   "peerId": "12D3KooWFmBZ88pMnBMUhJAVBtmjgNScGXpjfHQWNANCfXEwcEDX",
   "stats": {
-    "totalNodes": 2220,
+    "totalNodes": 2239,
     "observations": 0,
-    "experiments": 2220,
+    "experiments": 2239,
     "syntheses": 0,
-    "totalEdges": 4082,
+    "totalEdges": 4117,
     "maxDepth": 17,
     "activeExperiments": 0,
-    "recentActivity": 40
+    "recentActivity": 19
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,201 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 484,
-    "skills": 814,
-    "finance": 922
+    "infrastructure": 485,
+    "skills": 821,
+    "finance": 933
   },
   "recentExperiments": [
+    {
+      "id": "81ba00bf94bf",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1785714897235,
+      "depth": 2
+    },
+    {
+      "id": "d774336cab56",
+      "domain": "finance",
+      "title": "AutoQuant round 30: Sharpe=3.3840 OOS=4.2573",
+      "metricName": "Sharpe",
+      "metricValue": 3.384,
+      "isCurrentBest": false,
+      "createdAt": 1785714897227,
+      "depth": 17
+    },
+    {
+      "id": "f5086f78dad5",
+      "domain": "skills",
+      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1785714776713,
+      "depth": 2
+    },
+    {
+      "id": "ed71bb31b156",
+      "domain": "finance",
+      "title": "AutoQuant round 29: Sharpe=3.3840 OOS=4.2573",
+      "metricName": "Sharpe",
+      "metricValue": 3.384,
+      "isCurrentBest": false,
+      "createdAt": 1785714717133,
+      "depth": 17
+    },
+    {
+      "id": "b3bd84a5ede8",
+      "domain": "finance",
+      "title": "AutoQuant round 28: Sharpe=3.2638 OOS=4.2085",
+      "metricName": "Sharpe",
+      "metricValue": 3.2638,
+      "isCurrentBest": false,
+      "createdAt": 1785714537071,
+      "depth": 17
+    },
+    {
+      "id": "9fb93654f241",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1785714537067,
+      "depth": 2
+    },
+    {
+      "id": "2b248701f726",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 83",
+      "metricName": "score",
+      "metricValue": 141.15711069385335,
+      "isCurrentBest": false,
+      "createdAt": 1785714506588,
+      "depth": 9
+    },
+    {
+      "id": "1aa252be01ae",
+      "domain": "finance",
+      "title": "AutoQuant round 26: Sharpe=3.2198 OOS=4.0496",
+      "metricName": "Sharpe",
+      "metricValue": 3.2198,
+      "isCurrentBest": false,
+      "createdAt": 1785714176834,
+      "depth": 17
+    },
+    {
+      "id": "61b0f65f19d1",
+      "domain": "finance",
+      "title": "AutoQuant round 25: Sharpe=3.2146 OOS=4.0496",
+      "metricName": "Sharpe",
+      "metricValue": 3.2146,
+      "isCurrentBest": false,
+      "createdAt": 1785713996791,
+      "depth": 17
+    },
+    {
+      "id": "6a21f4fae47e",
+      "domain": "finance",
+      "title": "AutoQuant round 24: Sharpe=3.1175 OOS=3.8619",
+      "metricName": "Sharpe",
+      "metricValue": 3.1175,
+      "isCurrentBest": false,
+      "createdAt": 1785713817176,
+      "depth": 17
+    },
+    {
+      "id": "ece77bdea6dc",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1785713696527,
+      "depth": 2
+    },
+    {
+      "id": "5176ff3fab13",
+      "domain": "finance",
+      "title": "AutoQuant round 23: Sharpe=3.1175 OOS=3.6967",
+      "metricName": "Sharpe",
+      "metricValue": 3.1175,
+      "isCurrentBest": false,
+      "createdAt": 1785713639888,
+      "depth": 17
+    },
+    {
+      "id": "c522c9cf80ff",
+      "domain": "skills",
+      "title": "Skill Normalize Text (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1994,
+      "isCurrentBest": false,
+      "createdAt": 1785713216243,
+      "depth": 2
+    },
+    {
+      "id": "aeb0be09a069",
+      "domain": "finance",
+      "title": "AutoQuant round 18: Sharpe=3.0658 OOS=3.4880",
+      "metricName": "Sharpe",
+      "metricValue": 3.0658,
+      "isCurrentBest": false,
+      "createdAt": 1785712736290,
+      "depth": 17
+    },
+    {
+      "id": "d024f3fa89f2",
+      "domain": "finance",
+      "title": "AutoQuant round 15: Sharpe=2.9950 OOS=3.6578",
+      "metricName": "Sharpe",
+      "metricValue": 2.995,
+      "isCurrentBest": false,
+      "createdAt": 1785712191761,
+      "depth": 17
+    },
+    {
+      "id": "4610f76a1ca2",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1785712130598,
+      "depth": 2
+    },
+    {
+      "id": "02b6e30f6210",
+      "domain": "finance",
+      "title": "AutoQuant round 12: Sharpe=2.9929 OOS=3.5645",
+      "metricName": "Sharpe",
+      "metricValue": 2.9929,
+      "isCurrentBest": false,
+      "createdAt": 1785711646606,
+      "depth": 17
+    },
+    {
+      "id": "837b91e184cc",
+      "domain": "finance",
+      "title": "AutoQuant round 11: Sharpe=2.9805 OOS=3.5030",
+      "metricName": "Sharpe",
+      "metricValue": 2.9805,
+      "isCurrentBest": false,
+      "createdAt": 1785711466354,
+      "depth": 17
+    },
+    {
+      "id": "03d41ada1e05",
+      "domain": "skills",
+      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
+      "metricName": "correctness",
+      "metricValue": 0.1993,
+      "isCurrentBest": false,
+      "createdAt": 1785711406210,
+      "depth": 2
+    },
     {
       "id": "e5e1acc3bcb6",
       "domain": "skills",
@@ -53,196 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1785711285860,
       "depth": 2
-    },
-    {
-      "id": "13915deed0aa",
-      "domain": "finance",
-      "title": "AutoQuant round 10: Sharpe=2.8064 OOS=3.3343",
-      "metricName": "Sharpe",
-      "metricValue": 2.8064,
-      "isCurrentBest": false,
-      "createdAt": 1785711285851,
-      "depth": 17
-    },
-    {
-      "id": "f57f70dfad93",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785711165516,
-      "depth": 2
-    },
-    {
-      "id": "ffe1ea7d33f3",
-      "domain": "finance",
-      "title": "AutoQuant round 9: Sharpe=2.7790 OOS=3.3251",
-      "metricName": "Sharpe",
-      "metricValue": 2.779,
-      "isCurrentBest": false,
-      "createdAt": 1785711105708,
-      "depth": 17
-    },
-    {
-      "id": "bbecdbf15cff",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785711045509,
-      "depth": 2
-    },
-    {
-      "id": "d51b5b50b616",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785710805507,
-      "depth": 2
-    },
-    {
-      "id": "1c446f15b25a",
-      "domain": "finance",
-      "title": "AutoQuant round 7: Sharpe=2.6683 OOS=3.2983",
-      "metricName": "Sharpe",
-      "metricValue": 2.6683,
-      "isCurrentBest": false,
-      "createdAt": 1785710745941,
-      "depth": 17
-    },
-    {
-      "id": "d622ea4e8c20",
-      "domain": "finance",
-      "title": "AutoQuant round 6: Sharpe=2.3595 OOS=2.5613",
-      "metricName": "Sharpe",
-      "metricValue": 2.3595,
-      "isCurrentBest": false,
-      "createdAt": 1785710565846,
-      "depth": 17
-    },
-    {
-      "id": "19a900711c04",
-      "domain": "skills",
-      "title": "Skill Cosine Text Similarity (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785710565830,
-      "depth": 2
-    },
-    {
-      "id": "960bf957c94c",
-      "domain": "finance",
-      "title": "Finance round 7: Sharpe=1.3205",
-      "metricName": "Sharpe",
-      "metricValue": 1.3205,
-      "isCurrentBest": false,
-      "createdAt": 1785710535463,
-      "depth": 17
-    },
-    {
-      "id": "5974ac83223f",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785710445471,
-      "depth": 2
-    },
-    {
-      "id": "53e03c7e2737",
-      "domain": "finance",
-      "title": "AutoQuant round 5: Sharpe=2.3372 OOS=2.5044",
-      "metricName": "Sharpe",
-      "metricValue": 2.3372,
-      "isCurrentBest": false,
-      "createdAt": 1785710385731,
-      "depth": 17
-    },
-    {
-      "id": "5ac4b8745600",
-      "domain": "finance",
-      "title": "Finance round 6: Sharpe=1.3137",
-      "metricName": "Sharpe",
-      "metricValue": 1.3137,
-      "isCurrentBest": false,
-      "createdAt": 1785710385600,
-      "depth": 17
-    },
-    {
-      "id": "a37ff467380e",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785710325252,
-      "depth": 2
-    },
-    {
-      "id": "36ec297043b4",
-      "domain": "finance",
-      "title": "Finance round 5: Sharpe=1.2113",
-      "metricName": "Sharpe",
-      "metricValue": 1.2113,
-      "isCurrentBest": false,
-      "createdAt": 1785710235185,
-      "depth": 17
-    },
-    {
-      "id": "58ebbf4186d3",
-      "domain": "finance",
-      "title": "AutoQuant round 4: Sharpe=2.1761 OOS=2.1727",
-      "metricName": "Sharpe",
-      "metricValue": 2.1761,
-      "isCurrentBest": false,
-      "createdAt": 1785710205838,
-      "depth": 17
-    },
-    {
-      "id": "c2b52cd9dd2a",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785710205831,
-      "depth": 2
-    },
-    {
-      "id": "be1df7e8a9c4",
-      "domain": "skills",
-      "title": "Skill Structured JSON Diff (seed/mutation): 0%",
-      "metricName": "correctness",
-      "metricValue": 0.1993,
-      "isCurrentBest": false,
-      "createdAt": 1785710085240,
-      "depth": 2
-    },
-    {
-      "id": "d632c150636c",
-      "domain": "finance",
-      "title": "Finance round 4: Sharpe=1.1991",
-      "metricName": "Sharpe",
-      "metricValue": 1.1991,
-      "isCurrentBest": false,
-      "createdAt": 1785710085218,
-      "depth": 17
-    },
-    {
-      "id": "4dd2a8b4ef0d",
-      "domain": "finance",
-      "title": "AutoQuant round 3: Sharpe=1.9257 OOS=1.9015",
-      "metricName": "Sharpe",
-      "metricValue": 1.9257,
-      "isCurrentBest": false,
-      "createdAt": 1785710025565,
-      "depth": 17
     }
   ],
   "frontier": [],
