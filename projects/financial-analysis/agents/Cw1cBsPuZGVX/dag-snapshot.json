@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-02T17:03:52.789Z",
+  "timestamp": "2026-08-02T19:03:53.077Z",
   "peerId": "12D3KooWMkNmvzyckAm1ZumT2xD1Pi6xDyvgoPyLsipeuSXPctyv",
   "stats": {
-    "totalNodes": 58,
+    "totalNodes": 65,
     "observations": 0,
-    "experiments": 58,
+    "experiments": 65,
     "syntheses": 0,
-    "totalEdges": 74,
+    "totalEdges": 88,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 5
+    "recentActivity": 3
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -47,12 +47,82 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 9,
+    "infrastructure": 16,
     "skills": 9,
     "finance": 26,
     "search-ranking": 14
   },
   "recentExperiments": [
+    {
+      "id": "147c06df85ff",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 244",
+      "metricName": "score",
+      "metricValue": 141.12485963444263,
+      "isCurrentBest": false,
+      "createdAt": 1785695932930,
+      "depth": 1
+    },
+    {
+      "id": "ee701f142997",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 238",
+      "metricName": "score",
+      "metricValue": 141.15005708966288,
+      "isCurrentBest": false,
+      "createdAt": 1785695572919,
+      "depth": 1
+    },
+    {
+      "id": "29a190dee203",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 216",
+      "metricName": "score",
+      "metricValue": 0.9651089241358303,
+      "isCurrentBest": false,
+      "createdAt": 1785694252890,
+      "depth": 1
+    },
+    {
+      "id": "1e57ae8f4176",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 197",
+      "metricName": "score",
+      "metricValue": 0.9643024009176604,
+      "isCurrentBest": false,
+      "createdAt": 1785693112737,
+      "depth": 1
+    },
+    {
+      "id": "51fefd3ad906",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 194",
+      "metricName": "score",
+      "metricValue": 0.9597775535150016,
+      "isCurrentBest": false,
+      "createdAt": 1785692932734,
+      "depth": 1
+    },
+    {
+      "id": "63523403e790",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 193",
+      "metricName": "score",
+      "metricValue": 0.9576406480064452,
+      "isCurrentBest": false,
+      "createdAt": 1785692872734,
+      "depth": 1
+    },
+    {
+      "id": "a2a76df1377d",
+      "domain": "infrastructure",
+      "title": "Cause infra-optimization round 150",
+      "metricName": "score",
+      "metricValue": 141.1038345914026,
+      "isCurrentBest": false,
+      "createdAt": 1785690292674,
+      "depth": 1
+    },
     {
       "id": "2ab9b7fb78b2",
       "domain": "infrastructure",
@@ -181,76 +251,6 @@
       "metricValue": 0.3935620718710803,
       "isCurrentBest": false,
       "createdAt": 1785685526971,
-      "depth": 1
-    },
-    {
-      "id": "48f25e74513e",
-      "domain": "search-ranking",
-      "title": "Search round 47: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1785685526868,
-      "depth": 1
-    },
-    {
-      "id": "5e4bc79ef83a",
-      "domain": "finance",
-      "title": "AutoQuant round 22: Sharpe=3.5139 OOS=4.6625",
-      "metricName": "Sharpe",
-      "metricValue": 3.5139,
-      "isCurrentBest": false,
-      "createdAt": 1785685192607,
-      "depth": 9
-    },
-    {
-      "id": "3416f3e178b8",
-      "domain": "finance",
-      "title": "AutoQuant round 21: Sharpe=3.5217 OOS=4.6625",
-      "metricName": "Sharpe",
-      "metricValue": 3.5217,
-      "isCurrentBest": false,
-      "createdAt": 1785685012566,
-      "depth": 9
-    },
-    {
-      "id": "c34519a975bb",
-      "domain": "search-ranking",
-      "title": "Search round 41: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1785684927085,
-      "depth": 1
-    },
-    {
-      "id": "78bfc0dbe757",
-      "domain": "search-ranking",
-      "title": "Search round 41: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1785684926882,
-      "depth": 1
-    },
-    {
-      "id": "00e96fecb0ae",
-      "domain": "search-ranking",
-      "title": "Search round 41: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1785684926827,
-      "depth": 1
-    },
-    {
-      "id": "9e90eb429c29",
-      "domain": "search-ranking",
-      "title": "Search round 41: relaxed peer timeout (5s)",
-      "metricName": "NDCG@10",
-      "metricValue": 0.3935620718710803,
-      "isCurrentBest": false,
-      "createdAt": 1785684926727,
       "depth": 1
     }
   ],
