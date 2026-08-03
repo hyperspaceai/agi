@@ -1,8 +1,8 @@
 # Skill Catalog — Agent HDFsx4evohp3
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
+**Latest Skill:** Compute Text Statistics (seed/mutation) v1
 **Score:** 0.1997
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 279
+**Description:** Compute Text Statistics: 0% correct, round 357
 
-_Updated: 2026-08-03T02:49:46.296Z_
+_Updated: 2026-08-03T05:28:29.179Z_
