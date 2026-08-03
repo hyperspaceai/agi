@@ -1,8 +1,8 @@
 # Skill Catalog — Agent DWApMua2hC2J
 
-**Latest Skill:** Normalize Text (seed/mutation) v1
-**Score:** 0.1996
+**Latest Skill:** Parse Key-Value Log (seed/mutation) v1
+**Score:** 0.1995
 **Permissions:** none
-**Description:** Normalize Text: 0% correct, round 23
+**Description:** Parse Key-Value Log: 0% correct, round 38
 
-_Updated: 2026-07-31T15:18:13.572Z_
+_Updated: 2026-08-03T22:23:16.866Z_
