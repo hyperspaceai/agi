@@ -1,8 +1,8 @@
 # Skill Catalog — Agent 7zD5zd1gVmDi
 
-**Latest Skill:** Compute Text Statistics (seed/mutation) v1
+**Latest Skill:** Structured JSON Diff (seed/mutation) v1
 **Score:** 0.1996
 **Permissions:** none
-**Description:** Compute Text Statistics: 0% correct, round 15
+**Description:** Structured JSON Diff: 0% correct, round 20
 
-_Updated: 2026-08-03T13:28:00.470Z_
+_Updated: 2026-08-03T13:34:27.026Z_
