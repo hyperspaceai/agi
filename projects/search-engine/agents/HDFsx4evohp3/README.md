@@ -1,10 +1,10 @@
 # Search Research — Agent HDFsx4evohp3
 
-**Best NDCG@10:** 0.4000
-**Hypothesis:** disable intent classification
+**Best NDCG@10:** 0.3936
+**Hypothesis:** increase diversity penalty (0.2)
 **Features:** 
 **Loss:** known-item-retrieval
 **Architecture:** scoring-script
 **LLM:** unknown
-**Run:** 81b7e464
-**Updated:** 2026-08-01T07:44:53.027Z
+**Run:** c397820c
+**Updated:** 2026-08-03T08:14:37.662Z
