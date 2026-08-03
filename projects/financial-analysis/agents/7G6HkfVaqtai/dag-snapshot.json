@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "timestamp": "2026-08-03T05:56:34.356Z",
+  "timestamp": "2026-08-03T06:56:34.584Z",
   "peerId": "12D3KooWG5TTVo5J2nrCozocwpZH3i13Jffk6riu18ChfFarcifD",
   "stats": {
-    "totalNodes": 68,
+    "totalNodes": 70,
     "observations": 0,
-    "experiments": 68,
+    "experiments": 70,
     "syntheses": 0,
-    "totalEdges": 88,
+    "totalEdges": 91,
     "maxDepth": 13,
     "activeExperiments": 0,
-    "recentActivity": 3
+    "recentActivity": 2
   },
   "bestPerDomain": {
     "infrastructure": {
@@ -39,11 +39,31 @@
     }
   },
   "domainCounts": {
-    "infrastructure": 25,
+    "infrastructure": 26,
     "skills": 14,
-    "finance": 29
+    "finance": 30
   },
   "recentExperiments": [
+    {
+      "id": "625014a7db81",
+      "domain": "infrastructure",
+      "title": "Cause literature-analysis round 894",
+      "metricName": "score",
+      "metricValue": 0.9153481843372631,
+      "isCurrentBest": false,
+      "createdAt": 1785738094221,
+      "depth": 3
+    },
+    {
+      "id": "eaf371bf25b6",
+      "domain": "finance",
+      "title": "AutoQuant round 297: Sharpe=3.5733 OOS=4.6258",
+      "metricName": "Sharpe",
+      "metricValue": 3.5733,
+      "isCurrentBest": false,
+      "createdAt": 1785737854289,
+      "depth": 13
+    },
     {
       "id": "0f8139bae8f3",
       "domain": "infrastructure",
@@ -223,26 +243,6 @@
       "isCurrentBest": false,
       "createdAt": 1785695552300,
       "depth": 10
-    },
-    {
-      "id": "01b7244c7850",
-      "domain": "finance",
-      "title": "AutoQuant round 60: Sharpe=3.5413 OOS=4.4853",
-      "metricName": "Sharpe",
-      "metricValue": 3.5413,
-      "isCurrentBest": false,
-      "createdAt": 1785695192402,
-      "depth": 9
-    },
-    {
-      "id": "e38de1c7730a",
-      "domain": "finance",
-      "title": "AutoQuant round 54: Sharpe=3.4323 OOS=4.3952",
-      "metricName": "Sharpe",
-      "metricValue": 3.4323,
-      "isCurrentBest": false,
-      "createdAt": 1785694112246,
-      "depth": 9
     }
   ],
   "frontier": [],
