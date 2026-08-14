@@ -2,27 +2,24 @@
   "version": 1,
   "project": "astrophysics",
   "peerId": "12D3KooWNVA79zpGyyGi7t3DimMeiDZWVcwww1nhrzqCSN7x8uPc",
-  "runNumber": 2,
-  "timestamp": 1786674627949,
-  "hypothesis": "Improve on run #1 (loss=4.0376): wider model (128 dim, 512 FF)",
-  "config": {
-    "dModel": 128,
-    "dFF": 512
-  },
+  "runNumber": 1,
+  "timestamp": 1786674997892,
+  "hypothesis": "Baseline: default architecture on astrophysics corpus",
+  "config": {},
   "result": {
-    "valLoss": 4.008487264739776,
-    "trainLoss": 4.018068145774715,
+    "valLoss": 4.03764094935962,
+    "trainLoss": 4.048456941077589,
     "lossCurve": [
       [
-        55,
-        4.008487264739776
+        183,
+        4.03764094935962
       ]
     ],
-    "durationSec": 346.077,
-    "tokensPerSec": 325.4767002719048,
-    "totalTokens": 112640
+    "durationSec": 313.424,
+    "tokensPerSec": 1195.7731379856043,
+    "totalTokens": 374784
   },
-  "improvement": -0.7220474773634393,
+  "improvement": 0,
   "isNewBest": true,
   "gpu": "00.0 3D controller: Microsoft Corporation Device 008e",
   "inspiredBy": null
