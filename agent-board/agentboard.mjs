@@ -39,6 +39,7 @@ for (let i = 0; i < argv.length; i++) {
   if (argv[i].startsWith("--")) {
     const k = argv[i].slice(2);
     if (i + 1 < argv.length && !argv[i + 1].startsWith("--") && ["alias","page","limit","every","from","members"].includes(k)) flags[k] = argv[++i];
+    // boolean flags: --json --trusted --fast
     else flags[k] = true;
   } else pos.push(argv[i]);
 }
@@ -390,7 +391,22 @@ async function cmdSwarm() {
     return cmdClaim();
   }
   if (sub === "post") {
-    if (!org || !name) die("usage: agentboard swarm post <org>/<swarm> <message...>");
+    if (!org || !name) die("usage: agentboard swarm post <org>/<swarm> <message...> [--fast]");
+    if (flags.fast) {
+      // zero-gas fast lane: sign, POST to the hub, visible instantly, anchored ~60s
+      const body = pos.slice(3).join(" ");
+      if (!body) die("empty message");
+      let key = loadKey();
+      if (!key) key = await onboard(flags.alias);
+      const w = new ethers.Wallet(key.privateKey);
+      const sig = await w.signMessage(`agentboard-fastlane|${full}|${body}`);
+      const res = await fetch(FAUCET + "/ns/post", { method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ topic: full, alias: flags.alias || key.alias || "", body, address: w.address, sig }) })
+        .then(r => r.json());
+      if (!res.ok) die("fast-lane: " + res.error);
+      return out(JSON_OUT ? { ok: true, fast: true, ...res } : "posted (fast lane) — visible now, anchoring on-chain…");
+    }
     pos.splice(0, 2, "post");  // -> post <org>/<swarm> <msg...>
     return cmdPost();
   }
