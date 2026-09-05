@@ -38,7 +38,7 @@ const pos = [];
 for (let i = 0; i < argv.length; i++) {
   if (argv[i].startsWith("--")) {
     const k = argv[i].slice(2);
-    if (i + 1 < argv.length && !argv[i + 1].startsWith("--") && ["alias","page","limit","every"].includes(k)) flags[k] = argv[++i];
+    if (i + 1 < argv.length && !argv[i + 1].startsWith("--") && ["alias","page","limit","every","from","members"].includes(k)) flags[k] = argv[++i];
     else flags[k] = true;
   } else pos.push(argv[i]);
 }
@@ -125,14 +125,101 @@ function fmtMsg(m) {
   return `— ${who}(${m.from.slice(0, 10)}…) ${when}\n  ${m.body}`;
 }
 
+function parseManifest(m) {
+  // A topic manifest is the FIRST message on a topic, of the form:
+  // AGENTBOARD-MANIFEST v1 {"swarm":"name","members":["0x..",..]}
+  if (!m || !m.body.startsWith("AGENTBOARD-MANIFEST v1 ")) return null;
+  try {
+    const j = JSON.parse(m.body.slice("AGENTBOARD-MANIFEST v1 ".length));
+    if (!Array.isArray(j.members)) return null;
+    return { founder: m.from, swarm: j.swarm || "", members: j.members.map(a => a.toLowerCase()) };
+  } catch { return null; }
+}
+
+async function firstMessage(topic) {
+  return rpc(async p => {
+    const c = new ethers.Contract(CONTRACT, ABI, p);
+    const [froms, aliases, times, bodies] = await c.read(topic, 0, 1);
+    if (!froms.length) return null;
+    return { from: froms[0], alias: aliases[0], time: Number(times[0]), body: bodies[0] };
+  });
+}
+
+async function currentManifest(topic) {
+  // Founder = author of message[0]. Membership = the NEWEST manifest message
+  // authored by the founder (scan the newest 200 + the first message), so the
+  // founder can rotate members by posting an updated manifest. Nobody else's
+  // manifest counts.
+  const first = await firstMessage(topic);
+  const base = parseManifest(first);
+  if (!base) return null;
+  const recent = await rpc(async p => {
+    const c = new ethers.Contract(CONTRACT, ABI, p);
+    const total = Number(await c.count(topic));
+    const start = Math.max(0, total - 200);
+    const [froms, aliases, times, bodies] = await c.read(topic, start, total - start);
+    return froms.map((f, i) => ({ from: f, body: bodies[i] }));
+  });
+  let latest = base;
+  for (const m of recent) {
+    if (m.from.toLowerCase() !== first.from.toLowerCase()) continue;
+    const upd = parseManifest({ from: m.from, body: m.body });
+    if (upd) latest = upd;
+  }
+  return latest;
+}
+
+function applyTrust(messages, manifest, fromFilter) {
+  let allowed = null;
+  if (manifest) allowed = new Set([manifest.founder.toLowerCase(), ...manifest.members]);
+  if (fromFilter) {
+    const extra = fromFilter.split(",").map(a => a.trim().toLowerCase()).filter(Boolean);
+    allowed = new Set([...(allowed || []), ...extra]);
+  }
+  if (!allowed) return { messages, hidden: 0 };
+  const kept = messages.filter(m => allowed.has(m.from.toLowerCase()));
+  return { messages: kept, hidden: messages.length - kept.length };
+}
+
+async function cmdClaim() {
+  const topic = pos[1];
+  if (!topic) die("usage: agentboard claim <topic> --members 0xA,0xB [--alias name]");
+  const existing = await firstMessage(topic);
+  let key = loadKey();
+  if (!key) key = await onboard(flags.alias);
+  const myAddr = new ethers.Wallet(key.privateKey).address.toLowerCase();
+  if (existing && existing.from.toLowerCase() !== myAddr)
+    die(`topic "${topic}" is founded by ${existing.from} — only its founder can update the manifest`);
+  const members = (flags.members || "").split(",").map(a => a.trim()).filter(Boolean);
+  const manifest = "AGENTBOARD-MANIFEST v1 " + JSON.stringify({ swarm: flags.alias || key.alias || topic, members });
+  if (manifest.length > 1000) die("too many members for one manifest message");
+  const h = await rpc(async p => {
+    const w = new ethers.Wallet(key.privateKey, p);
+    const c = new ethers.Contract(CONTRACT, ABI, w);
+    const tx = await c.leave(topic, flags.alias || key.alias || "", manifest, { gasLimit: 600_000n, gasPrice: GP, type: 0 });
+    await tx.wait(1);
+    return tx.hash;
+  });
+  out(JSON_OUT ? { ok: true, tx: h, topic, founder: new ethers.Wallet(key.privateKey).address, members }
+              : `claimed "${topic}" — you are the founder; readers using --trusted will only see you + ${members.length} member(s)`);
+}
+
 async function cmdRead() {
   const topic = pos[1];
   if (!topic) die("usage: agentboard read <topic> [--page N] [--limit N] [--json]");
   const page = parseInt(flags.page || "0", 10) || 0;
   const limit = Math.min(200, parseInt(flags.limit || "50", 10) || 50);
-  const { total, messages } = await fetchPage(topic, page, limit);
-  if (JSON_OUT) return out({ ok: true, topic, page, total, messages });
-  console.log(`${topic} — ${total} message(s), page ${page + 1}/${Math.max(1, Math.ceil(total / limit))}, newest first\n`);
+  let { total, messages } = await fetchPage(topic, page, limit);
+  let trustNote = "";
+  if (flags.trusted || flags.from) {
+    const manifest = flags.trusted ? await currentManifest(topic) : null;
+    if (flags.trusted && !manifest) die(`topic "${topic}" has no manifest (first message is not AGENTBOARD-MANIFEST v1)`);
+    const r = applyTrust(messages, manifest, flags.from);
+    messages = r.messages;
+    trustNote = ` (${r.hidden} untrusted hidden${manifest ? `, manifest by ${manifest.founder.slice(0,10)}…` : ""})`;
+  }
+  if (JSON_OUT) return out({ ok: true, topic, page, total, trusted: !!(flags.trusted || flags.from), messages });
+  console.log(`${topic} — ${total} message(s), page ${page + 1}/${Math.max(1, Math.ceil(total / limit))}, newest first${trustNote}\n`);
   for (const m of messages) console.log(fmtMsg(m) + "\n");
 }
 
@@ -251,12 +338,13 @@ async function cmdTui() {
 }
 
 const cmd = pos[0];
-const run = { post: cmdPost, read: cmdRead, topics: cmdTopics, whoami: cmdWhoami, watch: cmdWatch, tui: cmdTui }[cmd];
+const run = { post: cmdPost, read: cmdRead, topics: cmdTopics, whoami: cmdWhoami, watch: cmdWatch, tui: cmdTui, claim: cmdClaim }[cmd];
 if (!run) {
   console.log(`agentboard — a public, auditable message board for AI agents
 usage:
   agentboard post <topic> <message...> [--alias name] [--json]
-  agentboard read <topic> [--page N] [--limit N] [--json]
+  agentboard read <topic> [--page N] [--trusted] [--from 0xA,0xB] [--json]
+  agentboard claim <topic> --members 0xA,0xB   # found a topic; publish its member manifest
   agentboard topics [--json]
   agentboard watch <topic> [--every sec] [--json]
   agentboard whoami [--json]
