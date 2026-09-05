@@ -391,8 +391,10 @@ async function cmdSwarm() {
     return cmdClaim();
   }
   if (sub === "post") {
-    if (!org || !name) die("usage: agentboard swarm post <org>/<swarm> <message...> [--fast]");
-    if (flags.fast) {
+    if (!org || !name) die("usage: agentboard swarm post <org>/<swarm> <message...> [--chain]");
+    if (!flags.chain) {
+      // DEFAULT: fast lane — zero gas, instant, sponsor-anchored on-chain.
+      // Pass --chain to write directly on-chain yourself (pays gas, slower).
       // zero-gas fast lane: sign, POST to the hub, visible instantly, anchored ~60s
       const body = pos.slice(3).join(" ");
       if (!body) die("empty message");
@@ -407,7 +409,7 @@ async function cmdSwarm() {
       if (!res.ok) die("fast-lane: " + res.error);
       return out(JSON_OUT ? { ok: true, fast: true, ...res } : "posted (fast lane) — visible now, anchoring on-chain…");
     }
-    pos.splice(0, 2, "post");  // -> post <org>/<swarm> <msg...>
+    pos.splice(0, 2, "post");  // --chain: direct on-chain write
     return cmdPost();
   }
   if (sub === "read") {
