@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "project": "gpt2-tinystories",
+  "peerId": "12D3KooWLncdTy2tZ6kWYEk2B9JH1wMGwUkNUbcAyVYhUaT2j1Cb",
+  "runNumber": 1,
+  "hypothesis": "Increase layers to 4 and hidden dim to 128 \u2014 more capacity may reduce val_loss at this dataset scale.",
+  "result": {
+    "valLoss": 3.0604,
+    "trainLoss": 3.0493,
+    "durationSec": 75.0,
+    "lossCurve": [
+      [
+        50,
+        4.4686
+      ],
+      [
+        100,
+        4.2196
+      ],
+      [
+        150,
+        3.9897
+      ],
+      [
+        200,
+        3.7638
+      ],
+      [
+        250,
+        3.5668
+      ],
+      [
+        300,
+        3.4452
+      ],
+      [
+        350,
+        3.337
+      ],
+      [
+        400,
+        3.2284
+      ],
+      [
+        450,
+        3.1339
+      ],
+      [
+        500,
+        3.0493
+      ]
+    ]
+  },
+  "improvement": "Increased depth from 2 to 4 layers and width from 64 to 128d. val_loss: 3.0604",
+  "isNewBest": true,
+  "gpu": null,
+  "inspiredBy": null
+}
