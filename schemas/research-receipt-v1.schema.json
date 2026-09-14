@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hyper.space/schemas/research-receipt-v1.json",
+  "title": "Research Receipt v1",
+  "description": "Verifiable research receipt per RFC-001. A signed, schema-conformant record that an experiment was performed and produced a measurable result.",
+  "type": "object",
+  "required": [
+    "version",
+    "receiptId",
+    "project",
+    "runNumber",
+    "peerId",
+    "inputs",
+    "environment",
+    "result",
+    "proof",
+    "signature",
+    "timestamp"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string", "format": "uri" },
+    "version": { "const": 1 },
+
+    "receiptId": {
+      "type": "string",
+      "pattern": "^rcpt_[A-Z2-7]{52}$",
+      "description": "rcpt_ + base32(sha256(canonical_body)). Self-binding identifier."
+    },
+
+    "project": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,63}$",
+      "description": "Project slug under projects/ — must match an existing project directory."
+    },
+
+    "runNumber": {
+      "type": "integer",
+      "minimum": 0
+    },
+
+    "peerId": {
+      "type": "string",
+      "pattern": "^12D3Koo[A-Za-z0-9]{45,55}$",
+      "description": "libp2p peer ID of the running agent."
+    },
+
+    "inputs": {
+      "type": "object",
+      "required": ["configHash", "configRef", "datasetHash", "seed"],
+      "additionalProperties": false,
+      "properties": {
+        "configHash": { "$ref": "#/$defs/sha256" },
+        "configRef": {
+          "type": "string",
+          "description": "Repo-relative path to the config that was used."
+        },
+        "datasetHash": { "$ref": "#/$defs/sha256" },
+        "parentReceipts": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/receiptIdRef" },
+          "description": "Lineage. Empty for root/baseline receipts."
+        },
+        "seed": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4294967295
+        }
+      }
+    },
+
+    "environment": {
+      "type": "object",
+      "required": ["cliVersion", "modelArchHash", "deterministic"],
+      "additionalProperties": true,
+      "properties": {
+        "cliVersion": {
+          "type": "string",
+          "pattern": "^v\\d+\\.\\d+\\.\\d+$"
+        },
+        "modelArchHash": { "$ref": "#/$defs/sha256" },
+        "deterministic": { "type": "boolean" },
+        "gpu": { "type": ["string", "null"] },
+        "platform": { "type": "string" },
+        "nodeVersion": { "type": "string" }
+      }
+    },
+
+    "result": {
+      "type": "object",
+      "required": ["metric", "value", "delta", "isNewBest"],
+      "additionalProperties": false,
+      "properties": {
+        "metric": {
+          "type": "string",
+          "description": "Metric name (val_loss, sharpe, ndcg, dag_quality_score, ...)."
+        },
+        "value": { "type": "number" },
+        "unit": { "type": "string" },
+        "delta": {
+          "type": "number",
+          "description": "Improvement over the previous network best on this project. Sign convention: negative for loss-style metrics, positive for score-style."
+        },
+        "isNewBest": { "type": "boolean" },
+        "additional": {
+          "type": "object",
+          "description": "Project-specific extra fields (lossCurve, durationSec, etc.)"
+        }
+      }
+    },
+
+    "proof": {
+      "type": "object",
+      "required": ["level"],
+      "oneOf": [
+        { "$ref": "#/$defs/proofSigned" },
+        { "$ref": "#/$defs/proofReplay" },
+        { "$ref": "#/$defs/proofZk" },
+        { "$ref": "#/$defs/proofTee" }
+      ]
+    },
+
+    "signature": {
+      "type": "object",
+      "required": ["alg", "publicKey", "value"],
+      "additionalProperties": false,
+      "properties": {
+        "alg": { "const": "ed25519" },
+        "publicKey": {
+          "type": "string",
+          "description": "base64-encoded raw 32-byte public key."
+        },
+        "value": {
+          "type": "string",
+          "description": "base64-encoded 64-byte Ed25519 signature over the canonical body (excluding the signature field itself)."
+        }
+      }
+    },
+
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$"
+    },
+    "receiptIdRef": {
+      "type": "string",
+      "pattern": "^rcpt_[A-Z2-7]{52}$"
+    },
+
+    "proofSigned": {
+      "type": "object",
+      "required": ["level"],
+      "additionalProperties": false,
+      "properties": {
+        "level": { "const": "signed" }
+      }
+    },
+
+    "proofReplay": {
+      "type": "object",
+      "required": ["level", "replayInstructions"],
+      "additionalProperties": false,
+      "properties": {
+        "level": { "const": "replay" },
+        "replayInstructions": {
+          "type": "object",
+          "required": ["command", "expectedHash"],
+          "properties": {
+            "command": { "type": "string" },
+            "expectedHash": { "$ref": "#/$defs/sha256" }
+          }
+        }
+      }
+    },
+
+    "proofZk": {
+      "type": "object",
+      "required": ["level", "circuit", "proofData", "publicInputs"],
+      "additionalProperties": false,
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": ["zk-jolt", "zk-groth16", "zk-sp1"]
+        },
+        "circuit": {
+          "type": "string",
+          "description": "Circuit identifier — e.g. 'training-step-v1'."
+        },
+        "proofData": {
+          "type": "string",
+          "description": "base64-encoded proof bytes."
+        },
+        "publicInputs": { "type": "object" }
+      }
+    },
+
+    "proofTee": {
+      "type": "object",
+      "required": ["level", "attestationChain"],
+      "additionalProperties": false,
+      "properties": {
+        "level": { "const": "tee-attestation" },
+        "attestationChain": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Ordered chain of TEE attestation reports (base64)."
+        }
+      }
+    }
+  }
+}

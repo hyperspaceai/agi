@@ -1,0 +1,38 @@
+{
+  "$schema": "https://hyper.space/schemas/research-receipt-v1.json",
+  "version": 1,
+  "project": "your-project",
+  "runNumber": 0,
+  "peerId": "12D3KooWExampleExampleExampleExampleExampleExample",
+  "inputs": {
+    "configHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "configRef": "projects/your-project/baseline/config.yaml",
+    "datasetHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "parentReceipts": [],
+    "seed": 42
+  },
+  "environment": {
+    "cliVersion": "v6.0.0",
+    "modelArchHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "deterministic": true,
+    "gpu": null,
+    "platform": "linux-x86_64",
+    "nodeVersion": "v22.22.1"
+  },
+  "result": {
+    "metric": "val_loss",
+    "value": 0.0,
+    "unit": "nats",
+    "delta": 0.0,
+    "isNewBest": true,
+    "additional": {
+      "trainLoss": 0.0,
+      "durationSec": 0,
+      "lossCurve": []
+    }
+  },
+  "proof": {
+    "level": "signed"
+  },
+  "timestamp": "2026-05-07T00:00:00.000Z"
+}
