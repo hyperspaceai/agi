@@ -1,0 +1,84 @@
+name: Validate Project Structure
+
+# Verifies that every project under projects/ has the required files:
+#   - README.md
+#   - baseline/config.yaml
+#   - baseline/results.json
+#   - LEADERBOARD.md   (auto-populated; can be empty)
+#
+# Prevents PRs that add half-baked projects from landing on main.
+
+on:
+  pull_request:
+    paths:
+      - 'projects/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Check project structure
+        run: |
+          set -euo pipefail
+
+          REQUIRED=(README.md baseline/config.yaml baseline/results.json LEADERBOARD.md)
+          MISSING=0
+
+          for proj_dir in projects/*/; do
+            proj=$(basename "$proj_dir")
+            [ "$proj" = "_template" ] && continue
+
+            for f in "${REQUIRED[@]}"; do
+              if [ ! -f "${proj_dir}${f}" ]; then
+                echo "::error file=${proj_dir}${f}::Project '$proj' is missing required file: $f"
+                MISSING=$((MISSING+1))
+              fi
+            done
+          done
+
+          if [ "$MISSING" -gt 0 ]; then
+            echo ""
+            echo "$MISSING required project files are missing."
+            echo "Every project under projects/ must have:"
+            for f in "${REQUIRED[@]}"; do echo "  - $f"; done
+            exit 1
+          fi
+          echo "All projects have the required structure."
+
+      - name: Validate baseline configs are parseable YAML
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import sys, glob, yaml
+          errors = 0
+          for path in glob.glob('projects/*/baseline/config.yaml'):
+              if '_template' in path:
+                  continue
+              try:
+                  with open(path) as f:
+                      yaml.safe_load(f)
+              except yaml.YAMLError as e:
+                  print(f"::error file={path}::Invalid YAML: {e}")
+                  errors += 1
+          sys.exit(1 if errors else 0)
+          PY
+
+      - name: Validate baseline results are parseable JSON
+        run: |
+          set -euo pipefail
+          for f in projects/*/baseline/results.json; do
+            [[ "$f" == *_template* ]] && continue
+            if ! jq empty "$f" 2>/dev/null; then
+              echo "::error file=$f::Invalid JSON"
+              exit 1
+            fi
+          done
+          echo "All baseline results are valid JSON."

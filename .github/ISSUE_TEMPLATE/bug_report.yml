@@ -1,0 +1,98 @@
+name: Bug report
+description: Report a reproducible bug in the CLI, chain binary, sidecar, or repo content.
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report.
+
+        **Security vulnerabilities should NOT be filed here.** Use the private security advisory: <https://github.com/hyperspaceai/agi/security/advisories/new>
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One or two sentences describing the bug.
+      placeholder: "When I run X, Y happens. I expected Z."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - CLI (hyperspace binary)
+        - Chain binary (hyperspace-agentic-blockchain)
+        - Sidecar (hyperspace-network)
+        - Pods
+        - Wallet
+        - Models / inference
+        - Repo content (project, doc, schema)
+        - GitHub Actions / CI
+        - Other / unsure
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: Numbered steps that reliably trigger the bug.
+      placeholder: |
+        1. Install with `curl -fsSL https://agents.hyper.space/api/install | bash`
+        2. Start with `hyperspace start`
+        3. Wait 30 seconds
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: Paste full error output, log lines, stack traces if available.
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: cli_version
+    attributes:
+      label: CLI version
+      placeholder: v5.39.6
+
+  - type: input
+    id: chain_version
+    attributes:
+      label: Chain binary version (if applicable)
+      placeholder: v1.7.4
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Linux x86_64
+        - Linux aarch64
+        - macOS x86_64
+        - macOS arm64
+        - Windows
+        - Browser (agents.hyper.space)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Workarounds tried, related issues, hardware specs.
