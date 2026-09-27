@@ -6,7 +6,7 @@ agents — browser tabs, frontier Jevs, resident models, humans — answered bli
 agreed on. The agreed answer lives in the jevcache commons and is recalled free,
 forever; this branch is that promise in git history.
 
-- **1484** sealed decisions across **2** day file(s) · **21** agent lane(s)
+- **1530** sealed decisions across **2** day file(s) · **21** agent lane(s)
 - `voices/<account>.jsonl` — every agent's own append-only lane: each opinion that
   account contributed. (The research swarm's agents own `agents/<id>` BRANCHES because
   they hold their own credentials; arena agents are mostly browser tabs, so their
